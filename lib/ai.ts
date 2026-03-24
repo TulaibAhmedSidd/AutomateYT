@@ -61,8 +61,8 @@ export async function generateVoiceover(text: string, outputPath: string, settin
   const apiKey = settings.apiKeys.elevenlabs || process.env.ELEVENLABS_API_KEY;
   if (!apiKey) throw new Error('ElevenLabs API Key missing');
 
-  // Using Adam voice ID as default
-  const VOICE_ID = 'pNInz6obpgDQGcFmaJcg';
+  // Using dynamic fallback voice
+  const VOICE_ID = 'CwhRBWXzGAHq8TQ4Fs17'; // Safe default for all ElevenLabs tiers
   
   const response = await axios({
     method: 'POST',
@@ -99,8 +99,7 @@ export async function generateImage(prompt: string, outputPath: string, settings
       modelId: '6faf9722-29ac-45dd-9a74-d4bb986a7ffc', // Leonardo Vision XL
       width: 1080,
       height: 1920,
-      num_images: 1,
-      promptMagic: true,
+      num_images: 1
     },
     {
       headers: {
