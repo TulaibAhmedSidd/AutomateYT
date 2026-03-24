@@ -4,16 +4,38 @@ import fs from 'fs-extra';
 import path from 'path';
 
 export async function generateTopicAndScript(settings: any, customTopic?: string) {
+  // If the user provides a custom script, SKIP OpenAI entirely!
+  if (customTopic) {
+    console.log('Custom script provided, skipping OpenAI and manually parsing...');
+    const lines = customTopic.split('\n').filter(l => l.includes('Line:'));
+      
+    let scenes = [];
+    if (lines.length > 0) {
+        scenes = lines.map(l => {
+            const text = l.replace(/Line:\s*[“"']?/, '').replace(/[”"']?$/, '').trim();
+            return { text, imagePrompt: `A captivating historical scene about: ${text}` };
+        });
+    } else {
+        // generic fallback chunking
+        const chunks = customTopic.split('\n\n').filter(x => x.length > 5);
+        scenes = chunks.map(chunk => ({ text: chunk.substring(0, 200), imagePrompt: chunk.substring(0, 100) }));
+    }
+
+    return {
+        title: "Custom Generated Video",
+        description: "Video generated from custom script",
+        tags: ["history", "shorts"],
+        scenes: scenes.length > 0 ? scenes : [{ text: customTopic.slice(0, 100), imagePrompt: "Historical background" }]
+    };
+  }
+
+  // Otherwise, run OpenAI locally to generate a totally random one
   const openai = new OpenAI({
     apiKey: settings.apiKeys.openai || process.env.OPENAI_API_KEY
   });
 
-  const prompt = customTopic 
-    ? `Use the following specific script or topic outline exactly as the core foundation for the video:\n\n"${customTopic}"\n\nAdapt it strictly into scenes and image prompts.` 
-    : 'Generate a script about a fascinating but lesser-known historical event.';
-
   const response = await openai.chat.completions.create({
-    model: 'gpt-4o',
+    model: 'gpt-4o-mini', // Cheaper / free tier model
     messages: [
       {
         role: 'system',
@@ -26,7 +48,7 @@ Keep the video around 60 seconds (approx 150 words total across scenes). Image p
       },
       {
         role: 'user',
-        content: prompt
+        content: 'Generate a script about a fascinating but lesser-known historical event.'
       }
     ],
     response_format: { type: 'json_object' }
@@ -69,7 +91,7 @@ export async function generateImage(prompt: string, outputPath: string, settings
   const apiKey = settings.apiKeys.leonardo || process.env.LEONARDO_API_KEY;
   if (!apiKey) throw new Error('Leonardo API Key missing');
 
-  // Generate image using Leonardo.ai API (simplified implementation)
+  // Generate image using Leonardo.ai API
   const generateRes = await axios.post(
     'https://cloud.leonardo.ai/api/rest/v1/generations',
     {
