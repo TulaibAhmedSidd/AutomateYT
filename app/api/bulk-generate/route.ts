@@ -17,7 +17,7 @@ export async function POST(req: Request) {
             title: `Bulk Generating Job ${i+1}`,
             videoPath: ''
         });
-        await addVideoJob(video._id.toString());
+        await addVideoJob(video._id.toString(), '', 'idea', 'gpt-4o-mini');
         videos.push(video._id);
     }
     

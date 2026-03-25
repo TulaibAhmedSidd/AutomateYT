@@ -6,7 +6,7 @@ import { renderVideo, generateThumbnail } from './ffmpeg';
 import path from 'path';
 import fs from 'fs-extra';
 
-export async function executeVideoGeneration(videoId: string, customTopic?: string) {
+export async function executeVideoGeneration(videoId: string, content?: string, promptType?: string, aiModel?: string) {
   try {
     await connectToDatabase();
     const video = await Video.findById(videoId);
@@ -18,7 +18,7 @@ export async function executeVideoGeneration(videoId: string, customTopic?: stri
     video.status = 'generating';
     await video.save();
     
-    const scriptData = await generateTopicAndScript(settings, customTopic);
+    const scriptData = await generateTopicAndScript(settings, content, promptType, aiModel);
     video.title = scriptData.title;
     video.description = scriptData.description;
     video.tags = scriptData.tags;

@@ -6,18 +6,20 @@ import { addVideoJob } from '@/lib/queue';
 export async function POST(req: Request) {
   try {
     const body = await req.json().catch(() => ({}));
-    const customTopic = body.topic || '';
+    const content = body.content || body.topic || '';
+    const promptType = body.promptType || 'idea';
+    const aiModel = body.aiModel || 'gpt-4o-mini';
 
     await connectToDatabase();
     
     // Default video creation
     const video = await Video.create({
       status: 'generating',
-      title: customTopic ? 'Custom Script Generation...' : 'Generating Process...',
+      title: promptType === 'script' ? 'Processing custom script...' : content ? 'Generating from idea...' : 'Generating random video...',
       videoPath: ''
     });
 
-    await addVideoJob(video._id.toString(), customTopic);
+    await addVideoJob(video._id.toString(), content, promptType, aiModel);
     
     return NextResponse.json({ success: true, videoId: video._id });
   } catch (error: any) {

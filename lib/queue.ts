@@ -6,9 +6,9 @@ import { Settings } from '@/models/Settings';
 import path from 'path';
 
 // Replaced BullMQ with simple async functions to remove the Redis requirement
-export async function addVideoJob(videoId: string, customTopic?: string) {
+export async function addVideoJob(videoId: string, content?: string, promptType?: string, aiModel?: string) {
   // Fire and forget (Runs entirely in background locally or on non-Vercel hosts)
-  executeVideoGeneration(videoId, customTopic).catch(console.error);
+  executeVideoGeneration(videoId, content, promptType, aiModel).catch(console.error);
   return { id: videoId };
 }
 

@@ -3,58 +3,65 @@ import axios from 'axios';
 import fs from 'fs-extra';
 import path from 'path';
 
-export async function generateTopicAndScript(settings: any, customTopic?: string) {
-  // If the user provides a custom script, SKIP OpenAI entirely!
-  if (customTopic) {
-    console.log('Custom script provided, skipping OpenAI and manually parsing...');
-    const lines = customTopic.split('\n').filter(l => l.includes('Line:'));
-      
-    let scenes = [];
-    if (lines.length > 0) {
-        scenes = lines.map(l => {
-            const text = l.replace(/Line:\s*[“"']?/, '').replace(/[”"']?$/, '').trim();
-            return { text, imagePrompt: `A captivating historical scene about: ${text}` };
-        });
-    } else {
-        // generic fallback chunking
-        const chunks = customTopic.split('\n\n').filter(x => x.length > 5);
-        scenes = chunks.map(chunk => ({ text: chunk.substring(0, 200), imagePrompt: chunk.substring(0, 100) }));
-    }
+import { GoogleGenerativeAI } from '@google/generative-ai';
+
+export async function generateTopicAndScript(settings: any, content?: string, promptType?: string, aiModel: string = 'gpt-4o-mini') {
+  // 1. If USER provides a custom script directly, parse it and return
+  if (promptType === 'script' && content) {
+    console.log('Using direct script provided by user...');
+    // Simple parsing: split by lines, assume every line is a scene
+    const lines = content.split('\n').filter(l => l.trim().length > 10);
+    const scenes = lines.map(line => ({
+      text: line.trim(),
+      imagePrompt: `Cinematic historical visualization: ${line.trim()}`
+    }));
 
     return {
-        title: "Custom Generated Video",
-        description: "Video generated from custom script",
-        tags: ["history", "shorts"],
-        scenes: scenes.length > 0 ? scenes : [{ text: customTopic.slice(0, 100), imagePrompt: "Historical background" }]
+      title: "Custom Script Video",
+      description: "Generated from user-provided script.",
+      tags: ["custom", "history"],
+      scenes: scenes.length > 0 ? scenes : [{ text: content, imagePrompt: "Historical cinematic scene" }]
     };
   }
 
-  // Otherwise, run OpenAI locally to generate a totally random one
-  const openai = new OpenAI({
-    apiKey: settings.apiKeys.openai || process.env.OPENAI_API_KEY
-  });
-
-  const response = await openai.chat.completions.create({
-    model: 'gpt-4o-mini', // Cheaper / free tier model
-    messages: [
-      {
-        role: 'system',
-        content: `You are a micro-history YouTube Short scriptwriter. Return a JSON object with:
+  // 2. Otherwise, use an AI Model (OpenAI or Gemini)
+  const systemPrompt = `You are a micro-history YouTube Short scriptwriter. Return a JSON object with:
 - title: string
 - description: string
 - tags: string[]
 - scenes: array of objects { text: string, imagePrompt: string }
-Keep the video around 60 seconds (approx 150 words total across scenes). Image prompts must be highly descriptive for an AI image generator.`
-      },
-      {
-        role: 'user',
-        content: 'Generate a script about a fascinating but lesser-known historical event.'
-      }
-    ],
-    response_format: { type: 'json_object' }
-  });
+Keep the video around 60 seconds (approx 150 words total across scenes). Image prompts must be highly descriptive for an AI image generator.`;
 
-  return JSON.parse(response.choices[0].message.content || '{}');
+  const userPrompt = content 
+    ? `Generate a script based on this idea: ${content}`
+    : `Generate a script about a fascinating but lesser-known historical event.`;
+
+  if (aiModel.includes('gemini')) {
+    const genAI = new GoogleGenerativeAI(settings.apiKeys.gemini || process.env.GEMINI_API_KEY || '');
+    const model = genAI.getGenerativeModel({ 
+        model: aiModel.includes('pro') ? 'gemini-1.5-pro' : 'gemini-1.5-flash',
+        generationConfig: { responseMimeType: "application/json" }
+    });
+
+    const result = await model.generateContent(`${systemPrompt}\n\n${userPrompt}`);
+    return JSON.parse(result.response.text());
+  } else {
+    // OpenAI Fallback
+    const openai = new OpenAI({
+      apiKey: settings.apiKeys.openai || process.env.OPENAI_API_KEY
+    });
+
+    const response = await openai.chat.completions.create({
+      model: aiModel,
+      messages: [
+        { role: 'system', content: systemPrompt },
+        { role: 'user', content: userPrompt }
+      ],
+      response_format: { type: 'json_object' }
+    });
+
+    return JSON.parse(response.choices[0].message.content || '{}');
+  }
 }
 
 export async function generateVoiceover(text: string, outputPath: string, settings: any) {

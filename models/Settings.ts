@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 const settingsSchema = new mongoose.Schema({
   apiKeys: {
     openai: { type: String, default: '' },
+    gemini: { type: String, default: '' },
     elevenlabs: { type: String, default: '' },
     leonardo: { type: String, default: '' },
     youtubeClientId: { type: String, default: '' },
