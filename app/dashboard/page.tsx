@@ -16,6 +16,7 @@ export default function Dashboard() {
     const [bulkCount, setBulkCount] = useState(1);
     const [selectedModel, setSelectedModel] = useState('gpt-4o-mini');
     const [isDeleting, setIsDeleting] = useState(false);
+    const [mounted, setMounted] = useState(false);
 
     const models = [
         { id: 'gpt-4o-mini', name: 'OpenAI (Flash)', icon: '⚡' },
@@ -35,15 +36,23 @@ export default function Dashboard() {
     };
 
     useEffect(() => {
+        setMounted(true);
         fetchVideos();
-        const int = setInterval(() => {
-            // Only run fetch if we have generating videos
-            if (videos.some((v: any) => v.status === 'generating')) {
-                fetchVideos();
-            }
-        }, 5000);
-        return () => clearInterval(int);
-    }, [videos]); // Re-subscribe if list changes so we know about new generations
+        // Initial fetch then start polling if needed
+    }, []);
+
+    useEffect(() => {
+        if (!mounted) return;
+        
+        let interval: any = null;
+        if (videos.some((v: any) => v.status === 'generating')) {
+            interval = setInterval(fetchVideos, 5000);
+        }
+        
+        return () => {
+            if (interval) clearInterval(interval);
+        };
+    }, [videos, mounted]);
 
     const handleGenerate = async () => {
         if ((activeTab === 'script' || activeTab === 'idea') && !content) return;
