@@ -17,7 +17,12 @@ export async function POST(req: Request) {
     if (!runtime.videoPath || runtime.status === 'failed') {
       throw new Error('Video must finish rendering before uploading to YouTube');
     }
+    if (typeof video.youtubeId === 'string' && video.youtubeId) {
+      throw new Error('This video is already uploaded to YouTube');
+    }
 
+    video.uploadStatus = 'uploading';
+    video.uploadError = '';
     await addUploadJob(videoId);
     video.status = 'scheduled';
     await video.save();

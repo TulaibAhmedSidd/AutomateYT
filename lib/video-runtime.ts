@@ -19,6 +19,7 @@ export type HydratedVideoState = {
   videoPath: string;
   thumbnail: string;
   imagePaths: string[];
+  storageMode: string;
   failedStep: string;
   failedTool: string;
   modelSelections: StepModelSelections;
@@ -114,6 +115,14 @@ export async function hydrateVideoRuntime(video: Record<string, unknown>): Promi
     Promise.all(imageDiskPaths.map((imagePath) => fs.pathExists(imagePath))),
   ]);
 
+  const mediaRefs = typeof video.mediaRefs === 'object' && video.mediaRefs ? video.mediaRefs as {
+    audio?: { url?: string };
+    video?: { url?: string };
+    thumbnail?: { url?: string };
+    images?: Array<{ url?: string }>;
+  } : {};
+  const storageMode = typeof video.storageMode === 'string' ? video.storageMode : 'local';
+
   const hasScript = scenes.length > 0;
   const imagesGenerated = imageExistsList.length > 0 && imageExistsList.every(Boolean);
 
@@ -153,10 +162,13 @@ export async function hydrateVideoRuntime(video: Record<string, unknown>): Promi
     imageStatus,
     videoRenderStatus,
     audioGenerated: audioExists,
-    audioPath: audioExists ? audioPublicPath : '',
-    videoPath: videoExists ? videoPublicPath : '',
-    thumbnail: thumbnailExists ? thumbnailPublicPath : '',
-    imagePaths: imagePaths.filter((_, index) => imageExistsList[index]),
+    audioPath: storageMode === 'cloud' ? (mediaRefs.audio?.url || '') : (audioExists ? audioPublicPath : ''),
+    videoPath: storageMode === 'cloud' ? (mediaRefs.video?.url || '') : (videoExists ? videoPublicPath : ''),
+    thumbnail: storageMode === 'cloud' ? (mediaRefs.thumbnail?.url || '') : (thumbnailExists ? thumbnailPublicPath : ''),
+    imagePaths: storageMode === 'cloud'
+      ? (mediaRefs.images || []).map((image) => image.url || '').filter(Boolean)
+      : imagePaths.filter((_, index) => imageExistsList[index]),
+    storageMode,
     failedStep: failed.failedStep,
     failedTool: failed.failedTool,
     modelSelections,

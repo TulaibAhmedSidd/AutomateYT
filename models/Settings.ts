@@ -17,6 +17,9 @@ const settingsSchema = new mongoose.Schema({
     image: { type: String, default: DEFAULT_MODEL_SELECTIONS.image },
     video: { type: String, default: DEFAULT_MODEL_SELECTIONS.video },
   },
+  storage: {
+    mode: { type: String, enum: ['local', 'cloud'], default: 'local' },
+  },
   scheduleTimes: [{ type: String }], // Array of time strings like '14:00', '18:30'
   uploadEnabled: { type: Boolean, default: false },
   createdAt: { type: Date, default: Date.now },

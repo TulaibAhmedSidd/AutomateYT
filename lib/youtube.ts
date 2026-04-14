@@ -1,14 +1,28 @@
 import { google } from 'googleapis';
 import fs from 'fs';
 
-export async function getYoutubeClient(settings: any) {
+type YoutubeSettings = {
+  apiKeys?: {
+    youtubeClientId?: string;
+    youtubeClientSecret?: string;
+    youtubeRefreshToken?: string;
+  };
+};
+
+type YoutubeVideo = {
+  title?: string;
+  description?: string;
+  tags?: string[];
+};
+
+export async function getYoutubeClient(settings: YoutubeSettings) {
   const oauth2Client = new google.auth.OAuth2(
-    settings.apiKeys.youtubeClientId || process.env.YOUTUBE_CLIENT_ID,
-    settings.apiKeys.youtubeClientSecret || process.env.YOUTUBE_CLIENT_SECRET,
-    'http://localhost:3000/oauth2callback' // Adjust redirect URI
+    settings.apiKeys?.youtubeClientId || process.env.YOUTUBE_CLIENT_ID,
+    settings.apiKeys?.youtubeClientSecret || process.env.YOUTUBE_CLIENT_SECRET,
+    'http://localhost:3000/oauth2callback'
   );
 
-  const refreshToken = settings.apiKeys.youtubeRefreshToken || process.env.YOUTUBE_REFRESH_TOKEN;
+  const refreshToken = settings.apiKeys?.youtubeRefreshToken || process.env.YOUTUBE_REFRESH_TOKEN;
   if (!refreshToken) {
     throw new Error('No YouTube refresh token found');
   }
@@ -23,42 +37,46 @@ export async function getYoutubeClient(settings: any) {
   });
 }
 
-export async function uploadVideo(video: any, videoFilePath: string, thumbnailPath: string, settings: any) {
-  const youtube = await getYoutubeClient(settings);
+export async function uploadVideo(video: YoutubeVideo, videoFilePath: string, thumbnailPath: string, settings: YoutubeSettings) {
+  try {
+    const youtube = await getYoutubeClient(settings);
+    console.log('Uploading Youtube Video', video.title);
 
-  console.log('Uploading Youtube Video', video.title);
-
-  const fileSize = fs.statSync(videoFilePath).size;
-
-  const res = await youtube.videos.insert({
-    part: ['snippet', 'status'],
-    requestBody: {
-      snippet: {
-        title: video.title,
-        description: video.description,
-        tags: video.tags,
-        categoryId: '27', // Education
-        defaultLanguage: 'en'
+    const res = await youtube.videos.insert({
+      part: ['snippet', 'status'],
+      requestBody: {
+        snippet: {
+          title: video.title,
+          description: video.description,
+          tags: video.tags,
+          categoryId: '27',
+          defaultLanguage: 'en'
+        },
+        status: {
+          privacyStatus: 'private',
+          selfDeclaredMadeForKids: false
+        }
       },
-      status: {
-        privacyStatus: 'private', // private or public
-        selfDeclaredMadeForKids: false
-      }
-    },
-    media: {
-      body: fs.createReadStream(videoFilePath)
-    }
-  });
-
-  if (res.data.id && thumbnailPath && fs.existsSync(thumbnailPath)) {
-    console.log('Video uploaded. Uploading thumbnail...');
-    await youtube.thumbnails.set({
-      videoId: res.data.id,
       media: {
-        body: fs.createReadStream(thumbnailPath)
+        body: fs.createReadStream(videoFilePath)
       }
     });
-  }
 
-  return res.data;
+    if (res.data.id && thumbnailPath && fs.existsSync(thumbnailPath)) {
+      await youtube.thumbnails.set({
+        videoId: res.data.id,
+        media: {
+          body: fs.createReadStream(thumbnailPath)
+        }
+      });
+    }
+
+    return res.data;
+  } catch (error: unknown) {
+    const maybeMessage = error instanceof Error ? error.message : String(error);
+    if (maybeMessage.includes('invalid_grant')) {
+      throw new Error('YouTube upload failed: Google rejected the refresh token (`invalid_grant`). Reconnect or replace the refresh token in Settings.');
+    }
+    throw error;
+  }
 }

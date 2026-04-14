@@ -56,6 +56,9 @@ type VideoItem = {
   createdAt: string;
   status: string;
   youtubeId?: string;
+  uploadStatus?: string;
+  uploadError?: string;
+  storageMode?: string;
   scriptStatus?: string;
   voiceStatus?: string;
   imageStatus?: string;
@@ -689,6 +692,11 @@ export default function Dashboard() {
                               Uploaded
                             </span>
                           )}
+                          {video.uploadStatus === 'failed' && (
+                            <span className="rounded-full bg-rose-500/10 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.25em] text-rose-300">
+                              Upload Failed
+                            </span>
+                          )}
                         </div>
 
                         <div className="mt-4 flex flex-wrap gap-2">
@@ -711,7 +719,7 @@ export default function Dashboard() {
                           {(video.status === 'generated' || video.status === 'uploaded') && !video.youtubeId && (
                             <button
                               onClick={() => handleUpload(video._id)}
-                              disabled={uploadingVideoId === video._id}
+                              disabled={uploadingVideoId === video._id || video.uploadStatus === 'uploading'}
                               className="inline-flex items-center gap-2 rounded-2xl bg-red-500 px-4 py-3 text-sm font-bold text-white transition hover:bg-red-400 disabled:opacity-40"
                             >
                               {uploadingVideoId === video._id ? <Loader2 size={16} className="animate-spin" /> : <Send size={16} />}
@@ -763,6 +771,14 @@ export default function Dashboard() {
                             </div>
                           ))}
                         </div>
+
+                        {(video.uploadStatus || video.storageMode) && (
+                          <div className="mt-4 rounded-2xl border border-slate-800 bg-slate-950/70 p-4 text-sm text-slate-300">
+                            Upload: <span className="font-bold text-white">{video.uploadStatus || 'not_uploaded'}</span>
+                            <span className="ml-4">Storage: <span className="font-bold text-white">{video.storageMode || 'local'}</span></span>
+                            {video.uploadError && <p className="mt-2 text-rose-300">{video.uploadError}</p>}
+                          </div>
+                        )}
 
                         {video.failedStep && (
                           <div className="mt-5 rounded-3xl border border-rose-500/20 bg-rose-500/10 p-4">

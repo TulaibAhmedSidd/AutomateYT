@@ -18,6 +18,9 @@ type VideoDetail = {
   tags?: string[];
   status: string;
   youtubeId?: string;
+  uploadStatus?: string;
+  uploadError?: string;
+  storageMode?: string;
   videoPath?: string;
   audioPath?: string;
   imagePaths?: string[];
@@ -141,6 +144,11 @@ export default function VideoDetailPage() {
             <div className="mt-5 rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-300">
               Status: <span className="font-bold text-white">{video.status}</span>
               {video.youtubeId && <span className="ml-3 text-red-300">YouTube ID: {video.youtubeId}</span>}
+            </div>
+            <div className="mt-4 rounded-2xl border border-slate-800 bg-slate-950/60 p-4 text-sm text-slate-300">
+              Upload: <span className="font-bold text-white">{video.uploadStatus || 'not_uploaded'}</span>
+              <span className="ml-4">Storage: <span className="font-bold text-white">{video.storageMode || 'local'}</span></span>
+              {video.uploadError && <p className="mt-2 text-rose-300">{video.uploadError}</p>}
             </div>
             <div className="mt-5 rounded-2xl border border-slate-800 bg-slate-950/60 p-4">
               <p className="text-xs uppercase tracking-[0.25em] text-slate-500">Original Prompt</p>

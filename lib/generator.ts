@@ -6,6 +6,7 @@ import { Settings } from '@/models/Settings';
 import { generateTopicAndScript, generateVoiceover, generateImage } from './ai';
 import { renderVideo, generateThumbnail } from './ffmpeg';
 import { normalizeModelSelections, type StepModelSelections } from './generation-config';
+import { saveLocalFileToGridFS } from './storage';
 
 type GenerationOptions = {
   retryMode?: boolean;
@@ -31,6 +32,13 @@ type VideoDocument = {
   sourceContent?: string;
   promptType?: string;
   modelSelections?: Partial<StepModelSelections>;
+  storageMode?: 'local' | 'cloud';
+  mediaRefs?: {
+    audio?: unknown;
+    video?: unknown;
+    thumbnail?: unknown;
+    images?: unknown[];
+  };
   status: string;
   scriptStatus: string;
   voiceStatus: string;
@@ -47,6 +55,9 @@ type VideoDocument = {
 
 type SettingsDocument = {
   generationDefaults?: Partial<StepModelSelections>;
+  storage?: {
+    mode?: 'local' | 'cloud';
+  };
   apiKeys?: {
     openai?: string;
     gemini?: string;
@@ -97,6 +108,24 @@ function resetStatusesForRetry(video: VideoDocument) {
   video.errorDetails = '';
 }
 
+async function persistCloudAssets(video: VideoDocument, audioPath: string, imagePaths: string[], finalVideoPath: string, finalThumbnailPath: string) {
+  const idStr = video._id.toString();
+  const audioRef = await saveLocalFileToGridFS(audioPath, `${idStr}.mp3`, 'audio/mpeg');
+  const imageRefs = await Promise.all(
+    imagePaths.map((imagePath, index) => saveLocalFileToGridFS(imagePath, `${idStr}_${index}.png`, 'image/png'))
+  );
+  const videoRef = await saveLocalFileToGridFS(finalVideoPath, `${idStr}.mp4`, 'video/mp4');
+  const thumbnailRef = await saveLocalFileToGridFS(finalThumbnailPath, `${idStr}_thumb.png`, 'image/png');
+
+  video.mediaRefs = {
+    audio: audioRef,
+    images: imageRefs,
+    video: videoRef,
+    thumbnail: thumbnailRef,
+  };
+  video.storageMode = 'cloud';
+}
+
 export async function executeVideoGeneration(
   videoId: string,
   content?: string,
@@ -120,6 +149,7 @@ export async function executeVideoGeneration(
     video.sourceContent = content ?? video.sourceContent ?? '';
     video.promptType = promptType ?? video.promptType ?? 'idea';
     video.modelSelections = modelSelections;
+    video.storageMode = settings.storage?.mode || 'local';
 
     if (retryMode) {
       resetStatusesForRetry(video);
@@ -228,6 +258,10 @@ export async function executeVideoGeneration(
 
         await generateThumbnail(finalVideoPath, finalThumbnailPath, modelSelections.video);
         video.thumbnail = `/images/${idStr}_thumb.png`;
+
+        if (video.storageMode === 'cloud') {
+          await persistCloudAssets(video, audioPath, renderImagePaths, finalVideoPath, finalThumbnailPath);
+        }
 
         video.videoRenderStatus = 'done';
         video.status = 'generated';

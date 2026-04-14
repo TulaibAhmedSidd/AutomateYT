@@ -19,6 +19,8 @@ export async function GET(_req: Request, context: { params: Promise<{ id: string
       ...runtime,
       failedStep: runtime.status === 'failed' ? runtime.failedStep : '',
       failedTool: runtime.status === 'failed' ? runtime.failedTool : '',
+      uploadStatus: typeof video.uploadStatus === 'string' ? video.uploadStatus : 'not_uploaded',
+      uploadError: typeof video.uploadError === 'string' ? video.uploadError : '',
     });
   } catch (error: unknown) {
     const message = error instanceof Error ? error.message : 'Failed to load video';

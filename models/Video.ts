@@ -14,6 +14,33 @@ const videoSchema = new mongoose.Schema({
     image: { type: String, default: DEFAULT_MODEL_SELECTIONS.image },
     video: { type: String, default: DEFAULT_MODEL_SELECTIONS.video },
   },
+  storageMode: { type: String, enum: ['local', 'cloud'], default: 'local' },
+  mediaRefs: {
+    audio: {
+      fileId: String,
+      filename: String,
+      contentType: String,
+      url: String,
+    },
+    video: {
+      fileId: String,
+      filename: String,
+      contentType: String,
+      url: String,
+    },
+    thumbnail: {
+      fileId: String,
+      filename: String,
+      contentType: String,
+      url: String,
+    },
+    images: [{
+      fileId: String,
+      filename: String,
+      contentType: String,
+      url: String,
+    }],
+  },
   thumbnail: String,
   videoPath: String,
   status: {
@@ -25,6 +52,12 @@ const videoSchema = new mongoose.Schema({
   voiceStatus: { type: String, enum: ['pending', 'done', 'failed'], default: 'pending' },
   imageStatus: { type: String, enum: ['pending', 'done', 'failed'], default: 'pending' },
   videoRenderStatus: { type: String, enum: ['pending', 'done', 'failed'], default: 'pending' },
+  uploadStatus: {
+    type: String,
+    enum: ['not_uploaded', 'uploading', 'uploaded', 'failed'],
+    default: 'not_uploaded'
+  },
+  uploadError: String,
   failedStep: String,
   failedTool: String,
   errorSummary: String,
