@@ -4,6 +4,7 @@ import fs from 'fs-extra';
 import path from 'path';
 
 import { GoogleGenerativeAI } from '@google/generative-ai';
+import { getImageModelConfig } from './generation-config';
 
 export async function generateTopicAndScript(settings: any, content?: string, promptType?: string, aiModel: string = 'gpt-4o-mini') {
   // 1. If USER provides a custom script directly, parse it and return
@@ -64,7 +65,7 @@ Keep the video around 60 seconds (approx 150 words total across scenes). Image p
   }
 }
 
-export async function generateVoiceover(text: string, outputPath: string, settings: any) {
+export async function generateVoiceover(text: string, outputPath: string, settings: any, voiceModel: string = 'eleven_multilingual_v2') {
   const apiKey = settings.apiKeys.elevenlabs || process.env.ELEVENLABS_API_KEY;
   if (!apiKey) throw new Error('ElevenLabs API Key missing');
 
@@ -81,7 +82,7 @@ export async function generateVoiceover(text: string, outputPath: string, settin
     },
     data: {
       text: text,
-      model_id: 'eleven_multilingual_v2',
+      model_id: voiceModel,
       voice_settings: {
         stability: 0.5,
         similarity_boost: 0.75
@@ -94,19 +95,23 @@ export async function generateVoiceover(text: string, outputPath: string, settin
   await fs.writeFile(outputPath, response.data);
 }
 
-export async function generateImage(prompt: string, outputPath: string, settings: any) {
+export async function generateImage(prompt: string, outputPath: string, settings: any, imageModel: string = 'leonardo-sdxl-basic') {
   const apiKey = settings.apiKeys.leonardo || process.env.LEONARDO_API_KEY;
   if (!apiKey) throw new Error('Leonardo API Key missing');
+  const imageConfig = getImageModelConfig(imageModel);
 
   // Generate image using Leonardo.ai API
   const generateRes = await axios.post(
     'https://cloud.leonardo.ai/api/rest/v1/generations',
     {
+      modelId: imageConfig.modelId,
       prompt: prompt,
-      modelId: '6faf9722-29ac-45dd-9a74-d4bb986a7ffc', // Leonardo Vision XL
-      width: 1080,
-      height: 1920,
-      num_images: 1
+      width: imageConfig.width,
+      height: imageConfig.height,
+      num_images: 1,
+      presetStyle: imageConfig.presetStyle,
+      enhancePrompt: false,
+      alchemy: false
     },
     {
       headers: {
@@ -130,7 +135,7 @@ export async function generateImage(prompt: string, outputPath: string, settings
     if (statusRes.data.generations_by_pk.status === 'COMPLETE') {
       imageUrl = statusRes.data.generations_by_pk.generated_images[0].url;
     } else if (statusRes.data.generations_by_pk.status === 'FAILED') {
-      throw new Error('Image generation failed');
+      throw new Error('Leonardo returned FAILED while creating the image');
     }
   }
 

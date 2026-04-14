@@ -4,11 +4,18 @@ import connectToDatabase from './mongodb';
 import { Video } from '@/models/Video';
 import { Settings } from '@/models/Settings';
 import path from 'path';
+import type { StepModelSelections } from './generation-config';
 
 // Replaced BullMQ with simple async functions to remove the Redis requirement
-export async function addVideoJob(videoId: string, content?: string, promptType?: string, aiModel?: string) {
+export async function addVideoJob(
+  videoId: string,
+  content?: string,
+  promptType?: string,
+  aiModel?: string,
+  options?: { retryMode?: boolean; modelSelections?: Partial<StepModelSelections> }
+) {
   // Fire and forget (Runs entirely in background locally or on non-Vercel hosts)
-  executeVideoGeneration(videoId, content, promptType, aiModel).catch(console.error);
+  executeVideoGeneration(videoId, content, promptType, aiModel, options).catch(console.error);
   return { id: videoId };
 }
 
