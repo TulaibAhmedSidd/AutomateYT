@@ -12,35 +12,76 @@ type GenerationOptions = {
   modelSelections?: Partial<StepModelSelections>;
 };
 
-function getErrorMessage(err: any) {
-  if (typeof err?.response?.data?.error === 'string') return err.response.data.error;
-  if (typeof err?.response?.data?.message === 'string') return err.response.data.message;
-  if (typeof err?.response?.data === 'string') return err.response.data;
-  if (err?.message) return err.message;
+type ErrorWithResponse = Error & {
+  response?: {
+    data?: unknown;
+  };
+  step?: string;
+  tool?: string;
+  summary?: string;
+  details?: string;
+};
+
+type VideoDocument = {
+  _id: { toString(): string };
+  title?: string;
+  description?: string;
+  tags?: string[];
+  script?: string;
+  sourceContent?: string;
+  promptType?: string;
+  modelSelections?: Partial<StepModelSelections>;
+  status: string;
+  scriptStatus: string;
+  voiceStatus: string;
+  imageStatus: string;
+  videoRenderStatus: string;
+  failedStep?: string;
+  failedTool?: string;
+  errorSummary?: string;
+  errorDetails?: string;
+  videoPath?: string;
+  thumbnail?: string;
+  save(): Promise<unknown>;
+};
+
+type SettingsDocument = {
+  generationDefaults?: Partial<StepModelSelections>;
+  apiKeys?: {
+    openai?: string;
+    gemini?: string;
+    elevenlabs?: string;
+    leonardo?: string;
+  };
+};
+
+function getErrorMessage(err: unknown) {
+  const known = err as ErrorWithResponse;
+  if (typeof known.response?.data === 'string') return known.response.data;
+  if (typeof known.response?.data === 'object' && known.response?.data && 'error' in known.response.data) {
+    const errorValue = (known.response.data as { error?: unknown }).error;
+    if (typeof errorValue === 'string') return errorValue;
+  }
+  if (typeof known.message === 'string') return known.message;
   return String(err);
 }
 
-function getErrorDetails(err: any) {
-  if (err?.response?.data) {
+function getErrorDetails(err: unknown) {
+  const known = err as ErrorWithResponse;
+  if (known.response?.data) {
     try {
-      return JSON.stringify(err.response.data, null, 2);
+      return JSON.stringify(known.response.data, null, 2);
     } catch {
-      return String(err.response.data);
+      return String(known.response.data);
     }
   }
 
-  return err?.stack || err?.message || String(err);
+  return known.stack || known.message || String(err);
 }
 
-function createStepError(step: string, tool: string, err: any) {
+function createStepError(step: string, tool: string, err: unknown) {
   const summary = getErrorMessage(err);
-  const wrapped = new Error(`${step} failed: ${summary}`) as Error & {
-    step: string;
-    tool: string;
-    summary: string;
-    details: string;
-  };
-
+  const wrapped = new Error(`${step} failed: ${summary}`) as ErrorWithResponse;
   wrapped.step = step;
   wrapped.tool = tool;
   wrapped.summary = summary;
@@ -48,43 +89,12 @@ function createStepError(step: string, tool: string, err: any) {
   return wrapped;
 }
 
-function resetStatusesForRetry(video: any) {
+function resetStatusesForRetry(video: VideoDocument) {
   video.status = 'generating';
   video.failedStep = '';
   video.failedTool = '';
   video.errorSummary = '';
   video.errorDetails = '';
-
-  if (video.scriptStatus === 'failed') {
-    video.scriptStatus = 'pending';
-    video.voiceStatus = 'pending';
-    video.imageStatus = 'pending';
-    video.videoRenderStatus = 'pending';
-    return;
-  }
-
-  if (video.voiceStatus === 'failed') {
-    video.voiceStatus = 'pending';
-    video.imageStatus = 'pending';
-    video.videoRenderStatus = 'pending';
-    return;
-  }
-
-  if (video.imageStatus === 'failed') {
-    video.imageStatus = 'pending';
-    video.videoRenderStatus = 'pending';
-    return;
-  }
-
-  if (video.videoRenderStatus === 'failed') {
-    video.videoRenderStatus = 'pending';
-    return;
-  }
-
-  video.scriptStatus = 'pending';
-  video.voiceStatus = 'pending';
-  video.imageStatus = 'pending';
-  video.videoRenderStatus = 'pending';
 }
 
 export async function executeVideoGeneration(
@@ -96,16 +106,15 @@ export async function executeVideoGeneration(
 ) {
   try {
     await connectToDatabase();
-    const video = await Video.findById(videoId);
-    const settings = (await Settings.findOne()) || {};
+    const video = await Video.findById(videoId) as unknown as VideoDocument | null;
+    const settings = ((await Settings.findOne()) || {}) as SettingsDocument;
 
     if (!video) return;
 
     const retryMode = options?.retryMode || false;
-    const settingsDefaults = settings.generationDefaults || {};
     const modelSelections = normalizeModelSelections(
       options?.modelSelections || video.modelSelections || (aiModel ? { script: aiModel } : undefined),
-      settingsDefaults
+      settings.generationDefaults
     );
 
     video.sourceContent = content ?? video.sourceContent ?? '';
@@ -146,7 +155,7 @@ export async function executeVideoGeneration(
         video.script = JSON.stringify(scriptData.scenes);
         video.scriptStatus = 'done';
         await video.save();
-      } catch (err: any) {
+      } catch (err: unknown) {
         video.scriptStatus = 'failed';
         await video.save();
         throw createStepError('Script generation', 'OpenAI / Gemini', err);
@@ -155,7 +164,7 @@ export async function executeVideoGeneration(
 
     let scriptDataObj: Array<{ text: string; imagePrompt: string }> = [];
     try {
-      scriptDataObj = JSON.parse(video.script || '[]');
+      scriptDataObj = JSON.parse(video.script || '[]') as Array<{ text: string; imagePrompt: string }>;
     } catch {
       scriptDataObj = [];
     }
@@ -170,7 +179,7 @@ export async function executeVideoGeneration(
         await generateVoiceover(fullText, audioPath, settings, modelSelections.voice);
         video.voiceStatus = 'done';
         await video.save();
-      } catch (err: any) {
+      } catch (err: unknown) {
         video.voiceStatus = 'failed';
         await video.save();
         throw createStepError('Voiceover generation', 'ElevenLabs', err);
@@ -179,6 +188,7 @@ export async function executeVideoGeneration(
 
     const imagePaths = scriptDataObj.map((_, index) => path.resolve(`public/images/${idStr}_${index}.png`));
     const imagesReady = imagePaths.length > 0 && await Promise.all(imagePaths.map((imagePath) => fs.pathExists(imagePath))).then((results) => results.every(Boolean));
+    let renderImagePaths = imagePaths;
 
     if (video.imageStatus !== 'done' || !imagesReady) {
       try {
@@ -187,16 +197,33 @@ export async function executeVideoGeneration(
         }
         video.imageStatus = 'done';
         await video.save();
-      } catch (err: any) {
-        video.imageStatus = 'failed';
+      } catch (err: unknown) {
+        const existingImagePaths = await Promise.all(
+          imagePaths.map(async (imagePath) => (await fs.pathExists(imagePath) ? imagePath : null))
+        ).then((results) => results.filter((value): value is string => Boolean(value)));
+
+        if (existingImagePaths.length === 0) {
+          video.imageStatus = 'failed';
+          await video.save();
+          throw createStepError('Image generation', 'Leonardo API', err);
+        }
+
+        renderImagePaths = existingImagePaths;
+        video.imageStatus = existingImagePaths.length === imagePaths.length ? 'done' : 'failed';
+        video.errorSummary = `Some images failed. Rendering with ${existingImagePaths.length} of ${imagePaths.length} generated images.`;
+        video.errorDetails = getErrorDetails(err);
         await video.save();
-        throw createStepError('Image generation', 'Leonardo API', err);
       }
+    }
+
+    if (renderImagePaths.length === imagePaths.length) {
+      video.imageStatus = 'done';
+      await video.save();
     }
 
     if (video.videoRenderStatus !== 'done' || !(await fs.pathExists(finalVideoPath))) {
       try {
-        await renderVideo(imagePaths, audioPath, finalVideoPath, modelSelections.video);
+        await renderVideo(renderImagePaths, audioPath, finalVideoPath, modelSelections.video);
         video.videoPath = `/videos/${idStr}.mp4`;
 
         await generateThumbnail(finalVideoPath, finalThumbnailPath, modelSelections.video);
@@ -204,8 +231,14 @@ export async function executeVideoGeneration(
 
         video.videoRenderStatus = 'done';
         video.status = 'generated';
+        if (video.imageStatus === 'done') {
+          video.failedStep = '';
+          video.failedTool = '';
+          video.errorSummary = '';
+          video.errorDetails = '';
+        }
         await video.save();
-      } catch (err: any) {
+      } catch (err: unknown) {
         video.videoRenderStatus = 'failed';
         await video.save();
         throw createStepError('Video render', 'FFmpeg', err);
@@ -214,19 +247,20 @@ export async function executeVideoGeneration(
       video.status = 'generated';
       await video.save();
     }
-  } catch (error: any) {
+  } catch (error: unknown) {
+    const known = error as ErrorWithResponse;
     console.error('Video generation failed:', error);
 
     try {
       await Video.findByIdAndUpdate(videoId, {
         status: 'failed',
-        failedStep: error?.step || 'Generation pipeline',
-        failedTool: error?.tool || 'Unknown tool',
-        errorSummary: error?.summary || error?.message || 'Unknown failure',
-        errorDetails: error?.details || getErrorDetails(error),
+        failedStep: known.step || 'Generation pipeline',
+        failedTool: known.tool || 'Unknown tool',
+        errorSummary: known.summary || getErrorMessage(error),
+        errorDetails: known.details || getErrorDetails(error),
       });
     } catch {
-      // Best-effort persistence of the failure state.
+      // Best effort only.
     }
   }
 }

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Home, Calendar, Settings, ListVideo, PlaySquare } from 'lucide-react';
+import { Home, Calendar, Settings, ListVideo, PlaySquare, Library } from 'lucide-react';
 
 export default function Sidebar() {
   return (
@@ -22,6 +22,12 @@ export default function Sidebar() {
             <Link href="/queue" className="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-slate-800 transition-colors text-slate-300 hover:text-white">
               <ListVideo size={20} />
               <span>Queue Status</span>
+            </Link>
+          </li>
+          <li>
+            <Link href="/dashboard" className="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-slate-800 transition-colors text-slate-300 hover:text-white">
+              <Library size={20} />
+              <span>Video Library</span>
             </Link>
           </li>
           <li>

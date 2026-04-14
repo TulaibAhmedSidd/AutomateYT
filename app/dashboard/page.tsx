@@ -1,13 +1,27 @@
 "use client";
 
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import {
-  Play, Plus, RefreshCw, Download, UploadCloud,
-  Trash2, Wand2, Type, Sparkles, AlertCircle,
-  Clock, CheckCircle2, XCircle, LayoutGrid, RotateCcw
+  CalendarClock,
+  CheckCircle2,
+  Clapperboard,
+  Download,
+  Film,
+  ImageIcon,
+  Loader2,
+  Mic,
+  PencilLine,
+  Plus,
+  RotateCcw,
+  Send,
+  Sparkles,
+  Trash2,
+  Wand2,
+  XCircle,
 } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import {
   DEFAULT_MODEL_SELECTIONS,
   IMAGE_MODEL_OPTIONS,
@@ -18,14 +32,30 @@ import {
   type StepModelSelections,
 } from '@/lib/generation-config';
 
+type SceneItem = {
+  text: string;
+  imagePrompt: string;
+};
+
+type ScriptDraft = {
+  title: string;
+  description: string;
+  tags: string[];
+  scenes: SceneItem[];
+};
+
 type VideoItem = {
   _id: string;
   title?: string;
+  description?: string;
+  tags?: string[];
   thumbnail?: string;
   videoPath?: string;
   audioPath?: string;
+  imagePaths?: string[];
   createdAt: string;
   status: string;
+  youtubeId?: string;
   scriptStatus?: string;
   voiceStatus?: string;
   imageStatus?: string;
@@ -38,71 +68,128 @@ type VideoItem = {
   voiceoverText?: string;
   audioGenerated?: boolean;
   modelSelections?: StepModelSelections;
-  scenes?: Array<{ text: string; imagePrompt: string }>;
+  scenes?: SceneItem[];
 };
 
 const MODEL_GROUPS = [
-  { key: 'script', label: 'Script Model', options: SCRIPT_MODEL_OPTIONS },
-  { key: 'voice', label: 'Voice Model', options: VOICE_MODEL_OPTIONS },
-  { key: 'image', label: 'Image Model', options: IMAGE_MODEL_OPTIONS },
-  { key: 'video', label: 'Video Render', options: VIDEO_MODEL_OPTIONS },
+  { key: 'script', label: 'Script Model', icon: PencilLine, options: SCRIPT_MODEL_OPTIONS },
+  { key: 'voice', label: 'Voice Model', icon: Mic, options: VOICE_MODEL_OPTIONS },
+  { key: 'image', label: 'Image Model', icon: ImageIcon, options: IMAGE_MODEL_OPTIONS },
+  { key: 'video', label: 'Video Render', icon: Film, options: VIDEO_MODEL_OPTIONS },
 ] as const;
+
+function createManualDraft(content: string): ScriptDraft {
+  const lines = content.split('\n').map((line) => line.trim()).filter(Boolean);
+  const scenes = (lines.length > 0 ? lines : ['Add your first scene here.']).map((line) => ({
+    text: line,
+    imagePrompt: `Cinematic visual for: ${line}`,
+  }));
+
+  return {
+    title: 'Manual Script Draft',
+    description: 'Edited manually before media generation.',
+    tags: ['manual-script'],
+    scenes,
+  };
+}
+
+function getRetryStep(video: VideoItem) {
+  if (video.failedStep === 'Script generation') return 'script';
+  if (video.failedStep === 'Voiceover generation') return 'voice';
+  if (video.failedStep === 'Image generation') return 'image';
+  return 'video';
+}
 
 export default function Dashboard() {
   const [videos, setVideos] = useState<VideoItem[]>([]);
   const [loading, setLoading] = useState(false);
-  const [activeTab, setActiveTab] = useState<'script' | 'idea' | 'bulk'>('idea');
+  const [draftLoading, setDraftLoading] = useState(false);
+  const [activeInputTab, setActiveInputTab] = useState<'idea' | 'script' | 'bulk'>('idea');
+  const [activeWorkspaceTab, setActiveWorkspaceTab] = useState<'composer' | 'library'>('composer');
+  const [libraryFilter, setLibraryFilter] = useState<'all' | 'generated' | 'failed' | 'processing'>('all');
   const [content, setContent] = useState('');
   const [bulkCount, setBulkCount] = useState(1);
   const [modelSelections, setModelSelections] = useState<StepModelSelections>(DEFAULT_MODEL_SELECTIONS);
+  const [draft, setDraft] = useState<ScriptDraft | null>(null);
+  const [draftSourcePrompt, setDraftSourcePrompt] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
-  const [retryingVideoId, setRetryingVideoId] = useState('');
-  const [mounted, setMounted] = useState(false);
+  const [retryingKey, setRetryingKey] = useState('');
+  const [uploadingVideoId, setUploadingVideoId] = useState('');
 
   const fetchVideos = async () => {
-    try {
-      const res = await fetch('/api/videos');
-      const data = await res.json();
-      setVideos(Array.isArray(data) ? data : []);
-    } catch {
-      console.error('Failed to fetch videos');
-    }
+    const res = await fetch('/api/videos');
+    const data = await res.json();
+    setVideos(Array.isArray(data) ? data : []);
   };
 
   const fetchSettings = async () => {
-    try {
-      const res = await fetch('/api/settings');
-      const data = await res.json();
-      setModelSelections(normalizeModelSelections(data?.generationDefaults, DEFAULT_MODEL_SELECTIONS));
-    } catch {
-      setModelSelections(DEFAULT_MODEL_SELECTIONS);
-    }
+    const res = await fetch('/api/settings');
+    const data = await res.json();
+    setModelSelections(normalizeModelSelections(data?.generationDefaults, DEFAULT_MODEL_SELECTIONS));
   };
 
   useEffect(() => {
-    setMounted(true);
     void Promise.all([fetchVideos(), fetchSettings()]);
   }, []);
 
   useEffect(() => {
-    if (!mounted) return;
+    if (!videos.some((video) => video.status === 'generating' || video.status === 'scheduled')) return;
+    const interval = setInterval(() => {
+      void fetchVideos();
+    }, 4000);
+    return () => clearInterval(interval);
+  }, [videos]);
 
-    let interval: ReturnType<typeof setInterval> | null = null;
-    if (videos.some((video) => video.status === 'generating')) {
-      interval = setInterval(fetchVideos, 5000);
-    }
-
-    return () => {
-      if (interval) clearInterval(interval);
-    };
-  }, [videos, mounted]);
+  const generatedVideos = useMemo(() => videos.filter((video) => video.videoPath), [videos]);
+  const filteredVideos = useMemo(() => {
+    if (libraryFilter === 'generated') return videos.filter((video) => video.status === 'generated' || video.status === 'uploaded' || video.status === 'scheduled');
+    if (libraryFilter === 'failed') return videos.filter((video) => video.status === 'failed');
+    if (libraryFilter === 'processing') return videos.filter((video) => video.status === 'generating' || video.status === 'scheduled');
+    return videos;
+  }, [libraryFilter, videos]);
 
   const handleModelChange = (key: keyof StepModelSelections, value: string) => {
     setModelSelections((prev) => ({ ...prev, [key]: value }));
   };
 
-  const handleGenerate = async () => {
-    if ((activeTab === 'script' || activeTab === 'idea') && !content.trim()) return;
+  const handleGenerateDraft = async () => {
+    if (!content.trim()) return;
+
+    if (activeInputTab === 'script') {
+      setDraft(createManualDraft(content));
+      setDraftSourcePrompt(content);
+      return;
+    }
+
+    setDraftLoading(true);
+    try {
+      const res = await fetch('/api/generate-script', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          content,
+          promptType: activeInputTab,
+          aiModel: modelSelections.script,
+          modelSelections,
+        }),
+      });
+      const data = await res.json();
+      if (data?.scriptData) {
+        setDraft({
+          title: data.scriptData.title || 'Untitled video',
+          description: data.scriptData.description || '',
+          tags: Array.isArray(data.scriptData.tags) ? data.scriptData.tags : [],
+          scenes: Array.isArray(data.scriptData.scenes) ? data.scriptData.scenes : [],
+        });
+        setDraftSourcePrompt(content);
+      }
+    } finally {
+      setDraftLoading(false);
+    }
+  };
+
+  const handleApproveAndGenerate = async () => {
+    if (!draft || draft.scenes.length === 0) return;
 
     setLoading(true);
     try {
@@ -110,16 +197,19 @@ export default function Dashboard() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          content,
-          promptType: activeTab,
+          content: draftSourcePrompt || content,
+          promptType: activeInputTab,
           aiModel: modelSelections.script,
           modelSelections,
-        })
+          scriptData: draft,
+        }),
       });
+
       setContent('');
+      setDraft(null);
+      setDraftSourcePrompt('');
+      setActiveWorkspaceTab('library');
       await fetchVideos();
-    } catch (err) {
-      console.error(err);
     } finally {
       setLoading(false);
     }
@@ -131,141 +221,196 @@ export default function Dashboard() {
       await fetch('/api/bulk-generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ count: bulkCount, modelSelections })
+        body: JSON.stringify({ count: bulkCount, modelSelections }),
       });
+      setActiveWorkspaceTab('library');
       await fetchVideos();
-    } catch (err) {
-      console.error(err);
     } finally {
       setLoading(false);
     }
   };
 
+  const handleRetry = async (videoId: string, step: 'script' | 'voice' | 'image' | 'video') => {
+    setRetryingKey(`${videoId}:${step}`);
+    try {
+      await fetch(`/api/videos/${videoId}/retry`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ step }),
+      });
+      await fetchVideos();
+    } finally {
+      setRetryingKey('');
+    }
+  };
+
+  const handleUpload = async (videoId: string) => {
+    setUploadingVideoId(videoId);
+    try {
+      await fetch('/api/upload-youtube', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ videoId }),
+      });
+      await fetchVideos();
+    } finally {
+      setUploadingVideoId('');
+    }
+  };
+
   const handleDeleteAll = async () => {
-    if (!confirm('Are you sure? This will delete all videos AND media files permanently.')) return;
+    if (!confirm('Are you sure? This will delete all videos and generated media files.')) return;
     setIsDeleting(true);
     try {
       await fetch('/api/videos/delete-all', { method: 'DELETE' });
-      await fetchVideos();
-    } catch (err) {
-      console.error(err);
+      setVideos([]);
     } finally {
       setIsDeleting(false);
     }
   };
 
-  const handleUpload = async (videoId: string) => {
-    await fetch('/api/upload-youtube', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ videoId })
+  const updateDraftField = (field: keyof Omit<ScriptDraft, 'tags' | 'scenes'>, value: string) => {
+    setDraft((prev) => prev ? { ...prev, [field]: value } : prev);
+  };
+
+  const updateDraftTagString = (value: string) => {
+    setDraft((prev) => prev ? { ...prev, tags: value.split(',').map((tag) => tag.trim()).filter(Boolean) } : prev);
+  };
+
+  const updateDraftScene = (index: number, field: keyof SceneItem, value: string) => {
+    setDraft((prev) => {
+      if (!prev) return prev;
+      const nextScenes = [...prev.scenes];
+      nextScenes[index] = { ...nextScenes[index], [field]: value };
+      return { ...prev, scenes: nextScenes };
     });
-    await fetchVideos();
   };
 
-  const handleRetry = async (videoId: string) => {
-    setRetryingVideoId(videoId);
-    try {
-      await fetch(`/api/videos/${videoId}/retry`, { method: 'POST' });
-      await fetchVideos();
-    } catch (err) {
-      console.error(err);
-    } finally {
-      setRetryingVideoId('');
-    }
+  const addScene = () => {
+    setDraft((prev) => prev ? {
+      ...prev,
+      scenes: [...prev.scenes, { text: 'New scene text', imagePrompt: 'Describe the image for this scene' }],
+    } : prev);
   };
 
-  const isGenerating = videos.some((video) => video.status === 'generating');
+  const removeScene = (index: number) => {
+    setDraft((prev) => {
+      if (!prev || prev.scenes.length <= 1) return prev;
+      return { ...prev, scenes: prev.scenes.filter((_, sceneIndex) => sceneIndex !== index) };
+    });
+  };
 
   const getModelName = (groupKey: keyof StepModelSelections, modelId?: string) => {
     const group = MODEL_GROUPS.find((item) => item.key === groupKey);
-    const option = group?.options.find((item) => item.id === modelId);
-    return option?.name || modelId || 'Not set';
+    return group?.options.find((option) => option.id === modelId)?.name || modelId || 'Not set';
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-12">
-        <div>
-          <motion.h1
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-4xl font-extrabold bg-gradient-to-br from-white via-slate-100 to-slate-500 bg-clip-text text-transparent flex items-center gap-3"
-          >
-            <Sparkles className="text-blue-500" />
-            AI Video Studio
-          </motion.h1>
-          <p className="text-slate-400 mt-2">Professional automated short-form content factory.</p>
-        </div>
+    <div className="space-y-8">
+      <section className="relative overflow-hidden rounded-[32px] border border-slate-800 bg-[radial-gradient(circle_at_top_left,_rgba(59,130,246,0.18),_transparent_34%),linear-gradient(180deg,_#0f172a_0%,_#020617_100%)] p-8 shadow-2xl">
+        <div className="absolute -right-20 -top-16 h-56 w-56 rounded-full bg-cyan-400/10 blur-3xl" />
+        <div className="absolute bottom-0 left-1/3 h-40 w-40 rounded-full bg-amber-400/10 blur-3xl" />
+        <div className="relative flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+          <div>
+            <p className="text-xs uppercase tracking-[0.35em] text-cyan-300/80">Automated Video Ops</p>
+            <h1 className="mt-3 text-4xl font-black tracking-tight text-white md:text-5xl">Build, review, and ship short-form videos with control.</h1>
+            <p className="mt-4 max-w-3xl text-sm leading-6 text-slate-300">
+              Draft the script first, let the user review it, retry only the failed production step, and manage finished videos with proper media previews and YouTube actions.
+            </p>
+          </div>
 
-        <div className="flex items-center gap-4">
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+            <div className="rounded-2xl border border-slate-800 bg-slate-950/70 px-4 py-3">
+              <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">All Jobs</p>
+              <p className="mt-2 text-2xl font-bold text-white">{videos.length}</p>
+            </div>
+            <div className="rounded-2xl border border-slate-800 bg-slate-950/70 px-4 py-3">
+              <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">Generated</p>
+              <p className="mt-2 text-2xl font-bold text-emerald-400">{generatedVideos.length}</p>
+            </div>
+            <div className="rounded-2xl border border-slate-800 bg-slate-950/70 px-4 py-3">
+              <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">Failed</p>
+              <p className="mt-2 text-2xl font-bold text-rose-400">{videos.filter((video) => video.status === 'failed').length}</p>
+            </div>
+            <div className="rounded-2xl border border-slate-800 bg-slate-950/70 px-4 py-3">
+              <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">Scheduled</p>
+              <p className="mt-2 text-2xl font-bold text-amber-300">{videos.filter((video) => video.status === 'scheduled').length}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="flex flex-wrap items-center gap-3">
+        {[
+          { id: 'composer', label: 'Composer', icon: Wand2 },
+          { id: 'library', label: 'Generated Videos', icon: Clapperboard },
+        ].map((tab) => (
           <button
-            onClick={handleDeleteAll}
-            className="flex items-center gap-2 bg-red-500/10 hover:bg-red-500/20 text-red-400 px-5 py-2.5 rounded-xl border border-red-500/20 transition-all disabled:opacity-30"
-            disabled={isDeleting}
+            key={tab.id}
+            onClick={() => setActiveWorkspaceTab(tab.id as 'composer' | 'library')}
+            className={`inline-flex items-center gap-2 rounded-2xl border px-4 py-3 text-sm font-semibold transition ${activeWorkspaceTab === tab.id ? 'border-cyan-400/40 bg-cyan-500/10 text-white' : 'border-slate-800 bg-slate-900 text-slate-400 hover:bg-slate-800 hover:text-white'}`}
           >
-            <Trash2 size={18} />
-            Clear Studio
+            <tab.icon size={16} />
+            {tab.label}
           </button>
-        </div>
-      </div>
+        ))}
+        <button
+          onClick={handleDeleteAll}
+          disabled={isDeleting}
+          className="ml-auto inline-flex items-center gap-2 rounded-2xl border border-rose-500/20 bg-rose-500/10 px-4 py-3 text-sm font-semibold text-rose-300 transition hover:bg-rose-500/20 disabled:opacity-50"
+        >
+          <Trash2 size={16} />
+          Clear Studio
+        </button>
+      </section>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
-        <div className="lg:col-span-2">
-          <div className="bg-slate-900/50 backdrop-blur-xl border border-slate-800 p-8 rounded-3xl shadow-2xl relative overflow-hidden group">
-            <div className="absolute top-0 right-0 p-4 opacity-5 group-hover:opacity-10 transition-opacity">
-              <Wand2 size={120} />
-            </div>
+      {activeWorkspaceTab === 'composer' ? (
+        <div className="grid gap-8 xl:grid-cols-[1.2fr_0.8fr]">
+          <div className="space-y-6">
+            <section className="rounded-[28px] border border-slate-800 bg-slate-900/80 p-6 shadow-xl">
+              <div className="flex flex-wrap gap-2 rounded-2xl border border-slate-800 bg-slate-950 p-1">
+                {[
+                  { id: 'idea', label: 'Idea to Script' },
+                  { id: 'script', label: 'Manual Script' },
+                  { id: 'bulk', label: 'Bulk Factory' },
+                ].map((tab) => (
+                  <button
+                    key={tab.id}
+                    onClick={() => setActiveInputTab(tab.id as 'idea' | 'script' | 'bulk')}
+                    className={`rounded-xl px-4 py-2 text-sm font-semibold transition ${activeInputTab === tab.id ? 'bg-blue-600 text-white' : 'text-slate-400 hover:bg-slate-900 hover:text-white'}`}
+                  >
+                    {tab.label}
+                  </button>
+                ))}
+              </div>
 
-            <div className="flex gap-1 bg-slate-950 p-1 rounded-2xl mb-8 w-fit border border-slate-800">
-              {[
-                { id: 'idea', label: 'Idea To Script', icon: Wand2 },
-                { id: 'script', label: 'Manual Script', icon: Type },
-                { id: 'bulk', label: 'Bulk Factory', icon: Plus },
-              ].map((tab) => (
-                <button
-                  key={tab.id}
-                  onClick={() => setActiveTab(tab.id as 'script' | 'idea' | 'bulk')}
-                  className={`flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-medium transition-all ${activeTab === tab.id
-                    ? 'bg-blue-600 text-white shadow-lg shadow-blue-600/20'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-900'
-                    }`}
-                >
-                  <tab.icon size={16} />
-                  {tab.label}
-                </button>
-              ))}
-            </div>
-
-            <div className="space-y-6">
-              {activeTab !== 'bulk' ? (
-                <>
-                  <div className="space-y-2">
-                    <label className="text-sm font-medium text-slate-300 flex items-center gap-2">
-                      {activeTab === 'idea' ? 'Tell the AI what you want' : 'Paste your full script lines here'}
-                      <AlertCircle size={14} className="text-slate-500" />
+              {activeInputTab !== 'bulk' ? (
+                <div className="mt-6 space-y-5">
+                  <div>
+                    <label className="mb-2 block text-sm font-semibold text-slate-200">
+                      {activeInputTab === 'idea' ? 'Describe the video idea' : 'Paste or write your script draft'}
                     </label>
                     <textarea
                       value={content}
-                      onChange={(e) => setContent(e.target.value)}
-                      placeholder={activeTab === 'idea'
-                        ? 'e.g., The lost civilization of Atlantis and why it might be real...'
-                        : 'Line: Long ago in a distant land...\nLine: A hero rose to save the day...\nLine: But his journey was only beginning...'
-                      }
-                      className="w-full bg-slate-950/50 border border-slate-800 rounded-2xl px-5 py-4 text-slate-200 focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500/50 transition-all min-h-[160px] outline-none placeholder-slate-600 text-lg leading-relaxed"
+                      onChange={(event) => setContent(event.target.value)}
+                      placeholder={activeInputTab === 'idea'
+                        ? 'Example: The strange reason molasses flooded Boston in 1919.'
+                        : 'Scene 1...\nScene 2...\nScene 3...'}
+                      className="min-h-[180px] w-full rounded-2xl border border-slate-800 bg-slate-950 px-4 py-4 text-slate-200 outline-none transition focus:border-blue-500/40 focus:ring-2 focus:ring-blue-500/20"
                     />
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="grid gap-4 md:grid-cols-2">
                     {MODEL_GROUPS.map((group) => (
-                      <div key={group.key}>
-                        <label className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 block">
+                      <div key={group.key} className="rounded-2xl border border-slate-800 bg-slate-950/70 p-4">
+                        <p className="mb-3 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">
+                          <group.icon size={14} />
                           {group.label}
-                        </label>
+                        </p>
                         <select
                           value={modelSelections[group.key]}
-                          onChange={(e) => handleModelChange(group.key, e.target.value)}
-                          className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 outline-none focus:ring-2 focus:ring-blue-500/20"
+                          onChange={(event) => handleModelChange(group.key, event.target.value)}
+                          className="w-full rounded-xl border border-slate-800 bg-slate-900 px-3 py-3 text-sm text-slate-100 outline-none focus:border-cyan-400/40"
                         >
                           {group.options.map((option) => (
                             <option key={option.id} value={option.id}>
@@ -277,303 +422,460 @@ export default function Dashboard() {
                     ))}
                   </div>
 
-                  <div className="rounded-2xl border border-slate-800 bg-slate-950/40 px-4 py-3 text-sm text-slate-400">
-                    Leonardo default is set to a basic SDXL 1.0 legacy profile with safe 9:16 dimensions so image generation stays within Leonardo API limits.
+                  <div className="rounded-2xl border border-amber-500/15 bg-amber-500/5 px-4 py-3 text-sm text-amber-100/85">
+                    Script is reviewed before media generation. The user can edit title, scenes, prompts, and tags before voice, images, and render begin.
                   </div>
 
-                  <button
-                    onClick={handleGenerate}
-                    disabled={loading || !content.trim()}
-                    className="w-full flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-500 text-white h-[48px] rounded-xl font-bold transition-all disabled:opacity-30 group shadow-lg shadow-blue-600/20"
-                  >
-                    {loading ? <RefreshCw className="animate-spin" /> : <Play size={20} className="group-hover:scale-110 transition-transform" />}
-                    Start Generation
-                  </button>
-                </>
+                  <div className="flex flex-wrap items-center gap-3">
+                    <button
+                      onClick={handleGenerateDraft}
+                      disabled={draftLoading || !content.trim()}
+                      className="inline-flex items-center gap-2 rounded-2xl bg-blue-600 px-5 py-3 text-sm font-bold text-white transition hover:bg-blue-500 disabled:opacity-40"
+                    >
+                      {draftLoading ? <Loader2 size={16} className="animate-spin" /> : <Sparkles size={16} />}
+                      {activeInputTab === 'script' ? 'Open Script Editor' : 'Generate Script Draft'}
+                    </button>
+                    {draft && (
+                      <button
+                        onClick={() => setDraft(null)}
+                        className="inline-flex items-center gap-2 rounded-2xl border border-slate-700 bg-slate-900 px-5 py-3 text-sm font-semibold text-slate-300 transition hover:bg-slate-800"
+                      >
+                        <XCircle size={16} />
+                        Discard Draft
+                      </button>
+                    )}
+                  </div>
+                </div>
               ) : (
-                <div className="flex flex-col gap-6">
-                  <div className="bg-emerald-500/5 border border-emerald-500/10 p-6 rounded-2xl">
-                    <h3 className="text-emerald-400 font-semibold mb-1 flex items-center gap-2">
-                      <LayoutGrid size={18} />
-                      Production Queue
-                    </h3>
-                    <p className="text-slate-400 text-sm">Automate your channel by generating a batch of videos at once using your selected defaults for every step.</p>
+                <div className="mt-6 space-y-5">
+                  <div className="rounded-2xl border border-emerald-500/15 bg-emerald-500/5 p-5">
+                    <p className="text-lg font-bold text-white">Bulk generation with your current defaults</p>
+                    <p className="mt-2 text-sm text-slate-400">Use this for unattended runs. Individual videos still keep their own model selections and runtime states.</p>
                   </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="grid gap-4 md:grid-cols-2">
                     {MODEL_GROUPS.map((group) => (
-                      <div key={group.key}>
-                        <label className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 block">
-                          {group.label}
-                        </label>
+                      <div key={group.key} className="rounded-2xl border border-slate-800 bg-slate-950/70 p-4">
+                        <p className="mb-3 text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">{group.label}</p>
                         <select
                           value={modelSelections[group.key]}
-                          onChange={(e) => handleModelChange(group.key, e.target.value)}
-                          className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 outline-none focus:ring-2 focus:ring-emerald-500/20"
+                          onChange={(event) => handleModelChange(group.key, event.target.value)}
+                          className="w-full rounded-xl border border-slate-800 bg-slate-900 px-3 py-3 text-sm text-slate-100 outline-none"
                         >
                           {group.options.map((option) => (
-                            <option key={option.id} value={option.id}>
-                              {option.name}
-                            </option>
+                            <option key={option.id} value={option.id}>{option.name}</option>
                           ))}
                         </select>
                       </div>
                     ))}
                   </div>
-
-                  <div className="flex items-center gap-4">
+                  <div className="flex items-end gap-4">
                     <div className="flex-1">
-                      <label className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2 block">Number of Videos</label>
+                      <label className="mb-2 block text-sm font-semibold text-slate-200">Number of videos</label>
                       <input
                         type="number"
                         min="1"
                         max="10"
                         value={bulkCount}
-                        onChange={(e) => setBulkCount(Number(e.target.value))}
-                        className="w-full bg-slate-950 border border-slate-800 text-white px-5 py-3 rounded-xl outline-none focus:ring-2 focus:ring-emerald-500/20 font-mono text-xl"
+                        onChange={(event) => setBulkCount(Number(event.target.value))}
+                        className="w-full rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-slate-100 outline-none"
                       />
                     </div>
                     <button
                       onClick={handleBulkGenerate}
                       disabled={loading}
-                      className="flex-[2] mt-6 flex items-center justify-center gap-3 bg-emerald-600 hover:bg-emerald-500 text-white h-[52px] rounded-xl font-bold transition-all disabled:opacity-30 shadow-lg shadow-emerald-600/20"
+                      className="inline-flex items-center gap-2 rounded-2xl bg-emerald-600 px-5 py-3 text-sm font-bold text-white transition hover:bg-emerald-500 disabled:opacity-40"
                     >
-                      {loading ? <RefreshCw className="animate-spin" /> : <Plus size={22} />}
-                      Execute Bulk Run
+                      {loading ? <Loader2 size={16} className="animate-spin" /> : <Plus size={16} />}
+                      Start Bulk Run
                     </button>
                   </div>
                 </div>
               )}
-            </div>
-          </div>
-        </div>
+            </section>
 
-        <div className="space-y-6">
-          <div className="bg-slate-900 border border-slate-800 p-6 rounded-3xl h-full flex flex-col justify-center">
-            <div className="text-center">
-              <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-500/10 text-blue-500 mb-6 border border-blue-500/20 shadow-inner">
-                <RefreshCw className={loading ? 'animate-spin' : ''} size={32} />
-              </div>
-              <h3 className="text-2xl font-bold text-white mb-2">{videos.length} Videos</h3>
-              <p className="text-slate-400 text-sm leading-relaxed px-4">
-                Manage your production queue from one place. Retry failed stages, download rendered files, or upload directly to YouTube.
-              </p>
-            </div>
-
-            <div className="mt-8 grid grid-cols-2 gap-3">
-              <div className="bg-slate-950/50 p-4 rounded-2xl text-center border border-slate-800/50">
-                <div className="text-emerald-500 font-mono text-xl font-bold">{videos.filter((video) => video.status === 'generated').length}</div>
-                <div className="text-[10px] text-slate-500 uppercase tracking-widest mt-1">Ready</div>
-              </div>
-              <div className="bg-slate-950/50 p-4 rounded-2xl text-center border border-slate-800/50">
-                <div className="text-blue-500 font-mono text-xl font-bold">{videos.filter((video) => video.status === 'generating').length}</div>
-                <div className="text-[10px] text-slate-500 uppercase tracking-widest mt-1">Pending</div>
-              </div>
-            </div>
-
-            <div className="mt-4 rounded-2xl border border-slate-800/50 bg-slate-950/40 p-4 text-xs text-slate-400">
-              Current defaults load from Settings, and you can still override all four steps here before each run.
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="flex items-center justify-between mb-8">
-        <h2 className="text-2xl font-bold text-slate-200 flex items-center gap-3">
-          Your Production
-          <div className="h-px bg-slate-800 flex-1 ml-4 min-w-[200px]" />
-        </h2>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-        <AnimatePresence>
-          {videos.map((video, index) => (
-            <motion.div
-              key={video._id}
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.9 }}
-              transition={{ delay: index * 0.05 }}
-              className="bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden shadow-2xl group relative"
-            >
-              <div className="aspect-[9/16] bg-slate-800/50 relative">
-                {video.thumbnail ? (
-                  <Image src={video.thumbnail} alt={video.title || 'Generated video'} fill unoptimized className="object-cover grayscale-[0.3] group-hover:grayscale-0 transition-all duration-500" />
-                ) : (
-                  <div className="flex flex-col items-center justify-center h-full text-slate-500 gap-4 bg-slate-950/30">
-                    {video.status === 'generating' ? (
-                      <div className="relative">
-                        <RefreshCw className="animate-spin text-blue-500" size={48} />
-                        <div className="absolute inset-0 blur-lg bg-blue-500/20 animate-pulse" />
-                      </div>
-                    ) : <XCircle size={48} className="text-slate-800" />}
-                    <span className="text-xs font-semibold tracking-widest uppercase opacity-50">Rendering...</span>
-                  </div>
+            <section className="rounded-[28px] border border-slate-800 bg-slate-900/80 p-6 shadow-xl">
+              <div className="flex items-center justify-between gap-4">
+                <div>
+                  <p className="text-xs uppercase tracking-[0.3em] text-cyan-300/80">Script Approval</p>
+                  <h2 className="mt-2 text-2xl font-bold text-white">Review and edit before generation</h2>
+                </div>
+                {draft && (
+                  <button
+                    onClick={handleApproveAndGenerate}
+                    disabled={loading}
+                    className="inline-flex items-center gap-2 rounded-2xl bg-cyan-500 px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-cyan-400 disabled:opacity-40"
+                  >
+                    {loading ? <Loader2 size={16} className="animate-spin" /> : <Send size={16} />}
+                    Approve Script & Generate Media
+                  </button>
                 )}
+              </div>
 
-                <div className="absolute top-4 left-4 z-10">
-                  <div className={`px-3 py-1.5 rounded-full text-[10px] font-bold uppercase tracking-widest backdrop-blur-md border ${video.status === 'generated' ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20' :
-                    video.status === 'generating' ? 'bg-blue-500/10 text-blue-400 border-blue-500/20' :
-                      'bg-red-500/10 text-red-400 border-red-500/20'
-                    }`}>
-                    <span className="flex items-center gap-1.5">
-                      {video.status === 'generated' && <CheckCircle2 size={10} />}
-                      {video.status === 'generating' && <Clock size={10} className="animate-pulse" />}
+              {!draft ? (
+                <div className="mt-6 rounded-3xl border border-dashed border-slate-800 bg-slate-950/40 p-10 text-center">
+                  <Wand2 className="mx-auto text-slate-600" size={36} />
+                  <p className="mt-4 text-lg font-semibold text-slate-300">No script draft yet</p>
+                  <p className="mt-2 text-sm text-slate-500">Generate a draft first, then edit scenes and approve it before voice, images, and video rendering start.</p>
+                </div>
+              ) : (
+                <div className="mt-6 space-y-5">
+                  <div className="grid gap-4 md:grid-cols-2">
+                    <div>
+                      <label className="mb-2 block text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Video Title</label>
+                      <input
+                        value={draft.title}
+                        onChange={(event) => updateDraftField('title', event.target.value)}
+                        className="w-full rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-slate-100 outline-none"
+                      />
+                    </div>
+                    <div>
+                      <label className="mb-2 block text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Tags</label>
+                      <input
+                        value={draft.tags.join(', ')}
+                        onChange={(event) => updateDraftTagString(event.target.value)}
+                        className="w-full rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-slate-100 outline-none"
+                      />
+                    </div>
+                  </div>
+
+                  <div>
+                    <label className="mb-2 block text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Description</label>
+                    <textarea
+                      value={draft.description}
+                      onChange={(event) => updateDraftField('description', event.target.value)}
+                      className="min-h-[90px] w-full rounded-2xl border border-slate-800 bg-slate-950 px-4 py-3 text-slate-100 outline-none"
+                    />
+                  </div>
+
+                  <div className="flex items-center justify-between">
+                    <p className="text-sm font-semibold text-white">Scene Editor</p>
+                    <button
+                      onClick={addScene}
+                      className="inline-flex items-center gap-2 rounded-2xl border border-slate-700 bg-slate-950 px-4 py-2 text-sm font-semibold text-slate-200 transition hover:bg-slate-800"
+                    >
+                      <Plus size={14} />
+                      Add Scene
+                    </button>
+                  </div>
+
+                  <div className="space-y-4">
+                    {draft.scenes.map((scene, index) => (
+                      <div key={`draft-scene-${index}`} className="rounded-3xl border border-slate-800 bg-slate-950/70 p-4">
+                        <div className="mb-3 flex items-center justify-between">
+                          <p className="text-sm font-bold text-white">Scene {index + 1}</p>
+                          <button
+                            onClick={() => removeScene(index)}
+                            className="rounded-xl border border-rose-500/20 bg-rose-500/10 px-3 py-1 text-xs font-semibold text-rose-300 transition hover:bg-rose-500/20"
+                          >
+                            Remove
+                          </button>
+                        </div>
+                        <div className="grid gap-4 lg:grid-cols-2">
+                          <div>
+                            <label className="mb-2 block text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Script Text</label>
+                            <textarea
+                              value={scene.text}
+                              onChange={(event) => updateDraftScene(index, 'text', event.target.value)}
+                              className="min-h-[140px] w-full rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3 text-sm text-slate-100 outline-none"
+                            />
+                          </div>
+                          <div>
+                            <label className="mb-2 block text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Image Prompt</label>
+                            <textarea
+                              value={scene.imagePrompt}
+                              onChange={(event) => updateDraftScene(index, 'imagePrompt', event.target.value)}
+                              className="min-h-[140px] w-full rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3 text-sm text-slate-100 outline-none"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </section>
+          </div>
+
+          <section className="rounded-[28px] border border-slate-800 bg-slate-900/80 p-6 shadow-xl">
+            <p className="text-xs uppercase tracking-[0.3em] text-emerald-300/80">Operational View</p>
+            <h2 className="mt-2 text-2xl font-bold text-white">Current production state</h2>
+            <div className="mt-6 space-y-4">
+              {videos.slice(0, 4).map((video) => (
+                <div key={video._id} className="rounded-3xl border border-slate-800 bg-slate-950/60 p-4">
+                  <div className="flex items-center justify-between gap-3">
+                    <div>
+                      <p className="font-bold text-white">{video.title || 'Processing video'}</p>
+                      <p className="text-xs text-slate-500">{new Date(video.createdAt).toLocaleString()}</p>
+                    </div>
+                    <span className={`rounded-full px-3 py-1 text-[11px] font-bold uppercase tracking-[0.25em] ${video.status === 'generated' ? 'bg-emerald-500/10 text-emerald-300' : video.status === 'failed' ? 'bg-rose-500/10 text-rose-300' : 'bg-blue-500/10 text-blue-300'}`}>
                       {video.status}
                     </span>
                   </div>
-                </div>
-
-                {video.videoPath && (
-                  <motion.div
-                    initial={{ opacity: 0 }}
-                    whileHover={{ opacity: 1 }}
-                    className="absolute inset-0 bg-black/60 backdrop-blur-[2px] flex items-center justify-center cursor-pointer"
-                  >
-                    <a href={video.videoPath} target="_blank" className="p-5 rounded-full bg-white text-black shadow-2xl hover:scale-110 transition-transform">
-                      <Play size={24} fill="currentColor" />
-                    </a>
-                  </motion.div>
-                )}
-              </div>
-
-              <div className="p-6 bg-gradient-to-b from-slate-900 to-slate-950">
-                <h3 className="font-bold text-slate-100 truncate mb-1" title={video.title}>{video.title || 'Studio Processing...'}</h3>
-                <p className="text-[10px] text-slate-500 flex items-center gap-1.5 mb-3">
-                  <Clock size={10} />
-                  {new Date(video.createdAt).toLocaleDateString()}
-                </p>
-
-                <div className="space-y-1 mb-4 border border-slate-800/50 rounded-xl p-3 bg-slate-950/30">
-                  <div className="flex items-center justify-between text-[11px]">
-                    <span className="text-slate-400">Script:</span>
-                    <span className={video.scriptStatus === 'done' ? 'text-emerald-400' : video.scriptStatus === 'failed' ? 'text-red-400' : 'text-slate-500 uppercase tracking-wider'}>{video.scriptStatus || 'pending'}</span>
+                  <div className="mt-4 grid grid-cols-2 gap-2 text-xs">
+                    <div className="rounded-2xl border border-slate-800 bg-slate-900 px-3 py-2 text-slate-300">Script: {video.scriptStatus}</div>
+                    <div className="rounded-2xl border border-slate-800 bg-slate-900 px-3 py-2 text-slate-300">Voice: {video.voiceStatus}</div>
+                    <div className="rounded-2xl border border-slate-800 bg-slate-900 px-3 py-2 text-slate-300">Images: {video.imageStatus}</div>
+                    <div className="rounded-2xl border border-slate-800 bg-slate-900 px-3 py-2 text-slate-300">Render: {video.videoRenderStatus}</div>
                   </div>
-                  <div className="flex items-center justify-between text-[11px]">
-                    <span className="text-slate-400">Voiceover:</span>
-                    <span className={video.voiceStatus === 'done' ? 'text-emerald-400' : video.voiceStatus === 'failed' ? 'text-red-400' : 'text-slate-500 uppercase tracking-wider'}>{video.voiceStatus || 'pending'}</span>
-                  </div>
-                  <div className="flex items-center justify-between text-[11px]">
-                    <span className="text-slate-400">Images:</span>
-                    <span className={video.imageStatus === 'done' ? 'text-emerald-400' : video.imageStatus === 'failed' ? 'text-red-400' : 'text-slate-500 uppercase tracking-wider'}>{video.imageStatus || 'pending'}</span>
-                  </div>
-                  <div className="flex items-center justify-between text-[11px]">
-                    <span className="text-slate-400">Video Render:</span>
-                    <span className={video.videoRenderStatus === 'done' ? 'text-emerald-400' : video.videoRenderStatus === 'failed' ? 'text-red-400' : 'text-slate-500 uppercase tracking-wider'}>{video.videoRenderStatus || 'pending'}</span>
-                  </div>
-                </div>
-
-                {video.status === 'failed' && (
-                  <div className="mb-4 bg-red-500/10 border border-red-500/20 rounded-xl p-3 text-xs text-red-300 break-words">
-                    <p className="font-semibold text-red-200">{video.failedStep || video.errorSummary || 'Generation failed'}</p>
-                    {video.errorSummary && video.errorSummary !== video.failedStep && (
-                      <p className="mt-1 text-[11px] text-red-300/90">{video.errorSummary}</p>
-                    )}
-                    {(video.failedStep || video.failedTool) && (
-                      <p className="mt-1 text-[11px] text-red-300/90">
-                        Step: {video.failedStep || 'Unknown'} | Tool: {video.failedTool || 'Unknown'}
-                      </p>
-                    )}
-                    {video.errorDetails && (
-                      <details className="mt-2">
-                        <summary className="cursor-pointer text-[11px] font-semibold">Show full error</summary>
-                        <p className="mt-2 text-[10px] leading-relaxed whitespace-pre-wrap">{video.errorDetails}</p>
-                      </details>
-                    )}
-                  </div>
-                )}
-
-                <details className="mb-4 rounded-xl border border-slate-800/70 bg-slate-950/40 p-3 text-xs text-slate-300">
-                  <summary className="cursor-pointer font-semibold text-slate-200">More Details</summary>
-                  <div className="mt-3 space-y-3">
-                    <div>
-                      <p className="text-[10px] uppercase tracking-wider text-slate-500 mb-1">Original Prompt</p>
-                      <p className="text-[11px] leading-relaxed text-slate-300">{video.sourcePrompt || 'No prompt saved for this older video.'}</p>
+                  {video.failedStep && (
+                    <div className="mt-4 rounded-2xl border border-rose-500/20 bg-rose-500/10 px-4 py-3 text-xs text-rose-200">
+                      {video.failedStep} via {video.failedTool || 'Unknown tool'}
                     </div>
-
-                    <div>
-                      <p className="text-[10px] uppercase tracking-wider text-slate-500 mb-1">Selected Models</p>
-                      <div className="space-y-1 text-[11px]">
-                        <p>Script: {getModelName('script', video.modelSelections?.script)}</p>
-                        <p>Voice: {getModelName('voice', video.modelSelections?.voice)}</p>
-                        <p>Image: {getModelName('image', video.modelSelections?.image)}</p>
-                        <p>Video: {getModelName('video', video.modelSelections?.video)}</p>
-                      </div>
-                    </div>
-
-                    <div>
-                      <p className="text-[10px] uppercase tracking-wider text-slate-500 mb-1">Voiceover</p>
-                      <p className="text-[11px] mb-1">
-                        Status: <span className={video.audioGenerated ? 'text-emerald-400' : 'text-slate-400'}>{video.audioGenerated ? 'Generated' : 'Not generated yet'}</span>
-                      </p>
-                      {video.audioPath && (
-                        <audio controls className="w-full mb-2 h-9">
-                          <source src={video.audioPath} type="audio/mpeg" />
-                          Your browser does not support the audio element.
-                        </audio>
-                      )}
-                      <p className="text-[11px] leading-relaxed text-slate-300 whitespace-pre-wrap max-h-24 overflow-y-auto">
-                        {video.voiceoverText || 'No voiceover text available yet.'}
-                      </p>
-                    </div>
-
-                    <div>
-                      <p className="text-[10px] uppercase tracking-wider text-slate-500 mb-1">Script And Image Prompts</p>
-                      <div className="space-y-2 max-h-40 overflow-y-auto pr-1">
-                        {video.scenes?.length ? video.scenes.map((scene, sceneIndex) => (
-                          <div key={`${video._id}-scene-${sceneIndex}`} className="rounded-lg border border-slate-800 bg-slate-900/60 p-2">
-                            <p className="text-[10px] text-slate-500 mb-1">Scene {sceneIndex + 1}</p>
-                            <p className="text-[11px] text-slate-200 leading-relaxed">{scene.text || 'No script text.'}</p>
-                            <p className="text-[10px] text-slate-400 mt-2 leading-relaxed">{scene.imagePrompt || 'No image prompt.'}</p>
-                          </div>
-                        )) : (
-                          <p className="text-[11px] text-slate-400">No scene details available yet.</p>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                </details>
-
-                <div className="flex gap-2">
-                  {video.videoPath && (
-                    <a href={video.videoPath} download className="flex-1 flex items-center justify-center gap-2 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-200 rounded-xl transition-all border border-slate-700 text-xs font-semibold">
-                      <Download size={14} />
-                      Download
-                    </a>
-                  )}
-                  {video.status === 'generated' && (
-                    <button
-                      onClick={() => handleUpload(video._id)}
-                      className="p-2.5 text-[#FF0000] bg-[#FF0000]/10 hover:bg-[#FF0000]/20 border border-[#FF0000]/20 rounded-xl transition-all"
-                      title="Publish to YouTube"
-                    >
-                      <UploadCloud size={16} />
-                    </button>
-                  )}
-                  {video.status === 'failed' && (
-                    <button
-                      onClick={() => handleRetry(video._id)}
-                      disabled={retryingVideoId === video._id || isGenerating}
-                      className="flex-1 flex items-center justify-center gap-2 py-2.5 bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 rounded-xl transition-all border border-amber-500/20 text-xs font-semibold disabled:opacity-40"
-                    >
-                      {retryingVideoId === video._id ? <RefreshCw size={14} className="animate-spin" /> : <RotateCcw size={14} />}
-                      Retry
-                    </button>
                   )}
                 </div>
-              </div>
-            </motion.div>
-          ))}
-        </AnimatePresence>
-
-        {videos.length === 0 && !loading && (
-          <div className="col-span-full py-24 text-center border-2 border-dashed border-slate-800 rounded-3xl bg-slate-950/20">
-            <Sparkles size={48} className="mx-auto text-slate-700 mb-4" />
-            <h3 className="text-xl font-bold text-slate-400">Your studio is empty</h3>
-            <p className="text-slate-600 mt-2">Generate your first AI video to begin production.</p>
+              ))}
+            </div>
+          </section>
+        </div>
+      ) : (
+        <section className="space-y-6">
+          <div className="flex flex-wrap items-center gap-3">
+            {[
+              { id: 'all', label: 'All Videos' },
+              { id: 'generated', label: 'Generated' },
+              { id: 'failed', label: 'Failed' },
+              { id: 'processing', label: 'Processing' },
+            ].map((filter) => (
+              <button
+                key={filter.id}
+                onClick={() => setLibraryFilter(filter.id as 'all' | 'generated' | 'failed' | 'processing')}
+                className={`rounded-2xl border px-4 py-2 text-sm font-semibold transition ${libraryFilter === filter.id ? 'border-cyan-400/40 bg-cyan-500/10 text-white' : 'border-slate-800 bg-slate-900 text-slate-400 hover:bg-slate-800 hover:text-white'}`}
+              >
+                {filter.label}
+              </button>
+            ))}
           </div>
-        )}
-      </div>
+          <div className="grid gap-6 xl:grid-cols-2">
+            <AnimatePresence>
+              {filteredVideos.map((video, index) => {
+                const retryStep = getRetryStep(video);
+                const retryLabel = retryStep === 'image'
+                  ? 'Retry Image Step'
+                  : retryStep === 'video'
+                    ? 'Retry Video Render'
+                    : retryStep === 'voice'
+                      ? 'Retry Voice Step'
+                      : 'Retry Script Step';
+
+                return (
+                  <motion.article
+                    key={video._id}
+                    initial={{ opacity: 0, y: 12 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -12 }}
+                    transition={{ delay: index * 0.03 }}
+                    className="overflow-hidden rounded-[30px] border border-slate-800 bg-slate-900/80 shadow-2xl"
+                  >
+                    <div className="grid gap-0 lg:grid-cols-[0.9fr_1.1fr]">
+                      <div className="border-b border-slate-800 bg-slate-950/80 p-4 lg:border-b-0 lg:border-r">
+                        <div className="relative aspect-[9/16] overflow-hidden rounded-[24px] border border-slate-800 bg-slate-900">
+                          {video.videoPath ? (
+                            <video controls className="h-full w-full object-cover" src={video.videoPath} />
+                          ) : video.thumbnail ? (
+                            <Image src={video.thumbnail} alt={video.title || 'Video preview'} fill unoptimized className="object-cover" />
+                          ) : (
+                            <div className="flex h-full items-center justify-center bg-[radial-gradient(circle_at_top,_rgba(34,211,238,0.14),_transparent_36%),linear-gradient(180deg,_#0f172a,_#020617)] text-slate-500">
+                              <Film size={44} />
+                            </div>
+                          )}
+                        </div>
+
+                        <div className="mt-4 flex flex-wrap gap-2">
+                          <span className={`rounded-full px-3 py-1 text-[11px] font-bold uppercase tracking-[0.25em] ${video.status === 'generated' || video.status === 'uploaded' ? 'bg-emerald-500/10 text-emerald-300' : video.status === 'failed' ? 'bg-rose-500/10 text-rose-300' : 'bg-blue-500/10 text-blue-300'}`}>
+                            {video.status}
+                          </span>
+                          {video.youtubeId && (
+                            <span className="rounded-full bg-red-500/10 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.25em] text-red-300">
+                              Uploaded
+                            </span>
+                          )}
+                        </div>
+
+                        <div className="mt-4 flex flex-wrap gap-2">
+                          {video.videoPath && (
+                            <a
+                              href={video.videoPath}
+                              download
+                              className="inline-flex items-center gap-2 rounded-2xl border border-slate-700 bg-slate-900 px-4 py-3 text-sm font-semibold text-slate-200 transition hover:bg-slate-800"
+                            >
+                              <Download size={16} />
+                              Download Video
+                            </a>
+                          )}
+                          <Link
+                            href={`/videos/${video._id}`}
+                            className="inline-flex items-center gap-2 rounded-2xl border border-slate-700 bg-slate-900 px-4 py-3 text-sm font-semibold text-slate-200 transition hover:bg-slate-800"
+                          >
+                            Open Details
+                          </Link>
+                          {(video.status === 'generated' || video.status === 'uploaded') && !video.youtubeId && (
+                            <button
+                              onClick={() => handleUpload(video._id)}
+                              disabled={uploadingVideoId === video._id}
+                              className="inline-flex items-center gap-2 rounded-2xl bg-red-500 px-4 py-3 text-sm font-bold text-white transition hover:bg-red-400 disabled:opacity-40"
+                            >
+                              {uploadingVideoId === video._id ? <Loader2 size={16} className="animate-spin" /> : <Send size={16} />}
+                              Upload to YouTube
+                            </button>
+                          )}
+                          {video.status === 'scheduled' && (
+                            <span className="inline-flex items-center gap-2 rounded-2xl border border-amber-500/20 bg-amber-500/10 px-4 py-3 text-sm font-semibold text-amber-200">
+                              <CalendarClock size={16} />
+                              Upload in progress
+                            </span>
+                          )}
+                        </div>
+                      </div>
+
+                      <div className="p-5">
+                        <div className="flex items-start justify-between gap-4">
+                          <div>
+                            <Link href={`/videos/${video._id}`} className="text-2xl font-bold text-white transition hover:text-cyan-300">
+                              {video.title || 'Untitled video'}
+                            </Link>
+                            <p className="mt-2 text-sm leading-6 text-slate-400">{video.description || 'No description yet.'}</p>
+                          </div>
+                        </div>
+
+                        <div className="mt-4 flex flex-wrap gap-2">
+                          {(video.tags || []).map((tag) => (
+                            <span key={`${video._id}-${tag}`} className="rounded-full border border-slate-800 bg-slate-950 px-3 py-1 text-xs text-slate-300">
+                              #{tag}
+                            </span>
+                          ))}
+                        </div>
+
+                        <div className="mt-5 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+                          {[
+                            { label: 'Script', value: video.scriptStatus, icon: PencilLine },
+                            { label: 'Voice', value: video.voiceStatus, icon: Mic },
+                            { label: 'Images', value: video.imageStatus, icon: ImageIcon },
+                            { label: 'Render', value: video.videoRenderStatus, icon: Film },
+                          ].map((item) => (
+                            <div key={`${video._id}-${item.label}`} className="rounded-2xl border border-slate-800 bg-slate-950/70 p-3">
+                              <p className="flex items-center gap-2 text-[11px] uppercase tracking-[0.25em] text-slate-500">
+                                <item.icon size={13} />
+                                {item.label}
+                              </p>
+                              <p className={`mt-2 text-sm font-bold ${item.value === 'done' ? 'text-emerald-300' : item.value === 'failed' ? 'text-rose-300' : 'text-slate-300'}`}>
+                                {item.value || 'pending'}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+
+                        {video.failedStep && (
+                          <div className="mt-5 rounded-3xl border border-rose-500/20 bg-rose-500/10 p-4">
+                            <p className="text-sm font-bold text-rose-100">{video.failedStep}</p>
+                            <p className="mt-1 text-xs text-rose-200/90">Tool: {video.failedTool || 'Unknown'}{video.errorSummary ? ` | ${video.errorSummary}` : ''}</p>
+                            <div className="mt-3 flex flex-wrap gap-2">
+                              <button
+                                onClick={() => handleRetry(video._id, retryStep)}
+                                disabled={retryingKey === `${video._id}:${retryStep}`}
+                                className="inline-flex items-center gap-2 rounded-2xl bg-amber-500 px-4 py-2.5 text-sm font-bold text-slate-950 transition hover:bg-amber-400 disabled:opacity-40"
+                              >
+                                {retryingKey === `${video._id}:${retryStep}` ? <Loader2 size={16} className="animate-spin" /> : <RotateCcw size={16} />}
+                                {retryLabel}
+                              </button>
+                            </div>
+                          </div>
+                        )}
+
+                        <details className="mt-5 overflow-hidden rounded-3xl border border-slate-800 bg-slate-950/50">
+                          <summary className="cursor-pointer px-4 py-4 text-sm font-bold text-white">Open production details</summary>
+                          <div className="space-y-5 border-t border-slate-800 px-4 py-4">
+                            <div className="grid gap-4 xl:grid-cols-2">
+                              <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-4">
+                                <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">Original Prompt</p>
+                                <p className="mt-2 text-sm leading-6 text-slate-300">{video.sourcePrompt || 'No original prompt saved.'}</p>
+                              </div>
+                              <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-4">
+                                <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">Model Stack</p>
+                                <div className="mt-2 space-y-1 text-sm text-slate-300">
+                                  <p>Script: {getModelName('script', video.modelSelections?.script)}</p>
+                                  <p>Voice: {getModelName('voice', video.modelSelections?.voice)}</p>
+                                  <p>Image: {getModelName('image', video.modelSelections?.image)}</p>
+                                  <p>Video: {getModelName('video', video.modelSelections?.video)}</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-4">
+                              <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">Voiceover Preview</p>
+                              <p className="mt-2 text-sm text-slate-300">Status: {video.audioGenerated ? 'Generated and ready to preview' : 'Not generated yet'}</p>
+                              {video.audioPath && (
+                                <audio controls className="mt-3 w-full">
+                                  <source src={video.audioPath} type="audio/mpeg" />
+                                </audio>
+                              )}
+                              <div className="mt-3 max-h-36 overflow-y-auto rounded-2xl border border-slate-800 bg-slate-950/70 p-3 text-sm leading-6 text-slate-300">
+                                {video.voiceoverText || 'No voiceover transcript available yet.'}
+                              </div>
+                            </div>
+
+                            <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-4">
+                              <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">Generated Images</p>
+                              {video.imagePaths && video.imagePaths.length > 0 ? (
+                                <div className="mt-3 grid grid-cols-2 gap-3 xl:grid-cols-4">
+                                  {video.imagePaths.map((imagePath, imageIndex) => (
+                                    <a
+                                      key={`${video._id}-image-${imageIndex}`}
+                                      href={imagePath}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                      className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-950 transition hover:border-cyan-400/40"
+                                    >
+                                      <div className="relative aspect-[9/16]">
+                                        <Image src={imagePath} alt={`Scene ${imageIndex + 1}`} fill unoptimized className="object-cover" />
+                                      </div>
+                                      <div className="px-3 py-2 text-[11px] text-slate-400">Scene {imageIndex + 1}</div>
+                                    </a>
+                                  ))}
+                                </div>
+                              ) : (
+                                <p className="mt-3 text-sm text-slate-400">No generated images are available yet.</p>
+                              )}
+                            </div>
+
+                            <div className="rounded-2xl border border-slate-800 bg-slate-900/60 p-4">
+                              <p className="text-[11px] uppercase tracking-[0.25em] text-slate-500">Script And Prompts</p>
+                              <div className="mt-3 space-y-3">
+                                {(video.scenes || []).map((scene, sceneIndex) => (
+                                  <div key={`${video._id}-scene-${sceneIndex}`} className="rounded-2xl border border-slate-800 bg-slate-950/70 p-3">
+                                    <p className="text-xs font-bold text-white">Scene {sceneIndex + 1}</p>
+                                    <p className="mt-2 text-sm leading-6 text-slate-200">{scene.text}</p>
+                                    <p className="mt-3 text-xs uppercase tracking-[0.25em] text-slate-500">Image Prompt</p>
+                                    <p className="mt-2 text-sm leading-6 text-slate-400">{scene.imagePrompt}</p>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
+
+                            {video.errorDetails && (
+                              <div className="rounded-2xl border border-rose-500/20 bg-rose-500/10 p-4">
+                                <p className="text-[11px] uppercase tracking-[0.25em] text-rose-200/80">Full Error Log</p>
+                                <pre className="mt-3 overflow-x-auto whitespace-pre-wrap text-xs leading-6 text-rose-100/90">{video.errorDetails}</pre>
+                              </div>
+                            )}
+                          </div>
+                        </details>
+                      </div>
+                    </div>
+                  </motion.article>
+                );
+              })}
+            </AnimatePresence>
+          </div>
+
+          {filteredVideos.length === 0 && (
+            <div className="rounded-[30px] border border-dashed border-slate-800 bg-slate-950/30 p-12 text-center">
+              <CheckCircle2 className="mx-auto text-slate-600" size={40} />
+              <p className="mt-4 text-lg font-bold text-slate-300">No videos in this view yet</p>
+              <p className="mt-2 text-sm text-slate-500">Switch filters or generate a new draft from the composer tab.</p>
+            </div>
+          )}
+        </section>
+      )}
     </div>
   );
 }
