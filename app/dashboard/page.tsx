@@ -35,6 +35,7 @@ import {
 type SceneItem = {
   text: string;
   imagePrompt: string;
+  uploadedImagePath?: string;
 };
 
 type ScriptDraft = {
@@ -86,6 +87,7 @@ function createManualDraft(content: string): ScriptDraft {
   const scenes = (lines.length > 0 ? lines : ['Add your first scene here.']).map((line) => ({
     text: line,
     imagePrompt: `Cinematic visual for: ${line}`,
+    uploadedImagePath: '',
   }));
 
   return {
@@ -95,6 +97,8 @@ function createManualDraft(content: string): ScriptDraft {
     scenes,
   };
 }
+
+const MAX_AI_IMAGE_SCENES = 3;
 
 function getRetryStep(video: VideoItem) {
   if (video.failedStep === 'Script generation') return 'script';
@@ -118,6 +122,7 @@ export default function Dashboard() {
   const [isDeleting, setIsDeleting] = useState(false);
   const [retryingKey, setRetryingKey] = useState('');
   const [uploadingVideoId, setUploadingVideoId] = useState('');
+  const [sceneUploadState, setSceneUploadState] = useState<Record<number, boolean>>({});
 
   const fetchVideos = async () => {
     const res = await fetch('/api/videos');
@@ -182,7 +187,13 @@ export default function Dashboard() {
           title: data.scriptData.title || 'Untitled video',
           description: data.scriptData.description || '',
           tags: Array.isArray(data.scriptData.tags) ? data.scriptData.tags : [],
-          scenes: Array.isArray(data.scriptData.scenes) ? data.scriptData.scenes : [],
+          scenes: Array.isArray(data.scriptData.scenes)
+            ? data.scriptData.scenes.map((scene: SceneItem) => ({
+                text: scene.text || '',
+                imagePrompt: scene.imagePrompt || '',
+                uploadedImagePath: scene.uploadedImagePath || '',
+              }))
+            : [],
         });
         setDraftSourcePrompt(content);
       }
@@ -193,6 +204,11 @@ export default function Dashboard() {
 
   const handleApproveAndGenerate = async () => {
     if (!draft || draft.scenes.length === 0) return;
+    const missingUploads = draft.scenes.some((scene, index) => index >= MAX_AI_IMAGE_SCENES && !scene.uploadedImagePath);
+    if (missingUploads) {
+      alert('Only the first 3 scenes use AI image generation. Please upload images for scene 4 and beyond.');
+      return;
+    }
 
     setLoading(true);
     try {
@@ -292,7 +308,7 @@ export default function Dashboard() {
   const addScene = () => {
     setDraft((prev) => prev ? {
       ...prev,
-      scenes: [...prev.scenes, { text: 'New scene text', imagePrompt: 'Describe the image for this scene' }],
+      scenes: [...prev.scenes, { text: 'New scene text', imagePrompt: 'Describe the image for this scene', uploadedImagePath: '' }],
     } : prev);
   };
 
@@ -301,6 +317,26 @@ export default function Dashboard() {
       if (!prev || prev.scenes.length <= 1) return prev;
       return { ...prev, scenes: prev.scenes.filter((_, sceneIndex) => sceneIndex !== index) };
     });
+  };
+
+  const handleSceneImageUpload = async (index: number, file: File | null) => {
+    if (!file) return;
+
+    setSceneUploadState((prev) => ({ ...prev, [index]: true }));
+    try {
+      const formData = new FormData();
+      formData.append('file', file);
+      const res = await fetch('/api/upload-scene-image', {
+        method: 'POST',
+        body: formData,
+      });
+      const data = await res.json();
+      if (data?.path) {
+        updateDraftScene(index, 'uploadedImagePath', data.path);
+      }
+    } finally {
+      setSceneUploadState((prev) => ({ ...prev, [index]: false }));
+    }
   };
 
   const getModelName = (groupKey: keyof StepModelSelections, modelId?: string) => {
@@ -427,6 +463,9 @@ export default function Dashboard() {
 
                   <div className="rounded-2xl border border-amber-500/15 bg-amber-500/5 px-4 py-3 text-sm text-amber-100/85">
                     Script is reviewed before media generation. The user can edit title, scenes, prompts, and tags before voice, images, and render begin.
+                  </div>
+                  <div className="rounded-2xl border border-cyan-500/15 bg-cyan-500/5 px-4 py-3 text-sm text-cyan-100/85">
+                    The app auto-generates AI images for the first 3 scenes. If you add scene 4 or beyond, upload an image for each extra scene before generating the final video.
                   </div>
 
                   <div className="flex flex-wrap items-center gap-3">
@@ -590,6 +629,41 @@ export default function Dashboard() {
                               className="min-h-[140px] w-full rounded-2xl border border-slate-800 bg-slate-900 px-4 py-3 text-sm text-slate-100 outline-none"
                             />
                           </div>
+                        </div>
+                        <div className="mt-4 rounded-2xl border border-slate-800 bg-slate-900/70 p-4">
+                          <div className="flex flex-wrap items-center justify-between gap-3">
+                            <div>
+                              <p className="text-sm font-semibold text-white">
+                                {index < MAX_AI_IMAGE_SCENES ? `AI image slot ${index + 1} of ${MAX_AI_IMAGE_SCENES}` : 'User upload required'}
+                              </p>
+                              <p className="mt-1 text-xs text-slate-400">
+                                {index < MAX_AI_IMAGE_SCENES
+                                  ? 'This scene can use AI image generation, or you can upload your own image to override it.'
+                                  : 'Scenes after the first 3 must use uploaded images.'}
+                              </p>
+                            </div>
+                            <label className="inline-flex cursor-pointer items-center gap-2 rounded-2xl border border-slate-700 bg-slate-950 px-4 py-2 text-sm font-semibold text-slate-200 transition hover:bg-slate-800">
+                              {sceneUploadState[index] ? <Loader2 size={14} className="animate-spin" /> : <ImageIcon size={14} />}
+                              Upload image
+                              <input
+                                type="file"
+                                accept="image/png,image/jpeg,image/webp"
+                                className="hidden"
+                                onChange={(event) => void handleSceneImageUpload(index, event.target.files?.[0] || null)}
+                              />
+                            </label>
+                          </div>
+                          {scene.uploadedImagePath && (
+                            <div className="mt-3 flex items-center justify-between gap-3 rounded-2xl border border-emerald-500/20 bg-emerald-500/10 px-4 py-3">
+                              <span className="truncate text-sm text-emerald-100">{scene.uploadedImagePath}</span>
+                              <button
+                                onClick={() => updateDraftScene(index, 'uploadedImagePath', '')}
+                                className="rounded-xl border border-rose-500/20 bg-rose-500/10 px-3 py-1 text-xs font-semibold text-rose-300 transition hover:bg-rose-500/20"
+                              >
+                                Remove upload
+                              </button>
+                            </div>
+                          )}
                         </div>
                       </div>
                     ))}

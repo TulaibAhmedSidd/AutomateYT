@@ -17,9 +17,21 @@ function getStoragePath(subDir: string, fileName: string) {
   return path.join(base, subDir, fileName);
 }
 
+function getPublicAssetDiskPath(publicPath: string) {
+  const relative = publicPath.startsWith('/') ? publicPath.slice(1) : publicPath;
+  const base = IS_VERCEL ? path.join(WORKSPACE_DIR, 'public') : path.join(process.cwd(), 'public');
+  return path.join(base, relative);
+}
+
 type GenerationOptions = {
   retryMode?: boolean;
   modelSelections?: Partial<StepModelSelections>;
+};
+
+type ScriptScene = {
+  text: string;
+  imagePrompt: string;
+  uploadedImagePath?: string;
 };
 
 type ErrorWithResponse = Error & {
@@ -201,9 +213,9 @@ export async function executeVideoGeneration(
       }
     }
 
-    let scriptDataObj: Array<{ text: string; imagePrompt: string }> = [];
+    let scriptDataObj: ScriptScene[] = [];
     try {
-      scriptDataObj = JSON.parse(video.script || '[]') as Array<{ text: string; imagePrompt: string }>;
+      scriptDataObj = JSON.parse(video.script || '[]') as ScriptScene[];
     } catch {
       scriptDataObj = [];
     }
@@ -232,6 +244,15 @@ export async function executeVideoGeneration(
     if (video.imageStatus !== 'done' || !imagesReady) {
       try {
         for (let i = 0; i < scriptDataObj.length; i++) {
+          if (scriptDataObj[i].uploadedImagePath) {
+            await fs.copy(getPublicAssetDiskPath(scriptDataObj[i].uploadedImagePath), imagePaths[i], { overwrite: true });
+            continue;
+          }
+
+          if (i >= 3) {
+            throw new Error(`Scene ${i + 1} needs an uploaded image. AI image generation is limited to the first 3 scenes.`);
+          }
+
           await generateImage(scriptDataObj[i].imagePrompt, imagePaths[i], settings, modelSelections.image);
         }
         video.imageStatus = 'done';
@@ -262,7 +283,10 @@ export async function executeVideoGeneration(
 
     if (video.videoRenderStatus !== 'done' || !(await fs.pathExists(finalVideoPath))) {
       try {
-        await renderVideo(renderImagePaths, audioPath, finalVideoPath, modelSelections.video);
+        await renderVideo(renderImagePaths, audioPath, finalVideoPath, modelSelections.video, {
+          openaiApiKey: settings.apiKeys?.openai || process.env.OPENAI_API_KEY,
+          socialOverlayText: 'Follow for more',
+        });
         video.videoPath = `/videos/${idStr}.mp4`;
 
         await generateThumbnail(finalVideoPath, finalThumbnailPath, modelSelections.video);

@@ -15,6 +15,7 @@ function getDiskPath(publicPath: string) {
 export type SceneItem = {
   text: string;
   imagePrompt: string;
+  uploadedImagePath?: string;
 };
 
 export type HydratedVideoState = {
@@ -49,8 +50,9 @@ export function parseScenes(script: unknown): SceneItem[] {
       .map((scene) => ({
         text: typeof scene.text === 'string' ? scene.text : '',
         imagePrompt: typeof scene.imagePrompt === 'string' ? scene.imagePrompt : '',
+        uploadedImagePath: typeof scene.uploadedImagePath === 'string' ? scene.uploadedImagePath : '',
       }))
-      .filter((scene) => scene.text || scene.imagePrompt);
+      .filter((scene) => scene.text || scene.imagePrompt || scene.uploadedImagePath);
   } catch {
     return [];
   }

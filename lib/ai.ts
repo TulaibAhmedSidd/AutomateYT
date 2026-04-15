@@ -6,7 +6,19 @@ import path from 'path';
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { getImageModelConfig } from './generation-config';
 
-export async function generateTopicAndScript(settings: any, content?: string, promptType?: string, aiModel: string = 'gpt-4o-mini') {
+type AISettings = {
+  apiKeys?: {
+    openai?: string;
+    gemini?: string;
+    elevenlabs?: string;
+    leonardo?: string;
+  };
+  voiceover?: {
+    selectedVoiceId?: string;
+  };
+};
+
+export async function generateTopicAndScript(settings: AISettings, content?: string, promptType?: string, aiModel: string = 'gpt-4o-mini') {
   // 1. If USER provides a custom script directly, parse it and return
   if (promptType === 'script' && content) {
     console.log('Using direct script provided by user...');
@@ -31,7 +43,7 @@ export async function generateTopicAndScript(settings: any, content?: string, pr
 - description: string
 - tags: string[]
 - scenes: array of objects { text: string, imagePrompt: string }
-Keep the video around 60 seconds (approx 150 words total across scenes). Image prompts must be highly descriptive for an AI image generator.`;
+Return exactly 3 scenes for AI image generation. Keep the video around 45 to 60 seconds (approx 120 to 150 words total across scenes). Image prompts must be highly descriptive for an AI image generator.`;
 
   const userPrompt = content 
     ? `Generate a script based on this idea: ${content}`
@@ -65,16 +77,15 @@ Keep the video around 60 seconds (approx 150 words total across scenes). Image p
   }
 }
 
-export async function generateVoiceover(text: string, outputPath: string, settings: any, voiceModel: string = 'eleven_multilingual_v2') {
+export async function generateVoiceover(text: string, outputPath: string, settings: AISettings, voiceModel: string = 'eleven_multilingual_v2') {
   const apiKey = settings.apiKeys.elevenlabs || process.env.ELEVENLABS_API_KEY;
   if (!apiKey) throw new Error('ElevenLabs API Key missing');
 
-  // Using dynamic fallback voice
-  const VOICE_ID = 'CwhRBWXzGAHq8TQ4Fs17'; // Safe default for all ElevenLabs tiers
+  const voiceId = settings.voiceover?.selectedVoiceId || 'CwhRBWXzGAHq8TQ4Fs17';
   
   const response = await axios({
     method: 'POST',
-    url: `https://api.elevenlabs.io/v1/text-to-speech/${VOICE_ID}`,
+    url: `https://api.elevenlabs.io/v1/text-to-speech/${voiceId}`,
     headers: {
       'Accept': 'audio/mpeg',
       'xi-api-key': apiKey,
@@ -95,7 +106,7 @@ export async function generateVoiceover(text: string, outputPath: string, settin
   await fs.writeFile(outputPath, response.data);
 }
 
-export async function generateImage(prompt: string, outputPath: string, settings: any, imageModel: string = 'leonardo-sdxl-basic') {
+export async function generateImage(prompt: string, outputPath: string, settings: AISettings, imageModel: string = 'leonardo-sdxl-basic') {
   const apiKey = settings.apiKeys.leonardo || process.env.LEONARDO_API_KEY;
   if (!apiKey) throw new Error('Leonardo API Key missing');
   const imageConfig = getImageModelConfig(imageModel);
