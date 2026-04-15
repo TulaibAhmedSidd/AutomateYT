@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# media assets generated at runtime
+/public/audio/*
+/public/images/*
+/public/videos/*
+!/public/audio/.gitkeep
+!/public/images/.gitkeep
+!/public/videos/.gitkeep
