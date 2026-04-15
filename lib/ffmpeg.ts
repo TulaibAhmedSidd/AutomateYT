@@ -73,6 +73,7 @@ export async function generateThumbnail(videoPath: string, outputPath: string, v
       .input(videoPath)
       .seekInput('00:00:01')
       .screenshot({
+        timestamps: [1],
         folder: path.dirname(outputPath),
         filename: path.basename(outputPath),
         size: renderConfig.thumbnailSize

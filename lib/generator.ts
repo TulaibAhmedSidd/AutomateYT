@@ -8,6 +8,15 @@ import { renderVideo, generateThumbnail } from './ffmpeg';
 import { normalizeModelSelections, type StepModelSelections } from './generation-config';
 import { saveLocalFileToGridFS } from './storage';
 
+const IS_VERCEL = process.env.VERCEL === '1' || process.env.NODE_ENV === 'production';
+const WORKSPACE_DIR = IS_VERCEL ? '/tmp' : process.cwd();
+
+function getStoragePath(subDir: string, fileName: string) {
+  // On Vercel, everything goes to /tmp. On local, it goes to public/
+  const base = IS_VERCEL ? path.join(WORKSPACE_DIR, 'public') : path.join(process.cwd(), 'public');
+  return path.join(base, subDir, fileName);
+}
+
 type GenerationOptions = {
   retryMode?: boolean;
   modelSelections?: Partial<StepModelSelections>;
@@ -149,7 +158,7 @@ export async function executeVideoGeneration(
     video.sourceContent = content ?? video.sourceContent ?? '';
     video.promptType = promptType ?? video.promptType ?? 'idea';
     video.modelSelections = modelSelections;
-    video.storageMode = settings.storage?.mode || 'local';
+    video.storageMode = settings.storage?.mode || (IS_VERCEL ? 'cloud' : 'local');
 
     if (retryMode) {
       resetStatusesForRetry(video);
@@ -168,13 +177,13 @@ export async function executeVideoGeneration(
     await video.save();
 
     const idStr = video._id.toString();
-    const audioPath = path.resolve(`public/audio/${idStr}.mp3`);
-    const finalVideoPath = path.resolve(`public/videos/${idStr}.mp4`);
-    const finalThumbnailPath = path.resolve(`public/images/${idStr}_thumb.png`);
+    const audioPath = getStoragePath('audio', `${idStr}.mp3`);
+    const finalVideoPath = getStoragePath('videos', `${idStr}.mp4`);
+    const finalThumbnailPath = getStoragePath('images', `${idStr}_thumb.png`);
 
-    await fs.ensureDir(path.resolve('public/audio'));
-    await fs.ensureDir(path.resolve('public/images'));
-    await fs.ensureDir(path.resolve('public/videos'));
+    await fs.ensureDir(path.dirname(audioPath));
+    await fs.ensureDir(path.dirname(finalVideoPath));
+    await fs.ensureDir(path.dirname(finalThumbnailPath));
 
     if (video.scriptStatus !== 'done' || !video.script) {
       try {
@@ -216,7 +225,7 @@ export async function executeVideoGeneration(
       }
     }
 
-    const imagePaths = scriptDataObj.map((_, index) => path.resolve(`public/images/${idStr}_${index}.png`));
+    const imagePaths = scriptDataObj.map((_, index) => getStoragePath('images', `${idStr}_${index}.png`));
     const imagesReady = imagePaths.length > 0 && await Promise.all(imagePaths.map((imagePath) => fs.pathExists(imagePath))).then((results) => results.every(Boolean));
     let renderImagePaths = imagePaths;
 

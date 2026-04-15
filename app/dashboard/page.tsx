@@ -782,7 +782,7 @@ export default function Dashboard() {
 
                         {video.failedStep && (
                           <div className="mt-5 rounded-3xl border border-rose-500/20 bg-rose-500/10 p-4">
-                            <p className="text-sm font-bold text-rose-100">{video.failedStep}</p>
+                            <p className="text-sm font-bold text-rose-100">Failure in {video.failedStep}</p>
                             <p className="mt-1 text-xs text-rose-200/90">Tool: {video.failedTool || 'Unknown'}{video.errorSummary ? ` | ${video.errorSummary}` : ''}</p>
                             <div className="mt-3 flex flex-wrap gap-2">
                               <button
@@ -794,6 +794,21 @@ export default function Dashboard() {
                                 {retryLabel}
                               </button>
                             </div>
+                          </div>
+                        )}
+
+                        {!video.failedStep && video.imageStatus === 'done' && video.videoRenderStatus !== 'done' && (
+                          <div className="mt-5 rounded-3xl border border-cyan-500/20 bg-cyan-500/10 p-4">
+                            <p className="text-sm font-bold text-cyan-100">All Images Generated!</p>
+                            <p className="mt-1 text-xs text-cyan-200/90">Media assets are ready. You can now proceed to the final video rendering step.</p>
+                            <button
+                              onClick={() => handleRetry(video._id, 'video')}
+                              disabled={retryingKey === `${video._id}:video`}
+                              className="mt-3 inline-flex items-center gap-2 rounded-2xl bg-cyan-500 px-5 py-3 text-sm font-bold text-slate-950 transition hover:bg-cyan-400 disabled:opacity-40"
+                            >
+                              {retryingKey === `${video._id}:video` ? <Loader2 size={16} className="animate-spin" /> : <Film size={16} />}
+                              Generate Final Video
+                            </button>
                           </div>
                         )}
 
