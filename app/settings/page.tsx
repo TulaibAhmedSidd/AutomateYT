@@ -24,18 +24,39 @@ export default function SettingsPage() {
   });
   const [generationDefaults, setGenerationDefaults] = useState<StepModelSelections>(DEFAULT_MODEL_SELECTIONS);
   const [storageMode, setStorageMode] = useState<'local' | 'cloud'>('local');
+  const [voiceover, setVoiceover] = useState({
+    selectedVoiceId: 'CwhRBWXzGAHq8TQ4Fs17',
+    selectedVoiceName: 'Roger',
+  });
+  const [availableVoices, setAvailableVoices] = useState<Array<{
+    id: string;
+    name: string;
+    category?: string;
+    accent?: string;
+    gender?: string;
+  }>>([]);
+  const [voiceMessage, setVoiceMessage] = useState('');
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
 
   useEffect(() => {
-    fetch('/api/settings')
-      .then((response) => response.json())
-      .then((data) => {
+    Promise.all([
+      fetch('/api/settings').then((response) => response.json()),
+      fetch('/api/voices').then((response) => response.json()).catch(() => ({ voices: [], error: '' })),
+    ]).then(([data, voicesData]) => {
         if (data?.apiKeys) {
           setKeys((prev) => ({ ...prev, ...data.apiKeys }));
         }
         setGenerationDefaults(normalizeModelSelections(data?.generationDefaults, DEFAULT_MODEL_SELECTIONS));
         setStorageMode(data?.storage?.mode === 'cloud' ? 'cloud' : 'local');
+        if (data?.voiceover) {
+          setVoiceover({
+            selectedVoiceId: data.voiceover.selectedVoiceId || 'CwhRBWXzGAHq8TQ4Fs17',
+            selectedVoiceName: data.voiceover.selectedVoiceName || 'Roger',
+          });
+        }
+        setAvailableVoices(Array.isArray(voicesData?.voices) ? voicesData.voices : []);
+        setVoiceMessage(typeof voicesData?.error === 'string' ? voicesData.error : '');
       });
   }, []);
 
@@ -57,6 +78,7 @@ export default function SettingsPage() {
       body: JSON.stringify({
         apiKeys: keys,
         generationDefaults,
+        voiceover,
         storage: {
           mode: storageMode,
         },
@@ -126,6 +148,39 @@ export default function SettingsPage() {
                 </select>
               </div>
             ))}
+          </div>
+        </div>
+
+        <div className="space-y-4">
+          <h2 className="text-xl font-semibold text-slate-200 border-b border-slate-800 pb-2">Voiceover Agent Voice</h2>
+          <div className="rounded-2xl border border-slate-800 bg-slate-950 p-5 space-y-3">
+            <label className="text-sm font-medium text-slate-400 block">Choose the narrator voice from your ElevenLabs account</label>
+            <select
+              value={voiceover.selectedVoiceId}
+              onChange={(e) => {
+                const selected = availableVoices.find((voice) => voice.id === e.target.value);
+                setVoiceover({
+                  selectedVoiceId: e.target.value,
+                  selectedVoiceName: selected?.name || 'Selected voice',
+                });
+              }}
+              className="w-full bg-slate-900 border border-slate-800 rounded-xl px-4 py-3 text-slate-200 outline-none focus:ring-2 focus:ring-cyan-500/20"
+            >
+              {availableVoices.length === 0 ? (
+                <option value={voiceover.selectedVoiceId}>{voiceover.selectedVoiceName}</option>
+              ) : (
+                availableVoices.map((voice) => (
+                  <option key={voice.id} value={voice.id}>
+                    {voice.name}{voice.category ? ` • ${voice.category}` : ''}{voice.gender ? ` • ${voice.gender}` : ''}
+                  </option>
+                ))
+              )}
+            </select>
+            <p className="text-xs text-slate-500">
+              {availableVoices.length > 0
+                ? 'This selected voice will be used during voiceover generation.'
+                : voiceMessage || 'Add your ElevenLabs API key, then reopen Settings to load available voices.'}
+            </p>
           </div>
         </div>
 

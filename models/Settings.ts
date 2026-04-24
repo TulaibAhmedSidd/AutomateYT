@@ -17,6 +17,10 @@ const settingsSchema = new mongoose.Schema({
     image: { type: String, default: DEFAULT_MODEL_SELECTIONS.image },
     video: { type: String, default: DEFAULT_MODEL_SELECTIONS.video },
   },
+  voiceover: {
+    selectedVoiceId: { type: String, default: 'CwhRBWXzGAHq8TQ4Fs17' },
+    selectedVoiceName: { type: String, default: 'Roger' },
+  },
   storage: {
     mode: { type: String, enum: ['local', 'cloud'], default: 'local' },
   },

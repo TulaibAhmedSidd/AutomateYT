@@ -7,6 +7,15 @@ import { Settings } from '@/models/Settings';
 import type { StepModelSelections } from './generation-config';
 import { hydrateVideoRuntime } from './video-runtime';
 
+const IS_VERCEL = process.env.VERCEL === '1' || process.env.NODE_ENV === 'production';
+const WORKSPACE_DIR = IS_VERCEL ? '/tmp' : process.cwd();
+
+function getDiskPath(publicPath: string) {
+  if (!publicPath) return '';
+  const relative = publicPath.startsWith('/') ? publicPath.substring(1) : publicPath;
+  return path.join(WORKSPACE_DIR, 'public', relative);
+}
+
 type QueueVideo = {
   _id: { toString(): string };
   videoPath?: string;
@@ -53,8 +62,8 @@ export async function addUploadJob(videoId: string) {
         throw new Error('Rendered video file is missing, so YouTube upload cannot start.');
       }
 
-      const finalVideoPath = path.resolve('public' + (video.videoPath || runtime.videoPath));
-      const finalThumbnailPath = video.thumbnail ? path.resolve('public' + video.thumbnail) : '';
+      const finalVideoPath = getDiskPath(video.videoPath || runtime.videoPath);
+      const finalThumbnailPath = getDiskPath(video.thumbnail || runtime.thumbnail);
       const uploadResult = await uploadVideo(video, finalVideoPath, finalThumbnailPath, settings || {});
 
       video.status = 'uploaded';

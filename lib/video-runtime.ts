@@ -2,9 +2,20 @@ import fs from 'fs-extra';
 import path from 'path';
 import { normalizeModelSelections, type StepModelSelections } from './generation-config';
 
+const IS_VERCEL = process.env.VERCEL === '1' || process.env.NODE_ENV === 'production';
+const WORKSPACE_DIR = IS_VERCEL ? '/tmp' : process.cwd();
+
+function getDiskPath(publicPath: string) {
+  if (!publicPath) return '';
+  // Convert /audio/xyz.mp3 to [WORKSPACE]/public/audio/xyz.mp3
+  const relative = publicPath.startsWith('/') ? publicPath.substring(1) : publicPath;
+  return path.join(WORKSPACE_DIR, 'public', relative);
+}
+
 export type SceneItem = {
   text: string;
   imagePrompt: string;
+  uploadedImagePath?: string;
 };
 
 export type HydratedVideoState = {
@@ -39,8 +50,9 @@ export function parseScenes(script: unknown): SceneItem[] {
       .map((scene) => ({
         text: typeof scene.text === 'string' ? scene.text : '',
         imagePrompt: typeof scene.imagePrompt === 'string' ? scene.imagePrompt : '',
+        uploadedImagePath: typeof scene.uploadedImagePath === 'string' ? scene.uploadedImagePath : '',
       }))
-      .filter((scene) => scene.text || scene.imagePrompt);
+      .filter((scene) => scene.text || scene.imagePrompt || scene.uploadedImagePath);
   } catch {
     return [];
   }
@@ -99,14 +111,12 @@ export async function hydrateVideoRuntime(video: Record<string, unknown>): Promi
   const modelSelections = normalizeModelSelections(video.modelSelections as Partial<StepModelSelections> | undefined);
   const failed = inferFailure(video);
 
-  const audioPublicPath = `/audio/${videoId}.mp3`;
-  const audioDiskPath = path.resolve(`public/audio/${videoId}.mp3`);
+  const audioDiskPath = getDiskPath(`/audio/${videoId}.mp3`);
   const videoPublicPath = typeof video.videoPath === 'string' ? video.videoPath : '';
-  const videoDiskPath = videoPublicPath ? path.resolve(`public${videoPublicPath}`) : '';
+  const videoDiskPath = getDiskPath(videoPublicPath);
   const thumbnailPublicPath = typeof video.thumbnail === 'string' ? video.thumbnail : '';
-  const thumbnailDiskPath = thumbnailPublicPath ? path.resolve(`public${thumbnailPublicPath}`) : '';
-  const imagePaths = scenes.map((_, index) => `/images/${videoId}_${index}.png`);
-  const imageDiskPaths = scenes.map((_, index) => path.resolve(`public/images/${videoId}_${index}.png`));
+  const thumbnailDiskPath = getDiskPath(thumbnailPublicPath);
+  const imageDiskPaths = scenes.map((_, index) => getDiskPath(`/images/${videoId}_${index}.png`));
 
   const [audioExists, videoExists, thumbnailExists, imageExistsList] = await Promise.all([
     fs.pathExists(audioDiskPath),
@@ -162,12 +172,12 @@ export async function hydrateVideoRuntime(video: Record<string, unknown>): Promi
     imageStatus,
     videoRenderStatus,
     audioGenerated: audioExists,
-    audioPath: storageMode === 'cloud' ? (mediaRefs.audio?.url || '') : (audioExists ? audioPublicPath : ''),
+    audioPath: storageMode === 'cloud' ? (mediaRefs.audio?.url || '') : (audioExists ? `/audio/${videoId}.mp3` : ''),
     videoPath: storageMode === 'cloud' ? (mediaRefs.video?.url || '') : (videoExists ? videoPublicPath : ''),
     thumbnail: storageMode === 'cloud' ? (mediaRefs.thumbnail?.url || '') : (thumbnailExists ? thumbnailPublicPath : ''),
     imagePaths: storageMode === 'cloud'
       ? (mediaRefs.images || []).map((image) => image.url || '').filter(Boolean)
-      : imagePaths.filter((_, index) => imageExistsList[index]),
+      : scenes.map((_, index) => `/images/${videoId}_${index}.png`).filter((_, index) => imageExistsList[index]),
     storageMode,
     failedStep: failed.failedStep,
     failedTool: failed.failedTool,

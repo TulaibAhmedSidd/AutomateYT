@@ -1,43 +1,47 @@
-To upgrade your AutoVid AI platform to a professional-grade SaaS, you need a prompt that covers the State Machine logic (Backend) and the Information Density (Frontend).
+Prompt: Architecting the "Post-Generation" Video Editor & Logic
+Role: Senior Full-Stack Architect & Media UI Specialist.
 
-Copy and paste this into your development tool:
+Objective: Implement a "Video Configuration Tab" that allows users to manually override, edit, and fine-tune every layer of a generated video project before the final render.
 
-System Architecture & UI Refactor Instruction
-Objective: Upgrade the current video generation flow from a "Single-Task" UI to a "Professional Management Dashboard" using Next.js, Tailwind CSS, and BullMQ.
+1. Data Structure & State Management
+Project Schema: Create a centralized VideoProject state (using Zustand or Redux) that stores the raw project manifest. It must include:
 
-1. Backend & Logic: Atomic State Machine
-Granular Job Tracking: Refactor the BullMQ worker to track the state of each sub-step: SCRIPT_GEN, VOICE_GEN, IMAGE_GEN, VIDEO_RENDER, THUMBNAIL, and UPLOAD.
+scriptSegments: An array of objects containing text, startTime, endTime, and voiceID.
 
-Atomic Retries: Implement "Resume from Failure" logic. If a job fails at VIDEO_RENDER, the Retry action must skip the already completed (and paid for) Script, Voice, and Image steps.
+assetMap: A mapping of each script segment to a specific imageUrl or videoClipUrl.
 
-Websocket Integration: Ensure the UI listens for real-time status updates via WebSockets/Socket.io so the "Pending" states update without page refreshes.
+audioConfig: Volume levels for background music vs. voiceover, and a toggle for "Mute Scene."
 
-2. UI Refactor: Information Density & Hierarchy
-Compact List View: Replace the large "Production Cards" with a Condensed List or Table View.
+metadata: Tags, YouTube Description, and AI-generated Title.
 
-Columns: ID/Thumbnail, Title, Status (with mini-stepper icons), Creation Date, and Actions (Edit, Retry, Download, Delete).
+2. UI/UX: The "Edit Studio" Tab
+The Scene Manager: Build a vertical or horizontal "Timeline" where each scene is a card.
 
-Visual Stepper: On each production row, show a 5-dot progress indicator.
+Features: Users can click an image to trigger a "Regenerate Image" (via DALL-E/Leonardo) or "Upload Local File."
 
-Gray: Waiting | Spinning Blue: Processing | Green: Success | Red: Failed.
+Text Overrides: Every script block must be an editable text area. Changing the text should trigger a background BullMQ job to re-generate only that specific audio segment.
 
-Human-in-the-Loop (HITL) Mode: Add a "Pause for Review" toggle in settings. When enabled, the pipeline should stop after IMAGE_GEN, allowing the user to preview assets before the heavy FFmpeg render begins.
+The "Live Preview" Canvas: Use a lightweight <canvas> or <video> player that syncs with the current scroll position of the Scene Manager.
 
-3. Feature Additions: The "Pro" Layer
-Asset Persistence: Create a "Work Directory" for every Job ID. Even if the Render fails, the user must be able to click "More Details" and see the generated Script and Audio player to verify they are correct.
+The "Tag & SEO" Panel: A sidebar to edit the video tags, categories, and direct-to-YouTube upload settings.
 
-Global Preset Manager: Move Model selections (GPT-4o, ElevenLabs, etc.) into a "Global Settings" or "Presets" tab. The main Dashboard should only show a "Preset Selector" dropdown to keep the UI clean.
+3. Functional Logic (The "Smart Render" Engine)
+Atomic Updates: The system must not re-render the entire video for small changes. If a user only edits the "Tag" or "Caption Text," only the FFmpeg overlay filter should be re-applied.
 
-Real-time Logs: Inside the "More Details" accordion, add a terminal-style log window (tail -f style) showing the current raw API responses or FFmpeg progress percentages.
+Asset Swapping: Implement a "Drag & Drop" interface for images. Use Sharp on the backend to pre-process user-uploaded images to the correct 9:16 aspect ratio before adding them to the production queue.
 
-4. Technical Constraints
-Framework: Use Lucide-react for icons and Framer Motion for smooth state transitions between "Pending" and "Ready."
+Voice Control: Add a "Regenerate Voice" button per scene. If the user dislikes the tone of a specific sentence, they can swap the voice model (e.g., ElevenLabs "Expressive" vs. "Narrative") for that segment only.
 
-UX: Implement a "Bulk Action" checkbox system in the list view to allow for mass-deleting or mass-retrying failed jobs.
+4. Workflow Execution
+Initial AI Generation: The tool creates the "Draft" and populates the Editor Tab.
 
-A Quick UI Tip for the "Queue"
-Instead of the current vertical cards that hide information, use a Collapsible Row design.
+User Refinement: User tweaks the script, swaps a "bad" AI image for a relevant one, and adjusts tags.
 
-Closed State: Shows the title, a small thumbnail, and a horizontal progress bar.
+Commit & Render: Once the user hits "Finalize," the updated JSON manifest is sent to the fluent-ffmpeg worker to stitch the final high-quality .mp4.
 
-Open State: Expands to show the "More Details" (Script preview, Audio player, and Error logs) as seen in your second screenshot.
+5. Technical Implementation Details
+Frontend: Next.js (React 19), Tailwind CSS, Framer Motion for smooth drag-and-drop.
+
+Backend: Node.js worker processing the updated JSON manifest via BullMQ.
+
+Asset Storage: Temporary S3 or MongoDB GridFS for user-uploaded overrides.

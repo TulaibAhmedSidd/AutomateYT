@@ -8,9 +8,30 @@ import { renderVideo, generateThumbnail } from './ffmpeg';
 import { normalizeModelSelections, type StepModelSelections } from './generation-config';
 import { saveLocalFileToGridFS } from './storage';
 
+const IS_VERCEL = process.env.VERCEL === '1' || process.env.NODE_ENV === 'production';
+const WORKSPACE_DIR = IS_VERCEL ? '/tmp' : process.cwd();
+
+function getStoragePath(subDir: string, fileName: string) {
+  // On Vercel, everything goes to /tmp. On local, it goes to public/
+  const base = IS_VERCEL ? path.join(WORKSPACE_DIR, 'public') : path.join(process.cwd(), 'public');
+  return path.join(base, subDir, fileName);
+}
+
+function getPublicAssetDiskPath(publicPath: string) {
+  const relative = publicPath.startsWith('/') ? publicPath.slice(1) : publicPath;
+  const base = IS_VERCEL ? path.join(WORKSPACE_DIR, 'public') : path.join(process.cwd(), 'public');
+  return path.join(base, relative);
+}
+
 type GenerationOptions = {
   retryMode?: boolean;
   modelSelections?: Partial<StepModelSelections>;
+};
+
+type ScriptScene = {
+  text: string;
+  imagePrompt: string;
+  uploadedImagePath?: string;
 };
 
 type ErrorWithResponse = Error & {
@@ -149,7 +170,7 @@ export async function executeVideoGeneration(
     video.sourceContent = content ?? video.sourceContent ?? '';
     video.promptType = promptType ?? video.promptType ?? 'idea';
     video.modelSelections = modelSelections;
-    video.storageMode = settings.storage?.mode || 'local';
+    video.storageMode = settings.storage?.mode || (IS_VERCEL ? 'cloud' : 'local');
 
     if (retryMode) {
       resetStatusesForRetry(video);
@@ -168,13 +189,13 @@ export async function executeVideoGeneration(
     await video.save();
 
     const idStr = video._id.toString();
-    const audioPath = path.resolve(`public/audio/${idStr}.mp3`);
-    const finalVideoPath = path.resolve(`public/videos/${idStr}.mp4`);
-    const finalThumbnailPath = path.resolve(`public/images/${idStr}_thumb.png`);
+    const audioPath = getStoragePath('audio', `${idStr}.mp3`);
+    const finalVideoPath = getStoragePath('videos', `${idStr}.mp4`);
+    const finalThumbnailPath = getStoragePath('images', `${idStr}_thumb.png`);
 
-    await fs.ensureDir(path.resolve('public/audio'));
-    await fs.ensureDir(path.resolve('public/images'));
-    await fs.ensureDir(path.resolve('public/videos'));
+    await fs.ensureDir(path.dirname(audioPath));
+    await fs.ensureDir(path.dirname(finalVideoPath));
+    await fs.ensureDir(path.dirname(finalThumbnailPath));
 
     if (video.scriptStatus !== 'done' || !video.script) {
       try {
@@ -192,9 +213,9 @@ export async function executeVideoGeneration(
       }
     }
 
-    let scriptDataObj: Array<{ text: string; imagePrompt: string }> = [];
+    let scriptDataObj: ScriptScene[] = [];
     try {
-      scriptDataObj = JSON.parse(video.script || '[]') as Array<{ text: string; imagePrompt: string }>;
+      scriptDataObj = JSON.parse(video.script || '[]') as ScriptScene[];
     } catch {
       scriptDataObj = [];
     }
@@ -216,13 +237,22 @@ export async function executeVideoGeneration(
       }
     }
 
-    const imagePaths = scriptDataObj.map((_, index) => path.resolve(`public/images/${idStr}_${index}.png`));
+    const imagePaths = scriptDataObj.map((_, index) => getStoragePath('images', `${idStr}_${index}.png`));
     const imagesReady = imagePaths.length > 0 && await Promise.all(imagePaths.map((imagePath) => fs.pathExists(imagePath))).then((results) => results.every(Boolean));
     let renderImagePaths = imagePaths;
 
     if (video.imageStatus !== 'done' || !imagesReady) {
       try {
         for (let i = 0; i < scriptDataObj.length; i++) {
+          if (scriptDataObj[i].uploadedImagePath) {
+            await fs.copy(getPublicAssetDiskPath(scriptDataObj[i].uploadedImagePath), imagePaths[i], { overwrite: true });
+            continue;
+          }
+
+          if (i >= 3) {
+            throw new Error(`Scene ${i + 1} needs an uploaded image. AI image generation is limited to the first 3 scenes.`);
+          }
+
           await generateImage(scriptDataObj[i].imagePrompt, imagePaths[i], settings, modelSelections.image);
         }
         video.imageStatus = 'done';
@@ -253,7 +283,10 @@ export async function executeVideoGeneration(
 
     if (video.videoRenderStatus !== 'done' || !(await fs.pathExists(finalVideoPath))) {
       try {
-        await renderVideo(renderImagePaths, audioPath, finalVideoPath, modelSelections.video);
+        await renderVideo(renderImagePaths, audioPath, finalVideoPath, modelSelections.video, {
+          openaiApiKey: settings.apiKeys?.openai || process.env.OPENAI_API_KEY,
+          socialOverlayText: 'Follow for more',
+        });
         video.videoPath = `/videos/${idStr}.mp4`;
 
         await generateThumbnail(finalVideoPath, finalThumbnailPath, modelSelections.video);
