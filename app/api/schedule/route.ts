@@ -1,7 +1,6 @@
 import { NextResponse } from 'next/server';
 import connectToDatabase from '@/lib/mongodb';
 import { Settings } from '@/models/Settings';
-import { Video } from '@/models/Video';
 
 export async function POST(req: Request) {
   try {
@@ -27,7 +26,8 @@ export async function POST(req: Request) {
     await settings.save();
     
     return NextResponse.json({ success: true, settings });
-  } catch (error: any) {
-    return NextResponse.json({ success: false, error: error.message }, { status: 500 });
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'Failed to update schedule';
+    return NextResponse.json({ success: false, error: message }, { status: 500 });
   }
 }

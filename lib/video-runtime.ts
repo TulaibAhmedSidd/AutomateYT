@@ -1,6 +1,7 @@
 import fs from 'fs-extra';
 import path from 'path';
 import { normalizeModelSelections, type StepModelSelections } from './generation-config';
+import { manifestToScriptScenes, normalizeProjectManifest, type VideoProjectManifest } from './video-project';
 
 const IS_VERCEL = process.env.VERCEL === '1' || process.env.NODE_ENV === 'production';
 const WORKSPACE_DIR = IS_VERCEL ? '/tmp' : process.cwd();
@@ -21,6 +22,7 @@ export type SceneItem = {
 export type HydratedVideoState = {
   status: string;
   scenes: SceneItem[];
+  projectManifest: VideoProjectManifest;
   scriptStatus: string;
   voiceStatus: string;
   imageStatus: string;
@@ -105,7 +107,15 @@ export function inferFailure(video: Record<string, unknown>) {
 }
 
 export async function hydrateVideoRuntime(video: Record<string, unknown>): Promise<HydratedVideoState> {
-  const scenes = parseScenes(video.script);
+  const fallbackScenes = parseScenes(video.script);
+  const projectManifest = normalizeProjectManifest(video.projectManifest, {
+    title: typeof video.title === 'string' ? video.title : '',
+    description: typeof video.description === 'string' ? video.description : '',
+    tags: Array.isArray(video.tags) ? video.tags as string[] : [],
+    sourcePrompt: typeof video.sourceContent === 'string' ? video.sourceContent : '',
+    scenes: fallbackScenes,
+  });
+  const scenes = manifestToScriptScenes(projectManifest);
   const voiceoverText = scenes.map((scene) => scene.text).join(' ').trim();
   const videoId = String(video._id);
   const modelSelections = normalizeModelSelections(video.modelSelections as Partial<StepModelSelections> | undefined);
@@ -160,6 +170,8 @@ export async function hydrateVideoRuntime(video: Record<string, unknown>): Promi
         : 'generated';
   } else if (scriptStatus === 'failed' || voiceStatus === 'failed' || imageStatus === 'failed' || videoRenderStatus === 'failed') {
     normalizedStatus = 'failed';
+  } else if (normalizedStatus === 'draft') {
+    normalizedStatus = 'draft';
   } else {
     normalizedStatus = 'generating';
   }
@@ -167,6 +179,7 @@ export async function hydrateVideoRuntime(video: Record<string, unknown>): Promi
   return {
     status: normalizedStatus,
     scenes,
+    projectManifest,
     scriptStatus,
     voiceStatus,
     imageStatus,
@@ -182,7 +195,9 @@ export async function hydrateVideoRuntime(video: Record<string, unknown>): Promi
     failedStep: failed.failedStep,
     failedTool: failed.failedTool,
     modelSelections,
-    sourcePrompt: typeof video.sourceContent === 'string' ? video.sourceContent : '',
+    sourcePrompt: typeof video.sourceContent === 'string' && video.sourceContent
+      ? video.sourceContent
+      : projectManifest.savedPrompts.sourcePrompt,
     voiceoverText,
   };
 }

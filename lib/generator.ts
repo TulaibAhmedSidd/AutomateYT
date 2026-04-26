@@ -4,9 +4,10 @@ import connectToDatabase from './mongodb';
 import { Video } from '@/models/Video';
 import { Settings } from '@/models/Settings';
 import { generateTopicAndScript, generateVoiceover, generateImage } from './ai';
-import { renderVideo, generateThumbnail } from './ffmpeg';
+import { concatenateAudioTracks, renderVideo, generateThumbnail } from './ffmpeg';
 import { normalizeModelSelections, type StepModelSelections } from './generation-config';
 import { saveLocalFileToGridFS } from './storage';
+import { createProjectManifest, manifestToScriptScenes, normalizeProjectManifest, type VideoProjectManifest } from './video-project';
 
 const IS_VERCEL = process.env.VERCEL === '1' || process.env.NODE_ENV === 'production';
 const WORKSPACE_DIR = IS_VERCEL ? '/tmp' : process.cwd();
@@ -30,8 +31,20 @@ type GenerationOptions = {
 
 type ScriptScene = {
   text: string;
+  summaryText?: string;
   imagePrompt: string;
   uploadedImagePath?: string;
+  voiceUrl?: string;
+  source?: {
+    script?: 'ai' | 'user' | 'none';
+    image?: 'ai' | 'user' | 'none';
+    voice?: 'ai' | 'user' | 'none';
+  };
+  componentStatus?: {
+    script?: 'generated' | 'uploaded' | 'edited' | 'missing';
+    image?: 'generated' | 'uploaded' | 'edited' | 'missing';
+    voice?: 'generated' | 'uploaded' | 'edited' | 'missing';
+  };
 };
 
 type ErrorWithResponse = Error & {
@@ -54,6 +67,7 @@ type VideoDocument = {
   promptType?: string;
   modelSelections?: Partial<StepModelSelections>;
   storageMode?: 'local' | 'cloud';
+  projectManifest?: Partial<VideoProjectManifest>;
   mediaRefs?: {
     audio?: unknown;
     video?: unknown;
@@ -78,6 +92,9 @@ type SettingsDocument = {
   generationDefaults?: Partial<StepModelSelections>;
   storage?: {
     mode?: 'local' | 'cloud';
+  };
+  voiceover?: {
+    selectedVoiceId?: string;
   };
   apiKeys?: {
     openai?: string;
@@ -119,6 +136,31 @@ function createStepError(step: string, tool: string, err: unknown) {
   wrapped.summary = summary;
   wrapped.details = getErrorDetails(err);
   return wrapped;
+}
+
+function parseFallbackScenes(script: unknown): ScriptScene[] {
+  if (typeof script !== 'string' || !script.trim()) return [];
+
+  try {
+    const parsed = JSON.parse(script);
+    if (!Array.isArray(parsed)) return [];
+
+    return parsed.map((scene) => ({
+      text: typeof scene?.text === 'string' ? scene.text : '',
+      summaryText: typeof scene?.summaryText === 'string' ? scene.summaryText : '',
+      imagePrompt: typeof scene?.imagePrompt === 'string' ? scene.imagePrompt : '',
+      uploadedImagePath: typeof scene?.uploadedImagePath === 'string' ? scene.uploadedImagePath : '',
+      voiceUrl: typeof scene?.voiceUrl === 'string' ? scene.voiceUrl : '',
+      source: typeof scene?.source === 'object' && scene.source ? scene.source : undefined,
+      componentStatus: typeof scene?.componentStatus === 'object' && scene.componentStatus ? scene.componentStatus : undefined,
+    })).filter((scene) => scene.text || scene.imagePrompt || scene.uploadedImagePath || scene.voiceUrl);
+  } catch {
+    return [];
+  }
+}
+
+async function copyPublicAsset(publicPath: string, outputPath: string) {
+  await fs.copy(getPublicAssetDiskPath(publicPath), outputPath, { overwrite: true });
 }
 
 function resetStatusesForRetry(video: VideoDocument) {
@@ -204,6 +246,16 @@ export async function executeVideoGeneration(
         video.description = scriptData.description;
         video.tags = scriptData.tags;
         video.script = JSON.stringify(scriptData.scenes);
+        video.projectManifest = createProjectManifest({
+          title: scriptData.title,
+          description: scriptData.description,
+          tags: scriptData.tags,
+          sourcePrompt: video.sourceContent,
+          scenes: scriptData.scenes,
+          voiceId: settings.voiceover?.selectedVoiceId,
+          existing: video.projectManifest,
+          generationIntent: 'regenerate',
+        });
         video.scriptStatus = 'done';
         await video.save();
       } catch (err: unknown) {
@@ -213,21 +265,65 @@ export async function executeVideoGeneration(
       }
     }
 
-    let scriptDataObj: ScriptScene[] = [];
-    try {
-      scriptDataObj = JSON.parse(video.script || '[]') as ScriptScene[];
-    } catch {
-      scriptDataObj = [];
+    const projectManifest = normalizeProjectManifest(video.projectManifest, {
+      title: video.title,
+      description: video.description,
+      tags: video.tags,
+      sourcePrompt: video.sourceContent,
+      scenes: parseFallbackScenes(video.script),
+    });
+    let scriptDataObj: ScriptScene[] = manifestToScriptScenes(projectManifest);
+    if (scriptDataObj.length === 0) {
+      scriptDataObj = parseFallbackScenes(video.script);
     }
 
     if (scriptDataObj.length === 0) {
       throw createStepError('Script parsing', 'Application', new Error('No scenes were available for voice, image, and render generation.'));
     }
 
+    video.projectManifest = createProjectManifest({
+      title: video.title,
+      description: video.description,
+      tags: video.tags,
+      sourcePrompt: video.sourceContent,
+      scenes: scriptDataObj,
+      voiceId: settings.voiceover?.selectedVoiceId,
+      existing: projectManifest,
+      generationIntent: 'regenerate',
+    });
+    video.script = JSON.stringify(scriptDataObj);
+    await video.save();
+
+    const manifestSegments = video.projectManifest?.scriptSegments || [];
+
     if (video.voiceStatus !== 'done' || !(await fs.pathExists(audioPath))) {
       try {
-        const fullText = scriptDataObj.map((scene) => scene.text).join(' ');
-        await generateVoiceover(fullText, audioPath, settings, modelSelections.voice);
+        const segmentAudioDir = getStoragePath('audio', `${idStr}_segments`);
+        await fs.ensureDir(segmentAudioDir);
+        const activeSegments = manifestSegments.filter((segment) => !segment.muteScene && segment.text.trim());
+
+        if (activeSegments.length === 0) {
+          throw new Error('At least one scene needs script text before voice can be rendered.');
+        }
+
+        const segmentAudioPaths: string[] = [];
+        for (const [index, segment] of activeSegments.entries()) {
+          const segmentOutputPath = path.join(segmentAudioDir, `${index}.mp3`);
+          if (segment.voiceUrl) {
+            await copyPublicAsset(segment.voiceUrl, segmentOutputPath);
+          } else if (segment.text.trim()) {
+            await generateVoiceover(segment.text, segmentOutputPath, settings, modelSelections.voice);
+          } else {
+            throw new Error(`Scene ${index + 1} is missing both uploaded voice and script text.`);
+          }
+          segmentAudioPaths.push(segmentOutputPath);
+        }
+
+        if (segmentAudioPaths.length === 1) {
+          await fs.copy(segmentAudioPaths[0], audioPath, { overwrite: true });
+        } else {
+          await concatenateAudioTracks(segmentAudioPaths, audioPath);
+        }
         video.voiceStatus = 'done';
         await video.save();
       } catch (err: unknown) {
@@ -244,13 +340,15 @@ export async function executeVideoGeneration(
     if (video.imageStatus !== 'done' || !imagesReady) {
       try {
         for (let i = 0; i < scriptDataObj.length; i++) {
-          if (scriptDataObj[i].uploadedImagePath) {
-            await fs.copy(getPublicAssetDiskPath(scriptDataObj[i].uploadedImagePath), imagePaths[i], { overwrite: true });
+          const segment = manifestSegments[i];
+          const uploadedImagePath = segment?.imageUrl || scriptDataObj[i].uploadedImagePath;
+          if (uploadedImagePath) {
+            await copyPublicAsset(uploadedImagePath, imagePaths[i]);
             continue;
           }
 
-          if (i >= 3) {
-            throw new Error(`Scene ${i + 1} needs an uploaded image. AI image generation is limited to the first 3 scenes.`);
+          if (!scriptDataObj[i].imagePrompt.trim()) {
+            throw new Error(`Scene ${i + 1} is missing both an uploaded image and an AI image prompt.`);
           }
 
           await generateImage(scriptDataObj[i].imagePrompt, imagePaths[i], settings, modelSelections.image);

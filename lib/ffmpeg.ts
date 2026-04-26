@@ -28,6 +28,30 @@ type RenderVideoOptions = {
   socialOverlayText?: string;
 };
 
+export async function concatenateAudioTracks(inputPaths: string[], outputPath: string) {
+  if (inputPaths.length === 0) {
+    throw new Error('No audio tracks were provided for concatenation.');
+  }
+
+  await fs.ensureDir(path.dirname(outputPath));
+
+  return new Promise((resolve, reject) => {
+    const command = ffmpeg();
+    inputPaths.forEach((inputPath) => {
+      command.input(inputPath);
+    });
+
+    const concatFilter = `${inputPaths.map((_, index) => `[${index}:a]`).join('')}concat=n=${inputPaths.length}:v=0:a=1[aout]`;
+
+    command
+      .complexFilter([concatFilter])
+      .outputOptions(['-map [aout]', '-c:a libmp3lame', '-q:a 2'])
+      .on('end', () => resolve(outputPath))
+      .on('error', reject)
+      .save(outputPath);
+  });
+}
+
 export async function renderVideo(
   images: string[],
   audioPath: string,

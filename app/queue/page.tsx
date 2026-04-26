@@ -3,19 +3,40 @@
 import { useState, useEffect } from 'react';
 import { Activity, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
 
-export default function QueuePage() {
-  const [jobs, setJobs] = useState([]);
+type QueueJob = {
+  _id: string;
+  type: string;
+  videoId?: {
+    _id?: string;
+  } | string;
+  status: string;
+  progress?: number;
+  logs?: string[];
+};
 
-  const fetchJobs = async () => {
-    const res = await fetch('/api/jobs');
-    const data = await res.json();
-    setJobs(data || []);
-  };
+export default function QueuePage() {
+  const [jobs, setJobs] = useState<QueueJob[]>([]);
 
   useEffect(() => {
-    fetchJobs();
-    const int = setInterval(fetchJobs, 3000);
-    return () => clearInterval(int);
+    let active = true;
+
+    const fetchJobs = async () => {
+      const res = await fetch('/api/jobs');
+      const data = await res.json();
+      if (active) {
+        setJobs(Array.isArray(data) ? data : []);
+      }
+    };
+
+    void fetchJobs();
+    const int = setInterval(() => {
+      void fetchJobs();
+    }, 3000);
+
+    return () => {
+      active = false;
+      clearInterval(int);
+    };
   }, []);
 
   return (
@@ -37,7 +58,7 @@ export default function QueuePage() {
             </tr>
           </thead>
           <tbody className="divide-y divide-slate-800/50">
-            {jobs.map((job: any) => (
+            {jobs.map((job) => (
               <tr key={job._id} className="hover:bg-slate-800/20 transition-colors">
                 <td className="p-4">
                   <span className="font-medium text-slate-200">{job.type}</span>

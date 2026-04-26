@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 import { DEFAULT_MODEL_SELECTIONS } from '@/lib/generation-config';
+import { createProjectManifest } from '@/lib/video-project';
 
 const videoSchema = new mongoose.Schema({
   title: String,
@@ -15,6 +16,10 @@ const videoSchema = new mongoose.Schema({
     video: { type: String, default: DEFAULT_MODEL_SELECTIONS.video },
   },
   storageMode: { type: String, enum: ['local', 'cloud'], default: 'local' },
+  projectManifest: {
+    type: mongoose.Schema.Types.Mixed,
+    default: () => createProjectManifest({ scenes: [] }),
+  },
   mediaRefs: {
     audio: {
       fileId: String,
@@ -45,8 +50,8 @@ const videoSchema = new mongoose.Schema({
   videoPath: String,
   status: {
     type: String,
-    enum: ['generating', 'generated', 'uploaded', 'scheduled', 'failed'],
-    default: 'generating'
+    enum: ['draft', 'generating', 'generated', 'uploaded', 'scheduled', 'failed'],
+    default: 'draft'
   },
   scriptStatus: { type: String, enum: ['pending', 'done', 'failed'], default: 'pending' },
   voiceStatus: { type: String, enum: ['pending', 'done', 'failed'], default: 'pending' },

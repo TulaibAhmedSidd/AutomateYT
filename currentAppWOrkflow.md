@@ -1,81 +1,134 @@
-# AutomateYT: Application Workflow & Model Stack
+# AutomateYT: Current App Workflow
 
-This document outlines the current technical architecture and AI model stack used by the AutomateYT video generation engine.
+This document reflects the current UX and generation flow in the app after the latest dashboard and studio updates.
 
-## 1. Application Architecture
+## 1. Entry Flow
 
-AutomateYT is a Next.js-based automation platform designed to generate short-form videos (YouTube Shorts/TikToks) using a multi-step AI pipeline.
+### Dashboard home
+- The default landing page is `/dashboard`.
+- The dashboard now reuses a short session cache for project cards so the home screen does not flash the large loader on every return.
+- Background refresh still happens, but existing projects stay visible while data updates.
 
-### Core Components
-- **Dashboard (`app/dashboard`)**: The primary interface for controlling the production pipeline.
-- **Workflow Engine (`lib/generator.ts`)**: The orchestrator that manages sequential/parallel execution of AI tasks.
-- **Database (MongoDB)**: Stores video metadata, job statuses, and user settings.
-- **Storage**: Dual-mode storage (Local for rapid development; GridFS for persistent Vercel/Cloud deployments).
-
----
-
-## 2. The Production Pipeline (Step-by-Step)
-
-### Step 1: Script & Storyboard Generation
-- **Trigger**: Dashboard (Idea-to-Script or Manual Script input).
-- **API**: `/api/generate-script` -> `lib/ai.ts` (`generateTopicAndScript`).
-- **Logic**: Converts a simple idea into a structured JSON object containing:
-  - Video Title, Description, and Tags.
-  - A sequence of Scenes (Text + Descriptive Image Prompt).
-- **Models Available**:
-  - `gpt-4o-mini` (OpenAI Flash) - *Default*
-  - `gpt-4o` (OpenAI Pro)
-  - `gemini-1.5-flash` (Google Gemini)
-  - `gemini-1.5-pro` (Google Gemini)
-
-### Step 2: Voiceover Generation
-- **Trigger**: Script approval in Dashboard.
-- **API**: `/api/generate-video` -> `lib/ai.ts` (`generateVoiceover`).
-- **Logic**: Aggregates all scene text and converts it into a high-quality MP3 audio file.
-- **Models Available**:
-  - `eleven_multilingual_v2` (ElevenLabs) - *Default*
-  - `eleven_turbo_v2_5` (ElevenLabs Turbo)
-- **Voice ID**: Uses a fixed premium voice ID curated for narration.
-
-### Step 3: AI Image Generation
-- **Trigger**: Automatic after script approval.
-- **API**: `lib/ai.ts` (`generateImage`).
-- **Logic**: Each scene's `imagePrompt` is sent to the image engine to create high-resolution vertical assets.
-- **Models Available (Leonardo.ai API)**:
-  - `leonardo-sdxl-basic` - *Default* (SDXL 1.0)
-  - `leonardo-kino-xl` (Cinematic XL)
-  - `leonardo-vision-xl` (Photorealistic XL)
-
-### Step 4: Video Synthesis & Rendering
-- **Trigger**: Manual trigger via "Generate Final Video" button in Dashboard once images are ready.
-- **Library**: `lib/ffmpeg.ts` (`renderVideo`).
-- **Logic**: Uses **FFmpeg** to:
-  1. Process images with dynamic "Ken Burns" zoom/pan effects.
-  2. Map images precisely to the timeline.
-  3. Merge synthesized video with the ElevenLabs audio track (`-shortest` flag).
-  4. Perform a 9:16 vertical crop/scale for mobile-first playback.
-- **Models**: Local `ffmpeg` binary (via `ffmpeg-static`).
-
-### Step 5: Metadata & Thumbnailing
-- **Logic**: Automatically extracts a frame from the rendered MP4 to create a high-quality PNG thumbnail.
-- **Fixed Model**: FFmpeg screenshot command (`timestamps: [1]`).
-
-### Step 6: YouTube Upload
-- **Trigger**: Manual button "Upload to YouTube" in Dashboard.
-- **API**: `/api/upload-youtube` -> `lib/youtube.ts`.
-- **Logic**: Authenticates via Google OAuth 2.0 and uploads the binary file with AI-generated title, description, and tags.
+### Sidebar navigation
+- `Dashboard` is active only on `/dashboard`.
+- `Create Video` is active only on `/dashboard?create=1`.
+- This prevents `Dashboard` and `Create Video` from showing as selected at the same time.
 
 ---
 
-## 3. Storage & Deployment Strategy
+## 2. Create Video Flow
 
-### Vercel Compatibility
-The app detects the `VERCEL` environment and automatically switches behavior to handle the Read-Only file system:
-- **Workspace**: Redirects all writes (audio/images/videos) to the `/tmp` directory.
-- **Storage Mode**: Defaults to `cloud` mode.
-- **Persistence**: Final assets are moved from `/tmp` to **MongoDB GridFS** so they can be served via the `/api/media/[id]` endpoint.
+The create modal is opened from:
+- `Create New Video`
+- Sidebar `Create Video`
+- `/dashboard?create=1`
 
-### Model Settings Manager
-Users can control their default AI stack via the **Settings Page**:
-- **API Keys**: All keys (OpenAI, Gemini, ElevenLabs, Leonardo) are stored in MongoDB.
-- **Default Models**: Change which LLM, Voice, or Image model is used for every job.
+### Step 1: Choose workflow mode
+- `Generate All Through AI`
+- `Hybrid`
+- `Fully Manual`
+
+### Step 2: Input strategy
+
+#### Generate All Through AI
+- The user provides only the project brief.
+- AI is the default source for:
+  - script
+  - narration
+  - scene images
+- Manual upload toggles are disabled in this mode at the start, so the initial draft is fully AI-driven.
+
+#### Hybrid
+- AI stays available.
+- The user can optionally add:
+  - script
+  - voice files
+  - images
+- AI is used only where pieces are still missing.
+
+#### Fully Manual
+- AI is off by default.
+- The user can upload or edit assets first, then decide later in Studio if AI should help.
+
+### Step 3: Create project
+- `Fully Manual` creates a draft project.
+- `Generate All Through AI` and `Hybrid` create a project and queue generation.
+
+---
+
+## 3. Studio Flow
+
+The Studio is the per-project editor at `/videos/[id]`.
+
+### Project controls
+- Edit title, description, tags, prompt memory, and mode.
+- If the project is in `Generate All Through AI` mode, the Studio explicitly shows that the stored brief can be used to generate the remaining assets.
+
+### Scene editing
+Each scene supports:
+- editing scene text
+- editing overlay seed / summary text
+- editing image prompt
+- uploading scene image
+- uploading scene voice
+- generating script with AI
+- generating image with AI
+- generating voice with AI
+- muting scene audio
+
+### Delete and clear controls
+The Studio now supports direct deletion for:
+- whole scene
+- scene text
+- scene summary
+- scene image prompt + uploaded image
+- scene voice
+- overlay layers
+
+This allows users to remove unwanted manual or AI-created content without rebuilding the project from scratch.
+
+---
+
+## 4. Overlay Text Behavior
+
+### Current caption style
+- Default overlay text is now presented as an overlaid green caption card instead of the older dark box treatment.
+- New overlay layers default closer to the lower portion of the frame for caption-style placement.
+
+### Overlay controls
+Each overlay layer supports:
+- text editing
+- font family
+- color
+- size
+- animation
+- X/Y placement
+- deletion
+
+---
+
+## 5. Generation Rules
+
+### Save
+- Saves project state only.
+- Does not trigger AI.
+
+### Render
+- Renders using the current saved assets and prompts.
+- Requires each scene to be complete enough for render.
+
+### Generate With AI
+- Saves the current project.
+- Uses the prompt memory and per-scene state to generate the remaining AI content.
+- In `Generate All Through AI` mode, this is the primary way to build the full project from the brief.
+
+---
+
+## 6. Source Priority
+
+Current priority remains:
+1. User uploaded / user edited assets
+2. Existing saved project state
+3. AI generation for missing pieces
+
+This keeps manual work safe while still allowing AI to finish incomplete scenes when requested.

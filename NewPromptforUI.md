@@ -45,3 +45,286 @@ Frontend: Next.js (React 19), Tailwind CSS, Framer Motion for smooth drag-and-dr
 Backend: Node.js worker processing the updated JSON manifest via BullMQ.
 
 Asset Storage: Temporary S3 or MongoDB GridFS for user-uploaded overrides.
+
+oldlavenderd32@clissecol.com
+
+
+
+new prompt 2
+
+
+
+Role: Senior Full-Stack Architect, UX Designer, and Cost-Optimization Engineer
+
+Objective:
+Refactor the existing AI video generation platform into a hybrid system where users can manually provide assets (script, voice, images) to reduce AI costs, while still allowing optional AI generation per component.
+
+---
+
+1. CORE PRODUCT SHIFT (IMPORTANT)
+
+System must follow:
+"User-first input → AI fallback only when needed"
+
+At video creation:
+Ask user:
+
+* Do you want to:
+  [ ] Generate with AI
+  [ ] Upload your own Script
+  [ ] Upload your own Voice
+  [ ] Upload your own Images
+
+System must adapt dynamically based on selection.
+
+---
+
+2. UPDATED DASHBOARD FLOW
+
+Dashboard must include:
+
+* Create New Video
+* Video List (Main Home)
+* Studio (Editor)
+* Settings
+
+REMOVE:
+
+* "Video Library" (not functional)
+
+Each video card must include:
+
+* Thumbnail preview
+* Title
+* Status (Draft / Editing / Rendered)
+* Buttons:
+  [Edit in Studio]
+  [Render]
+  [Delete]
+
+---
+
+3. MOBILE RESPONSIVENESS (CRITICAL)
+
+Entire app must be fully responsive:
+
+* Use Tailwind responsive classes
+* Stack layout on mobile
+* Sidebar becomes bottom nav on mobile
+* Studio becomes vertical scroll editor
+* Timeline becomes swipeable carousel
+
+---
+
+4. STUDIO (EDITOR) IMPROVEMENTS
+
+A. Scene Awareness System
+
+Each scene must show:
+
+* Script status:
+  ✓ Generated
+  ⚠ Missing
+  ✎ User Edited
+
+* Image status:
+  ✓ Uploaded
+  ⚠ Missing
+  🎨 AI Generated
+
+* Voice status:
+  ✓ Uploaded
+  ⚠ Missing
+  🔊 AI Generated
+
+If missing → show button:
+[Generate via AI]
+[Upload manually]
+
+---
+
+B. Hybrid Input System
+
+For EACH scene:
+
+SCRIPT:
+
+* Editable textarea
+* If empty → show:
+  [Generate Script AI]
+
+VOICE:
+
+* Upload audio
+* OR generate AI voice
+* OR regenerate only this segment
+
+IMAGE:
+
+* Upload image
+* OR generate AI image
+* OR replace existing
+
+---
+
+C. Scene Overlay Text System (NEW)
+
+Each scene must include:
+
+* Black RGBA overlay box (semi-transparent)
+* Bold large font
+* Auto-insert scene summary text
+
+User can:
+
+* Edit text
+* Add multiple text layers
+* Drag position
+* Change:
+
+  * font
+  * size
+  * color
+  * animation
+
+---
+
+D. Animation System
+
+Allow:
+
+* fade-in
+* slide-up
+* zoom-in
+* typewriter
+
+Use:
+
+* Framer Motion or similar animation library
+
+---
+
+5. SMART COST CONTROL LOGIC
+
+System must:
+
+* NEVER call AI if user already provided asset
+* Only call AI for missing parts
+* Allow per-scene AI generation (not full video)
+
+---
+
+6. INITIAL VIDEO CREATION FLOW
+
+When user clicks "Create Video":
+
+Show modal:
+
+Step 1:
+Select creation mode:
+
+* Full AI
+* Hybrid
+* Fully Manual
+
+Step 2:
+Ask:
+
+* Upload script? (optional)
+* Upload voice? (optional)
+* Upload images? (optional)
+
+Step 3:
+Generate ONLY missing components
+
+---
+
+7. RENDER LOGIC (IMPORTANT)
+
+* If all assets exist → skip AI completely
+* If partial → render only available scenes
+* If scene incomplete → block render OR warn user
+
+---
+
+8. VIDEO STRUCTURE UI
+
+Each scene card must show:
+
+* Preview image
+* Scene text
+* Duration
+* Status icons
+* Buttons:
+  [Edit]
+  [Upload Image]
+  [Generate Image]
+  [Upload Voice]
+  [Generate Voice]
+
+---
+
+9. NAVIGATION SYSTEM
+
+Left sidebar (desktop):
+
+* Dashboard
+* Create Video
+* Studio
+* Settings
+
+Mobile:
+
+* Bottom navigation bar
+
+---
+
+10. PERFORMANCE OPTIMIZATION
+
+* Lazy load images
+* Cache generated assets
+* Avoid duplicate AI calls
+* Save user-uploaded assets permanently
+
+---
+
+11. DATABASE UPDATE (MongoDB)
+
+Each scene must include:
+
+{
+text,
+imageUrl,
+voiceUrl,
+source: {
+script: "ai" | "user",
+image: "ai" | "user",
+voice: "ai" | "user"
+},
+status: "complete" | "missing"
+}
+
+---
+
+12. FINAL GOAL
+
+System should:
+
+* reduce AI usage by 60–80%
+* allow full manual override
+* give users full control
+* maintain fast generation
+* be mobile-friendly
+* be scalable
+
+---
+
+OUTPUT:
+
+* Updated Next.js UI
+* Updated API routes
+* Updated MongoDB schema
+* Updated Studio Editor
+* Mobile responsive layouts
+* Hybrid AI/manual system
+* Cost-efficient logic
