@@ -22,10 +22,28 @@ function resolveFfmpegPath() {
 
 ffmpeg.setFfmpegPath(resolveFfmpegPath());
 
+type OverlayLayerPayload = {
+  text: string;
+  fontFamily?: string;
+  fontSize?: number;
+  color?: string;
+  background?: string;
+  animation?: string;
+  x?: number;
+  y?: number;
+};
+
+type OverlayScenePayload = {
+  layers: OverlayLayerPayload[];
+};
+
 type RenderVideoOptions = {
   openaiApiKey?: string;
   backgroundMusicPath?: string;
   socialOverlayText?: string;
+  overlayScenes?: OverlayScenePayload[];
+  sceneDurations?: number[];
+  audioDuration?: number;
 };
 
 export async function concatenateAudioTracks(inputPaths: string[], outputPath: string) {
@@ -76,6 +94,10 @@ export async function renderVideo(
     openaiApiKey: options.openaiApiKey,
     backgroundMusicPath: options.backgroundMusicPath,
     socialOverlayText: options.socialOverlayText,
+    overlayScenes: options.overlayScenes,
+    sceneDurations: options.sceneDurations,
+    audioDuration: options.audioDuration,
+    disableAutoCaptions: Array.isArray(options.overlayScenes),
     width: renderConfig.width,
     height: renderConfig.height,
     workspaceRoot: process.cwd(),

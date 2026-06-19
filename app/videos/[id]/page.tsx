@@ -73,11 +73,34 @@ const MODEL_GROUPS = [
 
 const ANIMATION_OPTIONS: SceneAnimationType[] = ['fade-in', 'slide-up', 'zoom-in', 'typewriter'];
 
+function buildDownloadUrl(videoPath: string | undefined, fallbackName: string) {
+  if (!videoPath) return '';
+  if (videoPath.startsWith('/api/media/')) {
+    const separator = videoPath.includes('?') ? '&' : '?';
+    return `${videoPath}${separator}download=1&filename=${encodeURIComponent(fallbackName)}`;
+  }
+  return videoPath;
+}
+
 function getBadgeTone(value: string) {
   if (value === 'missing') return 'border-amber-500/20 bg-amber-500/10 text-amber-200';
   if (value === 'uploaded') return 'border-emerald-500/20 bg-emerald-500/10 text-emerald-200';
   if (value === 'edited') return 'border-cyan-500/20 bg-cyan-500/10 text-cyan-100';
   return 'border-blue-500/20 bg-blue-500/10 text-blue-100';
+}
+
+function stepBadgeTone(value: string | undefined) {
+  if (value === 'done') return 'bg-emerald-500/15 text-emerald-200';
+  if (value === 'failed') return 'bg-rose-500/15 text-rose-200';
+  return 'bg-slate-900 text-slate-400';
+}
+
+function currentRenderStep(video: { scriptStatus?: string; voiceStatus?: string; imageStatus?: string; videoRenderStatus?: string }) {
+  if (video.scriptStatus !== 'done') return 'writing script';
+  if (video.voiceStatus !== 'done') return 'generating narration audio';
+  if (video.imageStatus !== 'done') return 'generating scene images';
+  if (video.videoRenderStatus !== 'done') return 'stitching the final video with ffmpeg';
+  return 'finalizing';
 }
 
 export default function VideoStudioPage() {
@@ -180,6 +203,26 @@ export default function VideoStudioPage() {
 
     void loadVideo();
   }, [params.id, loadProject]);
+
+  // Live status polling: while the server is generating, refetch the video doc every 3s so the
+  // status pills and the Download button update without the user having to refresh the page.
+  const isGenerating = video?.status === 'generating';
+  useEffect(() => {
+    if (!isGenerating) return;
+    const interval = setInterval(() => {
+      void (async () => {
+        try {
+          const res = await fetch(`/api/videos/${params.id}`);
+          if (!res.ok) return;
+          const data = await res.json();
+          setVideo(data);
+        } catch {
+          // Ignore transient polling errors — next tick will retry.
+        }
+      })();
+    }, 3000);
+    return () => clearInterval(interval);
+  }, [isGenerating, params.id]);
 
   const uploadFile = async (file: File | null, endpoint: '/api/upload-scene-image' | '/api/upload-scene-audio') => {
     if (!file) return '';
@@ -331,7 +374,7 @@ export default function VideoStudioPage() {
             </p>
           </div>
 
-          <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+          <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-5">
             <button
               onClick={() => void persistProject('save')}
               disabled={workingKey !== ''}
@@ -342,11 +385,11 @@ export default function VideoStudioPage() {
             </button>
             <button
               onClick={() => void persistProject('render')}
-              disabled={workingKey !== ''}
-              className="inline-flex items-center justify-center gap-2 rounded-2xl border border-cyan-500/30 bg-cyan-500/10 px-4 py-3 text-sm font-semibold text-cyan-50 transition hover:bg-cyan-500/20 disabled:opacity-40"
+              disabled={workingKey !== '' || isGenerating}
+              className="inline-flex items-center justify-center gap-2 rounded-2xl border border-cyan-500/30 bg-cyan-500/10 px-4 py-3 text-sm font-semibold text-cyan-50 transition hover:bg-cyan-500/20 disabled:opacity-60"
             >
-              {workingKey === 'project:render' ? <Loader2 size={16} className="animate-spin" /> : <RefreshCw size={16} />}
-              Render
+              {workingKey === 'project:render' || isGenerating ? <Loader2 size={16} className="animate-spin" /> : <RefreshCw size={16} />}
+              {isGenerating ? 'Rendering…' : 'Render'}
             </button>
             <button
               onClick={() => void persistProject('regenerate')}
@@ -356,6 +399,36 @@ export default function VideoStudioPage() {
               {workingKey === 'project:regenerate' ? <Loader2 size={16} className="animate-spin" /> : <Sparkles size={16} />}
               Generate With AI
             </button>
+            {video.videoPath ? (
+              <a
+                href={buildDownloadUrl(video.videoPath, `${manifest.metadata.title || video.title || video._id}.mp4`)}
+                download={`${manifest.metadata.title || video.title || video._id}.mp4`}
+                className="inline-flex items-center justify-center gap-2 rounded-2xl border border-amber-400/40 bg-amber-400/15 px-4 py-3 text-sm font-bold text-amber-100 shadow-[0_0_25px_rgba(251,191,36,0.18)] transition hover:bg-amber-400/25"
+              >
+                <Download size={16} />
+                Download Video
+              </a>
+            ) : isGenerating ? (
+              <button
+                type="button"
+                disabled
+                title="Render is currently running"
+                className="inline-flex items-center justify-center gap-2 rounded-2xl border border-cyan-500/30 bg-cyan-500/10 px-4 py-3 text-sm font-semibold text-cyan-100"
+              >
+                <Loader2 size={16} className="animate-spin" />
+                Building MP4…
+              </button>
+            ) : (
+              <button
+                type="button"
+                disabled
+                title="Render the video first to enable download"
+                className="inline-flex items-center justify-center gap-2 rounded-2xl border border-slate-700 bg-slate-950/70 px-4 py-3 text-sm font-semibold text-slate-500"
+              >
+                <Download size={16} />
+                Download (render first)
+              </button>
+            )}
             <button
               onClick={resetProject}
               disabled={!isDirty || workingKey !== ''}
@@ -367,12 +440,19 @@ export default function VideoStudioPage() {
           </div>
         </div>
 
-        <div className="mt-5 flex flex-wrap items-center gap-3 rounded-2xl border border-slate-800 bg-slate-950/60 px-4 py-3 text-sm text-slate-300">
-          <span>{saveMessage || (isDirty ? 'Unsaved editor changes detected.' : 'Project synced.')}</span>
-          <span className="rounded-full bg-slate-900 px-3 py-1 text-xs text-slate-400">Script: {video.scriptStatus || 'pending'}</span>
-          <span className="rounded-full bg-slate-900 px-3 py-1 text-xs text-slate-400">Voice: {video.voiceStatus || 'pending'}</span>
-          <span className="rounded-full bg-slate-900 px-3 py-1 text-xs text-slate-400">Images: {video.imageStatus || 'pending'}</span>
-          <span className="rounded-full bg-slate-900 px-3 py-1 text-xs text-slate-400">Render: {video.videoRenderStatus || 'pending'}</span>
+        <div className={`mt-5 flex flex-wrap items-center gap-3 rounded-2xl border px-4 py-3 text-sm ${isGenerating ? 'border-cyan-500/30 bg-cyan-500/10 text-cyan-50' : video.status === 'failed' ? 'border-rose-500/30 bg-rose-500/10 text-rose-100' : 'border-slate-800 bg-slate-950/60 text-slate-300'}`}>
+          {isGenerating && <Loader2 size={16} className="animate-spin" />}
+          <span className="font-semibold">
+            {isGenerating
+              ? `Rendering in progress — ${currentRenderStep(video)}. Auto-refreshing every 3s; download will appear when the MP4 is ready.`
+              : video.status === 'failed'
+                ? `Render failed${video.failedStep ? ` at ${video.failedStep}` : ''}${video.errorSummary ? `: ${video.errorSummary}` : '.'}`
+                : saveMessage || (isDirty ? 'Unsaved editor changes detected.' : 'Project synced.')}
+          </span>
+          <span className={`rounded-full px-3 py-1 text-xs ${stepBadgeTone(video.scriptStatus)}`}>Script: {video.scriptStatus || 'pending'}</span>
+          <span className={`rounded-full px-3 py-1 text-xs ${stepBadgeTone(video.voiceStatus)}`}>Voice: {video.voiceStatus || 'pending'}</span>
+          <span className={`rounded-full px-3 py-1 text-xs ${stepBadgeTone(video.imageStatus)}`}>Images: {video.imageStatus || 'pending'}</span>
+          <span className={`rounded-full px-3 py-1 text-xs ${stepBadgeTone(video.videoRenderStatus)}`}>Render: {video.videoRenderStatus || 'pending'}</span>
         </div>
       </section>
 
@@ -672,7 +752,7 @@ export default function VideoStudioPage() {
           <div className="rounded-[28px] border border-slate-800 bg-slate-900/80 p-5 shadow-xl">
             <p className="text-xs uppercase tracking-[0.25em] text-slate-500">Live Preview</p>
             <div className="mt-4 overflow-hidden rounded-[24px] border border-slate-800 bg-slate-950">
-              <div className="relative aspect-[9/16]">
+              <div className="relative aspect-[9/16]" style={{ containerType: 'size' }}>
                 {video.videoPath ? (
                   <video controls className="h-full w-full object-cover" src={video.videoPath} />
                 ) : previewImage ? (
@@ -683,17 +763,25 @@ export default function VideoStudioPage() {
                   </div>
                 )}
 
+                {/*
+                  fontSize is interpreted by the renderer as "pixels in a 720-tall reference frame"
+                  (worker.js scales by height/720 → ~91px on a 1920-tall video). To make the
+                  studio preview match what users will see in the MP4, render the same layer at the
+                  same proportion of the preview's height using cqh container query units.
+                */}
                 {selectedScene?.overlayLayers.map((layer) => (
                   <div
                     key={layer.id}
-                    className="absolute max-w-[84%] rounded-[22px] border border-emerald-300/20 px-4 py-3 font-black shadow-2xl"
+                    className="absolute max-w-[84%] rounded-[22px] border border-emerald-300/20 font-black shadow-2xl"
                     style={{
                       left: `${layer.x}%`,
                       top: `${layer.y}%`,
                       background: layer.background,
                       color: layer.color,
-                      fontSize: `${layer.fontSize}px`,
+                      fontSize: `${(layer.fontSize / 720) * 100}cqh`,
+                      padding: `${(28 / 720) * 100}cqh ${(40 / 720) * 100}cqh`,
                       fontFamily: layer.fontFamily,
+                      lineHeight: 1.18,
                       transform: 'translate(-0%, -0%)',
                     }}
                   >
@@ -703,11 +791,19 @@ export default function VideoStudioPage() {
               </div>
             </div>
 
-            {video.videoPath && (
-              <a href={video.videoPath} download className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-slate-700 bg-slate-950 px-4 py-3 text-sm font-semibold text-slate-100 transition hover:bg-slate-800">
+            {video.videoPath ? (
+              <a
+                href={buildDownloadUrl(video.videoPath, `${manifest.metadata.title || video.title || video._id}.mp4`)}
+                download={`${manifest.metadata.title || video.title || video._id}.mp4`}
+                className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-amber-400/40 bg-amber-400/10 px-4 py-3 text-sm font-bold text-amber-100 transition hover:bg-amber-400/20"
+              >
                 <Download size={16} />
                 Download Current Video
               </a>
+            ) : (
+              <p className="mt-4 rounded-2xl border border-dashed border-slate-700 bg-slate-950/40 px-4 py-3 text-center text-xs text-slate-500">
+                Download appears here after the first successful render.
+              </p>
             )}
           </div>
 

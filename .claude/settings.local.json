@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(node --check worker.js)",
+      "Bash(node -e \"const w = require\\('./worker.js'\\); const p = w.probeAudioDuration || \\(w.default && w.default.probeAudioDuration\\); console.log\\('probeAudioDuration exported:', typeof p === 'function'\\);\")",
+      "PowerShell(Test-Path *)",
+      "PowerShell($ffmpeg = \"D:\\\\project\\\\AutomateYT\\\\node_modules\\\\ffmpeg-static\\\\ffmpeg.exe\"; $tmpDir = \"$env:TEMP\\\\drawtest\"; Write-Output \"=== TEST 3: text= with multi-special-char content like the real failure ===\"; $f = \"color=c=blue:s=1080x1920:d=3[bg];[bg]drawtext=text='Today\\\\, Claude\\\\'s legacy lives on\\\\, influencing the technology that conn...':x=130:y=1498:fontsize=91:fontcolor=0xFFFFFF:alpha='if\\(lt\\(t-0.000,0.3\\),\\(t-0.000\\)/0.3,1\\)':box=1:boxcolor=0x000000@0.40:boxborderw=75:fontfile=C\\\\:/WINDOWS/Fonts/arialbd.ttf:enable='between\\(t,0.000,13.000\\)'[out]\"; & $ffmpeg -hide_banner -y -f lavfi -i \"anullsrc\" -filter_complex $f -map \"[out]\" -map \"0:a\" -t 3 -c:v libx264 -c:a aac \"$tmpDir\\\\t3.mp4\" 2>&1 | Select-Object -Last 4; Write-Output \"exit3=$LASTEXITCODE\")",
+      "Bash(node -e ' *)"
+    ]
+  }
+}

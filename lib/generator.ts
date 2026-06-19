@@ -381,9 +381,53 @@ export async function executeVideoGeneration(
 
     if (video.videoRenderStatus !== 'done' || !(await fs.pathExists(finalVideoPath))) {
       try {
+        const renderSegments = video.projectManifest?.scriptSegments || [];
+        const overlayScenes = renderSegments.map((segment) => ({
+          layers: Array.isArray(segment?.overlayLayers)
+            ? segment.overlayLayers.map((layer) => ({
+                text: typeof layer?.text === 'string' ? layer.text : '',
+                fontFamily: typeof layer?.fontFamily === 'string' ? layer.fontFamily : '',
+                fontSize: typeof layer?.fontSize === 'number' ? layer.fontSize : undefined,
+                color: typeof layer?.color === 'string' ? layer.color : '',
+                background: typeof layer?.background === 'string' ? layer.background : '',
+                animation: typeof layer?.animation === 'string' ? layer.animation : '',
+                x: typeof layer?.x === 'number' ? layer.x : undefined,
+                y: typeof layer?.y === 'number' ? layer.y : undefined,
+              }))
+            : [],
+        }));
+
+        // Probe each per-scene audio file so images switch in sync with the narration instead
+        // of every image showing for a uniform slice of the total runtime.
+        const segmentAudioDir = getStoragePath('audio', `${idStr}_segments`);
+        const workerModule = await import('../worker.js');
+        const probeAudioDuration = (workerModule as { probeAudioDuration?: (file: string) => Promise<number> }).probeAudioDuration
+          || (workerModule as { default?: { probeAudioDuration?: (file: string) => Promise<number> } }).default?.probeAudioDuration;
+
+        const sceneDurations: number[] = [];
+        for (let i = 0; i < renderImagePaths.length; i += 1) {
+          const segmentPath = path.join(segmentAudioDir, `${i}.mp3`);
+          let dur = 0;
+          if (probeAudioDuration && (await fs.pathExists(segmentPath))) {
+            dur = await probeAudioDuration(segmentPath);
+          }
+          if (!dur) {
+            const segDur = renderSegments[i]?.duration;
+            dur = typeof segDur === 'number' && segDur > 0 ? segDur : 5;
+          }
+          sceneDurations.push(dur);
+        }
+
+        let audioDurationTotal = 0;
+        if (probeAudioDuration && (await fs.pathExists(audioPath))) {
+          audioDurationTotal = await probeAudioDuration(audioPath);
+        }
+
         await renderVideo(renderImagePaths, audioPath, finalVideoPath, modelSelections.video, {
           openaiApiKey: settings.apiKeys?.openai || process.env.OPENAI_API_KEY,
-          socialOverlayText: 'Follow for more',
+          overlayScenes,
+          sceneDurations,
+          audioDuration: audioDurationTotal,
         });
         video.videoPath = `/videos/${idStr}.mp4`;
 

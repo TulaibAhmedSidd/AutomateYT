@@ -3,6 +3,7 @@ const ffmpeg = require('fluent-ffmpeg');
 const ffmpegStatic = require('ffmpeg-static');
 const fs = require('fs-extra');
 const path = require('path');
+const { spawn } = require('child_process');
 const OpenAI = require('openai');
 
 const DEFAULTS = {
@@ -31,7 +32,7 @@ function resolveFfmpegPath() {
   throw new Error(`FFmpeg binary was not found. Checked: ${candidatePaths.join(', ')}`);
 }
 
-ffmpeg.setFfmpegPath(resolveFfmpegPath());
+// resolved + reused below for direct child_process probes
 
 function escapeFilterPath(inputPath) {
   return path
@@ -41,15 +42,297 @@ function escapeFilterPath(inputPath) {
     .replace(/'/g, "\\'");
 }
 
+// Escape a string for use as an UNQUOTED filtergraph value (specifically drawtext text=).
+// Wrapping the value in single quotes does NOT work on this ffmpeg-static build for content
+// containing apostrophes — `\'` inside `'...'` closes the quote early and the rest of the
+// filter chain gets re-interpreted. The reliable approach is unquoted with `\` escaping every
+// metachar the filtergraph parser cares about. Backslash MUST be escaped first.
+// Real newlines are preserved (wrapText inserts them so drawtext renders multi-line).
 function escapeDrawtext(value) {
   return String(value)
     .replace(/\\/g, '\\\\')
-    .replace(/:/g, '\\:')
     .replace(/'/g, "\\'")
-    .replace(/%/g, '\\%')
+    .replace(/:/g, '\\:')
+    .replace(/,/g, '\\,')
+    .replace(/;/g, '\\;')
     .replace(/\[/g, '\\[')
     .replace(/\]/g, '\\]')
-    .replace(/,/g, '\\,');
+    .replace(/%/g, '\\%');
+}
+
+const FFMPEG_BIN_PATH = resolveFfmpegPath();
+ffmpeg.setFfmpegPath(FFMPEG_BIN_PATH);
+
+// `ffmpeg-static` only ships the `ffmpeg` binary (no `ffprobe`), so fluent-ffmpeg's
+// `.ffprobe()` silently fails on most machines. We probe duration ourselves by
+// running `ffmpeg -i <file>` and parsing the "Duration: HH:MM:SS.SS" line out of stderr.
+// ffmpeg exits non-zero when given no output, which is expected — we still get the metadata.
+function probeAudioDuration(filePath) {
+  return new Promise((resolve) => {
+    if (!filePath) return resolve(0);
+    let stderr = '';
+    let settled = false;
+    const finish = (value) => {
+      if (settled) return;
+      settled = true;
+      resolve(value);
+    };
+
+    try {
+      const proc = spawn(FFMPEG_BIN_PATH, ['-hide_banner', '-i', filePath, '-f', 'null', '-'], {
+        stdio: ['ignore', 'ignore', 'pipe'],
+      });
+      proc.stderr.on('data', (chunk) => {
+        stderr += chunk.toString();
+      });
+      proc.on('error', () => finish(0));
+      proc.on('close', () => {
+        const match = stderr.match(/Duration:\s*(\d+):(\d+):(\d+(?:\.\d+)?)/);
+        if (!match) return finish(0);
+        const hours = Number(match[1]) || 0;
+        const minutes = Number(match[2]) || 0;
+        const seconds = Number(match[3]) || 0;
+        const total = hours * 3600 + minutes * 60 + seconds;
+        finish(Number.isFinite(total) && total > 0 ? total : 0);
+      });
+    } catch {
+      finish(0);
+    }
+  });
+}
+
+function normalizeOverlayFontFamily(value) {
+  return String(value || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+}
+
+function findFontFileForFamily(fontsDir, family) {
+  if (!fontsDir || !fs.existsSync(fontsDir)) return '';
+  const wanted = normalizeOverlayFontFamily(family);
+  if (!wanted) return '';
+
+  const entries = fs.readdirSync(fontsDir).filter((name) => /\.(ttf|otf)$/i.test(name));
+  const exact = entries.find((name) => normalizeOverlayFontFamily(path.parse(name).name) === wanted);
+  if (exact) return path.join(fontsDir, exact);
+
+  const partial = entries.find((name) => normalizeOverlayFontFamily(path.parse(name).name).includes(wanted));
+  if (partial) return path.join(fontsDir, partial);
+
+  return '';
+}
+
+function cssColorToFfmpeg(value, fallback) {
+  const fallbackSpec = fallback || '0xFFFFFF';
+  const raw = String(value || '').trim();
+  if (!raw) return fallbackSpec;
+
+  const rgba = raw.match(/^rgba?\(\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*(?:,\s*([\d.]+)\s*)?\)$/i);
+  if (rgba) {
+    const [, r, g, b, a] = rgba;
+    const hex = [r, g, b]
+      .map((channel) => Math.max(0, Math.min(255, Number(channel))).toString(16).padStart(2, '0'))
+      .join('');
+    const alpha = a === undefined ? 1 : Math.max(0, Math.min(1, Number(a)));
+    return `0x${hex.toUpperCase()}@${alpha.toFixed(2)}`;
+  }
+
+  const hex3 = raw.match(/^#([0-9a-f]{3})$/i);
+  if (hex3) {
+    const [, h] = hex3;
+    const expanded = h.split('').map((char) => char + char).join('');
+    return `0x${expanded.toUpperCase()}`;
+  }
+
+  const hex6 = raw.match(/^#([0-9a-f]{6})$/i);
+  if (hex6) {
+    return `0x${hex6[1].toUpperCase()}`;
+  }
+
+  const hex8 = raw.match(/^#([0-9a-f]{6})([0-9a-f]{2})$/i);
+  if (hex8) {
+    const alpha = parseInt(hex8[2], 16) / 255;
+    return `0x${hex8[1].toUpperCase()}@${alpha.toFixed(2)}`;
+  }
+
+  return raw;
+}
+
+// The studio preview shows fontSize as raw CSS pixels in a small 9:16 box (typically 600-900px tall),
+// so 34px there looks substantial. The final video is 1080x1920 — the same 34 literal pixels would be
+// a 1.7% sliver and look like junk. Scale fontSize and box padding by the ratio of the actual frame
+// height to a reference of 720px so what the user sees in the studio is roughly what they get in MP4.
+const FONT_SCALE_REFERENCE_HEIGHT = 720;
+// Average proportional-font character width in em units. ~0.55 works for Arial/Inter/Helvetica
+// well enough as a wrapping heuristic. Final box auto-sizes to actual text anyway.
+const AVG_CHAR_WIDTH_EM = 0.55;
+
+function splitWords(text) {
+  return String(text)
+    .replace(/\r?\n/g, ' ')
+    .split(/\s+/)
+    .filter(Boolean);
+}
+
+// Greedy word-wrap. Returns the input as one string with embedded newlines so drawtext renders
+// multi-line. drawtext respects literal `\n` inside the text value.
+function wrapText(text, maxCharsPerLine) {
+  const words = splitWords(text);
+  if (words.length === 0) return '';
+  const safeMax = Math.max(6, maxCharsPerLine);
+  const lines = [];
+  let current = '';
+  for (const word of words) {
+    if (!current) {
+      current = word;
+      continue;
+    }
+    if (current.length + 1 + word.length <= safeMax) {
+      current += ' ' + word;
+    } else {
+      lines.push(current);
+      current = word;
+    }
+  }
+  if (current) lines.push(current);
+  return lines.join('\n');
+}
+
+function buildOverlayDrawtextFilters(overlayScenes, sceneTimings, options) {
+  const width = options.width || DEFAULTS.width;
+  const height = options.height || DEFAULTS.height;
+  const fontsDir = options.fontsDir || '';
+  const defaultFontFile = options.overlayFontPath || '';
+  const fontScale = height / FONT_SCALE_REFERENCE_HEIGHT;
+  // Horizontal padding from the frame edges — keeps captions away from the screen border.
+  const sidePadding = Math.round(width * 0.06);
+
+  // First pass: build the karaoke-state list (one entry per "this state should be visible
+  // from t_start to t_end") for every scene+layer, so we know the total count and can label
+  // the very last entry [vout].
+  const states = [];
+  overlayScenes.forEach((scene, sceneIndex) => {
+    const timing = sceneTimings[sceneIndex];
+    if (!timing) return;
+    const layers = Array.isArray(scene && scene.layers) ? scene.layers : [];
+    if (layers.length === 0) return;
+
+    const sceneStart = Number(timing.start) || 0;
+    const sceneEnd = Number(timing.end) || sceneStart;
+    if (sceneEnd <= sceneStart) return;
+    const sceneDuration = sceneEnd - sceneStart;
+
+    layers.forEach((layer, layerIndex) => {
+      const rawText = String((layer && layer.text) || '').trim();
+      if (!rawText) return;
+
+      const userFontSize = Math.max(10, Number((layer && layer.fontSize) || 32));
+      const fontSize = Math.max(18, Math.round(userFontSize * fontScale));
+      const charWidthPx = Math.max(1, fontSize * AVG_CHAR_WIDTH_EM);
+      const availableWidth = Math.max(1, width - 2 * sidePadding);
+      const maxCharsPerLine = Math.max(8, Math.floor(availableWidth / charWidthPx));
+
+      const words = splitWords(rawText);
+      if (words.length === 0) return;
+      // Per-word duration: divide the scene's audio evenly across the visible words. Without
+      // Whisper timestamps this is the closest we can get to "moves with the voice".
+      const perWord = sceneDuration / words.length;
+
+      for (let w = 1; w <= words.length; w += 1) {
+        const cumulative = words.slice(0, w).join(' ');
+        const wrapped = wrapText(cumulative, maxCharsPerLine);
+        const wordStart = sceneStart + (w - 1) * perWord;
+        // The last state for the scene holds until sceneEnd so the final caption doesn't
+        // disappear early.
+        const wordEnd = w === words.length ? sceneEnd : sceneStart + w * perWord;
+        states.push({
+          sceneIndex,
+          layerIndex,
+          wordIndex: w - 1,
+          isFirstWordOfLayer: w === 1,
+          isFirstStateOverall: false, // patched below
+          layer,
+          sceneStart,
+          sceneEnd,
+          wordStart,
+          wordEnd,
+          fontSize,
+          wrappedText: wrapped,
+        });
+      }
+    });
+  });
+
+  if (states.length === 0) {
+    return [`[${options.inputLabel || 'vbase'}]null[vout]`];
+  }
+  states[0].isFirstStateOverall = true;
+
+  const filters = [];
+  let inputLabel = options.inputLabel || 'vbase';
+
+  states.forEach((state, stateIndex) => {
+    const layer = state.layer;
+    const boxBorder = Math.max(12, Math.round(28 * fontScale));
+    const xPercent = Math.max(0, Math.min(100, Number((layer && layer.x) || 0)));
+    const yPercent = Math.max(0, Math.min(100, Number((layer && layer.y) || 0)));
+    // Anchor the text to user's percentage but clamp so it never extends past the right
+    // edge — drawtext's x expression supports `min()` and `text_w`/`w` for that.
+    const baseX = Math.round((width * xPercent) / 100);
+    const baseY = Math.round((height * yPercent) / 100);
+    const fontFile = findFontFileForFamily(fontsDir, layer && layer.fontFamily) || defaultFontFile;
+    if (!fontFile) {
+      throw new Error('No font file available for overlay rendering. Add a .ttf to public/fonts/.');
+    }
+    const fontColorSpec = cssColorToFfmpeg(layer && layer.color, '0xFFFFFF');
+    const boxColorSpec = cssColorToFfmpeg(layer && layer.background, '0x000000@0.55');
+    const animation = String((layer && layer.animation) || 'fade-in');
+    const fadeIn = 0.3;
+
+    let yOption = `y=${baseY}`;
+    let alphaOption = '';
+
+    // Fade/slide animations only on the FIRST word of each layer — subsequent words would
+    // re-fade every word which looks twitchy. Hold full alpha for word 2..N.
+    const fadeAlpha = `'if(lt(t-${state.sceneStart.toFixed(3)},${fadeIn}),(t-${state.sceneStart.toFixed(3)})/${fadeIn},1)'`;
+    if (state.isFirstWordOfLayer) {
+      if (animation === 'fade-in') {
+        alphaOption = `:alpha=${fadeAlpha}`;
+      } else if (animation === 'slide-up') {
+        yOption = `y='${baseY}+max(0,(${fadeIn}-(t-${state.sceneStart.toFixed(3)}))/${fadeIn}*60)'`;
+        alphaOption = `:alpha=${fadeAlpha}`;
+      } else if (animation === 'zoom-in' || animation === 'typewriter') {
+        alphaOption = `:alpha=${fadeAlpha}`;
+      }
+    }
+
+    // Clamp x so multi-line text stays within the frame even if user's x% would push the
+    // box off-right. `text_w` is drawtext's evaluated width of the rendered text.
+    const xExpr = `'min(${baseX},${width - sidePadding}-text_w)'`;
+
+    const isLast = stateIndex === states.length - 1;
+    const outputLabel = isLast ? 'vout' : `vo_${state.sceneIndex}_${state.layerIndex}_${state.wordIndex}`;
+
+    const drawtext =
+      `[${inputLabel}]drawtext=text=${escapeDrawtext(state.wrappedText)}` +
+      `:x=${xExpr}` +
+      `:${yOption}` +
+      `:fontsize=${state.fontSize}` +
+      `:fontcolor=${fontColorSpec}` +
+      alphaOption +
+      `:box=1:boxcolor=${boxColorSpec}:boxborderw=${boxBorder}` +
+      `:line_spacing=8` +
+      `:fontfile=${escapeFilterPath(fontFile)}` +
+      `:enable='between(t,${state.wordStart.toFixed(3)},${state.wordEnd.toFixed(3)})'` +
+      `[${outputLabel}]`;
+
+    filters.push(drawtext);
+    inputLabel = outputLabel;
+  });
+
+  if (inputLabel !== 'vout') {
+    filters.push(`[${inputLabel}]null[vout]`);
+  }
+
+  return filters;
 }
 
 function escapeAssText(value) {
@@ -156,18 +439,68 @@ async function transcribeAudioToWords(audioPath, apiKey, model = DEFAULTS.subtit
   };
 }
 
+// drawtext requires a usable font file — ffmpeg-static doesn't bundle fontconfig so the
+// `font=` lookup fallback isn't available. Resolve in this priority order:
+//   1. Any "Bold Font" variant the project historically used (kept for backwards-compat).
+//   2. The first .ttf/.otf actually present in public/fonts/ (lets users drop in any font).
+//   3. A well-known system font for the current OS (always present on a normal machine).
+// Returns null only when literally nothing is available — caller should error with a clear
+// message instead of silently producing a broken filter.
 function findSubtitleFontPath(workspaceRoot) {
-  const candidates = [
-    path.join(workspaceRoot, 'public', 'fonts', 'TheBoldFont.ttf'),
-    path.join(workspaceRoot, 'public', 'fonts', 'The Bold Font.ttf'),
-    path.join(workspaceRoot, 'public', 'fonts', 'TheBoldFont.otf'),
-    path.join(workspaceRoot, 'public', 'fonts', 'The Bold Font.otf'),
+  const projectFontsDir = path.join(workspaceRoot, 'public', 'fonts');
+  const projectCandidates = [
+    path.join(projectFontsDir, 'TheBoldFont.ttf'),
+    path.join(projectFontsDir, 'The Bold Font.ttf'),
+    path.join(projectFontsDir, 'TheBoldFont.otf'),
+    path.join(projectFontsDir, 'The Bold Font.otf'),
   ];
 
-  for (const candidate of candidates) {
-    if (fs.existsSync(candidate)) {
-      return candidate;
+  for (const candidate of projectCandidates) {
+    if (fs.existsSync(candidate)) return candidate;
+  }
+
+  if (fs.existsSync(projectFontsDir)) {
+    try {
+      const entries = fs.readdirSync(projectFontsDir).filter((name) => /\.(ttf|otf)$/i.test(name));
+      if (entries.length > 0) {
+        return path.join(projectFontsDir, entries[0]);
+      }
+    } catch {
+      // Fall through to system font lookup.
     }
+  }
+
+  const systemCandidates = [];
+  if (process.platform === 'win32') {
+    const winDir = process.env.WINDIR || 'C:/Windows';
+    systemCandidates.push(
+      path.join(winDir, 'Fonts', 'arialbd.ttf'),
+      path.join(winDir, 'Fonts', 'arial.ttf'),
+      path.join(winDir, 'Fonts', 'segoeuib.ttf'),
+      path.join(winDir, 'Fonts', 'segoeui.ttf'),
+      path.join(winDir, 'Fonts', 'verdanab.ttf'),
+      path.join(winDir, 'Fonts', 'verdana.ttf')
+    );
+  } else if (process.platform === 'darwin') {
+    systemCandidates.push(
+      '/System/Library/Fonts/Helvetica.ttc',
+      '/System/Library/Fonts/HelveticaNeue.ttc',
+      '/Library/Fonts/Arial Bold.ttf',
+      '/Library/Fonts/Arial.ttf',
+      '/System/Library/Fonts/Supplemental/Arial Bold.ttf'
+    );
+  } else {
+    systemCandidates.push(
+      '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf',
+      '/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',
+      '/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf',
+      '/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf',
+      '/usr/share/fonts/TTF/DejaVuSans-Bold.ttf'
+    );
+  }
+
+  for (const candidate of systemCandidates) {
+    if (fs.existsSync(candidate)) return candidate;
   }
 
   return null;
@@ -177,15 +510,16 @@ function buildVideoFilters(images, options) {
   const width = options.width || DEFAULTS.width;
   const height = options.height || DEFAULTS.height;
   const fps = options.fps || DEFAULTS.fps;
-  const sceneDuration = options.sceneDuration;
   const transitionDuration = options.transitionDuration || DEFAULTS.transitionDuration;
-  const sceneFrames = Math.max(2, Math.round(sceneDuration * fps));
+  const perSceneDurations = options.perSceneDurations;
   const filters = [];
   const overscanHeight = Math.round(height * 1.2);
 
   for (let i = 0; i < images.length; i += 1) {
+    const dur = perSceneDurations[i];
+    const sceneFrames = Math.max(2, Math.round(dur * fps));
     filters.push(
-      `[${i}:v]scale=${width}:${overscanHeight}:force_original_aspect_ratio=increase,crop=${width}:${overscanHeight},zoompan=z='min(zoom+0.0015,1.5)':d=${sceneFrames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=${width}x${height}:fps=${fps},trim=duration=${sceneDuration.toFixed(3)},setpts=PTS-STARTPTS[v${i}]`
+      `[${i}:v]scale=${width}:${overscanHeight}:force_original_aspect_ratio=increase,crop=${width}:${overscanHeight},zoompan=z='min(zoom+0.0015,1.5)':d=${sceneFrames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=${width}x${height}:fps=${fps},trim=duration=${dur.toFixed(3)},setpts=PTS-STARTPTS[v${i}]`
     );
   }
 
@@ -193,12 +527,12 @@ function buildVideoFilters(images, options) {
     return {
       filters,
       finalVideoLabel: 'v0',
-      totalDuration: sceneDuration,
+      totalDuration: perSceneDurations[0],
     };
   }
 
   let currentLabel = 'v0';
-  let currentDuration = sceneDuration;
+  let currentDuration = perSceneDurations[0];
 
   for (let i = 1; i < images.length; i += 1) {
     const nextLabel = `v${i}`;
@@ -208,7 +542,7 @@ function buildVideoFilters(images, options) {
       `[${currentLabel}][${nextLabel}]xfade=transition=fade:duration=${transitionDuration}:offset=${offset.toFixed(3)}[${outputLabel}]`
     );
     currentLabel = outputLabel;
-    currentDuration += sceneDuration - transitionDuration;
+    currentDuration += perSceneDurations[i] - transitionDuration;
   }
 
   return {
@@ -237,14 +571,28 @@ function buildAudioFilters(voiceInputIndex, backgroundInputIndex, audioDuration)
   return filters;
 }
 
+function buildSceneTimings(perSceneDurations, transitionDuration) {
+  const timings = [];
+  let cursor = 0;
+  for (let i = 0; i < perSceneDurations.length; i += 1) {
+    const dur = perSceneDurations[i];
+    const start = cursor;
+    const end = start + dur;
+    timings.push({ start, end });
+    cursor += dur - transitionDuration;
+  }
+  return timings;
+}
+
 async function renderWithFfmpeg(config) {
   await fs.ensureDir(path.dirname(config.outputPath));
 
   return new Promise((resolve, reject) => {
     const command = ffmpeg();
+    const perSceneDurations = config.perSceneDurations;
 
-    for (const imagePath of config.images) {
-      command.input(imagePath).inputOptions(['-loop 1', `-t ${config.sceneDuration.toFixed(3)}`]);
+    for (let i = 0; i < config.images.length; i += 1) {
+      command.input(config.images[i]).inputOptions(['-loop 1', `-t ${perSceneDurations[i].toFixed(3)}`]);
     }
 
     command.input(config.voiceoverPath);
@@ -253,7 +601,13 @@ async function renderWithFfmpeg(config) {
       command.input(config.backgroundMusicPath).inputOptions(['-stream_loop -1']);
     }
 
-    const videoFilterResult = buildVideoFilters(config.images, config);
+    const videoFilterResult = buildVideoFilters(config.images, {
+      width: config.width,
+      height: config.height,
+      fps: config.fps,
+      transitionDuration: config.transitionDuration,
+      perSceneDurations,
+    });
     const voiceInputIndex = config.images.length;
     const backgroundInputIndex = config.backgroundMusicPath ? voiceInputIndex + 1 : null;
     const filters = [
@@ -261,25 +615,51 @@ async function renderWithFfmpeg(config) {
       ...buildAudioFilters(voiceInputIndex, backgroundInputIndex, config.audioDuration),
     ];
 
-    const subtitleFilter =
-      `[${videoFilterResult.finalVideoLabel}]subtitles='${escapeFilterPath(config.subtitlePath)}'` +
-      (config.fontsDir ? `:fontsdir='${escapeFilterPath(config.fontsDir)}'` : '') +
-      '[vsub]';
+    const hasLayeredOverlays = Array.isArray(config.overlayScenes) && config.overlayScenes.some(
+      (scene) => scene && Array.isArray(scene.layers) && scene.layers.length > 0
+    );
 
-    const drawtextFilter =
-      `[vsub]drawtext=text='${escapeDrawtext(config.socialOverlayText)}'` +
-      ':x=w-tw-40' +
-      ':y=60' +
-      ':fontcolor=white' +
-      ':fontsize=42' +
-      ':box=1' +
-      ':boxcolor=black@0.55' +
-      ':boxborderw=18' +
-      (config.overlayFontPath ? `:fontfile='${escapeFilterPath(config.overlayFontPath)}'` : '') +
-      '[vout]';
+    if (config.disableAutoCaptions) {
+      // Rename the final video stream so the overlay builder can chain off it.
+      filters.push(`[${videoFilterResult.finalVideoLabel}]null[vbase]`);
+      if (hasLayeredOverlays) {
+        const sceneTimings = buildSceneTimings(
+          perSceneDurations,
+          config.transitionDuration || DEFAULTS.transitionDuration
+        );
+        const overlayFilters = buildOverlayDrawtextFilters(config.overlayScenes, sceneTimings, {
+          width: config.width,
+          height: config.height,
+          fontsDir: config.fontsDir,
+          overlayFontPath: config.overlayFontPath,
+          inputLabel: 'vbase',
+        });
+        filters.push(...overlayFilters);
+      } else {
+        // No overlay text either — produce a clean video with no burned-in captions.
+        filters.push('[vbase]null[vout]');
+      }
+    } else {
+      const subtitleFilter =
+        `[${videoFilterResult.finalVideoLabel}]subtitles='${escapeFilterPath(config.subtitlePath)}'` +
+        (config.fontsDir ? `:fontsdir='${escapeFilterPath(config.fontsDir)}'` : '') +
+        '[vsub]';
 
-    filters.push(subtitleFilter);
-    filters.push(drawtextFilter);
+      const drawtextFilter =
+        `[vsub]drawtext=text='${escapeDrawtext(config.socialOverlayText)}'` +
+        ':x=w-tw-40' +
+        ':y=60' +
+        ':fontcolor=white' +
+        ':fontsize=42' +
+        ':box=1' +
+        ':boxcolor=black@0.55' +
+        ':boxborderw=18' +
+        (config.overlayFontPath ? `:fontfile='${escapeFilterPath(config.overlayFontPath)}'` : '') +
+        '[vout]';
+
+      filters.push(subtitleFilter);
+      filters.push(drawtextFilter);
+    }
 
     command
       .complexFilter(filters)
@@ -331,35 +711,91 @@ async function createViralVideo(input) {
     ? path.resolve(input.backgroundMusicPath)
     : path.join(workspaceRoot, 'public', 'audio', 'background-music.mp3');
   const backgroundMusicPath = (await fs.pathExists(backgroundMusicCandidate)) ? backgroundMusicCandidate : null;
-  const transcription = await transcribeAudioToWords(voiceoverPath, openaiApiKey, input.subtitleModel);
+
+  const overlayScenes = Array.isArray(input.overlayScenes) ? input.overlayScenes : [];
+  const hasUserOverlays = overlayScenes.some(
+    (scene) => scene && Array.isArray(scene.layers) && scene.layers.length > 0
+  );
+  // The user requested that we no longer burn Whisper word-by-word captions into the video.
+  // Treat overlays as the source of truth and skip the legacy ASS path whenever any layers exist,
+  // or whenever the caller opts in explicitly via disableAutoCaptions.
+  const disableAutoCaptions = hasUserOverlays || Boolean(input.disableAutoCaptions);
+
   const transitionDuration = Number(input.transitionDuration) || DEFAULTS.transitionDuration;
-  const sceneDuration = Math.max(
-    3,
-    (transcription.duration + Math.max(0, images.length - 1) * transitionDuration) / images.length
-  );
-  const subtitlePath = path.resolve(
-    input.subtitlePath || outputPath.replace(/\.mp4$/i, '.ass')
-  );
-  const transcriptPath = path.resolve(
-    input.transcriptPath || outputPath.replace(/\.mp4$/i, '.transcript.json')
-  );
+
+  let transcription = null;
+  // Caller-supplied per-scene durations win (these come from probing the per-segment audio files
+  // in the generator). If absent, we evenly distribute the total audio duration across the images
+  // so the rendered MP4 always matches the voiceover length instead of being clipped to 5s defaults.
+  let perSceneDurations = Array.isArray(input.sceneDurations)
+    ? input.sceneDurations.map((value) => Math.max(0.5, Number(value) || 0))
+    : [];
+
+  let audioDuration = Number(input.audioDuration) || 0;
+
+  if (!disableAutoCaptions) {
+    transcription = await transcribeAudioToWords(voiceoverPath, openaiApiKey, input.subtitleModel);
+    audioDuration = transcription.duration;
+  } else {
+    if (!audioDuration) {
+      audioDuration = await probeAudioDuration(voiceoverPath);
+    }
+    if (!audioDuration && perSceneDurations.length === images.length) {
+      audioDuration = perSceneDurations.reduce((sum, value) => sum + value, 0);
+    }
+    if (!audioDuration) {
+      audioDuration = Math.max(3, images.length * 5);
+    }
+  }
+
+  if (perSceneDurations.length !== images.length) {
+    // Fall back to an even spread of the (now correct) audio length. The +(n-1)*xfade accounts
+    // for the visual time the crossfade transitions overlap two scenes.
+    const evenDuration = Math.max(
+      3,
+      (audioDuration + Math.max(0, images.length - 1) * transitionDuration) / images.length
+    );
+    perSceneDurations = images.map(() => evenDuration);
+  } else if (perSceneDurations.length > 1) {
+    // Account for the time consumed by crossfades so total visual length matches the audio length.
+    const padding = transitionDuration;
+    perSceneDurations = perSceneDurations.map((dur, index) =>
+      index === 0 || index === perSceneDurations.length - 1 ? dur + padding / 2 : dur + padding
+    );
+  }
+
   const fontsDir = path.join(workspaceRoot, 'public', 'fonts');
   const overlayFontPath = findSubtitleFontPath(workspaceRoot);
-  const subtitleContents = buildAssSubtitle(transcription.words, {
-    subtitleFontName: input.subtitleFontName || DEFAULTS.subtitleFontName,
-  });
+  const resolvedFontsDir = (await fs.pathExists(fontsDir)) ? fontsDir : null;
 
-  await fs.ensureDir(path.dirname(subtitlePath));
-  await fs.ensureDir(path.dirname(transcriptPath));
-  await fs.writeFile(subtitlePath, subtitleContents, 'utf8');
-  await fs.writeJson(
-    transcriptPath,
-    {
-      ...transcription,
-      generatedAt: new Date().toISOString(),
-    },
-    { spaces: 2 }
-  );
+  if (disableAutoCaptions && hasUserOverlays && !overlayFontPath) {
+    throw new Error(
+      'Overlay text needs a font file. Drop any .ttf or .otf into public/fonts/ ' +
+      '(e.g. Inter, Roboto, or copy arial.ttf from C:\\Windows\\Fonts) and render again.'
+    );
+  }
+
+  let subtitlePath = '';
+  let transcriptPath = '';
+
+  if (!disableAutoCaptions && transcription) {
+    subtitlePath = path.resolve(input.subtitlePath || outputPath.replace(/\.mp4$/i, '.ass'));
+    transcriptPath = path.resolve(input.transcriptPath || outputPath.replace(/\.mp4$/i, '.transcript.json'));
+    const subtitleContents = buildAssSubtitle(transcription.words, {
+      subtitleFontName: input.subtitleFontName || DEFAULTS.subtitleFontName,
+    });
+    await fs.ensureDir(path.dirname(subtitlePath));
+    await fs.ensureDir(path.dirname(transcriptPath));
+    await fs.writeFile(subtitlePath, subtitleContents, 'utf8');
+    await fs.writeJson(
+      transcriptPath,
+      {
+        ...transcription,
+        generatedAt: new Date().toISOString(),
+      },
+      { spaces: 2 }
+    );
+  }
 
   await renderWithFfmpeg({
     images,
@@ -368,23 +804,26 @@ async function createViralVideo(input) {
     outputPath,
     subtitlePath,
     transcriptPath,
-    fontsDir: (await fs.pathExists(fontsDir)) ? fontsDir : null,
+    fontsDir: resolvedFontsDir,
     overlayFontPath,
+    overlayScenes: disableAutoCaptions ? overlayScenes : null,
+    disableAutoCaptions,
     socialOverlayText: input.socialOverlayText || DEFAULTS.socialOverlayText,
     width: Number(input.width) || DEFAULTS.width,
     height: Number(input.height) || DEFAULTS.height,
     fps: Number(input.fps) || DEFAULTS.fps,
     transitionDuration,
-    sceneDuration,
-    audioDuration: transcription.duration,
+    perSceneDurations,
+    audioDuration,
   });
 
   return {
     outputPath,
     subtitlePath,
     transcriptPath,
-    duration: transcription.duration,
+    duration: audioDuration,
     backgroundMusicPath,
+    captionsBurnedIn: !disableAutoCaptions,
   };
 }
 
@@ -410,4 +849,5 @@ if (require.main === module) {
 
 module.exports = {
   createViralVideo,
+  probeAudioDuration,
 };
