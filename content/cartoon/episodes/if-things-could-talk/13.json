@@ -1,0 +1,105 @@
+{
+  "number": 13,
+  "topic": "The rubbish bin on collection day.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:11:16.121Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "If Rubbish Bins Could Talk: Collection Day",
+    "shots": [
+      {
+        "id": "b2gjzh",
+        "narration": "Today's my big outing. Unless they forget me. Again.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon driveway outside a cosy modern house, unmarked rubbish truck visible down the street.",
+        "action": "A green wheeled rubbish bin with big hopeful eyes and a small mouth leans toward the distant truck.",
+        "camera": "push-in",
+        "mood": "Sunny morning, eager anticipation, bright cheerful colours."
+      },
+      {
+        "id": "qvlz0j",
+        "narration": "I've been holding everyone's bad decisions all week.",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of the green rubbish bin beside the garage, rubbish bags protruding beneath its lid.",
+        "action": "The green rubbish bin with big strained eyes and a small grimacing mouth struggles to close its lid over the bags.",
+        "camera": "static",
+        "mood": "Comically overstuffed, warm sunlight, playful frustration."
+      },
+      {
+        "id": "era3ph",
+        "narration": "[surprised] That's my ride. Why am I still here?",
+        "characters": [],
+        "scene": "Vertical 9:16, driveway foreground and residential street beyond, unmarked rubbish truck passing the entrance.",
+        "action": "The green rubbish bin with big alarmed eyes and a small open mouth watches the truck pass.",
+        "camera": "pan-right",
+        "mood": "Sudden panic, exaggerated cartoon expression, sunny suburban setting."
+      },
+      {
+        "id": "64fo0h",
+        "narration": "Apparently, collection day requires me to collect my human.",
+        "characters": [],
+        "scene": "Vertical 9:16, paved driveway leading to the house's plain front door.",
+        "action": "The green rubbish bin with big determined eyes and a small pursed mouth bumps against the front door.",
+        "camera": "low-angle",
+        "mood": "Urgent slapstick, determined little hero, bright colours."
+      },
+      {
+        "id": "jgoxdn",
+        "narration": "Nothing says dignity like being dragged outside in slippers.",
+        "characters": [],
+        "scene": "Vertical 9:16, driveway sloping toward the kerb, only slippered feet and one hand visible beside the bin.",
+        "action": "A hand pulls the tilted green rubbish bin with big embarrassed eyes and a small tense mouth toward the kerb.",
+        "camera": "pan-left",
+        "mood": "Flustered morning rush, cosy domestic comedy."
+      },
+      {
+        "id": "o5de6z",
+        "narration": "[excited] Finally! A chauffeur who appreciates my baggage.",
+        "characters": [],
+        "scene": "Vertical 9:16, rear lifting mechanism of a stationary unmarked rubbish truck beside the kerb.",
+        "action": "The truck mechanism lifts the green rubbish bin with big delighted eyes and a small beaming mouth.",
+        "camera": "low-angle",
+        "mood": "Triumphant, theatrical, sparkling morning light."
+      },
+      {
+        "id": "4mj8tu",
+        "narration": "I haven't felt this empty since they bought reusable bags.",
+        "characters": [],
+        "scene": "Vertical 9:16, rear hopper of the rubbish truck, bin held upside down above it.",
+        "action": "Rubbish tumbles from the inverted green bin with big relieved eyes and a small relaxed smile.",
+        "camera": "static",
+        "mood": "Satisfying release, harmless cartoon mess, bright clean rendering."
+      },
+      {
+        "id": "fqyobp",
+        "narration": "Lovely. My fresh start lasted one banana.",
+        "characters": [],
+        "scene": "Vertical 9:16, green rubbish bin back beside the garage with its lid open.",
+        "action": "A banana peel drops into the green rubbish bin with big disbelieving eyes and a small downturned mouth.",
+        "camera": "push-in",
+        "mood": "Deadpan disappointment, sunny domestic calm."
+      },
+      {
+        "id": "0yao35",
+        "narration": "[chuckles] My sponge needs therapy after this spa treatment.",
+        "characters": [],
+        "scene": "Vertical 9:16, driveway washing area beside a plain bucket of soapy water.",
+        "action": "A gloved hand scrubs the dirty green bin's cheek with a yellow sponge, beside its big sheepish eyes and small awkward smile.",
+        "camera": "pull-out",
+        "mood": "Cheerful sudsy mess, comic embarrassment, playful spa-day finish."
+      }
+    ],
+    "endHook": "Next episode: the sponge discusses its deeply regrettable career choice.",
+    "createdAt": "2026-11-12T20:11:16.120Z",
+    "description": "One rubbish bin dreams of finally getting emptied—but getting to the kerb is only half the struggle. Collection day is its big outing, and somehow it still ends up needing a bath.",
+    "tags": [
+      "If Things Could Talk",
+      "rubbish bin",
+      "collection day",
+      "animated comedy",
+      "relatable",
+      "YouTube Shorts"
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "number": 8,
+  "topic": "A ball rolls under the sofa; Bruno is too big, so small Mishi saves the day. Being small is a superpower.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:13:42.351Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi’s Small Superpower",
+    "shots": [
+      {
+        "id": "dr511x",
+        "narration": "Their favorite ball vanished right beneath Bruno’s nose!",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Cosy colourful living room, rounded yellow sofa, soft warm lighting, 3D family animation, vertical 9:16, no text.",
+        "action": "A bright red ball rolls beneath the sofa directly in front of Bruno’s big black nose.",
+        "camera": "low-angle",
+        "mood": "Playful surprise, wide puppy eyes, bright red ball against a cream rug."
+      },
+      {
+        "id": "tqb94s",
+        "narration": "Bruno knew exactly where to look.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Floor beside the yellow sofa, narrow shadowed gap underneath, warm sunlight, 3D animation, vertical 9:16, no text.",
+        "action": "Bruno lowers his head to peer beneath the sofa.",
+        "camera": "push-in",
+        "mood": "Curious golden-brown puppy, floppy ears spread beside his blue collar."
+      },
+      {
+        "id": "fqqbdo",
+        "narration": "[chuckles] But his big paw couldn't reach!",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Floor-level view beneath the rounded sofa, red ball beyond reach, 3D animation, vertical 9:16, no text.",
+        "action": "Bruno stretches one broad paw toward the distant red ball.",
+        "camera": "static",
+        "mood": "Gentle comic frustration, paw visibly short of the ball."
+      },
+      {
+        "id": "l1zi02",
+        "narration": "Mishi came closer to inspect the tiny gap.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Cream rug beside the yellow sofa, Bruno resting nearby, warm living room, 3D animation, vertical 9:16, no text.",
+        "action": "Mishi crouches beside the sofa gap.",
+        "camera": "pan-left",
+        "mood": "Thoughtful grey kitten, alert green eyes, little red ear bow."
+      },
+      {
+        "id": "050944",
+        "narration": "Her little paw fit perfectly underneath.",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Close floor-level view of the sofa gap and cream rug, 3D animation, vertical 9:16, no text.",
+        "action": "Mishi slips one small grey paw beneath the sofa.",
+        "camera": "push-in",
+        "mood": "Quiet discovery, tiny paw framed against the roomy gap."
+      },
+      {
+        "id": "to36ie",
+        "narration": "[excited] Small paws, big possibility!",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Beneath the sofa edge, red ball visible near a rounded wooden leg, 3D animation, vertical 9:16, no text.",
+        "action": "Mishi reaches her small paw around the back of the ball.",
+        "camera": "low-angle",
+        "mood": "Focused anticipation, soft sunlight illuminating grey fur and red rubber."
+      },
+      {
+        "id": "ufp7to",
+        "narration": "One careful nudge brought the ball into view.",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Sofa edge above the cream rug, red ball partly beneath it, 3D animation, vertical 9:16, no text.",
+        "action": "Mishi nudges the red ball toward the sofa opening.",
+        "camera": "static",
+        "mood": "Careful progress, bright ball emerging into warm light."
+      },
+      {
+        "id": "m0kb8b",
+        "narration": "Bruno waited beside the opening, ready to help.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Living room floor beside the sofa opening, Mishi crouched nearby, 3D animation, vertical 9:16, no text.",
+        "action": "Bruno plants his broad paw just beyond the emerging ball.",
+        "camera": "pull-out",
+        "mood": "Eager teamwork, attentive puppy and focused kitten."
+      },
+      {
+        "id": "mwxm7i",
+        "narration": "[giggles] His big paw made the perfect ball stop!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Cream rug directly outside the yellow sofa, warm sunlight, 3D animation, vertical 9:16, no text.",
+        "action": "The red ball rolls out against Bruno’s waiting paw.",
+        "camera": "low-angle",
+        "mood": "Cheerful success, rescued ball safely between the friends."
+      },
+      {
+        "id": "k8v2jd",
+        "narration": "Bruno rolled their rescued treasure back to Mishi.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Open cream rug beside the rounded yellow sofa, 3D animation, vertical 9:16, no text.",
+        "action": "Bruno gently rolls the red ball toward Mishi.",
+        "camera": "pan-right",
+        "mood": "Affectionate play, relaxed puppy ears and bright kitten eyes."
+      },
+      {
+        "id": "8hlhpo",
+        "narration": "Then something rustled beyond the garden door.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Living room facing an open garden doorway, leafy shrub outside, red ball on rug, 3D animation, vertical 9:16, no text.",
+        "action": "A leafy garden shrub gently trembles beyond the doorway.",
+        "camera": "push-in",
+        "mood": "Sunny curiosity, friends watching the softly moving leaves."
+      },
+      {
+        "id": "btjp7r",
+        "narration": "[excited] Small is a superpower! Next: the garden rustle!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny garden threshold opening onto flowers and a leafy shrub, 3D animation, vertical 9:16, no text.",
+        "action": "Mishi and Bruno step together toward the garden.",
+        "camera": "pull-out",
+        "mood": "Confident friendship, warm sunshine, inviting green garden."
+      }
+    ],
+    "endHook": "Next time, a mysterious rustle waits in the garden!",
+    "createdAt": "2026-11-12T20:13:42.349Z",
+    "description": "When their ball rolls under the sofa, Bruno’s paws cannot reach it! Little Mishi finds a clever way to help, showing that being small can be a superpower.",
+    "tags": [
+      "Mishi and Bruno",
+      "kids cartoon",
+      "kitten and puppy",
+      "friendship",
+      "being small",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

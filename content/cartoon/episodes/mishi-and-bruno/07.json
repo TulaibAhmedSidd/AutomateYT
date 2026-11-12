@@ -1,0 +1,165 @@
+{
+  "number": 7,
+  "topic": "The mystery of the missing socks: detective Mishi discovers Bruno has been hiding them in his bed.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:13:46.069Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi & Bruno: The Missing Sock Mystery",
+    "shots": [
+      {
+        "id": "jior9m",
+        "narration": "One lonely sock remained—but where had all its friends gone?",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Cosy colourful laundry nook, nearly empty wicker basket, warm sunlight, rounded 3D family animation, vertical 9:16, no text.",
+        "action": "Mishi lifts one striped sock from the basket.",
+        "camera": "push-in",
+        "mood": "Curious green eyes, one raised eyebrow, bright playful colours."
+      },
+      {
+        "id": "izqf4k",
+        "narration": "Detective Mishi searched for a clue.",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Sunny laundry nook beside a low wicker basket, smooth wooden floor, soft warm 3D lighting, vertical 9:16, no text.",
+        "action": "Mishi peers beneath the basket through a toy magnifying glass.",
+        "camera": "low-angle",
+        "mood": "Careful concentration, twitching whiskers, cosy golden light."
+      },
+      {
+        "id": "k0km6m",
+        "narration": "[excited] A yellow sock pointed straight toward the hallway!",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Laundry doorway opening onto a colourful hallway, yellow sock on the floor, rounded 3D shapes, vertical 9:16, no text.",
+        "action": "Mishi points at the yellow sock.",
+        "camera": "pan-right",
+        "mood": "Wide green eyes, delighted discovery, sunny yellow accents."
+      },
+      {
+        "id": "690vyc",
+        "narration": "More socks made a trail to Bruno's bed.",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Cosy hallway with three scattered colourful socks leading toward a round puppy bed, warm 3D animation, vertical 9:16, no text.",
+        "action": "Mishi walks alongside the sock trail.",
+        "camera": "pan-left",
+        "mood": "Quiet curiosity, careful little steps, inviting warm colours."
+      },
+      {
+        "id": "xhliwz",
+        "narration": "Bruno looked unusually busy with his blanket.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny sitting-room corner, round puppy bed with a bulging blanket, Mishi beside the bed, rounded 3D animation, vertical 9:16, no text.",
+        "action": "Bruno pulls his blanket over a protruding striped sock.",
+        "camera": "static",
+        "mood": "Sheepish puppy smile, curious kitten gaze, gentle comic tension."
+      },
+      {
+        "id": "hvmsrj",
+        "narration": "[surprised] Underneath lay a whole rainbow of missing socks!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Round puppy bed filled with colourful socks beneath a loose blanket, cosy 3D sitting room, vertical 9:16, no text.",
+        "action": "Mishi lifts the blanket's corner to reveal the socks.",
+        "camera": "push-in",
+        "mood": "Mishi's wide eyes, Bruno's lowered floppy ears, bright rainbow fabric."
+      },
+      {
+        "id": "80uzkf",
+        "narration": "Bruno had borrowed them for a soft, snuggly nest.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sock-filled puppy bed in a sunny sitting-room corner, Mishi seated nearby, soft rounded 3D animation, vertical 9:16, no text.",
+        "action": "Bruno rests his cheek on the pile of socks.",
+        "camera": "low-angle",
+        "mood": "Sleepy puppy eyes, understanding kitten expression, soft cosy textures."
+      },
+      {
+        "id": "lbcsmn",
+        "narration": "Mishi found something cosy that Bruno could keep.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Beside the round puppy bed, plain plump cushion between the friends, warm colourful 3D interior, vertical 9:16, no text.",
+        "action": "Mishi offers Bruno the cushion.",
+        "camera": "orbit",
+        "mood": "Kind kitten smile, hopeful puppy eyes, comforting pastel fabric."
+      },
+      {
+        "id": "za6dip",
+        "narration": "[chuckles] Bruno returned his borrowed bedtime collection.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sitting-room floor beside a wicker laundry basket and puppy bed, warm 3D family animation, vertical 9:16, no text.",
+        "action": "Bruno tips an armful of colourful socks into the basket.",
+        "camera": "pull-out",
+        "mood": "Apologetic puppy smile, approving kitten expression, playful tumbling colours."
+      },
+      {
+        "id": "k00t1z",
+        "narration": "Soon, every sock had its partner again.",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Low laundry table with neatly matched sock pairs and one separated striped pair, sunny 3D interior, vertical 9:16, no text.",
+        "action": "Mishi places the final striped sock beside its match.",
+        "camera": "static",
+        "mood": "Satisfied green eyes, tidy rainbow rows, peaceful warm light."
+      },
+      {
+        "id": "h35azl",
+        "narration": "And Bruno's own cushion made the perfect nest.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Round puppy bed with its plump cushion, Mishi sitting beside it, open garden doorway nearby, rounded 3D animation, vertical 9:16, no text.",
+        "action": "Bruno snuggles into his cushion.",
+        "camera": "push-in",
+        "mood": "Contented puppy smile, affectionate kitten gaze, soft golden sunshine."
+      },
+      {
+        "id": "wb5o18",
+        "narration": "[excited] Ask before borrowing; next comes the mystery of the rolling ball!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny garden doorway beside Bruno's bed, both friends facing a bright red ball, cosy 3D family animation, vertical 9:16, no text.",
+        "action": "A red ball rolls through the doorway toward the friends.",
+        "camera": "pan-right",
+        "mood": "Perked ears, curious wide eyes, cheerful sunlight spilling across the floor."
+      }
+    ],
+    "endHook": "Next comes the mystery of the rolling ball!",
+    "createdAt": "2026-11-12T20:13:46.068Z",
+    "description": "Where have all the socks gone? Detective Mishi follows a colourful trail to Bruno’s cosy bed, where the best friends discover why asking before borrowing matters.",
+    "tags": [
+      "Mishi and Bruno",
+      "missing socks",
+      "kids cartoon",
+      "friendship",
+      "gentle mystery",
+      "asking permission",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "number": 15,
+  "topic": "Zheng He (1371-1433 CE) was a Chinese Muslim admiral who led seven great sea voyages between 1405 and 1433 CE with huge treasure ships, reaching Arabia and East Africa.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:16:44.690Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Zheng He (1371-1433 CE) | Saat Samandari Safar",
+    "shots": [
+      {
+        "id": "krvyrq",
+        "narration": "اتنا بڑا جہاز سمندر میں کیسے چلتا تھا؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated library; a towering projection of a wooden treasure ship fills the space above Hamza and Noori. No visible text or markings.",
+        "action": "Hamza tilts his head upward toward the enormous projected ship.",
+        "camera": "low-angle",
+        "mood": "Friendly wonder, golden lamplight against luminous blue water."
+      },
+      {
+        "id": "tg0fe6",
+        "narration": "نوری ہمیں ژینگ ہے کے سمندری سفر دکھاتا ہے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, cosy manuscript library, blank notebook in Hamza's hand; Noori's brass body glows beside a floating ocean projection. No visible writing.",
+        "action": "Noori expands its ocean projection across the library.",
+        "camera": "pull-out",
+        "mood": "Inviting discovery, warm brass and sparkling sea colours."
+      },
+      {
+        "id": "4d5jl8",
+        "narration": "[excited] ژینگ ہے ایک چینی مسلمان امیرالبحر تھے!",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, Noori beside a projected historical Chinese wooden ship deck; Zheng He appears only as a small respectful rear-view figure in period robes, far beyond the foreground ropes. No writing or emblems.",
+        "action": "Noori projects the distant admiral looking across his fleet.",
+        "camera": "push-in",
+        "mood": "Respectful and inspiring, soft morning light."
+      },
+      {
+        "id": "xmvnlp",
+        "narration": "مگر سامنے تو دور تک صرف پانی تھا!",
+        "characters": [
+          "hamza"
+        ],
+        "scene": "Vertical 9:16, Hamza at the edge of an immersive ocean projection; a wooden ship bow faces a vast empty horizon. Gentle waves, no storm or visible writing.",
+        "action": "Hamza shades his eyes while searching the horizon.",
+        "camera": "pan-right",
+        "mood": "Gentle uncertainty, wide blue sea and pale sky."
+      },
+      {
+        "id": "a8m4rb",
+        "narration": "ہوا بادبانوں کو دھکیلتی ہے، تو جہاز آگے بڑھتا ہے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, close projected view of a wooden sailing ship with broad battened sails; Noori floats beside it. No diagrams, symbols or lettering.",
+        "action": "A steady breeze fills the sails and carries the ship forward.",
+        "camera": "static",
+        "mood": "Clear and satisfying, sunlit canvas and sparkling water."
+      },
+      {
+        "id": "ndwvne",
+        "narration": "[surprised] اُن کے خزانہ بردار جہاز بہت بڑے تھے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library floor beneath a towering projected treasure ship, with its deep wooden hull and tall masts visible; Hamza and Noori stand small in the foreground. No text.",
+        "action": "Hamza spreads his arms beneath the huge ship projection.",
+        "camera": "pull-out",
+        "mood": "Playful amazement, impressive but welcoming scale."
+      },
+      {
+        "id": "9fzxx5",
+        "narration": "ژینگ ہے نے سات بڑے سمندری سفر کیے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, library table holding a luminous unlabelled ocean globe; seven small identical ship-shaped lights surround it. No letters, numbers or border markings.",
+        "action": "Noori illuminates the seven ship-shaped lights in sequence.",
+        "camera": "orbit",
+        "mood": "Magical clarity, warm brass and turquoise light."
+      },
+      {
+        "id": "la7x3e",
+        "narration": "اُن کے جہاز عرب تک پہنچے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, Noori beside a projection of a historic Arabian harbour, sandy coastline, low pale buildings and wooden sailing ships. No flags, signs or writing.",
+        "action": "A projected treasure ship glides into the Arabian harbour.",
+        "camera": "pan-left",
+        "mood": "Peaceful arrival, honey-coloured coastal sunlight."
+      },
+      {
+        "id": "fnwgf0",
+        "narration": "[excited] اور مشرقی افریقہ کے ساحلوں تک بھی!",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, Noori beside a projected East African coastal harbour with coral-stone buildings, palms and calm turquoise water. No signs or writing.",
+        "action": "A projected treasure ship approaches the East African shoreline.",
+        "camera": "pan-right",
+        "mood": "Joyful discovery, bright tropical colours."
+      },
+      {
+        "id": "djg5mx",
+        "narration": "یوں سمندر دور کے ساحلوں کو ملاتا تھا۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library with an unlabelled relief map showing China, Arabia and East Africa; miniature wooden ships rest across the blue ocean. No borders or lettering.",
+        "action": "Hamza traces the ocean between the distant coastlines with his finger.",
+        "camera": "push-in",
+        "mood": "Connected and hopeful, gentle blue projection light."
+      },
+      {
+        "id": "lqo15x",
+        "narration": "اب حمزہ سمجھ گیا، ہوا جہاز کو آگے لے جاتی ہے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, cosy workshop table, small wooden sailboat floating in a shallow water tray; Noori watches beside Hamza. Blank notebook nearby, no writing.",
+        "action": "Hamza blows gently into the toy sail, moving the boat forward.",
+        "camera": "static",
+        "mood": "Happy understanding, warm workshop lighting."
+      },
+      {
+        "id": "ex5khj",
+        "narration": "[whispers] مگر سمندر میں ستاروں سے راستہ کیسے ملتا تھا؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, dim warm library beneath a projected starry sky; an unmarked brass astrolabe silhouette glows above the table. No text, letters or numbers.",
+        "action": "Noori projects a brass astrolabe beneath the stars.",
+        "camera": "push-in",
+        "mood": "Gentle mystery, golden brass against deep blue starlight."
+      }
+    ],
+    "endHook": "Samandar mein sitaron se raasta kaise milta tha?",
+    "createdAt": "2026-11-12T20:16:44.689Z",
+    "description": "ژینگ ہے ایک چینی مسلمان امیرالبحر تھے جنہوں نے 1405 سے 1433 عیسوی کے درمیان سات بڑے سمندری سفر کیے۔ حمزہ اور نوری کے ساتھ اُن کے عظیم جہازوں، عرب اور مشرقی افریقہ تک پہنچنے والے سفروں کو جانیے۔",
+    "tags": [
+      "Musalman Sciencedan",
+      "Zheng He",
+      "Urdu cartoon",
+      "History for kids",
+      "Sea voyages",
+      "Hamza and Noori"
+    ]
+  }
+}

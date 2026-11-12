@@ -1,0 +1,130 @@
+{
+  "number": 3,
+  "topic": "Compound interest: your money earns money, and then that money earns money too. The earlier you start, the bigger the snowball (use a simple example).",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:08:46.172Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "Coin & Kash: The Money Snowball",
+    "shots": [
+      {
+        "id": "4xadoe",
+        "narration": "What if your money’s earnings could earn money too?",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright modern cafe, vertical 9:16 composition, blank tabletop, clear jar containing gold coins, no text or markings.",
+        "action": "Kash peers closely into the coin jar.",
+        "camera": "push-in",
+        "mood": "Curious wide eyes, warm sunlight, bright friendly 3D animation."
+      },
+      {
+        "id": "v936vy",
+        "narration": "Kash thinks only her starting money can earn.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Same cafe table, one large gold coin beside a cluster of smaller gold coins, no text or markings.",
+        "action": "Kash points only at the large gold coin.",
+        "camera": "static",
+        "mood": "Puzzled expression, gently tilted head, clean pastel surroundings."
+      },
+      {
+        "id": "gzys9j",
+        "narration": "[excited] Coin shows an example: start with one hundred dollars.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe tabletop with a clear jar holding ten identical plain gold discs representing the example starting money, no text.",
+        "action": "Coin presents the jar with an open-handed gesture.",
+        "camera": "pan-right",
+        "mood": "Cheerful teaching moment, shiny gold highlights, attentive Kash."
+      },
+      {
+        "id": "voyv1g",
+        "narration": "Imagine it earns ten dollars, which stays with the hundred.",
+        "characters": [
+          "coin"
+        ],
+        "scene": "Close view of the same jar and one matching gold disc on the cafe tabletop, no text or markings.",
+        "action": "Coin drops the extra disc into the jar.",
+        "camera": "push-in",
+        "mood": "Clear and playful, warm reflections on transparent glass."
+      },
+      {
+        "id": "m7mlfw",
+        "narration": "Now that earned ten can earn money too.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe tabletop, clear jar of gold discs, newest disc glowing softly beside a tiny gold bead, no text.",
+        "action": "The glowing disc produces a tiny floating gold bead.",
+        "camera": "orbit",
+        "mood": "Magical illustrative glow, Kash's delighted expression, uncluttered 3D styling."
+      },
+      {
+        "id": "drapev",
+        "narration": "[chuckles] Earnings earning more earnings: that’s compound interest.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe table with the coin jar beside a miniature snowy slope and a small snowball, no text.",
+        "action": "Coin rolls the snowball down the miniature slope.",
+        "camera": "low-angle",
+        "mood": "Playful demonstration, soft white snow, bright gold accents."
+      },
+      {
+        "id": "ey0ykd",
+        "narration": "Like this snowball, growth builds on what’s already there.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Miniature snowy slope across the cafe table, snowball surrounded by loose snow, no text or markings.",
+        "action": "The rolling snowball gathers snow into a larger ball.",
+        "camera": "pan-left",
+        "mood": "Satisfying visible growth, rounded shapes, friendly animated wonder."
+      },
+      {
+        "id": "1xbqqo",
+        "narration": "Starting earlier gives our example snowball more time to grow.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Two parallel miniature snow tracks, one long and one short, with a larger snowball below the long track and a smaller one below the short track, no text.",
+        "action": "Coin traces the longer track with one tiny hand.",
+        "camera": "pull-out",
+        "mood": "Clear visual comparison, thoughtful Kash, soft blue and gold palette."
+      },
+      {
+        "id": "27atzx",
+        "narration": "[excited] Today, draw your snowball; next, we’ll explore saving habits!",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe table with Kash's open unmarked notebook, pencil, and a small empty jar, vertical 9:16 frame, no letters or numbers.",
+        "action": "Kash draws a simple snowball picture in her notebook.",
+        "camera": "push-in",
+        "mood": "Encouraging finish, cheerful Coin, cozy sunlight and bright mustard accents."
+      }
+    ],
+    "endHook": "Next episode: small saving habits!",
+    "createdAt": "2026-11-12T20:08:46.168Z",
+    "description": "Coin helps Kash picture compound interest as a growing snowball: money earns money, and those earnings can earn money too. Follow a simple hypothetical example, then sketch your own money snowball.",
+    "tags": [
+      "Coin & Kash",
+      "compound interest",
+      "money basics",
+      "financial education",
+      "YouTube Shorts"
+    ]
+  }
+}

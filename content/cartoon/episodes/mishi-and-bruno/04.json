@@ -1,0 +1,168 @@
+{
+  "number": 4,
+  "topic": "Bruno breaks a flower pot while playing and learns to say sorry and help fix it.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:13:22.677Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi & Bruno: The Flower Pot Oops!",
+    "shots": [
+      {
+        "id": "d7fdwh",
+        "narration": "Bruno's ball is heading straight for Mishi's flower pot!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny garden patio beside a cosy colourful house; a flower pot stands near a soft ball, vertical 9:16, rounded 3D family animation, no text.",
+        "action": "Bruno sends the soft ball rolling toward the flower pot.",
+        "camera": "push-in",
+        "mood": "Warm sunlight, bright flowers, playful anticipation."
+      },
+      {
+        "id": "b8zev4",
+        "narration": "Oops! One little bump makes a big garden mess.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Garden patio with the ball beside a lightweight terracotta-coloured flower pot, vertical 9:16, soft rounded 3D forms, no text.",
+        "action": "The flower pot topples into two large smooth-edged pieces beside an intact flower root ball.",
+        "camera": "low-angle",
+        "mood": "Gentle cartoon surprise, scattered soil, no sharp fragments."
+      },
+      {
+        "id": "zz97p4",
+        "narration": "[surprised] Bruno hadn't meant to break anything.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Sunny patio beside two rounded pot pieces and a flowering plant resting on its intact soil plug, vertical 9:16, no text.",
+        "action": "Bruno lowers his floppy ears toward the broken pot.",
+        "camera": "push-in",
+        "mood": "Soft golden light, drooping ears, regretful puppy eyes."
+      },
+      {
+        "id": "s6u640",
+        "narration": "Mishi finds her favourite flower lying beside its pot.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Garden patio with the unharmed flowering plant and two large pot pieces between the friends, vertical 9:16, no text.",
+        "action": "Mishi kneels beside the flowering plant.",
+        "camera": "static",
+        "mood": "Quiet concern, gentle green eyes, warm garden colours."
+      },
+      {
+        "id": "7lwvzl",
+        "narration": "Bruno takes a brave breath and steps closer.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Patio beside the garden flower bed, Mishi seated near the broken planter, vertical 9:16, no text.",
+        "action": "Bruno takes one small step toward Mishi.",
+        "camera": "pan-right",
+        "mood": "Tentative courage, soft sunlight, open space between friends."
+      },
+      {
+        "id": "bdzef5",
+        "narration": "[sighs] I'm sorry, Mishi. I'll help fix your pot.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Close view of the friends beside the broken flower pot, vertical 9:16, rounded 3D animation, no text.",
+        "action": "Bruno places one paw gently over his chest.",
+        "camera": "push-in",
+        "mood": "Sincere puppy eyes, relaxed kitten expression, warm light."
+      },
+      {
+        "id": "vtlwo7",
+        "narration": "Mishi brings strong tape for their little repair.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Low garden work mat beside the damaged pot, with an unmarked roll of wide colourful tape, vertical 9:16, no text.",
+        "action": "Mishi slides the tape roll toward Bruno.",
+        "camera": "pan-left",
+        "mood": "Hopeful faces, cheerful colours, cosy teamwork."
+      },
+      {
+        "id": "8fwv5d",
+        "narration": "First, Mishi carefully fits the two pieces together.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Garden work mat with two large smooth-edged pot halves and the flower resting nearby, vertical 9:16, no text.",
+        "action": "Mishi presses the matching pot halves together.",
+        "camera": "static",
+        "mood": "Careful little paws, focused green eyes, soft sunshine."
+      },
+      {
+        "id": "b17txq",
+        "narration": "[chuckles] Bruno gives the pot a colourful tape belt.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Garden work mat with Mishi holding the fitted pot steady, wide plain colourful tape ready around its middle, vertical 9:16, no text.",
+        "action": "Bruno wraps a broad tape band around the repaired pot.",
+        "camera": "orbit",
+        "mood": "Proud puppy grin, bright tape, friendly rounded shapes."
+      },
+      {
+        "id": "izda39",
+        "narration": "Together, they give the flower its home again.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny garden patio with the repaired taped pot upright between the friends, vertical 9:16, no text.",
+        "action": "Mishi and Bruno lower the intact flower root ball into the repaired pot together.",
+        "camera": "pull-out",
+        "mood": "Happy teamwork, upright blossoms, warm golden highlights."
+      },
+      {
+        "id": "eirmr6",
+        "narration": "The flower stands tall, and Mishi welcomes a hug.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Cosy garden patio beside the repaired flower pot, a curving trail of fallen petals visible beyond, vertical 9:16, no text.",
+        "action": "Mishi and Bruno share a gentle hug.",
+        "camera": "static",
+        "mood": "Relieved smiles, bright blossoms, affectionate warmth."
+      },
+      {
+        "id": "15jc7w",
+        "narration": "[excited] Say sorry and help—next, let's follow those petals!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny garden path with a winding trail of colourful petals leading behind a rounded shrub; repaired pot in the foreground, vertical 9:16, no text.",
+        "action": "Bruno points toward the winding petal trail.",
+        "camera": "pan-right",
+        "mood": "Curious bright eyes, inviting sunshine, playful anticipation."
+      }
+    ],
+    "endHook": "Next, where does that mysterious garden trail lead?",
+    "createdAt": "2026-11-12T20:13:22.676Z",
+    "description": "Bruno’s garden game ends with a broken flower pot and a droopy puppy face. With Mishi’s help, he learns that saying sorry and helping put things right belong together.",
+    "tags": [
+      "Mishi and Bruno",
+      "kids cartoon",
+      "saying sorry",
+      "friendship",
+      "garden adventure",
+      "gentle lessons",
+      "3D animation"
+    ]
+  }
+}

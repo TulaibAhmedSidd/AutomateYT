@@ -1,0 +1,105 @@
+{
+  "number": 15,
+  "topic": "The bathroom mirror on a bad-hair morning.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:11:16.965Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "If Things Could Talk: The Bathroom Mirror",
+    "shots": [
+      {
+        "id": "wg9a4t",
+        "narration": "I showed one honest reflection. Now apparently I'm the problem.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon bathroom, rounded mirror above a white sink, peach tiles, no writing.",
+        "action": "The mirror, with big expressive eyes and a small mouth on its glass, recoils from a towering tuft of messy hair reflected below its face.",
+        "camera": "push-in",
+        "mood": "Warm morning light, wide-eyed comic alarm."
+      },
+      {
+        "id": "g8vl6j",
+        "narration": "My morning started peacefully. Then the hair arrived.",
+        "characters": [],
+        "scene": "Vertical 9:16, same cosy bathroom, rounded mirror and white sink, rear edge of a messy-haired head in the foreground.",
+        "action": "The mirror, with big expressive eyes and a small mouth, stares downward at the reflected nest of tangled hair.",
+        "camera": "static",
+        "mood": "Bright pastel colours, stunned silence."
+      },
+      {
+        "id": "54439g",
+        "narration": "[sarcastic] Yes, tilt your head. Perhaps gravity accepts requests.",
+        "characters": [],
+        "scene": "Vertical 9:16, same bathroom mirror, messy hair visible at the bottom of the reflection.",
+        "action": "A partially visible head tilts sideways beneath the mirror's unimpressed big eyes and small mouth.",
+        "camera": "pan-right",
+        "mood": "Playful frustration, warm soft lighting."
+      },
+      {
+        "id": "ikqovt",
+        "narration": "One brushstroke. Somehow, we've added another direction.",
+        "characters": [],
+        "scene": "Vertical 9:16, same rounded mirror over the sink, plain hairbrush beside a reflected unruly tuft.",
+        "action": "A hand draws the brush upward through the hair beneath the mirror's worried big eyes and small mouth.",
+        "camera": "low-angle",
+        "mood": "Colourful slapstick, escalating morning chaos."
+      },
+      {
+        "id": "k96xpw",
+        "narration": "Now comes water. Mostly on me, naturally.",
+        "characters": [],
+        "scene": "Vertical 9:16, same bathroom, rounded mirror above a white basin.",
+        "action": "A splash of water spatters the mirror's glass around its big expressive eyes and small mouth.",
+        "camera": "static",
+        "mood": "Sparkling droplets, offended comic disbelief."
+      },
+      {
+        "id": "k2qyds",
+        "narration": "[sighs] Steam finally gives us both a little privacy.",
+        "characters": [],
+        "scene": "Vertical 9:16, same warm bathroom, damp rounded mirror with messy hair faintly reflected.",
+        "action": "Condensation spreads across the mirror's glass, softly obscuring its big eyes and small mouth.",
+        "camera": "push-in",
+        "mood": "Soft mist, temporary cosy relief."
+      },
+      {
+        "id": "fa4if8",
+        "narration": "Apparently, hiding the evidence isn't part of my job.",
+        "characters": [],
+        "scene": "Vertical 9:16, same fogged bathroom mirror, plain hand towel held at the glass.",
+        "action": "A hand wipes one clear stripe through the fog, revealing the mirror's big eyes and small mouth.",
+        "camera": "pan-left",
+        "mood": "Clean bright stripe against mist, reluctant anticipation."
+      },
+      {
+        "id": "qpmpbf",
+        "narration": "There it is. Same hair, now with extra determination.",
+        "characters": [],
+        "scene": "Vertical 9:16, same mirror with a clear stripe, one stubborn hair tuft reflected beneath its face.",
+        "action": "The mirror, with big expressive eyes and a small mouth, gives the unchanged upright tuft a defeated sideways glance.",
+        "camera": "pull-out",
+        "mood": "Warm light, dry comic resignation."
+      },
+      {
+        "id": "o0z4ut",
+        "narration": "[chuckles] Tomorrow, ask the hairbrush. I'm being framed.",
+        "characters": [],
+        "scene": "Vertical 9:16, same bathroom, thick rounded mirror frame, plain hairbrush resting prominently on the sink.",
+        "action": "The mirror, with big expressive eyes and a small mouth, directs an accusing glance toward the hairbrush.",
+        "camera": "push-in",
+        "mood": "Cheeky courtroom-style suspicion, bright playful finish."
+      }
+    ],
+    "endHook": "Next episode: the hairbrush gives its side of the story.",
+    "createdAt": "2026-11-12T20:11:16.964Z",
+    "description": "A bathroom mirror survives a bad-hair morning and somehow gets all the blame. There’s only so much an innocent reflection can do.",
+    "tags": [
+      "If Things Could Talk",
+      "bathroom mirror",
+      "bad hair day",
+      "relatable comedy",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

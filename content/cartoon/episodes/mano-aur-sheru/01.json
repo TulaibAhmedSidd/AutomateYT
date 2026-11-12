@@ -1,0 +1,165 @@
+{
+  "number": 1,
+  "topic": "Mano and Sheru meet for the first time in the courtyard and become friends.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:11:31.946Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Mano aur Sheru Ki Pehli Dosti",
+    "shots": [
+      {
+        "id": "ji25fz",
+        "narration": "ارے، مانو کی گیند بنچ کے نیچے پھنس گئی!",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani courtyard beneath a neem tree, low wooden bench with a yellow ball underneath, soft sunlight, rounded 3D family animation, no text.",
+        "action": "Mano, a white kitten with orange patches, blue eyes and a bell on a red ribbon, stretches one paw toward the unreachable ball.",
+        "camera": "push-in",
+        "mood": "Bright yellow ball clearly visible beyond a tiny outstretched paw."
+      },
+      {
+        "id": "x30w89",
+        "narration": "تبھی صحن میں شیرو آیا، مانو نے اسے پہلی بار دیکھا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, open courtyard doorway beside the neem tree and wooden bench, colourful Pakistani house, rounded 3D animation, no text.",
+        "action": "Sheru, a brown desi dog with a white chest, pointy ears and a green collar, steps into the courtyard in Mano's view.",
+        "camera": "pan-right",
+        "mood": "Warm sunlight, relaxed ears and a gentle open expression."
+      },
+      {
+        "id": "qgt1x2",
+        "narration": "[surprised] مانو ذرا شرمائی اور گملے کے پیچھے چھپ گئی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, large terracotta planter near the courtyard bench, Sheru visible at the open doorway, soft 3D family animation, no text.",
+        "action": "Mano slips behind the planter with her orange-patched ears still visible.",
+        "camera": "static",
+        "mood": "Playfully shy, with a friendly dog standing well back."
+      },
+      {
+        "id": "k734ru",
+        "narration": "شیرو آرام سے بیٹھ گیا، اسے کوئی جلدی نہیں تھی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, sunny Pakistani courtyard, planter in foreground and doorway behind, rounded colourful 3D animation, no text.",
+        "action": "Sheru sits several steps away from Mano's planter.",
+        "camera": "pull-out",
+        "mood": "Patient posture, soft eyes and comfortable space between the friends."
+      },
+      {
+        "id": "20mx81",
+        "narration": "مانو نے جھانک کر بنچ کے نیچے اشارہ کیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, terracotta planter beside a low wooden bench, yellow ball beneath the bench, Pakistani courtyard, 3D animation, no text.",
+        "action": "Mano points one paw from behind the planter toward the trapped ball.",
+        "camera": "pan-left",
+        "mood": "Curious blue eyes and an attentive friendly dog."
+      },
+      {
+        "id": "gike33",
+        "narration": "[whispers] اچھا، تو گیند یہاں چھپی ہوئی ہے!",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, ground-level view beneath the courtyard bench with the yellow ball in shade, rounded 3D animation, no text.",
+        "action": "Sheru lowers his head to inspect the ball beneath the bench.",
+        "camera": "low-angle",
+        "mood": "Focused friendly face beside a brightly coloured ball."
+      },
+      {
+        "id": "8o0dq9",
+        "narration": "شیرو نے پنجے سے گیند آہستہ باہر نکال دی۔",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, wooden bench legs on clean courtyard tiles beneath neem shadows, yellow ball near the edge, 3D animation, no text.",
+        "action": "Sheru gently rolls the ball out from under the bench with one paw.",
+        "camera": "static",
+        "mood": "Careful movement, warm light and a clearly freed ball."
+      },
+      {
+        "id": "289jdp",
+        "narration": "مانو خوشی خوشی اپنی گیند کے پاس آ گئی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, open courtyard tiles between the planter and Sheru, freed yellow ball in the centre, colourful 3D animation, no text.",
+        "action": "Mano trots from the planter to the yellow ball.",
+        "camera": "pan-right",
+        "mood": "Bright blue eyes, lifted tail and Sheru's gentle smile."
+      },
+      {
+        "id": "r2kpr5",
+        "narration": "[giggles] پھر مانو نے گیند شیرو کی طرف لڑھکا دی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, clear tiled play space under the courtyard neem tree, Mano opposite Sheru, soft 3D animation, no text.",
+        "action": "Mano nudges the yellow ball toward Sheru with her paw.",
+        "camera": "low-angle",
+        "mood": "Playful invitation, relaxed ears and cheerful faces."
+      },
+      {
+        "id": "bay5ru",
+        "narration": "شیرو نے بھی گیند پیار سے واپس کر دی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, sunny Pakistani courtyard with a colourful wall and terracotta pots, Mano facing Sheru, 3D animation, no text.",
+        "action": "Sheru gently rolls the yellow ball back toward Mano.",
+        "camera": "static",
+        "mood": "Friendly eye contact and a shared playful smile."
+      },
+      {
+        "id": "eoz77s",
+        "narration": "اب مانو کو شیرو کے پاس بیٹھنا اچھا لگا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, neem shade in the colourful courtyard, Sheru seated beside the yellow ball, rounded 3D animation, no text.",
+        "action": "Mano settles down beside Sheru.",
+        "camera": "orbit",
+        "mood": "Comfortable closeness, soft smiles and warm dappled sunlight."
+      },
+      {
+        "id": "zs30zf",
+        "narration": "[excited] مدد سے دوستی ہوتی ہے؛ اگلی بار چھت پر پتنگ دیکھیں گے!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, Mano and Sheru seated together beside their yellow ball in the courtyard, rooftop above with a plain colourful kite safely resting against its inner parapet, 3D animation, no text.",
+        "action": "Mano and Sheru look up together toward the rooftop kite.",
+        "camera": "pull-out",
+        "mood": "Contented smiles below a bright rooftop discovery."
+      }
+    ],
+    "endHook": "اگلی بار چھت پر پتنگ دیکھیں گے!",
+    "createdAt": "2026-11-12T20:11:31.944Z",
+    "description": "مانو کی گیند صحن کی بنچ کے نیچے پھنس گئی، مگر مدد کے لیے شیرو آ گیا۔ دیکھیے کیسے ایک چھوٹی سی مدد دونوں کی پیاری دوستی بن گئی!",
+    "tags": [
+      "Mano aur Sheru",
+      "Urdu cartoon",
+      "Pakistani kids",
+      "friendship",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

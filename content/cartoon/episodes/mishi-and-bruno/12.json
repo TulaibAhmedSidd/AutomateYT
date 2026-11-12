@@ -1,0 +1,168 @@
+{
+  "number": 12,
+  "topic": "The noisy vacuum cleaner 'monster' turns out to be harmless.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:14:17.852Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi & Bruno: The Rumbly Vacuum Mystery",
+    "shots": [
+      {
+        "id": "slfzkg",
+        "narration": "What is making that enormous rumble behind the cushion?",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Cosy colourful living room, round cushion partly hiding a plain circular robot vacuum, warm sunlight, 3D family animation, vertical 9:16, no text.",
+        "action": "The robot vacuum slowly nudges the cushion forward.",
+        "camera": "push-in",
+        "mood": "Playful mystery; Mishi's green eyes are curious, and Bruno's floppy ears are rai"
+      },
+      {
+        "id": "9fyf9f",
+        "narration": "Bruno decides the rumble needs a very polite greeting.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny living room rug beside the cushion, rounded furniture, plain robot vacuum partly visible, vertical 9:16.",
+        "action": "Bruno gives the hidden vacuum a little bow.",
+        "camera": "low-angle",
+        "mood": "Gentle comedy; Bruno looks earnest, while Mishi watches thoughtfully."
+      },
+      {
+        "id": "mga53u",
+        "narration": "[giggles] This little rumble monster has a very round bottom!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Warm living room with an open patch of wooden floor beside the rug, vertical 9:16.",
+        "action": "The round robot vacuum rolls out from behind the cushion.",
+        "camera": "pan-right",
+        "mood": "Bright and silly; the appliance is plain and friendly-looking, without a face."
+      },
+      {
+        "id": "godbid",
+        "narration": "Mishi spots a button on its smooth, shiny top.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Close view of the plain robot vacuum with one large unmarked button, sunny wooden floor, vertical 9:16.",
+        "action": "Mishi points one fluffy paw toward the button.",
+        "camera": "push-in",
+        "mood": "Careful discovery; Mishi's red ear bow catches the warm light."
+      },
+      {
+        "id": "jio3sg",
+        "narration": "One gentle tap makes the rumbling stop.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Living room floor beside the stationary robot vacuum, its large unmarked button clearly visible, vertical 9:16.",
+        "action": "Mishi presses the vacuum's stop button with one paw.",
+        "camera": "static",
+        "mood": "Calm and reassuring; Bruno stands nearby with a relaxed expression."
+      },
+      {
+        "id": "enee14",
+        "narration": "[surprised] No monster teeth, just a little cleaning brush!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Floor-level view of the stopped robot vacuum, small side brush visible beneath its rounded edge, vertical 9:16.",
+        "action": "Bruno lowers his head to inspect the stationary side brush.",
+        "camera": "low-angle",
+        "mood": "Curious and comfortable; Bruno's big black nose remains clear of the brush."
+      },
+      {
+        "id": "6n48op",
+        "narration": "Mishi finds dust waiting in the vacuum's path.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny wooden floor with a small patch of dust ahead of the stopped vacuum, vertical 9:16.",
+        "action": "Mishi points toward the dusty patch.",
+        "camera": "pan-left",
+        "mood": "Clear visual discovery; both friends look interested."
+      },
+      {
+        "id": "k72hc0",
+        "narration": "Bruno clears a cushion from its cleaning route.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Cosy living room with the stopped vacuum facing a dusty floor patch and a loose cushion, vertical 9:16.",
+        "action": "Bruno pushes the cushion onto the rug.",
+        "camera": "pull-out",
+        "mood": "Helpful and upbeat; Bruno's blue bone-shaped collar tag is visible."
+      },
+      {
+        "id": "nmqw61",
+        "narration": "[excited] Ready, little helper? Your dusty dinner is waiting!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Clear wooden floor ahead of the robot vacuum, dust patch nearby, both friends safely beside its route, vertical 9:16.",
+        "action": "Mishi taps the vacuum's unmarked start button.",
+        "camera": "push-in",
+        "mood": "Cheerful anticipation; the friends look relaxed and confident."
+      },
+      {
+        "id": "yx11ly",
+        "narration": "The rumbling helper leaves a lovely clean trail.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunlit living room floor with a visible dusty patch and a clean strip behind the vacuum, vertical 9:16.",
+        "action": "The robot vacuum travels across the dust patch.",
+        "camera": "pan-right",
+        "mood": "Satisfying payoff; Mishi and Bruno watch from the rug."
+      },
+      {
+        "id": "a09a7t",
+        "narration": "Bruno gives their helpful new machine a grateful bow.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Clean living room floor beside an open garden doorway, vacuum in the background, vertical 9:16.",
+        "action": "Bruno bows toward the passing vacuum.",
+        "camera": "static",
+        "mood": "Affectionate comedy; Mishi sits nearby with a pleased expression."
+      },
+      {
+        "id": "34w058",
+        "narration": "[chuckles] Understanding brings courage; next, why does that wagon squeak?",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny garden patio outside the living room, small red toy wagon with plain wheels, soft flowers, vertical 9:16, no text.",
+        "action": "Bruno gently nudges the wagon forward with one paw.",
+        "camera": "pull-out",
+        "mood": "Warm friendship and fresh curiosity; both friends focus on one slightly wobbling"
+      }
+    ],
+    "endHook": "Next adventure: why does the little garden wagon squeak?",
+    "createdAt": "2026-11-12T20:14:17.851Z",
+    "description": "A noisy vacuum sounds like a little rumble monster, but Mishi and Bruno discover a helpful household machine. Together, they learn that understanding something unfamiliar can make it less surprising.",
+    "tags": [
+      "Mishi and Bruno",
+      "kids animation",
+      "friendship",
+      "vacuum cleaner",
+      "gentle learning",
+      "YouTube Shorts"
+    ]
+  }
+}

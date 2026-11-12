@@ -1,0 +1,126 @@
+{
+  "number": 13,
+  "topic": "Track your spending for 30 days: the first step to knowing where your money goes.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:09:40.235Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "Where Did Your Money Go? Track It for 30 Days",
+    "shots": [
+      {
+        "id": "ozexws",
+        "narration": "Where did Kash’s money go?",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Bright modern flat, small table, vertical 9:16 3D animated frame, no text.",
+        "action": "Kash tips an empty purse over the table.",
+        "camera": "push-in",
+        "mood": "Wide curious eyes, raised eyebrows, warm daylight."
+      },
+      {
+        "id": "20mznr",
+        "narration": "Coin suggests tracking spending for 30 days.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Modern flat table with an open blank notebook, vertical 9:16, no text.",
+        "action": "Coin points toward Kash’s open notebook.",
+        "camera": "static",
+        "mood": "Cheerful gold glow, attentive expression, bright friendly colours."
+      },
+      {
+        "id": "ew99mo",
+        "narration": "[chuckles] Start with an everyday example: Kash buys a coffee.",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Clean modern cafe counter with a plain takeaway cup and payment tray, vertical 9:16, no text or branding.",
+        "action": "Kash places plain gold coins into the payment tray.",
+        "camera": "pan-right",
+        "mood": "Relaxed smile, soft cafe lighting, inviting pastel colours."
+      },
+      {
+        "id": "7jfxu8",
+        "narration": "She records that spending in her notebook.",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Cafe table with a plain coffee cup and open notebook, vertical 9:16, no letters or numbers.",
+        "action": "Kash draws a coffee-cup pictogram beside small coin-shaped circles.",
+        "camera": "push-in",
+        "mood": "Focused eyes, gentle smile, clear uncluttered tabletop."
+      },
+      {
+        "id": "qfm4ds",
+        "narration": "Another purchase? Another entry.",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Modern flat table with a plain grocery bag and pictogram-only notebook, vertical 9:16, no text.",
+        "action": "Kash adds an apple pictogram beside another group of coin-shaped circles.",
+        "camera": "static",
+        "mood": "Calm concentration, bright green apple, warm mustard accents."
+      },
+      {
+        "id": "cn9j1i",
+        "narration": "[excited] Keep tracking throughout the 30 days.",
+        "characters": [
+          "coin"
+        ],
+        "scene": "Modern flat wall with a wordless grid of exactly thirty circles, twenty-nine already filled, vertical 9:16.",
+        "action": "Coin fills the final circle with a bright gold dot.",
+        "camera": "pan-left",
+        "mood": "Celebratory smile, sparkling gold highlights, clean cheerful colours."
+      },
+      {
+        "id": "7k8pif",
+        "narration": "Now Kash has a record of where her money went.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright flat table with a closed notebook, vertical 9:16, no text.",
+        "action": "Kash opens the notebook to pages of purchase pictograms and coin-shaped circles.",
+        "camera": "low-angle",
+        "mood": "Delighted recognition, proud little Coin, sunny lighting."
+      },
+      {
+        "id": "tr2rru",
+        "narration": "No more guessing about those recorded purchases.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Modern flat table with the open pictogram-only spending notebook, vertical 9:16, no text.",
+        "action": "Coin points to the coffee-cup entry.",
+        "camera": "push-in",
+        "mood": "Clear visual focus, Kash’s relieved smile, friendly gold glow."
+      },
+      {
+        "id": "s19aoq",
+        "narration": "[excited] Record today’s spending; next, we’ll explore Kash’s spending picture.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright flat table with an open pictogram-only notebook facing the viewer, vertical 9:16, no text.",
+        "action": "Kash offers a pencil toward the viewer.",
+        "camera": "pull-out",
+        "mood": "Welcoming smiles, inviting open composition, warm hopeful colours."
+      }
+    ],
+    "endHook": "Next episode: what does Kash’s spending picture look like?",
+    "createdAt": "2026-11-12T20:09:40.233Z",
+    "description": "Kash wonders where her money went, and Coin introduces a simple first step: tracking spending for 30 days. Follow their everyday example, then start your own spending record today. General money education only.",
+    "tags": [
+      "Coin & Kash",
+      "money basics",
+      "track spending",
+      "30 day challenge",
+      "financial education"
+    ]
+  }
+}

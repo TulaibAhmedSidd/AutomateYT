@@ -1,0 +1,131 @@
+{
+  "number": 14,
+  "topic": "Lifestyle creep: when income goes up, spending quietly goes up too.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:09:47.755Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "Lifestyle Creep: Where Did That Raise Go?",
+    "shots": [
+      {
+        "id": "czxlc4",
+        "narration": "Bigger income, but the same money left? Meet lifestyle creep.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright 3D city flat, vertical composition, two identical small coin stacks on a clean table, no text or markings.",
+        "action": "Kash raises her empty palms beside the matching stacks.",
+        "camera": "push-in",
+        "mood": "Curious confusion, raised eyebrows, cheerful warm lighting."
+      },
+      {
+        "id": "vcdtsx",
+        "narration": "For example, Kash earns one hundred and spends fifty.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Modern flat table with two equal stacks of plain gold tokens, a small cup nearby, no text or markings.",
+        "action": "Kash slides one stack toward the cup.",
+        "camera": "static",
+        "mood": "Simple and comfortable, soft daylight, uncluttered composition."
+      },
+      {
+        "id": "kamref",
+        "narration": "[excited] Then her example income rises to two hundred.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Same flat table, four equal stacks of plain gold tokens arranged beside Kash's unmarked notebook, no text.",
+        "action": "Kash lifts both hands in celebration over the four stacks.",
+        "camera": "low-angle",
+        "mood": "Delighted surprise, bright gold highlights, friendly rounded shapes."
+      },
+      {
+        "id": "ghzgw3",
+        "narration": "Suddenly, her usual cafe stop gets a little bigger.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Clean modern cafe table with a small plain cup beside a larger cup and pastry plate, no menus, logos or text.",
+        "action": "Kash pulls the larger cup and pastry plate toward herself.",
+        "camera": "pan-right",
+        "mood": "Tempting and cozy, warm pastry colours, pleased expression."
+      },
+      {
+        "id": "vppwac",
+        "narration": "Now her example spending reaches one hundred fifty.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe table with four equal token stacks, three beside the large cup and pastry plate, one beside Kash, no markings.",
+        "action": "Coin points at the three stacks beside the cafe order.",
+        "camera": "push-in",
+        "mood": "Gentle realization, Kash's smile turning thoughtful."
+      },
+      {
+        "id": "55aulj",
+        "narration": "[surprised] Her spending quietly climbed alongside her income.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright flat with two floating, unmarked pairs of coin columns: one pair shorter, the other taller, no text.",
+        "action": "Coin traces an upward path between the shorter and taller pairs.",
+        "camera": "pan-left",
+        "mood": "Clear discovery, bright friendly colours, attentive expressions."
+      },
+      {
+        "id": "xv4rok",
+        "narration": "She still has fifty left, just like before.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Flat table with two identical leftover token stacks side by side, plain cafe cups behind them, no text.",
+        "action": "Kash aligns the two leftover stacks.",
+        "camera": "pull-out",
+        "mood": "Calm understanding, matching gold shapes, reassuring soft light."
+      },
+      {
+        "id": "ye0uoh",
+        "narration": "Today, compare your spending before and after an income increase.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Flat table with a small cup and a larger cafe order on opposite sides, plain tokens beside each, no text.",
+        "action": "Kash compares the two spending piles with her hands.",
+        "camera": "static",
+        "mood": "Practical and encouraging, relaxed posture, sunny room."
+      },
+      {
+        "id": "hae79q",
+        "narration": "[whispers] Next: spot spending creep before your next purchase.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Modern cafe table with a small plain cup and an oversized pastry plate, vertical framing, no signs or lettering.",
+        "action": "Coin holds up one tiny hand between Kash and the pastry plate.",
+        "camera": "orbit",
+        "mood": "Playfully suspenseful, curious smiles, inviting golden light."
+      }
+    ],
+    "endHook": "Next: spot spending creep before your next purchase.",
+    "createdAt": "2026-11-12T20:09:47.753Z",
+    "description": "Coin helps Kash spot lifestyle creep: spending quietly rising alongside income. Follow a simple example, then compare your own spending before and after an income increase. General money education, not personal financial advice.",
+    "tags": [
+      "Coin and Kash",
+      "lifestyle creep",
+      "money education",
+      "spending habits",
+      "YouTube Shorts"
+    ]
+  }
+}

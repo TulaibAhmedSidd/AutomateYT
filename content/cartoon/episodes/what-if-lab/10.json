@@ -1,0 +1,132 @@
+{
+  "number": 10,
+  "topic": "What if gravity were twice as strong? Everything would feel twice as heavy, and walking up stairs would be like carrying another person.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:20:59.399Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If Gravity Were Twice as Strong?",
+    "shots": [
+      {
+        "id": "oeiah0",
+        "narration": "What if gravity were twice as strong?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, vertical frame, glowing Earth hologram above a projector, no text or symbols.",
+        "action": "Nova expands the Earth hologram before Byte.",
+        "camera": "push-in",
+        "mood": "Bright cyan glow, wide curious eyes, vivid purple accents."
+      },
+      {
+        "id": "m2yzzz",
+        "narration": "Earth would pull everything downward twice as hard.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab beside a glowing holographic Earth with a small ball above its surface, no text.",
+        "action": "Nova enlarges the downward light beams connecting the ball to Earth.",
+        "camera": "orbit",
+        "mood": "Clear blue holographic light, focused expressions, warm background."
+      },
+      {
+        "id": "5g2stv",
+        "narration": "[surprised] Everything would feel twice as heavy!",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab demonstration platform beside an enlarged hologram of a ball resting on a spring, no markings.",
+        "action": "The holographic ball compresses the spring farther.",
+        "camera": "static",
+        "mood": "Bright orange spring, blue glow, Byte's wide luminous eyes."
+      },
+      {
+        "id": "goj4z2",
+        "narration": "Even standing would make your muscles work harder.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a translucent holographic model of Nova beside the Earth display, no labels.",
+        "action": "Nova illuminates the standing model's leg muscles.",
+        "camera": "pan-right",
+        "mood": "Warm coral muscle glow, attentive faces, clean bright lighting."
+      },
+      {
+        "id": "yb3b3h",
+        "narration": "Stairs would feel like carrying another you.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram showing Nova on a staircase with an equally sized translucent Nova-shaped load on her back, no text.",
+        "action": "The holographic Nova climbs a stair beneath the ghostlike load.",
+        "camera": "low-angle",
+        "mood": "Playful purple hologram, exaggerated effort, cheerful golden lighting."
+      },
+      {
+        "id": "hw8ihs",
+        "narration": "[excited] The same jump would take you less high.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram of a soft exercise platform beneath a faint tall jump arc and a lower bright arc, no labels.",
+        "action": "A holographic Nova jumps along the lower arc.",
+        "camera": "pull-out",
+        "mood": "Bouncy pose, sparkling cyan trail, bright lime accents."
+      },
+      {
+        "id": "qovsse",
+        "narration": "Dropped objects would accelerate downward faster, too.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a glowing holographic ball suspended over a padded demonstration tray, no text.",
+        "action": "Nova releases the holographic ball toward the tray.",
+        "camera": "pan-left",
+        "mood": "Crisp blue motion trail, curious faces, soft amber lighting."
+      },
+      {
+        "id": "h9f236",
+        "narration": "But stronger gravity wouldn't add any material to your body.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab beside a life-sized translucent Nova hologram containing a fixed cluster of glowing beads, no symbols.",
+        "action": "Nova sweeps a scanning light across the unchanged holographic body.",
+        "camera": "push-in",
+        "mood": "Calm turquoise glow, reassuring smile, jewel-coloured beads."
+      },
+      {
+        "id": "ng0c6s",
+        "narration": "[surprised] Your mass stays unchanged; what if Earth stopped spinning?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with the unchanged body hologram beside a rotating holographic Earth, no text.",
+        "action": "Nova freezes the Earth hologram's rotation.",
+        "camera": "orbit",
+        "mood": "Bright planetary blues, Byte's astonished eyes, warm curious smiles."
+      }
+    ],
+    "endHook": "What if Earth stopped spinning?",
+    "createdAt": "2026-11-12T20:20:59.397Z",
+    "description": "Dr. Nova shows Byte how stronger gravity would change everyday life, from climbing stairs to jumping. Discover why everything would feel twice as heavy—even though your mass would stay the same.",
+    "tags": [
+      "What If Lab",
+      "gravity",
+      "science",
+      "physics",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

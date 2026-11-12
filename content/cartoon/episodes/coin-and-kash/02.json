@@ -1,0 +1,130 @@
+{
+  "number": 2,
+  "topic": "Emergency fund: many experts suggest saving three to six months of living costs for surprises like a job loss or a broken phone.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:08:45.575Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "Coin & Kash: The Broken Phone Surprise",
+    "shots": [
+      {
+        "id": "z4ohwb",
+        "narration": "A broken phone shouldn't break your whole money plan.",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Bright modern apartment, clean 3D animation, vertical 9:16, no text or lettering.",
+        "action": "Kash lifts a phone with a visibly cracked, dark screen.",
+        "camera": "push-in",
+        "mood": "Wide eyes, raised eyebrows, bright friendly colours."
+      },
+      {
+        "id": "8f8wju",
+        "narration": "Kash's phone breaks, and she reaches for her savings jar.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Apartment table with an empty glass jar and cracked phone, vertical 9:16, no text.",
+        "action": "Kash reaches toward the empty glass jar.",
+        "camera": "pan-right",
+        "mood": "Concerned expression, warm daylight, Coin watching sympathetically."
+      },
+      {
+        "id": "dd4l77",
+        "narration": "[sighs] Empty—this surprise needs an emergency fund.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Close view of the apartment table and empty jar, vertical 9:16, no text.",
+        "action": "Kash turns the empty jar upside down.",
+        "camera": "static",
+        "mood": "Slumped shoulders, gentle comic disappointment."
+      },
+      {
+        "id": "70wzrf",
+        "narration": "Coin explains: emergency funds hold savings for surprises, including job loss.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Apartment table with a glass jar and floating pictograms of a cracked phone and closed briefcase, vertical 9:16, no text.",
+        "action": "Coin points toward the savings jar.",
+        "camera": "orbit",
+        "mood": "Coin smiling reassuringly, Kash listening closely, warm golden light."
+      },
+      {
+        "id": "l3aw38",
+        "narration": "Many experts suggest saving three to six months of living costs.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Apartment table with six miniature illustrative savings jars, each paired with identical house and grocery pictograms, vertical 9:16, no text.",
+        "action": "Coin sweeps one arm across the jars.",
+        "camera": "pan-left",
+        "mood": "Clear orderly arrangement, bright colours, attentive expressions."
+      },
+      {
+        "id": "wirweo",
+        "narration": "[surprised] Example: monthly costs of one thousand mean three to six thousand.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Apartment table with six illustrative jars containing equal gold stacks, first three on a blue mat and remaining three on a pale blue mat, vertical 9:16, no text.",
+        "action": "Kash points to the first group of three jars.",
+        "camera": "push-in",
+        "mood": "Raised eyebrows and a small understanding smile."
+      },
+      {
+        "id": "y3dr77",
+        "narration": "Coin shows Kash six jars, each representing one month's living costs.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Apartment table with six illustrative jars and matching house and grocery pictograms, vertical 9:16, no text.",
+        "action": "Coin lifts one miniature jar beside its matching pictograms.",
+        "camera": "pull-out",
+        "mood": "Cheerful demonstration, Kash smiling with recognition."
+      },
+      {
+        "id": "nns30o",
+        "narration": "Today, write down one month of your living costs.",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Apartment desk with Kash's open notebook, simple household pictograms without letters or numbers, vertical 9:16.",
+        "action": "Kash draws a small house pictogram in her notebook.",
+        "camera": "static",
+        "mood": "Focused expression, relaxed posture, sunny practical atmosphere."
+      },
+      {
+        "id": "wps4ja",
+        "narration": "[excited] Next, Kash turns that number into her emergency fund target.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Apartment table with the notebook, empty real savings jar and six miniature illustrative jars in the background, vertical 9:16, no text.",
+        "action": "Kash places her notebook beside the empty savings jar.",
+        "camera": "pull-out",
+        "mood": "Hopeful smiles, warm light, inviting sense of a next step."
+      }
+    ],
+    "endHook": "Next, Kash turns her living costs into an emergency fund target.",
+    "createdAt": "2026-11-12T20:08:45.572Z",
+    "description": "A broken phone helps Kash discover what an emergency fund is for. Coin explains the commonly suggested three-to-six-month savings target with a simple example, then shares one action to take today. General money education, not personal financial advice.",
+    "tags": [
+      "Coin and Kash",
+      "emergency fund",
+      "money basics",
+      "financial education",
+      "saving",
+      "YouTube Shorts"
+    ]
+  }
+}

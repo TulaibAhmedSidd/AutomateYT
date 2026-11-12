@@ -1,0 +1,164 @@
+{
+  "number": 10,
+  "topic": "Al-Sufi (903-986 CE) wrote 'The Book of Fixed Stars' and gave the first recorded description of the Andromeda galaxy, which he called a 'small cloud'.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:16:07.871Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Al-Sufi Ka Chhota Badal!",
+    "shots": [
+      {
+        "id": "l83ctw",
+        "narration": "یہ بادل ہے، یا ستاروں کا کوئی راز؟",
+        "characters": [
+          "hamza"
+        ],
+        "scene": "Vertical 9:16, 3D family animation, observatory balcony above a warmly lit old library, a faint elongated fuzzy patch in the clear night sky, no text.",
+        "action": "Hamza points at the faint fuzzy patch.",
+        "camera": "push-in",
+        "mood": "Deep blue night, warm brass reflections, inviting mystery."
+      },
+      {
+        "id": "v742wf",
+        "narration": "حمزہ کو سمجھ نہیں آیا، تو نوری مدد کو آیا۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, the same balcony with brass instruments and a blank notebook in Hamza's hand, no writing or labels.",
+        "action": "Noori floats beside Hamza.",
+        "camera": "pan-right",
+        "mood": "Friendly glowing eyes, gentle golden light."
+      },
+      {
+        "id": "h5wj1n",
+        "narration": "[excited] چلو، الصوفی کے زمانے میں چلتے ہیں!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library balcony with an open area for a luminous historical projection, no text.",
+        "action": "Noori projects a historical rooftop observatory around Hamza.",
+        "camera": "pull-out",
+        "mood": "Magical amber light, welcoming discovery."
+      },
+      {
+        "id": "60yr1y",
+        "narration": "الصوفی آسمان کے ستاروں کو غور سے دیکھتے تھے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, Noori's historical projection of a quiet rooftop under clear stars; Al-Sufi appears only as a small distant respectful cartoon silhouette seen from behind, no telescope, no text.",
+        "action": "The projected Al-Sufi studies the night sky.",
+        "camera": "low-angle",
+        "mood": "Peaceful starlight, patient curiosity."
+      },
+      {
+        "id": "eqjk5j",
+        "narration": "انہوں نے ثابت ستاروں کی کتاب لکھی۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected historical workshop with a large manuscript foregrounded; pages contain only star-dot illustrations, no letters; Al-Sufi is a tiny rear-view silhouette at a distant desk.",
+        "action": "The projected Al-Sufi writes in the manuscript with the pen tip hidden behind its raised edge.",
+        "camera": "push-in",
+        "mood": "Warm workshop lighting, careful scholarly attention."
+      },
+      {
+        "id": "jc8xhg",
+        "narration": "[surprised] مگر یہ دھندلا سا نشان کیا تھا؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected star field above the library balcony, one faint elongated fuzzy patch among distinct stars, no symbols or text.",
+        "action": "Hamza tilts his head toward the fuzzy patch.",
+        "camera": "static",
+        "mood": "Quiet puzzlement, soft blue and gold lighting."
+      },
+      {
+        "id": "uijvfg",
+        "narration": "الصوفی نے اسے چھوٹا بادل کہا۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, historical sky projection with the faint fuzzy patch centered; a small distant rear-view depiction of Al-Sufi stands beneath it, no text.",
+        "action": "The projected Al-Sufi points toward the fuzzy patch.",
+        "camera": "pan-left",
+        "mood": "Gentle recognition, clear sparkling sky."
+      },
+      {
+        "id": "umf8jt",
+        "narration": "یہ اینڈرومیڈا کہکشاں کی پہلی درج شدہ تفصیل تھی۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected historical manuscript with an unlabeled star illustration and a small cloudy mark, surrounded by warm brass instruments, no writing.",
+        "action": "Noori enlarges the manuscript's cloudy illustration in its projection.",
+        "camera": "push-in",
+        "mood": "Warm pride, respectful historical discovery."
+      },
+      {
+        "id": "o070co",
+        "narration": "[excited] اصل میں یہ بادل نہیں، ایک کہکشاں ہے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, library transformed by an educational space projection, faint Andromeda patch centered above Hamza, no text.",
+        "action": "Noori transforms the faint patch into a detailed luminous galaxy model.",
+        "camera": "pull-out",
+        "mood": "Joyful reveal, glowing silver stars and soft golden light."
+      },
+      {
+        "id": "8ph39y",
+        "narration": "کہکشاں بہت سارے ستاروں کا ایک بڑا مجموعہ ہوتی ہے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, educational close view of the projected galaxy, countless distinct points of starlight within its broad glowing structure, no labels.",
+        "action": "Noori magnifies a section of the galaxy into individual stars.",
+        "camera": "push-in",
+        "mood": "Clear, wondrous, gentle cosmic light."
+      },
+      {
+        "id": "88c5i1",
+        "narration": "حمزہ کو اپنے سوال کا جواب مل گیا!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library balcony with the real faint Andromeda patch overhead and the educational galaxy model hovering nearby, no text.",
+        "action": "Hamza gives Noori a delighted thumbs-up.",
+        "camera": "orbit",
+        "mood": "Satisfied smiles, cozy gold against peaceful night blue."
+      },
+      {
+        "id": "lw2mo5",
+        "narration": "[whispers] مگر ہماری آنکھیں آخر دیکھتی کیسے ہیں؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library with a brass lamp and a simple unlabeled eye model projected beside Hamza's round glasses, no text.",
+        "action": "Noori projects a glowing eye model.",
+        "camera": "push-in",
+        "mood": "Playful new mystery, soft amber glow."
+      }
+    ],
+    "endHook": "ہماری آنکھیں آخر دیکھتی کیسے ہیں؟",
+    "createdAt": "2026-11-12T20:16:07.869Z",
+    "description": "حمزہ اور نوری کے ساتھ الصوفی اور ان کی ثابت ستاروں کی کتاب کے بارے میں جانیں۔ انہوں نے اینڈرومیڈا کہکشاں کی پہلی درج شدہ تفصیل لکھی اور اسے چھوٹا بادل کہا۔ کیا یہ واقعی بادل تھا؟",
+    "tags": [
+      "Musalman Sciencedan",
+      "Al-Sufi",
+      "Andromeda",
+      "Urdu",
+      "Astronomy",
+      "Science for Kids"
+    ]
+  }
+}

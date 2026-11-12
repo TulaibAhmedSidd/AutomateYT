@@ -1,0 +1,105 @@
+{
+  "number": 3,
+  "topic": "The fridge at midnight, watching the owner open the door for the tenth time.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:10:05.604Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "If Things Could Talk: The Midnight Fridge",
+    "shots": [
+      {
+        "id": "f8ov9i",
+        "narration": "Ten visits tonight. I'm a fridge, not a season finale.",
+        "characters": [],
+        "scene": "Vertical 9:16, cosy modern kitchen at night, bright 3D cartoon style, unmarked refrigerator beneath soft blue moonlight, no visible text.",
+        "action": "The refrigerator, with big weary eyes and a small mouth on its side panel, swings open under a pajama-sleeved hand.",
+        "camera": "push-in",
+        "mood": "Warm interior light against a sleepy blue kitchen, exaggerated disbelief."
+      },
+      {
+        "id": "1z84x9",
+        "narration": "I showed you this exact cheese five minutes ago.",
+        "characters": [],
+        "scene": "Vertical 9:16, open refrigerator with cheese, a covered bowl and plain food containers, cute face visible on the outer side panel, no labels or text.",
+        "action": "The refrigerator, with big expressive eyes and a small flat mouth, directs its gaze toward the cheese.",
+        "camera": "pan-right",
+        "mood": "Bright fridge light, patient but visibly unimpressed."
+      },
+      {
+        "id": "1yf7fb",
+        "narration": "[sighs] Apparently, staring harder is supposed to summon cake.",
+        "characters": [],
+        "scene": "Vertical 9:16, midnight kitchen, open refrigerator with a conspicuously empty middle shelf, no visible text.",
+        "action": "The refrigerator, with big expressive eyes and a small downturned mouth, squints at an owner leaning close to its empty shelf.",
+        "camera": "static",
+        "mood": "Awkward stillness, cool light, comic disappointment."
+      },
+      {
+        "id": "s62lgg",
+        "narration": "You close me like I've personally disappointed you.",
+        "characters": [],
+        "scene": "Vertical 9:16, cosy moonlit kitchen, refrigerator side panel clearly visible beside the door, no visible text.",
+        "action": "A pajama-sleeved hand shuts the refrigerator, whose big eyes and small mouth form an offended expression.",
+        "camera": "low-angle",
+        "mood": "Abrupt darkness around the door seam, wounded dignity."
+      },
+      {
+        "id": "akvruw",
+        "narration": "Then you return, hoping I've had a plot twist.",
+        "characters": [],
+        "scene": "Vertical 9:16, same midnight kitchen and unchanged refrigerator contents, no visible text.",
+        "action": "The owner reopens the refrigerator, whose big eyes and small mouth hold an exhausted expression.",
+        "camera": "pull-out",
+        "mood": "Sudden warm light, familiar absurdity."
+      },
+      {
+        "id": "scvx48",
+        "narration": "[sarcastic] Wonderful. Now we're inspecting the cheese from below.",
+        "characters": [],
+        "scene": "Vertical 9:16, open refrigerator in a cosy kitchen, owner crouched beside the lower shelves, no visible text.",
+        "action": "The refrigerator, with big downward-looking eyes and a small pursed mouth, watches the crouching owner peer upward at the cheese.",
+        "camera": "low-angle",
+        "mood": "Overly serious inspection of an ordinary snack."
+      },
+      {
+        "id": "xf748g",
+        "narration": "Finally, you choose the leftovers you've ignored all evening.",
+        "characters": [],
+        "scene": "Vertical 9:16, open refrigerator with a plain covered bowl on the middle shelf, no visible text.",
+        "action": "A hand removes the covered bowl from the refrigerator, whose big eyes and small smiling mouth show relief.",
+        "camera": "push-in",
+        "mood": "Warm, triumphant relief over a tiny achievement."
+      },
+      {
+        "id": "3pxtty",
+        "narration": "I can finally close my eyes.",
+        "characters": [],
+        "scene": "Vertical 9:16, quiet blue kitchen, closed refrigerator beside a countertop microwave with an unlit blank display, no visible text.",
+        "action": "The refrigerator, with big sleepy eyes and a small contented mouth, lowers its eyelids.",
+        "camera": "static",
+        "mood": "Peaceful moonlight, brief bedtime calm."
+      },
+      {
+        "id": "vjrfld",
+        "narration": "[chuckles] Microwave, you're up. They've chosen something with sauce.",
+        "characters": [],
+        "scene": "Vertical 9:16, refrigerator beside an open countertop microwave, covered bowl of saucy leftovers in an owner's hand, no visible text.",
+        "action": "The owner places the bowl inside the microwave beside the refrigerator, whose big eyes and small crooked smile look delighted.",
+        "camera": "pan-right",
+        "mood": "Mischievous relief, warm spotlight on the microwave's next problem."
+      }
+    ],
+    "endHook": "Next episode: the microwave faces another midnight emergency.",
+    "createdAt": "2026-11-12T20:10:05.602Z",
+    "description": "It's midnight, and the fridge is tired of being checked for snacks that weren't there five minutes ago. One more inspection might finally break its cool.",
+    "tags": [
+      "If Things Could Talk",
+      "fridge",
+      "midnight snacks",
+      "relatable comedy",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

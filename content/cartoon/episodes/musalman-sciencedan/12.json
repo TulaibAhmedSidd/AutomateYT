@@ -1,0 +1,166 @@
+{
+  "number": 12,
+  "topic": "How an astrolabe works: Muslim astronomers improved this brass instrument to tell the time, find prayer times and find the direction of the qibla using the Sun and stars.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:16:03.662Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Astrolabe: Sitaron Se Waqt Kaise Pata Chalta Hai?",
+    "shots": [
+      {
+        "id": "ihsrk0",
+        "narration": "یہ پیتل کی پلیٹ وقت کیسے بتاتی تھی؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated library, a brass astrolabe suspended above a wooden table, no writing or captions.",
+        "action": "Hamza leans toward the gleaming astrolabe with wide eyes.",
+        "camera": "push-in",
+        "mood": "Inviting golden light, intriguing circular shadows."
+      },
+      {
+        "id": "6hgyq6",
+        "narration": "اسے اسطرلاب کہتے ہیں، آؤ اس کا راز دیکھیں۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, cosy library with blank manuscript pages and brass instruments, no visible text.",
+        "action": "Noori projects a luminous historical astronomy workshop.",
+        "camera": "pull-out",
+        "mood": "Friendly magical discovery, warm brass glow."
+      },
+      {
+        "id": "jjmw5l",
+        "narration": "[excited] مسلمان ماہرینِ فلکیات نے اس آلے کو مزید بہتر بنایا۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected historical workshop, a distant respectful astronomer seen from behind, brass astrolabe components, no writing.",
+        "action": "The distant astronomer fits a delicate rotating star pointer plate onto an astrolabe.",
+        "camera": "pan-right",
+        "mood": "Patient craftsmanship, warm family-film lighting."
+      },
+      {
+        "id": "t09awl",
+        "narration": "عبد الرحمٰن الصوفی نے بھی اسطرلاب پر کام کیا۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, Noori's projected historical workshop, Abd al-Rahman al-Sufi shown small and from behind beside an astrolabe, blank manuscripts, no text.",
+        "action": "The distant astronomer examines the astrolabe on its wooden stand.",
+        "camera": "static",
+        "mood": "Respectful, thoughtful, softly illuminated."
+      },
+      {
+        "id": "f4o3zu",
+        "narration": "مگر ستاروں سے وقت کیسے معلوم ہوتا ہے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected rooftop beneath a clear starry sky, astrolabe hanging beside Hamza, no writing.",
+        "action": "Hamza tilts his head between the stars and the astrolabe.",
+        "camera": "low-angle",
+        "mood": "Gentle puzzlement, cool sky and warm lantern light."
+      },
+      {
+        "id": "0ict5t",
+        "narration": "[whispers] پہلے ستارے کی اونچائی ناپتے ہیں۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, night rooftop, close view of a vertically suspended astrolabe with rear sighting rule, geometric ticks without letters or numerals.",
+        "action": "Hamza rotates the sighting rule to align its sights with a bright star.",
+        "camera": "push-in",
+        "mood": "Focused wonder, clear readable instrument silhouette."
+      },
+      {
+        "id": "fzarjt",
+        "narration": "پھر آلے کا ستاروں والا حصہ گھماتے ہیں۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, close view of the astrolabe front, pierced brass star pointers over curved geometric lines, no letters or numerals.",
+        "action": "Hamza turns the pierced star pointer plate over the fixed disc.",
+        "camera": "orbit",
+        "mood": "Tactile discovery, sparkling brass highlights."
+      },
+      {
+        "id": "nu5nd3",
+        "narration": "ستارے کی اونچائی سے حساب لگا کر وقت معلوم ہوتا ہے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, rooftop demonstration with an astrolabe and a wordless projected sky arc aligned to its curved plate, no text.",
+        "action": "Noori projects a glowing connection between the measured star and the astrolabe's matching curve.",
+        "camera": "static",
+        "mood": "Clear satisfying explanation, calm blue and gold."
+      },
+      {
+        "id": "ogaj8n",
+        "narration": "[excited] دن میں سورج کی اونچائی بھی کام آتی ہے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected sunlit workshop, suspended astrolabe with rear sighting vanes above a pale tabletop, no person looking toward the Sun, no text.",
+        "action": "A sunbeam passes through aligned sighting holes onto the tabletop.",
+        "camera": "pan-left",
+        "mood": "Bright discovery, gentle sunlight."
+      },
+      {
+        "id": "sw2zoc",
+        "narration": "اس سے نماز کے اوقات معلوم کرنے میں مدد ملتی تھی۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected courtyard with a brass astrolabe beside a plain prayer mat and long late-afternoon shadows, no writing.",
+        "action": "Noori sweeps a soft glow from the astrolabe toward the sunlit prayer mat.",
+        "camera": "pull-out",
+        "mood": "Peaceful, practical, warm afternoon light."
+      },
+      {
+        "id": "dpv9av",
+        "narration": "حساب کے ساتھ، قبلے کا رخ ڈھونڈنے میں بھی مدد ملتی۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected courtyard, brass astrolabe beside a plain prayer mat, a simple glowing directional line across the floor, no labels.",
+        "action": "Hamza turns the prayer mat to align with the glowing directional line.",
+        "camera": "pan-right",
+        "mood": "Quiet satisfaction, friendly golden glow."
+      },
+      {
+        "id": "e3p5vh",
+        "narration": "[surprised] کیا پانی سے چلنے والی گھڑی دیکھی ہے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, cosy library restored, a projected water-clock vessel with a small outlet above a receiving bowl, no letters or numerals.",
+        "action": "Noori projects a thin stream of water flowing between the clock's vessels.",
+        "camera": "push-in",
+        "mood": "Playful curiosity, inviting next discovery."
+      }
+    ],
+    "endHook": "کیا پانی سے چلنے والی گھڑی دیکھی ہے؟",
+    "createdAt": "2026-11-12T20:16:03.660Z",
+    "description": "حمزہ اور نوری دیکھتے ہیں کہ مسلمان ماہرینِ فلکیات نے اسطرلاب کو کیسے بہتر بنایا۔ سورج اور ستاروں کی مدد سے وقت، نماز کے اوقات اور قبلے کا رخ معلوم کرنے والے اس آلے کو جانیے۔",
+    "tags": [
+      "Musalman Sciencedan",
+      "Astrolabe",
+      "Astronomy",
+      "Urdu Science",
+      "Kids Learning",
+      "Al Sufi"
+    ]
+  }
+}

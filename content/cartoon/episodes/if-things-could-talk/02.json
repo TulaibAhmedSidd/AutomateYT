@@ -1,0 +1,105 @@
+{
+  "number": 2,
+  "topic": "The alarm clock that everyone hates every morning.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:10:03.212Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "If Things Could Talk: The Alarm Clock",
+    "shots": [
+      {
+        "id": "006dyk",
+        "narration": "I get slapped every morning for being right.",
+        "characters": [],
+        "scene": "Cosy modern bedroom at dawn, bright 3D cartoon style, vertical 9:16 frame, no text or numerals.",
+        "action": "A sleepy human hand presses the top button of a yellow alarm clock with big startled eyes, a tiny flattened mouth, and a blank analog dial.",
+        "camera": "push-in",
+        "mood": "Warm peach light, exaggerated comic injustice."
+      },
+      {
+        "id": "in0i51",
+        "narration": "Last night, they trusted me with their entire future.",
+        "characters": [],
+        "scene": "Same bedroom at bedtime, yellow bedside lamp, vertical 9:16 composition, no text or numerals.",
+        "action": "A human hand adjusts the rear knob of the yellow alarm clock, whose big proud eyes and tiny confident smile sit beneath its blank analog dial.",
+        "camera": "orbit",
+        "mood": "Soft golden lighting, solemnly important."
+      },
+      {
+        "id": "5q0vhh",
+        "narration": "[excited] Morning arrives, and I deliver my finest performance.",
+        "characters": [],
+        "scene": "Same bedside table at sunrise, rumpled bed behind it, vertical 9:16 frame, no text or numerals.",
+        "action": "The yellow alarm clock, with big eager eyes, a tiny open mouth, and a blank analog dial, vibrates on the bedside table.",
+        "camera": "low-angle",
+        "mood": "Bright sunrise colours, enthusiastic theatrical energy."
+      },
+      {
+        "id": "3j1z27",
+        "narration": "Apparently, my finest performance needs a snooze button.",
+        "characters": [],
+        "scene": "Sunlit bedside table beside an occupied rumpled bed, vertical 9:16 frame, no text or numerals.",
+        "action": "A human finger depresses the yellow alarm clock's top button while its big eyes droop above a tiny disappointed mouth beneath its blank analog dial.",
+        "camera": "static",
+        "mood": "Sunny room, comically deflated expression."
+      },
+      {
+        "id": "7zwv22",
+        "narration": "They pull the blanket up like I've been defeated.",
+        "characters": [],
+        "scene": "Same bedroom, bedside table in foreground and bed behind, vertical 9:16 frame, no text or numerals.",
+        "action": "The sleeper pulls the duvet over their head beside the yellow alarm clock, whose big narrowed eyes and tiny unimpressed mouth remain visible beneath its blank analog dial.",
+        "camera": "pull-out",
+        "mood": "Cosy pastel bedding, playful stubbornness."
+      },
+      {
+        "id": "6taecx",
+        "narration": "[sighs] Fine. I'll schedule another deeply unpopular concert.",
+        "characters": [],
+        "scene": "Same bedside table in stronger morning sunlight, vertical 9:16 frame, no text or numerals.",
+        "action": "The yellow alarm clock, with big determined eyes, a tiny open mouth, and a blank analog dial, vibrates again.",
+        "camera": "push-in",
+        "mood": "Cheerful bright light, determined comic persistence."
+      },
+      {
+        "id": "12ys64",
+        "narration": "Now they're late, which is somehow also my fault.",
+        "characters": [],
+        "scene": "Bedroom with open doorway and discarded slippers, vertical 9:16 frame, no text or numerals.",
+        "action": "The sleeper rushes through the doorway past the yellow alarm clock, whose big bewildered eyes and tiny round mouth sit beneath its blank analog dial.",
+        "camera": "pan-right",
+        "mood": "Bright morning chaos, exaggerated urgency."
+      },
+      {
+        "id": "p9a40w",
+        "narration": "Then they greet the coffee mug like a hero.",
+        "characters": [],
+        "scene": "Breakfast nook adjoining the bedroom, yellow alarm clock visible on the bedside table through the doorway, vertical 9:16 frame, no text or numerals.",
+        "action": "The person hugs a plain coffee mug while the yellow alarm clock watches with big offended eyes and a tiny downturned mouth beneath its blank analog dial.",
+        "camera": "pull-out",
+        "mood": "Warm kitchen light, absurdly affectionate coffee welcome."
+      },
+      {
+        "id": "1iguke",
+        "narration": "[sarcastic] Tomorrow, ask the mug why its wake-up calls get kisses.",
+        "characters": [],
+        "scene": "Same breakfast nook with bedroom visible beyond, vertical 9:16 frame, no text or numerals.",
+        "action": "The person kisses the plain coffee mug beside the doorway framing the yellow alarm clock's big incredulous eyes, tiny scowling mouth, and blank analog dial.",
+        "camera": "push-in",
+        "mood": "Bright cosy colours, ridiculous favoritism."
+      }
+    ],
+    "endHook": "Next episode: the coffee mug explains who really carries mornings.",
+    "createdAt": "2026-11-12T20:10:03.211Z",
+    "description": "An alarm clock shares its side of everyone's least favorite morning routine. It does its job perfectly—and still gets slapped for it.",
+    "tags": [
+      "If Things Could Talk",
+      "alarm clock",
+      "morning routine",
+      "animated comedy",
+      "relatable",
+      "shorts"
+    ]
+  }
+}

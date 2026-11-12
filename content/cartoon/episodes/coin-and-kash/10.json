@@ -1,0 +1,128 @@
+{
+  "number": 10,
+  "topic": "Never share a one-time password (OTP) or PIN, not even with someone claiming to be from your bank.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:09:20.220Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "Your Secret Code Stays Secret",
+    "shots": [
+      {
+        "id": "bdsk48",
+        "narration": "Would you hand your secret code to a convincing caller?",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated modern flat, smartphone displaying four plain circular dots, no text or letters.",
+        "action": "Kash reaches toward the glowing smartphone.",
+        "camera": "push-in",
+        "mood": "Intriguing, warm lighting with a sharp red glow around the phone."
+      },
+      {
+        "id": "07vdvw",
+        "narration": "Kash gets a call claiming to be from her bank.",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Clean modern flat, mustard sofa, small notebook on a side table, phone screen showing only a generic classical-building pictogram.",
+        "action": "Kash lifts the phone to her ear.",
+        "camera": "static",
+        "mood": "Ordinary and relaxed, bright friendly colours."
+      },
+      {
+        "id": "3oa47u",
+        "narration": "[surprised] Then comes the request: share your one-time password, or OTP.",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Close view in the flat, smartphone screen showing four circular dots beneath a simple outward arrow, no writing.",
+        "action": "Kash lowers the phone to inspect its screen.",
+        "camera": "push-in",
+        "mood": "Uncertain, raised eyebrows and a small red screen glow."
+      },
+      {
+        "id": "lq19f9",
+        "narration": "Kash reaches for her code, but Coin raises a warning.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Modern flat, Kash holding the smartphone, her finger poised beside its dotted screen, no text.",
+        "action": "Coin raises one tiny palm between Kash and the phone.",
+        "camera": "pan-right",
+        "mood": "Alert but friendly, clear stop gesture."
+      },
+      {
+        "id": "zq77z3",
+        "narration": "Never share an OTP or PIN with anyone.",
+        "characters": [
+          "coin"
+        ],
+        "scene": "Bright flat, close-up of Coin beside a floating cluster of four dots, no letters or numbers.",
+        "action": "Coin covers the four dots with a large shield-shaped panel.",
+        "camera": "low-angle",
+        "mood": "Reassuring and firm, cool blue shield against warm gold."
+      },
+      {
+        "id": "1h8qb9",
+        "narration": "[whispers] Not even someone claiming to be from your bank.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Flat side table, smartphone showing a generic classical-building pictogram, Kash watching beside Coin.",
+        "action": "Coin makes a firm stop gesture toward the smartphone.",
+        "camera": "orbit",
+        "mood": "Calm certainty, clear silhouettes and bright lighting."
+      },
+      {
+        "id": "1z9b8b",
+        "narration": "Kash refuses the request and puts her phone down.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Modern flat, uncluttered side table beside the mustard sofa, Coin smiling nearby.",
+        "action": "Kash places the smartphone face down on the table.",
+        "camera": "pull-out",
+        "mood": "Relieved, relaxed shoulders and warm sunlight."
+      },
+      {
+        "id": "mdf7ls",
+        "narration": "Coin's lesson: keep those secret codes to yourself.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright flat, a floating shield enclosing four circular dots between Kash and Coin, no text.",
+        "action": "Kash gives Coin a confident thumbs-up.",
+        "camera": "static",
+        "mood": "Friendly payoff, cheerful gold and blue colours."
+      },
+      {
+        "id": "omg6sp",
+        "narration": "[excited] Practice refusing code requests today; next time, spot suspicious money promises.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Modern flat, face-down phone on the table, an oversized floating bubble containing a glittering pile of coins in the background, no writing.",
+        "action": "Kash practices a clear palm-out refusal toward the phone.",
+        "camera": "pull-out",
+        "mood": "Empowered and playful, suspiciously dazzling gold bubble teasing the next episod"
+      }
+    ],
+    "endHook": "Next time, can Kash spot a suspicious money promise?",
+    "createdAt": "2026-11-12T20:09:20.216Z",
+    "description": "A caller claims to be from Kash’s bank and asks for her one-time password. Coin teaches one simple safety rule: never share an OTP or PIN, even with someone claiming to represent your bank. General money education only.",
+    "tags": [
+      "Coin and Kash",
+      "OTP safety",
+      "PIN safety",
+      "scam awareness",
+      "money education",
+      "animated shorts"
+    ]
+  }
+}

@@ -1,0 +1,160 @@
+{
+  "number": 3,
+  "topic": "Al-Zahrawi (936-1013 CE) of Cordoba is called the father of modern surgery. His book Kitab al-Tasrif described and drew more than 200 surgical tools. Show the drawings of tools (no blood).",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:15:01.015Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Al-Zahrawi: Kitaab Mein Chhupe Auzaar!",
+    "shots": [
+      {
+        "id": "koem4l",
+        "narration": "اتنی پرانی کتاب میں یہ کیسے اوزار چھپے ہیں؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated family-film library, an open manuscript containing only large surgical-tool drawings, absolutely no writing.",
+        "action": "Hamza leans toward an oversized tool drawing with wide curious eyes.",
+        "camera": "push-in",
+        "mood": "Golden lamplight, inviting mystery, friendly rounded shapes."
+      },
+      {
+        "id": "ccmlx1",
+        "narration": "نوری، ہمیں اس کتاب کی کہانی دکھاؤ!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, cozy library with brass instruments and shelves of plain unmarked books.",
+        "action": "Noori projects a glowing historical room above the open manuscript.",
+        "camera": "pull-out",
+        "mood": "Warm amber light with a soft magical blue projection."
+      },
+      {
+        "id": "ueny4j",
+        "narration": "[excited] یہ قرطبہ کے الزہراوی ہیں!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected historical Cordoba study with an arched window; Al-Zahrawi appears as a small respectful cartoon figure viewed from behind, far beyond the foreground manuscript.",
+        "action": "Noori directs a soft spotlight toward the distant scholar.",
+        "camera": "pan-right",
+        "mood": "Peaceful historical discovery, warm plaster walls and brass lamps."
+      },
+      {
+        "id": "a5oywf",
+        "narration": "انہیں جدید جراحی کا باپ کہا جاتا ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, historical study, distant rear view of Al-Zahrawi at a wooden desk; foreground dominated by tool illustrations without writing.",
+        "action": "The distant scholar turns a manuscript page.",
+        "camera": "static",
+        "mood": "Respectful, thoughtful, softly lit; no patients or medical procedures."
+      },
+      {
+        "id": "18q4hv",
+        "narration": "جراحی یعنی آپریشن، جس میں ڈاکٹر خاص اوزار استعمال کرتے ہیں۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, library projection showing an illustrated surgical tool beside its matching clean brass model, no labels or writing.",
+        "action": "Noori aligns the brass model with its illustrated outline.",
+        "camera": "orbit",
+        "mood": "Clear educational display, gentle light, no blood or body imagery."
+      },
+      {
+        "id": "a9shqq",
+        "narration": "[surprised] مگر یہ سارے اوزار ایک جیسے تو نہیں!",
+        "characters": [
+          "hamza"
+        ],
+        "scene": "Vertical 9:16, close view of an open manuscript showing distinct forceps, scissors and other historical surgical-tool drawings without text.",
+        "action": "Hamza tilts his head at the different tool shapes.",
+        "camera": "push-in",
+        "mood": "Curious puzzlement, warm paper textures, harmless museum-display presentation."
+      },
+      {
+        "id": "66vho1",
+        "narration": "ہر اوزار کی شکل اس کے کام میں مدد دیتی ہے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, enlarged projection of historical forceps above a clean wooden display table.",
+        "action": "The projected forceps gently close around a folded cloth.",
+        "camera": "static",
+        "mood": "Simple visual explanation, calm and reassuring, no human procedure."
+      },
+      {
+        "id": "yiuh7t",
+        "narration": "الزہراوی نے اپنی کتاب، کتاب التصریف، میں اوزار سمجھائے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, foreground manuscript with a precise forceps illustration; Al-Zahrawi is a small distant figure seen from behind at the desk, with no readable writing anywhere.",
+        "action": "The distant scholar draws the outline of a tool.",
+        "camera": "pan-left",
+        "mood": "Patient craftsmanship, amber workshop lighting, respectful historical atmosphere"
+      },
+      {
+        "id": "mmkpdr",
+        "narration": "[excited] اس میں 200 سے زیادہ جراحی کے اوزار بیان ہوئے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, library filled with a cascading projection of manuscript pages containing varied tool drawings only, no letters or numerals.",
+        "action": "Noori fans the illustrated pages into a tall glowing arc.",
+        "camera": "pull-out",
+        "mood": "Delight and discovery, luminous paper against cozy wooden shelves."
+      },
+      {
+        "id": "4a0jzj",
+        "narration": "تصویروں سے اوزاروں کی شکل سمجھنا آسان ہو گیا۔",
+        "characters": [
+          "hamza"
+        ],
+        "scene": "Vertical 9:16, wooden table with a large forceps drawing and several clean historical tool models displayed safely, no writing.",
+        "action": "Hamza points to the model matching the forceps drawing.",
+        "camera": "push-in",
+        "mood": "Satisfied recognition, bright friendly lamplight."
+      },
+      {
+        "id": "60v1b5",
+        "narration": "واہ، اچھی تصویر بھی علم آگے پہنچاتی ہے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, cozy library, Hamza holding his small notebook open to a simple tool sketch without any writing.",
+        "action": "Hamza proudly raises his illustrated notebook toward Noori.",
+        "camera": "low-angle",
+        "mood": "Happy payoff, encouraging smiles, warm golden glow."
+      },
+      {
+        "id": "8z6n7t",
+        "narration": "[whispers] روشنی چھوٹے سے سوراخ سے گزرے تو کیا ہوگا؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, dim library corner with a tiny opening in an opaque screen and a blank surface beyond it, no text or symbols.",
+        "action": "Noori sends a narrow beam of light through the tiny opening.",
+        "camera": "push-in",
+        "mood": "Gentle suspense, glowing brass, an intriguing promise of the next discovery."
+      }
+    ],
+    "endHook": "Roshni chhotay se suraakh se guzray toh kya hota hai?",
+    "createdAt": "2026-11-12T20:15:01.014Z",
+    "description": "حمزہ اور نوری قرطبہ کے الزہراوی سے ملتے ہیں، جنہیں جدید جراحی کا باپ کہا جاتا ہے۔ ان کی کتاب، کتاب التصریف، میں 200 سے زیادہ جراحی کے اوزاروں کی وضاحت اور تصویریں تھیں۔",
+    "tags": [
+      "Musalman Sciencedan",
+      "Al-Zahrawi",
+      "936-1013 CE",
+      "Cordoba",
+      "Kitab al-Tasrif",
+      "Science for Kids",
+      "Urdu Animation"
+    ]
+  }
+}

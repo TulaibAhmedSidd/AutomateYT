@@ -1,0 +1,105 @@
+{
+  "number": 10,
+  "topic": "A school bag on Monday morning.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:10:42.244Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "If School Bags Could Talk: Monday Morning",
+    "shots": [
+      {
+        "id": "3m7o7f",
+        "narration": "It's Monday, and they're feeding me furniture again.",
+        "characters": [],
+        "scene": "Cosy modern hallway, vertical 9:16 composition, bright 3D cartoon style, no visible text or logos.",
+        "action": "A pair of hands lowers an oversized stack of plain schoolbooks into a blue school bag with big alarmed eyes and a tiny open mouth.",
+        "camera": "push-in",
+        "mood": "Bright morning light, exaggerated alarm, colourful domestic comedy."
+      },
+      {
+        "id": "uim9q1",
+        "narration": "Five minutes ago, I was enjoying my weekend crumbs.",
+        "characters": [],
+        "scene": "Earlier that morning in a cosy hallway corner, vertical 9:16, bright 3D cartoon style, no visible text or logos.",
+        "action": "The blue school bag with big sleepy eyes and a tiny contented mouth reclines against a shoe rack with crumbs inside its open top.",
+        "camera": "static",
+        "mood": "Warm, peaceful, comically lazy."
+      },
+      {
+        "id": "cvt5oo",
+        "narration": "[sighs] Then somebody remembered school exists.",
+        "characters": [],
+        "scene": "Cosy hallway beside a shoe rack, vertical 9:16, bright 3D cartoon style, no visible text or logos.",
+        "action": "A hand yanks the blue school bag with big startled eyes and a tiny round mouth upright by its top handle.",
+        "camera": "low-angle",
+        "mood": "Sudden Monday panic, playful surprise."
+      },
+      {
+        "id": "zaowau",
+        "narration": "Apparently, every book deserves a personal ride.",
+        "characters": [],
+        "scene": "Hallway bench beneath coat hooks, vertical 9:16, bright 3D cartoon style, plain unmarked schoolbooks.",
+        "action": "A hand wedges one more thick book into the blue school bag with big strained eyes and a tiny clenched mouth.",
+        "camera": "pan-right",
+        "mood": "Overstuffed, colourful, increasingly ridiculous."
+      },
+      {
+        "id": "4u08ga",
+        "narration": "And the bottle gets its own luxury apartment.",
+        "characters": [],
+        "scene": "Hallway bench with an overfilled school bag, vertical 9:16, bright 3D cartoon style, no visible text or logos.",
+        "action": "A hand slides a tall plain water bottle into the side pocket of the blue school bag with big sideways-looking eyes and a tiny annoyed mouth.",
+        "camera": "orbit",
+        "mood": "Cheerful colours, petty jealousy, visual imbalance."
+      },
+      {
+        "id": "6y36cb",
+        "narration": "[surprised] Wait, that lunchbox spent the weekend in here?",
+        "characters": [],
+        "scene": "Close view of the bag on the hallway bench, vertical 9:16, bright 3D cartoon style, no visible text or logos.",
+        "action": "A hand lifts a food-stained lunchbox from the blue school bag with big horrified eyes and a tiny downturned mouth.",
+        "camera": "push-in",
+        "mood": "Comic disgust, ominous discovery in sunny surroundings."
+      },
+      {
+        "id": "ykm12c",
+        "narration": "They removed lunch, then replaced it with gym shoes.",
+        "characters": [],
+        "scene": "Cosy hallway bench near the front door, vertical 9:16, bright 3D cartoon style, no visible text or logos.",
+        "action": "A hand stuffs a pair of muddy gym shoes into the blue school bag with big pleading eyes and a tiny miserable mouth.",
+        "camera": "static",
+        "mood": "Messy, relatable, absurdly unfair."
+      },
+      {
+        "id": "jwlrc6",
+        "narration": "Now they're wondering why I'm difficult to close.",
+        "characters": [],
+        "scene": "Overfilled school bag on a hallway bench, vertical 9:16, bright 3D cartoon style, no visible text or logos.",
+        "action": "A hand tugs the stuck zipper of the bulging blue school bag with big squeezed-shut eyes and a tiny tense mouth.",
+        "camera": "low-angle",
+        "mood": "Physical comedy, stretched seams, mounting frustration."
+      },
+      {
+        "id": "ubpvc0",
+        "narration": "[sarcastic] I'm the heavy one? Next, interrogate that lunchbox.",
+        "characters": [],
+        "scene": "Sunny front doorway with the stained lunchbox left on the hallway bench, vertical 9:16, bright 3D cartoon style, no visible text or logos.",
+        "action": "The departing blue school bag with big accusing eyes and a tiny crooked mouth points one loose strap toward the abandoned lunchbox.",
+        "camera": "pull-out",
+        "mood": "Triumphant blame-shifting, playful mystery, punchline finish."
+      }
+    ],
+    "endHook": "Next episode: the lunchbox explains its suspicious weekend leftovers.",
+    "createdAt": "2026-11-12T20:10:42.244Z",
+    "description": "A school bag faces Monday morning with last week's crumbs and today's impossible workload. Getting packed is tough, but getting blamed is worse.",
+    "tags": [
+      "If Things Could Talk",
+      "school bag",
+      "Monday morning",
+      "animated comedy",
+      "relatable",
+      "shorts"
+    ]
+  }
+}

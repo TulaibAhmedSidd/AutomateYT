@@ -1,0 +1,104 @@
+{
+  "number": 5,
+  "topic": "A toothbrush's morning and night routine.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:10:20.714Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "If Toothbrushes Could Talk: The Double Shift",
+    "shots": [
+      {
+        "id": "czhbv3",
+        "narration": "I work two shifts, both inside somebody else's mouth.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon bathroom, warm morning light, plain sink and mirror, no lettering.",
+        "action": "A blue toothbrush with big expressive eyes and a small mouth on its handle slumps forward in a ceramic cup.",
+        "camera": "push-in",
+        "mood": "Sleepy eyes, drooping bristles, cheerful pastel surroundings."
+      },
+      {
+        "id": "ef7zxs",
+        "narration": "My morning starts with a hat I never asked for.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon bathroom, close view above a white sink, unmarked toothpaste tube.",
+        "action": "The plain toothpaste tube deposits a dollop onto the blue toothbrush, whose handle has big eyes and a small unimpressed mouth.",
+        "camera": "static",
+        "mood": "Bright morning light, absurdly fancy toothpaste peak, unimpressed expression."
+      },
+      {
+        "id": "3x8197",
+        "narration": "[surprised] Easy! We're cleaning teeth, not scrubbing a frying pan.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon close-up of teeth and a cropped hand above a bathroom sink.",
+        "action": "The hand scrubs the blue toothbrush across the teeth, its big handle eyes wide and its small mouth puckered.",
+        "camera": "pan-right",
+        "mood": "Energetic motion, toothpaste foam, comically alarmed expression."
+      },
+      {
+        "id": "jhbxy7",
+        "narration": "Then comes my glamorous waterfall treatment.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon bathroom, chrome faucet over a clean white basin.",
+        "action": "Water streams over the blue toothbrush's bristles while its big handle eyes squint above a tiny grimacing mouth.",
+        "camera": "low-angle",
+        "mood": "Sparkling droplets, cool blue reflections, mock luxury."
+      },
+      {
+        "id": "g5x9sj",
+        "narration": "The rest of my day? Staring at the same tile.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon bathroom, ceramic toothbrush cup facing a plain peach tiled wall.",
+        "action": "The blue toothbrush with big eyes and a tiny flat mouth slowly tilts toward the blank wall.",
+        "camera": "pull-out",
+        "mood": "Quiet daylight, empty counter, exaggerated boredom."
+      },
+      {
+        "id": "89b2xo",
+        "narration": "[sighs] Night arrives. Apparently, we're doing the mouth thing again.",
+        "characters": [],
+        "scene": "Vertical 9:16, cosy 3D cartoon bathroom at night, warm vanity lighting, dark window.",
+        "action": "A cropped hand lifts the blue toothbrush from its cup, revealing its big weary eyes and small downturned mouth.",
+        "camera": "pan-left",
+        "mood": "Warm amber light, resigned expression, familiar routine."
+      },
+      {
+        "id": "gcajrs",
+        "narration": "Same teeth. Same foam. Somehow, I'm still surprised.",
+        "characters": [],
+        "scene": "Vertical 9:16, cosy 3D cartoon close-up of teeth and a cropped hand over the evening bathroom sink.",
+        "action": "The hand brushes the teeth with the blue toothbrush, whose big handle eyes bulge above its small startled mouth.",
+        "camera": "static",
+        "mood": "Fluffy toothpaste foam, warm lighting, comic disbelief."
+      },
+      {
+        "id": "t9ucyf",
+        "narration": "Finally, bedtime. Standing up. In a cup.",
+        "characters": [],
+        "scene": "Vertical 9:16, cosy 3D cartoon bathroom counter at night, ceramic cup beside a crumpled unmarked toothpaste tube.",
+        "action": "The blue toothbrush with big sleepy eyes and a small yawning mouth settles upright into the cup.",
+        "camera": "push-in",
+        "mood": "Soft amber shadows, quiet counter, exhausted relief."
+      },
+      {
+        "id": "d8qbna",
+        "narration": "[chuckles] Tomorrow, toothpaste explains why it always cracks under pressure.",
+        "characters": [],
+        "scene": "Vertical 9:16, cosy 3D cartoon bathroom counter, toothbrush cup beside a heavily squeezed unmarked toothpaste tube.",
+        "action": "The blue toothbrush with big expressive eyes and a small mischievous smile tilts toward the flattened toothpaste tube.",
+        "camera": "pull-out",
+        "mood": "Playful side-eye, warm bedtime lighting, visibly crumpled toothpaste tube."
+      }
+    ],
+    "endHook": "Next episode: toothpaste opens up about life under pressure.",
+    "createdAt": "2026-11-12T20:10:20.714Z",
+    "description": "One toothbrush shares the exhausting truth about its morning and night routine. Two shifts, zero appreciation, and a very stressed toothpaste tube.",
+    "tags": [
+      "If Things Could Talk",
+      "toothbrush",
+      "relatable comedy",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

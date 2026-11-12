@@ -1,0 +1,161 @@
+{
+  "number": 8,
+  "topic": "Kitty Hawk, USA, 1903: the Wright brothers made the first powered aeroplane flight, which lasted 12 seconds.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:19:18.569Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: A 12-Second Wonder!",
+    "shots": [
+      {
+        "id": "t0cols",
+        "narration": "A sparkle jump—and something amazing waits beyond the sand!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, sunlit sandy dunes at Kitty Hawk, 3D animated adventure-film style, no writing.",
+        "action": "Zoya and Tock materialize together inside swirling golden time-travel sparkles.",
+        "camera": "push-in",
+        "mood": "Bright golden sunlight, glittering dust, welcoming adventure."
+      },
+      {
+        "id": "1qg474",
+        "narration": "We're in Kitty Hawk, USA, in 1903.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Wide sandy landscape with sparse dune grass beneath a clear blue sky, vertical composition.",
+        "action": "Zoya spreads her arms toward the dunes.",
+        "camera": "pull-out",
+        "mood": "Warm sunlight, open space, cheerful discovery."
+      },
+      {
+        "id": "y6h0us",
+        "narration": "[surprised] Whoops! The wind caught Zoya's paper glider!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Sunlit dune slope, Zoya's empty outstretched hand beside a plain unmarked paper glider.",
+        "action": "The paper glider tumbles away from Zoya through the air.",
+        "camera": "pan-right",
+        "mood": "Playful surprise, fluttering paper, sparkling airborne sand."
+      },
+      {
+        "id": "wt52iv",
+        "narration": "It lands just beyond the dune.",
+        "characters": [],
+        "scene": "Sheltered sandy hollow beyond a grassy dune ridge, no writing or people.",
+        "action": "The paper glider settles onto the sand.",
+        "camera": "static",
+        "mood": "Soft sunshine, quiet sand, gentle suspense."
+      },
+      {
+        "id": "929fz6",
+        "narration": "Tock spots something much bigger.",
+        "characters": [
+          "tock"
+        ],
+        "scene": "Dune crest overlooking a grounded early aeroplane with fabric wings and wooden framework.",
+        "action": "Tock leans forward over the dune crest toward the aeroplane.",
+        "camera": "low-angle",
+        "mood": "Brass gleaming in sunlight, a grand reveal beyond the ridge."
+      },
+      {
+        "id": "lc12hz",
+        "narration": "[excited] The Wright brothers made history here!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Sandy hollow beside a stationary Wright Flyer, with pale fabric wings, exposed framework, and no markings or people.",
+        "action": "Zoya points toward the aeroplane.",
+        "camera": "pan-left",
+        "mood": "Bright historical discovery, warm wood, luminous fabric wings."
+      },
+      {
+        "id": "3x5ohs",
+        "narration": "They made the first powered aeroplane flight.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Grounded Wright Flyer stretching across the sandy clearing, wings stacked against the blue sky.",
+        "action": "Zoya follows the wing's outline with an admiring upward gesture.",
+        "camera": "orbit",
+        "mood": "Friendly wonder, sunlit craftsmanship, expansive sky."
+      },
+      {
+        "id": "rprm4d",
+        "narration": "Their aeroplane used an engine.",
+        "characters": [
+          "tock"
+        ],
+        "scene": "Close view of the stationary aeroplane's exposed engine and wooden framework, Tock standing safely apart.",
+        "action": "Tock tilts his round glass face toward the engine.",
+        "camera": "push-in",
+        "mood": "Curious inspection, warm metallic highlights, crisp wooden details."
+      },
+      {
+        "id": "wuxwze",
+        "narration": "[surprised] That first flight lasted 12 seconds!",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Zoya beside the grounded aeroplane, its fabric wings towering above her yellow hoodie.",
+        "action": "Zoya lifts her hands to her cheeks.",
+        "camera": "static",
+        "mood": "Wide-eyed amazement, brilliant sunlight, gentle historical wonder."
+      },
+      {
+        "id": "pq377l",
+        "narration": "Zoya finds her little flyer beneath the big one.",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Sand beside the grounded aeroplane's wing, plain paper glider within easy reach outside the framework.",
+        "action": "Zoya picks up her paper glider.",
+        "camera": "low-angle",
+        "mood": "Satisfying discovery, soft wing shadow, warm sand."
+      },
+      {
+        "id": "q6h4f7",
+        "narration": "Glider rescued, Zoya readies another time jump.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Sunlit dune clearing with the grounded aeroplane behind them, paper glider tucked securely into Zoya's cargo pocket.",
+        "action": "Zoya presses her glowing blue wristwatch.",
+        "camera": "pull-out",
+        "mood": "Blue watchlight, gathering golden sparkles, cheerful anticipation."
+      },
+      {
+        "id": "hbes5f",
+        "narration": "[excited] Tock asks, 'Where to next?'",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical frame filled with golden time-travel sparkles above the sandy dunes, no visible writing.",
+        "action": "Tock bounces toward Zoya inside the glowing time-jump halo.",
+        "camera": "push-in",
+        "mood": "Bouncy excitement, dazzling golden light, inviting mystery."
+      }
+    ],
+    "endHook": "Zoya’s watch sparkles again—where will their next adventure begin?",
+    "createdAt": "2026-11-12T20:19:18.568Z",
+    "description": "Zoya and Tock sparkle into Kitty Hawk, USA, in 1903. A windblown paper glider leads them to discover the Wright brothers’ first powered aeroplane flight, which lasted 12 seconds!",
+    "tags": [
+      "Tiny Time Traveler",
+      "Kitty Hawk",
+      "Wright brothers",
+      "1903",
+      "aviation history",
+      "kids animation"
+    ]
+  }
+}

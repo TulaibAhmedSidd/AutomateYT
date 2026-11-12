@@ -1,0 +1,133 @@
+{
+  "number": 9,
+  "topic": "What if you never drank water? Most people can only survive about three days without water.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:20:54.881Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If You Never Drank Water?",
+    "shots": [
+      {
+        "id": "pw5owy",
+        "narration": "What if you never drank water?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, vertical composition, glowing water droplet hologram above a round console, no text.",
+        "action": "nova presents the giant water droplet hologram to byte.",
+        "camera": "push-in",
+        "mood": "Bright cyan glow, curious expressions, playful scientific mystery."
+      },
+      {
+        "id": "i4l8so",
+        "narration": "That means no water from drinks or food, either.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a holographic glass, apple and bowl of soup, no labels or symbols.",
+        "action": "nova sweeps the food and drink holograms away.",
+        "camera": "pan-right",
+        "mood": "Clear visual demonstration, warm colours, thoughtful curiosity."
+      },
+      {
+        "id": "13910u",
+        "narration": "[excited] Water helps carry nutrients and control your body temperature.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab beside a translucent anatomical hologram with glowing blood vessels and a cool blue skin surface, no text.",
+        "action": "nova traces the hologram's circulating blue fluid with her finger.",
+        "camera": "orbit",
+        "mood": "Luminous blue pathways, friendly educational wonder."
+      },
+      {
+        "id": "vgxawc",
+        "narration": "You keep losing water through sweat, breathing, and urine.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab with a translucent body hologram showing skin droplets, breath mist and fluid inside the bladder, no text.",
+        "action": "The hologram releases glowing water particles through its illustrated loss pathways.",
+        "camera": "static",
+        "mood": "Clean scientific visualisation, gentle amber lighting."
+      },
+      {
+        "id": "1pcu1v",
+        "narration": "Without replacement, dehydration makes it harder for organs to function.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab with a translucent body hologram containing softly glowing brain, heart and kidneys, no text.",
+        "action": "The holographic organs gradually lose brightness.",
+        "camera": "push-in",
+        "mood": "Thoughtful amber glow, serious but calm, no distress."
+      },
+      {
+        "id": "bkiebs",
+        "narration": "[surprised] Scientists think most survive about three days without water.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab console displaying three adjacent miniature sunrise-to-sunset holographic arcs beside a waterless body model, no text or numerals.",
+        "action": "nova reveals the three glowing day arcs.",
+        "camera": "pull-out",
+        "mood": "Quiet surprise, warm celestial colours, measured scientific tone."
+      },
+      {
+        "id": "t08l3s",
+        "narration": "Scientists think heat can make that window even shorter.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram of a bright sun above a translucent body model with visible sweat droplets, no text.",
+        "action": "The sun hologram intensifies over the model.",
+        "camera": "low-angle",
+        "mood": "Golden light, clear caution without frightening imagery."
+      },
+      {
+        "id": "8pebtu",
+        "narration": "Replacing lost water keeps your body's essential systems working.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Bright lab with a glass of water beside a fully illuminated blue anatomical hologram, no text.",
+        "action": "nova takes a sip from the glass.",
+        "camera": "pan-left",
+        "mood": "Reassuring turquoise light, cheerful return to balance."
+      },
+      {
+        "id": "fhv5dc",
+        "narration": "[surprised] Food contains water—what if you only drank seawater?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a cut watermelon hologram containing sparkling droplets beside a miniature ocean hologram, no text.",
+        "action": "nova points from the water-filled watermelon toward the miniature ocean.",
+        "camera": "pull-out",
+        "mood": "Fresh green and ocean blue, surprising discovery, inviting curiosity."
+      }
+    ],
+    "endHook": "What if you only drank seawater?",
+    "createdAt": "2026-11-12T20:20:54.879Z",
+    "description": "Dr. Nova shows Byte why your body needs water and what happens when it stops getting any. Discover why most people can survive only about three days without water—and why your food matters, too.",
+    "tags": [
+      "What If Lab",
+      "science",
+      "water",
+      "human body",
+      "hydration",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

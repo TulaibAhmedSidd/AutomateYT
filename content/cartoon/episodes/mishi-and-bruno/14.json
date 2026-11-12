@@ -1,0 +1,163 @@
+{
+  "number": 14,
+  "topic": "Bruno helps an old slow tortoise cross the garden path.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:14:25.924Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi & Bruno: The Slow Little Crossing",
+    "shots": [
+      {
+        "id": "8b03wh",
+        "narration": "Can Bruno help this tiny tortoise cross the whole path?",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Sunny garden path, an old wooden wind-up tortoise toy at the grassy edge, visible winding key, vertical 9:16, rounded 3D family animation.",
+        "action": "Bruno lowers his nose beside the tortoise toy.",
+        "camera": "push-in",
+        "mood": "Warm sunlight, bright flowers, Bruno's wide curious eyes."
+      },
+      {
+        "id": "nn2i2o",
+        "narration": "Its little wooden feet move very, very slowly.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Close view of the garden path edge, worn green tortoise toy with rounded wooden feet and a winding key.",
+        "action": "The wind-up tortoise toy inches onto the path.",
+        "camera": "low-angle",
+        "mood": "Soft golden light, Bruno watching with an eager smile."
+      },
+      {
+        "id": "2s0p3n",
+        "narration": "[chuckles] Bruno's paws are ready, but this journey needs patience.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Garden path beside the slowly moving wooden tortoise toy, colourful flowerbeds behind.",
+        "action": "Bruno takes one exaggerated tiny step beside the toy.",
+        "camera": "pan-right",
+        "mood": "Playful floppy ears, raised paw, cheerful sunshine."
+      },
+      {
+        "id": "ijbral",
+        "narration": "Then a pebble stops the tortoise's tiny feet.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Middle of the garden path, a small smooth pebble directly ahead of the wooden tortoise toy.",
+        "action": "The tortoise toy bumps gently against the pebble.",
+        "camera": "static",
+        "mood": "Small harmless obstacle, Bruno's puzzled head tilt, warm light."
+      },
+      {
+        "id": "u4mxp6",
+        "narration": "Bruno nudges, but the little feet still cannot climb.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Close view of the toy resting against the rounded pebble on the sunny path.",
+        "action": "Bruno gently nudges the back of the tortoise toy.",
+        "camera": "push-in",
+        "mood": "Tender concentration, relaxed floppy ears, soft garden colours."
+      },
+      {
+        "id": "4t0x0c",
+        "narration": "[whispers] Mishi spots a smoother way around.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Garden path with the blocked toy, a clear strip of smooth paving beside the pebble, Mishi near Bruno.",
+        "action": "Mishi points one paw toward the clear paving.",
+        "camera": "pull-out",
+        "mood": "Mishi's bright green eyes, Bruno's attentive face, sunny reassuring colours."
+      },
+      {
+        "id": "i84vs7",
+        "narration": "Bruno carefully turns the tortoise toward Mishi's clear route.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny path with the small pebble and a clear route around it.",
+        "action": "Bruno gently rotates the tortoise toy away from the pebble.",
+        "camera": "orbit",
+        "mood": "Careful paws, Mishi's approving smile, soft warm light."
+      },
+      {
+        "id": "x34ryw",
+        "narration": "Together, they follow at the tortoise's own little pace.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Smooth section of garden path, the wooden tortoise toy ahead of the two friends.",
+        "action": "Mishi and Bruno take a tiny step behind the moving toy.",
+        "camera": "pan-right",
+        "mood": "Matching patient smiles, gently curved tails, colourful flowers."
+      },
+      {
+        "id": "tw1kt1",
+        "narration": "[excited] Just one more tiny step to the other side!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Far edge of the garden path, tortoise toy a short distance from the grass, friends watching behind.",
+        "action": "The tortoise toy advances its final little step.",
+        "camera": "low-angle",
+        "mood": "Bright hopeful eyes, sunlit grass, a small triumphant moment."
+      },
+      {
+        "id": "muolet",
+        "narration": "Made it! Bruno gives their slow little traveller a bow.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Tortoise toy safely resting on the grassy far side of the path, Mishi beside Bruno.",
+        "action": "Bruno bows toward the tortoise toy.",
+        "camera": "pull-out",
+        "mood": "Mishi's delighted smile, Bruno's silly proud pose, golden sunshine."
+      },
+      {
+        "id": "00owpb",
+        "narration": "But what's this ribbon hiding beside the flowers?",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Grassy path edge beside the parked tortoise toy, a yellow ribbon trailing behind a flowerpot.",
+        "action": "Mishi lifts the loose end of the ribbon.",
+        "camera": "push-in",
+        "mood": "Curious green eyes, Bruno's perked expression, cosy garden colours."
+      },
+      {
+        "id": "7h9ap8",
+        "narration": "[giggles] Helping takes patience; next, where does this ribbon lead?",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny garden with a yellow ribbon winding behind rounded flowerpots, tortoise toy resting beside the path.",
+        "action": "Mishi and Bruno peer behind the nearest flowerpot.",
+        "camera": "pan-right",
+        "mood": "Friendly anticipation, bright flowers, warm soft lighting."
+      }
+    ],
+    "endHook": "Where does the ribbon in the garden lead?",
+    "createdAt": "2026-11-12T20:14:25.923Z",
+    "description": "Bruno helps an old wind-up tortoise toy cross the garden path, but a tiny bump stops its journey. With Mishi’s careful thinking, the friends discover that helping takes patience.",
+    "tags": [
+      "Mishi and Bruno",
+      "kindness",
+      "patience",
+      "friendship",
+      "garden adventure",
+      "kids animation"
+    ]
+  }
+}

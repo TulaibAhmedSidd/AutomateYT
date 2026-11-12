@@ -1,0 +1,160 @@
+{
+  "number": 2,
+  "topic": "Ibn al-Haytham (about 965-1040 CE), working in Cairo, showed that we see because light enters the eye, and used a dark room with a small hole (camera obscura) that makes an upside-down picture. His Book of Optics was later translated into Latin.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:14:50.783Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Ibn al-Haytham: Tasveer Ulti Kyun Hai?",
+    "shots": [
+      {
+        "id": "5dipsk",
+        "narration": "ارے، یہ باہر کا منظر اندر الٹا کیسے آگیا؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, family-film 3D animation, dark workshop with an upside-down image of a sunlit courtyard on the opposite wall, no visible text.",
+        "action": "Hamza tilts his head at the upside-down courtyard image.",
+        "camera": "push-in",
+        "mood": "Intriguing blue shadows with a friendly amber lantern glow."
+      },
+      {
+        "id": "ysgdje",
+        "narration": "نوری حمزہ کو پرانے قاہرہ کی سیر کراتا ہے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library opening into a projected historical Cairo courtyard with stone arches and colourful awnings, no signs or lettering.",
+        "action": "Noori projects a glowing view of historical Cairo around Hamza.",
+        "camera": "pull-out",
+        "mood": "Welcoming golden light and gentle wonder."
+      },
+      {
+        "id": "g3hms8",
+        "narration": "[excited] یہ ابن الہیثم ہیں، روشنی کو سمجھنے میں مصروف!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected Cairo workshop with brass tools; Ibn al-Haytham appears as a respectful small cartoon figure viewed from behind at a distant table, no text.",
+        "action": "Noori projects Ibn al-Haytham examining a beam of sunlight.",
+        "camera": "pan-right",
+        "mood": "Quiet curiosity in warm workshop lighting."
+      },
+      {
+        "id": "ztd9lp",
+        "narration": "اس اندھیرے کمرے میں باہر کا منظر کیسے دکھے گا؟",
+        "characters": [
+          "hamza"
+        ],
+        "scene": "Vertical 9:16, dark demonstration room with a fully covered window and an empty pale opposite wall, no text.",
+        "action": "Hamza looks toward the empty wall.",
+        "camera": "static",
+        "mood": "Gentle puzzlement with soft blue shadows."
+      },
+      {
+        "id": "pdw03n",
+        "narration": "کھڑکی کے پردے میں بس ایک چھوٹا سوراخ ہے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, close view of an opaque window covering with one tiny circular opening, sunlit courtyard beyond, no text.",
+        "action": "Noori lifts a small flap to uncover the tiny hole.",
+        "camera": "push-in",
+        "mood": "Anticipation around a bright pinpoint of sunlight."
+      },
+      {
+        "id": "3iqbpm",
+        "narration": "[whispers] دیکھو، سوراخ سے روشنی اندر آرہی ہے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, side view of the dark room, tiny window hole on one side and pale wall opposite, subtle dust revealing incoming light, no text.",
+        "action": "Hamza follows the incoming light with his pointing finger.",
+        "camera": "pan-left",
+        "mood": "Hushed discovery with delicate golden light."
+      },
+      {
+        "id": "n4lqg5",
+        "narration": "سیدھی چلتی روشنی سوراخ سے گزر کر الٹی تصویر بناتی ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, clear cutaway of a dark room beside a sunlit courtyard tree; two illustrative light paths cross at the tiny hole, connecting the tree top to the image bottom and tree bottom to image top, no arrows or text.",
+        "action": "An upside-down image of the courtyard tree forms on the opposite wall.",
+        "camera": "static",
+        "mood": "Clear, colourful scientific discovery."
+      },
+      {
+        "id": "638k6l",
+        "narration": "ابن الہیثم نے دکھایا، روشنی آنکھ میں آئے تو ہمیں دکھتا ہے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, simple projected side-view demonstration of a lit brass bowl and an eye, with light travelling from the bowl toward the eye, no labels or text.",
+        "action": "Noori projects light travelling from the bowl into the eye.",
+        "camera": "push-in",
+        "mood": "Friendly clarity with soft amber highlights."
+      },
+      {
+        "id": "7oqfgd",
+        "narration": "[excited] سمجھ آگیا، یہ تو روشنی کا کمال ہے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, dark workshop with the upside-down courtyard image clearly visible on the wall, no text.",
+        "action": "Hamza beams at the upside-down image.",
+        "camera": "orbit",
+        "mood": "Joyful understanding in warm lantern light."
+      },
+      {
+        "id": "u7eugk",
+        "narration": "انہوں نے روشنی پر کتاب المناظر بھی لکھی۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected historical desk with a closed leather-bound manuscript and brass instruments; Ibn al-Haytham sits far behind it with his back to the viewer, no visible writing.",
+        "action": "Noori illuminates the closed manuscript with a soft spotlight.",
+        "camera": "push-in",
+        "mood": "Respectful, scholarly warmth."
+      },
+      {
+        "id": "8r2nq5",
+        "narration": "بعد میں یہ کتاب لاطینی زبان میں بھی ترجمہ ہوئی۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, library table with two differently bound closed manuscript volumes, entirely plain covers without symbols or letters.",
+        "action": "Noori projects a second manuscript beside the first.",
+        "camera": "pull-out",
+        "mood": "Hopeful golden light celebrating shared knowledge."
+      },
+      {
+        "id": "nnkzfl",
+        "narration": "[excited] مگر پرانے زمانے میں ستاروں کی جگہ کیسے ناپتے تھے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library beneath a projected starry sky, an unmarked brass astronomical instrument on the table, no letters or numbers.",
+        "action": "Hamza points toward the projected stars.",
+        "camera": "low-angle",
+        "mood": "Inviting wonder with deep blue stars and warm brass reflections."
+      }
+    ],
+    "endHook": "Purane zamane mein log sitaron ki jagah kaise naapte thay?",
+    "createdAt": "2026-11-12T20:14:50.782Z",
+    "description": "حمزہ اور نوری کے ساتھ قاہرہ میں ابن الہیثم کے تجربے کو دیکھیں۔ جانیں کہ روشنی آنکھ میں کیسے آتی ہے اور اندھیرے کمرے میں الٹی تصویر کیسے بنتی ہے۔",
+    "tags": [
+      "Musalman Sciencedan",
+      "Ibn al-Haytham",
+      "Camera Obscura",
+      "Urdu Science",
+      "Kids Learning"
+    ]
+  }
+}

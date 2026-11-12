@@ -1,0 +1,145 @@
+{
+  "number": 8,
+  "topic": "The Great Mosque of Cordoba was begun in 784-785 CE by Abd al-Rahman I. It is famous for its forest of red-and-white striped arches. Show endless arches and soft light.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:17:35.684Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Cordoba Ki Masjid: Mehraabon Ka Jungle",
+    "shots": [
+      {
+        "id": "bz8txq",
+        "narration": "ایک مسجد، جس کے اندر محرابوں کا جنگل ہے!",
+        "characters": [],
+        "scene": "Vertical 9:16, family-film-quality 3D animation, interior of the Great Mosque of Cordoba, deep rows of red-and-white striped double-tiered arches, soft golden light, empty architecture, no writing or human figures.",
+        "action": "Soft sunlight spreads across the repeating arches.",
+        "camera": "push-in",
+        "mood": "Warm golden illumination and an inviting architectural mystery."
+      },
+      {
+        "id": "zal0hc",
+        "narration": "نانا ابو، مسجد میں جنگل کیسے ہو سکتا ہے؟",
+        "characters": [
+          "areeba",
+          "nana"
+        ],
+        "scene": "Vertical 9:16, warm Pakistani home, Areeba in a yellow shalwar kameez and light-pink dupatta beside Nana Abbu, an ordinary grandfather with a neat white beard, round glasses, cream kurta and brown waistcoat; an open wordless architectural picture album rests between them.",
+        "action": "Areeba points at the picture of repeating arches.",
+        "camera": "static",
+        "mood": "Curious raised eyebrows in gentle lamplight."
+      },
+      {
+        "id": "r5cyir",
+        "narration": "[chuckles] درختوں کا نہیں، بیٹا، محرابوں کا جنگل!",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, family-film-quality 3D animation, the same cozy home and open wordless album, Nana Abbu seated beside Areeba, warm oil-lamp glow, no text.",
+        "action": "Nana Abbu traces the pictured row of arches with one finger.",
+        "camera": "push-in",
+        "mood": "A kind smile and a playful moment of understanding."
+      },
+      {
+        "id": "cwpecj",
+        "narration": "یہ اسپین کے شہر قرطبہ کی عظیم مسجد ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, family-film-quality 3D animation, historic Great Mosque of Cordoba exterior beside its courtyard, warm stone walls and garden greenery, no people, signs or writing.",
+        "action": "A courtyard tree sways gently beside the mosque.",
+        "camera": "pan-right",
+        "mood": "Peaceful historic setting in warm afternoon light."
+      },
+      {
+        "id": "bf8bo1",
+        "narration": "اسے عبدالرحمٰن اول نے بنوانا شروع کروایا تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, respectful architectural view of the Great Mosque of Cordoba, warm stone masonry and an arched entrance, historical subject is its founding by Abd al-Rahman I in 784-785 CE, no depiction of the founder, no people or writing.",
+        "action": "Sunlight moves slowly across the stone entrance.",
+        "camera": "low-angle",
+        "mood": "Calm admiration expressed through golden stone and soft shadows."
+      },
+      {
+        "id": "am0zvd",
+        "narration": "[excited] یہ کام 784-785 عیسوی میں شروع ہوا تھا!",
+        "characters": [],
+        "scene": "Vertical 9:16, family-film-quality 3D animation, close architectural view inside the Great Mosque of Cordoba, red-and-white striped arches rising above stone columns, no people, numerals or text.",
+        "action": "A shaft of light reveals the curved striped stonework.",
+        "camera": "push-in",
+        "mood": "A gentle sense of discovery in luminous warm light."
+      },
+      {
+        "id": "bdyxbn",
+        "narration": "دیکھو، محرابوں پر سرخ اور سفید دھاریاں ہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close-up of authentic red-and-white striped arches in the Great Mosque of Cordoba, smooth curved stone sections, softly blurred columns behind, no figures or writing.",
+        "action": "A soft highlight travels along the alternating colored sections.",
+        "camera": "pan-left",
+        "mood": "Clear, beautiful red-and-white patterns in soft illumination."
+      },
+      {
+        "id": "6c4qwq",
+        "narration": "اور پیچھے دیکھو، محرابوں کے بعد پھر محرابیں!",
+        "characters": [],
+        "scene": "Vertical 9:16, long interior aisle of the Great Mosque of Cordoba, repeating double-tiered red-and-white arches extending deep into the distance, empty floor, no figures or writing.",
+        "action": "Warm light gradually reveals the distant rows.",
+        "camera": "pull-out",
+        "mood": "An expansive view filled with rhythmic arches and gentle shadows."
+      },
+      {
+        "id": "94op3i",
+        "narration": "[whispers] نرم روشنی میں یہ منظر کتنا خوب صورت لگتا ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, family-film-quality 3D animation, quiet interior of the Great Mosque of Cordoba, striped arches framing pools of soft golden light on the floor, no people or writing.",
+        "action": "Tiny dust motes drift through a sunbeam.",
+        "camera": "static",
+        "mood": "Hushed golden stillness with soft-edged shadows."
+      },
+      {
+        "id": "panpb4",
+        "narration": "اسی لیے یہ محرابیں اتنی مشہور ہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, wide symmetrical view of the Great Mosque of Cordoba's forest of red-and-white striped arches, layered columns and softly illuminated depths, no figures or text.",
+        "action": "Daylight brightens the central row of arches.",
+        "camera": "pan-right",
+        "mood": "A satisfying grand view of the repeating architectural pattern."
+      },
+      {
+        "id": "p1kwil",
+        "narration": "اب سمجھ آیا، یہ واقعی محرابوں کا جنگل ہے!",
+        "characters": [
+          "areeba",
+          "nana"
+        ],
+        "scene": "Vertical 9:16, return to the cozy Pakistani home, Areeba and Nana Abbu beside the wordless architectural album, a closed plain book nearby, warm oil-lamp light, no lettering.",
+        "action": "Areeba spreads her hands over the album's wide picture of arches.",
+        "camera": "pull-out",
+        "mood": "Areeba's delighted smile and Nana Abbu's affectionate expression."
+      },
+      {
+        "id": "j5ga3l",
+        "narration": "[excited] نانا ابو، پرانے زمانے میں کتابیں کیسے بنتی تھیں؟",
+        "characters": [
+          "areeba",
+          "nana"
+        ],
+        "scene": "Vertical 9:16, family-film-quality 3D animation, the same warm home, Nana Abbu and Areeba beside the album and a plain closed hand-bound book with no title or markings.",
+        "action": "Areeba points toward the hand-bound book.",
+        "camera": "push-in",
+        "mood": "Bright curiosity beside a softly glowing lamp."
+      }
+    ],
+    "endHook": "Agli baar: purane zamane mein kitabein kaise banti theen?",
+    "createdAt": "2026-11-12T20:17:35.683Z",
+    "description": "قرطبہ کی عظیم مسجد کی تعمیر عبدالرحمٰن اول نے 784-785 عیسوی میں شروع کروائی۔ نانا ابو اور اریبہ کے ساتھ اس کی سرخ اور سفید محرابوں اور نرم روشنی کا حسن دیکھیے۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Cordoba",
+      "Great Mosque of Cordoba",
+      "Abd al-Rahman I",
+      "784-785 CE",
+      "Urdu stories for kids",
+      "Islamic architecture"
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "number": 6,
+  "topic": "Ibn al-Nafis (1213-1288 CE) in Cairo described how blood travels from the heart through the lungs and back (pulmonary circulation), about 300 years before this was described in Europe.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:15:30.303Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Ibn al-Nafis (1213-1288 CE): Khoon Ka Anokha Safar",
+    "shots": [
+      {
+        "id": "x7lk2s",
+        "narration": "دل سے نکلا خون آخر کہاں جاتا ہے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated library, a floating simplified heart model between Hamza and Noori, no text or symbols.",
+        "action": "Hamza leans toward the glowing heart model.",
+        "camera": "push-in",
+        "mood": "Warm amber light, wide-eyed curiosity, friendly rounded shapes."
+      },
+      {
+        "id": "hx4vdg",
+        "narration": "حمزہ کو خون کا راستہ سمجھ نہیں آ رہا تھا۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16 library workshop, simplified heart and paired lungs floating above a wooden table, connecting vessels dim and unlit, no writing.",
+        "action": "Hamza tilts his head at the unlit model.",
+        "camera": "static",
+        "mood": "Gentle puzzlement, soft golden light, inviting scientific mystery."
+      },
+      {
+        "id": "tpd2yw",
+        "narration": "[excited] نوری بولا، چلو قاہرہ چلتے ہیں!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library with brass instruments and closed unmarked manuscripts, a blank wall behind the table.",
+        "action": "Noori projects a glowing view of historic Cairo onto the wall.",
+        "camera": "pull-out",
+        "mood": "Magical discovery, turquoise projector light mixed with warm amber."
+      },
+      {
+        "id": "idbyxb",
+        "narration": "یہ ابن النفیس ہیں، قاہرہ میں علم بانٹتے تھے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, over Hamza and Noori toward a projected historic Cairo study; Ibn al-Nafis appears only as a small respectful rear-view cartoon figure beside a manuscript with no visible writing.",
+        "action": "Noori's projected historical figure turns a manuscript page.",
+        "camera": "push-in",
+        "mood": "Quiet scholarly warmth, respectful distance, softly lit shelves."
+      },
+      {
+        "id": "m3jvn2",
+        "narration": "انہوں نے خون کے سفر کا راستہ بیان کیا۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected Cairo study with the scholar small and distant in the background, a large simplified heart-and-lungs model in the foreground, no labels.",
+        "action": "Noori enlarges the projected heart-and-lungs model.",
+        "camera": "low-angle",
+        "mood": "Clear visual discovery, gentle brass and rose colours."
+      },
+      {
+        "id": "0iqwmi",
+        "narration": "[surprised] دل اور پھیپھڑوں کا آپس میں کیا تعلق ہے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16 library, paired soft pink lungs above a rounded heart model, wide clearly visible connecting vessels, no text.",
+        "action": "Hamza points between the heart and lungs.",
+        "camera": "pan-right",
+        "mood": "Bright curiosity, friendly non-graphic anatomy, soft blue glow."
+      },
+      {
+        "id": "d3qd3i",
+        "narration": "دیکھو، خون دل سے پھیپھڑوں کی طرف جا رہا ہے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, close view of a simplified heart below paired lungs, broad translucent vessels and glowing purple blood beads, no labels or arrows.",
+        "action": "Glowing blood beads travel from the heart toward the lungs.",
+        "camera": "push-in",
+        "mood": "Calm demonstration, clean shapes, clearly illuminated outward route."
+      },
+      {
+        "id": "27dxpe",
+        "narration": "خون دل سے پھیپھڑوں میں جاتا ہے، پھر دل لوٹتا ہے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, complete simplified heart-and-lungs model with two distinct connecting routes, returning blood beads softly red after passing through the lungs, no text.",
+        "action": "A stream of glowing beads completes the heart-to-lungs-to-heart route.",
+        "camera": "static",
+        "mood": "Satisfying clarity, bright continuous pathway, gentle educational wonder."
+      },
+      {
+        "id": "6dnfzj",
+        "narration": "[excited] پھیپھڑوں میں خون کو آکسیجن ملتی ہے!",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, magnified stylized lung air sacs beside tiny blood vessels, pale oxygen dots near purple blood beads, no faces or writing.",
+        "action": "Pale oxygen dots pass from the air sacs into the blood.",
+        "camera": "push-in",
+        "mood": "Delicate sparkling light, reassuring and scientifically playful."
+      },
+      {
+        "id": "js0339",
+        "narration": "اب حمزہ کو خون کا راستہ سمجھ آ گیا!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16 warm library, complete glowing heart-and-lungs loop at Hamza's eye level, his notebook closed and unmarked in his other hand.",
+        "action": "Hamza traces the complete route with his finger.",
+        "camera": "orbit",
+        "mood": "Confident smile, warm payoff, clear luminous circuit."
+      },
+      {
+        "id": "l0qte9",
+        "narration": "ابن النفیس کی یہ بات سائنس کے لیے بہت اہم تھی۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, completed heart-and-lungs model glowing before a projected Cairo study, historical scholar visible only as a small rear-view figure, no lettering.",
+        "action": "Hamza gives the glowing model a delighted thumbs-up.",
+        "camera": "pull-out",
+        "mood": "Respectful celebration, golden light, inspiring shared discovery."
+      },
+      {
+        "id": "q9xef0",
+        "narration": "[excited] کیا پانی سے چلنے والی گھڑی بھی بن سکتی ہے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16 library workshop, a fresh projection of a brass water-clock mechanism with a water bowl and float, no numerals, lettering or markings.",
+        "action": "Noori projects a water stream filling the clock's bowl.",
+        "camera": "push-in",
+        "mood": "Fresh mystery, shimmering water, inviting anticipation."
+      }
+    ],
+    "endHook": "Kya paani se chalne wali ghari bhi ban sakti hai?",
+    "createdAt": "2026-11-12T20:15:30.300Z",
+    "description": "قاہرہ میں ابن النفیس نے بتایا کہ خون دل سے پھیپھڑوں میں جاتا ہے اور پھر دل میں واپس آتا ہے۔ یورپ میں اس کی وضاحت سے تقریباً 300 سال پہلے انہوں نے یہ راستہ بیان کیا تھا۔ حمزہ اور نوری کے ساتھ یہ دلچسپ سفر دیکھیں!",
+    "tags": [
+      "Musalman Sciencedan",
+      "Ibn al-Nafis",
+      "pulmonary circulation",
+      "Urdu science for kids",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

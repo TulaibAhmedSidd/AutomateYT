@@ -1,0 +1,161 @@
+{
+  "number": 14,
+  "topic": "Don't waste water: Mano learns to close the dripping tap.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:12:39.973Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Mano aur Sheru: Tap Tap Paani!",
+    "shots": [
+      {
+        "id": "yx5u1r",
+        "narration": "ارے، نل سے پانی کون ٹپکا رہا ہے؟",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani courtyard beneath a neem tree, low brass tap dripping above a stone basin, rounded family-film 3D animation, no text.",
+        "action": "Mano, a white kitten with orange patches, bright blue eyes and a tiny bell on a red ribbon, peers at a falling drop.",
+        "camera": "push-in",
+        "mood": "Warm sunlight, sparkling droplet, curious blue eyes."
+      },
+      {
+        "id": "jpdnxz",
+        "narration": "مانو نے پنجہ بڑھایا تو قطرہ چھپاک سے گرا۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16 close view of the low courtyard tap and shallow stone basin, colourful family-film 3D animation, no text.",
+        "action": "Mano catches a falling drop on her raised paw.",
+        "camera": "static",
+        "mood": "Playful expression, tiny bright splash, soft golden light."
+      },
+      {
+        "id": "hsmi10",
+        "narration": "[giggles] مانو بولی، یہ تو مزے کا کھیل ہے!",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16 beside the dripping courtyard tap, neem leaves overhead, rounded 3D animation, no text.",
+        "action": "Mano bats at another falling droplet.",
+        "camera": "low-angle",
+        "mood": "Mischievous smile, bouncing bell, cheerful colours."
+      },
+      {
+        "id": "qypj68",
+        "narration": "شیرو آیا تو اس نے بھی ٹپکتا نل دیکھا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16 Pakistani courtyard with a low dripping tap, stone basin and open house doorway, family-film 3D animation, no text.",
+        "action": "Sheru, a brown desi dog with a white chest, pointy ears and a green collar, approaches the tap beside Mano.",
+        "camera": "pan-right",
+        "mood": "Attentive ears, gentle faces, warm courtyard light."
+      },
+      {
+        "id": "tjxz0f",
+        "narration": "اس نے قطروں کے نیچے ایک خالی پیالہ رکھ دیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16 close view beneath the low courtyard tap, small plain blue bowl and stone basin, rounded 3D animation, no text.",
+        "action": "Sheru slides the empty blue bowl beneath the dripping spout.",
+        "camera": "static",
+        "mood": "Calm demonstration, Mano watching closely, clear view of the bowl."
+      },
+      {
+        "id": "own90w",
+        "narration": "[surprised] کچھ دیر بعد پیالے میں اتنا پانی جمع ہوگیا!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16 same courtyard tap, blue bowl now half-filled with water beneath the spout, family-film 3D animation, no text.",
+        "action": "Mano leans over the bowl to inspect the collected water.",
+        "camera": "push-in",
+        "mood": "Wide blue eyes, visible water surface, soft reflected sunlight."
+      },
+      {
+        "id": "bbspbu",
+        "narration": "شیرو بولا، مانو، پانی یوں ضائع نہیں کرنا چاہیے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16 beside the low brass tap and half-filled blue bowl in the Pakistani courtyard, rounded 3D animation, no text.",
+        "action": "Sheru points one paw toward the dripping spout.",
+        "camera": "static",
+        "mood": "Kind steady gaze, Mano listening, gentle afternoon colours."
+      },
+      {
+        "id": "pb2um4",
+        "narration": "مانو نے دونوں پنجوں سے نل کی ٹونٹی گھمائی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16 close view of an accessible low brass tap with a rounded handle, blue bowl beneath, family-film 3D animation, no text.",
+        "action": "Mano turns the tap handle closed with both front paws.",
+        "camera": "push-in",
+        "mood": "Focused kitten face, Sheru watching supportively, bright clear detail."
+      },
+      {
+        "id": "858ce9",
+        "narration": "[excited] واہ، اب نل سے پانی نہیں ٹپک رہا!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16 close view of the closed brass spout above the collected water, colourful courtyard background, rounded 3D animation, no text.",
+        "action": "Mano holds her paw beneath the dry spout.",
+        "camera": "low-angle",
+        "mood": "Proud smile, dry paw, Sheru's approving expression."
+      },
+      {
+        "id": "qelsrk",
+        "narration": "مانو نے جمع پانی ننھے پودے کو دے دیا۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16 courtyard corner beside the neem tree, small leafy plant in a terracotta pot, family-film 3D animation, no text.",
+        "action": "Mano tips the blue bowl to pour its water onto the plant's soil.",
+        "camera": "pan-left",
+        "mood": "Gentle care, darkening damp soil, fresh green leaves."
+      },
+      {
+        "id": "2nrpwi",
+        "narration": "تبھی چھت پر ایک رنگین پتنگ آ کر ٹھہری۔",
+        "characters": [],
+        "scene": "Vertical 9:16 Pakistani house rooftop above the courtyard, low parapet and distant colourful mohalla rooftops, rounded 3D animation, no text.",
+        "action": "A bright diamond-shaped kite settles flat on the rooftop.",
+        "camera": "pan-right",
+        "mood": "Soft breeze, sunny sky, colourful ribbon tail."
+      },
+      {
+        "id": "peloiu",
+        "narration": "[excited] پانی بچائیں؛ اگلی بار دیکھیں گے، چھت کی پتنگ کس کی ہے؟",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16 wide Pakistani courtyard with closed tap in foreground and colourful kite visible on the rooftop above, family-film 3D animation, no text.",
+        "action": "Mano and Sheru look up toward the rooftop kite together.",
+        "camera": "pull-out",
+        "mood": "Friendly smiles, curious upward gazes, warm sunlight."
+      }
+    ],
+    "endHook": "اگلی بار چھت پر یہ رنگین پتنگ کس کی ہوگی؟",
+    "createdAt": "2026-11-12T20:12:39.972Z",
+    "description": "مانو کو صحن میں ٹپکتے نل کے ساتھ کھیلنا اچھا لگتا ہے، مگر شیرو اسے پانی بچانا سکھاتا ہے۔ دیکھیے دونوں دوست مل کر پانی کا ضیاع کیسے روکتے ہیں۔",
+    "tags": [
+      "Mano aur Sheru",
+      "Urdu cartoon",
+      "Pakistani kids",
+      "save water",
+      "بچوں کی کہانی",
+      "پانی بچائیں"
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "number": 10,
+  "topic": "Lost in the bazaar: why it is important to remember your home address.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:12:23.526Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Mano Bazaar Mein Raasta Bhool Gayi!",
+    "shots": [
+      {
+        "id": "qij7ad",
+        "narration": "ارے، بازار میں مانو گھر کا راستہ بھول گئی!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani bazaar junction with two similar lanes, fabric awnings and unmarked fruit baskets; no other figures or lettering; rounded family-film 3D style.",
+        "action": "Mano looks back and forth between the two lanes while Sheru stands beside her.",
+        "camera": "push-in",
+        "mood": "Gentle puzzlement, bright colours, soft afternoon sunlight."
+      },
+      {
+        "id": "y70qi3",
+        "narration": "دونوں طرف ایک جیسی دکانیں تھیں۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16 view across matching bazaar lanes with identical striped awnings and plain pottery displays, no signs or lettering.",
+        "action": "Mano points toward the two matching shopfronts.",
+        "camera": "pan-right",
+        "mood": "Visually playful confusion, warm sunlight, friendly rounded shapes."
+      },
+      {
+        "id": "pgxbhp",
+        "narration": "[sighs] مانو بولی، مجھے تو گھر کا پتا یاد نہیں۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "A quiet recessed shop entrance beside the Pakistani bazaar junction, plain walls and empty woven baskets, vertical 9:16.",
+        "action": "Mano lowers her ears beside Sheru.",
+        "camera": "static",
+        "mood": "Mild disappointment, reassuring warmth, soft shadows."
+      },
+      {
+        "id": "rt8j8m",
+        "narration": "شیرو بولا، فکر نہ کرو، میں تمہارے ساتھ ہوں۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "The same sheltered bazaar entrance, colourful awnings visible behind the friends, vertical 9:16.",
+        "action": "Sheru gently rests one front paw beside Mano's paw.",
+        "camera": "push-in",
+        "mood": "Kind reassurance, relaxed faces, warm golden light."
+      },
+      {
+        "id": "gt208d",
+        "narration": "مجھے گھر کا پتا یاد ہے، ساتھ ساتھ چلیں۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Bazaar junction with a narrow residential lane opening beside a plain pottery stall, no lettering, vertical 9:16.",
+        "action": "Sheru points one front paw toward the residential lane.",
+        "camera": "low-angle",
+        "mood": "Quiet confidence, welcoming pastel buildings, gentle sunlight."
+      },
+      {
+        "id": "n2bs4o",
+        "narration": "[excited] ہمارا پتا ہے، مکان سات، نیم والی گلی!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "A Pakistani residential lane beyond the bazaar, pastel walls and unmarked wooden doors, vertical 9:16.",
+        "action": "Sheru walks beside Mano into the residential lane.",
+        "camera": "pull-out",
+        "mood": "Hopeful progress, colourful family-film 3D look, soft sunlight."
+      },
+      {
+        "id": "xriy73",
+        "narration": "دونوں دوست ایک دوسرے کے پاس ہی رہے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "A quiet mohalla lane with rounded plaster walls, plain clay pots and a neem canopy visible ahead, vertical 9:16.",
+        "action": "Mano and Sheru walk shoulder to shoulder.",
+        "camera": "pan-left",
+        "mood": "Companionship, calm afternoon warmth, friendly neighbourhood colours."
+      },
+      {
+        "id": "7erden",
+        "narration": "گلی کے موڑ پر نیم کا درخت تھا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "A mohalla corner shaded by a broad neem tree, with a plain blue doorway partly visible beyond it, vertical 9:16.",
+        "action": "Sheru points toward the neem tree.",
+        "camera": "low-angle",
+        "mood": "Recognition, dappled sunlight, lush green leaves."
+      },
+      {
+        "id": "tjigs9",
+        "narration": "[excited] مانو بولی، وہ رہا ہمارا نیلا دروازہ!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "A familiar Pakistani house with a plain blue door and two terracotta pots beneath the neem tree, no numbers or lettering, vertical 9:16.",
+        "action": "Mano points at the blue door.",
+        "camera": "push-in",
+        "mood": "Happy recognition, bright blue and terracotta colours, welcoming sunlight."
+      },
+      {
+        "id": "rve5ww",
+        "narration": "آخر دونوں دوست اپنے گھر پہنچ گئے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "View through the open blue doorway into a colourful Pakistani courtyard with a neem tree and rooftop stairs, vertical 9:16.",
+        "action": "Mano and Sheru step into the courtyard together.",
+        "camera": "pull-out",
+        "mood": "Relief and happiness, cosy family-film lighting, rounded friendly architecture."
+      },
+      {
+        "id": "2ihp2u",
+        "narration": "مانو نے دہرایا، مکان سات، نیم والی گلی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Inside the home courtyard beside the open blue door, terracotta pots and neem shade, no visible lettering, vertical 9:16.",
+        "action": "Mano nods confidently to Sheru.",
+        "camera": "static",
+        "mood": "Proud learning, affectionate friendship, soft golden sunlight."
+      },
+      {
+        "id": "cdq6uf",
+        "narration": "[excited] گھر کا پتا یاد رکھیں، کل چھت پر پتنگ دیکھیں گے!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "The safe enclosed courtyard, rooftop stairs in the background and a colourful unmarked paper kite resting on a low bench, vertical 9:16.",
+        "action": "Mano points toward the colourful kite.",
+        "camera": "pan-right",
+        "mood": "Cheerful anticipation, sunny pastel colours, gentle family-film finish."
+      }
+    ],
+    "endHook": "کل چھت پر مانو اور شیرو کو کون سی پتنگ نظر آئے گی؟",
+    "createdAt": "2026-11-12T20:12:23.525Z",
+    "description": "بازار کی رنگ برنگی چیزیں دیکھتے دیکھتے مانو گھر کا راستہ بھول گئی۔ شیرو کو گھر کا پتا یاد تھا، اور دونوں دوست ساتھ ساتھ واپس پہنچ گئے۔ بچوں کو اپنا گھر کا پتا یاد رکھنے کی پیاری سی کہانی۔",
+    "tags": [
+      "Mano aur Sheru",
+      "Urdu cartoon",
+      "kids stories",
+      "home address",
+      "Pakistani cartoon",
+      "بچوں کی کہانی",
+      "گھر کا پتا"
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "number": 3,
+  "topic": "Tardigrade (water bear): a tiny animal smaller than 1 mm that can survive freezing, boiling heat, drying out and even being sent into space.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:21:48.521Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Tardigrade: The Tiny Survival Superhero!",
+    "shots": [
+      {
+        "id": "hq34p2",
+        "narration": "Did you know a tiny animal can survive exposure to space?",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D scientific visualization of a magnified tardigrade above Earth's curved blue horizon; no text.",
+        "action": "The compact, dried tardigrade drifts across the foreground.",
+        "camera": "push-in",
+        "mood": "Bright blue planetary glow, wondrous and exciting."
+      },
+      {
+        "id": "ctng0f",
+        "narration": "Meet the tardigrade, a water bear smaller than 1 mm!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Sunny forest clearing, cinematic 3D nature-film style, damp moss beneath a portable microscope without markings.",
+        "action": "Kiko peers into the microscope beside Pip.",
+        "camera": "pan-right",
+        "mood": "Warm sunlight, emerald greenery, eager discovery."
+      },
+      {
+        "id": "zvjsgr",
+        "narration": "[excited] Let's peek into its tiny, watery world!",
+        "characters": [],
+        "scene": "Magnified microscopic water film between moss leaves, a cute but anatomically recognizable tardigrade with eight short legs.",
+        "action": "The tardigrade crawls along a moss leaf.",
+        "camera": "low-angle",
+        "mood": "Luminous green surroundings, gentle underwater sparkle."
+      },
+      {
+        "id": "hcc4l2",
+        "narration": "But what happens when its watery home dries out?",
+        "characters": [],
+        "scene": "The same magnified moss leaf, with a thinning water film surrounding the tardigrade.",
+        "action": "The water film recedes from the tardigrade.",
+        "camera": "static",
+        "mood": "Soft golden light, curious suspense without danger."
+      },
+      {
+        "id": "ua02y9",
+        "narration": "It shrivels into a dormant bundle called a tun.",
+        "characters": [],
+        "scene": "Extreme microscopic close-up of the tardigrade on the drying moss leaf.",
+        "action": "The tardigrade contracts into a compact tun with tucked-in legs.",
+        "camera": "push-in",
+        "mood": "Quiet, reassuring, softly illuminated."
+      },
+      {
+        "id": "1pmglo",
+        "narration": "[whispers] In this state, it can survive drying out.",
+        "characters": [],
+        "scene": "Magnified dry moss landscape, the compact tardigrade tun nestled in a shallow leaf crease.",
+        "action": "The camera-facing moss leaf sways gently beneath the motionless tun.",
+        "camera": "orbit",
+        "mood": "Peaceful amber light, patient and resilient."
+      },
+      {
+        "id": "0p7otv",
+        "narration": "Add water, and it can become active again!",
+        "characters": [],
+        "scene": "The same microscopic moss crease, now covered by a fresh clear water film.",
+        "action": "The rehydrated tardigrade unfolds its short legs.",
+        "camera": "push-in",
+        "mood": "Fresh green glow, joyful discovery and relief."
+      },
+      {
+        "id": "v29dcw",
+        "narration": "Some have even survived exposure to space!",
+        "characters": [],
+        "scene": "Cinematic 3D scientific visualization of a magnified dried tardigrade against Earth's blue curve and black space.",
+        "action": "The compact tardigrade rotates slowly in the foreground.",
+        "camera": "pull-out",
+        "mood": "Brilliant blue rim light, triumphant wonder."
+      },
+      {
+        "id": "heezz8",
+        "narration": "[excited] Next, which ocean animal has eight arms? Can you guess?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Sunny tropical shore, turquoise ocean and rounded tide-pool rocks, vertical 9:16 cinematic 3D composition.",
+        "action": "Kiko points toward a sparkling tide pool beside Pip.",
+        "camera": "pan-left",
+        "mood": "Bright natural colours, playful anticipation."
+      }
+    ],
+    "endHook": "Which ocean animal has eight arms? Guess our next discovery!",
+    "createdAt": "2026-11-12T20:21:48.520Z",
+    "description": "Meet the tardigrade, a tiny water bear with extraordinary survival powers! Join Kiko and Pip as drying moss reveals its amazing trick, and discover how some tardigrades have even survived exposure to space.",
+    "tags": [
+      "Wild Superpowers",
+      "tardigrade",
+      "water bear",
+      "animal facts",
+      "science for kids",
+      "3D animation"
+    ]
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "number": 10,
+  "topic": "Petra, Jordan: the Nabataeans carved a whole city, including the famous Treasury building, straight into pink sandstone cliffs.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:19:36.484Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: Petra’s Pink Stone Secret",
+    "shots": [
+      {
+        "id": "aieuc1",
+        "narration": "Golden sparkles! Pink cliffs! Where have we landed?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Ancient Petra, Jordan, towering pink sandstone cliffs, bright sunlight, vertical 9:16, cinematic 3D animation, no text.",
+        "action": "Zoya materializes beside Tock inside a swirling cloud of golden time-jump sparkles.",
+        "camera": "push-in",
+        "mood": "Brilliant blue watch glow, sparkling golden dust, wide-eyed wonder."
+      },
+      {
+        "id": "cmnscx",
+        "narration": "It's Petra, Jordan, in the time of the Nabataeans.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "A sandy path between Petra's pink sandstone cliffs, warm sunlight, vertical 9:16, cinematic 3D animation, no text.",
+        "action": "Zoya slowly turns toward the towering cliffs.",
+        "camera": "low-angle",
+        "mood": "Sunlit pink rock, tiny travelers beneath enormous cliffs, friendly adventure."
+      },
+      {
+        "id": "dfwlsr",
+        "narration": "[excited] They carved buildings straight into these pink sandstone cliffs!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Petra cliffside with carved ancient doorways opening directly into pink sandstone, vertical 9:16, cinematic 3D animation, no inscriptions.",
+        "action": "Tock points one tiny leg toward a doorway carved into the cliff.",
+        "camera": "pan-right",
+        "mood": "Warm rose-colored stone, crisp carved edges, delighted discovery."
+      },
+      {
+        "id": "wlxhjk",
+        "narration": "But where is the famous Treasury?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "A bend in Petra's narrow sandstone passage, high pink walls obscuring the view ahead, vertical 9:16, cinematic 3D animation, no text.",
+        "action": "Zoya shades her eyes while peering around the bend.",
+        "camera": "push-in",
+        "mood": "Curious expression, deep passage shadows, bright sunlight overhead."
+      },
+      {
+        "id": "igrcce",
+        "narration": "These tall walls hide everything ahead.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Inside Petra's winding sandstone passage, close towering rock walls and a sandy floor, vertical 9:16, cinematic 3D animation, no text.",
+        "action": "Zoya walks carefully along the passage.",
+        "camera": "pull-out",
+        "mood": "Small yellow hoodie against immense pink walls, gentle suspense."
+      },
+      {
+        "id": "flbewf",
+        "narration": "[whispers] Wait! There's something through that gap.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "A narrow opening between Petra's shaded rock walls reveals a sliver of sunlit carved stone, vertical 9:16, cinematic 3D animation, no text.",
+        "action": "Tock leans toward the opening.",
+        "camera": "push-in",
+        "mood": "Bright golden glimpse beyond cool shadows, eager curiosity."
+      },
+      {
+        "id": "3cw43u",
+        "narration": "Zoya follows the sunlight around the corner.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "The final bend of Petra's narrow passage, with the Treasury partly visible beyond, vertical 9:16, cinematic 3D animation, no text.",
+        "action": "Zoya steps around the sandstone corner.",
+        "camera": "pan-left",
+        "mood": "Warm light spills across the sand, anticipation turning to wonder."
+      },
+      {
+        "id": "6rptpe",
+        "narration": "There it is: the Treasury!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Petra's famous Treasury facade, recognizable carved columns and pediments within the pink sandstone cliff, empty sandy forecourt, vertical 9:16, cinematic 3D animation, no text.",
+        "action": "Zoya spreads her arms toward the towering Treasury.",
+        "camera": "pull-out",
+        "mood": "Magnificent rose-colored facade, bright sunlight, joyful reveal."
+      },
+      {
+        "id": "c7sncm",
+        "narration": "[surprised] Even this grand building was carved into the cliff!",
+        "characters": [
+          "tock"
+        ],
+        "scene": "The Treasury's carved facade meeting the surrounding natural pink sandstone, vertical 9:16, cinematic 3D animation, no inscriptions.",
+        "action": "Tock tilts his round glass face upward.",
+        "camera": "low-angle",
+        "mood": "Tiny brass robot beneath immense stone columns, sparkling amazement."
+      },
+      {
+        "id": "xbkdy4",
+        "narration": "The Nabataeans made the cliff itself their masterpiece.",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "A side view of the Treasury showing carved architectural details emerging from the sandstone cliff, vertical 9:16, cinematic 3D animation, no text.",
+        "action": "Zoya traces the carved outline in the air with her finger.",
+        "camera": "pan-right",
+        "mood": "Respectful admiration, warm pink stone, intricate sunlit carving."
+      },
+      {
+        "id": "bpfee7",
+        "narration": "Mystery solved, and a pink stone wonder discovered!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Petra's Treasury forecourt, glowing pink facade behind the travelers, vertical 9:16, cinematic 3D animation, no text.",
+        "action": "Zoya raises her glowing blue wristwatch.",
+        "camera": "orbit",
+        "mood": "Satisfied smiles, blue watch light, gathering golden sparkles."
+      },
+      {
+        "id": "bpsv57",
+        "narration": "[excited] Where to next?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Petra's Treasury framed by pink cliffs, golden time-travel sparkles filling the foreground, vertical 9:16, cinematic 3D animation, no text.",
+        "action": "Tock turns his glass face toward Zoya to ask his question.",
+        "camera": "push-in",
+        "mood": "Bouncy anticipation, warm brass reflections, a bright blue watch glow."
+      }
+    ],
+    "endHook": "Where will Zoya’s glowing watch take them next?",
+    "createdAt": "2026-11-12T20:19:36.482Z",
+    "description": "Zoya and Tock time-jump to ancient Petra, Jordan, where a winding passage hides an amazing discovery. Explore pink sandstone cliffs and the famous Treasury carved by the Nabataeans!",
+    "tags": [
+      "Tiny Time Traveler",
+      "Petra",
+      "Jordan",
+      "Nabataeans",
+      "history for kids",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

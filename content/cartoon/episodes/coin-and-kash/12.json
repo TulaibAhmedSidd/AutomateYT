@@ -1,0 +1,129 @@
+{
+  "number": 12,
+  "topic": "Impulse buying: the 24-hour rule, wait one day before buying anything you did not plan.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:09:42.807Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "Coin & Kash: The 24-Hour Pause",
+    "shots": [
+      {
+        "id": "35no05",
+        "narration": "That cute mug wasn't planned—but Kash wants it now!",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright modern cafe merchandise corner, one colourful ceramic mug on a plain shelf, vertical 9:16, clean 3D animation, no text or signage.",
+        "action": "Kash reaches toward the colourful mug.",
+        "camera": "push-in",
+        "mood": "Wide sparkling eyes, eager smile, warm inviting colours."
+      },
+      {
+        "id": "1r1qvq",
+        "narration": "Coin suggests a pause before this unplanned purchase.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "The same cafe shelf, colourful mug within Kash's reach, vertical 9:16, no text or signage.",
+        "action": "Coin raises one tiny palm between Kash and the mug.",
+        "camera": "static",
+        "mood": "Gentle interruption, friendly smile, Kash's eyebrows lifted."
+      },
+      {
+        "id": "uno3m5",
+        "narration": "[surprised] The 24-hour rule? Wait one day before buying anything unplanned.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe corner with a floating picture-only sequence of sun, moon, and sun, vertical 9:16, no writing or numbers.",
+        "action": "Coin points along the sun–moon–sun sequence.",
+        "camera": "pan-right",
+        "mood": "Clear bright symbols, cheerful teaching moment, attentive Kash."
+      },
+      {
+        "id": "k0fvra",
+        "narration": "Kash leaves the mug right where it is.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe merchandise shelf with the untouched colourful mug, vertical 9:16, no text or signage.",
+        "action": "Kash withdraws her hand from the mug.",
+        "camera": "pull-out",
+        "mood": "Relaxed shoulders, small determined smile, calm warm lighting."
+      },
+      {
+        "id": "9g3tcz",
+        "narration": "At home, her pause continues into the evening.",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Clean modern city flat, orange evening sky outside a tall window, vertical 9:16, no text.",
+        "action": "Kash closes the window curtains.",
+        "camera": "pan-left",
+        "mood": "Quiet cosy room, soft orange light, peaceful expression."
+      },
+      {
+        "id": "4sr23p",
+        "narration": "[chuckles] One day later, there's no rush toward that mug.",
+        "characters": [
+          "kash"
+        ],
+        "scene": "The same city flat the following evening, orange sky beyond closed curtains, vertical 9:16, no text.",
+        "action": "Kash opens the curtains.",
+        "camera": "static",
+        "mood": "Matching evening light, rested expression, easy unhurried posture."
+      },
+      {
+        "id": "cfq63l",
+        "narration": "Back at the cafe, Kash decides to leave it.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "The familiar cafe merchandise corner, the same colourful mug on its shelf, vertical 9:16, no text or signage.",
+        "action": "Kash walks past the mug shelf.",
+        "camera": "pan-right",
+        "mood": "Contented smile, relaxed hands, Coin's proud cheerful expression."
+      },
+      {
+        "id": "8rd9mw",
+        "narration": "Today, wait one day before buying anything you didn't plan.",
+        "characters": [
+          "coin"
+        ],
+        "scene": "Bright cafe tabletop with a floating sun–moon–sun picture sequence, vertical 9:16, no letters or numbers.",
+        "action": "Coin holds up one finger beside the picture sequence.",
+        "camera": "push-in",
+        "mood": "Encouraging smile, clear simple composition, sunny friendly colours."
+      },
+      {
+        "id": "eqrb8i",
+        "narration": "[excited] Next episode: can Kash pause for a tempting treat?",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe counter with one pastry beneath a clear glass dome, vertical 9:16, no labels or signage.",
+        "action": "Kash stops her reaching hand short of the pastry dome.",
+        "camera": "low-angle",
+        "mood": "Playfully tempted expression, Coin's knowing grin, warm golden light."
+      }
+    ],
+    "endHook": "Next episode: can Kash pause when a tempting treat appears?",
+    "createdAt": "2026-11-12T20:09:42.805Z",
+    "description": "An unplanned mug catches Kash's eye, but Coin introduces the 24-hour rule: wait one day before buying anything you didn't plan. A tiny everyday story about pausing an impulse purchase. General money education only.",
+    "tags": [
+      "Coin & Kash",
+      "impulse buying",
+      "24-hour rule",
+      "money education",
+      "money habits",
+      "animated shorts"
+    ]
+  }
+}

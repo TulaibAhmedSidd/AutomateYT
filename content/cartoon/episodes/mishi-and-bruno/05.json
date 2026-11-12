@@ -1,0 +1,169 @@
+{
+  "number": 5,
+  "topic": "Mishi's first bath: she hates water, but Bruno makes it fun with bubbles.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:13:29.072Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi's First Bath: Bubble Trouble!",
+    "shots": [
+      {
+        "id": "a4phk4",
+        "narration": "Mishi's first bath had one tiny problem: the water!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Cosy colourful bathroom, shallow rounded bathtub, nonslip mat, warm lighting, 3D family animation, vertical 9:16, no text.",
+        "action": "Mishi leans away from the bathtub while Bruno stands beside her.",
+        "camera": "push-in",
+        "mood": "Wide green eyes, tucked paws, gentle comic hesitation."
+      },
+      {
+        "id": "7zb29a",
+        "narration": "Bruno offered a paw, but Mishi wasn't ready.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Warm bathroom beside the shallow bathtub, soft towels on a low shelf, vertical 9:16, no text.",
+        "action": "Bruno extends one paw toward Mishi.",
+        "camera": "static",
+        "mood": "Patient puppy smile, uncertain kitten, soft golden light."
+      },
+      {
+        "id": "pugsn7",
+        "narration": "[whispers] No hurry, Mishi. We can start very small.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Bathroom floor beside the tub, a bubble wand and small bubble tray within reach, vertical 9:16, no text.",
+        "action": "Bruno sits on the mat beside Mishi.",
+        "camera": "pull-out",
+        "mood": "Relaxed floppy ears, reassuring closeness, cosy pastel surroundings."
+      },
+      {
+        "id": "cjnbcq",
+        "narration": "Then Bruno had a wonderfully bubbly idea.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Cosy bathroom beside the shallow tub, bubble tray on the mat, vertical 9:16, no text.",
+        "action": "Bruno lifts a bubble wand from the tray.",
+        "camera": "low-angle",
+        "mood": "Bright puppy eyes, curious kitten gaze, playful anticipation."
+      },
+      {
+        "id": "lbevg0",
+        "narration": "One shimmering bubble floated above the bath.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Warm bathroom with open space above the shallow bathtub, vertical 9:16, no text.",
+        "action": "Bruno sweeps the wand through the air, releasing a large bubble.",
+        "camera": "pan-right",
+        "mood": "Rainbow reflections, delighted puppy grin, Mishi's ears tilted forward."
+      },
+      {
+        "id": "d9jicl",
+        "narration": "[giggles] Pop! Mishi forgot to frown.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Beside the rounded bathtub, one bubble hovering within Mishi's reach, vertical 9:16, no text.",
+        "action": "Mishi taps the floating bubble with one paw.",
+        "camera": "push-in",
+        "mood": "Tiny sparkling droplets, surprised kitten smile, cheerful warm light."
+      },
+      {
+        "id": "01xjs4",
+        "narration": "She tried the water with just one paw.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Low bathtub rim above clear shallow water and a textured bath mat, vertical 9:16, no text.",
+        "action": "Mishi dips one front paw into the water.",
+        "camera": "static",
+        "mood": "Careful concentration, small circular ripples, Bruno's encouraging smile."
+      },
+      {
+        "id": "9xji8x",
+        "narration": "Then Mishi stepped in, with Bruno right beside her.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Low rounded bathtub containing ankle-deep water, Bruno seated outside on the nonslip mat, vertical 9:16, no text.",
+        "action": "Mishi steps into the shallow bathtub.",
+        "camera": "pull-out",
+        "mood": "Cautious kitten posture, steady puppy presence, welcoming golden light."
+      },
+      {
+        "id": "lfo6jq",
+        "narration": "[chuckles] Bruno's bubble parade made bath time feel like play.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Mishi standing securely in shallow bathwater, Bruno outside the tub holding his wand, vertical 9:16, no text.",
+        "action": "Bruno waves a stream of bubbles above the tub.",
+        "camera": "pan-left",
+        "mood": "Floating rainbow spheres, Mishi's bright green eyes, silly puppy grin."
+      },
+      {
+        "id": "ar2hi5",
+        "narration": "Soon, Mishi was making tiny splashes of her own.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Shallow bathtub with textured footing, Bruno watching from the dry mat, vertical 9:16, no text.",
+        "action": "Mishi pats the water with one paw.",
+        "camera": "low-angle",
+        "mood": "Small glittering splash, relaxed kitten ears, shared happy expressions."
+      },
+      {
+        "id": "fnie1n",
+        "narration": "Afterward, one fluffy towel made the perfect cosy finish.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Dry bathroom mat beside the tub, Mishi seated in a fluffy yellow towel, vertical 9:16, no text.",
+        "action": "Bruno gently pats Mishi's towel-wrapped back.",
+        "camera": "push-in",
+        "mood": "Snug kitten smile, affectionate puppy eyes, soft warm lighting."
+      },
+      {
+        "id": "mc1hu6",
+        "narration": "[excited] Patience makes new things easier; next, a garden rainbow!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny garden doorway, dry fluffy Mishi beside Bruno, sprinkler mist forming a rainbow outside, vertical 9:16, no text.",
+        "action": "Mishi points one paw toward the garden rainbow.",
+        "camera": "pull-out",
+        "mood": "Curious green eyes, perked puppy ears, colourful sunlit anticipation."
+      }
+    ],
+    "endHook": "Next time, Mishi and Bruno discover a mysterious garden rainbow!",
+    "createdAt": "2026-11-12T20:13:29.070Z",
+    "description": "Mishi isn't ready for her first bath, but Bruno has a bubbly idea! With patience and a little playful encouragement, these best friends make something new feel easier.",
+    "tags": [
+      "Mishi and Bruno",
+      "first bath",
+      "friendship",
+      "patience",
+      "kids animation",
+      "bubbles",
+      "YouTube Shorts"
+    ]
+  }
+}

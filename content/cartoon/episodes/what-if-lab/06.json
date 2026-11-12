@@ -1,0 +1,133 @@
+{
+  "number": 6,
+  "topic": "What if the Sun switched off? We would not notice for about 8 minutes, the time sunlight takes to reach Earth.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:20:31.986Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If the Sun Switched Off?",
+    "shots": [
+      {
+        "id": "8d2qag",
+        "narration": "What if the Sun switched off?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, glowing Sun and Earth hologram, vertical composition, no text.",
+        "action": "nova presents a holographic Sun that suddenly goes dark.",
+        "camera": "push-in",
+        "mood": "Bright cyan lab lighting, dramatic golden glow fading."
+      },
+      {
+        "id": "4yhc2o",
+        "narration": "Imagine its light stops, but its mass remains.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a dark spherical Sun hologram beside nova, no text.",
+        "action": "nova traces the solid outline of the dark Sun hologram.",
+        "camera": "orbit",
+        "mood": "Curious, violet rim lighting around the intact sphere."
+      },
+      {
+        "id": "uao7mn",
+        "narration": "[surprised] Sunlight already traveling through space keeps coming!",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram showing a dark Sun, a golden light stream and Earth, no text.",
+        "action": "nova guides a glowing sunlight pulse toward Earth.",
+        "camera": "pan-right",
+        "mood": "Wonder-filled, golden light against deep blue space."
+      },
+      {
+        "id": "ml6w4p",
+        "narration": "We wouldn't notice for about 8 minutes.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab overlooking a holographic Earth with a brightly illuminated daytime hemisphere, no text.",
+        "action": "byte circles the still-sunlit Earth hologram.",
+        "camera": "pull-out",
+        "mood": "Unexpectedly calm, warm sunlight across blue oceans."
+      },
+      {
+        "id": "ef09gl",
+        "narration": "Then daylight disappears, revealing stars even on the daytime side.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram of an empty grassy landscape beneath a blue sky, no text.",
+        "action": "nova sweeps the holographic sky from daylight into star-filled darkness.",
+        "camera": "pan-left",
+        "mood": "Astonished, rich indigo sky and sparkling stars."
+      },
+      {
+        "id": "sw7iie",
+        "narration": "[whispers] Earth starts cooling, but it doesn't freeze instantly.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a dark Earth hologram surrounded by a faint warm infrared glow, no text.",
+        "action": "nova lowers her hand as Earth's warm halo slowly fades.",
+        "camera": "push-in",
+        "mood": "Quiet and thoughtful, soft amber fading toward blue."
+      },
+      {
+        "id": "3fft6a",
+        "narration": "Without sunlight, plants can no longer power photosynthesis.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram of a healthy green leaf beneath a fading golden beam, no text.",
+        "action": "nova closes the golden light beam above the leaf.",
+        "camera": "static",
+        "mood": "Reflective, crisp green leaf against cool violet darkness."
+      },
+      {
+        "id": "444jh5",
+        "narration": "But oceans release stored heat, slowing the cooling.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a holographic ocean cutaway, warm amber water beneath a dark surface, no text.",
+        "action": "nova lifts glowing heat wisps from the ocean hologram.",
+        "camera": "low-angle",
+        "mood": "Reassuring, gentle amber light beneath deep blue water."
+      },
+      {
+        "id": "joq3h3",
+        "narration": "[surprised] Earth's orbit continues—what if the Moon vanished next?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with Earth orbiting an intact dark Sun and a small Moon hologram beside byte, no text.",
+        "action": "nova guides Earth along its unchanged orbital path.",
+        "camera": "pull-out",
+        "mood": "Surprising and curious, bright cyan orbital glow against violet space."
+      }
+    ],
+    "endHook": "What if the Moon vanished next?",
+    "createdAt": "2026-11-12T20:20:31.982Z",
+    "description": "What if the Sun suddenly stopped shining, but stayed in place? Dr. Nova shows Byte why Earth would keep receiving sunlight for about 8 minutes—and why darkness wouldn't stop our orbit.",
+    "tags": [
+      "What If Lab",
+      "Sun",
+      "space",
+      "science",
+      "Earth",
+      "animation",
+      "YouTube Shorts"
+    ]
+  }
+}

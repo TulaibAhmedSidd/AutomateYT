@@ -1,0 +1,105 @@
+{
+  "number": 8,
+  "topic": "A ceiling fan working overtime in the summer heat.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:10:42.139Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "If Things Could Talk: The Ceiling Fan's Summer Shift",
+    "shots": [
+      {
+        "id": "08ctsa",
+        "narration": "They called me a ceiling fan. Apparently, that means unpaid overtime.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon living room, sunny windows, colourful sofa, plain ceiling fan without markings.",
+        "action": "The ceiling fan, with big tired eyes and a small downturned mouth on its central housing, spins its blades rapidly.",
+        "camera": "push-in",
+        "mood": "Warm golden sunlight, exaggerated weary expression, cosy summer comedy."
+      },
+      {
+        "id": "z2n1yg",
+        "narration": "Every morning, somebody orders the same thing: maximum.",
+        "characters": [],
+        "scene": "Vertical 9:16, cosy modern living room, plain unmarked wall dial in the foreground, ceiling fan visible above.",
+        "action": "A human hand turns the plain fan dial fully clockwise beneath the ceiling fan with big apprehensive eyes and a small tense mouth.",
+        "camera": "low-angle",
+        "mood": "Bright colours, looming workload, playful dread."
+      },
+      {
+        "id": "qskas9",
+        "narration": "[sighs] My entire summer is going around in circles.",
+        "characters": [],
+        "scene": "Vertical 9:16, upward view of the ceiling fan against a pale ceiling, sunny window edge below.",
+        "action": "The ceiling fan, with big bored eyes and a small flat mouth on its central housing, rotates its blades.",
+        "camera": "orbit",
+        "mood": "Cheerful daylight contrasting with comically exhausted eyes."
+      },
+      {
+        "id": "wzlxp4",
+        "narration": "They lounge. I provide the dramatic hair effects.",
+        "characters": [],
+        "scene": "Vertical 9:16, colourful sofa beneath the ceiling fan, a reclining person's long hair draped over one cushion.",
+        "action": "The reclining person's hair flutters beneath the ceiling fan with big unimpressed eyes and a small pursed mouth.",
+        "camera": "pan-right",
+        "mood": "Lazy afternoon comfort, glossy cartoon hair, deadpan resentment."
+      },
+      {
+        "id": "mv2csv",
+        "narration": "Finally, they switched me off. My moment has arrived.",
+        "characters": [],
+        "scene": "Vertical 9:16, cosy living room ceiling, warm afternoon light, stationary curtains.",
+        "action": "The ceiling fan, with big relieved eyes and a small contented smile, slows its blades to a stop.",
+        "camera": "push-in",
+        "mood": "Soft warm light, peaceful pause, hopeful relief."
+      },
+      {
+        "id": "83ygv8",
+        "narration": "[surprised] Oh. They were just checking why it suddenly felt hot.",
+        "characters": [],
+        "scene": "Vertical 9:16, same living room ceiling and sunny window, sofa visible along the bottom edge.",
+        "action": "The ceiling fan, with big startled eyes and a small round mouth, starts spinning again.",
+        "camera": "static",
+        "mood": "Abrupt return to bright summer bustle, comic disbelief."
+      },
+      {
+        "id": "3sg1y5",
+        "narration": "Now even the paperwork is trying to leave.",
+        "characters": [],
+        "scene": "Vertical 9:16, coffee table with loose completely blank papers beneath the ceiling fan.",
+        "action": "One blank sheet flutters off the table beneath the ceiling fan with big envious eyes and a small crooked mouth.",
+        "camera": "pan-left",
+        "mood": "Airy domestic chaos, bright colours, gentle slapstick."
+      },
+      {
+        "id": "eeyefc",
+        "narration": "Meanwhile, the remote slips away before anyone assigns it work.",
+        "characters": [],
+        "scene": "Vertical 9:16, low view across sofa cushions, plain remote with unmarked buttons, ceiling fan visible overhead.",
+        "action": "A relaxed human hand drops the remote into the cushion gap beneath the ceiling fan with big suspicious eyes and a small frown.",
+        "camera": "low-angle",
+        "mood": "Cosy cushions, sneaky visual timing, amused suspicion."
+      },
+      {
+        "id": "pdms8m",
+        "narration": "[sarcastic] I work all summer. The remote gets a couch vacation.",
+        "characters": [],
+        "scene": "Vertical 9:16, deep sofa cushion gap with the unmarked remote nestled inside, ceiling fan visible above.",
+        "action": "The ceiling fan, with big expressive eyes and a small disgruntled mouth, lowers its eyelids toward the comfortably hidden remote.",
+        "camera": "pull-out",
+        "mood": "Bright cosy room, plush cushion hideaway, deadpan punchline."
+      }
+    ],
+    "endHook": "Next episode: the remote explains its suspiciously long couch vacation.",
+    "createdAt": "2026-11-12T20:10:42.138Z",
+    "description": "A ceiling fan shares its side of summer: endless spinning, impossible expectations, and one very short break. Meanwhile, the remote has found a much better work-life balance.",
+    "tags": [
+      "If Things Could Talk",
+      "ceiling fan",
+      "summer comedy",
+      "relatable",
+      "3D animation",
+      "animated shorts"
+    ]
+  }
+}

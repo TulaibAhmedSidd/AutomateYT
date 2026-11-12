@@ -1,0 +1,161 @@
+{
+  "number": 6,
+  "topic": "They share their food with a hungry stray cat in the mohalla.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:11:58.869Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Mano aur Sheru: Aadhi Roti, Poori Khushi",
+    "shots": [
+      {
+        "id": "ore438",
+        "narration": "مانو کھانا کھانے لگی، مگر یہ آواز کہاں سے آئی؟",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani courtyard beside an open street doorway, neem tree shade, soft sunlight, rounded family-film 3D animation, no text.",
+        "action": "Mano, a white kitten with orange patches, blue eyes and a red bell ribbon, turns her head toward the doorway beside her full food bowl.",
+        "camera": "push-in",
+        "mood": "Curious wide eyes, warm morning colours."
+      },
+      {
+        "id": "q320qy",
+        "narration": "شیرو بھی دروازے کے پاس آ گیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard doorway opening onto a colourful Pakistani mohalla lane, soft sunlight, no text.",
+        "action": "Sheru, a brown desi dog with a white chest, pointy ears and a green collar, walks beside the waiting Mano.",
+        "camera": "pan-right",
+        "mood": "Friendly alertness, relaxed ears and gentle faces."
+      },
+      {
+        "id": "k8ea81",
+        "narration": "[whispers] دیوار کے پیچھے کوئی بھوکی بلی تھی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, mohalla corner with a low plaster wall and a narrow passage hidden behind it, no other animals visible, no text.",
+        "action": "Mano peeks toward the concealed passage while Sheru stands beside her.",
+        "camera": "low-angle",
+        "mood": "Gentle concern, quiet sunny lane."
+      },
+      {
+        "id": "dg5wsr",
+        "narration": "مانو نے اپنے بھرے پیالے کی طرف دیکھا۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, courtyard floor beside the open doorway, a full plain food bowl under neem shade, no text.",
+        "action": "Mano looks down at her full bowl.",
+        "camera": "static",
+        "mood": "Thoughtful expression, soft warm light."
+      },
+      {
+        "id": "qobt0v",
+        "narration": "شیرو ایک خالی پیالی لے آیا۔",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, colourful courtyard with a plain food bowl on a woven mat, no text.",
+        "action": "Sheru carries a small empty lightweight bowl by its rim.",
+        "camera": "pan-left",
+        "mood": "Helpful determination, bright friendly colours."
+      },
+      {
+        "id": "jgaubx",
+        "narration": "[excited] مانو نے اپنا آدھا کھانا پیالی میں ڈال دیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, close view of two plain bowls on the courtyard floor, Sheru seated nearby, no text.",
+        "action": "Mano tips her bowl to pour half its soft food into the smaller bowl.",
+        "camera": "push-in",
+        "mood": "Delighted generosity, clear view of the shared portions."
+      },
+      {
+        "id": "zzi9mw",
+        "narration": "شیرو نے بھی اپنے کھانے میں سے تھوڑا دیا۔",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard feeding corner with Sheru's bowl beside the smaller sharing bowl, no text.",
+        "action": "Sheru tips his bowl to add a little plain cooked chicken to the sharing bowl.",
+        "camera": "static",
+        "mood": "Kind focused eyes, cosy sunlight."
+      },
+      {
+        "id": "tyfb39",
+        "narration": "دونوں نے پیالی دیوار کے پاس رکھ دی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, shaded mohalla wall beside the concealed passage, no other animals visible, no text.",
+        "action": "Sheru lowers the filled sharing bowl beside the passage while Mano watches.",
+        "camera": "low-angle",
+        "mood": "Welcoming, quiet and safe."
+      },
+      {
+        "id": "67fvtd",
+        "narration": "[whispers] پھر دونوں پیچھے ہٹ گئے، تاکہ بلی آرام سے کھائے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard doorway facing the distant bowl beside the lane wall, hidden passage outside the frame, no text.",
+        "action": "Mano and Sheru step back together into their courtyard.",
+        "camera": "pull-out",
+        "mood": "Patient smiles, peaceful distance."
+      },
+      {
+        "id": "dz52rx",
+        "narration": "کچھ دیر بعد، پیالی بالکل خالی تھی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of the same now-empty bowl beside the shaded wall, small fresh pawprints leading into the concealed passage, no animals visible, no text.",
+        "action": "A neem leaf drifts down beside the empty bowl.",
+        "camera": "push-in",
+        "mood": "Quiet satisfaction, dappled golden light."
+      },
+      {
+        "id": "3tr2me",
+        "narration": "مانو اور شیرو خوشی سے ایک دوسرے کو دیکھنے لگے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard doorway with the empty sharing bowl visible outside, colourful plaster walls, no text.",
+        "action": "Mano and Sheru exchange happy looks.",
+        "camera": "orbit",
+        "mood": "Warm friendship, bright eyes and relaxed smiles."
+      },
+      {
+        "id": "ns5n15",
+        "narration": "[excited] بانٹنا اچھا ہے، اگلی بار چھت پر کیا ملے گا؟",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard beneath a flat rooftop with a small unmarked colourful kite caught on its parapet, soft sunlight, no text.",
+        "action": "Mano and Sheru look up toward the rooftop kite.",
+        "camera": "pull-out",
+        "mood": "Happy curiosity, cheerful promise of another adventure."
+      }
+    ],
+    "endHook": "اگلی بار مانو اور شیرو کو چھت پر کیا ملے گا؟",
+    "createdAt": "2026-11-12T20:11:58.868Z",
+    "description": "مانو اور شیرو کو محلے میں ایک بھوکی بلی کا پتا چلتا ہے، تو دونوں اپنا کھانا بانٹتے ہیں۔ ایک چھوٹی سی نیکی ان کی خوشی بڑھا دیتی ہے۔ اگلی بار چھت پر کیا ملے گا؟",
+    "tags": [
+      "Mano aur Sheru",
+      "Urdu cartoon",
+      "sharing",
+      "kindness",
+      "Pakistani kids",
+      "YouTube Shorts"
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "number": 12,
+  "topic": "An ice cube's last minutes in a glass of lemonade.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:11:09.999Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "If Things Could Talk: An Ice Cube’s Last Minutes",
+    "shots": [
+      {
+        "id": "obiz9h",
+        "narration": "I'm trapped in lemonade, and my beach body is disappearing.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, clear lemonade glass on a cosy kitchen table, no lettering or logos.",
+        "action": "A square ice cube with big expressive eyes and a small worried mouth bobs in the lemonade.",
+        "camera": "push-in",
+        "mood": "Sunny yellow drink, sparkling highlights, comically alarmed expression."
+      },
+      {
+        "id": "qzhq3m",
+        "narration": "They promised me a refreshing dip.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon kitchen, close view inside the clear lemonade glass.",
+        "action": "The square ice cube with big eyes and a small hopeful smile floats beside a lemon slice.",
+        "camera": "orbit",
+        "mood": "Cheerful lemon yellow, cool blue reflections, brief holiday-like calm."
+      },
+      {
+        "id": "cg4mwg",
+        "narration": "[surprised] Nobody mentioned the complimentary full-body disappearance.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, lemonade surface inside a clear glass on the kitchen table.",
+        "action": "The ice cube with big startled eyes and a small round mouth melts into a visibly smaller, rounded shape.",
+        "camera": "static",
+        "mood": "Bright watery reflections, exaggerated wide-eyed disbelief."
+      },
+      {
+        "id": "f5vu1l",
+        "narration": "Then someone installed a ceiling fan with no safety inspection.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, close view of lemonade with a plain curved straw.",
+        "action": "A stirring straw sweeps past the rounded ice cube with big nervous eyes and a small tense mouth.",
+        "camera": "pan-right",
+        "mood": "Swirling yellow liquid, playful turbulence, looming straw."
+      },
+      {
+        "id": "sx28y6",
+        "narration": "I spent my afternoon doing laps I never agreed to.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon kitchen, clear lemonade glass viewed near its rim.",
+        "action": "The smaller ice cube with big dizzy eyes and a small crooked mouth circles through the lemonade.",
+        "camera": "static",
+        "mood": "Glossy circular ripples, comic dizziness, bright afternoon light."
+      },
+      {
+        "id": "2oei98",
+        "narration": "[sighs] Great. Now my entire personality is rounded corners.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, close-up of the lemonade surface against a softly blurred kitchen.",
+        "action": "The shrinking ice cube with big drooping eyes and a small frown slowly rotates, revealing completely rounded edges.",
+        "camera": "push-in",
+        "mood": "Soft blue ice highlights, resigned expression, warm yellow surroundings."
+      },
+      {
+        "id": "d9nj3m",
+        "narration": "They're drinking my bathwater. Somehow, I'm the uncomfortable one.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon kitchen, lemonade glass tilted beneath a partially visible human mouth.",
+        "action": "The tiny ice cube with big alarmed eyes and a small tight mouth slides toward the tilted glass rim.",
+        "camera": "low-angle",
+        "mood": "Steep diagonal liquid surface, oversized glass rim, comic suspense."
+      },
+      {
+        "id": "pim1r7",
+        "narration": "At least nobody can say I didn't give this everything.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, upright glass with a shallow amount of lemonade and a plain curved straw.",
+        "action": "The tiny ice sliver with big tired eyes and a small brave smile melts into an even thinner sliver.",
+        "camera": "push-in",
+        "mood": "Warm afternoon glow, tiny sparkling ice remnant, mock-heroic dignity."
+      },
+      {
+        "id": "4s8liu",
+        "narration": "[chuckles] I'm almost gone; that straw's next on the chew menu.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon kitchen, close view of the glass rim, plain straw, and partially visible human teeth.",
+        "action": "Human teeth pinch the straw while the last ice sliver, with big amused eyes and a small smirk, remains visible below.",
+        "camera": "pull-out",
+        "mood": "Comically flattened straw tip, knowing ice-cube expression, bright playful finis"
+      }
+    ],
+    "endHook": "Next episode: the straw explains why every drink becomes a chew toy.",
+    "createdAt": "2026-11-12T20:11:09.998Z",
+    "description": "An ice cube wanted a relaxing dip, not a disappearing act. Its final minutes in lemonade turn into a very personal meltdown—and the straw might have it worse.",
+    "tags": [
+      "If Things Could Talk",
+      "ice cube",
+      "lemonade",
+      "animated comedy",
+      "relatable",
+      "YouTube Shorts"
+    ]
+  }
+}

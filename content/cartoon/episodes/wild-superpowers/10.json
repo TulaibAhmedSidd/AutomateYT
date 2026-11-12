@@ -1,0 +1,117 @@
+{
+  "number": 10,
+  "topic": "Snow leopard: lives high in the mountains, including Pakistan's north; its thick tail helps it balance and keeps its face warm like a scarf.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:22:13.128Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Wild Superpowers: Snow Leopard’s Amazing Tail!",
+    "shots": [
+      {
+        "id": "0ccfg0",
+        "narration": "Did you know a snow leopard carries its own scarf?",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D animated mountain landscape; a cute, true-to-life snow leopard rests on a snowy rock, without text.",
+        "action": "The snow leopard curls its thick tail across its nose.",
+        "camera": "push-in",
+        "mood": "Sunny snow, soft silver fur, intriguing close-up."
+      },
+      {
+        "id": "gdbyrb",
+        "narration": "Kiko and Pip explore high in Pakistan’s northern mountains.",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny rocky mountain overlook beneath snowy peaks; Kiko wears his green safari hat and khaki pocketed vest, with emerald-green Pip beside him.",
+        "action": "Kiko raises his big binoculars toward a distant snow leopard.",
+        "camera": "pull-out",
+        "mood": "Bright natural colours, vast peaks, eager discovery."
+      },
+      {
+        "id": "9gr6qe",
+        "narration": "[excited] Snow leopards live high in mountains, including Pakistan’s north.",
+        "characters": [],
+        "scene": "Vertical 9:16, realistic 3D alpine terrain with steep rocks and scattered snow beneath a blue sky.",
+        "action": "The snow leopard walks along a high rocky ridge.",
+        "camera": "pan-right",
+        "mood": "Sunlit stone, sparkling snow, peaceful mountain grandeur."
+      },
+      {
+        "id": "1yho31",
+        "narration": "But this rocky path looks tricky!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, Kiko and Pip watch from a broad safe overlook; beyond them, a snow leopard faces an uneven rock ledge.",
+        "action": "Kiko points toward the uneven ledge.",
+        "camera": "low-angle",
+        "mood": "Raised eyebrows, rugged rocks, gentle suspense."
+      },
+      {
+        "id": "yird4h",
+        "narration": "Its thick tail helps it balance.",
+        "characters": [],
+        "scene": "Vertical 9:16, side view of a true-to-life snow leopard on a rocky mountain ledge, its long thick tail fully visible.",
+        "action": "The snow leopard crosses the uneven ledge with its tail extended.",
+        "camera": "pan-left",
+        "mood": "Clear sunlight, graceful movement, reassuring confidence."
+      },
+      {
+        "id": "sdohno",
+        "narration": "[excited] Across it goes, with help from that amazing tail!",
+        "characters": [],
+        "scene": "Vertical 9:16, a broad sunlit rock shelf at the end of the uneven mountain ledge.",
+        "action": "The snow leopard steps onto the broad shelf.",
+        "camera": "pull-out",
+        "mood": "Open space, warm sunshine, satisfying arrival."
+      },
+      {
+        "id": "vvp9eg",
+        "narration": "And when resting, its tail keeps its face warm.",
+        "characters": [],
+        "scene": "Vertical 9:16, sheltered snowy mountain hollow, close view of a resting snow leopard with detailed thick fur.",
+        "action": "The snow leopard wraps its thick tail over its face.",
+        "camera": "push-in",
+        "mood": "Soft light, tucked paws, cozy calm."
+      },
+      {
+        "id": "q7txc6",
+        "narration": "A balancing helper and a cozy scarf!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny mountain overlook with Kiko and Pip in the foreground and the resting snow leopard far beyond.",
+        "action": "Kiko gives a delighted thumbs-up.",
+        "camera": "static",
+        "mood": "Broad smile, shimmering green feathers, cheerful discovery."
+      },
+      {
+        "id": "cfirye",
+        "narration": "[whispers] Next, an ocean animal with eight arms. Can you guess?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, Kiko and Pip on the mountain overlook beside a shallow, clear snowmelt pool reflecting the blue sky; no other animal visible.",
+        "action": "Kiko peers into the clear pool through his binoculars.",
+        "camera": "orbit",
+        "mood": "Playful curiosity, glittering water, inviting mystery."
+      }
+    ],
+    "endHook": "Next comes an ocean animal with eight arms. Can you guess?",
+    "createdAt": "2026-11-12T20:22:13.126Z",
+    "description": "Discover how a snow leopard’s thick tail helps it balance and keeps its face warm like a scarf. Join Kiko and Pip high in the mountains, including Pakistan’s north!",
+    "tags": [
+      "Wild Superpowers",
+      "snow leopard",
+      "animal facts",
+      "kids nature",
+      "mountains",
+      "Pakistan"
+    ]
+  }
+}

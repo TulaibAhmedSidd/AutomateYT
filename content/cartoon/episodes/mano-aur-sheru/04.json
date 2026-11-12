@@ -1,0 +1,163 @@
+{
+  "number": 4,
+  "topic": "Mano spills the milk and tells the truth instead of hiding it.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:11:39.833Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Mano Aur Sheru: Doodh Gir Gaya!",
+    "shots": [
+      {
+        "id": "y8k598",
+        "narration": "ارے، دودھ گر گیا، اب مانو کیا کرے گی؟",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani house courtyard beneath a neem tree, a low table with a plain bowl of milk, rounded 3D family animation, soft sunlight, no text.",
+        "action": "Mano, a white kitten with orange patches, blue eyes and a red ribbon bell, bumps the bowl with her paw, spilling milk onto the tiles.",
+        "camera": "push-in",
+        "mood": "Wide blue eyes, raised paw, bright gentle surprise."
+      },
+      {
+        "id": "yw3139",
+        "narration": "مانو تو بس پیالے کے پاس کھیل رہی تھی۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, sunlit courtyard tiles beside the low table, tipped plain bowl and a small milk puddle, colourful rounded 3D animation, no text.",
+        "action": "Mano lowers her raised paw beside the spilled milk.",
+        "camera": "static",
+        "mood": "Drooping ears and a small embarrassed expression."
+      },
+      {
+        "id": "mluzrz",
+        "narration": "[whispers] چٹائی رکھ دوں تو دودھ چھپ جائے گا۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, Pakistani courtyard with a small woven mat beside the milk puddle, neem shadows, soft 3D family film look, no text.",
+        "action": "Mano drags the edge of the woven mat toward the puddle.",
+        "camera": "low-angle",
+        "mood": "Hunched shoulders and a hesitant sideways glance."
+      },
+      {
+        "id": "o784hi",
+        "narration": "اتنے میں شیرو بھی صحن میں آ گیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard doorway facing the low table, milk puddle still uncovered and mat beside it, colourful 3D animation, no text.",
+        "action": "Sheru, a brown desi dog with a white chest, pointy ears and a green collar, walks into the courtyard beside Mano.",
+        "camera": "pan-right",
+        "mood": "Sheru has relaxed ears and kind eyes; Mano looks uneasy."
+      },
+      {
+        "id": "9vrrwd",
+        "narration": "مانو رک گئی، کیا اسے سچ بتانا چاہیے؟",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard tiles with the mat short of the milk puddle, Sheru facing Mano, soft sunlight, rounded 3D look, no text.",
+        "action": "Mano releases the edge of the mat.",
+        "camera": "push-in",
+        "mood": "Mano looks thoughtful; Sheru waits with a gentle expression."
+      },
+      {
+        "id": "1pjdj5",
+        "narration": "[sighs] شیرو، دودھ مجھ سے گرا ہے، معاف کرنا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, sunlit Pakistani courtyard beside the tipped bowl and uncovered milk, friendly 3D animation, no text.",
+        "action": "Mano points her paw toward herself while facing Sheru.",
+        "camera": "static",
+        "mood": "Honest eye contact, lowered ears and a small apologetic face."
+      },
+      {
+        "id": "hhqlqz",
+        "narration": "شیرو نے پیار سے سر ہلایا، غلطی ہو جاتی ہے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard beneath the neem tree, milk puddle visible beside both friends, soft colourful 3D animation, no text.",
+        "action": "Sheru gives Mano a gentle nod.",
+        "camera": "push-in",
+        "mood": "Warm reassuring eyes and Mano's ears beginning to lift."
+      },
+      {
+        "id": "yougz9",
+        "narration": "مانو فوراً صفائی کے لیے کپڑا لے آئی۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, courtyard wall with a low basket of plain cleaning cloths, soft sunlight and rounded 3D shapes, no text.",
+        "action": "Mano pulls a clean cloth from the low basket.",
+        "camera": "pan-left",
+        "mood": "Bright attentive eyes and a determined little stance."
+      },
+      {
+        "id": "c6hr4o",
+        "narration": "[excited] چلو، مل کر صحن صاف کرتے ہیں!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard floor with the small milk puddle, plain tipped bowl nearby, colourful 3D family film look, no text.",
+        "action": "Mano and Sheru press the cleaning cloth onto the puddle together.",
+        "camera": "low-angle",
+        "mood": "Focused friendly faces and cooperative side-by-side poses."
+      },
+      {
+        "id": "kp8rl0",
+        "narration": "مانو نے آخری قطرہ بھی صاف کر دیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, nearly clean courtyard tiles beneath the low table, Sheru sitting nearby, soft neem shadows, rounded 3D animation, no text.",
+        "action": "Mano wipes away the final small drop of milk.",
+        "camera": "push-in",
+        "mood": "Clean gleaming tiles and proud gentle smiles."
+      },
+      {
+        "id": "d22ug4",
+        "narration": "سچ بتا کر مانو کا دل ہلکا ہو گیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, freshly cleaned Pakistani courtyard, upright empty bowl on the low table, rooftop stairs behind the friends, soft 3D animation, no text.",
+        "action": "Mano nestles against Sheru's shoulder.",
+        "camera": "pull-out",
+        "mood": "Relaxed ears, warm smiles and peaceful afternoon sunlight."
+      },
+      {
+        "id": "vtfbxq",
+        "narration": "[excited] ہمیشہ سچ بولو؛ اگلی بار چھت پر پتنگ کس کی ہوگی؟",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, Pakistani rooftop with a tall parapet, a plain colourful kite resting safely on the floor, warm 3D family animation, no text.",
+        "action": "Mano and Sheru tilt their heads toward the colourful kite.",
+        "camera": "pan-right",
+        "mood": "Curious bright eyes, friendly rounded shapes and golden sunlight."
+      }
+    ],
+    "endHook": "اگلی بار چھت پر رنگین پتنگ کس کی ہوگی؟",
+    "createdAt": "2026-11-12T20:11:39.831Z",
+    "description": "مانو سے دودھ گر گیا، تو وہ اسے چھپانے لگی۔ دیکھیے، شیرو کے ساتھ مل کر وہ سچ بولنا اور اپنی غلطی درست کرنا کیسے سیکھتی ہے۔",
+    "tags": [
+      "Mano aur Sheru",
+      "Urdu cartoon",
+      "kids stories",
+      "سچ بولنا",
+      "بچوں کی کہانی"
+    ]
+  }
+}

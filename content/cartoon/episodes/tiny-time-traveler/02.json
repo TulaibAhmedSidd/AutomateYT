@@ -1,0 +1,165 @@
+{
+  "number": 2,
+  "topic": "Mohenjo-daro in today's Pakistan, around 2500 BCE: a planned city of the Indus Valley with straight streets, covered drains and the Great Bath.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:18:36.795Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: The Streets of Mohenjo-daro",
+    "shots": [
+      {
+        "id": "ie3k7l",
+        "narration": "One sparkle-jump, and we're in Mohenjo-daro!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Sunlit ancient brick street in Mohenjo-daro, 3D animated adventure film look, vertical 9:16, no writing.",
+        "action": "Zoya and Tock materialize inside a swirl of dust and golden sparkles.",
+        "camera": "push-in",
+        "mood": "Dazzling golden light, bright blue watch glow, welcoming adventure."
+      },
+      {
+        "id": "mjbdh7",
+        "narration": "Today's Pakistan, around 2500 BCE: a city of the Indus Valley.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Wide view along sunlit brick buildings and intersecting streets in Mohenjo-daro, vertical 9:16, no writing.",
+        "action": "Zoya spreads her arms toward the city.",
+        "camera": "pull-out",
+        "mood": "Warm sunlight, sandy colors, delighted discovery."
+      },
+      {
+        "id": "74u3u5",
+        "narration": "[excited] This planned city had straight streets!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Long straight street bordered by baked-brick walls, clear vanishing point, vertical 9:16, no writing.",
+        "action": "Zoya points down the straight street.",
+        "camera": "pan-right",
+        "mood": "Bright, orderly brick geometry and curious wonder."
+      },
+      {
+        "id": "bvl6z1",
+        "narration": "But Tock can't see past these walls!",
+        "characters": [
+          "tock"
+        ],
+        "scene": "Street corner between tall sunlit brick walls, low viewpoint at Tock's height, vertical 9:16, no writing.",
+        "action": "Tock stretches upward on his tiny legs.",
+        "camera": "low-angle",
+        "mood": "Gentle comic frustration, towering warm brickwork."
+      },
+      {
+        "id": "5y80sm",
+        "narration": "Zoya chooses a straight street to explore.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Straight brick-lined lane beyond the corner, dusty ground in bright sunlight, vertical 9:16, no writing.",
+        "action": "Zoya leads Tock down the lane.",
+        "camera": "static",
+        "mood": "Confident yellow hoodie, cheerful brass companion, inviting path."
+      },
+      {
+        "id": "inbroy",
+        "narration": "[surprised] Look beside the street: covered drains!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Street edge with a brick-lined drain beneath flat covering slabs, a small opening revealing the channel, vertical 9:16, no writing.",
+        "action": "Zoya crouches beside the drain opening.",
+        "camera": "push-in",
+        "mood": "Clear sunlit details, blue watch glow, fascinated discovery."
+      },
+      {
+        "id": "0wie95",
+        "narration": "These channels carried wastewater away.",
+        "characters": [],
+        "scene": "Close view through an opening beneath drain covers, brick channel with a shallow trickle of water, vertical 9:16, no writing.",
+        "action": "Water flows along the brick channel.",
+        "camera": "static",
+        "mood": "Warm brick textures, soft reflected light, clear visual explanation."
+      },
+      {
+        "id": "tdlddm",
+        "narration": "Tock follows the lane, eager for another discovery.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Sunlit lane with covered drains beside brick walls, wider opening ahead, vertical 9:16, no writing.",
+        "action": "Tock bounces along beside Zoya.",
+        "camera": "pan-left",
+        "mood": "Playful spring tail, golden dust, growing anticipation."
+      },
+      {
+        "id": "cciu2m",
+        "narration": "[excited] Beyond the walls—the Great Bath!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Elevated view revealing the Great Bath's large rectangular brick-lined basin and descending steps, vertical 9:16, no writing.",
+        "action": "Zoya points toward the Great Bath.",
+        "camera": "pull-out",
+        "mood": "Grand sunlit reveal, rich brick colors, delighted awe."
+      },
+      {
+        "id": "chc8sd",
+        "narration": "Steps lead down into its brick-lined basin.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Safe level walkway overlooking the Great Bath, rectangular basin and brick steps clearly visible, vertical 9:16, no writing.",
+        "action": "Tock tilts his glass face toward the steps.",
+        "camera": "pan-right",
+        "mood": "Calm curiosity, warm sunlight, impressive ancient architecture."
+      },
+      {
+        "id": "snjwsy",
+        "narration": "Straight streets, covered drains, and the Great Bath—discoveries complete!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Broad brick walkway beside the Great Bath, sunlit walls behind, vertical 9:16, no writing.",
+        "action": "Zoya gives Tock a triumphant thumbs-up.",
+        "camera": "orbit",
+        "mood": "Friendly celebration, bright yellow hoodie, gleaming brass."
+      },
+      {
+        "id": "teapzu",
+        "narration": "[excited] Where to next?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Great Bath courtyard with Zoya's wristwatch glowing blue and golden sparkles gathering nearby, vertical 9:16, no writing.",
+        "action": "Tock turns his round glass face toward Zoya.",
+        "camera": "push-in",
+        "mood": "Eager questioning expression, magical golden glints, another adventure waiting."
+      }
+    ],
+    "endHook": "Zoya's watch sparkles again—what amazing place will they explore next?",
+    "createdAt": "2026-11-12T20:18:36.793Z",
+    "description": "Zoya and Tock sparkle into Mohenjo-daro in today's Pakistan, around 2500 BCE. Explore an Indus Valley planned city with straight streets, covered drains and the Great Bath!",
+    "tags": [
+      "Tiny Time Traveler",
+      "Mohenjo-daro",
+      "Indus Valley",
+      "Pakistan",
+      "history for kids",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

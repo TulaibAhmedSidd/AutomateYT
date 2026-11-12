@@ -1,0 +1,132 @@
+{
+  "number": 7,
+  "topic": "What if you could dig a tunnel straight through the Earth? You would pass through the hot mantle and the iron core, hotter than the surface of the Sun.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:20:40.579Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If You Dug Straight Through Earth?",
+    "shots": [
+      {
+        "id": "1iemka",
+        "narration": "What if you dug a tunnel straight through Earth?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, vertical frame, glowing Earth hologram between Nova and Byte, no text.",
+        "action": "Nova traces a glowing tunnel straight through the Earth hologram.",
+        "camera": "push-in",
+        "mood": "Bright turquoise lighting, curious wide eyes, sparkling holographic glow."
+      },
+      {
+        "id": "9iclk1",
+        "narration": "First, you'd pass through the rocky crust and hot mantle.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with an enlarged cutaway Earth hologram, thin rocky exterior and thick orange mantle, no text.",
+        "action": "Nova guides a glowing marker from the crust into the mantle.",
+        "camera": "pan-right",
+        "mood": "Warm orange light, vivid geological textures, fascinated expressions."
+      },
+      {
+        "id": "j1ow97",
+        "narration": "[surprised] Scientists think Earth's iron core exceeds the Sun's surface temperature.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a cutaway Earth hologram and a smaller Sun hologram, white-yellow inner core, no text.",
+        "action": "Nova magnifies the brilliant iron core beside the Sun hologram.",
+        "camera": "push-in",
+        "mood": "Dazzling golden glow, Byte's widened blue eyes, scientific wonder."
+      },
+      {
+        "id": "530xwr",
+        "narration": "But immense heat and pressure would destroy a real tunnel.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a close-up holographic tunnel deep inside Earth's glowing interior, no people inside, no text.",
+        "action": "The holographic tunnel crumples shut.",
+        "camera": "static",
+        "mood": "Compressed orange rock, buckled tunnel walls, thoughtful expressions."
+      },
+      {
+        "id": "x340jd",
+        "narration": "Gravity pulls you toward Earth's center.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a transparent Earth hologram surrounded by inward-pointing luminous arrows, no text.",
+        "action": "Nova draws the holographic arrows inward toward Earth's center.",
+        "camera": "orbit",
+        "mood": "Clear blue illumination, focused curiosity, crisp glowing geometry."
+      },
+      {
+        "id": "1jz1rs",
+        "narration": "[excited] Imagine an ideal, heatproof, frictionless tunnel without air.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with an imaginary transparent tunnel crossing a cutaway Earth hologram, no text.",
+        "action": "Nova replaces the collapsed tunnel with a pristine glowing passage.",
+        "camera": "pull-out",
+        "mood": "Playful violet glow, delighted expressions, clean luminous surfaces."
+      },
+      {
+        "id": "8qxriz",
+        "narration": "Falling through, you'd reach your greatest speed at the center.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a tall Earth cutaway hologram and a small luminous ball inside its ideal tunnel, no text.",
+        "action": "The holographic ball accelerates toward Earth's center.",
+        "camera": "pan-left",
+        "mood": "Bright cyan motion trails, eager expressions, energetic scientific discovery."
+      },
+      {
+        "id": "ql6hue",
+        "narration": "Beyond the center, gravity slows you toward the opposite opening.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with the opposite half of the holographic Earth tunnel enlarged, no text.",
+        "action": "The luminous ball slows to a stop at the opposite opening.",
+        "camera": "push-in",
+        "mood": "Soft blue glow, shrinking motion trail, delighted anticipation."
+      },
+      {
+        "id": "64uhcl",
+        "narration": "[surprised] You'd oscillate—what if Earth stopped spinning?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a stationary cutaway Earth hologram and its glowing ideal tunnel, no text.",
+        "action": "The luminous ball travels back and forth through Earth.",
+        "camera": "pull-out",
+        "mood": "Playful blue and purple lighting, Nova's amazed smile, Byte's sparkling eyes."
+      }
+    ],
+    "endHook": "What if Earth stopped spinning?",
+    "createdAt": "2026-11-12T20:20:40.578Z",
+    "description": "Dr. Nova shows Byte what lies beneath Earth's surface—and why a real tunnel through the planet wouldn't survive. Then an imaginary, ideal tunnel reveals a surprising gravity-powered journey.",
+    "tags": [
+      "What If Lab",
+      "Earth",
+      "gravity",
+      "science",
+      "animation",
+      "YouTube Shorts"
+    ]
+  }
+}

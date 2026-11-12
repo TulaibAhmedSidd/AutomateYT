@@ -1,0 +1,161 @@
+{
+  "number": 5,
+  "topic": "Al-Razi (about 854-925 CE) ran a hospital in Baghdad and was the first to clearly explain the difference between smallpox and measles. Legend says he chose the hospital site by hanging pieces of meat around the city and picking the place where they spoiled slowest.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:15:27.105Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "الرازی: دو بیماریوں کا فرق",
+    "shots": [
+      {
+        "id": "5z3hmc",
+        "narration": "کیا دو ملتی جلتی بیماریاں بھی الگ ہو سکتی ہیں؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated library, two smooth wooden model hands on a brass tray, one with raised bumps and one with flat red spots, no writing anywhere.",
+        "action": "Hamza tilts his head at the two model hands.",
+        "camera": "push-in",
+        "mood": "Curious, gentle medical mystery, warm amber light."
+      },
+      {
+        "id": "yk31h1",
+        "narration": "نوری نے حمزہ کو مسلمان طبیب الرازی کی جھلک دکھائی۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, cosy library opening into a glowing projection of an old Baghdad courtyard, a respectful distant physician seen from behind, no visible writing.",
+        "action": "Noori projects the historical courtyard.",
+        "camera": "pull-out",
+        "mood": "Welcoming discovery, golden projector glow, family-film animation."
+      },
+      {
+        "id": "fmehm8",
+        "narration": "[excited] رازی بغداد میں ایک ہسپتال چلاتے تھے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected historical hospital with clean beds, folded blankets and ceramic bowls, Al-Razi small in the background and seen from behind, no signs or lettering.",
+        "action": "The distant physician walks between the neatly arranged beds.",
+        "camera": "pan-right",
+        "mood": "Peaceful care, soft daylight, warm 3D animated textures."
+      },
+      {
+        "id": "onr1aj",
+        "narration": "مگر چیچک اور خسرے کو پہچاننا ایک اہم مسئلہ تھا۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, library worktable with two separate wooden model hands showing gentle stylized skin symptoms, no patients, wounds or writing.",
+        "action": "Hamza moves a magnifying glass between the models.",
+        "camera": "static",
+        "mood": "Thoughtful investigation, reassuring and child-friendly."
+      },
+      {
+        "id": "iwdwsm",
+        "narration": "رازی نے پہلی بار چیچک اور خسرے کا فرق واضح کیا۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected historical study, distant physician viewed from behind at a desk, two large symptom models prominent in the foreground, manuscript pages turned away from camera.",
+        "action": "The distant physician points between the two distinct models.",
+        "camera": "push-in",
+        "mood": "An inspiring moment of understanding, warm brass and wood."
+      },
+      {
+        "id": "dv78ye",
+        "narration": "[excited] چیچک میں چھالے بنتے ہیں، خسرے میں سرخ دانے نکلتے ہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of two educational wooden model hands on separate cushions, rounded fluid-filled blister shapes on one and flat red rash spots on the other, non-graphic, no labels.",
+        "action": "A soft spotlight sweeps across the contrasting model surfaces.",
+        "camera": "pan-left",
+        "mood": "Clear, calm scientific explanation, friendly rounded 3D forms."
+      },
+      {
+        "id": "vzst0w",
+        "narration": "ان کے بارے میں ایک مشہور، مگر غیرثابت روایت بھی ہے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library, Noori beside a translucent cloud-shaped projection of an old city, visibly dreamlike rather than solid, no lettering.",
+        "action": "Noori forms the hazy city projection.",
+        "camera": "orbit",
+        "mood": "Gentle storytelling, clearly imagined historical tale."
+      },
+      {
+        "id": "zxzrrk",
+        "narration": "روایت میں، شہر کی مختلف جگہوں پر گوشت لٹکایا گیا۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, hazy miniature projection of historical Baghdad lanes, small plain meat pieces suspended from wooden stands at separated locations, no blood, people or signs.",
+        "action": "Small meat pieces appear on the separated stands.",
+        "camera": "pan-right",
+        "mood": "Curious and restrained, soft storybook haze, non-graphic."
+      },
+      {
+        "id": "wnl4ku",
+        "narration": "[surprised] روایت کے مطابق، جہاں گوشت دیر سے خراب ہوا، جگہ چنی۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, dreamlike miniature city with several stands, some meat pieces muted brown and one still pink, no insects, gore or writing.",
+        "action": "A golden ring settles around the stand with the pink piece.",
+        "camera": "push-in",
+        "mood": "A memorable legendary experiment, gentle visual contrast."
+      },
+      {
+        "id": "w4ld0k",
+        "narration": "یاد رہے، یہ قصہ ثابت شدہ تاریخ نہیں ہے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library with the hazy miniature city hovering above a brass table, plain closed notebook in Hamza's hand, no visible text.",
+        "action": "Noori dissolves the legendary city projection.",
+        "camera": "pull-out",
+        "mood": "Thoughtful honesty, calm and reassuring."
+      },
+      {
+        "id": "7d6i9k",
+        "narration": "بیماریوں کا فرق سمجھنا، مریضوں کی بہتر دیکھ بھال میں مددگار ہے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, library table with the two distinct symptom models neatly separated, warm historical hospital projection in the background, no visible lettering.",
+        "action": "Hamza places each model on its own cushion.",
+        "camera": "static",
+        "mood": "Satisfying understanding, compassionate and hopeful."
+      },
+      {
+        "id": "n7g234",
+        "narration": "[excited] اگلی بار جانیں، ہماری آنکھیں چیزیں کیسے دیکھتی ہیں؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, cosy workshop, a closed wooden pinhole box with a translucent viewing panel showing an inverted colourful flower, no writing or symbols.",
+        "action": "Hamza leans toward the glowing inverted flower image.",
+        "camera": "push-in",
+        "mood": "Playful wonder, inviting mystery for the next episode."
+      }
+    ],
+    "endHook": "ہماری آنکھیں چیزیں کیسے دیکھتی ہیں؟",
+    "createdAt": "2026-11-12T20:15:27.103Z",
+    "description": "حمزہ اور نوری کے ساتھ الرازی سے ملیے، جنہوں نے بغداد میں ہسپتال چلایا اور چیچک اور خسرے کا فرق واضح کیا۔ ہسپتال کی جگہ چننے کی مشہور روایت بھی سنیے، مگر یاد رکھیے کہ روایت اور ثابت شدہ تاریخ الگ ہیں۔",
+    "tags": [
+      "Musalman Sciencedan",
+      "Al-Razi",
+      "Urdu",
+      "Science for Kids",
+      "Muslim Scientists",
+      "3D Animation"
+    ]
+  }
+}

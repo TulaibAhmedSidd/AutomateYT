@@ -1,0 +1,165 @@
+{
+  "number": 11,
+  "topic": "Mesopotamia (today's Iraq), around 3200 BCE: one of the first writing systems, cuneiform, pressed into wet clay with a reed.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:19:41.484Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: The Clay-Writing Challenge",
+    "shots": [
+      {
+        "id": "mfjph3",
+        "narration": "A sparkle jump—and a mystery made of clay!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, sunlit Mesopotamian mud-brick courtyard, low clay workbench, golden time-travel sparkles and drifting dust, no readable markings.",
+        "action": "Zoya and Tock materialize inside a swirling golden sparkle cloud.",
+        "camera": "push-in",
+        "mood": "Bright sunlight, dazzling blue watch glow, welcoming adventure."
+      },
+      {
+        "id": "5spbp3",
+        "narration": "Mesopotamia, today's Iraq, around 3200 BCE!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, flat-roofed mud-brick buildings surrounding a sunny courtyard, woven baskets and plain clay vessels.",
+        "action": "Zoya spreads her arms toward the surrounding courtyard.",
+        "camera": "pull-out",
+        "mood": "Golden sunlight, warm earthen colors, wide-eyed discovery."
+      },
+      {
+        "id": "0irirp",
+        "narration": "[excited] Cuneiform was one of the first writing systems!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, low courtyard workbench with clay pieces and a cut reed, no writing or readable symbols.",
+        "action": "Tock points one tiny leg toward the clay workbench.",
+        "camera": "pan-right",
+        "mood": "Friendly curiosity, polished brass highlights, soft sunlit dust."
+      },
+      {
+        "id": "a0q665",
+        "narration": "Their writing tool? A reed!",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, close view of a plain cut reed beside clay on a rough wooden workbench.",
+        "action": "Zoya lifts the reed between her fingers.",
+        "camera": "push-in",
+        "mood": "Tactile detail, warm sunlight, delighted concentration."
+      },
+      {
+        "id": "lenxob",
+        "narration": "Zoya tries a piece of hardened clay.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, workbench with a dry clay lump and a separate soft clay lump beside a shallow water bowl.",
+        "action": "Zoya presses the reed against the hardened clay.",
+        "camera": "static",
+        "mood": "Gentle suspense, clear close-up, bright natural light."
+      },
+      {
+        "id": "k254u9",
+        "narration": "[surprised] No mark! This clay is too hard.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, close view of unmarked hardened clay beneath Zoya's hovering reed.",
+        "action": "Zoya tilts the hard clay toward her puzzled face.",
+        "camera": "push-in",
+        "mood": "Playful puzzlement, raised eyebrows, soft golden highlights."
+      },
+      {
+        "id": "7sp8xo",
+        "narration": "Tock spots something softer beside the water.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, moist clay lump glistening beside a shallow plain water bowl on the courtyard workbench.",
+        "action": "Tock points toward the moist clay lump.",
+        "camera": "pan-left",
+        "mood": "Hopeful discovery, gleaming clay surface, sunny warmth."
+      },
+      {
+        "id": "xqea6o",
+        "narration": "Wet clay yields beneath Zoya's thumb.",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, close view of moist clay on a plain wooden workbench.",
+        "action": "Zoya presses her thumb into the soft clay.",
+        "camera": "static",
+        "mood": "Satisfying tactile detail, gentle wonder, bright sunlight."
+      },
+      {
+        "id": "jpk51s",
+        "narration": "[excited] Cuneiform marks were pressed into wet clay with a reed.",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, extreme close view of a cut reed touching wet clay, only an isolated nonlinguistic indentation, no letters or readable symbols.",
+        "action": "Zoya presses the reed tip into the wet clay.",
+        "camera": "push-in",
+        "mood": "Triumphant discovery, crisp clay texture, warm golden light."
+      },
+      {
+        "id": "hxa28u",
+        "narration": "A wedge-shaped impression! The softer clay works.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, wet clay bearing one isolated wedge-shaped indentation, no readable writing.",
+        "action": "Zoya lifts the reed to reveal the impression.",
+        "camera": "low-angle",
+        "mood": "Small victory, delighted faces, sparkling blue watch glow."
+      },
+      {
+        "id": "g28c49",
+        "narration": "A simple reed helped people write!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, sunlit Mesopotamian courtyard workbench with the wet clay and its isolated wedge impression.",
+        "action": "Zoya raises the reed with a proud smile.",
+        "camera": "orbit",
+        "mood": "Joyful understanding, warm brass reflections, golden afternoon light."
+      },
+      {
+        "id": "k7dsxt",
+        "narration": "[excited] Where to next?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, same mud-brick courtyard, Zoya's blue wristwatch glowing amid a few golden sparkles, blank watch face with no symbols.",
+        "action": "Tock turns his expressive glass face toward Zoya's glowing wristwatch as he asks his question.",
+        "camera": "push-in",
+        "mood": "Eager anticipation, friendly smiles, magical blue and gold glow."
+      }
+    ],
+    "endHook": "What discovery waits beyond the next time-jump sparkle?",
+    "createdAt": "2026-11-12T20:19:41.483Z",
+    "description": "Zoya and Tock sparkle into Mesopotamia, today's Iraq, around 3200 BCE. Discover cuneiform, one of the first writing systems, and see how a reed pressed shapes into wet clay!",
+    "tags": [
+      "Tiny Time Traveler",
+      "Mesopotamia",
+      "cuneiform",
+      "history for kids",
+      "time travel",
+      "3D animation"
+    ]
+  }
+}

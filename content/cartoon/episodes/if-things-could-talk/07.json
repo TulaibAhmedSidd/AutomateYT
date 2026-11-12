@@ -1,0 +1,104 @@
+{
+  "number": 7,
+  "topic": "The TV remote hiding in the sofa cushions.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:10:37.959Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "If Things Could Talk: The Missing TV Remote",
+    "shots": [
+      {
+        "id": "otrqa0",
+        "narration": "I wanted a break, not a sofa search party.",
+        "characters": [],
+        "scene": "Cosy modern living room, colourful sofa, vertical 9:16 composition, bright 3D cartoon style, no visible text, remote buttons with blank coloured shapes.",
+        "action": "A charcoal TV remote with big cartoon eyes and a small mischievous mouth slides between two sofa cushions.",
+        "camera": "push-in",
+        "mood": "Warm afternoon light, playful secrecy."
+      },
+      {
+        "id": "fsq777",
+        "narration": "Finally, somewhere nobody can press my buttons.",
+        "characters": [],
+        "scene": "Snug gap between soft teal sofa cushions, vertical 9:16 composition, bright 3D cartoon style, no visible text.",
+        "action": "The charcoal remote with big cartoon eyes and a small contented mouth reclines against the cushion fabric.",
+        "camera": "static",
+        "mood": "Cosy golden light, smug relaxation."
+      },
+      {
+        "id": "6o5t8k",
+        "narration": "[surprised] Okay, this break has become a burial.",
+        "characters": [],
+        "scene": "Inside the teal sofa cushion gap, vertical 9:16 composition, bright 3D cartoon style, no visible text.",
+        "action": "A loose cushion drops over the charcoal remote with big startled cartoon eyes and a small round mouth.",
+        "camera": "low-angle",
+        "mood": "Soft shadows, sudden comic alarm."
+      },
+      {
+        "id": "8h9t3p",
+        "narration": "Apparently, the sofa has a basement.",
+        "characters": [],
+        "scene": "Deep fabric-lined sofa crevice beneath the cushions, vertical 9:16 composition, bright 3D cartoon style, no visible text.",
+        "action": "The charcoal remote with big worried cartoon eyes and a small tense mouth slides down the steep fabric crevice.",
+        "camera": "pan-right",
+        "mood": "Dim blue fabric shadows, exaggerated suspense."
+      },
+      {
+        "id": "7a0kmd",
+        "narration": "The neighbours are crumbs. They seem very settled.",
+        "characters": [],
+        "scene": "Bottom of the sofa crevice, scattered crumbs and a plain coin, vertical 9:16 composition, bright 3D cartoon style, no visible text.",
+        "action": "The charcoal remote with big uneasy cartoon eyes and a small disgusted mouth nudges a crumb away.",
+        "camera": "push-in",
+        "mood": "Dusty warm light, awkward disgust."
+      },
+      {
+        "id": "zfmttk",
+        "narration": "[sighs] Yes, search the same empty cushion again.",
+        "characters": [],
+        "scene": "Cutaway view of adjacent sofa cushion gaps, remote visible in the deeper gap, vertical 9:16 composition, bright 3D cartoon style, no visible text.",
+        "action": "A human hand rummages through the empty gap beside the charcoal remote with big exasperated cartoon eyes and a small frown.",
+        "camera": "static",
+        "mood": "Bright light above, comic frustration below."
+      },
+      {
+        "id": "9r5jsw",
+        "narration": "Daylight! I've never appreciated questionable upholstery this much.",
+        "characters": [],
+        "scene": "Open sofa crevice beneath a teal cushion, vertical 9:16 composition, bright 3D cartoon style, no visible text.",
+        "action": "A human hand lifts the cushion above the charcoal remote with big hopeful cartoon eyes and a small delighted mouth.",
+        "camera": "low-angle",
+        "mood": "A broad shaft of warm light, triumphant relief."
+      },
+      {
+        "id": "goi3q8",
+        "narration": "Rescued, dusted, and immediately back on duty.",
+        "characters": [],
+        "scene": "Beside the open sofa cushion gap, vertical 9:16 composition, bright 3D cartoon style, remote buttons with blank coloured shapes, no visible text.",
+        "action": "A human hand lifts the charcoal remote with big relieved cartoon eyes and a small weary smile from the crevice.",
+        "camera": "pull-out",
+        "mood": "Bright cosy light, relieved resignation."
+      },
+      {
+        "id": "qdpbpq",
+        "narration": "[whispers] That sock downstairs owes me an explanation. And rent.",
+        "characters": [],
+        "scene": "Sofa arm above an exposed strip of floor, one dusty sock beneath the sofa, vertical 9:16 composition, bright 3D cartoon style, no visible text.",
+        "action": "The charcoal remote with big suspicious cartoon eyes and a small sly mouth leans over the sofa arm toward the sock below.",
+        "camera": "pull-out",
+        "mood": "Warm living-room light, conspiratorial comic reveal."
+      }
+    ],
+    "endHook": "Next episode: the lonely sock under the sofa explains everything.",
+    "createdAt": "2026-11-12T20:10:37.959Z",
+    "description": "A TV remote sneaks between the sofa cushions for a well-earned break. Unfortunately, getting lost is much easier than getting found.",
+    "tags": [
+      "If Things Could Talk",
+      "TV remote",
+      "relatable comedy",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

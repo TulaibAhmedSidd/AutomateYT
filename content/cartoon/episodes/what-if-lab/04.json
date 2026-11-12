@@ -1,0 +1,133 @@
+{
+  "number": 4,
+  "topic": "What if all the ice on Earth melted? Scientists estimate sea levels would rise by about 70 metres, changing every coastline.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:20:26.428Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If All Earth's Ice Melted?",
+    "shots": [
+      {
+        "id": "n6unzm",
+        "narration": "What if all the ice on Earth melted?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, vertical frame, glowing Earth hologram between Nova and Byte, no text.",
+        "action": "Nova reveals a holographic Earth with gleaming polar ice.",
+        "camera": "push-in",
+        "mood": "Bright cyan light, vivid purple accents, curious anticipation."
+      },
+      {
+        "id": "0fcsec",
+        "narration": "Scientists think complete melting would take a very long time.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a large Earth hologram showing thick ice sheets, vertical composition, no text.",
+        "action": "Nova slowly turns a holographic dial that gradually shrinks the ice sheets.",
+        "camera": "orbit",
+        "mood": "Patient wonder, soft blue glow, clear scientific demonstration."
+      },
+      {
+        "id": "ztash4",
+        "narration": "[surprised] Floating sea ice barely changes sea levels when it melts.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab demonstration hologram of a transparent ocean basin with floating ice and a fixed rim, no markings or text.",
+        "action": "Nova dissolves the floating ice while the water surface stays nearly unchanged.",
+        "camera": "static",
+        "mood": "Playful surprise, sparkling turquoise water, clean visual contrast."
+      },
+      {
+        "id": "nn4is4",
+        "narration": "But melting land ice adds extra water to the oceans.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab, holographic cutaway of an ice-covered continent beside an ocean basin, no text.",
+        "action": "Nova channels glowing meltwater from the land ice into the ocean.",
+        "camera": "pan-right",
+        "mood": "Clear discovery, bright flowing blue water, focused curiosity."
+      },
+      {
+        "id": "318r4w",
+        "narration": "Scientists think seas would rise by about 70 metres.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab with a tall holographic coastal cross-section, original shoreline outlined by a thin amber contour, no text or numbers.",
+        "action": "Nova raises the holographic ocean far above the original shoreline.",
+        "camera": "low-angle",
+        "mood": "Astonishing scale, luminous blue water, thoughtful rather than threatening."
+      },
+      {
+        "id": "42rf92",
+        "narration": "[excited] Every coastline would change as water spreads across low land.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a large holographic globe showing detailed continents and shallow coastal plains, no text.",
+        "action": "Nova sweeps her hand around the globe as its coastlines retreat inland.",
+        "camera": "orbit",
+        "mood": "Expansive wonder, emerald continents, brilliant blue oceans."
+      },
+      {
+        "id": "i7kx6r",
+        "narration": "Many coastal cities would have areas below the new sea.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram of an unoccupied miniature coastal city with hills behind it, no people, brands or text.",
+        "action": "Nova lifts a transparent water layer over the city's low districts.",
+        "camera": "push-in",
+        "mood": "Calm seriousness, clear water, warm buildings, no destruction."
+      },
+      {
+        "id": "i7suhd",
+        "narration": "Higher ground becomes coastline, reshaping habitats and human settlements.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab, holographic landscape with submerged lowlands and green hills bordering a new bay, no text.",
+        "action": "Nova traces the newly formed shoreline with a glowing pointer.",
+        "camera": "pull-out",
+        "mood": "Reflective discovery, sunlit green hills, peaceful blue bay."
+      },
+      {
+        "id": "7tyrf5",
+        "narration": "[surprised] Most ice is Antarctic—what if Earth's oceans froze instead?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a holographic Earth centred on Antarctica, surrounding oceans visible, vertical frame, no text.",
+        "action": "Nova transforms the hologram from highlighted Antarctic ice to frozen oceans.",
+        "camera": "push-in",
+        "mood": "Surprising icy sparkle, bright curiosity, inviting cliffhanger."
+      }
+    ],
+    "endHook": "What if Earth's oceans froze instead?",
+    "createdAt": "2026-11-12T20:20:26.427Z",
+    "description": "Dr. Nova shows Byte how melting land ice could redraw Earth's coastlines. Scientists estimate seas would rise by about 70 metres if all the ice melted—but floating sea ice tells a different story.",
+    "tags": [
+      "What If Lab",
+      "science",
+      "melting ice",
+      "sea level",
+      "Earth",
+      "animation",
+      "YouTube Shorts"
+    ]
+  }
+}

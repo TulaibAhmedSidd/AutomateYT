@@ -1,0 +1,167 @@
+{
+  "number": 1,
+  "topic": "Al-Khwarizmi (about 780-850 CE) worked in Baghdad's House of Wisdom. His book on 'al-jabr' gave us the word 'algebra', and the word 'algorithm' comes from his name.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:14:50.439Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Al-Khwarizmi: Algebra Ka Raaz!",
+    "shots": [
+      {
+        "id": "x9sh28",
+        "narration": "اس بند ڈبے میں کتنی گیندیں ہیں؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated family-film workshop; a balanced brass scale holds a closed wooden box and one red ball on the left, three identical red balls on the right; no writing anywhere.",
+        "action": "Hamza points at the closed box.",
+        "camera": "push-in",
+        "mood": "Bright curiosity, warm amber light, inviting mystery."
+      },
+      {
+        "id": "i8uzzz",
+        "narration": "نوری، یہ ڈبا کھولے بغیر کیسے پتا چلے گا؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, cosy workshop beside the same balanced scale; Hamza holds a small closed notebook; blank surfaces throughout.",
+        "action": "Hamza turns toward Noori with raised eyebrows.",
+        "camera": "static",
+        "mood": "Gentle puzzlement, friendly glowing lantern eyes."
+      },
+      {
+        "id": "h34ury",
+        "narration": "[excited] چلو، بغداد کے بیت الحکمت میں الخوارزمی سے ملیں!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm workshop opening into a luminous projection of historic Baghdad, colourful market awnings and a grand library entrance; no signs or lettering.",
+        "action": "Noori projects the historic Baghdad scene.",
+        "camera": "pull-out",
+        "mood": "Magical discovery, golden light, peaceful wonder."
+      },
+      {
+        "id": "1vc9fa",
+        "narration": "الخوارزمی یہاں کام کرتے تھے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, Noori's projected House of Wisdom library with manuscript shelves and brass instruments; a respectful distant rear-view cartoon representation of Al-Khwarizmi sits at a desk; all pages appear blank at this distance.",
+        "action": "Noori sweeps its projection beam toward the distant scholar's desk.",
+        "camera": "pan-right",
+        "mood": "Quiet respect, rich wood tones, soft library lighting."
+      },
+      {
+        "id": "nzgxqd",
+        "narration": "ان کی کتاب میں الجبر کا طریقہ سمجھایا گیا۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected historical library desk with a plain closed manuscript in the foreground; Al-Khwarizmi remains a small rear-view figure in the distance; no visible text.",
+        "action": "Noori highlights the plain manuscript with a soft circular glow.",
+        "camera": "push-in",
+        "mood": "Thoughtful discovery, warm parchment colours."
+      },
+      {
+        "id": "7i1sur",
+        "narration": "[surprised] اسی الجبر سے لفظ الجبرا بنا!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, workshop with the projected plain manuscript beside a glowing miniature of the original balanced scale; no letters, numbers or symbols.",
+        "action": "Hamza leans closer to the glowing scale model.",
+        "camera": "orbit",
+        "mood": "Delighted recognition, soft brass reflections."
+      },
+      {
+        "id": "q0frnc",
+        "narration": "برابری قائم رکھنے کو دونوں طرف سے برابر چیزیں ہٹاؤ۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, front view of the balanced brass scale; left pan holds the closed box and one red ball, right pan holds three identical red balls; no markings.",
+        "action": "Hamza simultaneously lifts one red ball from each pan.",
+        "camera": "static",
+        "mood": "Clear hands-on learning, calm focused lighting."
+      },
+      {
+        "id": "k49wam",
+        "narration": "اب ڈبا دو گیندوں کے برابر ہے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, level brass scale with only the closed wooden box on the left and two red balls on the right; Hamza's closed notebook rests nearby; no writing.",
+        "action": "Noori illuminates both level scale pans.",
+        "camera": "push-in",
+        "mood": "Satisfying clarity, warm celebratory glow."
+      },
+      {
+        "id": "8pu95n",
+        "narration": "[excited] دیکھا، جواب ڈبا کھولنے سے پہلے مل گیا!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, workshop scale with two red balls opposite the wooden box; its lid is ready to lift; no text or symbols.",
+        "action": "Hamza lifts the box lid to reveal two identical red balls.",
+        "camera": "low-angle",
+        "mood": "Joyful payoff, reassuring and playful."
+      },
+      {
+        "id": "8og50y",
+        "narration": "لفظ الگورتھم بھی الخوارزمی کے نام سے آیا۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, workshop with Noori's softly glowing historical library projection; Al-Khwarizmi is visible only as a distant rear-view cartoon figure beside a plain manuscript.",
+        "action": "Noori projects a halo around the distant scholar.",
+        "camera": "pan-left",
+        "mood": "Respectful appreciation, inspiring golden light."
+      },
+      {
+        "id": "z2tlp4",
+        "narration": "الگورتھم یعنی کام کرنے کے قدم بہ قدم اصول۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, workshop table with red and blue wooden balls, two matching coloured bowls and a small closed notebook; no labels or markings.",
+        "action": "Hamza sorts the coloured balls into their matching bowls one at a time.",
+        "camera": "pull-out",
+        "mood": "Practical understanding, cheerful orderly colours."
+      },
+      {
+        "id": "m4s55c",
+        "narration": "[whispers] روشنی سیدھی کیوں چلتی ہے، کس سائنس دان سے پوچھیں؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, dim cosy library with a narrow straight beam from Noori crossing floating dust toward a plain wall; Hamza holds his closed notebook; no writing.",
+        "action": "Hamza follows Noori's straight light beam with his finger.",
+        "camera": "push-in",
+        "mood": "Gentle suspense, luminous wonder, inviting next-episode mystery."
+      }
+    ],
+    "endHook": "Roshni seedhi kyun chalti hai? Agli baar kis se poochhein?",
+    "createdAt": "2026-11-12T20:14:50.438Z",
+    "description": "حمزہ اور نوری کے ساتھ بغداد کے بیت الحکمت چلیں، جہاں الخوارزمی کام کرتے تھے۔ جانیں کہ الجبرا اور الگورتھم کے نام کہاں سے آئے، اور ترازو سے برابری کا اصول سمجھیں۔",
+    "tags": [
+      "Musalman Sciencedan",
+      "Al-Khwarizmi",
+      "Algebra",
+      "Algorithm",
+      "Urdu Science",
+      "Kids Learning"
+    ]
+  }
+}

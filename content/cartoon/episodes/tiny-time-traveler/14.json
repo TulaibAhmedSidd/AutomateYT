@@ -1,0 +1,165 @@
+{
+  "number": 14,
+  "topic": "Xi'an, China, around 210 BCE: the Terracotta Army of about 8,000 clay soldiers, each with a different face, discovered by farmers in 1974.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:19:55.511Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: The Terracotta Hide-and-Seek",
+    "shots": [
+      {
+        "id": "6vt4f6",
+        "narration": "A sparkle jump—and a sea of clay faces!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, 3D animated adventure-film look, sunlit earthen setting in ancient Xi'an, rows of unarmed terracotta statues, no writing.",
+        "action": "Zoya and Tock materialize in swirling dust and golden sparkles.",
+        "camera": "push-in",
+        "mood": "Brilliant blue watch glow, warm sunlight, welcoming wonder."
+      },
+      {
+        "id": "bthtt1",
+        "narration": "We're in Xi'an, China, around 210 BCE.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Ancient Xi'an, earthy passage between rows of clay soldier statues without weapons, vertical frame.",
+        "action": "Zoya turns toward the long rows of statues.",
+        "camera": "pan-right",
+        "mood": "Golden light, rich clay textures, curious exploration."
+      },
+      {
+        "id": "6raqi2",
+        "narration": "[surprised] The Terracotta Army has about 8,000 clay soldiers!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Tall vertical view across densely arranged unarmed terracotta statues in an earthen setting.",
+        "action": "Tock stretches upward on his tiny legs beside Zoya.",
+        "camera": "pull-out",
+        "mood": "Expansive, bright, astonishing scale."
+      },
+      {
+        "id": "rnenjg",
+        "narration": "And each soldier has a different face.",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Close view of neighboring terracotta faces with visibly different brows, cheeks, and hairstyles, no weapons.",
+        "action": "Zoya points from one clay face to another.",
+        "camera": "pan-left",
+        "mood": "Warm sunlight reveals carefully modeled facial details."
+      },
+      {
+        "id": "8ntc58",
+        "narration": "Tock wants a closer look.",
+        "characters": [
+          "tock"
+        ],
+        "scene": "Ground-level gap beside broad clay statue feet on dusty earth.",
+        "action": "Tock steps behind a clay statue's foot.",
+        "camera": "low-angle",
+        "mood": "Playful curiosity, soft golden dust."
+      },
+      {
+        "id": "5r50qu",
+        "narration": "[surprised] Wait—where did Tock go?",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Narrow passage among tall unarmed terracotta statues, empty dusty ground beside Zoya.",
+        "action": "Zoya peers around a statue.",
+        "camera": "push-in",
+        "mood": "Gentle puzzlement, friendly hide-and-seek suspense."
+      },
+      {
+        "id": "qfim71",
+        "narration": "So many faces, but no round glass face!",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Clay faces above Zoya, with varied expressions and hairstyles filling the vertical frame.",
+        "action": "Zoya scans the row of statue faces.",
+        "camera": "pan-right",
+        "mood": "Bright, curious, lightly comic."
+      },
+      {
+        "id": "bq7y4e",
+        "narration": "There! A spring behind those clay feet!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Dusty passage, statue feet in foreground, Tock partly concealed with his brass spring tail visible.",
+        "action": "Zoya crouches beside Tock's hiding place.",
+        "camera": "low-angle",
+        "mood": "Relieved discovery, warm reflected sunlight."
+      },
+      {
+        "id": "8pv2qz",
+        "narration": "[giggles] Found you, tiny explorer!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Open patch of earth beside the terracotta row, Zoya crouched near a clay foot.",
+        "action": "Tock steps out from behind the statue.",
+        "camera": "static",
+        "mood": "Cheerful reunion, brass gleaming against warm clay."
+      },
+      {
+        "id": "eqzxkv",
+        "narration": "Farmers will discover this army in 1974.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Zoya and Tock beside a sweeping row of unarmed terracotta statues, no writing or symbols.",
+        "action": "Zoya gestures toward the clay army.",
+        "camera": "pull-out",
+        "mood": "Quiet wonder, sunlit historical grandeur."
+      },
+      {
+        "id": "sgezjj",
+        "narration": "Let's leave every clay soldier just as we found it.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Clear earthen passage beside untouched terracotta statues, Zoya's blue wristwatch prominent.",
+        "action": "Zoya taps her glowing blue wristwatch.",
+        "camera": "push-in",
+        "mood": "Respectful farewell, gathering golden sparkles."
+      },
+      {
+        "id": "xdoh6w",
+        "narration": "[excited] Tock asks, \"Where to next?\"",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Ancient Xi'an fading behind a bright blue time-travel glow, golden dust filling the vertical frame.",
+        "action": "Tock bounces into the swirling time-jump sparkles beside Zoya.",
+        "camera": "orbit",
+        "mood": "Joyful anticipation, luminous blue and gold."
+      }
+    ],
+    "endHook": "The blue watch sparkles again—where will their next adventure begin?",
+    "createdAt": "2026-11-12T20:19:55.510Z",
+    "description": "Zoya and Tock visit Xi'an, China, around 210 BCE and explore the Terracotta Army. Discover about 8,000 clay soldiers, their different faces, and the farmers who discovered them in 1974.",
+    "tags": [
+      "Tiny Time Traveler",
+      "Terracotta Army",
+      "Xi'an",
+      "China",
+      "History for Kids",
+      "3D Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

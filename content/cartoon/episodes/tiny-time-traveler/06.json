@@ -1,0 +1,160 @@
+{
+  "number": 6,
+  "topic": "Machu Picchu, Peru, 1400s: the Inca built this mountain city with stones cut so precisely they fit together without mortar.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:19:10.517Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: Machu Picchu’s Stone Puzzle",
+    "shots": [
+      {
+        "id": "ypb69a",
+        "narration": "A sparkle jump lands us above the clouds!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Machu Picchu, Peru, 1400s; broad stone terrace surrounded by green mountain peaks, vertical 9:16, cinematic 3D animation, no text.",
+        "action": "Zoya and Tock materialize together in swirling dust and golden sparkles.",
+        "camera": "push-in",
+        "mood": "Bright sunlight, brilliant blue watch glow, welcoming mountain adventure."
+      },
+      {
+        "id": "zbztql",
+        "narration": "Welcome to Machu Picchu, Peru, in the 1400s.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Wide terrace overlooking Machu Picchu's stone buildings and green mountain slopes, vertical 9:16, no text.",
+        "action": "Zoya spreads her arms toward the mountain city.",
+        "camera": "pull-out",
+        "mood": "Golden sunlight, sweeping mountain grandeur, friendly excitement."
+      },
+      {
+        "id": "v2bh1i",
+        "narration": "[excited] The Inca built this city high in the mountains!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Broad stone walkway among roofed stone buildings, with steep green peaks beyond, cinematic 3D, vertical 9:16, no text.",
+        "action": "Tock points toward the surrounding city with his spring tail.",
+        "camera": "pan-right",
+        "mood": "Sunny stone textures, rich greenery, delighted discovery."
+      },
+      {
+        "id": "amqr5f",
+        "narration": "Zoya spots a puzzle hiding in plain sight.",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Sheltered walkway beside a finely fitted Inca stone wall, vertical 9:16, no text.",
+        "action": "Zoya leans toward the wall's narrow stone joints.",
+        "camera": "push-in",
+        "mood": "Warm reflected sunlight, curious expression, intriguing stone detail."
+      },
+      {
+        "id": "02lsbr",
+        "narration": "Where is the mortar between these stones?",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Close view of Zoya beside tightly joined shaped stones, vertical 9:16, no text.",
+        "action": "Zoya traces a stone joint through the air with her finger.",
+        "camera": "static",
+        "mood": "Raised eyebrows, clear stone seams, playful puzzlement."
+      },
+      {
+        "id": "b9lo3m",
+        "narration": "[whispers] Tock takes a closer look.",
+        "characters": [
+          "tock"
+        ],
+        "scene": "Low section of finely fitted stone wall beside a level walkway, vertical 9:16, no text.",
+        "action": "Tock bends his round glass face toward a stone seam.",
+        "camera": "low-angle",
+        "mood": "Sunlit brass reflections, close-up curiosity, gentle suspense."
+      },
+      {
+        "id": "a7wjle",
+        "narration": "The stones were cut to fit precisely together.",
+        "characters": [],
+        "scene": "Extreme close view of shaped Inca stones with closely matching edges and no mortar, cinematic 3D, vertical 9:16, no text.",
+        "action": "A small patch of sunlight travels across the fitted stone edges.",
+        "camera": "pan-left",
+        "mood": "Crisp stone textures, warm light, satisfying visual discovery."
+      },
+      {
+        "id": "6m6keg",
+        "narration": "Their careful fit means no mortar is needed.",
+        "characters": [
+          "tock"
+        ],
+        "scene": "Tock beside the same tightly fitted stone wall, broad terrace floor below, vertical 9:16, no text.",
+        "action": "Tock points his spring tail at the bare stone joint.",
+        "camera": "push-in",
+        "mood": "Bright brass shine, clear visual explanation, cheerful confidence."
+      },
+      {
+        "id": "prjwe5",
+        "narration": "[surprised] So the missing mortar isn't missing at all!",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Sunlit walkway beside the precisely joined wall, green mountains visible beyond, vertical 9:16, no text.",
+        "action": "Zoya brings her hands together like matching stone edges.",
+        "camera": "static",
+        "mood": "Wide delighted smile, sunny colors, satisfying realization."
+      },
+      {
+        "id": "1e1jv2",
+        "narration": "Zoya sees the whole wall differently now.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Long stretch of fitted stone masonry beside a spacious mountain-city terrace, vertical 9:16, no text.",
+        "action": "Zoya sweeps her hand toward the wall in admiration.",
+        "camera": "pan-right",
+        "mood": "Respectful wonder, warm stone surfaces, peaceful mountain air."
+      },
+      {
+        "id": "pawrba",
+        "narration": "One mountain city, one beautifully solved stone puzzle.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Broad safe terrace overlooking Machu Picchu and sunlit green peaks, vertical 9:16, no text.",
+        "action": "Zoya taps her glowing blue wristwatch.",
+        "camera": "orbit",
+        "mood": "Golden travel sparkles, happy achievement, anticipation."
+      },
+      {
+        "id": "mxa85s",
+        "narration": "[excited] Where to next?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Machu Picchu terrace framed by distant green mountains and a halo of golden sparkles, vertical 9:16, no text.",
+        "action": "Tock turns his glass face toward Zoya to ask his question.",
+        "camera": "pull-out",
+        "mood": "Bouncy curiosity, brilliant blue watch glow, inviting next-adventure energy."
+      }
+    ],
+    "endHook": "The blue watch sparkles again—where will their next adventure begin?",
+    "createdAt": "2026-11-12T20:19:10.516Z",
+    "description": "Zoya and Tock sparkle into Machu Picchu, Peru, in the 1400s! Discover the Inca mountain city and solve the mystery of its precisely fitted stones.",
+    "tags": [
+      "Tiny Time Traveler",
+      "Machu Picchu",
+      "Peru",
+      "Inca",
+      "history for kids",
+      "3D animation"
+    ]
+  }
+}

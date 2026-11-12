@@ -1,0 +1,144 @@
+{
+  "number": 7,
+  "topic": "Hospitals of the past: the al-Mansuri hospital in Cairo, opened in 1284 CE, treated patients free of charge, rich or poor, with separate wards and music to calm patients. Show clean halls, fountains, gardens and medicine jars (no blood).",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:17:24.097Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Qahira Ka Al-Mansuri Hospital | Tareekh ke Roshan Safhay",
+    "shots": [
+      {
+        "id": "27ggjs",
+        "narration": "ایک ایسا ہسپتال، جہاں علاج کے پیسے نہیں لگتے تھے!",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated family-film look. Pakistani home with floor cushions, an oil lamp and a miniature historic hospital courtyard without markings. Nana wears a cream kurta, brown waistcoat and round glasses; Areeba wears a yellow shalwar kameez and light-pink dupatta.",
+        "action": "Nana presents the miniature hospital to Areeba.",
+        "camera": "push-in",
+        "mood": "Golden lamplight, inviting discovery, gentle wonder."
+      },
+      {
+        "id": "fwqzr0",
+        "narration": "نانا ابو، غریب لوگوں کا علاج بھی مفت ہوتا تھا؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the same cozy home, with the unmarked miniature hospital between Nana and Areeba. No writing or captions.",
+        "action": "Areeba raises an empty palm toward Nana.",
+        "camera": "static",
+        "mood": "Warm amber light, curious expression, attentive grandfather."
+      },
+      {
+        "id": "xih5ur",
+        "narration": "[excited] ہاں! قاہرہ کے المنصوری ہسپتال میں سب کا علاج مفت تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, 3D animated historic Cairo hospital courtyard with stone arcades, a central fountain and planted greenery. No people, inscriptions, signs or text.",
+        "action": "Water spills gently from the fountain into its basin.",
+        "camera": "pull-out",
+        "mood": "Welcoming golden daylight, peaceful architectural grandeur."
+      },
+      {
+        "id": "gfchz1",
+        "narration": "یہ ہسپتال 1284 عیسوی میں کھلا تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, respectful architectural visualization of the al-Mansuri hospital entrance in historic Cairo, with carved stone geometry and tall wooden doors. No inscriptions, people or text.",
+        "action": "The wooden entrance doors swing open.",
+        "camera": "low-angle",
+        "mood": "Soft morning sunlight, dignified and welcoming."
+      },
+      {
+        "id": "orloba",
+        "narration": "یہاں امیر اور غریب، دونوں کا خیال رکھا جاتا تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, clean historic hospital hall with two equally prepared beds, matching folded linens and matching ceramic water cups. No people, labels or writing.",
+        "action": "A light breeze lifts the curtains beside both beds.",
+        "camera": "pan-right",
+        "mood": "Balanced composition, equal comfort, warm daylight."
+      },
+      {
+        "id": "5czj2k",
+        "narration": "[surprised] اور مریضوں کے لیے الگ الگ وارڈ بھی تھے!",
+        "characters": [],
+        "scene": "Vertical 9:16, elevated cutaway-style view of a historic stone hospital with distinct bed-lined rooms opening onto a central courtyard. No people, room labels or symbols.",
+        "action": "A wooden door opens into one of the separate wards.",
+        "camera": "pull-out",
+        "mood": "Clear room divisions, airy spaces, gentle golden light."
+      },
+      {
+        "id": "29wsmw",
+        "narration": "ان صاف ہالوں میں آرام کی جگہیں دیکھو۔",
+        "characters": [],
+        "scene": "Vertical 9:16, spotless stone hall with neatly arranged beds, pale linens, high arches and open courtyard windows. No people or writing.",
+        "action": "A sheer window curtain sways beside a neatly prepared bed.",
+        "camera": "pan-left",
+        "mood": "Soft cream colors, uncluttered surroundings, restful stillness."
+      },
+      {
+        "id": "oys19y",
+        "narration": "اور یہ فوارے، باغ اور ٹھنڈی چھاؤں!",
+        "characters": [],
+        "scene": "Vertical 9:16, hospital garden courtyard with a stone fountain, leafy trees, planted beds and shaded arcades. No people, signs or text.",
+        "action": "Tree leaves flutter above the shaded courtyard.",
+        "camera": "orbit",
+        "mood": "Dappled sunlight, fresh greenery, quiet beauty."
+      },
+      {
+        "id": "bdxf6x",
+        "narration": "[whispers] مریضوں کو سکون دینے کے لیے موسیقی بھی ہوتی تھی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, an unplayed wooden oud resting on a low stand beside a hospital courtyard alcove, with a fountain in the background. No people, musical notation, labels or writing.",
+        "action": "A light curtain billows behind the resting instrument.",
+        "camera": "push-in",
+        "mood": "Tender golden light, soothing atmosphere, quiet care."
+      },
+      {
+        "id": "dslild",
+        "narration": "دیکھو، دواؤں کے مرتبان بھی سلیقے سے رکھے ہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, historic hospital medicine room with plain ceramic jars, wooden shelves, a stone mortar and dried herbs in shallow bowls. Every jar is unmarked; no people or text.",
+        "action": "Sunlit dust motes drift above the neatly arranged jars.",
+        "camera": "pan-right",
+        "mood": "Warm earth tones, orderly shelves, careful preparation."
+      },
+      {
+        "id": "umcriy",
+        "narration": "مفت علاج اور آرام، دونوں کا خیال رکھا جاتا تھا۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, back in the cozy Pakistani home, Nana and Areeba beside the unmarked miniature hospital and a glowing oil lamp. No writing or captions.",
+        "action": "Nana gently opens his hands toward the miniature hospital.",
+        "camera": "static",
+        "mood": "Kind smile, warm lamplight, reassuring conclusion."
+      },
+      {
+        "id": "yh6x5a",
+        "narration": "[excited] نانا ابو، تب دوائیں کیسے تیار ہوتی تھیں؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the same home with a plain ceramic jar and a small stone mortar on a low table between Nana and Areeba. No labels, writing or text.",
+        "action": "Areeba points to the stone mortar.",
+        "camera": "push-in",
+        "mood": "Bright curious eyes, Nana's welcoming smile, golden lamplight."
+      }
+    ],
+    "endHook": "Purane hospitalon mein dawaen kaise tayyar hoti thin?",
+    "createdAt": "2026-11-12T20:17:24.095Z",
+    "description": "قاہرہ کا المنصوری ہسپتال 1284 عیسوی میں کھلا، جہاں امیر اور غریب کا علاج مفت ہوتا تھا۔ نانا ابو اور اریبہ کے ساتھ اس کے الگ وارڈ، فوارے، باغ اور مریضوں کو سکون دینے والی موسیقی کے بارے میں جانیں۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Al-Mansuri Hospital",
+      "Cairo",
+      "Urdu History for Kids",
+      "Islamic Architecture",
+      "History of Hospitals"
+    ]
+  }
+}

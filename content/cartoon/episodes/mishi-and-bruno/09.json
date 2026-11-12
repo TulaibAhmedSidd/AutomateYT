@@ -1,0 +1,164 @@
+{
+  "number": 9,
+  "topic": "Kite day in the park: their kite gets stuck in a tree and they find a clever, safe way to get it back.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:13:56.400Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi & Bruno: The Tree-Tangled Kite",
+    "shots": [
+      {
+        "id": "ijb2wf",
+        "narration": "Oh no! Their kite has found a leafy landing spot!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny park beneath a small tree, colourful diamond kite caught on a low twig, vertical 9:16, rounded 3D family animation, no text.",
+        "action": "Bruno points at the kite caught just above their heads.",
+        "camera": "push-in",
+        "mood": "Warm sunlight, bright green leaves, wide-eyed surprise."
+      },
+      {
+        "id": "sahptd",
+        "narration": "Their wonderful kite day had started with a perfect breeze.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Park grass beneath the same tree, kite string leading upward, picnic blanket and open supply bag nearby, vertical 9:16.",
+        "action": "Mishi holds the kite spool with the string hanging loosely.",
+        "camera": "pull-out",
+        "mood": "Soft golden light, cheerful colours, mild disappointment."
+      },
+      {
+        "id": "mt3xtj",
+        "narration": "[chuckles] Bruno's paws are brave, but much too short.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Grass beneath the low kite-bearing twig, kite clearly visible overhead, vertical 9:16.",
+        "action": "Bruno stretches one front paw upward while keeping three paws grounded.",
+        "camera": "low-angle",
+        "mood": "Playful frustration, floppy ears, friendly rounded shapes."
+      },
+      {
+        "id": "4y2c50",
+        "narration": "Mishi studies the twig instead of pulling harder.",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Close view beneath the tree, kite frame resting over a thin twig, loose string below, vertical 9:16.",
+        "action": "Mishi examines the kite's frame on the twig.",
+        "camera": "push-in",
+        "mood": "Thoughtful green eyes, gentle leaf shadows, calm concentration."
+      },
+      {
+        "id": "5se4jl",
+        "narration": "A little lift could free it from that twig.",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Open kite supply bag on the park blanket, long lightweight cardboard tube protruding, vertical 9:16.",
+        "action": "Mishi pulls the cardboard tube from the bag.",
+        "camera": "pan-right",
+        "mood": "Bright discovery, warm colours, hopeful expression."
+      },
+      {
+        "id": "h22g39",
+        "narration": "[excited] Bruno knows exactly where their soft blanket belongs!",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Flat grass directly beneath the low trapped kite, clear space around the tree, vertical 9:16.",
+        "action": "Bruno spreads the picnic blanket beneath the kite.",
+        "camera": "pan-left",
+        "mood": "Eager teamwork, sunny grass, cheerful blue blanket."
+      },
+      {
+        "id": "ipl7rr",
+        "narration": "Both friends keep their paws safely on the ground.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Full view of the small tree, blanket below the kite, Mishi beside Bruno, vertical 9:16.",
+        "action": "Mishi positions the cardboard tube beneath the kite frame.",
+        "camera": "static",
+        "mood": "Steady paws, relaxed faces, soft warm lighting."
+      },
+      {
+        "id": "3066as",
+        "narration": "Mishi gently lifts the frame above the tiny twig.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Low branch above the picnic blanket, tube touching the kite's sturdy lower frame, vertical 9:16.",
+        "action": "Mishi lifts the kite clear of the twig with the tube.",
+        "camera": "push-in",
+        "mood": "Careful concentration, clear uncluttered view, hopeful warmth."
+      },
+      {
+        "id": "higd4z",
+        "narration": "[giggles] Down it floats, onto their soft landing spot!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Picnic blanket beneath the tree, empty twig overhead, tube lowered beside Mishi, vertical 9:16.",
+        "action": "The freed kite settles onto the blanket.",
+        "camera": "static",
+        "mood": "Gentle triumph, delighted faces, bright kite colours."
+      },
+      {
+        "id": "0lfunp",
+        "narration": "Bruno carries their kite somewhere with plenty of open sky.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Wide grassy park clearing well away from trees, open blue sky above, vertical 9:16.",
+        "action": "Bruno carries the kite into the open clearing.",
+        "camera": "pan-right",
+        "mood": "Confident smiles, spacious sunny setting, renewed excitement."
+      },
+      {
+        "id": "xuuf39",
+        "narration": "Now their kite dances where branches cannot reach!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Open park clearing, colourful kite high against blue sky, Mishi holding the spool beside Bruno, vertical 9:16.",
+        "action": "The kite sways above the two friends.",
+        "camera": "pull-out",
+        "mood": "Joyful relief, soft clouds, rich cheerful colours."
+      },
+      {
+        "id": "o65sev",
+        "narration": "[excited] Safe teamwork wins; next, a picnic surprise!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Picnic blanket in the open clearing, recovered kite resting nearby, closed wicker basket between the friends, vertical 9:16.",
+        "action": "Bruno lifts the basket lid toward himself, hiding its contents.",
+        "camera": "push-in",
+        "mood": "Cosy anticipation, curious green eyes, playful warm sunlight."
+      }
+    ],
+    "endHook": "Next time, what's hiding inside their picnic basket?",
+    "createdAt": "2026-11-12T20:13:56.398Z",
+    "description": "A lovely kite day takes a tiny twist when their kite catches on a low branch! Mishi and Bruno discover that careful thinking and teamwork can bring their fun safely back down.",
+    "tags": [
+      "Mishi and Bruno",
+      "kite adventure",
+      "teamwork",
+      "safe play",
+      "kids cartoon",
+      "YouTube Shorts"
+    ]
+  }
+}

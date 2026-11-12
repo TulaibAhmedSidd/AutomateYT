@@ -1,0 +1,166 @@
+{
+  "number": 5,
+  "topic": "Olympia, Greece, 776 BCE: the first recorded Olympic Games, where the main race was a sprint of about 192 metres.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:19:04.510Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: Olympia’s Big Sprint!",
+    "shots": [
+      {
+        "id": "z9pmf2",
+        "narration": "A sparkle storm! Where has Zoya landed?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Ancient Olympia, Greece, beside a sunlit earthen running track; vertical 9:16, cinematic 3D animation, no visible writing.",
+        "action": "Zoya materializes beside Tock inside a swirling cloud of golden sparkles and dust.",
+        "camera": "push-in",
+        "mood": "Brilliant blue watch glow, warm sunlight, welcoming adventure."
+      },
+      {
+        "id": "6ves8p",
+        "narration": "Olympia, Greece, in 776 BCE!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "An open earthen track bordered by grassy banks and distant green hills, bright ancient Greek landscape, no visible writing.",
+        "action": "Zoya turns toward the long running track.",
+        "camera": "pan-right",
+        "mood": "Golden sunshine, vivid greenery, wide-eyed discovery."
+      },
+      {
+        "id": "bd97xx",
+        "narration": "[excited] These are the first recorded Olympic Games!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Trackside in ancient Olympia, with packed earth, grassy slopes and distant trees, vertical cinematic composition.",
+        "action": "Tock presents the track with an outstretched brass arm.",
+        "camera": "low-angle",
+        "mood": "Proud little guide, gleaming brass, cheerful historical wonder."
+      },
+      {
+        "id": "dykfti",
+        "narration": "The main race was a sprint of about 192 metres.",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "A long view down Olympia's straight earthen running track beneath a clear blue sky, no markings or writing.",
+        "action": "Zoya shades her eyes while looking toward the far end.",
+        "camera": "pull-out",
+        "mood": "Sunlit scale, warm dust, impressed curiosity."
+      },
+      {
+        "id": "e75mu9",
+        "narration": "Zoya wants a little practice run beside the track.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "A level strip of bare earth beside the empty running track, with Tock standing safely to one side.",
+        "action": "Zoya leans into a playful running pose.",
+        "camera": "static",
+        "mood": "Eager grin, bright yellow hoodie, friendly anticipation."
+      },
+      {
+        "id": "s1dbdi",
+        "narration": "[surprised] Wait! That shoelace needs attention.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Close ground-level view of Zoya's shoes on the trackside path, one loose shoelace clearly visible.",
+        "action": "Tock points at Zoya's untied shoelace.",
+        "camera": "push-in",
+        "mood": "Gentle comic surprise, sparkling brass, harmless little obstacle."
+      },
+      {
+        "id": "nz6gjh",
+        "narration": "A quick knot makes her ready.",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "The sunny earthen path beside Olympia's track, framed closely around Zoya's hands and shoes.",
+        "action": "Zoya ties her loose shoelace into a bow.",
+        "camera": "static",
+        "mood": "Calm concentration, warm sunlight, reassuring simplicity."
+      },
+      {
+        "id": "6u6wql",
+        "narration": "Now she is off!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "The clear practice path beside the ancient track, with Tock stationary on the grassy edge.",
+        "action": "Zoya runs along the path.",
+        "camera": "pan-left",
+        "mood": "Bouncing ponytail, tiny dust puffs, joyful movement."
+      },
+      {
+        "id": "r97aiu",
+        "narration": "[giggles] Tock makes an excellent cheering section.",
+        "characters": [
+          "tock"
+        ],
+        "scene": "The grassy edge of Olympia's track, with sunlit packed earth behind Tock.",
+        "action": "Tock bounces on his tiny legs.",
+        "camera": "low-angle",
+        "mood": "Delighted glass face, shiny brass, playful spring tail."
+      },
+      {
+        "id": "ryij3e",
+        "narration": "Zoya finishes her practice with a giant smile.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "A clear patch of trackside earth near Tock, with the long ancient running track stretching behind them.",
+        "action": "Zoya slows to a smiling stop beside Tock.",
+        "camera": "pull-out",
+        "mood": "Rosy cheeks, happy accomplishment, soft golden dust."
+      },
+      {
+        "id": "0i54x8",
+        "narration": "One ancient sprint, one enormous adventure!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Olympia's sunlit trackside, grassy banks and green hills behind the companions, no visible writing.",
+        "action": "Zoya raises her glowing blue wristwatch.",
+        "camera": "orbit",
+        "mood": "Growing blue light, floating golden sparkles, satisfied excitement."
+      },
+      {
+        "id": "ys983i",
+        "narration": "[excited] Tock asks, 'Where to next?'",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "The same Olympia trackside setting, framed vertically around the companions and Zoya's luminous watch.",
+        "action": "Tock tilts his round glass face toward Zoya.",
+        "camera": "push-in",
+        "mood": "Curious expression, blue reflections, golden sparkles promising another adventur"
+      }
+    ],
+    "endHook": "The blue watch glows again—where will their next adventure begin?",
+    "createdAt": "2026-11-12T20:19:04.509Z",
+    "description": "Zoya and Tock sparkle into Olympia, Greece, in 776 BCE, the year of the first recorded Olympic Games. They discover a sprint of about 192 metres—and Zoya finds a tiny obstacle to her own practice run!",
+    "tags": [
+      "Tiny Time Traveler",
+      "Olympia",
+      "Ancient Greece",
+      "Olympic Games",
+      "History for Kids",
+      "3D Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

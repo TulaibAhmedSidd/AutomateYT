@@ -1,0 +1,141 @@
+{
+  "number": 13,
+  "topic": "Ibn Battuta (1304-1369 CE) from Tangier travelled for about 30 years and covered roughly 120,000 km, reaching India, China and Africa, and wrote about everything he saw. Show his journey on a map with ships, camels and cities.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:18:15.675Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Ibn Battuta: 30 Saal Ka Hairat Angez Safar",
+    "shots": [
+      {
+        "id": "67qb18",
+        "narration": "کیا کوئی تقریباً 30 سال تک سفر کر سکتا ہے؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated family-film look. A Pakistani home with floor cushions, an oil lamp, and a large illustrated map without labels or lettering. Nana has a neat white beard, round glasses, cream kurta, and brown waistcoat. Areeba wears a light-pink dupatta and yellow shalwar kameez.",
+        "action": "Nana unfolds the large map in front of Areeba.",
+        "camera": "push-in",
+        "mood": "Golden lamplight, inviting discovery, wide-eyed curiosity."
+      },
+      {
+        "id": "h9ppx0",
+        "narration": "ابن بطوطہ کا سفر طنجہ سے شروع ہوا تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, stylized historical Tangier beside the blue sea, pale stone buildings, narrow lanes, and a quiet harbor. No people, lettering, or signs.",
+        "action": "A soft golden glow blooms over the coastal city.",
+        "camera": "pan-right",
+        "mood": "Warm sunrise, peaceful beginnings, gentle wonder."
+      },
+      {
+        "id": "qn7vau",
+        "narration": "[excited] ان کا سفر لگ بھگ 120,000 کلومیٹر پر پھیلا تھا!",
+        "characters": [],
+        "scene": "Vertical 9:16, a raised relief map of Africa and Asia on the family's low wooden table, with recognizable coastlines and no labels, symbols resembling letters, or numbers.",
+        "action": "A glowing route extends across the map.",
+        "camera": "pull-out",
+        "mood": "Golden highlights, impressive scale, joyful discovery."
+      },
+      {
+        "id": "l1ffti",
+        "narration": "کبھی راستے میں صحرا آتے، کبھی بڑے بڑے شہر۔",
+        "characters": [],
+        "scene": "Vertical 9:16, golden desert dunes leading toward a distant historic city with stone gateways and courtyard buildings. An unmounted camel carries plain travel bundles. No people or writing.",
+        "action": "The camel walks along the sandy path.",
+        "camera": "pan-left",
+        "mood": "Soft afternoon light, patient travel, expansive landscape."
+      },
+      {
+        "id": "apt586",
+        "narration": "مگر اتنے لمبے سفر میں سمندر بھی پار کرنے تھے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, a small historic wooden sailing ship below a broad horizon, with a distant coastline and gently rolling blue water. No visible passengers, flags, or lettering.",
+        "action": "The ship rises gently on a rolling swell.",
+        "camera": "low-angle",
+        "mood": "Vast blue distance, mild uncertainty, safe and peaceful."
+      },
+      {
+        "id": "malh17",
+        "narration": "[excited] سمندری راستوں پر جہاز سفر کا سہارا بنتے تھے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, an unlabelled relief map with a small wooden ship model positioned on its blue sea, distant miniature ports, and warm lamplight. No writing anywhere.",
+        "action": "The ship model glides toward a miniature harbor.",
+        "camera": "push-in",
+        "mood": "Clear direction, reassuring warmth, forward progress."
+      },
+      {
+        "id": "k6r2l4",
+        "narration": "وہ ہندوستان بھی پہنچے، جہاں بڑے بڑے شہر تھے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, a respectful historical Indian cityscape with sandstone arches, shaded courtyards, a garden, and a river beyond. No people, inscriptions, or signs.",
+        "action": "Water flows through a narrow garden channel.",
+        "camera": "pan-right",
+        "mood": "Warm golden light, architectural beauty, calm discovery."
+      },
+      {
+        "id": "53b0zh",
+        "narration": "ان کا سفر چین تک بھی پہنچا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, a historical Chinese harbor with timber buildings, curved tiled roofs, and a wooden sailing vessel. No people, banners, inscriptions, or signs.",
+        "action": "The sailing vessel glides into the harbor.",
+        "camera": "static",
+        "mood": "Soft golden haze, peaceful arrival, fresh surroundings."
+      },
+      {
+        "id": "n8e4sg",
+        "narration": "[surprised] اور افریقہ کے مختلف علاقوں میں بھی وہ گئے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, an unlabelled raised map of Africa with miniature desert dunes, rivers, and earthen city buildings. No people or writing.",
+        "action": "A golden route extends across several parts of the continent.",
+        "camera": "orbit",
+        "mood": "Warm earth colors, broad horizons, delighted wonder."
+      },
+      {
+        "id": "0a034d",
+        "narration": "انہوں نے اپنے سفر میں دیکھی باتیں لکھیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, a symbolic still life of a closed leather-bound travel manuscript, reed pen, inkpot, folded unlabelled map, and oil lamp. No visible letters or inscriptions.",
+        "action": "A breeze lifts the edge of the folded map.",
+        "camera": "push-in",
+        "mood": "Amber lamplight, thoughtful quiet, treasured knowledge."
+      },
+      {
+        "id": "s89161",
+        "narration": "یوں ان کے سفر کی باتیں ہم تک پہنچیں۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the same Pakistani home, Nana beside Areeba at the low table. The unlabelled map and a closed plain book rest beneath warm lamplight. No writing anywhere.",
+        "action": "Nana places the closed book beside the map.",
+        "camera": "pull-out",
+        "mood": "Gentle smiles, satisfying discovery, family warmth."
+      },
+      {
+        "id": "q1fq5y",
+        "narration": "[whispers] ان شہروں کی لائبریریوں میں کیا کیا خزانے تھے؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the same cozy home with a wooden bookshelf holding plain, unmarked books behind Nana and Areeba. Warm golden light, no visible text or signs.",
+        "action": "Areeba points toward the bookshelf.",
+        "camera": "push-in",
+        "mood": "Curious anticipation, soft lamplight, an inviting new mystery."
+      }
+    ],
+    "endHook": "Un shehron ki libraries mein kya khazanay thay?",
+    "createdAt": "2026-11-12T20:18:15.674Z",
+    "description": "ابن بطوطہ کی زندگی 1304 سے 1369 عیسوی تک رہی۔ نانا ابو اور اریبہ کے ساتھ جانیے کہ طنجہ سے نکلنے والے اس مسافر نے تقریباً 30 سال میں لگ بھگ 120,000 کلومیٹر کا سفر کیسے کیا اور اپنے سفر کے بارے میں کیا لکھا۔",
+    "tags": [
+      "Ibn Battuta",
+      "Tareekh ke Roshan Safhay",
+      "Urdu stories",
+      "History for kids",
+      "Travel",
+      "Tangier"
+    ]
+  }
+}

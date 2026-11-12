@@ -1,0 +1,162 @@
+{
+  "number": 13,
+  "topic": "Ramzan: helping prepare iftar with fruit chaat and pakoras.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:12:49.754Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Mano aur Sheru: Iftar Ki Taiyari!",
+    "shots": [
+      {
+        "id": "ok17sc",
+        "narration": "کیا مانو اور شیرو افطار وقت پر تیار کر پائیں گے؟",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani courtyard beneath a neem tree, soft late-afternoon sunlight, rounded 3D family-film style. A low table holds empty bowls, chopped fruit and a platter of prepared pakoras. No text or markings.",
+        "action": "Mano lifts an empty serving bowl beside Sheru.",
+        "camera": "push-in",
+        "mood": "Bright blue kitten eyes, eager smiles, inviting warm colours."
+      },
+      {
+        "id": "57m562",
+        "narration": "مانو نے کہا، میں سارا پھل پیالے میں ڈالوں گی!",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, text-free 3D courtyard table with a small serving bowl and a wide tray of chopped bananas, apples and oranges.",
+        "action": "Mano tips the fruit tray into the small bowl.",
+        "camera": "static",
+        "mood": "Confident kitten grin, playfully ambitious pose."
+      },
+      {
+        "id": "y9874y",
+        "narration": "[surprised] ارے، پیالہ تو چھوٹا پڑ گیا!",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, text-free 3D close view of the clean courtyard tabletop, an overflowing fruit bowl and scattered fruit pieces.",
+        "action": "Mano catches a fruit piece rolling across the tabletop.",
+        "camera": "push-in",
+        "mood": "Wide blue eyes, harmless colourful mess, gently comic surprise."
+      },
+      {
+        "id": "8i1l4x",
+        "narration": "شیرو بولا، کوئی بات نہیں، دوسرا پیالہ لے آتے ہیں۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, text-free 3D courtyard table beneath leafy neem shadows, overflowing fruit bowl in front of Mano.",
+        "action": "Sheru places a second empty bowl beside the first.",
+        "camera": "pan-right",
+        "mood": "Sheru's reassuring smile, Mano's relieved expression."
+      },
+      {
+        "id": "bbtlul",
+        "narration": "مانو نے کچھ پھل دوسرے پیالے میں ڈال دیا۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, text-free 3D close view of two fruit bowls on a clean courtyard table, a large rounded serving spoon.",
+        "action": "Mano spoons excess fruit into the second bowl.",
+        "camera": "static",
+        "mood": "Careful paws, focused blue eyes, balanced colourful bowls."
+      },
+      {
+        "id": "jju9sz",
+        "narration": "[chuckles] اب شیرو نے فروٹ چاٹ اچھی طرح ملا دی۔",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, text-free 3D courtyard tabletop with two comfortably filled fruit bowls and a rounded wooden spoon.",
+        "action": "Sheru stirs one bowl of fruit chaat.",
+        "camera": "orbit",
+        "mood": "Happy concentration, relaxed pointy ears, warm sunlight."
+      },
+      {
+        "id": "yjaxt3",
+        "narration": "مانو نے پہلے سے تیار پکوڑے بھی سجا دیے۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, text-free 3D courtyard serving table with cooled, prepared golden pakoras on a plain platter; no stove or cooking equipment.",
+        "action": "Mano arranges the pakoras neatly on the platter.",
+        "camera": "push-in",
+        "mood": "Proud little smile, tidy golden food arrangement."
+      },
+      {
+        "id": "kw71os",
+        "narration": "کھجوریں بھی افطار کی میز پر آ گئیں۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, text-free 3D courtyard table with two fruit chaat bowls and a pakora platter, sunset light on colourful walls.",
+        "action": "Mano sets a small dish of dates beside the fruit chaat.",
+        "camera": "pan-left",
+        "mood": "Neat welcoming table, cheerful kitten expression."
+      },
+      {
+        "id": "1sp8gl",
+        "narration": "[excited] شیرو پانی لایا، اب میز بھرنے لگی!",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, text-free 3D courtyard iftar table with fruit chaat, dates and pakoras, a clear space beside the dishes.",
+        "action": "Sheru sets down a tray holding water glasses.",
+        "camera": "low-angle",
+        "mood": "Steady helpful paws, proud smile, sparkling clear water."
+      },
+      {
+        "id": "e5u21c",
+        "narration": "مانو نے میز بھی صاف کر دی۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, text-free 3D courtyard table with completed iftar dishes and a few fruit juice spots along the near edge.",
+        "action": "Mano wipes the tabletop with a clean cloth.",
+        "camera": "static",
+        "mood": "Attentive kitten face, freshly polished table, soft orange light."
+      },
+      {
+        "id": "9sgxg9",
+        "narration": "دونوں کی مدد سے افطار کی میز تیار ہو گئی!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, text-free 3D wide courtyard view beneath the neem tree, neatly arranged fruit chaat, pakoras, dates and water on the low table.",
+        "action": "Mano and Sheru spread their paws toward the finished table.",
+        "camera": "pull-out",
+        "mood": "Matching proud smiles, peaceful Ramadan evening, warm glowing courtyard."
+      },
+      {
+        "id": "cgqrkv",
+        "narration": "[excited] مل کر کام کریں، اگلی بار سحری کی تیاری ہوگی!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, text-free 3D courtyard beside the finished iftar table, neem leaves overhead and a softly glowing evening sky.",
+        "action": "Mano and Sheru exchange a gentle high-five.",
+        "camera": "push-in",
+        "mood": "Joyful best-friend smiles, bright eyes, cosy celebratory colours."
+      }
+    ],
+    "endHook": "اگلی بار مانو اور شیرو سحری کی تیاری کریں گے!",
+    "createdAt": "2026-11-12T20:12:49.752Z",
+    "description": "رمضان میں مانو اور شیرو مل کر افطار کی تیاری کرتے ہیں۔ فروٹ چاٹ اور پکوڑے سجاتے ہوئے دونوں سیکھتے ہیں کہ مل کر کام کرنا کتنا اچھا ہے!",
+    "tags": [
+      "Mano aur Sheru",
+      "Ramzan",
+      "Iftar",
+      "Urdu cartoon",
+      "Kids animation",
+      "Teamwork",
+      "Fruit chaat",
+      "Pakoras"
+    ]
+  }
+}

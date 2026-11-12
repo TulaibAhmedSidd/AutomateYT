@@ -1,0 +1,165 @@
+{
+  "number": 7,
+  "topic": "Sheru helps a lost little boy find his way back home.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:12:08.582Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Sheru Ne Ghar Ka Rasta Dhoond Liya!",
+    "shots": [
+      {
+        "id": "e3jgs8",
+        "narration": "ارے، یہ ننھا بچہ اپنے گھر کا راستہ بھول گیا!",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani mohalla lane, rounded 3D family animation, soft sunlight. First-person view from an unseen little boy standing at a fork; no humans or human body parts visible, no text.",
+        "action": "Sheru turns toward the viewpoint with his ears raised.",
+        "camera": "push-in",
+        "mood": "Concerned brown desi dog, white chest, pointy ears, green collar, friendly surro"
+      },
+      {
+        "id": "9kbeer",
+        "narration": "شیرو رکا، تو بچے نے اس سے مدد مانگی۔",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Same mohalla fork from the unseen boy's eye level, pastel house walls and plain wooden doors, vertical 3D animation, no humans visible, no text.",
+        "action": "Sheru sits facing the viewpoint.",
+        "camera": "static",
+        "mood": "Patient dog with a gentle head tilt and relaxed ears."
+      },
+      {
+        "id": "fbhfs3",
+        "narration": "[whispers] بچے نے بتایا، گھر کا دروازہ نیلا ہے۔",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Quiet Pakistani lane viewed from the unseen boy's eye level, a distant blue doorway partly visible around a corner, vertical 3D animation, no humans visible, no text.",
+        "action": "Sheru looks toward the distant blue doorway.",
+        "camera": "pan-right",
+        "mood": "Attentive dog, warm sunlight, clear blue colour cue."
+      },
+      {
+        "id": "mgv9hl",
+        "narration": "مانو بھی نیم کے نیچے سے آ گئی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Mohalla courtyard entrance beside a leafy neem tree, first-person child-height viewpoint, vertical 3D animation, no humans visible, no text.",
+        "action": "Mano trots from the neem tree to Sheru.",
+        "camera": "pan-left",
+        "mood": "Curious white kitten with orange patches, bright blue eyes, red ribbon and tiny "
+      },
+      {
+        "id": "r7ucax",
+        "narration": "شیرو آہستہ چلا، تاکہ بچہ ساتھ رہ سکے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Short pedestrian lane leading toward the blue doorway, viewed from behind the animals at the unseen boy's eye level, vertical 3D animation, no vehicles, humans or text.",
+        "action": "Sheru walks slowly toward the blue doorway.",
+        "camera": "static",
+        "mood": "Unhurried dog, kitten waiting nearby, bright safe lane."
+      },
+      {
+        "id": "bkunj6",
+        "narration": "[surprised] مگر یہ دروازہ دیکھ کر بچہ بولا، یہ نہیں!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Plain blue doorway beside an empty stone doorstep, first-person child-height view, vertical 3D animation, no humans visible, no text.",
+        "action": "Sheru turns back toward the viewpoint.",
+        "camera": "push-in",
+        "mood": "Puzzled dog with one ear tilted, kitten seated beside the doorstep."
+      },
+      {
+        "id": "5ezejy",
+        "narration": "پھر بچے کو یاد آیا، باہر پیلا گملا بھی ہے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Lane junction beside the incorrect blue doorway; another blue doorway with a bright yellow flowerpot is visible across a tiny courtyard, vertical 3D animation, no humans visible, no text.",
+        "action": "Mano turns her head toward the yellow flowerpot.",
+        "camera": "pan-right",
+        "mood": "Alert kitten, distinctive yellow pot with green leaves, hopeful sunlight."
+      },
+      {
+        "id": "tmzze5",
+        "narration": "مانو نے اگلے گھر کا پیلا گملا دیکھ لیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Small Pakistani courtyard with a blue door and yellow flowerpot, seen from the unseen boy's eye level, vertical 3D animation, no humans visible, no text.",
+        "action": "Mano points one front paw toward the yellow flowerpot.",
+        "camera": "low-angle",
+        "mood": "Eager kitten, attentive dog, clear blue-door and yellow-pot pairing."
+      },
+      {
+        "id": "4vwupc",
+        "narration": "[excited] ہاں، یہی گھر ہے، بچہ خوشی سے بولا!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Correct blue front door beside the yellow flowerpot, first-person child-height viewpoint, warm Pakistani courtyard, vertical 3D animation, no humans visible, no text.",
+        "action": "Sheru wags his tail beside the doorstep.",
+        "camera": "push-in",
+        "mood": "Relieved dog, bright-eyed kitten, welcoming sunlit entrance."
+      },
+      {
+        "id": "xkjadi",
+        "narration": "اندر سے امی نے آواز دی، آ جاؤ بیٹا!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "The blue door now stands open onto a colourful Pakistani home courtyard with a neem tree; viewpoint remains outside, vertical 3D animation, no humans visible, no text.",
+        "action": "Sheru steps aside from the open doorway.",
+        "camera": "static",
+        "mood": "Welcoming open entrance, relaxed animals, soft golden light."
+      },
+      {
+        "id": "c11vxa",
+        "narration": "بچہ گھر پہنچا، اور دونوں دوست خوش ہو گئے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "View from inside the home's courtyard looking outward through the open blue doorway, confirming the unseen boy is safely inside; yellow flowerpot outside, vertical 3D animation, no humans visible, no text.",
+        "action": "Mano rubs her cheek against Sheru's shoulder.",
+        "camera": "pull-out",
+        "mood": "Affectionate best friends, relaxed ears, warm homecoming colours."
+      },
+      {
+        "id": "bpnsj9",
+        "narration": "[excited] مدد مانگنا اچھا ہے؛ اگلی بار مانو کی گیند کہاں جائے گی؟",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Same enclosed Pakistani courtyard beneath the neem tree, a small colourful ball beside Mano, vertical 9:16 rounded 3D animation, no humans visible, no text.",
+        "action": "Mano nudges the ball toward a low woven stool.",
+        "camera": "pan-right",
+        "mood": "Playful kitten, kindly dog watching nearby, cheerful anticipation."
+      }
+    ],
+    "endHook": "Agli baar Mano ki gaind kahan jaye gi?",
+    "createdAt": "2026-11-12T20:12:08.581Z",
+    "description": "محلے میں ایک ننھا بچہ گھر کا راستہ بھول گیا، تو شیرو اس کی مدد کو آیا۔ مانو اور شیرو کے ساتھ دیکھیے کہ مدد مانگنے سے مشکل کیسے آسان ہوتی ہے۔",
+    "tags": [
+      "Mano aur Sheru",
+      "Urdu cartoon",
+      "Pakistani cartoon",
+      "kids stories",
+      "helping others",
+      "YouTube Shorts"
+    ]
+  }
+}

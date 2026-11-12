@@ -1,0 +1,146 @@
+{
+  "number": 1,
+  "topic": "The Hijra: in 622 CE the Muslims of Makkah migrated to Madinah. The Islamic (Hijri) calendar counts its years from this journey. Show the desert road at night, the cave of Thawr from outside, and Madinah's palm groves welcoming travellers.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:16:47.081Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Hijrat: Woh Safar Jis Se Hijri Saal Gine Jate Hain",
+    "shots": [
+      {
+        "id": "o0qx7x",
+        "narration": "کیا ایک سفر سے سالوں کی گنتی شروع ہو سکتی ہے؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D family animation. A Pakistani home's reading corner with an oil lamp and a blank parchment map without labels. Nana has a neat white beard, round glasses, cream kurta and brown waistcoat. Areeba wears a light-pink dupatta and yellow shalwar kameez. No visible text.",
+        "action": "Nana unfolds the blank parchment map before Areeba.",
+        "camera": "push-in",
+        "mood": "Warm lamplight, inviting curiosity."
+      },
+      {
+        "id": "wceexf",
+        "narration": "آؤ اریبہ، تمہیں مکہ سے مدینہ کے سفر کی کہانی سناؤں۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D family animation. The same home reading corner, with an unlabeled relief map showing mountains and a distant palm oasis. No writing or symbols.",
+        "action": "Nana traces a route across the relief map with his finger.",
+        "camera": "static",
+        "mood": "Gentle golden light, attentive storytelling."
+      },
+      {
+        "id": "itbt85",
+        "narration": "[whispers] یہ ۶۲۲ عیسوی کی بات ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, respectful 3D historical landscape. An empty rocky valley around Makkah beneath a star-filled night sky, with distant simple earth-toned buildings. No people, silhouettes or text.",
+        "action": "A thin cloud drifts across the stars.",
+        "camera": "pan-right",
+        "mood": "Quiet moonlight with faint amber light on stone."
+      },
+      {
+        "id": "poott8",
+        "narration": "مکہ کے مسلمانوں نے مدینہ کی طرف ہجرت کی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, 3D animated miniature relief landscape showing a rocky settlement and a distant green oasis connected by an empty desert route. No labels, people or figures.",
+        "action": "A soft ribbon of light travels along the route toward the oasis.",
+        "camera": "low-angle",
+        "mood": "Clear visual direction, calm anticipation."
+      },
+      {
+        "id": "qx6gsb",
+        "narration": "راستے میں صحرا تھا، اور سفر آسان نہیں تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D desert landscape. A long empty night road winds between rocky slopes and sandy ground beneath the moon. No people, animals, silhouettes or text.",
+        "action": "Wind sweeps a thin veil of sand across the road.",
+        "camera": "pull-out",
+        "mood": "Vast and challenging, but peaceful and child-safe."
+      },
+      {
+        "id": "8glgh8",
+        "narration": "[whispers] یہ غارِ ثور ہے، پہاڑ پر ایک غار۔",
+        "characters": [],
+        "scene": "Vertical 9:16, respectful 3D exterior of the cave of Thawr on a rugged rocky mountainside. The natural opening is empty and dark, with no interior view, figures, webs, nests or text.",
+        "action": "A small cloud passes above the rocky cave entrance.",
+        "camera": "push-in",
+        "mood": "Still, reverent moonlight on rough stone."
+      },
+      {
+        "id": "3lju37",
+        "narration": "رات کے آسمان تلے صحرائی راستہ دور تک جاتا تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, 3D family-film desert vista. An empty winding route stretches between dark rocks toward a pale horizon under stars. No people, silhouettes or text.",
+        "action": "Loose sand curls around a roadside stone.",
+        "camera": "pan-left",
+        "mood": "Patient, quiet and gently hopeful."
+      },
+      {
+        "id": "7k9msl",
+        "narration": "پھر سفر کی منزل، مدینہ، آ گیا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, warm 3D historical landscape of Madinah's palm groves and simple earth-toned homes at dawn. An empty path opens from the desert into greenery. No people, figures or text.",
+        "action": "Sunlight spreads across the tops of the date palms.",
+        "camera": "pull-out",
+        "mood": "Golden relief and a welcoming sense of arrival."
+      },
+      {
+        "id": "e40c10",
+        "narration": "[excited] مدینہ کے کھجوروں والے باغ کتنے خوب صورت ہیں!",
+        "characters": [],
+        "scene": "Vertical 9:16, lush 3D palm grove in Madinah, with a shaded empty path and clusters of dates overhead. Historic earthen garden walls stand beyond the trees. No figures or writing.",
+        "action": "Date-palm fronds sway above the open path.",
+        "camera": "low-angle",
+        "mood": "Warm green shade, peaceful welcome."
+      },
+      {
+        "id": "8bosqw",
+        "narration": "اسی ہجرت سے ہجری تقویم کے سال گنے جاتے ہیں۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D home reading corner. Nana and Areeba sit beside the unlabeled desert-to-oasis relief map and a plain bound book. No letters, numerals or captions.",
+        "action": "Nana rests his finger on the oasis at the route's end.",
+        "camera": "push-in",
+        "mood": "Warm understanding and quiet pride."
+      },
+      {
+        "id": "tqq3ti",
+        "narration": "یعنی ہجری سال ہمیں اس سفر کی یاد دلاتے ہیں۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, 3D family animation in the same cozy home. Areeba sits beside Nana, with the unlabeled route map in the foreground and golden lamplight behind them. No visible writing.",
+        "action": "Areeba nods thoughtfully.",
+        "camera": "static",
+        "mood": "Gentle satisfaction and a clear sense of discovery."
+      },
+      {
+        "id": "0v0s4q",
+        "narration": "[excited] اب بتاؤ، ہجری سال کے مہینوں کے نام کیا ہیں؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D home reading corner. Nana and Areeba sit beside a closed plain-covered book, with a crescent moon visible through an arched window. No text or symbols on the book.",
+        "action": "Nana opens the book to blank pages.",
+        "camera": "push-in",
+        "mood": "Inviting curiosity, soft golden light and a gentle next-story tease."
+      }
+    ],
+    "endHook": "Hijri saal ke maheenon ke naam kya hain?",
+    "createdAt": "2026-11-12T20:16:47.079Z",
+    "description": "نانا ابو اریبہ کو مکہ سے مدینہ کی ہجرت کی کہانی سناتے ہیں۔ رات کا صحرائی راستہ، غارِ ثور کا بیرونی منظر اور مدینہ کے کھجوروں کے باغ دیکھیں، اور جانیں کہ ہجری سال اسی ہجرت سے گنے جاتے ہیں۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Hijrat",
+      "Hijri Calendar",
+      "Urdu Stories",
+      "Islamic History for Kids"
+    ]
+  }
+}

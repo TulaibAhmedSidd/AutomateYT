@@ -1,0 +1,132 @@
+{
+  "number": 14,
+  "topic": "What if there were no friction? You could not walk, hold a cup or tie your shoes; everything would slide forever.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:21:28.568Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If There Were No Friction?",
+    "shots": [
+      {
+        "id": "b0qd7z",
+        "narration": "What if there were no friction?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, vertical frame, glowing tabletop hologram of a smooth floor, no text or symbols.",
+        "action": "Nova unveils the floor hologram before Byte.",
+        "camera": "push-in",
+        "mood": "Bright cyan light, curious expressions, playful anticipation."
+      },
+      {
+        "id": "3s52nf",
+        "narration": "Your feet couldn't grip the ground to walk.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab beside a large hologram of empty boots on a level floor, no text.",
+        "action": "The holographic boots slip backward during an attempted step.",
+        "camera": "low-angle",
+        "mood": "Playful surprise, clean blue lighting, clearly visible slippery soles."
+      },
+      {
+        "id": "2pb4am",
+        "narration": "[surprised] A cup would slip through your fingers.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Close view of Nova's hands inside a glowing cup simulation, padded tray underneath, no text.",
+        "action": "The holographic cup slides through Nova's loosely gripping fingers.",
+        "camera": "push-in",
+        "mood": "Gentle comedy, bright turquoise glow, Byte's wide blue eyes."
+      },
+      {
+        "id": "71plwj",
+        "narration": "Even shoelace knots couldn't grip themselves to stay tied.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with an enlarged holographic shoe and loosely knotted laces, no text.",
+        "action": "A holographic lace slides out of its knot under tension.",
+        "camera": "orbit",
+        "mood": "Curious and clear, contrasting orange laces against blue holographic light."
+      },
+      {
+        "id": "b64sw9",
+        "narration": "Sliding objects keep moving unless another force changes their motion.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Tall lab hologram containing a level track and a single smooth block, no text.",
+        "action": "The block glides steadily along the track.",
+        "camera": "pan-right",
+        "mood": "Mesmerising smooth motion, bright colours, attentive expressions."
+      },
+      {
+        "id": "jlmatd",
+        "narration": "[excited] But gravity would still pull things downhill!",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a glowing holographic ramp and smooth block, no text.",
+        "action": "The block accelerates down the ramp.",
+        "camera": "pan-left",
+        "mood": "Energetic discovery, warm yellow highlights, delighted faces."
+      },
+      {
+        "id": "ctzdtg",
+        "narration": "Without friction, ordinary brakes couldn't stop spinning wheels.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram showing an isolated wheel between smooth brake pads, no vehicle or text.",
+        "action": "The holographic wheel keeps spinning between the closed brake pads.",
+        "camera": "static",
+        "mood": "Intriguing mechanical close-up, bright blue and orange lighting."
+      },
+      {
+        "id": "rc7j9e",
+        "narration": "Friction gives us the grip we usually take for granted.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a restored-friction hologram of boots planted on a textured floor, no text.",
+        "action": "A holographic boot takes a firm step forward.",
+        "camera": "pull-out",
+        "mood": "Satisfying resolution, warm lighting, cheerful smiles."
+      },
+      {
+        "id": "ki4xyo",
+        "narration": "[excited] Friction warms your hands—what if gravity disappeared?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Bright lab with a glowing planet hologram behind Nova, subtle orange warmth around her palms, no text.",
+        "action": "Nova rubs her palms together.",
+        "camera": "push-in",
+        "mood": "Warm discovery, sparkling curiosity, inviting cosmic backdrop."
+      }
+    ],
+    "endHook": "What if gravity disappeared?",
+    "createdAt": "2026-11-12T20:21:28.567Z",
+    "description": "Dr. Nova shows Byte a world without friction, where walking, holding cups, and tying shoes become surprisingly difficult. Discover why this everyday force gives us grip—and even warmth.",
+    "tags": [
+      "What If Lab",
+      "friction",
+      "science",
+      "physics",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

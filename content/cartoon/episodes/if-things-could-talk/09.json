@@ -1,0 +1,104 @@
+{
+  "number": 9,
+  "topic": "The pressure cooker that loves to whistle at the worst moment.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:10:47.232Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "If Things Could Talk: The Pressure Cooker's Big Solo",
+    "shots": [
+      {
+        "id": "8rz6kn",
+        "narration": "I can ruin a recording without saying a single word.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon kitchen, silver pressure cooker on a stove beside a recording nook with a microphone, no text or logos.",
+        "action": "The silver pressure cooker, with big expressive eyes and a small mischievous mouth, releases a narrow puff of steam through its whistle.",
+        "camera": "push-in",
+        "mood": "Warm yellow lighting, cheeky anticipation."
+      },
+      {
+        "id": "24ria0",
+        "narration": "They cook dinner here, then expect studio silence.",
+        "characters": [],
+        "scene": "Vertical 9:16, cosy modern kitchen, pressure cooker on the stove, microphone and padded recording chair nearby, no text or logos.",
+        "action": "The silver pressure cooker, with big expressive eyes and a small incredulous mouth, glances toward the microphone.",
+        "camera": "pan-right",
+        "mood": "Bright colours, exaggerated disbelief."
+      },
+      {
+        "id": "md7oqm",
+        "narration": "[whispers] I wait until they lean toward the microphone.",
+        "characters": [],
+        "scene": "Vertical 9:16, kitchen recording nook beside the stove, microphone with a glowing red indicator, no text or logos.",
+        "action": "The silver pressure cooker, with big expressive eyes and a small pursed mouth, slowly shifts its gaze toward the glowing microphone.",
+        "camera": "static",
+        "mood": "Quiet suspense, warm light, conspiratorial expression."
+      },
+      {
+        "id": "0l6hob",
+        "narration": "Then I deliver my signature high note.",
+        "characters": [],
+        "scene": "Vertical 9:16, silver pressure cooker on the kitchen stove, recording microphone visible beside it, no text or logos.",
+        "action": "The silver pressure cooker, with big expressive eyes and a small delighted mouth, shoots a tall plume of steam from its whistle.",
+        "camera": "low-angle",
+        "mood": "Triumphant theatrical lighting, silly musical confidence."
+      },
+      {
+        "id": "4ae36k",
+        "narration": "Suddenly, the microphone gets its own little blanket.",
+        "characters": [],
+        "scene": "Vertical 9:16, kitchen recording nook, microphone beneath a thick folded towel, silver pressure cooker on the adjacent stove, no text or logos.",
+        "action": "The silver pressure cooker, with big expressive eyes and a small puzzled mouth, tilts its gaze toward the towel-covered microphone.",
+        "camera": "pan-left",
+        "mood": "Cosy pastel colours, deadpan absurdity."
+      },
+      {
+        "id": "s4f3ge",
+        "narration": "[chuckles] Lovely. They soundproofed everything except the problem.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright kitchen with a towel-covered microphone beside the stove, no text or logos.",
+        "action": "The silver pressure cooker, with big expressive eyes and a small smug mouth, releases another upright plume of steam.",
+        "camera": "push-in",
+        "mood": "Playful defiance, bright warm highlights."
+      },
+      {
+        "id": "5gmley",
+        "narration": "After dinner, I received a private dressing room.",
+        "characters": [],
+        "scene": "Vertical 9:16, later that evening, open kitchen cupboard containing a cool silver pressure cooker with no steam, no text or logos.",
+        "action": "The silver pressure cooker, with big expressive eyes and a small proud mouth, looks around its otherwise empty cupboard shelf.",
+        "camera": "pull-out",
+        "mood": "Soft evening lighting, comically misplaced pride."
+      },
+      {
+        "id": "yr6qb9",
+        "narration": "Then I noticed they'd hired a replacement.",
+        "characters": [],
+        "scene": "Vertical 9:16, view from the open cupboard toward a kitchen stove holding a round whistling kettle with big eyes and a small mouth, no text or logos.",
+        "action": "The cool silver pressure cooker, with big expressive eyes and a small shocked mouth, stares at the kettle across the kitchen.",
+        "camera": "static",
+        "mood": "Warm kitchen light, dramatic betrayal."
+      },
+      {
+        "id": "cqnej3",
+        "narration": "[laughs] They replaced me with a kettle. Excellent noise-cancelling strategy.",
+        "characters": [],
+        "scene": "Vertical 9:16, kitchen stove with a cute round whistling kettle, cool pressure cooker visible inside the open cupboard, towel-covered microphone nearby, no text or logos.",
+        "action": "The kettle releases a plume from its whistle while the silver pressure cooker watches with big expressive eyes and a small satisfied grin.",
+        "camera": "pull-out",
+        "mood": "Bright comic payoff, matching mischievous expressions."
+      }
+    ],
+    "endHook": "Next episode: the kettle auditions for the same job.",
+    "createdAt": "2026-11-12T20:10:47.231Z",
+    "description": "A pressure cooker thinks every quiet moment needs a solo. Unfortunately, someone in this kitchen is trying to record.",
+    "tags": [
+      "If Things Could Talk",
+      "pressure cooker",
+      "animated comedy",
+      "relatable",
+      "YouTube Shorts"
+    ]
+  }
+}

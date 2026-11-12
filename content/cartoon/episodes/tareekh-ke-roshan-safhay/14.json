@@ -1,0 +1,145 @@
+{
+  "number": 14,
+  "topic": "The Alhambra palace in Granada was built mainly in the 1300s CE by the Nasrid dynasty. Its walls are covered in geometric tiles and carved patterns. Show the Court of the Lions, water channels and tile patterns.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:18:18.263Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Alhambra: Pani Aur Naqshon Ka Mahal",
+    "shots": [
+      {
+        "id": "4zxpgp",
+        "narration": "ایک محل میں پانی اور پتھر اتنے خوب صورت کیسے لگے؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated family-film style. A Pakistani home with an oil lamp and an open picture album showing an unlettered Alhambra courtyard illustration. Nana has a neat white beard, round glasses, cream kurta and brown waistcoat. Areeba wears a light-pink dupatta and yellow shalwar kame",
+        "action": "Areeba leans toward the courtyard illustration.",
+        "camera": "push-in",
+        "mood": "Golden lamplight, wide curious eyes, inviting mystery."
+      },
+      {
+        "id": "dcbnob",
+        "narration": "آؤ اریبہ، آج الحمرا محل کی سیر کرتے ہیں۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the same cozy home and open picture album, with an unlettered palace illustration filling the page. Warm 3D animated family-film style, no text.",
+        "action": "Nana points to the palace illustration.",
+        "camera": "static",
+        "mood": "Gentle grandfatherly warmth and anticipation."
+      },
+      {
+        "id": "ttijb2",
+        "narration": "[excited] یہ ہے غرناطہ کا الحمرا محل!",
+        "characters": [],
+        "scene": "Vertical 9:16, historical Alhambra palace above Granada, reddish fortified walls, tiled roofs, green trees and distant hills. Warm 3D animated family-film style. No people, text or lettering.",
+        "action": "Tree branches sway below the palace walls.",
+        "camera": "pull-out",
+        "mood": "Golden afternoon light and peaceful grandeur."
+      },
+      {
+        "id": "bv3g1f",
+        "narration": "یہ محل تیرہ سو کی دہائی عیسوی میں زیادہ تر بنا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, an Alhambra courtyard with slender columns, intricate plaster arches and geometric tile panels. Historically grounded 3D animated architecture, no people, inscriptions or lettering.",
+        "action": "Sunlight advances across the courtyard floor.",
+        "camera": "pan-right",
+        "mood": "Warm stone, delicate shadows and quiet wonder."
+      },
+      {
+        "id": "j6clws",
+        "narration": "اسے بنیادی طور پر نصری خاندان نے بنوایا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, upward view of Alhambra arcades with carved geometric plaster patterns and a wooden ceiling. All decoration is non-lettered. Warm 3D animated family-film style, no figures.",
+        "action": "A hanging garden branch sways beside an arch.",
+        "camera": "low-angle",
+        "mood": "Soft reflected light and respectful admiration."
+      },
+      {
+        "id": "tywf9l",
+        "narration": "[surprised] اتنے سارے نقش مل کر خوب صورت کیسے لگتے ہیں؟",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of an Alhambra wall with tightly fitted blue, green, white and ochre geometric tiles beneath carved plaster patterns. No calligraphy, text or people.",
+        "action": "A leaf shadow moves across the intricate tilework.",
+        "camera": "push-in",
+        "mood": "Dense colorful shapes and a playful visual puzzle."
+      },
+      {
+        "id": "j2yrbt",
+        "narration": "دیکھو، ٹائلوں میں ایک جیسی شکلیں بار بار آتی ہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, a wider section of the same Alhambra geometric tile wall, clearly revealing repeating stars and interlocking polygons. Warm 3D animated family-film style, no lettering.",
+        "action": "A soft band of sunlight moves over the repeating shapes.",
+        "camera": "pan-left",
+        "mood": "Clear repeating colors and a satisfying sense of order."
+      },
+      {
+        "id": "aqbrbu",
+        "narration": "یہ شیروں کا صحن ہے، درمیان میں فوارہ ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, the Court of the Lions at the Alhambra, central marble fountain supported by carved stone lions, slender columns and surrounding arcades. No people, readable inscriptions or text. Warm 3D animated family-film style.",
+        "action": "Water flows from the fountain into its surrounding basin.",
+        "camera": "orbit",
+        "mood": "Bright marble, gentle reflections and calm discovery."
+      },
+      {
+        "id": "04g628",
+        "narration": "[whispers] صحن کی نالیوں میں پانی آہستہ آہستہ بہتا ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, ground-level view along a narrow marble water channel in the Court of the Lions, with the central fountain beyond. No figures, text or lettering.",
+        "action": "Clear water ripples along the marble channel.",
+        "camera": "push-in",
+        "mood": "Cool water glints against sun-warmed stone."
+      },
+      {
+        "id": "1fbta6",
+        "narration": "نقش، پانی اور روشنی، سب مل کر حسن بڑھاتے ہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, an Alhambra courtyard composition combining geometric tiled walls, carved arches and a shallow water channel. Warm 3D animated family-film style, no people or lettering.",
+        "action": "Water ripples distort the reflected arch.",
+        "camera": "pull-out",
+        "mood": "Balanced patterns, shimmering gold light and peaceful beauty."
+      },
+      {
+        "id": "m3wdi9",
+        "narration": "اریبہ، چھوٹی چھوٹی چیزیں مل کر کتنا حسن بناتی ہیں!",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, back in the warm Pakistani home. Nana sits beside Areeba with the open, unlettered courtyard picture album between them. Their established clothing and appearance remain unchanged.",
+        "action": "Nana traces a repeating tile pattern in the album.",
+        "camera": "static",
+        "mood": "Areeba's delighted smile, golden lamplight and shared understanding."
+      },
+      {
+        "id": "7knvhi",
+        "narration": "[excited] اگلی بار دیکھیں، باغوں میں پانی کیسے خوب صورتی بڑھاتا تھا؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the same home, with an album spread showing an unlettered historic garden illustration containing trees, flowerbeds and narrow water channels. Warm 3D animated family-film style, no text.",
+        "action": "Nana turns the album page to reveal the garden illustration.",
+        "camera": "push-in",
+        "mood": "Fresh green colors, warm lamplight and anticipation."
+      }
+    ],
+    "endHook": "Aglay episode mein: baghon mein pani khoob surti kaise barhata tha?",
+    "createdAt": "2026-11-12T20:18:18.262Z",
+    "description": "نانا ابو کے ساتھ غرناطہ کے الحمرا محل کی سیر کریں، جسے بنیادی طور پر نصری خاندان نے تیرہ سو کی دہائی عیسوی میں بنوایا۔ شیروں کا صحن، پانی کی نالیاں اور رنگین ٹائلوں کے نقش دیکھیں۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Alhambra",
+      "Granada",
+      "Nasrid",
+      "Urdu stories",
+      "History for kids",
+      "Islamic architecture"
+    ]
+  }
+}

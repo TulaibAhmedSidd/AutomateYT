@@ -1,0 +1,162 @@
+{
+  "number": 3,
+  "topic": "Getting ready for Eid: new clothes, sweets and sharing happiness with everyone.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:11:45.437Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Mano aur Sheru: Eid Ki Khushiyan Baanto!",
+    "shots": [
+      {
+        "id": "pvhcol",
+        "narration": "مانو کے عید والے ڈبے میں کیا چھپا ہے؟",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani courtyard beneath a neem tree, soft morning sunlight, rounded family-film 3D animation, plain gift box with no writing.",
+        "action": "Mano lifts the lid of the gift box, revealing a tiny blue waistcoat.",
+        "camera": "push-in",
+        "mood": "Bright curious eyes, festive pastel colours, no visible text."
+      },
+      {
+        "id": "s3l502",
+        "narration": "واہ، مانو کی نئی واسکٹ کتنی پیاری ہے!",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, courtyard beside a low wooden bench, soft sunlight, colourful family-film 3D animation.",
+        "action": "Mano turns around in her new blue waistcoat, with her red bell ribbon visible.",
+        "camera": "orbit",
+        "mood": "Proud playful pose, cheerful Eid morning, no visible text."
+      },
+      {
+        "id": "ejytik",
+        "narration": "[giggles] شیرو بھی عید کے لیے تیار ہو گیا!",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, Pakistani courtyard with a neem tree and patterned cushions, rounded family-film 3D animation.",
+        "action": "Sheru poses proudly in a yellow festive scarf above his green collar.",
+        "camera": "low-angle",
+        "mood": "Friendly smile, sunny yellow accents, no visible text."
+      },
+      {
+        "id": "g7ip41",
+        "narration": "مانو نے اپنی پلیٹ مٹھائی سے بھر لی۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, low courtyard table with a serving platter of round laddoos, colourful family-film 3D animation.",
+        "action": "Mano transfers a large spoonful of laddoos onto her already crowded plate.",
+        "camera": "push-in",
+        "mood": "Eager blue eyes, tempting golden sweets, no visible text."
+      },
+      {
+        "id": "ckuvm5",
+        "narration": "مگر شیرو کی پلیٹ تو خالی رہ گئی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard table with Mano's full plate beside Sheru's empty plate, both wearing their festive clothes.",
+        "action": "Sheru lifts his empty plate beside Mano's towering pile of sweets.",
+        "camera": "pan-right",
+        "mood": "Gentle puzzled expression, clear contrast between the plates, no visible text."
+      },
+      {
+        "id": "wvsgqe",
+        "narration": "[surprised] ارے، عید کی خوشی تو سب کے لیے ہے!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, close view of the courtyard table, full and empty plates clearly visible, soft family-film 3D lighting.",
+        "action": "Mano looks from her crowded plate toward Sheru's empty plate.",
+        "camera": "static",
+        "mood": "Thoughtful tilted head, Sheru's patient smile, no visible text."
+      },
+      {
+        "id": "d03t10",
+        "narration": "مانو نے آدھی مٹھائی شیرو کو دے دی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, low table beneath the courtyard neem tree, festive blue waistcoat and yellow scarf.",
+        "action": "Mano slides half her sweets onto Sheru's plate with a serving spoon.",
+        "camera": "push-in",
+        "mood": "Warm smiles, balanced portions, no visible text."
+      },
+      {
+        "id": "k292ky",
+        "narration": "شیرو بولا، محلے والوں کے لیے بھی ڈبے بھریں؟",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard table with a fresh serving platter of sweets and several plain empty gift boxes.",
+        "action": "Sheru pushes the empty gift boxes toward Mano.",
+        "camera": "pan-left",
+        "mood": "Inviting smile, Mano's bright attentive eyes, no visible text."
+      },
+      {
+        "id": "m3hafs",
+        "narration": "[excited] دونوں نے مل کر مٹھائی کے ڈبے بھرے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard packing table with plain pastel gift boxes, Mano and Sheru in festive clothes.",
+        "action": "Mano and Sheru place sweets into separate open gift boxes.",
+        "camera": "pull-out",
+        "mood": "Happy teamwork, neat colourful boxes, no visible text."
+      },
+      {
+        "id": "y64nag",
+        "narration": "شیرو نے پڑوس کے دروازے پر مٹھائی رکھی۔",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani mohalla doorway with a clean raised doorstep and potted flowers, no people visible.",
+        "action": "Sheru sets a closed pastel sweet box on the raised doorstep.",
+        "camera": "low-angle",
+        "mood": "Kind smile, welcoming sunlit doorway, no signs or visible text."
+      },
+      {
+        "id": "7ebkcz",
+        "narration": "مانو نے اگلے گھر بھی عید کی خوشی پہنچائی۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, a different mohalla doorway with turquoise wood and flowerpots, no people visible, soft sunlight.",
+        "action": "Mano places another closed sweet box on a clean doorstep shelf.",
+        "camera": "pan-right",
+        "mood": "Delighted expression, bright blue waistcoat, no signs or visible text."
+      },
+      {
+        "id": "89e23n",
+        "narration": "[excited] خوشیاں بانٹو؛ اگلی بار پارک میں کیا ملے گا؟",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, sunny home courtyard beneath the neem tree, two equal sweet portions on the low table, colourful family-film 3D animation.",
+        "action": "Mano and Sheru gently tap their raised paws together.",
+        "camera": "pull-out",
+        "mood": "Warm friendship, joyful Eid colours, no visible text."
+      }
+    ],
+    "endHook": "اگلی بار پارک میں مانو اور شیرو کو کیا ملے گا؟",
+    "createdAt": "2026-11-12T20:11:45.435Z",
+    "description": "مانو اور شیرو عید کے نئے کپڑے پہنتے ہیں اور مٹھائی بانٹنے کی تیاری کرتے ہیں۔ مانو کو پتا چلتا ہے کہ خوشیاں بانٹنے سے عید اور بھی پیاری لگتی ہے!",
+    "tags": [
+      "Mano aur Sheru",
+      "Eid",
+      "Urdu cartoon",
+      "Kids animation",
+      "Sharing",
+      "Pakistani cartoon"
+    ]
+  }
+}

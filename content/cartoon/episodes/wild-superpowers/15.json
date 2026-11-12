@@ -1,0 +1,116 @@
+{
+  "number": 15,
+  "topic": "Indus river dolphin: lives in Pakistan's Indus river, is almost blind, and finds food using echolocation.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:22:46.990Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Wild Superpowers: The Almost-Blind River Dolphin!",
+    "shots": [
+      {
+        "id": "3w6yit",
+        "narration": "Did you know this almost-blind dolphin finds food using sound?",
+        "characters": [],
+        "scene": "Vertical 9:16, bright naturalistic 3D animation, underwater in a sunlit muddy river, a cute anatomically accurate Indus river dolphin with tiny eyes and a long slender beak; no text.",
+        "action": "The Indus river dolphin glides toward the camera.",
+        "camera": "push-in",
+        "mood": "Golden sunbeams, sparkling suspended silt, inviting mystery."
+      },
+      {
+        "id": "yxfb33",
+        "narration": "Kiko and Pip explore Pakistan's Indus River, this dolphin's home.",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny sandy bank of Pakistan's broad Indus River, green riverside vegetation; Kiko wears his green safari hat and pocketed khaki vest, Pip hovers beside him.",
+        "action": "Kiko points toward the river.",
+        "camera": "pan-right",
+        "mood": "Bright blue sky, warm sunshine, eager discovery."
+      },
+      {
+        "id": "w2bpik",
+        "narration": "[surprised] But how can anything find food in this murky water?",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Vertical 9:16, stable sandy riverbank set safely back from the water, Kiko's large binoculars aimed toward the cloudy brown river.",
+        "action": "Kiko peers through his binoculars.",
+        "camera": "push-in",
+        "mood": "Puzzled expression, opaque water, gentle suspense."
+      },
+      {
+        "id": "r4lb31",
+        "narration": "The Indus river dolphin is almost blind.",
+        "characters": [],
+        "scene": "Vertical 9:16, naturalistic underwater close-up of an Indus river dolphin's head, tiny eye and long beak visible against suspended river silt.",
+        "action": "The dolphin passes sideways across the frame.",
+        "camera": "static",
+        "mood": "Soft filtered sunlight, curious and gentle."
+      },
+      {
+        "id": "a12e24",
+        "narration": "Its superpower is echolocation: finding things with returning sound.",
+        "characters": [],
+        "scene": "Vertical 9:16, underwater river channel with one Indus river dolphin and a rounded submerged rock; faint translucent arcs illustrate sound, not actual light.",
+        "action": "Illustrative sound arcs spread from the dolphin toward the rock.",
+        "camera": "pull-out",
+        "mood": "Clear visual discovery, warm underwater colours."
+      },
+      {
+        "id": "gzdl2f",
+        "narration": "[excited] Echoes bounce back from objects around it!",
+        "characters": [],
+        "scene": "Vertical 9:16, same muddy underwater channel, rounded rock opposite the Indus river dolphin; translucent arcs are an illustrative sound visualization.",
+        "action": "Illustrative echo arcs travel from the rock back toward the dolphin.",
+        "camera": "static",
+        "mood": "Soft glowing sunlight, satisfying moment of understanding."
+      },
+      {
+        "id": "yzqa4z",
+        "narration": "Those echoes help the dolphin find food.",
+        "characters": [],
+        "scene": "Vertical 9:16, murky Indus riverbed with rippled sand and scattered smooth stones, one anatomically accurate river dolphin.",
+        "action": "The dolphin angles its long beak toward the riverbed.",
+        "camera": "pan-left",
+        "mood": "Calm confidence, golden underwater haze, no visible prey."
+      },
+      {
+        "id": "3j78sg",
+        "narration": "Cloudy water? This dolphin has another way to explore!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny riverbank safely away from the edge, Kiko beside hovering emerald-green Pip, dolphin visible surfacing in the distant river.",
+        "action": "Kiko gives an enthusiastic thumbs-up.",
+        "camera": "pull-out",
+        "mood": "Delighted smiles, bright river reflections, cheerful payoff."
+      },
+      {
+        "id": "jhdfmt",
+        "narration": "[whispers] Can you guess our next animal, a master of camouflage?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, leafy riverside vegetation behind the sandy bank, Kiko with binoculars and Pip beside his green hat; no additional animal visible.",
+        "action": "Kiko lifts his binoculars toward the foliage.",
+        "camera": "push-in",
+        "mood": "Playful curiosity, sun-dappled leaves, inviting mystery."
+      }
+    ],
+    "endHook": "Can you guess our next animal, a master of camouflage?",
+    "createdAt": "2026-11-12T20:22:46.989Z",
+    "description": "Explore Pakistan's Indus River with Kiko and Pip to discover the Indus river dolphin. This almost-blind dolphin uses echolocation to find food in murky water!",
+    "tags": [
+      "Wild Superpowers",
+      "Indus river dolphin",
+      "echolocation",
+      "animal facts",
+      "nature for kids",
+      "Pakistan"
+    ]
+  }
+}

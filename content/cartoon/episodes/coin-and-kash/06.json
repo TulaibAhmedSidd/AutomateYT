@@ -1,0 +1,131 @@
+{
+  "number": 6,
+  "topic": "Credit cards: if you do not pay the full balance, interest is charged, and it can grow fast.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:09:11.378Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "Credit Cards: The Balance That Grows",
+    "shots": [
+      {
+        "id": "ue27a6",
+        "narration": "A smaller credit card payment can leave a growing problem.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright 3D cafe, vertical 9:16 frame, blank credit card beside a gold coin pile, no text or logos.",
+        "action": "Kash recoils from the towering coin pile.",
+        "camera": "push-in",
+        "mood": "Wide eyes, raised eyebrows, playful surprise."
+      },
+      {
+        "id": "en2mrv",
+        "narration": "Kash wants to pay just part of her balance.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Clean cafe table with a blank credit card and scattered gold coins, no text or logos.",
+        "action": "Kash slides a small portion of the coins forward.",
+        "camera": "pan-right",
+        "mood": "Tentative smile, curious sideways glance."
+      },
+      {
+        "id": "7u9lpb",
+        "narration": "[surprised] Coin explains: leave some balance unpaid, and interest is charged.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe tabletop with separated paid and unpaid coin groups, no text or markings.",
+        "action": "Coin points at the coins left beside the blank card.",
+        "camera": "low-angle",
+        "mood": "Coin looks gently serious; Kash watches attentively."
+      },
+      {
+        "id": "w0fda5",
+        "narration": "These ten coins represent an example balance.",
+        "characters": [
+          "coin"
+        ],
+        "scene": "Bright cafe tabletop with exactly ten plain gold counters in two rows, vertical composition, no text.",
+        "action": "Coin presents the ten counters with an open-handed gesture.",
+        "camera": "pull-out",
+        "mood": "Cheerful smile, clear lighting, orderly shapes."
+      },
+      {
+        "id": "vcdfs7",
+        "narration": "Kash pays only part, leaving some balance behind.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe tabletop with ten gold counters beside a blank credit card and an empty shallow tray.",
+        "action": "Kash slides five counters into the tray.",
+        "camera": "static",
+        "mood": "Focused expression, remaining counters clearly separated."
+      },
+      {
+        "id": "bnv6f0",
+        "narration": "[sighs] Interest adds to that unpaid balance.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe tabletop with five remaining gold counters beside the blank card, paid counters in a separate tray.",
+        "action": "Coin places an orange counter onto the unpaid pile.",
+        "camera": "push-in",
+        "mood": "Kash frowns slightly; the orange counter stands out clearly."
+      },
+      {
+        "id": "qqrtr2",
+        "narration": "And that interest can grow fast.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Stylized cafe tabletop visualization, gold balance counters beneath orange interest counters, no numbers or text.",
+        "action": "The orange interest counters rapidly accumulate above the gold counters.",
+        "camera": "orbit",
+        "mood": "Playful alarm, widening eyes, brightly contrasting colours."
+      },
+      {
+        "id": "e4cuzj",
+        "narration": "Coin points Kash back to the full balance.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Clean cafe table with the complete gold-and-orange balance pile beside a blank credit card.",
+        "action": "Coin sweeps one hand around the entire balance pile.",
+        "camera": "pan-left",
+        "mood": "Encouraging smile, Kash's expression turns thoughtful."
+      },
+      {
+        "id": "citd9t",
+        "narration": "[excited] Check your full balance today; next, let's picture interest growing.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright cafe table with a blank credit card and the complete balance pile, vertical 9:16 frame, no text.",
+        "action": "Kash leans closer to inspect the entire balance pile.",
+        "camera": "pull-out",
+        "mood": "Calm curiosity, friendly smiles, warm afternoon light."
+      }
+    ],
+    "endHook": "Next, we'll make growing interest easier to picture.",
+    "createdAt": "2026-11-12T20:09:11.373Z",
+    "description": "Coin helps Kash understand why paying only part of a credit card balance can leave a growing problem. Using a simple example, they show how interest adds to an unpaid balance. General money education, not personal financial advice.",
+    "tags": [
+      "Coin & Kash",
+      "credit cards",
+      "interest",
+      "money basics",
+      "financial education",
+      "YouTube Shorts"
+    ]
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "number": 9,
+  "topic": "Chameleon: its eyes move separately to look two ways at once, and its sticky tongue shoots out faster than you can blink.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:22:19.163Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Chameleon: Eyes Everywhere!",
+    "shots": [
+      {
+        "id": "jg0rq7",
+        "narration": "Did you know chameleon eyes can look two ways at once?",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D animated jungle, cute realistic chameleon on a sunlit branch, no text.",
+        "action": "The chameleon swivels its eyes in different directions.",
+        "camera": "push-in",
+        "mood": "Sunny green foliage, sparkling eyes, playful wonder."
+      },
+      {
+        "id": "oypysi",
+        "narration": "Kiko can only check one direction at a time!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny 3D jungle clearing, leafy branches surrounding Kiko, Pip perched on his hat.",
+        "action": "Kiko swings his binoculars from left to right.",
+        "camera": "pan-right",
+        "mood": "Bright natural colours, curious concentration."
+      },
+      {
+        "id": "ynz0k2",
+        "narration": "[surprised] But this little explorer has a different trick.",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Vertical 9:16, realistic 3D chameleon on a foreground branch, Kiko watching from behind.",
+        "action": "The chameleon rotates one eye while its other eye stays still.",
+        "camera": "push-in",
+        "mood": "Warm sunlight, clear eye detail, gentle surprise."
+      },
+      {
+        "id": "uprtv2",
+        "narration": "Its eyes move separately, watching different directions.",
+        "characters": [],
+        "scene": "Vertical 9:16, close frontal view of a realistic 3D chameleon among bright jungle leaves.",
+        "action": "The chameleon turns its eyes toward opposite sides of the frame.",
+        "camera": "static",
+        "mood": "Crisp natural detail, cheerful discovery."
+      },
+      {
+        "id": "958hqm",
+        "narration": "And those eyes aren't its only superpower.",
+        "characters": [
+          "pip"
+        ],
+        "scene": "Vertical 9:16, side view of a chameleon on a branch, Pip perched safely behind it.",
+        "action": "The chameleon opens its mouth.",
+        "camera": "low-angle",
+        "mood": "Sunny anticipation, vivid green leaves."
+      },
+      {
+        "id": "j5l8eo",
+        "narration": "[excited] Its sticky tongue shoots out faster than you can blink!",
+        "characters": [],
+        "scene": "Vertical 9:16, close side view of a realistic 3D chameleon, open jungle space ahead, no prey visible.",
+        "action": "The chameleon launches its tongue beyond the frame.",
+        "camera": "static",
+        "mood": "Bright daylight, thrilling motion, gentle nature-film excitement."
+      },
+      {
+        "id": "2t85xq",
+        "narration": "Wait! Did Kiko miss that?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, 3D jungle clearing, Kiko beside the chameleon's branch, Pip on his hat.",
+        "action": "Kiko blinks with an astonished expression.",
+        "camera": "push-in",
+        "mood": "Playful surprise, warm golden sunlight."
+      },
+      {
+        "id": "7240dh",
+        "narration": "Separate-moving eyes and a speedy, sticky tongue: super discovery!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny 3D jungle, calm chameleon on its branch beside Kiko, Pip perched nearby.",
+        "action": "Kiko gives the chameleon a delighted thumbs-up.",
+        "camera": "pull-out",
+        "mood": "Triumphant smiles, bright natural colours, friendly wonder."
+      },
+      {
+        "id": "yhmn39",
+        "narration": "[excited] Which animal's superpower comes next? Make your guess!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, bright 3D jungle trail disappearing behind oversized leaves, Pip perched on Kiko's hat.",
+        "action": "Kiko parts the leaves at the trail entrance.",
+        "camera": "push-in",
+        "mood": "Sunny mystery, inviting adventure, lush green depth."
+      }
+    ],
+    "endHook": "Another wild superpower awaits! Which animal do you think comes next?",
+    "createdAt": "2026-11-12T20:22:19.162Z",
+    "description": "Kiko and Pip discover a chameleon's amazing independent eyes and lightning-fast sticky tongue. Can you guess which animal's real superpower we'll explore next?",
+    "tags": [
+      "Wild Superpowers",
+      "chameleon",
+      "animal facts",
+      "kids nature",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

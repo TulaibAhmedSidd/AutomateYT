@@ -1,0 +1,168 @@
+{
+  "number": 13,
+  "topic": "Al-Kindi (about 801-873 CE) of Baghdad wrote the oldest known book on breaking secret codes by counting how often each letter appears (frequency analysis).",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:16:20.411Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Al-Kindi: Khufia Ramz Ka Raaz!",
+    "shots": [
+      {
+        "id": "8aowbj",
+        "narration": "یہ خفیہ پیغام ہے، مگر اسے پڑھیں کیسے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated library workshop; a brass tray holds an abstract puzzle of colored geometric tokens, with no writing anywhere.",
+        "action": "Hamza tilts his head toward the puzzling token arrangement.",
+        "camera": "push-in",
+        "mood": "Inviting mystery, warm amber light, expressive curiosity."
+      },
+      {
+        "id": "65wsle",
+        "narration": "نوری، کوئی طریقہ تو ہوگا!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, library desk with the geometric puzzle and Hamza's closed notebook; Noori floats beside a brass instrument.",
+        "action": "Hamza opens one palm toward Noori.",
+        "camera": "static",
+        "mood": "Gentle frustration, friendly companionship, soft golden lighting."
+      },
+      {
+        "id": "jsdg7v",
+        "narration": "[excited] چلو، بغداد کے الکندی سے ملتے ہیں!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library opening into a luminous projected historical Baghdad courtyard, with plain market awnings and no signs.",
+        "action": "Noori projects the historical courtyard across the library wall.",
+        "camera": "pull-out",
+        "mood": "Magical discovery, colorful textiles, welcoming family-film atmosphere."
+      },
+      {
+        "id": "h6kskc",
+        "narration": "الکندی خفیہ رمز سمجھنے کا طریقہ جانتے تھے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected Baghdad study; Al-Kindi appears only as a small respectful cartoon scholar seen from behind at a distant desk, with manuscript surfaces facing away; Hamza and Noori remain in the foreground.",
+        "action": "The distant scholar opens a manuscript with its pages angled away from the camera.",
+        "camera": "pan-right",
+        "mood": "Respectful, thoughtful, warm lamplight on brass and wood."
+      },
+      {
+        "id": "zvg5jz",
+        "narration": "خفیہ رمز توڑنے پر سب سے پرانی معلوم کتاب انہوں نے لکھی۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, close view of a plain closed manuscript in Noori's historical projection; no title, lettering, or decorative script.",
+        "action": "Noori casts a soft spotlight onto the manuscript.",
+        "camera": "push-in",
+        "mood": "Quiet wonder, reverent craftsmanship, rich leather and golden light."
+      },
+      {
+        "id": "i6yiz4",
+        "narration": "[surprised] مگر ان شکلوں میں کون سا اشارہ چھپا ہے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, return to the library's illustrative geometric puzzle; many identical blue circles sit among fewer orange triangles and green squares, without text or numerals.",
+        "action": "Hamza points at a blue circle.",
+        "camera": "low-angle",
+        "mood": "Curious uncertainty, bright readable shapes, gentle suspense."
+      },
+      {
+        "id": "084o6l",
+        "narration": "پہلے دیکھو، کون سی شکل بار بار آتی ہے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, overhead-style view of the brass puzzle tray, with repeated blue circles distributed among other geometric tokens.",
+        "action": "Noori illuminates all the blue circles with matching soft halos.",
+        "camera": "static",
+        "mood": "Clear visual discovery, playful glowing highlights."
+      },
+      {
+        "id": "qpwq3k",
+        "narration": "بار بار آنے والے حروف گن کر رمز کا سرا ملتا ہے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, Noori's wordless teaching projection uses abstract colored tokens as stand-ins for coded letters; matching tokens form separate stacks without labels or numbers.",
+        "action": "Noori's projected tokens sort themselves into matching stacks.",
+        "camera": "pan-left",
+        "mood": "Simple and satisfying, orderly shapes, warm educational wonder."
+      },
+      {
+        "id": "33so5c",
+        "narration": "[excited] یہ نیلی شکل تو سب سے زیادہ آئی!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, brass tray with a tall blue-circle stack beside shorter orange-triangle and green-square stacks; no markings.",
+        "action": "Hamza points to the tallest stack.",
+        "camera": "push-in",
+        "mood": "Delighted recognition, bright blue highlights, confident discovery."
+      },
+      {
+        "id": "j5cf26",
+        "narration": "پھر عام حروف سے موازنہ کرکے اندازہ لگایا جاتا ہے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, wordless illustrative projection with two unlabeled groups of geometric token stacks, one blue and one gold, showing comparable frequency patterns without letters.",
+        "action": "Noori draws a glowing connection between the tallest stack in each group.",
+        "camera": "orbit",
+        "mood": "Thoughtful connection, gentle clarity, soft golden glow."
+      },
+      {
+        "id": "blulqr",
+        "narration": "واہ، گنتی بھی راز سمجھنے میں مدد دیتی ہے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library desk with neatly grouped puzzle tokens; the plain projected manuscript rests softly in the background.",
+        "action": "Hamza raises a delighted thumbs-up beside the sorted puzzle.",
+        "camera": "pull-out",
+        "mood": "Earned success, friendly pride, cozy family-film warmth."
+      },
+      {
+        "id": "mqbnnv",
+        "narration": "[whispers] اچھا، ہم چیزوں کو دیکھتے کیسے ہیں؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, library darkened gently around a floating projection of a colorful apple, a golden light beam, and a simple eye model; no text.",
+        "action": "Noori projects a light beam traveling from the apple toward the eye model.",
+        "camera": "push-in",
+        "mood": "Fresh curiosity, peaceful wonder, luminous invitation to the next episode."
+      }
+    ],
+    "endHook": "Hum cheezon ko dekhte kaise hain?",
+    "createdAt": "2026-11-12T20:16:20.409Z",
+    "description": "حمزہ اور نوری بغداد کے الکندی سے ملتے ہیں، جنہوں نے خفیہ رمز توڑنے پر سب سے پرانی معلوم کتاب لکھی۔ حروف کتنی بار آتے ہیں، یہ گننے سے رمز سمجھنے میں کیسے مدد ملتی ہے؟",
+    "tags": [
+      "Musalman Sciencedan",
+      "Al-Kindi",
+      "Urdu cartoon",
+      "science for kids",
+      "frequency analysis",
+      "Baghdad"
+    ]
+  }
+}

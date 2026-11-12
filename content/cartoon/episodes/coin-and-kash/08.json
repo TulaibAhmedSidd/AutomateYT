@@ -1,0 +1,131 @@
+{
+  "number": 8,
+  "topic": "The Rule of 72: divide 72 by a yearly growth rate to estimate how many years money takes to double (example: 72 / 8 = 9 years).",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:09:16.418Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "The Rule of 72: A Doubling Shortcut",
+    "shots": [
+      {
+        "id": "tpu86w",
+        "narration": "How long could money take to double? Coin knows a shortcut.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated city flat, clean desk with two identical clear jars holding different amounts of blank silver tokens; no text or symbols.",
+        "action": "Kash points between the two jars.",
+        "camera": "push-in",
+        "mood": "Curious wide eyes, warm daylight, cheerful colours."
+      },
+      {
+        "id": "yvybdv",
+        "narration": "Kash wants her example savings to double, without guessing.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical 9:16, modern flat desk, one jar containing four blank silver tokens, one empty matching jar, open notebook with blank pages.",
+        "action": "Kash scratches her head above the notebook.",
+        "camera": "static",
+        "mood": "Gentle puzzlement, raised eyebrows, soft pastel surroundings."
+      },
+      {
+        "id": "1m96dm",
+        "narration": "[excited] Coin teaches Kash the Rule of seventy-two.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical 9:16, bright 3D flat, clear token jar and blank notebook on a tidy desk; no writing anywhere.",
+        "action": "Coin raises one tiny finger beside Kash.",
+        "camera": "low-angle",
+        "mood": "Friendly confidence, cheerful smile, bright golden highlights."
+      },
+      {
+        "id": "sffwfs",
+        "narration": "Divide seventy-two by a yearly growth rate to estimate doubling time.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Vertical 9:16, overhead-style view of the clean desk, blank silver tokens arranged in small equal clusters beside the jar; no numbers or labels.",
+        "action": "Coin sweeps one arm across the token clusters.",
+        "camera": "pan-right",
+        "mood": "Clear and orderly, inviting colours, attentive expressions."
+      },
+      {
+        "id": "46lmic",
+        "narration": "For example, use eight percent yearly growth.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Vertical 9:16, modern flat desk, eight plain blue beads arranged in a ring beside the clear savings jar; all surfaces unmarked.",
+        "action": "Coin points toward the eight blue beads.",
+        "camera": "push-in",
+        "mood": "Focused curiosity, soft blue accents, friendly smiles."
+      },
+      {
+        "id": "2uksw6",
+        "narration": "[surprised] Seventy-two divided by eight estimates nine years to double.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Vertical 9:16, bright desk with nine evenly spaced blank wooden beads forming a path toward two matching token jars; no text.",
+        "action": "Coin traces the bead path with one tiny hand.",
+        "camera": "pan-left",
+        "mood": "Delighted discovery, warm gold light, Kash's eyebrows lifted."
+      },
+      {
+        "id": "v755w9",
+        "narration": "That's an estimate, not a promise of growth.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Vertical 9:16, tidy modern flat, example jars and blank notebook on the desk, uncluttered background.",
+        "action": "Coin holds up an open palm toward Kash.",
+        "camera": "static",
+        "mood": "Calm and reassuring, gentle smile, balanced soft lighting."
+      },
+      {
+        "id": "cjtlyd",
+        "narration": "Coin helps Kash picture her example money doubling.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Vertical 9:16, close view of two identical clear jars, one containing four blank silver tokens and the other eight; no labels.",
+        "action": "Kash places the eight-token jar beside the four-token jar.",
+        "camera": "pull-out",
+        "mood": "Satisfied understanding, relaxed shoulders, bright friendly colours."
+      },
+      {
+        "id": "eyzug9",
+        "narration": "[excited] Try this example today; next, we'll flip the doubling question.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical 9:16, sunny modern flat desk, blank notebook beside the two example jars, clean unmarked surroundings.",
+        "action": "Kash slides her blank notebook toward the viewer.",
+        "camera": "push-in",
+        "mood": "Welcoming invitation, eager smiles, warm hopeful lighting."
+      }
+    ],
+    "endHook": "Next episode, we'll flip the doubling question!",
+    "createdAt": "2026-11-12T20:09:16.415Z",
+    "description": "Coin helps Kash explore the Rule of 72: divide 72 by a yearly growth rate to estimate doubling time. Using eight percent as an example gives nine years—an estimate, not a promise. General money education only.",
+    "tags": [
+      "Coin and Kash",
+      "Rule of 72",
+      "money basics",
+      "financial education",
+      "animated shorts"
+    ]
+  }
+}

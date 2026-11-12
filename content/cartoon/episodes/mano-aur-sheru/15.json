@@ -1,0 +1,168 @@
+{
+  "number": 15,
+  "topic": "One year of friendship: Mano and Sheru remember their best moments.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:12:57.563Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Mano aur Sheru: Dosti Ka Aik Saal",
+    "shots": [
+      {
+        "id": "y05m6i",
+        "narration": "دوستی کا ایک سال، مگر مانو کیا چھپا رہی ہے؟",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani courtyard beneath a neem tree, soft sunlight, rounded family-film 3D style, no text. A small covered basket sits beside Mano.",
+        "action": "Mano slides the covered basket behind her back while Sheru watches.",
+        "camera": "push-in",
+        "mood": "Playful curiosity, bright blue eyes and a secretive little smile."
+      },
+      {
+        "id": "pmtrjb",
+        "narration": "ٹوکری میں ان کی پیاری یادیں رکھی تھیں۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, sunlit courtyard floor, an open basket containing a red ball, a small blue water bowl and a tangled cloth garland, no text.",
+        "action": "Mano lifts the cloth cover off the basket.",
+        "camera": "static",
+        "mood": "Warm anticipation, Sheru's ears perked toward the familiar objects."
+      },
+      {
+        "id": "vz2v3e",
+        "narration": "[giggles] اسی گیند سے ان کا پہلا کھیل شروع ہوا تھا!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, warm softly glowing memory in the same Pakistani courtyard, clear open paving beneath the neem tree, no text.",
+        "action": "Sheru rolls the red ball toward Mano with his nose.",
+        "camera": "low-angle",
+        "mood": "Joyful first friendship, relaxed ears and an eager kitten."
+      },
+      {
+        "id": "id4kr8",
+        "narration": "مانو نے گرمی میں شیرو کو پانی دیا تھا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, softly glowing courtyard memory, cool neem shade beside a sunny patch of paving, a blue bowl filled with water, no text.",
+        "action": "Mano nudges the water bowl toward Sheru.",
+        "camera": "pan-right",
+        "mood": "Gentle kindness, soft smiles and refreshing blue water."
+      },
+      {
+        "id": "a4pdby",
+        "narration": "بارش آئی تو شیرو نے مانو کو بھیگنے نہیں دیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, softly glowing memory of light courtyard rain, Sheru beneath the covered veranda, Mano just outside its dry edge, no text.",
+        "action": "Sheru slides a small cushion under the veranda toward Mano.",
+        "camera": "pull-out",
+        "mood": "Cosy care, gentle raindrops and a welcoming dry corner."
+      },
+      {
+        "id": "6s5ga1",
+        "narration": "[excited] آج مانو نے دوستی کی خوشی منانے کا سوچا!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, present-day sunny courtyard, open memory basket beneath a low neem branch, colourful cloth garland inside, no text.",
+        "action": "Mano lifts the tangled garland from the basket.",
+        "camera": "push-in",
+        "mood": "Festive excitement, bright colours and proud little smiles."
+      },
+      {
+        "id": "xwdfk7",
+        "narration": "ارے، پھولوں کی لڑی تو الجھی ہوئی تھی!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, close view of a loosely tangled garland of oversized cloth flowers on courtyard paving, both friends beside it, no text.",
+        "action": "Mano tilts her head at the tangled garland.",
+        "camera": "static",
+        "mood": "Mild puzzlement, floppy cloth loops and a thoughtful kitten."
+      },
+      {
+        "id": "h95ows",
+        "narration": "شیرو نے فوراً لڑی کا ایک سرا تھام لیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard paving beneath neem shade, garland spread loosely between the two friends, no text.",
+        "action": "Sheru pins one end of the garland gently beneath his paw.",
+        "camera": "low-angle",
+        "mood": "Calm teamwork, steady paws and attentive faces."
+      },
+      {
+        "id": "o3k8d5",
+        "narration": "[chuckles] مانو نے آہستہ سے پھنسا ہوا پھول نکال لیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, close view of the cloth garland, Sheru's paw securing its end and one large flower caught in a loose loop, no text.",
+        "action": "Mano draws the caught cloth flower through the loose loop.",
+        "camera": "push-in",
+        "mood": "Patient concentration, the last loop opening neatly."
+      },
+      {
+        "id": "nzrc2t",
+        "narration": "دونوں کی محنت سے لڑی بالکل سیدھی ہوگئی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, sunny Pakistani courtyard, straightened garland beside a low neem branch within Mano's reach, no text.",
+        "action": "Mano drapes the straightened garland over the low branch.",
+        "camera": "pan-left",
+        "mood": "Small triumph, colourful flowers hanging in a gentle curve."
+      },
+      {
+        "id": "3brw3g",
+        "narration": "سب سے پیاری یاد، ایک دوسرے کا ساتھ تھا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, both friends seated beneath the decorated neem branch, red ball and blue bowl beside their memory basket, no text.",
+        "action": "Mano gently touches her paw to Sheru's raised paw.",
+        "camera": "orbit",
+        "mood": "Affectionate celebration, warm sunlight and happy faces."
+      },
+      {
+        "id": "k2h6i7",
+        "narration": "[excited] خوشیاں مل کر منائیں، کل چھت پر پتنگ اڑائیں گے!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, decorated courtyard beside stairs leading to a safely enclosed rooftop, a plain colourful kite resting against the stair wall, no text.",
+        "action": "Mano points one paw toward the colourful kite.",
+        "camera": "pull-out",
+        "mood": "Happy anticipation, Sheru following Mano's gaze toward tomorrow's adventure."
+      }
+    ],
+    "endHook": "اگلی بار مانو اور شیرو چھت پر پتنگ اڑائیں گے!",
+    "createdAt": "2026-11-12T20:12:57.562Z",
+    "description": "مانو اور شیرو کی دوستی کو ایک سال ہو گیا! پیاری یادیں تازہ کرتے ہوئے دونوں مل کر ایک چھوٹی سی خوشی مناتے ہیں۔",
+    "tags": [
+      "Mano aur Sheru",
+      "Urdu cartoon",
+      "friendship",
+      "Pakistani kids",
+      "بچوں کی کہانی",
+      "دوستی"
+    ]
+  }
+}

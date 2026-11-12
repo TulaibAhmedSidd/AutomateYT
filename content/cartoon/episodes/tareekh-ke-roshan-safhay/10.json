@@ -1,0 +1,148 @@
+{
+  "number": 10,
+  "topic": "Islamic geometric patterns: artists made amazing stars and repeating patterns using only a compass and a straight ruler. Show a circle becoming a star, then a whole tiled wall.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:18:02.712Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Sirf Do Auzaar Se Sitaron Bhari Deewar!",
+    "shots": [
+      {
+        "id": "xmzmpw",
+        "narration": "اتنے سارے ستارے، صرف دو اوزاروں سے کیسے بنے؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D family animation. A Pakistani home with an arched window and a blue geometric tile on a low table. Nana wears a cream kurta, brown waistcoat and round glasses; Areeba wears a yellow shalwar kameez and light-pink dupatta. No writing anywhere.",
+        "action": "Areeba points at the star pattern on the tile.",
+        "camera": "push-in",
+        "mood": "Golden afternoon light, inviting curiosity."
+      },
+      {
+        "id": "d9hm3d",
+        "narration": "اریبہ، کاریگر پرکار اور سیدھے پیمانے سے ایسے نقش بناتے تھے۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the same cozy home and low table, with a metal compass, an unmarked straightedge and blank paper. Warm 3D family-film style, no text or ruler graduations.",
+        "action": "Nana places the two tools beside the patterned tile.",
+        "camera": "static",
+        "mood": "Calm, welcoming and tactile."
+      },
+      {
+        "id": "lkcefp",
+        "narration": "[surprised] مگر ایک دائرے سے ستارہ کیسے بنے گا؟",
+        "characters": [
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, close view of Areeba at the home table, with blank paper, a compass and an unmarked straightedge in the foreground. Soft golden 3D lighting, no writing.",
+        "action": "Areeba tilts her head toward the tools.",
+        "camera": "push-in",
+        "mood": "Gentle puzzlement and anticipation."
+      },
+      {
+        "id": "syw91c",
+        "narration": "پہلے پرکار سے ایک گول دائرہ بناتے ہیں۔",
+        "characters": [
+          "nana"
+        ],
+        "scene": "Vertical 9:16, overhead close-up of Nana's ordinary elderly hand and a compass on blank cream paper at the home table. Warm 3D animation, geometric lines only, no writing.",
+        "action": "Nana rotates the compass to draw one circle.",
+        "camera": "static",
+        "mood": "Careful, clear and peaceful."
+      },
+      {
+        "id": "pemiif",
+        "narration": "پھر اسی پرکار سے چھ برابر فاصلے نشان لگاتے ہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, educational 3D tabletop visualization of the same circle and compass, its opening fixed at the circle's radius. Only geometric marks, no hands, people, labels or writing.",
+        "action": "The animated compass steps around the circumference to mark six equally spaced points.",
+        "camera": "push-in",
+        "mood": "Orderly, satisfying discovery."
+      },
+      {
+        "id": "4xu60q",
+        "narration": "[excited] اب ایک نشان چھوڑ کر لکیریں ملائیں، مثلث بن گئی!",
+        "characters": [],
+        "scene": "Vertical 9:16, close overhead 3D view of the circle with six equally spaced points and an unmarked straightedge. No people or writing.",
+        "action": "The animated straightedge traces a triangle through alternating points.",
+        "camera": "static",
+        "mood": "Bright, engaging and precise."
+      },
+      {
+        "id": "n9442n",
+        "narration": "باقی نشان ملائیں، تو چھ کونوں والا ستارہ بن گیا!",
+        "characters": [],
+        "scene": "Vertical 9:16, the same geometric construction on cream paper, with one completed triangle inside the circle. Warm 3D lighting, no labels or writing.",
+        "action": "The animated straightedge connects the remaining three points into a second triangle.",
+        "camera": "push-in",
+        "mood": "A gentle moment of wonder."
+      },
+      {
+        "id": "j28vi9",
+        "narration": "یہی ستارہ رنگوں کے ساتھ ٹائل پر بھی سج سکتا ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, a single square ceramic tile bearing the same six-pointed geometric star, centered on a sandstone work surface. Stylized 3D visualization, no people or writing.",
+        "action": "Turquoise and deep-blue glaze fills the tile's geometric compartments.",
+        "camera": "orbit",
+        "mood": "Rich color, handmade beauty and warm light."
+      },
+      {
+        "id": "dfuo5o",
+        "narration": "[excited] ایک ہی نقش دہرائیں، تو نمونہ بڑھتا جاتا ہے!",
+        "characters": [],
+        "scene": "Vertical 9:16, a front-facing educational 3D arrangement of matching square star tiles against a plain sandstone wall. No people, symbols resembling writing, or captions.",
+        "action": "Matching tiles slide into an aligned repeating grid.",
+        "camera": "pull-out",
+        "mood": "Rhythmic, playful and visually satisfying."
+      },
+      {
+        "id": "obg9kb",
+        "narration": "یوں اسلامی عمارتوں کی دیواریں خوب صورت نمونوں سے سجتی تھیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, a generic historic Islamic courtyard with a completed blue geometric tiled wall, sandstone arches and a quiet garden. Warm 3D family-film look, no people, inscriptions or signs.",
+        "action": "Sunlight slowly travels across the repeating star tiles.",
+        "camera": "pan-right",
+        "mood": "Peaceful admiration and golden architectural beauty."
+      },
+      {
+        "id": "341fy8",
+        "narration": "دیکھا اریبہ، ایک دائرے سے کتنا خوب صورت نقش بنا!",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, back in the same Pakistani home. The completed paper construction rests beside the original blue star tile and the two tools. Nana and Areeba sit together, no writing anywhere.",
+        "action": "Areeba holds her geometric drawing beside the matching tile.",
+        "camera": "pull-out",
+        "mood": "Warm pride, understanding and family closeness."
+      },
+      {
+        "id": "qlwhzz",
+        "narration": "[whispers] اب بتاؤ، پرانے باغوں میں پانی کیسے پہنچتا تھا؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, Nana and Areeba beside the home's arched window, overlooking a small garden with a narrow water channel. Golden evening 3D lighting, no writing or additional people.",
+        "action": "Nana points toward the garden's water channel.",
+        "camera": "pan-left",
+        "mood": "Quiet curiosity and anticipation of another story."
+      }
+    ],
+    "endHook": "Agli baar: purane baghon mein pani kaise pohanchta tha?",
+    "createdAt": "2026-11-12T20:18:02.710Z",
+    "description": "نانا ابو، اریبہ کو اسلامی جیومیٹری کے خوب صورت نقش دکھاتے ہیں۔ دیکھیے، پرکار اور سیدھے پیمانے سے دائرہ کیسے ستارہ بنتا ہے، پھر یہی نقش پوری دیوار سجاتا ہے۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Islamic geometric patterns",
+      "Urdu stories for kids",
+      "geometry",
+      "3D animation",
+      "Islamic art"
+    ]
+  }
+}

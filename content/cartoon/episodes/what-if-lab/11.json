@@ -1,0 +1,132 @@
+{
+  "number": 11,
+  "topic": "What if the internet went down worldwide for one day? Payments, messages, maps and many businesses would stop.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:21:02.908Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If the Internet Went Down Worldwide for One Day?",
+    "shots": [
+      {
+        "id": "m23e9n",
+        "narration": "What if the internet went down worldwide for one day?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, vertical frame, glowing Earth hologram without labels.",
+        "action": "nova presents a holographic Earth whose connecting light trails fade.",
+        "camera": "push-in",
+        "mood": "Bright turquoise lighting, curious expressions, dramatic violet globe."
+      },
+      {
+        "id": "6a2uv7",
+        "narration": "Devices could stay powered, but online connections would fail.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab beside a hologram of glowing phones and computers, no text.",
+        "action": "nova enlarges a hologram of powered devices separated by broken light trails.",
+        "camera": "orbit",
+        "mood": "Luminous screens, puzzled robot eyes, gentle scientific curiosity."
+      },
+      {
+        "id": "rte530",
+        "narration": "[surprised] Internet messages would stop arriving.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram showing two phones with blank screens and an unmarked envelope between them.",
+        "action": "nova slides a holographic envelope into a gap between the phones.",
+        "camera": "static",
+        "mood": "Warm pink light, suspended envelope, surprised blue robot eyes."
+      },
+      {
+        "id": "9qd3gy",
+        "narration": "Many card payments would fail, though some systems work offline.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab counter with a holographic payment terminal and blank bank card, no symbols or lettering.",
+        "action": "nova taps the blank card against a terminal that flashes amber.",
+        "camera": "low-angle",
+        "mood": "Clean colourful surfaces, amber glow, thoughtful expressions."
+      },
+      {
+        "id": "k9imda",
+        "narration": "Maps needing fresh downloads could leave blank spaces.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab with a floating street-map hologram made of unlabelled roads and blank tiles.",
+        "action": "nova expands a map whose outer tiles remain empty.",
+        "camera": "pull-out",
+        "mood": "Blue roads fading into pale empty squares, curious concentration."
+      },
+      {
+        "id": "k4fmlg",
+        "narration": "[sighs] Many businesses would pause tasks that depend on online services.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram of a miniature warehouse with packages and an idle conveyor, no labels.",
+        "action": "nova freezes a holographic package beneath a disconnected computer.",
+        "camera": "pan-right",
+        "mood": "Quiet conveyor, soft amber lighting, calm problem-solving atmosphere."
+      },
+      {
+        "id": "3ylrg9",
+        "narration": "But cash could keep some purchases moving.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab counter beside the payment hologram, with plain unmarked coins and an apple.",
+        "action": "nova places plain coins beside the apple.",
+        "camera": "push-in",
+        "mood": "Sunny gold lighting, cheerful smile, reassuring everyday objects."
+      },
+      {
+        "id": "rb1klt",
+        "narration": "Downloaded maps could still show your surroundings.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab with a holographic phone displaying a complete unlabelled street grid and glowing position dot.",
+        "action": "nova traces an intact road across the offline map.",
+        "camera": "pan-left",
+        "mood": "Clear green route, bright blue glow, delighted robot eyes."
+      },
+      {
+        "id": "t1ckfg",
+        "narration": "[surprised] GPS works offline—but what if satellites disappeared?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab beneath a tall Earth hologram with orbiting satellites and a phone below, no text.",
+        "action": "nova reveals glowing signal paths directly connecting satellites to the phone.",
+        "camera": "pull-out",
+        "mood": "Sparkling orbital arcs, wide-eyed wonder, bright cosmic colours."
+      }
+    ],
+    "endHook": "GPS works offline—but what if satellites disappeared?",
+    "createdAt": "2026-11-12T20:21:02.907Z",
+    "description": "Dr. Nova shows Byte how a worldwide internet outage could disrupt messages, payments, maps and businesses. But cash, downloaded maps and GPS reveal why offline doesn't mean everything stops.",
+    "tags": [
+      "What If Lab",
+      "internet outage",
+      "science",
+      "animation",
+      "GPS",
+      "offline"
+    ]
+  }
+}

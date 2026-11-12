@@ -1,0 +1,166 @@
+{
+  "number": 7,
+  "topic": "Mainz, Germany, around 1440: Johannes Gutenberg's printing press with movable metal type made books much faster to produce.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:19:09.618Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: Gutenberg’s Big Idea",
+    "shots": [
+      {
+        "id": "ernib2",
+        "narration": "Golden sparkles! What’s that enormous wooden machine?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Sunlit historical printing workshop in Mainz, Germany, around 1440; wooden screw press, timber beams, vertical 9:16, rich 3D animation, no visible writing.",
+        "action": "Zoya materializes beside the press in swirling dust and golden sparkles.",
+        "camera": "push-in",
+        "mood": "Bright golden light, magical blue glow, friendly wonder."
+      },
+      {
+        "id": "7fcxu1",
+        "narration": "We’re in Mainz, Germany, around 1440.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Workshop doorway overlooking timber-framed buildings and a sunlit cobbled lane, vertical 9:16, no signs or writing.",
+        "action": "Zoya peeks through the open doorway.",
+        "camera": "pull-out",
+        "mood": "Warm sunlight, welcoming historical surroundings."
+      },
+      {
+        "id": "hseqj5",
+        "narration": "[excited] This is Johannes Gutenberg’s printing press!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Tall wooden printing press inside the workshop, empty work area, vertical 9:16, detailed 3D animation, no visible writing.",
+        "action": "Tock points toward the wooden press.",
+        "camera": "low-angle",
+        "mood": "Impressive wooden shapes, cheerful discovery, golden dust motes."
+      },
+      {
+        "id": "f3xqwx",
+        "narration": "Its clever secret? Movable metal type.",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Workshop bench with shallow trays of metal type, all character-bearing ends hidden from view, vertical 9:16.",
+        "action": "Zoya lifts a metal type block with its smooth side facing the camera.",
+        "camera": "push-in",
+        "mood": "Curious close-up, sparkling metal edges, warm sunlight."
+      },
+      {
+        "id": "y8ealy",
+        "narration": "But this little piece has slipped out!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Wooden workbench with one loose metal type block beside an orderly tray, all type faces concealed, vertical 9:16.",
+        "action": "Tock leans toward the loose block.",
+        "camera": "static",
+        "mood": "Gentle puzzlement, tiny robot tilted inquisitively."
+      },
+      {
+        "id": "9edckr",
+        "narration": "[whispers] Can we put it back?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Close view of a compartmented wooden type tray with an open space, smooth metal sides visible only, vertical 9:16.",
+        "action": "Zoya holds the loose block above the tray.",
+        "camera": "orbit",
+        "mood": "Playful concentration, soft golden highlights."
+      },
+      {
+        "id": "ucbskd",
+        "narration": "There! Each little piece can move.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Sunlit workbench with a compartmented type tray, letter-bearing surfaces hidden, vertical 9:16.",
+        "action": "Zoya returns the block to the open compartment.",
+        "camera": "push-in",
+        "mood": "Satisfying fit, bright smiles, friendly accomplishment."
+      },
+      {
+        "id": "ku6ukp",
+        "narration": "The type could be rearranged and used again.",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Workshop bench with adjacent trays of metal type, camera showing only smooth block sides, vertical 9:16.",
+        "action": "Zoya transfers a block into another tray.",
+        "camera": "pan-right",
+        "mood": "Clear visual discovery, warm wood and gleaming metal."
+      },
+      {
+        "id": "2s8w72",
+        "narration": "[surprised] No need to copy every page by hand!",
+        "characters": [
+          "tock"
+        ],
+        "scene": "Wooden printing press beside neat stacks of face-down paper, all printed surfaces concealed, vertical 9:16.",
+        "action": "Tock spreads his tiny arms toward the paper stacks.",
+        "camera": "pull-out",
+        "mood": "Wide-eyed delight, abundant paper, sunlit workshop."
+      },
+      {
+        "id": "ex3phg",
+        "narration": "Gutenberg’s press made books much faster to produce.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Workshop bench holding stacks of face-down sheets and closed books with plain covers and blank spines, vertical 9:16.",
+        "action": "Zoya lifts a closed plain-covered book.",
+        "camera": "push-in",
+        "mood": "Proud discovery, rich leather texture, golden sunlight."
+      },
+      {
+        "id": "x09ifn",
+        "narration": "One little piece helped make a big difference.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Printing workshop with the wooden press behind Zoya, her blue wristwatch beginning to glow, vertical 9:16, no visible writing.",
+        "action": "Zoya raises her glowing wristwatch.",
+        "camera": "low-angle",
+        "mood": "Triumphant warmth, blue light mingling with golden sparkles."
+      },
+      {
+        "id": "dffstx",
+        "narration": "[excited] Where to next?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Sunlit workshop surrounded by gathering golden time-travel sparkles, Tock beside Zoya’s glowing blue wristwatch, vertical 9:16.",
+        "action": "Tock bounces toward Zoya’s glowing watch as he asks his question.",
+        "camera": "pull-out",
+        "mood": "Eager robot expression, swirling golden light, inviting adventure."
+      }
+    ],
+    "endHook": "Zoya’s watch glows again—where will their next adventure begin?",
+    "createdAt": "2026-11-12T20:19:09.616Z",
+    "description": "Zoya and Tock time-jump to Mainz, Germany, around 1440 to explore Johannes Gutenberg’s printing press. A little workshop challenge reveals how movable metal type helped make books much faster to produce.",
+    "tags": [
+      "Tiny Time Traveler",
+      "Gutenberg",
+      "printing press",
+      "Mainz",
+      "history for kids",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

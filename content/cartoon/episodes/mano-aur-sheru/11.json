@@ -1,0 +1,167 @@
+{
+  "number": 11,
+  "topic": "The electricity goes out: the whole family tells stories by lamplight.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:12:36.526Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Mano aur Sheru: Bijli Gayi, Kahani Aayi!",
+    "shots": [
+      {
+        "id": "dsbrh2",
+        "narration": "ارے، بجلی گئی تو مانو کی کہانی کیسے چلے گی؟",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani courtyard at dusk, neem tree, woven rug, rounded friendly 3D family animation style, no text. A wall bulb has just gone dark; soft blue evening light keeps everything visible.",
+        "action": "Mano tilts an open, wordless picture book toward the dark bulb.",
+        "camera": "push-in",
+        "mood": "Gentle surprise, curious blue eyes, safe twilight."
+      },
+      {
+        "id": "7m0s1x",
+        "narration": "مانو نے کتاب بند کی اور شیرو کو دیکھا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard rug beneath the neem tree, closed courtyard doorway behind Sheru, soft blue dusk, no text.",
+        "action": "Mano closes the picture book while facing Sheru.",
+        "camera": "static",
+        "mood": "Mild disappointment, Sheru looking reassuring."
+      },
+      {
+        "id": "0ro8pq",
+        "narration": "[excited] شیرو بولا، لالٹین میں بیٹری ہے، اسے جلاتے ہیں!",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, low courtyard shelf holding a rounded battery-powered lantern with a large button, no flame, no text.",
+        "action": "Sheru presses the lantern button with one paw, turning on its warm light.",
+        "camera": "push-in",
+        "mood": "Helpful confidence, warm amber glow."
+      },
+      {
+        "id": "clixtc",
+        "narration": "شیرو لالٹین صحن میں لے آیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani courtyard with a central woven rug and scattered cushions, neem leaves overhead, no text.",
+        "action": "Sheru carries the lightweight glowing lantern by its broad handle toward the rug.",
+        "camera": "pan-right",
+        "mood": "Purposeful and cosy, soft amber light against blue dusk."
+      },
+      {
+        "id": "stutdl",
+        "narration": "مانو نے سب کے لیے نرم گدیاں لگا دیں۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, glowing battery lantern safely upright at the rug's centre, several cushions arranged in a welcoming circle, no other figures, no text.",
+        "action": "Mano pushes the final cushion into the circle.",
+        "camera": "low-angle",
+        "mood": "Welcoming, playful, warm pools of lantern light."
+      },
+      {
+        "id": "a0mspo",
+        "narration": "[whispers] گھر والے بھی آ بیٹھے، نانی نے کہانی شروع کی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, tight courtyard framing on Mano and Sheru beside the lantern; all human family members remain completely outside the frame, no human silhouettes, no text.",
+        "action": "Mano turns her ears toward the offscreen storyteller.",
+        "camera": "push-in",
+        "mood": "Attentive wonder, relaxed faces, intimate lamplight."
+      },
+      {
+        "id": "y89kxl",
+        "narration": "کہانی میں ایک تتلی تھی، مانو بھی تتلی بن گئی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, open space beside the courtyard rug, Sheru seated near the battery lantern, colourful walls softly illuminated, no text.",
+        "action": "Mano flutters her front paws like butterfly wings while sitting upright.",
+        "camera": "orbit",
+        "mood": "Imaginative delight, Sheru watching with a friendly smile."
+      },
+      {
+        "id": "0rnnd5",
+        "narration": "پھر شیرو نے اپنی کھوئی گیند کا قصہ سنایا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard rug with a small plain ball tucked beside a cushion, warm lantern glow, no text.",
+        "action": "Sheru points one paw toward the partly hidden ball.",
+        "camera": "pan-left",
+        "mood": "Animated storytelling, Mano watching eagerly."
+      },
+      {
+        "id": "1n2nqx",
+        "narration": "[giggles] مانو بولی، وہ تو گدی کے پیچھے چھپی تھی!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, close view of a soft courtyard cushion with the plain ball peeking behind it, lantern visible farther back, no text.",
+        "action": "Mano pulls the cushion aside to reveal the ball.",
+        "camera": "static",
+        "mood": "Playful discovery, cheerful rounded expressions."
+      },
+      {
+        "id": "5yw150",
+        "narration": "شیرو نے گیند مانو کو دی، سب ہنس پڑے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, intimate courtyard view of the two friends facing each other across the rug, family entirely offscreen, no text.",
+        "action": "Sheru gently rolls the ball toward Mano.",
+        "camera": "low-angle",
+        "mood": "Affectionate amusement, bright eyes and relaxed smiles."
+      },
+      {
+        "id": "1pd3bz",
+        "narration": "بجلی آگئی، مگر کسی نے محفل نہ چھوڑی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, wide courtyard view with both friends settled among cushions, battery lantern still glowing, wall bulb overhead, no humans visible, no text.",
+        "action": "The courtyard wall bulb lights up above the seated friends.",
+        "camera": "pull-out",
+        "mood": "Contentment, warm household light blending with lantern glow."
+      },
+      {
+        "id": "jiqice",
+        "narration": "[excited] مل بیٹھنا خوشی ہے، کل چھت پر پتنگ کہاں اٹکے گی؟",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, cosy courtyard beneath a rooftop railing, a plain colourful kite caught on the railing above, lantern and cushions below, no writing or symbols.",
+        "action": "Mano points one paw up toward the kite while sitting beside Sheru.",
+        "camera": "pull-out",
+        "mood": "Warm friendship, gentle curiosity about tomorrow's rooftop adventure."
+      }
+    ],
+    "endHook": "اگلی بار چھت پر پتنگ کہاں اٹکے گی؟",
+    "createdAt": "2026-11-12T20:12:36.524Z",
+    "description": "بجلی گئی تو مانو اور شیرو نے لالٹین کی روشنی میں محفل سجا لی۔ گھر والوں کی کہانیوں اور مانو کی اداکاری سے شام مزے دار بن گئی۔ مل بیٹھنے کی خوشی ہی کچھ اور ہے!",
+    "tags": [
+      "Mano aur Sheru",
+      "Urdu cartoon",
+      "Pakistani kids",
+      "family stories",
+      "بچوں کی کہانیاں",
+      "دوستی"
+    ]
+  }
+}

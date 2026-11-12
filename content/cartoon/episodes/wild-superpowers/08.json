@@ -1,0 +1,122 @@
+{
+  "number": 8,
+  "topic": "Owl: can turn its head about 270 degrees, and its soft feathers let it fly almost silently.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:22:11.337Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Wild Superpowers: The Owl’s Silent Surprise",
+    "shots": [
+      {
+        "id": "dt0oi4",
+        "narration": "Did you know an owl can look behind itself?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated woodland clearing, an owl perched above Kiko and Pip, no text.",
+        "action": "The owl turns its head toward Kiko behind its perch.",
+        "camera": "push-in",
+        "mood": "Sunny golden light, sparkling leaves, wide-eyed wonder."
+      },
+      {
+        "id": "ykko6t",
+        "narration": "Kiko wants a closer look, but leafy branches hide it.",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Vertical 9:16, leafy woodland canopy above a fern-covered path, owl partly concealed by foliage, no text.",
+        "action": "Kiko raises his big binoculars toward the leafy canopy.",
+        "camera": "low-angle",
+        "mood": "Bright natural greens, curious expression, playful mystery."
+      },
+      {
+        "id": "sc8h6i",
+        "narration": "[whispers] There it is! Watch that amazing head turn.",
+        "characters": [
+          "pip"
+        ],
+        "scene": "Vertical 9:16, cute true-to-life owl on a broad branch, Pip hovering nearby, no text.",
+        "action": "The owl slowly turns its head while its body stays still.",
+        "camera": "orbit",
+        "mood": "Warm sunshine, clear feather detail, quiet anticipation."
+      },
+      {
+        "id": "acrh65",
+        "narration": "An owl can turn its head about 270 degrees.",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of the same perched owl against softly blurred woodland, no text.",
+        "action": "The owl demonstrates a broad head turn without making a complete circle.",
+        "camera": "static",
+        "mood": "Bright natural colours, gentle movement, fascinating close-up."
+      },
+      {
+        "id": "n3uek4",
+        "narration": "But its other superpower is much harder to hear.",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Vertical 9:16, Kiko beneath the owl's branch in a sunny forest clearing, no text.",
+        "action": "Kiko cups a hand behind his ear.",
+        "camera": "push-in",
+        "mood": "Expectant smile, dappled sunlight, quiet suspense."
+      },
+      {
+        "id": "9uluo8",
+        "narration": "[surprised] Those soft feathers help it fly almost silently!",
+        "characters": [],
+        "scene": "Vertical 9:16, same owl above a fern-lined woodland opening, soft wing feathers clearly visible, no text.",
+        "action": "The owl glides across the clearing with wings spread.",
+        "camera": "pan-right",
+        "mood": "Airy golden light, graceful motion, gentle amazement."
+      },
+      {
+        "id": "qssabs",
+        "narration": "Kiko barely notices the owl passing behind him.",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Vertical 9:16, Kiko listening beneath tall trees, owl visible behind his shoulder, no text.",
+        "action": "The owl glides behind Kiko toward a low branch.",
+        "camera": "static",
+        "mood": "Playful surprise, soft green background, peaceful woodland."
+      },
+      {
+        "id": "d4z43a",
+        "narration": "There it is again: a quiet woodland wonder!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, owl resting on a low branch near Kiko and Pip, sunlit ferns below, no text.",
+        "action": "Kiko points toward the perched owl.",
+        "camera": "pull-out",
+        "mood": "Delighted discovery, warm smiles, bright natural colours."
+      },
+      {
+        "id": "g0bhxp",
+        "narration": "[excited] Which ocean animal comes next? Can you guess?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, woodland edge overlooking a sparkling blue ocean, no other animals and no text.",
+        "action": "Kiko points toward the ocean.",
+        "camera": "pan-right",
+        "mood": "Sunny horizon, shimmering water, inviting adventure."
+      }
+    ],
+    "endHook": "Which ocean animal will Kiko and Pip discover next?",
+    "createdAt": "2026-11-12T20:22:11.335Z",
+    "description": "Kiko and Pip discover how an owl turns its head about 270 degrees and flies almost silently with soft feathers. Can you guess which ocean animal they will meet next?",
+    "tags": [
+      "Wild Superpowers",
+      "owl",
+      "animal facts",
+      "nature for kids",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

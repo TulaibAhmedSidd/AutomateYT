@@ -1,0 +1,156 @@
+{
+  "number": 8,
+  "topic": "Al-Jazari wrote 'The Book of Knowledge of Ingenious Mechanical Devices' in 1206 CE, with designs for an elephant clock, water-raising machines and automatic machines. Show the giant elephant clock working.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:15:39.877Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Al-Jazari Ki Kamaal Haathi Ghari!",
+    "shots": [
+      {
+        "id": "tvo9a8",
+        "narration": "یہ ہاتھی وقت بتاتا ہے، مگر کیسے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated library, a towering projected elephant clock with an ornate pavilion and brass mechanisms, no writing anywhere.",
+        "action": "Hamza points up at the elephant clock.",
+        "camera": "low-angle",
+        "mood": "Golden light, enormous scale, friendly wonder."
+      },
+      {
+        "id": "c6cx8b",
+        "narration": "نوری، ذرا اس کے اندر تو دکھاؤ!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library beside the projected elephant clock, Hamza holding his small notebook, no visible text.",
+        "action": "Noori projects a transparent cutaway of the elephant's body.",
+        "camera": "push-in",
+        "mood": "Inviting blue projection light against warm brass."
+      },
+      {
+        "id": "mvuc9c",
+        "narration": "[surprised] ارے، اس کے اندر تو پانی ہے!",
+        "characters": [
+          "hamza"
+        ],
+        "scene": "Vertical 9:16, 3D cutaway projection showing a water reservoir inside the elephant clock, Hamza visible beside it, no labels.",
+        "action": "Hamza leans closer to the water reservoir.",
+        "camera": "static",
+        "mood": "Bright reflections, playful surprise."
+      },
+      {
+        "id": "w9nc0z",
+        "narration": "الجزری نے ۱۲۰۶ء میں مشینوں کے ڈیزائن کتاب میں لکھے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, Noori's projected medieval workshop, Al-Jazari represented only by a small distant rear-view cartoon figure at a desk, an open manuscript showing mechanical drawings without writing.",
+        "action": "Noori projects the workshop around the open manuscript.",
+        "camera": "pan-right",
+        "mood": "Respectful, peaceful, warm amber workshop light."
+      },
+      {
+        "id": "lunv9d",
+        "narration": "ان میں یہ شاندار ہاتھی گھڑی بھی تھی!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, complete projected elephant clock towering above Hamza, ornate pavilion, brass birds and serpent mechanisms, no numerals or writing.",
+        "action": "Hamza walks around the base of the projected clock.",
+        "camera": "orbit",
+        "mood": "Grand, colourful, delighted discovery."
+      },
+      {
+        "id": "xuy2ha",
+        "narration": "[whispers] لیکن پانی وقت کیسے بتاتا ہے؟",
+        "characters": [
+          "hamza"
+        ],
+        "scene": "Vertical 9:16, close view of the transparent elephant body, a small floating bowl in its reservoir, Hamza at the edge of the frame, no text.",
+        "action": "Hamza tilts his head toward the floating bowl.",
+        "camera": "push-in",
+        "mood": "Quiet curiosity, soft water reflections."
+      },
+      {
+        "id": "pe9cdg",
+        "narration": "چھوٹے سوراخ سے پانی بھرے تو پیالہ آہستہ ڈوبتا ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, clear 3D mechanical cutaway of a small bowl floating in the clock's reservoir, a tiny hole visible in its bottom, no labels.",
+        "action": "Water slowly enters the bowl through its tiny hole.",
+        "camera": "static",
+        "mood": "Clear, calm, easy-to-follow demonstration."
+      },
+      {
+        "id": "eifrhm",
+        "narration": "ڈوبتا پیالہ ڈوری کھینچ کر گھڑی کا نظام چلاتا ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close cutaway of the clock reservoir and a cord connecting the floating bowl to the mechanism above, no text.",
+        "action": "The sinking bowl pulls its connected cord.",
+        "camera": "pan-right",
+        "mood": "Gentle suspense, clearly visible moving parts."
+      },
+      {
+        "id": "55sdkc",
+        "narration": "[excited] دیکھو، اوپر سے گیند بھی نکل آئی!",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of the elephant clock's upper brass ball-release mechanism and serpent-shaped receiver, no writing.",
+        "action": "A brass ball drops from the upper mechanism into the serpent's open mouth.",
+        "camera": "push-in",
+        "mood": "Sparkling brass, satisfying mechanical surprise."
+      },
+      {
+        "id": "fiw9l9",
+        "narration": "یوں پانی کی مدد سے وقت کا پتا چلتا تھا!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, full elephant clock projection in the warm library, its ball-loaded serpent mechanism clearly visible, no text.",
+        "action": "The ball-loaded serpent pivots downward.",
+        "camera": "pull-out",
+        "mood": "Triumphant discovery, warm welcoming glow."
+      },
+      {
+        "id": "8r7zuy",
+        "narration": "الجزری نے پانی اٹھانے والی مشینیں بھی بنائیں۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library with a projected historical water-raising machine beside a lower water channel and an elevated trough, no labels or writing.",
+        "action": "Noori projects water flowing from the machine into the elevated trough.",
+        "camera": "pan-left",
+        "mood": "Fresh curiosity, bright water and polished wood."
+      },
+      {
+        "id": "f9gt7v",
+        "narration": "[excited] اگلی بار دیکھیں، پانی اوپر کیسے پہنچتا ہے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, Hamza and Noori beside the glowing projection of a water-raising machine, lower channel and raised trough clearly separated, no text.",
+        "action": "Hamza points from the lower channel toward the raised trough.",
+        "camera": "push-in",
+        "mood": "Hopeful anticipation, friendly golden light."
+      }
+    ],
+    "endHook": "Kya paani khud oopar charh sakta hai?",
+    "createdAt": "2026-11-12T20:15:39.874Z",
+    "description": "الجزری نے ۱۲۰۶ء میں اپنی کتاب میں ہاتھی گھڑی، پانی اٹھانے والی مشینوں اور خودکار مشینوں کے ڈیزائن لکھے۔ حمزہ اور نوری کے ساتھ دیکھیں کہ پانی سے چلنے والی یہ حیرت انگیز گھڑی وقت کیسے بتاتی تھی!",
+    "tags": [
+      "Musalman Sciencedan",
+      "Al-Jazari",
+      "Elephant Clock",
+      "Urdu Science",
+      "Kids Animation",
+      "History of Science"
+    ]
+  }
+}

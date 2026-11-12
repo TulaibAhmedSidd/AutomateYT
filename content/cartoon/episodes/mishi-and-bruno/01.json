@@ -1,0 +1,163 @@
+{
+  "number": 1,
+  "topic": "Bruno spins round and round trying to catch his own tail; Mishi teaches him to slow down and be patient.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:13:06.973Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi & Bruno: The Tail Chase",
+    "shots": [
+      {
+        "id": "dr0kuq",
+        "narration": "Bruno’s tail was right there—why couldn’t he catch it?",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, cosy colourful living room, round yellow rug, soft warm light, rounded 3D family-film style, no text.",
+        "action": "Bruno turns in a circle after his own tail.",
+        "camera": "push-in",
+        "mood": "Playful curiosity, floppy ears lifted outward."
+      },
+      {
+        "id": "t2i9c0",
+        "narration": "Around he went, but his tail went too!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, yellow living-room rug beside a soft green armchair, warm sunlight, rounded 3D animation, no text.",
+        "action": "Bruno makes another small circle while Mishi watches from the armchair.",
+        "camera": "low-angle",
+        "mood": "Silly determination, Mishi’s bright green eyes following Bruno."
+      },
+      {
+        "id": "gqfzdm",
+        "narration": "[chuckles] That sneaky tail stayed one wiggle ahead.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, close view of Bruno on the yellow rug, cosy blurred furniture, warm 3D animation, no text.",
+        "action": "Bruno turns his head toward his tail.",
+        "camera": "static",
+        "mood": "Comic puzzlement, raised eyebrows and a tilted floppy ear."
+      },
+      {
+        "id": "fgpxxu",
+        "narration": "Mishi knew her friend needed a little pause.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, living-room rug beside the green armchair, soft golden light, rounded 3D animation, no text.",
+        "action": "Mishi steps onto the rug beside Bruno.",
+        "camera": "pan-left",
+        "mood": "Gentle concern, friendly faces and relaxed ears."
+      },
+      {
+        "id": "ge7it7",
+        "narration": "She showed him one slow, careful step.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, yellow rug at paw level, colourful cushions behind, warm 3D family-film style, no text.",
+        "action": "Mishi takes one deliberate step in front of the stationary Bruno.",
+        "camera": "static",
+        "mood": "Quiet concentration, Bruno watching Mishi’s paw."
+      },
+      {
+        "id": "oobjmj",
+        "narration": "[whispers] Then Mishi settled down, without any hurry.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, sunlit living-room rug, soft green armchair behind, rounded 3D animation, no text.",
+        "action": "Mishi slowly lowers herself into a seated position.",
+        "camera": "push-in",
+        "mood": "Peaceful patience, soft eyes and loose shoulders."
+      },
+      {
+        "id": "vw3tv4",
+        "narration": "Bruno decided to try her quiet way.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, yellow rug beside an open garden doorway, warm 3D animation, no text.",
+        "action": "Bruno sits beside Mishi.",
+        "camera": "pull-out",
+        "mood": "Trusting friendship, matching relaxed poses."
+      },
+      {
+        "id": "eg0853",
+        "narration": "His tail curled right beside his paws.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, close view of seated Bruno’s paws on the yellow rug, soft warm lighting, rounded 3D animation, no text.",
+        "action": "Bruno’s tail relaxes into view beside his front paws.",
+        "camera": "static",
+        "mood": "A quiet discovery, Bruno’s eyes widening gently."
+      },
+      {
+        "id": "1yrscu",
+        "narration": "[surprised] Oh! There it was, without another chase.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, seated Bruno on the sunny yellow rug, cosy colourful room, rounded 3D animation, no text.",
+        "action": "Bruno gently touches his tail with one front paw.",
+        "camera": "push-in",
+        "mood": "Delighted surprise, bright eyes and a happy open smile."
+      },
+      {
+        "id": "sq8g3m",
+        "narration": "Bruno thanked Mishi with a happy little nuzzle.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, two friends seated beside the garden doorway, warm golden light, rounded 3D family-film style, no text.",
+        "action": "Bruno nuzzles Mishi’s cheek.",
+        "camera": "orbit",
+        "mood": "Affectionate delight, Mishi’s eyes softly closed."
+      },
+      {
+        "id": "5rfzt5",
+        "narration": "Outside, a little ball began rolling down the garden slope.",
+        "characters": [],
+        "scene": "Vertical 9:16, sunny enclosed garden, gently sloping lawn, flower beds and a plain red ball, rounded 3D animation, no text.",
+        "action": "The red ball rolls slowly down the grassy slope.",
+        "camera": "pan-right",
+        "mood": "Inviting curiosity, bright flowers and soft sunshine."
+      },
+      {
+        "id": "h1j8qs",
+        "narration": "[excited] Be patient—next, where will that rolling ball lead?",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, open doorway overlooking the enclosed sunny garden, red ball visible on the lawn, warm 3D animation, no text.",
+        "action": "Mishi points one paw toward the garden ball.",
+        "camera": "pull-out",
+        "mood": "Eager anticipation, Bruno sitting attentively beside his best friend."
+      }
+    ],
+    "endHook": "Where will that rolling garden ball lead them?",
+    "createdAt": "2026-11-12T20:13:06.972Z",
+    "description": "Bruno’s tail is always one wiggle ahead! Mishi helps her best friend slow down and discover what a little patience can do.",
+    "tags": [
+      "Mishi and Bruno",
+      "kids cartoon",
+      "patience",
+      "friendship",
+      "kitten",
+      "puppy",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "number": 2,
+  "topic": "A hot summer afternoon: they put a bowl of water on the rooftop for thirsty birds.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:11:34.396Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Mano aur Sheru: Chhat Par Thanda Pani",
+    "shots": [
+      {
+        "id": "0pyfc8",
+        "narration": "اتنی گرمی، پرندے پانی کہاں سے پئیں گے؟",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani rooftop in a rounded 3D family animation style, bright summer sunlight, empty shallow bowl, no text.",
+        "action": "Mano peers into the empty bowl.",
+        "camera": "push-in",
+        "mood": "Curious blue eyes, drooping ears, warm golden light."
+      },
+      {
+        "id": "bn6lzx",
+        "narration": "مانو نے شیرو کو خالی پیالہ دکھایا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Pakistani rooftop beside a pastel parapet, empty shallow bowl between the two friends, vertical 9:16, no text.",
+        "action": "Mano points one paw at the empty bowl.",
+        "camera": "static",
+        "mood": "Mano looks concerned; Sheru watches attentively."
+      },
+      {
+        "id": "vosnh5",
+        "narration": "[excited] شیرو فوراً پانی کا چھوٹا جگ لے آیا۔",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Rooftop stair entrance with colourful walls and soft rounded edges, vertical 9:16, no text.",
+        "action": "Sheru carries a small water jug by its handle.",
+        "camera": "pan-right",
+        "mood": "Eager expression, upright ears, cheerful summer colours."
+      },
+      {
+        "id": "pfy2o5",
+        "narration": "مانو نے پیالہ ایک اینٹ پر رکھ دیا۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Sunlit rooftop, one uneven brick beside a shallow bowl and small water jug, vertical 9:16, no text.",
+        "action": "Mano places the empty bowl on the uneven brick.",
+        "camera": "low-angle",
+        "mood": "Proud little smile, visibly tilted bowl."
+      },
+      {
+        "id": "yd1eqp",
+        "narration": "اب مانو نے پیالے میں پانی ڈالا۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Close view of the shallow bowl balanced unevenly on a brick, rooftop floor below, vertical 9:16, no text.",
+        "action": "Mano pours water from the small jug into the bowl.",
+        "camera": "push-in",
+        "mood": "Careful concentration, sparkling water in warm light."
+      },
+      {
+        "id": "9o8omy",
+        "narration": "[surprised] ارے، پیالہ ٹیڑھا تھا، پانی بہنے لگا!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Rooftop floor beside the uneven brick, tilted bowl with water reaching its lower rim, vertical 9:16, no text.",
+        "action": "Water spills over the bowl's lower edge.",
+        "camera": "static",
+        "mood": "Wide-eyed surprise, small harmless puddle."
+      },
+      {
+        "id": "ztov1e",
+        "narration": "شیرو کو سایے میں ہموار جگہ نظر آئی۔",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Flat rooftop floor beneath the broad shadow of a rooftop awning, pastel parapet nearby, vertical 9:16, no text.",
+        "action": "Sheru points a paw toward the shaded floor.",
+        "camera": "pan-left",
+        "mood": "Confident smile, cool soft shade contrasting with sunlight."
+      },
+      {
+        "id": "yyv6rt",
+        "narration": "مانو نے پیالہ سایے میں رکھ دیا۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Level rooftop floor in the awning's shade, open space around the shallow bowl, vertical 9:16, no text.",
+        "action": "Mano sets the bowl directly on the flat floor.",
+        "camera": "low-angle",
+        "mood": "Focused expression, bowl resting securely."
+      },
+      {
+        "id": "4j4sop",
+        "narration": "[giggles] اب پیالہ ہل بھی نہیں رہا تھا!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Shaded rooftop corner with the bowl level on smooth flooring, vertical 9:16, no text.",
+        "action": "Mano gently tests the bowl with one paw.",
+        "camera": "push-in",
+        "mood": "Playful smile, Sheru's relaxed attentive face."
+      },
+      {
+        "id": "azc46x",
+        "narration": "شیرو نے پیالے میں صاف پانی بھر دیا۔",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Stable shallow bowl on a shaded Pakistani rooftop, small water jug above it, vertical 9:16, no text.",
+        "action": "Sheru pours clean water into the bowl.",
+        "camera": "static",
+        "mood": "Gentle concentration, clear water with soft reflections."
+      },
+      {
+        "id": "ydru0b",
+        "narration": "دونوں دور بیٹھ گئے، تاکہ پرندے آرام سے آئیں۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Wide vertical rooftop view, filled bowl in shaded foreground, friends well away beside the stair entrance, no other creatures, no text.",
+        "action": "Mano and Sheru settle down together away from the bowl.",
+        "camera": "pull-out",
+        "mood": "Patient smiles, welcoming open space around the water."
+      },
+      {
+        "id": "54kjwz",
+        "narration": "[excited] پیاسوں کے لیے پانی رکھیں، کل دیکھیں کون مہمان آئے گا!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Sparkling full water bowl in rooftop shade, Mano and Sheru seated far behind it, colourful mohalla rooftops beyond, vertical 9:16, no text.",
+        "action": "Mano and Sheru turn their faces toward the open sky.",
+        "camera": "push-in",
+        "mood": "Hopeful bright eyes, peaceful anticipation, soft summer glow."
+      }
+    ],
+    "endHook": "کل پانی پینے کون سا ننھا مہمان آئے گا؟",
+    "createdAt": "2026-11-12T20:11:34.394Z",
+    "description": "گرمی کی دوپہر میں مانو اور شیرو پرندوں کے لیے چھت پر پانی رکھتے ہیں۔ ایک چھوٹی سی گڑبڑ کے بعد دونوں مل کر پیالے کے لیے اچھی جگہ ڈھونڈ لیتے ہیں۔",
+    "tags": [
+      "Mano aur Sheru",
+      "Urdu cartoon",
+      "kids shorts",
+      "kindness",
+      "summer",
+      "Pakistani animation"
+    ]
+  }
+}

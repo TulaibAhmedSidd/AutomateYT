@@ -1,0 +1,133 @@
+{
+  "number": 12,
+  "topic": "What if dinosaurs never went extinct? Scientists think mammals, and maybe humans, might never have become dominant.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:21:08.885Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If Dinosaurs Never Went Extinct?",
+    "shots": [
+      {
+        "id": "rjo92i",
+        "narration": "What if dinosaurs never went extinct?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D animated laboratory, vertical frame, glowing dinosaur hologram above a round projector, no text.",
+        "action": "nova presents the towering dinosaur hologram to byte.",
+        "camera": "push-in",
+        "mood": "Bright turquoise glow, wide-eyed curiosity."
+      },
+      {
+        "id": "knhk54",
+        "narration": "An asteroid impact helped drive non-bird dinosaurs to extinction.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful laboratory with a holographic prehistoric Earth and an approaching asteroid, no text.",
+        "action": "nova traces the asteroid's path toward the holographic Earth.",
+        "camera": "orbit",
+        "mood": "Dramatic violet lighting, thoughtful scientific discovery."
+      },
+      {
+        "id": "htbw35",
+        "narration": "[excited] Afterward, mammals diversified into many newly available ecological roles.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Laboratory hologram showing a lush forest with small climbing, burrowing and grazing mammals, no text.",
+        "action": "nova expands the hologram into a varied mammal-filled landscape.",
+        "camera": "pan-right",
+        "mood": "Warm green light, lively discovery."
+      },
+      {
+        "id": "r76abm",
+        "narration": "Scientists think surviving dinosaurs might have kept dominating land ecosystems.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful laboratory with a hypothetical holographic landscape of large dinosaurs and small mammals, no text.",
+        "action": "nova replaces the mammal-filled landscape with the dinosaur-filled alternative.",
+        "camera": "pull-out",
+        "mood": "Sunlit greens, immense scale, curious possibility."
+      },
+      {
+        "id": "pmx29h",
+        "narration": "Scientists think mammals might have faced stronger competition for resources.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Laboratory hologram close-up of a small mammal beside a plant-eating dinosaur beneath fruiting vegetation, no text.",
+        "action": "The holographic dinosaur eats foliage above the small mammal.",
+        "camera": "low-angle",
+        "mood": "Gentle daylight, peaceful but crowded habitat."
+      },
+      {
+        "id": "peat0e",
+        "narration": "[whispers] Scientists think mammals might never have become dominant.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Laboratory with a tall holographic forest, large dinosaurs in clearings and tiny mammals beneath roots, no text.",
+        "action": "nova magnifies a tiny mammal's sheltered corner of the hologram.",
+        "camera": "push-in",
+        "mood": "Soft amber glow, intimate scientific curiosity."
+      },
+      {
+        "id": "0fjtxk",
+        "narration": "Scientists think humans might never have become dominant either.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful laboratory with a holographic dinosaur landscape and a separate translucent modern city model, no text.",
+        "action": "nova fades the hypothetical city model away.",
+        "camera": "static",
+        "mood": "Reflective blue lighting, open-ended wonder."
+      },
+      {
+        "id": "r960hp",
+        "narration": "Evolution follows changing environments, not a plan to produce humans.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Laboratory hologram resembling a branching tree with animal silhouettes at different branch tips, no text.",
+        "action": "nova spreads the holographic branches outward in many directions.",
+        "camera": "pan-left",
+        "mood": "Colourful glowing branches, expansive possibility."
+      },
+      {
+        "id": "zg1j2r",
+        "narration": "[surprised] Birds are dinosaurs—what if humans could fly?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Bright 3D laboratory with a feathered dinosaur hologram beside a modern bird hologram, no text.",
+        "action": "The holographic bird spreads its wings above nova and byte.",
+        "camera": "pull-out",
+        "mood": "Golden light, joyful revelation and anticipation."
+      }
+    ],
+    "endHook": "What if humans could fly?",
+    "createdAt": "2026-11-12T20:21:08.883Z",
+    "description": "Dr. Nova shows Byte a world where non-bird dinosaurs survived. Explore why scientists think mammals—and perhaps humans—might never have become dominant, plus the dinosaurs still living today.",
+    "tags": [
+      "What If Lab",
+      "dinosaurs",
+      "evolution",
+      "science",
+      "mammals",
+      "birds",
+      "YouTube Shorts"
+    ]
+  }
+}

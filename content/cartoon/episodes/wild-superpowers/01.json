@@ -1,0 +1,120 @@
+{
+  "number": 1,
+  "topic": "Octopus: has three hearts and blue blood, and can change both colour and skin texture in an instant to hide.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:21:31.811Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Wild Superpowers: The Octopus That Vanishes!",
+    "shots": [
+      {
+        "id": "6u4xlf",
+        "narration": "Did you know an octopus can hide before your eyes?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated shallow ocean reef, viewed through a spacious underwater observation dome; Kiko and Pip inside, an octopus outside.",
+        "action": "The octopus changes from reddish orange to the sandy colour beneath it.",
+        "camera": "push-in",
+        "mood": "Sunny turquoise water, sparkling light, startling discovery; no text."
+      },
+      {
+        "id": "jy98ib",
+        "narration": "Kiko spots an octopus beside a bumpy rock.",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Inside the clear observation dome, Kiko's green safari hat and pocketed khaki vest frame a view of the reef.",
+        "action": "Kiko raises his big binoculars toward the octopus outside.",
+        "camera": "low-angle",
+        "mood": "Bright underwater light, eager curiosity, cute true-to-life animal design; no te"
+      },
+      {
+        "id": "kjz6vs",
+        "narration": "[surprised] Wait! Where did it go?",
+        "characters": [],
+        "scene": "Close view of the octopus beside a pale, knobbly reef rock in clear turquoise water.",
+        "action": "The octopus instantly matches the rock's colour and bumpy texture.",
+        "camera": "static",
+        "mood": "Playful mystery, natural camouflage, soft sunbeams; no text."
+      },
+      {
+        "id": "3rs6oj",
+        "narration": "Its hiding trick has Kiko completely puzzled.",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Inside the observation dome, the camouflaged octopus remains visible as a subtle outline against the rock outside.",
+        "action": "Kiko leans close to the glass with wide, searching eyes.",
+        "camera": "pan-right",
+        "mood": "Gentle comic confusion, bright ocean colours; no text."
+      },
+      {
+        "id": "sq54hl",
+        "narration": "Pip notices an arm curled against the rock.",
+        "characters": [
+          "pip"
+        ],
+        "scene": "Inside the clear dome, emerald-green Pip faces the reef; a curled octopus arm is discernible outside.",
+        "action": "Pip points one tiny wing toward the curled arm.",
+        "camera": "push-in",
+        "mood": "Delighted discovery, ruby throat catching sunlight; no text."
+      },
+      {
+        "id": "e96n9y",
+        "narration": "[excited] It changes colour and skin texture in an instant!",
+        "characters": [],
+        "scene": "Close underwater view of the octopus on the same pale, bumpy rock, bright natural 3D nature-film styling.",
+        "action": "The octopus instantly shifts from pale and bumpy to reddish and smooth.",
+        "camera": "orbit",
+        "mood": "Wonderful reveal, clear skin detail, sunny ocean glow; no text."
+      },
+      {
+        "id": "r72cep",
+        "narration": "And this amazing animal has three hearts.",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Clear dome foreground with Kiko watching the now-visible octopus resting peacefully on the reef outside.",
+        "action": "Kiko holds up three fingers beside the glass.",
+        "camera": "pull-out",
+        "mood": "Warm amazement, friendly educational discovery; no text."
+      },
+      {
+        "id": "vsfkay",
+        "narration": "Its blood is blue, too!",
+        "characters": [],
+        "scene": "Sunlit close-up of the healthy reddish octopus on the reef, with its natural outer skin fully intact.",
+        "action": "The octopus gently uncurls one arm.",
+        "camera": "pan-left",
+        "mood": "Calm wonder, cute but true-to-life details, turquoise water; no text."
+      },
+      {
+        "id": "2k0vyb",
+        "narration": "[whispers] Guess our next animal: whose superpower lights up the dark?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Inside the observation dome overlooking a shaded reef crevice; the octopus rests on its rock outside.",
+        "action": "Kiko points toward the mysterious dark crevice.",
+        "camera": "push-in",
+        "mood": "Inviting mystery, gentle blue shadows, warm sunlit foreground; no text."
+      }
+    ],
+    "endHook": "Guess our next animal: whose superpower lights up the dark?",
+    "createdAt": "2026-11-12T20:21:31.810Z",
+    "description": "Kiko and Pip discover an octopus hiding in plain sight! Explore its instant colour and skin-texture changes, three hearts, and blue blood.",
+    "tags": [
+      "Wild Superpowers",
+      "octopus",
+      "ocean animals",
+      "animal facts",
+      "camouflage",
+      "kids science",
+      "3D animation"
+    ]
+  }
+}

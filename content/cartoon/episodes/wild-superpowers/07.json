@@ -1,0 +1,127 @@
+{
+  "number": 7,
+  "topic": "Hummingbird: the only bird that can fly backwards; its heart can beat over 1,000 times a minute.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:22:09.896Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Wild Superpowers: Pip Flies Backwards!",
+    "shots": [
+      {
+        "id": "hckvrv",
+        "narration": "Did you know one bird has a backwards flying superpower?",
+        "characters": [
+          "pip"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated tropical garden, emerald leaves framing a tiny hummingbird with a ruby-red throat, no text.",
+        "action": "pip hovers between two sunlit flowers.",
+        "camera": "push-in",
+        "mood": "Sunny wonder, sparkling feather highlights."
+      },
+      {
+        "id": "ofiv7t",
+        "narration": "Meet Pip, our tiny hummingbird explorer!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny tropical garden path, brown-skinned boy wearing a green safari hat, binoculars and a pocketed khaki vest beside an emerald hummingbird.",
+        "action": "kiko waves to pip.",
+        "camera": "pan-right",
+        "mood": "Friendly excitement, warm natural colours."
+      },
+      {
+        "id": "vjlcdc",
+        "narration": "[surprised] That flower is behind him, with little room to turn!",
+        "characters": [
+          "pip"
+        ],
+        "scene": "Vertical 9:16, side view of a leafy garden alcove, pip facing the opening with a pink flower directly behind his tail.",
+        "action": "pip hovers in the narrow gap between soft leaves.",
+        "camera": "static",
+        "mood": "Gentle puzzlement, bright and safe."
+      },
+      {
+        "id": "fy8m89",
+        "narration": "No turning needed: Pip simply flies backwards!",
+        "characters": [
+          "pip"
+        ],
+        "scene": "Vertical 9:16, clear side view of the same leafy alcove and pink flower behind pip.",
+        "action": "pip flies tail-first toward the flower without turning.",
+        "camera": "static",
+        "mood": "Magical discovery grounded in natural movement."
+      },
+      {
+        "id": "jmsld1",
+        "narration": "Hummingbirds are the only birds that can fly backwards.",
+        "characters": [
+          "pip"
+        ],
+        "scene": "Vertical 9:16, open space beside the leafy alcove, sunlit pink blossoms and soft green jungle background.",
+        "action": "pip flies backwards out into the open garden.",
+        "camera": "pan-left",
+        "mood": "Triumphant, clear view of shimmering emerald feathers."
+      },
+      {
+        "id": "yxeqlc",
+        "narration": "[excited] Its heart can beat over 1,000 times a minute!",
+        "characters": [
+          "pip"
+        ],
+        "scene": "Vertical 9:16, natural close-up of pip beside a pink blossom, ruby-red throat and feathered chest visible, no diagrams or symbols.",
+        "action": "pip hovers steadily beside the blossom.",
+        "camera": "push-in",
+        "mood": "Astonishing energy, golden sunlight."
+      },
+      {
+        "id": "ndmv0b",
+        "narration": "Such a tiny bird, such extraordinary superpowers!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, garden clearing, kiko beside hovering pip, lush leaves softly blurred behind them.",
+        "action": "kiko raises his binoculars to watch pip.",
+        "camera": "low-angle",
+        "mood": "Wide-eyed admiration, playful discovery."
+      },
+      {
+        "id": "r47rhh",
+        "narration": "That tricky little space was no problem for Pip!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny garden beside the leafy alcove, pip hovering freely near kiko.",
+        "action": "kiko gives pip a thumbs-up.",
+        "camera": "pull-out",
+        "mood": "Warm celebration, bright flowers and relaxed smiles."
+      },
+      {
+        "id": "rsvabq",
+        "narration": "[excited] Which animal's real superpower comes next? Make your guess!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, tropical garden path winding toward distant green mountains, kiko and pip facing the viewer, no text.",
+        "action": "kiko extends an open palm toward the viewer.",
+        "camera": "push-in",
+        "mood": "Inviting curiosity, sunny promise of another adventure."
+      }
+    ],
+    "endHook": "Which animal’s real superpower will we discover next? Make your guess!",
+    "createdAt": "2026-11-12T20:22:09.895Z",
+    "description": "Kiko discovers Pip’s amazing hummingbird superpowers when a flower is tricky to reach. Hummingbirds are the only birds that can fly backwards, and their hearts can beat over 1,000 times a minute!",
+    "tags": [
+      "Wild Superpowers",
+      "hummingbird",
+      "animal facts",
+      "kids nature",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

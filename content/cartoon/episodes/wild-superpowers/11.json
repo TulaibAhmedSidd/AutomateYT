@@ -1,0 +1,119 @@
+{
+  "number": 11,
+  "topic": "Markhor: Pakistan's national animal, a wild goat with long spiral horns that climbs steep cliffs with ease.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:22:21.097Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Wild Superpowers: Markhor, the Cliff-Climbing Goat!",
+    "shots": [
+      {
+        "id": "vftc5y",
+        "narration": "Did you know this wild goat climbs amazingly steep cliffs?",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D animated mountain landscape; a cute, realistic markhor stands on a steep rocky slope beneath sunny skies; no text.",
+        "action": "The markhor steps onto a higher rocky ledge.",
+        "camera": "low-angle",
+        "mood": "Sunlit rock faces, thrilling height, gentle adventure."
+      },
+      {
+        "id": "epra0x",
+        "narration": "Kiko and Pip have found a markhor!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny mountain valley in bright natural colours; Kiko wears his green safari hat and pocketed khaki vest, with emerald-green, ruby-throated Pip beside him; a markhor stands uphill.",
+        "action": "Kiko raises his big binoculars toward the markhor.",
+        "camera": "push-in",
+        "mood": "Wide curious eyes, warm sunshine, exciting discovery."
+      },
+      {
+        "id": "hjvjl9",
+        "narration": "[surprised] But how will it climb that steep slope?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, safe level valley floor beneath a steep mountain slope; Kiko and Pip remain far from the cliff edge; the markhor stands at the slope's base.",
+        "action": "Kiko points up the steep rock face.",
+        "camera": "pan-right",
+        "mood": "Raised eyebrows, towering rocks, curious suspense."
+      },
+      {
+        "id": "n0fzpc",
+        "narration": "Meet Pakistan's national animal!",
+        "characters": [],
+        "scene": "Vertical 9:16, realistic cute markhor on a mountain ledge, rugged peaks behind it, bright 3D animated nature-film look; no text or symbols.",
+        "action": "The markhor turns its head toward the valley.",
+        "camera": "push-in",
+        "mood": "Proud stance, golden sunshine, magnificent mountain scenery."
+      },
+      {
+        "id": "e1svai",
+        "narration": "Look at those long spiral horns!",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of the markhor's face and long corkscrew-shaped horns against a clear blue mountain sky, realistic anatomy and soft 3D fur.",
+        "action": "The markhor tilts its head slightly.",
+        "camera": "orbit",
+        "mood": "Sparkling daylight, striking horn silhouettes, quiet wonder."
+      },
+      {
+        "id": "i3315q",
+        "narration": "[excited] Its real superpower? Climbing steep cliffs with ease!",
+        "characters": [],
+        "scene": "Vertical 9:16, steep rocky mountainside with natural ledges; the same markhor appears in full body, with the valley visible below.",
+        "action": "The markhor climbs a sequence of rocky footholds.",
+        "camera": "pan-left",
+        "mood": "Confident movement, bright sunshine, exciting upward progress."
+      },
+      {
+        "id": "v6x9gi",
+        "narration": "That rocky route is no problem for this mountain climber.",
+        "characters": [],
+        "scene": "Vertical 9:16, upper mountain ledge above the steep route, sparse alpine grass and sunlit stone, bright naturalistic 3D animation.",
+        "action": "The markhor steps onto the broad upper ledge.",
+        "camera": "pull-out",
+        "mood": "Open sky, relaxed posture, triumphant arrival."
+      },
+      {
+        "id": "j02jhu",
+        "narration": "Kiko stays safely below, enjoying the incredible view.",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, wide level valley floor; Kiko and Pip face the distant markhor on its high ledge, surrounded by sunny mountain scenery.",
+        "action": "Kiko watches the markhor through his binoculars.",
+        "camera": "static",
+        "mood": "Delighted smile, peaceful distance, satisfying discovery."
+      },
+      {
+        "id": "8o8phr",
+        "narration": "[whispers] Another wild superpower awaits. Can you guess our next animal?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, Kiko and Pip on a safe mountain valley trail leading toward a bend, bright 3D foliage and distant sunny peaks; no other animals or text.",
+        "action": "Kiko points toward the trail's hidden bend.",
+        "camera": "pull-out",
+        "mood": "Playful anticipation, inviting trail, sunny adventure ahead."
+      }
+    ],
+    "endHook": "Which animal's wild superpower will Kiko and Pip discover next?",
+    "createdAt": "2026-11-12T20:22:21.096Z",
+    "description": "Discover the markhor, Pakistan's national animal, with Kiko and Pip! This wild goat has long spiral horns and an amazing talent for climbing steep cliffs.",
+    "tags": [
+      "Wild Superpowers",
+      "markhor",
+      "Pakistan",
+      "wildlife",
+      "animal facts",
+      "kids",
+      "3D animation",
+      "Shorts"
+    ]
+  }
+}

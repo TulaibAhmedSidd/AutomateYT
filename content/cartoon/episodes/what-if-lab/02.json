@@ -1,0 +1,132 @@
+{
+  "number": 2,
+  "topic": "What if Earth suddenly stopped spinning? Everything not fixed down would keep moving east at the speed of Earth's spin, which is about 1,670 km/h at the equator, and a day would last a whole year.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:20:11.837Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If Earth Suddenly Stopped Spinning?",
+    "shots": [
+      {
+        "id": "7p5zpv",
+        "narration": "What if Earth suddenly stopped spinning—but everything else kept moving?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, vertical frame, glowing Earth hologram between Nova and Byte, no text or symbols.",
+        "action": "Nova presents a spinning Earth hologram to Byte.",
+        "camera": "push-in",
+        "mood": "Bright cyan lighting, wide-eyed curiosity, vivid planetary colours."
+      },
+      {
+        "id": "can31g",
+        "narration": "Imagine Earth's rotation stopping while its journey around the Sun continues.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Vertical lab view with a large Sun and Earth orbital hologram, Earth's continents clearly visible, no text.",
+        "action": "Nova freezes the holographic Earth's rotation along its continuing orbital path.",
+        "camera": "orbit",
+        "mood": "Glowing gold sunlight, crisp blue planet, curious scientific wonder."
+      },
+      {
+        "id": "9lvn0d",
+        "narration": "[surprised] Loose objects keep moving east, carried by their original momentum.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram enlarged into an unoccupied equatorial landscape with loose colourful balls above solid ground, no text.",
+        "action": "The loose balls streak eastward over the stopped landscape.",
+        "camera": "pan-right",
+        "mood": "Bright motion trails, playful demonstration, startling contrast."
+      },
+      {
+        "id": "l2un51",
+        "narration": "At the equator, that's about 1,670 km/h!",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with an Earth hologram featuring a luminous equatorial band and a tiny unmarked loose sphere, no text.",
+        "action": "The loose sphere races eastward along the holographic equator.",
+        "camera": "push-in",
+        "mood": "Electric blue glow, vivid speed trails, astonished robot eyes."
+      },
+      {
+        "id": "vtzcr6",
+        "narration": "The atmosphere keeps moving too, creating powerful winds.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Vertical cutaway Earth hologram in the lab, solid continents beneath a translucent atmosphere, no text.",
+        "action": "Bright atmospheric ribbons sweep eastward over the stationary surface.",
+        "camera": "orbit",
+        "mood": "Swirling turquoise light, dramatic but clean educational imagery."
+      },
+      {
+        "id": "zusqpc",
+        "narration": "[excited] Oceans also surge onward, sweeping across coastlines.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Contained tabletop hologram of blue ocean beside an empty rocky coastline, Nova and Byte behind it, no buildings or text.",
+        "action": "Holographic ocean water surges over the empty coastline.",
+        "camera": "low-angle",
+        "mood": "Luminous blue water, impressive scale, safe laboratory demonstration."
+      },
+      {
+        "id": "sp8eo4",
+        "narration": "But Earth would still travel around the Sun.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a tall solar-system hologram, Earth maintaining a fixed orientation beside a glowing Sun, no text.",
+        "action": "Nova traces Earth's continuing orbital path with her finger.",
+        "camera": "pull-out",
+        "mood": "Warm gold and deep blue, calm discovery after the motion."
+      },
+      {
+        "id": "gd72as",
+        "narration": "Without spinning, sunlight creeps around Earth as it orbits.",
+        "characters": [
+          "byte"
+        ],
+        "scene": "Close vertical view of a nonrotating Earth hologram beside the Sun, Byte hovering at the edge, no text.",
+        "action": "The daylight boundary gradually crosses Earth's surface during its orbit.",
+        "camera": "static",
+        "mood": "Gentle golden illumination, deep violet night, quiet wonder."
+      },
+      {
+        "id": "zi5rdj",
+        "narration": "[surprised] One day lasts a year—what if Earth stopped orbiting?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Vertical science lab with a glowing Sun and Earth hologram on a luminous orbital ring, no text.",
+        "action": "Nova lifts the orbital ring away from the Earth hologram.",
+        "camera": "push-in",
+        "mood": "Bright golden glow, intrigued expressions, inviting scientific mystery."
+      }
+    ],
+    "endHook": "What if Earth stopped orbiting the Sun?",
+    "createdAt": "2026-11-12T20:20:11.836Z",
+    "description": "Dr. Nova shows Byte why stopping Earth would not stop everything on it. Explore eastward momentum, rushing oceans, and a day that lasts a whole year.",
+    "tags": [
+      "What If Lab",
+      "Earth",
+      "science",
+      "space",
+      "animation",
+      "momentum",
+      "YouTube Shorts"
+    ]
+  }
+}

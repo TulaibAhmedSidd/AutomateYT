@@ -1,0 +1,163 @@
+{
+  "number": 15,
+  "topic": "Best Friends Day: Mishi and Bruno remember all their favourite adventures.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:14:41.341Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi & Bruno: A Box Full of Friendship",
+    "shots": [
+      {
+        "id": "4jmnp1",
+        "narration": "How can all their adventures fit inside one tiny box?",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated living room with rounded furniture. An open little box overflows with a ball, pinwheel and dry leaf boat. No text.",
+        "action": "Bruno tilts the overflowing box toward Mishi.",
+        "camera": "push-in",
+        "mood": "Sunny colours, curious wide eyes, playful anticipation."
+      },
+      {
+        "id": "mlhpwp",
+        "narration": "On Best Friends Day, Mishi had a lovely idea.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Cosy colourful living room, soft warm lighting, vertical 9:16. The open memory box rests between the fluffy grey kitten and golden-brown puppy.",
+        "action": "Mishi gently pats the little memory box.",
+        "camera": "static",
+        "mood": "Affectionate smiles, welcoming golden light."
+      },
+      {
+        "id": "5nz6ho",
+        "narration": "[chuckles] Bruno remembered their bouncy ball adventure.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Warm 3D living room, vertical 9:16. Rounded sofa cushions form a small mound beside the memory box.",
+        "action": "Bruno lifts the colourful ball above the box.",
+        "camera": "low-angle",
+        "mood": "Delighted puppy grin, bright playful colours."
+      },
+      {
+        "id": "z3ss7x",
+        "narration": "Mishi remembered their pinwheel spinning in the garden breeze.",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Vertical 9:16 beside an open garden doorway, sunny flowers outside, soft 3D family-film lighting.",
+        "action": "Mishi holds the pinwheel in the gentle breeze.",
+        "camera": "push-in",
+        "mood": "Peaceful wonder, colourful spinning blades, sparkling green eyes."
+      },
+      {
+        "id": "p95y12",
+        "narration": "Their little leaf boat had sailed across a puddle.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Cosy living room floor beside the garden doorway, vertical 9:16. The dry leaf boat rests near the open box.",
+        "action": "Mishi lifts the leaf boat on one careful paw.",
+        "camera": "pan-right",
+        "mood": "Tender smiles, soft sunlight, treasured little discovery."
+      },
+      {
+        "id": "tpxwom",
+        "narration": "[surprised] But their favourite memories simply wouldn't fit!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16 close view of the full memory box on the rounded living room rug. The ball keeps its lid raised.",
+        "action": "Bruno gently presses the lid against the protruding ball.",
+        "camera": "static",
+        "mood": "Comically puzzled faces, gentle frustration, warm colours."
+      },
+      {
+        "id": "oyslcu",
+        "narration": "Mishi knew their memories needed somewhere bigger.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny living room with clear floor space beside the memory box, vertical 9:16, soft rounded 3D shapes.",
+        "action": "Mishi spreads a colourful picnic blanket across the floor.",
+        "camera": "pull-out",
+        "mood": "Brightening expressions, cosy fabric, hopeful warmth."
+      },
+      {
+        "id": "1tbbra",
+        "narration": "Bruno added their ball to the memory picnic.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Vertical 9:16 view of the colourful blanket in the sunlit living room, with the open box beside it.",
+        "action": "Bruno places the ball on the blanket.",
+        "camera": "pan-left",
+        "mood": "Proud puppy smile, cheerful colours, soft sunlight."
+      },
+      {
+        "id": "ihxjns",
+        "narration": "[giggles] Mishi found a perfect spot for their tiny boat.",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Warm 3D living room, vertical 9:16. The ball rests on one corner of the colourful blanket.",
+        "action": "Mishi places the leaf boat beside the ball.",
+        "camera": "push-in",
+        "mood": "Careful paws, delighted green eyes, cosy golden glow."
+      },
+      {
+        "id": "r6clcc",
+        "narration": "Their pinwheel made the collection complete.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, colourful blanket displaying the ball and leaf boat, softly lit rounded furniture behind.",
+        "action": "Bruno lays the pinwheel beside the leaf boat.",
+        "camera": "static",
+        "mood": "Satisfied smile, rich colours, gentle celebration."
+      },
+      {
+        "id": "lge677",
+        "narration": "Their favourite part of every adventure was being together.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Wide vertical 9:16 living room composition. The three keepsakes sit clearly displayed on the blanket beside the friends.",
+        "action": "Mishi and Bruno snuggle shoulder to shoulder on the blanket.",
+        "camera": "pull-out",
+        "mood": "Affectionate smiles, peaceful friendship, soft amber sunlight."
+      },
+      {
+        "id": "o2lab6",
+        "narration": "[excited] Share happy memories; tomorrow, let's plant something together!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16 beside the sunny garden doorway. The memory picnic fills the foreground; an empty flowerpot and small watering can sit outside.",
+        "action": "Mishi points toward the empty flowerpot.",
+        "camera": "pan-right",
+        "mood": "Hopeful smiles, inviting garden colours, warm anticipation."
+      }
+    ],
+    "endHook": "Tomorrow, Mishi and Bruno plant something together!",
+    "createdAt": "2026-11-12T20:14:41.340Z",
+    "description": "For Best Friends Day, Mishi and Bruno collect reminders of their favourite adventures. When their little memory box won't close, they discover a cosy way to celebrate together.",
+    "tags": [
+      "Mishi & Bruno",
+      "Best Friends Day",
+      "friendship",
+      "kids animation",
+      "memories",
+      "YouTube Shorts"
+    ]
+  }
+}

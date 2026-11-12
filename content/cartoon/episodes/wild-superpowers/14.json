@@ -1,0 +1,118 @@
+{
+  "number": 14,
+  "topic": "Platypus: a mammal that lays eggs and can sense tiny electric signals from prey with its bill.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:22:42.588Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Platypus: The Electric-Sensing Egg Layer!",
+    "shots": [
+      {
+        "id": "ovm2cn",
+        "narration": "Did you know this bill can sense tiny electric signals?",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D animated Australian creek, close view of a cute, realistic platypus at the water's surface, no text.",
+        "action": "The platypus dips its broad bill underwater.",
+        "camera": "push-in",
+        "mood": "Sunny water sparkles around an intriguing close-up."
+      },
+      {
+        "id": "cczj8k",
+        "narration": "Meet the platypus, a mammal with an extraordinary superpower!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny creek bank with eucalyptus trees, Kiko in his green safari hat beside hovering emerald-green Pip, platypus in the creek.",
+        "action": "Kiko raises his big binoculars toward the platypus.",
+        "camera": "pull-out",
+        "mood": "Bright green foliage and eager exploration."
+      },
+      {
+        "id": "nio999",
+        "narration": "[surprised] But how can it find food in cloudy water?",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Vertical 9:16, creek-side view beside Kiko's khaki vest, brown silty water obscuring the creek bottom.",
+        "action": "Kiko peers into the cloudy creek.",
+        "camera": "low-angle",
+        "mood": "Puzzled curiosity beneath warm sunlight."
+      },
+      {
+        "id": "ctx5jc",
+        "narration": "Its bill senses tiny electric signals from prey.",
+        "characters": [],
+        "scene": "Vertical 9:16, realistic underwater creek close-up, platypus bill above a silty bottom, soft natural light, no glowing powers or graphics.",
+        "action": "The platypus sweeps its bill above the creek bed.",
+        "camera": "pan-right",
+        "mood": "Quiet concentration in softly clouded water."
+      },
+      {
+        "id": "ipxpt1",
+        "narration": "That helps it locate food hidden from sight.",
+        "characters": [],
+        "scene": "Vertical 9:16, underwater close-up of the same platypus over muddy sediment, no prey visible.",
+        "action": "The platypus presses its bill into the soft sediment.",
+        "camera": "static",
+        "mood": "A gentle discovery with drifting flecks of silt."
+      },
+      {
+        "id": "aaiwiw",
+        "narration": "[excited] Cloudy water is no match for that amazing bill!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny creek bank, Kiko beside Pip with the platypus visible near the surface behind them.",
+        "action": "Kiko gives an enthusiastic thumbs-up.",
+        "camera": "push-in",
+        "mood": "Delighted smiles and sparkling creek reflections."
+      },
+      {
+        "id": "j8b4md",
+        "narration": "And this mammal lays eggs!",
+        "characters": [],
+        "scene": "Vertical 9:16, naturalistic cutaway view inside a sheltered creek-bank nesting burrow, a female platypus curled beside small leathery eggs on dry plant bedding.",
+        "action": "The platypus gently curls around her eggs.",
+        "camera": "push-in",
+        "mood": "Cozy earth tones and soft, peaceful lighting."
+      },
+      {
+        "id": "d8rf7y",
+        "narration": "An egg-laying mammal with an electric-sensing bill: wonderfully unusual!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, wide sunny creek bank, Kiko and ruby-throated Pip watching the platypus swim below them.",
+        "action": "Kiko spreads his arms in amazement.",
+        "camera": "pull-out",
+        "mood": "Joyful wonder in a bright natural landscape."
+      },
+      {
+        "id": "px1eja",
+        "narration": "[whispers] Next, sticky toes! Can you guess which animal we're discovering?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, textured eucalyptus trunk beside the creek, Kiko and hovering Pip looking upward, no other animal visible.",
+        "action": "Kiko points up the tree trunk.",
+        "camera": "low-angle",
+        "mood": "Playful mystery beneath a sunlit leafy canopy."
+      }
+    ],
+    "endHook": "Which animal can climb using sticky toes? Guess our next discovery!",
+    "createdAt": "2026-11-12T20:22:42.586Z",
+    "description": "Kiko and Pip discover a platypus with an extraordinary bill! Explore how this egg-laying mammal senses tiny electric signals from prey, even in cloudy water.",
+    "tags": [
+      "Wild Superpowers",
+      "platypus",
+      "animal facts",
+      "nature for kids",
+      "egg-laying mammals"
+    ]
+  }
+}

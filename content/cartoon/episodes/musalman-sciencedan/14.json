@@ -1,0 +1,157 @@
+{
+  "number": 14,
+  "topic": "Ulugh Beg built a great observatory in Samarkand in the 1420s CE. His star catalogue listed about 1,000 stars and was among the most accurate of its time.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:16:20.665Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Ulugh Beg: Sitaron Ka Naqsha",
+    "shots": [
+      {
+        "id": "59ye5a",
+        "narration": "اتنے سارے ستارے، کوئی ان کا حساب کیسے رکھے؟",
+        "characters": [
+          "hamza"
+        ],
+        "scene": "Vertical 9:16, family-film 3D animation, rooftop beside a warmly lit library, dense starry sky, no text or symbols.",
+        "action": "Hamza sweeps his pointing finger across the crowded sky.",
+        "camera": "push-in",
+        "mood": "Wonder beneath a sparkling blue night sky."
+      },
+      {
+        "id": "4ob0su",
+        "narration": "حمزہ کو تو سب ستارے گڈمڈ لگ رہے تھے۔",
+        "characters": [
+          "hamza"
+        ],
+        "scene": "Vertical 9:16, rooftop with a brass railing, Hamza holding his small notebook with blank pages, no visible writing.",
+        "action": "Hamza tilts his head at the crowded sky.",
+        "camera": "static",
+        "mood": "Gentle puzzlement, warm light on round glasses."
+      },
+      {
+        "id": "j9jww9",
+        "narration": "[excited] نوری بولا، آؤ، اُلُغ بیگ کی رصدگاہ دیکھیں!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library doorway opening onto the rooftop, brass lantern-robot beside Hamza, no text.",
+        "action": "Noori projects a glowing miniature observatory into the air.",
+        "camera": "orbit",
+        "mood": "Inviting golden light and magical discovery."
+      },
+      {
+        "id": "f0e69f",
+        "narration": "اُلُغ بیگ نے سمرقند میں ایک شاندار رصدگاہ بنائی۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, Noori's historical projection of Ulugh Beg's great Samarkand observatory in the 1420s CE, respectful distant scholar seen from behind, no readable markings.",
+        "action": "Hamza points toward the projected observatory.",
+        "camera": "pull-out",
+        "mood": "Grand yet welcoming, sunlit stone and turquoise architectural details."
+      },
+      {
+        "id": "ej5om9",
+        "narration": "یہاں آسمان دیکھنے کے لیے بڑے آلات موجود تھے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, projected historical observatory interior, monumental stone observing arc descending into a deep trench, distant Ulugh Beg seen from behind, no writing or numerals.",
+        "action": "The distant scholar walks beside the enormous observing arc.",
+        "camera": "low-angle",
+        "mood": "Quiet awe, warm lamplight across carefully built stone."
+      },
+      {
+        "id": "4w2nko",
+        "narration": "[surprised] اتنا بڑا آلہ، حمزہ تو دیکھتا رہ گیا!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, Hamza and Noori at the foreground edge of the historical projection, immense stone observing arc beyond them, no text.",
+        "action": "Hamza tips his head upward along the towering instrument.",
+        "camera": "push-in",
+        "mood": "Friendly amazement with bright reflections in Hamza's glasses."
+      },
+      {
+        "id": "1i99b9",
+        "narration": "رصدگاہ کے آلات سے آسمان میں ستاروں کی جگہ ناپتے ہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, simplified educational projection linking a bright star overhead with the observatory's stone observing arc through one thin beam, distant scholar viewed from behind, no labels.",
+        "action": "A glowing sightline connects the observing instrument to the star.",
+        "camera": "static",
+        "mood": "Clear and focused, cool starlight against warm stone."
+      },
+      {
+        "id": "uitdyj",
+        "narration": "اُلُغ بیگ نے ستاروں کی جگہوں کی فہرست تیار کی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, distant rear view of Ulugh Beg at a wooden desk inside the projected observatory, manuscript page angled completely away from view, brass instruments nearby, no visible writing.",
+        "action": "The distant scholar writes on the hidden face of the manuscript.",
+        "camera": "pan-right",
+        "mood": "Patient concentration in soft amber lamplight."
+      },
+      {
+        "id": "ovsd9y",
+        "narration": "[excited] ان کی فہرست میں تقریباً 1,000 ستارے درج تھے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, library filled with Noori's symbolic projection of many orderly glowing star points, no connecting lines, labels, letters or numerals.",
+        "action": "Noori expands the field of glowing star points above Hamza.",
+        "camera": "pull-out",
+        "mood": "Delight and a sense of enormous discovery."
+      },
+      {
+        "id": "2rtllw",
+        "narration": "یہ اپنے زمانے کی سب سے درست فہرستوں میں تھی۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, educational library projection with a field of glowing reference points beneath matching stars, blank manuscript resting closed on a table, no text.",
+        "action": "The projected reference points align with the matching stars.",
+        "camera": "push-in",
+        "mood": "Satisfying clarity, gentle golden and blue light."
+      },
+      {
+        "id": "r5b8ub",
+        "narration": "اب حمزہ کو ستاروں کا حساب رکھنا سمجھ آگیا!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, familiar rooftop beside the warm library, a few bright projected reference points matching stars overhead, Hamza's notebook closed, no text.",
+        "action": "Hamza points confidently to a matching star.",
+        "camera": "pan-left",
+        "mood": "Happy understanding and peaceful nighttime wonder."
+      },
+      {
+        "id": "r7ogn1",
+        "narration": "[whispers] لیکن چاند ہم سے کتنا دور ہے، کیسے جانیں؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, rooftop under a luminous moon, Hamza beside the hovering brass lantern-robot, no text or symbols.",
+        "action": "Noori projects a glowing model of the Moon above Hamza.",
+        "camera": "push-in",
+        "mood": "Gentle suspense and curiosity about the next discovery."
+      }
+    ],
+    "endHook": "اگلی بار جانیں گے: چاند ہم سے کتنا دور ہے؟",
+    "createdAt": "2026-11-12T20:16:20.663Z",
+    "description": "حمزہ اور نوری کے ساتھ سمرقند میں اُلُغ بیگ کی شاندار رصدگاہ دیکھیں۔ جانیں کہ ستاروں کی جگہ ناپ کر اپنے زمانے کی ایک انتہائی درست فہرست کیسے تیار کی گئی۔",
+    "tags": [
+      "Musalman Sciencedan",
+      "Ulugh Beg",
+      "Samarkand",
+      "Astronomy",
+      "Urdu",
+      "Science for Kids"
+    ]
+  }
+}

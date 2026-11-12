@@ -1,0 +1,144 @@
+{
+  "number": 15,
+  "topic": "The Badshahi Mosque in Lahore was built by Mughal emperor Aurangzeb in 1671-1673 CE. For a long time it was the largest mosque in the world. Show its red sandstone, white marble domes and huge courtyard at sunset.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:18:37.925Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Badshahi Masjid: Lahore Ka Surkh Aur Safaid Shahkaar",
+    "shots": [
+      {
+        "id": "vc81lf",
+        "narration": "کبھی دنیا کی سب سے بڑی مسجد لاہور میں تھی!",
+        "characters": [],
+        "scene": "Vertical 9:16, 3D animated family-film look. A sweeping view of Lahore's Badshahi Mosque at sunset, with red sandstone walls, white marble domes and an immense empty courtyard. No people, lettering, signs or captions.",
+        "action": "The setting sun emerges from behind a thin cloud.",
+        "camera": "push-in",
+        "mood": "Warm golden light, magnificent scale, peaceful wonder."
+      },
+      {
+        "id": "aoma54",
+        "narration": "آؤ اریبہ، آج بادشاہی مسجد کی سیر کرتے ہیں۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, cozy Pakistani home in a 3D animated family-film style. Nana wears a cream kurta, brown waistcoat and round glasses, with a neat white beard. Areeba wears a yellow shalwar kameez and light-pink dupatta over her hair. A picture album rests beside an oil lamp; its illustrations contain ",
+        "action": "Nana opens the album to a wordless illustration of Badshahi Mosque.",
+        "camera": "static",
+        "mood": "Welcoming, intimate, softly golden."
+      },
+      {
+        "id": "glo7eu",
+        "narration": "[surprised] اتنی بڑی مسجد کا صحن کیسا ہوگا؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the same cozy home. A wordless mosque illustration fills the open album between Nana and Areeba. No visible letters or captions.",
+        "action": "Areeba spreads her arms wide over the album.",
+        "camera": "push-in",
+        "mood": "Curious, playful amazement, warm lamplight."
+      },
+      {
+        "id": "wgw7ks",
+        "narration": "اسے مغل بادشاہ اورنگزیب نے بنوایا تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, 3D animated architectural view of Badshahi Mosque's monumental red sandstone entrance beneath a golden evening sky. No people, portraits, silhouettes, calligraphy, signs or captions.",
+        "action": "A soft cloud drifts above the entrance.",
+        "camera": "low-angle",
+        "mood": "Respectful, calm, historically grounded grandeur."
+      },
+      {
+        "id": "1dtsr5",
+        "narration": "دیکھو، اس میں سرخ بلوا پتھر استعمال ہوا ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close architectural detail of Badshahi Mosque's red sandstone facade, showing stone joints and recessed geometric panels without inscriptions. Warm sunset light, 3D animated family-film rendering.",
+        "action": "A narrow band of sunlight travels across the stone surface.",
+        "camera": "pan-right",
+        "mood": "Tactile, warm, quietly beautiful."
+      },
+      {
+        "id": "0o6545",
+        "narration": "[excited] اور اوپر سفید سنگِ مرمر کے گنبد ہیں!",
+        "characters": [],
+        "scene": "Vertical 9:16, Badshahi Mosque's white marble domes rising above its red sandstone prayer hall. Pale peach sunset sky, no people or visible lettering, 3D animated family-film look.",
+        "action": "A small cloud passes behind the central dome.",
+        "camera": "push-in",
+        "mood": "Luminous white marble, gentle excitement, golden edges."
+      },
+      {
+        "id": "b7in32",
+        "narration": "مگر اس کا پورا صحن کیسے دیکھیں؟",
+        "characters": [],
+        "scene": "Vertical 9:16, ground-level view from one edge of Badshahi Mosque's immense empty courtyard. Foreground paving fills most of the frame, with the opposite red sandstone arcade far away. No text or people.",
+        "action": "A single dry leaf skims across the foreground paving.",
+        "camera": "static",
+        "mood": "Quiet curiosity, a sense of space beyond the frame."
+      },
+      {
+        "id": "xuofq2",
+        "narration": "ذرا دور سے دیکھو، کتنا کھلا صحن ہے!",
+        "characters": [],
+        "scene": "Vertical 9:16, elevated architectural view of Badshahi Mosque, with the vast empty courtyard enclosed by red sandstone arcades and the white-domed prayer hall beyond. No people, inscriptions or captions.",
+        "action": "The courtyard's long evening shadow stretches across the paving.",
+        "camera": "pull-out",
+        "mood": "An expansive visual reveal, peaceful and impressive."
+      },
+      {
+        "id": "gbnmr3",
+        "narration": "[excited] یہ طویل عرصے تک دنیا کی سب سے بڑی مسجد رہی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, wide symmetrical sunset view across Badshahi Mosque's huge empty courtyard toward its white marble domes and red sandstone facade. No figures or visible writing, 3D animated family-film style.",
+        "action": "A small flock of birds crosses the distant sky.",
+        "camera": "pan-left",
+        "mood": "Proud, serene, full of spacious golden light."
+      },
+      {
+        "id": "cgwzys",
+        "narration": "ڈھلتے سورج میں اس کے رنگ اور نکھر جاتے ہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close view combining Badshahi Mosque's richly textured red sandstone arch and a white marble dome beyond. Sunset creates amber highlights and soft rose shadows. No inscriptions, people or captions.",
+        "action": "Sunlight gradually softens over the red stone arch.",
+        "camera": "static",
+        "mood": "Gentle beauty, warm red and luminous white."
+      },
+      {
+        "id": "n9w6oi",
+        "narration": "اب اندازہ ہوا، یہ مسجد کتنی بڑی ہے!",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, back in the cozy Pakistani home. Nana and Areeba sit beside the oil lamp with the same wordless mosque album open between them. Their clothing and appearance remain unchanged.",
+        "action": "Areeba traces the courtyard's outline in the album with one finger.",
+        "camera": "pull-out",
+        "mood": "Satisfied discovery, affectionate family warmth."
+      },
+      {
+        "id": "yl23jk",
+        "narration": "[excited] اگلی بار جانیں، اتنے بڑے گنبد کیسے بنتے ہیں؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, close view of the open wordless album in the warmly lit home. Its illustration prominently shows Badshahi Mosque's white marble domes; Nana and Areeba sit behind it. No letters, signs or captions.",
+        "action": "Nana points to the largest dome in the illustration.",
+        "camera": "push-in",
+        "mood": "Inviting curiosity, gentle anticipation, golden lamplight."
+      }
+    ],
+    "endHook": "Itne baray gumbad bante kaise hain?",
+    "createdAt": "2026-11-12T20:18:37.923Z",
+    "description": "نانا ابو کے ساتھ لاہور کی بادشاہی مسجد کی سیر کریں، جسے مغل بادشاہ اورنگزیب نے 1671-1673 CE میں تعمیر کروایا۔ یہ مسجد طویل عرصے تک دنیا کی سب سے بڑی مسجد رہی؛ آئیے غروبِ آفتاب میں اس کا سرخ پتھر، سفید سنگِ مرمر کے گنبد اور وسیع صحن دیکھیں۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Badshahi Mosque",
+      "Lahore",
+      "Urdu stories for kids",
+      "Islamic architecture",
+      "3D animation"
+    ]
+  }
+}

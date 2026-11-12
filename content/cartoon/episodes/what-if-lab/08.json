@@ -1,0 +1,132 @@
+{
+  "number": 8,
+  "topic": "What if we lived on Mars? Gravity there is about 38% of Earth's, so you could jump almost three times higher, but the air is too thin to breathe.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:20:55.552Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If We Lived on Mars?",
+    "shots": [
+      {
+        "id": "h11s6z",
+        "narration": "What if we lived on Mars?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, vertical frame, glowing red Mars hologram between Nova and Byte, no text or symbols.",
+        "action": "nova expands the Mars hologram with a sweep of her hand.",
+        "camera": "push-in",
+        "mood": "Bright cyan light, rusty red planet, wide-eyed curiosity."
+      },
+      {
+        "id": "xxnhx1",
+        "narration": "Mars has about 38% of Earth's gravity.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with side-by-side holograms of Earth and Mars above a curved console, no labels.",
+        "action": "nova releases matching holographic balls above the planetary surfaces.",
+        "camera": "pan-right",
+        "mood": "Clean glowing colours, playful scientific discovery."
+      },
+      {
+        "id": "zvwm3x",
+        "narration": "[excited] You could jump almost three times higher!",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab beside a tall holographic Martian landscape containing a miniature spacesuited likeness of Nova, no text.",
+        "action": "nova's holographic likeness leaps high above the red ground.",
+        "camera": "low-angle",
+        "mood": "Joyful upward motion, sparkling orange dust, delighted blue robot eyes."
+      },
+      {
+        "id": "n7utj1",
+        "narration": "But Mars's air is too thin to breathe.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab with a magnified holographic slice of Martian atmosphere showing widely scattered glowing particles, no text.",
+        "action": "nova spreads the holographic air particles far apart.",
+        "camera": "orbit",
+        "mood": "Thoughtful discovery, spacious dark gaps between soft glowing particles."
+      },
+      {
+        "id": "3bn8js",
+        "narration": "And that air is mostly carbon dioxide, not oxygen.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab with a holographic Martian atmosphere filled mainly with three-sphere molecular models, no letters or labels.",
+        "action": "nova enlarges a carbon dioxide molecular model for Byte.",
+        "camera": "push-in",
+        "mood": "Clear colourful science demonstration, attentive robot expression."
+      },
+      {
+        "id": "9e2d5b",
+        "narration": "[sighs] Outside, we'd need spacesuits with oxygen and pressure.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab with a life-sized holographic spacesuit standing above a miniature red Martian plain, no text.",
+        "action": "nova closes the holographic spacesuit's transparent helmet visor.",
+        "camera": "pan-left",
+        "mood": "Reassuring blue glow, sturdy suit, practical problem-solving."
+      },
+      {
+        "id": "fb1uby",
+        "narration": "Our homes would need breathable air and pressure, too.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a cutaway hologram of a sealed Martian habitat containing rounded rooms, no occupants or labels.",
+        "action": "nova seals the habitat hologram's outer shell.",
+        "camera": "pull-out",
+        "mood": "Warm interior lighting against a cool red desert, safe and inviting."
+      },
+      {
+        "id": "zuu1t9",
+        "narration": "Inside, we could grow plants for food.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab with an enlarged holographic habitat greenhouse, leafy vegetables beneath bright grow lights, no text.",
+        "action": "nova reveals a tray of leafy plants inside the hologram.",
+        "camera": "static",
+        "mood": "Lush green leaves, warm light, hopeful everyday life."
+      },
+      {
+        "id": "vq6huj",
+        "narration": "[surprised] Mars has blue sunsets—what if we lived on Venus?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a large Martian sunset hologram, blue glow surrounding the setting Sun, and a smaller cloud-covered Venus hologram beside it, no text.",
+        "action": "nova points from the blue sunset toward Venus.",
+        "camera": "push-in",
+        "mood": "Beautiful blue twilight, glowing golden planet, fresh curiosity."
+      }
+    ],
+    "endHook": "What if we lived on Venus?",
+    "createdAt": "2026-11-12T20:20:55.551Z",
+    "description": "Dr. Nova shows Byte how living on Mars would change everyday life, from higher jumps to needing sealed habitats. Explore weaker gravity, thin air, and a surprising Martian sunset.",
+    "tags": [
+      "What If Lab",
+      "Mars",
+      "space science",
+      "gravity",
+      "animation",
+      "YouTube Shorts"
+    ]
+  }
+}

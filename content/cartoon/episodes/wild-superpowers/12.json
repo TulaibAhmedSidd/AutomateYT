@@ -1,0 +1,117 @@
+{
+  "number": 12,
+  "topic": "Bat: many bats find food in total darkness using echolocation: they shout and listen to the echoes.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:22:35.839Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Bat: Echoes in the Dark! | Wild Superpowers",
+    "shots": [
+      {
+        "id": "qq73h2",
+        "narration": "Did you know many bats find food in total darkness?",
+        "characters": [],
+        "scene": "Vertical 9:16, bright naturalistic 3D animation, a shaded limestone cave beneath a sunny jungle hillside; one cute, true-to-life bat near the entrance; no text.",
+        "action": "The bat flies from the sunlit entrance into the dark cave.",
+        "camera": "push-in",
+        "mood": "Mysterious blue shadows framed by warm golden sunlight."
+      },
+      {
+        "id": "d1mc15",
+        "narration": "Kiko can barely see inside this cave!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, naturalistic 3D animation, safe flat ground outside the cave; Kiko wears his green safari hat, binoculars, and pocketed khaki vest; emerald Pip hovers beside him.",
+        "action": "Kiko peers into the dark cave from the sunny entrance.",
+        "camera": "static",
+        "mood": "Curious faces and a gently puzzling dark opening."
+      },
+      {
+        "id": "if0sfl",
+        "narration": "[surprised] But this bat has a different way to explore!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, naturalistic 3D animation, view from the cave entrance; rounded rock columns stand inside; Kiko and Pip remain outside in the distant sunlight.",
+        "action": "The bat curves smoothly around a rock column.",
+        "camera": "pan-right",
+        "mood": "Exciting, graceful movement through cool cave shadows."
+      },
+      {
+        "id": "7m7v7p",
+        "narration": "Many bats use echolocation: they shout into the darkness.",
+        "characters": [],
+        "scene": "Vertical 9:16, naturalistic 3D close view inside the cave, one bat with its mouth open; faint translucent rings illustrate invisible sound, not actual light.",
+        "action": "Illustrative sound rings spread outward from the bat's mouth.",
+        "camera": "push-in",
+        "mood": "Wonder-filled blue darkness with softly glowing educational visualization."
+      },
+      {
+        "id": "ty0bmq",
+        "narration": "Their sounds bounce off things and return as echoes.",
+        "characters": [],
+        "scene": "Vertical 9:16, naturalistic 3D cave interior, the bat opposite a rounded rock wall; translucent sound rings illustrate echoes without symbols or text.",
+        "action": "Illustrative echo rings rebound from the rock toward the bat.",
+        "camera": "pan-left",
+        "mood": "Clear, gentle discovery with softly illuminated stone textures."
+      },
+      {
+        "id": "ph3f7n",
+        "narration": "[excited] Listening to those echoes helps bats find their way!",
+        "characters": [],
+        "scene": "Vertical 9:16, naturalistic 3D cave interior, close view of the bat's true-to-life ears; faint returning sound rings remain a visual explanation only.",
+        "action": "The illustrative echo rings reach the bat's ears.",
+        "camera": "static",
+        "mood": "An exciting moment of understanding in soft blue shadows."
+      },
+      {
+        "id": "lgrayh",
+        "narration": "Echolocation also helps many bats find food without light.",
+        "characters": [],
+        "scene": "Vertical 9:16, naturalistic 3D animation, dark cave passage with rounded stone columns and ample flight space; one bat, no prey shown.",
+        "action": "The bat flies confidently through a gap between the columns.",
+        "camera": "low-angle",
+        "mood": "Confident and adventurous, with a clear silhouette against dark stone."
+      },
+      {
+        "id": "4yxmrj",
+        "narration": "Mystery solved: this explorer listens for echoes!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, naturalistic 3D animation, sunny jungle outside the cave; Pip hovers beside Kiko, with the bat visible inside the shaded entrance.",
+        "action": "Kiko cups one hand behind his ear.",
+        "camera": "pull-out",
+        "mood": "Warm sunshine, delighted recognition, and friendly discovery."
+      },
+      {
+        "id": "peuzaf",
+        "narration": "[excited] Can you guess which animal carries a protective shell?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, naturalistic 3D animation, sunny jungle path beside the cave; Kiko faces the viewer while Pip hovers near his green hat; no other animals or text.",
+        "action": "Kiko extends an open palm toward the viewer.",
+        "camera": "push-in",
+        "mood": "Playful anticipation with bright green foliage and golden sunlight."
+      }
+    ],
+    "endHook": "Which animal carries a protective shell wherever it goes?",
+    "createdAt": "2026-11-12T20:22:35.837Z",
+    "description": "Kiko and Pip discover how many bats find food in total darkness using echolocation. Follow a bat's calls and returning echoes, then guess the next animal!",
+    "tags": [
+      "Wild Superpowers",
+      "bats",
+      "echolocation",
+      "animal facts",
+      "nature for kids",
+      "3D animation"
+    ]
+  }
+}

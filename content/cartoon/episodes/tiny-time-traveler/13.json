@@ -1,0 +1,166 @@
+{
+  "number": 13,
+  "topic": "The Karakoram Highway, built between Pakistan and China from 1959 to 1979: one of the highest paved roads in the world.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:19:52.685Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: The Highway Above the Clouds",
+    "shots": [
+      {
+        "id": "gea7vh",
+        "narration": "A mountain highway waits inside these sparkles!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation; broad mountain overlook beside the Karakoram Highway in 1979, bright sunlight, towering rocky peaks, no writing.",
+        "action": "Zoya and Tock materialize together inside swirling dust and golden time-jump sparkles.",
+        "camera": "push-in",
+        "mood": "Dazzling golden particles against enormous sunlit mountains, friendly adventure."
+      },
+      {
+        "id": "3l0xxg",
+        "narration": "We've reached the Karakoram Highway in 1979.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Wide, flat gravel overlook safely separated from the paved highway, rugged mountains rising behind Zoya's yellow hoodie and Tock's brass body.",
+        "action": "Zoya points toward a visible stretch of paved road.",
+        "camera": "pan-right",
+        "mood": "Warm sunlight, crisp mountain textures, delighted discovery."
+      },
+      {
+        "id": "1igg2x",
+        "narration": "[excited] This road connects Pakistan and China!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Mountain overlook above a paved road winding into the distant valley, cinematic 3D detail, vertical composition, no signs or markings.",
+        "action": "Tock traces the distant road's direction with one tiny leg.",
+        "camera": "pull-out",
+        "mood": "Vast golden landscape, bright blue sky, welcoming wonder."
+      },
+      {
+        "id": "91fxko",
+        "narration": "But where does that winding road go?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Same broad overlook, with low white cloud gathering across the distant highway and mountain slopes.",
+        "action": "A low cloud drifts across the distant road.",
+        "camera": "static",
+        "mood": "Soft white cloud against sunny rocks, gentle visual mystery."
+      },
+      {
+        "id": "o8yb00",
+        "narration": "The clouds have hidden our view!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Safe gravel overlook, foreground sharply sunlit, distant valley concealed by pale cloud.",
+        "action": "Zoya shades her eyes with one hand.",
+        "camera": "push-in",
+        "mood": "Curious expression, luminous mist, mild disappointment."
+      },
+      {
+        "id": "9yeqtw",
+        "narration": "[chuckles] Tock, bouncing won't make you taller than a cloud.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Flat gravel well away from the road, cloud-filled mountain background, Zoya standing beside the brass pocket-watch robot.",
+        "action": "Tock makes a tiny spring-tailed bounce.",
+        "camera": "low-angle",
+        "mood": "Playful brass glints, round glass face, gentle physical comedy."
+      },
+      {
+        "id": "681rnk",
+        "narration": "Construction lasted from 1959 to 1979.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Quiet mountain overlook with a clear foreground section of paved highway and cloud-covered peaks beyond.",
+        "action": "Zoya gestures toward the paved highway with an open palm.",
+        "camera": "pan-left",
+        "mood": "Sunlit pavement and rugged stone, thoughtful appreciation."
+      },
+      {
+        "id": "5uaq1t",
+        "narration": "Let's wait here for the clouds to move.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Broad, flat rock on the safe overlook, distant road still hidden behind thin white cloud.",
+        "action": "Zoya sits on the broad rock beside Tock.",
+        "camera": "static",
+        "mood": "Patient smiles, warm sunlight, peaceful mountain air."
+      },
+      {
+        "id": "yt1al5",
+        "narration": "[surprised] Look! The mountains are appearing!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "View from the overlook toward layered mountain slopes, with Zoya and Tock in the lower foreground.",
+        "action": "The cloud slides aside to reveal the winding highway.",
+        "camera": "pan-right",
+        "mood": "Brilliant sunlight breaks through pale mist, spectacular reveal."
+      },
+      {
+        "id": "d9rzoi",
+        "narration": "It's one of the highest paved roads in the world.",
+        "characters": [],
+        "scene": "Sweeping vertical view of the Karakoram Highway threading through immense rocky mountains, remaining cloud below distant peaks, no signs or vehicles.",
+        "action": "Wisps of cloud drift below the sunlit mountain peaks.",
+        "camera": "pull-out",
+        "mood": "Grand scale, rich stone textures, clear blue sky."
+      },
+      {
+        "id": "48gmeg",
+        "narration": "That view was worth the wait!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Safe mountain overlook with the revealed highway behind Zoya and Tock, bright sunlight across their faces.",
+        "action": "Zoya gives Tock a gentle high-five.",
+        "camera": "orbit",
+        "mood": "Joyful smiles, warm brass reflections, satisfying discovery."
+      },
+      {
+        "id": "14vlt4",
+        "narration": "[excited] Where to next?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Same overlook, Zoya's glowing blue wristwatch illuminating Tock's round glass face, golden sparkles framing the mountain view.",
+        "action": "Tock tilts his face toward Zoya with an expectant smile.",
+        "camera": "push-in",
+        "mood": "Blue watchlight, floating golden sparkles, inviting anticipation."
+      }
+    ],
+    "endHook": "The blue watch sparkles again—where will Zoya and Tock explore next?",
+    "createdAt": "2026-11-12T20:19:52.684Z",
+    "description": "Zoya and Tock visit the Karakoram Highway in 1979, but drifting clouds hide their spectacular discovery. Learn how this road links Pakistan and China, when it was built, and what makes it extraordinary.",
+    "tags": [
+      "Tiny Time Traveler",
+      "Karakoram Highway",
+      "Pakistan",
+      "China",
+      "History for Kids",
+      "3D Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

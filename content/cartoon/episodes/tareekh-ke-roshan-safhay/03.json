@@ -1,0 +1,147 @@
+{
+  "number": 3,
+  "topic": "How the Hijri calendar was chosen: around 638 CE, in the time of the second Caliph Umar (RA), the year of the Hijra was chosen as year one. Show old letters without dates, a moon in the sky and a calendar page.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:17:00.286Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Hijri Calendar Ka Aaghaz | 638 CE | Tareekh ke Roshan Safhay",
+    "shots": [
+      {
+        "id": "mpw71n",
+        "narration": "اریبہ، خط پر سال نہ ہو تو کیا ہوگا؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated family-film look. A Pakistani home with arched windows, golden lamplight and floor cushions. Nana wears round glasses, a cream kurta and brown waistcoat; Areeba wears a light-pink dupatta and yellow shalwar kameez. An unmarked folded letter rests on a low table. No vi",
+        "action": "Nana holds the unmarked letter toward Areeba.",
+        "camera": "push-in",
+        "mood": "Gentle curiosity, warm amber light."
+      },
+      {
+        "id": "gnslla",
+        "narration": "پھر کیسے پتا چلے گا کہ وہ کب لکھا گیا؟",
+        "characters": [
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated home interior. Several unmarked folded letters lie together on a low wooden table before Areeba. No text or symbols.",
+        "action": "Areeba tilts her head over the letters.",
+        "camera": "static",
+        "mood": "A small, understandable puzzle."
+      },
+      {
+        "id": "g54ssd",
+        "narration": "[surprised] اسی لیے سال گننے کا ایک طریقہ ضروری تھا۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, golden-lit home study with arched niches. A blank parchment sheet with empty calendar boxes lies beside the undated letters. No letters, numerals or captions.",
+        "action": "Nana places the blank calendar sheet beside the letters.",
+        "camera": "pan-right",
+        "mood": "Reassuring discovery, soft lamplight."
+      },
+      {
+        "id": "uyifol",
+        "narration": "یہ بات تقریباً چھ سو اڑتیس عیسوی کی ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, stylized early Islamic Arabian town with modest earthen buildings, shaded courtyards and date palms. Golden afternoon light, no people, signs or writing.",
+        "action": "Palm fronds sway above the empty courtyard.",
+        "camera": "pull-out",
+        "mood": "Peaceful historical journey, warm sandy colors."
+      },
+      {
+        "id": "3y70q5",
+        "narration": "اُس وقت حضرت عمر رضی اللہ عنہ دوسرے خلیفہ تھے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, an unoccupied historic Arabian room with plaster walls, a low wooden desk, folded unmarked correspondence and an oil lamp. No portraits, human forms, silhouettes or writing.",
+        "action": "The oil-lamp flame flickers beside the correspondence.",
+        "camera": "push-in",
+        "mood": "Respectful stillness, gentle golden illumination."
+      },
+      {
+        "id": "snt5j6",
+        "narration": "[whispers] ہجرت کے سال کو پہلا سال چنا گیا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, symbolic tabletop illustration of a calendar's beginning. A single blank parchment calendar page rests on a wooden surface, with empty boxes and no numerals, letters or marks. No people.",
+        "action": "The top parchment page turns to reveal a fresh blank calendar grid.",
+        "camera": "static",
+        "mood": "Quiet significance, warm focused light."
+      },
+      {
+        "id": "zc4vr2",
+        "narration": "اسی سے ہجری سالوں کی گنتی شروع ہوئی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, symbolic sequence of blank parchment calendar sheets on a warm wooden desk. Every sheet has empty boxes only; no writing, numerals or people.",
+        "action": "The blank calendar sheets unfold into a continuous row.",
+        "camera": "pan-left",
+        "mood": "Clear progression, calm golden glow."
+      },
+      {
+        "id": "jnkg0n",
+        "narration": "ہجرت یعنی مکہ سے مدینہ کا سفر۔",
+        "characters": [],
+        "scene": "Vertical 9:16, symbolic miniature Arabian landscape showing a rocky valley settlement and a distant palm-filled oasis settlement connected by an empty desert path. No travelers, figures, silhouettes, labels or modern buildings.",
+        "action": "A soft glow travels along the empty path toward the oasis.",
+        "camera": "low-angle",
+        "mood": "Respectful reflection, peaceful desert beauty."
+      },
+      {
+        "id": "6virux",
+        "narration": "[excited] یوں سالوں کی پہچان کا ایک طریقہ مل گیا۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, return to the golden-lit family home. Unmarked folded letters sit beside a blank calendar grid on the low table. Nana and Areeba sit on cushions. No visible text.",
+        "action": "Areeba nods toward the calendar sheet.",
+        "camera": "pull-out",
+        "mood": "A satisfying moment of understanding."
+      },
+      {
+        "id": "9cbvm8",
+        "narration": "ہجری مہینے چاند کے حساب سے چلتے ہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, a slender crescent moon above peaceful earthen rooftops and date palms, framed by a home window. Deep blue sky, warm light along the window arch, no people or text.",
+        "action": "A thin cloud drifts beneath the crescent moon.",
+        "camera": "pan-right",
+        "mood": "Quiet wonder, soft silver and amber light."
+      },
+      {
+        "id": "bpc53u",
+        "narration": "سال لکھنے سے پرانے خط کی پہچان آسان ہوتی ہے۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, cozy home table with an unmarked folded letter and an empty calendar grid. Nana's neat white beard and round glasses catch the lamplight. No writing or numerals.",
+        "action": "Nana points from the letter toward the calendar.",
+        "camera": "push-in",
+        "mood": "Warm reassurance, a simple lesson understood."
+      },
+      {
+        "id": "vg6t44",
+        "narration": "[whispers] چاند سے نیا مہینہ کیسے پہچانتے ہیں؟",
+        "characters": [
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, Areeba in her yellow shalwar kameez and light-pink dupatta beside the home's arched window. A crescent moon hangs above a quiet palm garden. No text.",
+        "action": "Areeba points toward the crescent moon.",
+        "camera": "pull-out",
+        "mood": "Gentle anticipation, moonlit curiosity."
+      }
+    ],
+    "endHook": "Chand se naya mahina kaise pehchante hain?",
+    "createdAt": "2026-11-12T20:17:00.285Z",
+    "description": "نانا ابو اریبہ کو بتاتے ہیں کہ حضرت عمر رضی اللہ عنہ کے دور میں ہجرت کے سال کو ہجری تقویم کا پہلا سال کیسے چنا گیا۔ پرانے خطوط، ایک سادہ تقویم اور آسمان کے چاند کے ساتھ وقت کی پہچان کا یہ سفر دیکھیے۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Hijri Calendar",
+      "Urdu Stories",
+      "Islamic History for Kids",
+      "Kids Learning"
+    ]
+  }
+}

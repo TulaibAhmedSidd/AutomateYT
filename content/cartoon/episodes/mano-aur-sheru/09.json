@@ -1,0 +1,162 @@
+{
+  "number": 9,
+  "topic": "Mango season: waiting patiently for the mangoes to ripen.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:12:14.958Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Mano aur Sheru: Sabr Ka Meetha Aam",
+    "shots": [
+      {
+        "id": "wyzz5h",
+        "narration": "ارے مانو، یہ ہرا آم ابھی کھاؤ گی؟",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani courtyard beside a neem tree, low table with a basket of green mangoes, rounded 3D family animation, soft sunlight, no text.",
+        "action": "Mano raises a green mango toward her open mouth.",
+        "camera": "push-in",
+        "mood": "Playful suspense, wide blue eyes and lifted ears."
+      },
+      {
+        "id": "m9bk8k",
+        "narration": "شیرو نے کہا، ابھی رکو، یہ آم کچا ہے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard beside the mango basket, rounded 3D family animation, soft sunlight, no text.",
+        "action": "Sheru gently places one paw between Mano's mouth and the mango.",
+        "camera": "static",
+        "mood": "Kind concern, relaxed faces and friendly rounded shapes."
+      },
+      {
+        "id": "6y1dji",
+        "narration": "[surprised] کچا؟ مانو نے تو میٹھا آم سمجھا تھا!",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, courtyard table with green mangoes, rounded 3D family animation, no text.",
+        "action": "Mano turns the green mango over in her paws.",
+        "camera": "orbit",
+        "mood": "Curious surprise, tilted head and round blue eyes."
+      },
+      {
+        "id": "zawi6i",
+        "narration": "شیرو بولا، انہیں پکنے کے لیے کچھ وقت چاہیے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, shaded courtyard table near an open kitchen doorway, mango basket visible, rounded 3D family animation, no text.",
+        "action": "Sheru points toward the basket of green mangoes.",
+        "camera": "pan-right",
+        "mood": "Reassuring warmth, gentle smile and attentive kitten."
+      },
+      {
+        "id": "wrdy65",
+        "narration": "مانو نے آم واپس ٹوکری میں رکھ دیا۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, shaded courtyard table with a shallow woven mango basket, rounded 3D family animation, no text.",
+        "action": "Mano places her green mango back in the basket.",
+        "camera": "static",
+        "mood": "Reluctant cooperation, slightly drooping ears."
+      },
+      {
+        "id": "4tbslh",
+        "narration": "[sighs] مگر مانو کو انتظار بہت لمبا لگ رہا تھا۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, courtyard floor beside the shaded mango table, rounded 3D family animation, warm afternoon light, no text.",
+        "action": "Mano rests her chin on both paws beside the table.",
+        "camera": "push-in",
+        "mood": "Gentle impatience, floppy posture and wistful eyes."
+      },
+      {
+        "id": "0tcp9m",
+        "narration": "شیرو بولا، آؤ، تب تک گیند سے کھیلتے ہیں۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, open courtyard beneath the neem tree, mango table in the shaded background, rounded 3D family animation, no text.",
+        "action": "Sheru rolls a plain red ball toward Mano.",
+        "camera": "low-angle",
+        "mood": "Inviting playfulness, perked ears and bright colours."
+      },
+      {
+        "id": "invaf1",
+        "narration": "مانو کھیلنے لگی تو انتظار آسان ہو گیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, Pakistani courtyard with patterned floor tiles and a neem tree, rounded 3D family animation, no text.",
+        "action": "Mano bats the red ball back toward Sheru.",
+        "camera": "pan-left",
+        "mood": "Cheerful friendship, lively kitten and smiling dog."
+      },
+      {
+        "id": "ule078",
+        "narration": "[excited] کچھ دن بعد آم پیلے ہو گئے!",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, same shaded courtyard table several days later, basket now holding yellow mangoes, rounded 3D family animation, soft morning light, no text.",
+        "action": "Mano rises onto her hind paws to inspect the yellow mangoes.",
+        "camera": "push-in",
+        "mood": "Delighted discovery, sparkling blue eyes and upright ears."
+      },
+      {
+        "id": "hzt5qz",
+        "narration": "اب آموں سے کتنی پیاری خوشبو آ رہی تھی!",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard table with ripe yellow mangoes in a woven basket, rounded 3D family animation, no text.",
+        "action": "Sheru leans toward a ripe mango to sniff it.",
+        "camera": "static",
+        "mood": "Quiet satisfaction, softly closed eyes and relaxed ears."
+      },
+      {
+        "id": "0iobtt",
+        "narration": "میٹھا آم کھا کر مانو خوش ہو گئی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard picnic mat with a plain plate of peeled mango pieces without stones, ripe basket behind, rounded 3D family animation, no text.",
+        "action": "Mano takes a small bite from a mango piece.",
+        "camera": "push-in",
+        "mood": "Sweet delight, happy kitten and warmly smiling friend."
+      },
+      {
+        "id": "riobnc",
+        "narration": "[excited] صبر کا پھل میٹھا ہوتا ہے، اگلی بار چھت کی سیر!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard picnic mat beside an enclosed rooftop stairway, mango plate in foreground, rounded 3D family animation, golden sunlight, no text.",
+        "action": "Mano points toward the rooftop stairway.",
+        "camera": "pull-out",
+        "mood": "Contented friendship and bright anticipation."
+      }
+    ],
+    "endHook": "اگلی بار مانو اور شیرو کے ساتھ چھت کی سیر!",
+    "createdAt": "2026-11-12T20:12:14.957Z",
+    "description": "مانو آم فوراً کھانا چاہتی ہے، مگر آم ابھی کچے ہیں! شیرو کے ساتھ انتظار کرکے اسے پتا چلتا ہے کہ صبر کا پھل واقعی میٹھا ہوتا ہے۔",
+    "tags": [
+      "Mano aur Sheru",
+      "Urdu cartoon",
+      "kids stories",
+      "mango season",
+      "patience",
+      "Pakistani cartoon"
+    ]
+  }
+}

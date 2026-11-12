@@ -1,0 +1,105 @@
+{
+  "number": 14,
+  "topic": "An old phone retired to the drawer.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:11:04.733Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "If Things Could Talk: The Retired Phone",
+    "shots": [
+      {
+        "id": "w54j4e",
+        "narration": "I used to run your life. Now I live beside lint.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, inside a wooden bedside drawer with tangled cables and lint, no text or markings.",
+        "action": "An old rounded phone with big expressive eyes and a small mouth on its blank screen brushes lint from its face.",
+        "camera": "push-in",
+        "mood": "Cosy amber light, dusty surroundings, indignant expression."
+      },
+      {
+        "id": "9asw7h",
+        "narration": "My retirement party was you buying a shinier rectangle.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, modern bedroom nightstand beside an open drawer, a sleek new phone resting above, no text or markings.",
+        "action": "A human hand lowers the old rounded phone with big expressive eyes and a small frowning mouth into the drawer.",
+        "camera": "low-angle",
+        "mood": "Bright morning light, wounded dignity, cheerful room."
+      },
+      {
+        "id": "6o6jl6",
+        "narration": "[sighs] Apparently, keeping me means never touching me again.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, view from inside the wooden drawer, old phone resting among cables, no text or markings.",
+        "action": "The drawer slides shut above the old rounded phone with big expressive eyes and a small worried mouth.",
+        "camera": "static",
+        "mood": "Narrowing stripe of daylight, comically dramatic shadows."
+      },
+      {
+        "id": "a1aocl",
+        "narration": "Then, daylight! Finally, someone remembered my years of service.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, open bedside drawer in a sunny modern bedroom, no text or markings.",
+        "action": "The old rounded phone with big expressive eyes and a small delighted mouth rises in a human hand.",
+        "camera": "pan-right",
+        "mood": "Golden daylight, hopeful expression, triumphant atmosphere."
+      },
+      {
+        "id": "lfrkas",
+        "narration": "They needed a cable. I was sitting on it.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, bedside drawer containing the old phone and a loose charging cable, no text or markings.",
+        "action": "A human hand pulls the cable from beneath the old rounded phone with big expressive eyes and a small disappointed mouth.",
+        "camera": "static",
+        "mood": "Bright domestic light, painfully awkward disappointment."
+      },
+      {
+        "id": "xqkht3",
+        "narration": "[sarcastic] Great news: I've been promoted to cable paperweight.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, wooden drawer interior with loosely coiled spare cables, no text or markings.",
+        "action": "The old rounded phone with big expressive eyes and a small flat mouth settles onto a coil of cables.",
+        "camera": "push-in",
+        "mood": "Warm drawer shadows, deadpan resignation."
+      },
+      {
+        "id": "gy0h33",
+        "narration": "Wait. The remote's missing. I can control the television!",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, open drawer beside a living room with displaced couch cushions and a dark television, no text or markings.",
+        "action": "The old rounded phone with big expressive eyes and a small eager mouth lights up its screen around its face.",
+        "camera": "pull-out",
+        "mood": "Hopeful blue glow, messy cosy living room."
+      },
+      {
+        "id": "h07qog",
+        "narration": "They brought me back! Straight onto the couch.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, soft colourful couch facing a television in a cosy living room, no text or markings.",
+        "action": "A human hand places the old rounded phone with big expressive eyes and a small proud smile beside a couch cushion.",
+        "camera": "pan-left",
+        "mood": "Warm evening light, triumphant comeback."
+      },
+      {
+        "id": "xqe0p0",
+        "narration": "[chuckles] Found the remote. Apparently, we're both retired under this cushion.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon style, narrow gap beneath couch cushions, a plain remote with blank buttons resting below, no text or markings.",
+        "action": "The old rounded phone with big expressive eyes and a small astonished mouth slides into the cushion gap beside the remote.",
+        "camera": "push-in",
+        "mood": "Soft shadowy hiding place, absurd reunion, playful defeat."
+      }
+    ],
+    "endHook": "Next episode: the remote explains its suspicious relationship with couch cushions.",
+    "createdAt": "2026-11-12T20:11:04.731Z",
+    "description": "An old phone discovers that retirement means being forgotten in a drawer full of tangled cables. But one missing remote might bring it back into action.",
+    "tags": [
+      "If Things Could Talk",
+      "animated comedy",
+      "old phone",
+      "relatable",
+      "3D animation",
+      "shorts"
+    ]
+  }
+}

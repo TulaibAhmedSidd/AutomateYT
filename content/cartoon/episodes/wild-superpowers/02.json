@@ -1,0 +1,119 @@
+{
+  "number": 2,
+  "topic": "Mantis shrimp: throws one of the fastest punches in the animal kingdom, fast enough to crack shells, and has far more colour-sensing cells in its eyes than humans.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:21:41.286Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Mantis Shrimp: A Blink-and-You-Miss-It Punch!",
+    "shots": [
+      {
+        "id": "vp4fy6",
+        "narration": "Did you know this tiny animal packs a shell-cracking punch?",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D animated nature film style, underwater close-up inside a sunny rocky tide pool, a cute anatomically faithful mantis shrimp beside an empty seashell, no text.",
+        "action": "The mantis shrimp raises its folded striking appendages.",
+        "camera": "push-in",
+        "mood": "Sparkling turquoise water, warm sunlight, exciting anticipation."
+      },
+      {
+        "id": "unoxdn",
+        "narration": "Kiko and Pip discover a mantis shrimp in a tide pool.",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny tropical tide pool, Kiko with brown skin, green safari hat, big binoculars and pocketed khaki vest, tiny emerald-green Pip with ruby-red throat hovering nearby, no text.",
+        "action": "Kiko points toward the mantis shrimp beneath the clear water.",
+        "camera": "pull-out",
+        "mood": "Bright natural colours, friendly curiosity, peaceful shoreline."
+      },
+      {
+        "id": "9627r7",
+        "narration": "[surprised] Wait! Its punch happened faster than Kiko could follow!",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Vertical 9:16, split-level view of the clear tide pool, Kiko watching from the dry rock above, mantis shrimp underwater below, no text.",
+        "action": "The mantis shrimp snaps a striking appendage forward in a brief blur.",
+        "camera": "static",
+        "mood": "Sunny surprise, Kiko's wide eyes visible above the water."
+      },
+      {
+        "id": "0jpaio",
+        "narration": "Let's watch that again, slowed down!",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic underwater macro replay of the same mantis shrimp, detailed folded striking appendages, softly blurred rocks behind, no text.",
+        "action": "The mantis shrimp unfolds one striking appendage in slow motion.",
+        "camera": "orbit",
+        "mood": "Clear sunbeams, fascinating detail, a moment of discovery."
+      },
+      {
+        "id": "wlh98j",
+        "narration": "It's one of the fastest punches in the animal kingdom.",
+        "characters": [],
+        "scene": "Vertical 9:16, underwater side view of the mantis shrimp facing a clearly empty seashell, its open hollow interior visible, no other animals, no text.",
+        "action": "The mantis shrimp punches the empty shell, cracking its rim.",
+        "camera": "low-angle",
+        "mood": "Bright underwater light, impressive but gentle scientific observation."
+      },
+      {
+        "id": "493vbp",
+        "narration": "[excited] That punch is fast enough to crack shells!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, clear tide pool viewed from the rocky edge, cracked empty shell visible underwater, Kiko and Pip safely above the water, no text.",
+        "action": "Kiko lifts his binoculars for a closer look.",
+        "camera": "push-in",
+        "mood": "Delighted discovery, warm sunshine, shimmering water."
+      },
+      {
+        "id": "6ojhyp",
+        "narration": "Its eyes have far more colour-sensing cell types than ours.",
+        "characters": [],
+        "scene": "Vertical 9:16, realistic 3D macro close-up of the mantis shrimp's stalked eyes, naturally colourful shell and sunlit reef stones, no diagrams or text.",
+        "action": "The mantis shrimp swivels its stalked eyes.",
+        "camera": "pan-right",
+        "mood": "Jewel-like natural colours, gentle wonder, crisp eye detail."
+      },
+      {
+        "id": "2mmc4x",
+        "narration": "Tiny animal, incredible superpowers!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny tide pool with mantis shrimp visible below, Kiko crouched at a safe distance and emerald-green Pip beside his hat, no text.",
+        "action": "Kiko gives a delighted thumbs-up.",
+        "camera": "pull-out",
+        "mood": "Cheerful payoff, sparkling water, bright coastal scenery."
+      },
+      {
+        "id": "ozhx4q",
+        "narration": "[whispers] Who can climb smooth walls? Guess our next animal!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, tropical shoreline beside a smooth sunlit rock face, Kiko in his green safari hat and khaki vest, Pip hovering nearby, no additional animals or text.",
+        "action": "Kiko points up the smooth rock face.",
+        "camera": "low-angle",
+        "mood": "Playful mystery, golden sunshine, inviting adventure."
+      }
+    ],
+    "endHook": "Who can climb smooth walls? Guess our next animal!",
+    "createdAt": "2026-11-12T20:21:41.285Z",
+    "description": "Kiko and Pip discover a mantis shrimp's astonishing punch in a sunny tide pool. Explore its shell-cracking power and remarkable colour-sensing eyes, then guess our next animal!",
+    "tags": [
+      "Wild Superpowers",
+      "mantis shrimp",
+      "ocean animals",
+      "nature for kids",
+      "animal facts",
+      "3D animation"
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "number": 13,
+  "topic": "What if Earth were flat? It could not happen: gravity pulls a planet-sized mass into a ball.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:21:20.371Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If Earth Were Flat?",
+    "shots": [
+      {
+        "id": "1yihi7",
+        "narration": "What if Earth were flat?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, vertical frame, blank hologram platform between Nova and Byte, no text.",
+        "action": "Nova reveals a glowing disk-shaped Earth hologram.",
+        "camera": "push-in",
+        "mood": "Bright turquoise light, playful curiosity, exaggerated surprised robot eyes."
+      },
+      {
+        "id": "nb7rzx",
+        "narration": "A planet-sized disk couldn't stay flat under its own gravity.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with an unstable disk-shaped Earth hologram, no text.",
+        "action": "The holographic disk buckles inward.",
+        "camera": "orbit",
+        "mood": "Intriguing and energetic, warm lab lighting, rippling blue glow."
+      },
+      {
+        "id": "cz2xc4",
+        "narration": "[excited] Gravity pulls matter together.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram showing separated rocky fragments against a dark blue backdrop, no text.",
+        "action": "The rocky fragments gather into a clump.",
+        "camera": "static",
+        "mood": "Clear and wondrous, bright golden highlights on floating rocks."
+      },
+      {
+        "id": "x1imke",
+        "narration": "With enough mass, that pull overcomes rock's strength.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a large irregular rocky world hologram, no text.",
+        "action": "The rocky world's tallest protrusion sinks into its bulk.",
+        "camera": "push-in",
+        "mood": "Fascinating and calm, glowing orange seams beneath grey rock."
+      },
+      {
+        "id": "4gjxm8",
+        "narration": "So our imaginary flat Earth would collapse inward.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab with a restored disk-shaped Earth hologram above the platform, no people on its surface, no text.",
+        "action": "The disk collapses into a compact rounded mass.",
+        "camera": "pull-out",
+        "mood": "Spectacular but reassuring, colourful flowing material, soft blue illumination."
+      },
+      {
+        "id": "p2e73z",
+        "narration": "[surprised] Gravity would reshape it into a roughly spherical planet.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a lumpy planetary hologram, no text.",
+        "action": "The holographic planet settles into a sphere.",
+        "camera": "orbit",
+        "mood": "Satisfying transformation, luminous blues and greens, delighted robot eyes."
+      },
+      {
+        "id": "1aqluj",
+        "narration": "Mountains can remain, but they're tiny compared with Earth.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram showing a curved Earth horizon with rugged mountains, no text.",
+        "action": "The holographic view zooms out until the mountains become barely visible.",
+        "camera": "static",
+        "mood": "Wonder at scale, crisp rocky detail fading into a smooth blue globe."
+      },
+      {
+        "id": "yuvtcx",
+        "narration": "Earth isn't perfectly spherical, but it certainly isn't flat.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a realistic Earth hologram, subtly wider around its equator, no text.",
+        "action": "Nova traces the planet's curved outline with one finger.",
+        "camera": "pan-right",
+        "mood": "Cheerful discovery, bright ocean colours, soft white clouds."
+      },
+      {
+        "id": "kg2t8e",
+        "narration": "[excited] Gravity rounds stars, too! What if Earth had no Moon?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a spherical golden star hologram beside a smaller Earth and Moon hologram, no text.",
+        "action": "The holographic Moon fades away.",
+        "camera": "push-in",
+        "mood": "Surprising and inviting, golden starlight beside a mysterious blue Earth."
+      }
+    ],
+    "endHook": "What if Earth had no Moon?",
+    "createdAt": "2026-11-12T20:21:20.370Z",
+    "description": "What if Earth were flat? Dr. Nova shows Byte why gravity prevents a planet-sized disk from staying flat—and why planets become round.",
+    "tags": [
+      "What If Lab",
+      "Earth",
+      "gravity",
+      "planets",
+      "science",
+      "animation",
+      "YouTube Shorts"
+    ]
+  }
+}

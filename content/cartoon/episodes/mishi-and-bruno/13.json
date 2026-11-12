@@ -1,0 +1,167 @@
+{
+  "number": 13,
+  "topic": "A trip to the vet: Mishi is nervous and Bruno shows her how to be brave.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:14:23.807Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi & Bruno: Brave Little Steps",
+    "shots": [
+      {
+        "id": "t10c8k",
+        "narration": "Vet trip today—but Mishi won't go near her carrier!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Cosy colourful hallway, open rounded pet carrier on a soft rug, vertical 9:16 composition.",
+        "action": "Mishi peeks around Bruno at the open carrier.",
+        "camera": "push-in",
+        "mood": "Warm morning light, Mishi's ears slightly lowered, Bruno's face gentle."
+      },
+      {
+        "id": "fakims",
+        "narration": "The carrier looks unfamiliar, and Mishi feels wobbly inside.",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Hallway rug beside the open carrier, rounded furniture in the background.",
+        "action": "Mishi draws one lifted paw back against her chest.",
+        "camera": "static",
+        "mood": "Soft golden lighting, uncertain green eyes, cosy and reassuring."
+      },
+      {
+        "id": "lfbdwf",
+        "narration": "[chuckles] Bruno volunteers to show her how easy it is.",
+        "characters": [
+          "bruno",
+          "mishi"
+        ],
+        "scene": "Open carrier on the hallway rug, Mishi sitting nearby.",
+        "action": "Bruno pokes his large black nose into the carrier doorway.",
+        "camera": "low-angle",
+        "mood": "Playful rounded shapes, Bruno's floppy ears framing his oversized nose."
+      },
+      {
+        "id": "tj4jfj",
+        "narration": "His nose fits perfectly. The rest? Not quite!",
+        "characters": [
+          "bruno",
+          "mishi"
+        ],
+        "scene": "Hallway carrier entrance, clearly smaller than Bruno's chubby body.",
+        "action": "Bruno sits proudly with only his nose inside the doorway.",
+        "camera": "pull-out",
+        "mood": "Bright friendly comedy, Mishi's eyes softening with amusement."
+      },
+      {
+        "id": "5s7vmx",
+        "narration": "Mishi has an idea: make the unfamiliar feel familiar.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Hallway rug, a small familiar yellow blanket beside the carrier.",
+        "action": "Mishi points one paw toward the yellow blanket.",
+        "camera": "pan-right",
+        "mood": "Thoughtful expression, warm colours, a small spark of confidence."
+      },
+      {
+        "id": "qs8bhx",
+        "narration": "[excited] Bruno adds her favourite blanket.",
+        "characters": [
+          "bruno",
+          "mishi"
+        ],
+        "scene": "Open carrier on the rug, empty padded interior clearly visible.",
+        "action": "Bruno pushes the yellow blanket into the carrier with his nose.",
+        "camera": "static",
+        "mood": "Cosy golden light, soft blanket folds, eager helpful puppy."
+      },
+      {
+        "id": "3g8q4c",
+        "narration": "Then he waits nearby, without rushing her.",
+        "characters": [
+          "bruno",
+          "mishi"
+        ],
+        "scene": "Hallway floor beside the blanket-lined carrier.",
+        "action": "Bruno lies down beside the carrier entrance.",
+        "camera": "pan-left",
+        "mood": "Relaxed floppy ears, patient eyes, peaceful warm lighting."
+      },
+      {
+        "id": "425bdg",
+        "narration": "Mishi tries one tiny step.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Close view of the open carrier doorway and yellow blanket.",
+        "action": "Mishi places one front paw onto the blanket inside.",
+        "camera": "push-in",
+        "mood": "Careful green-eyed concentration, Bruno resting quietly beside her."
+      },
+      {
+        "id": "9enloe",
+        "narration": "[whispers] Another little step. Bruno stays right beside her.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Blanket-lined carrier in the sunny hallway, doorway fully open.",
+        "action": "Mishi steps completely into the carrier.",
+        "camera": "static",
+        "mood": "Gentle anticipation, relaxed whiskers, soft sunlight across grey fur."
+      },
+      {
+        "id": "mxvlem",
+        "narration": "She can still feel nervous and do something brave.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Inside the open carrier, Bruno visible just beyond its rounded doorway.",
+        "action": "Mishi touches her pink nose to Bruno's black nose.",
+        "camera": "push-in",
+        "mood": "Tender friendship, bright green eyes, warm reflected light."
+      },
+      {
+        "id": "1bckld",
+        "narration": "Now her little travel nook feels cosy.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Hallway carrier with yellow blanket, open front door revealing the sunny garden.",
+        "action": "Mishi curls comfortably onto the blanket.",
+        "camera": "pull-out",
+        "mood": "Contented kitten, proud puppy nearby, inviting morning sunshine."
+      },
+      {
+        "id": "nryhkw",
+        "narration": "[excited] Bravery grows together; next comes Mishi's gentle checkup!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Cosy hallway beside the open front door, Mishi resting inside her open carrier.",
+        "action": "Bruno sits beside Mishi's carrier with his chest proudly lifted.",
+        "camera": "low-angle",
+        "mood": "Hopeful smiles, soft golden garden light, reassuring best-friend closeness."
+      }
+    ],
+    "endHook": "Next, Mishi and Bruno get ready for her gentle checkup!",
+    "createdAt": "2026-11-12T20:14:23.806Z",
+    "description": "Mishi feels nervous about her vet trip, so Bruno helps her practise getting comfortable in her carrier. Together, they discover that bravery can begin with one tiny step.",
+    "tags": [
+      "Mishi and Bruno",
+      "kids cartoon",
+      "vet visit",
+      "friendship",
+      "being brave",
+      "kitten and puppy"
+    ]
+  }
+}

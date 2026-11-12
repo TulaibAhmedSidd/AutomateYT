@@ -1,0 +1,133 @@
+{
+  "number": 15,
+  "topic": "What if mosquitoes vanished? Fewer diseases like malaria, but some fish and birds that eat them would lose food.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:21:25.913Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If Mosquitoes Vanished?",
+    "shots": [
+      {
+        "id": "14icln",
+        "narration": "What if mosquitoes vanished?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, vertical frame, glowing mosquito hologram between Nova and Byte, no text.",
+        "action": "Nova swipes the mosquito hologram into sparkling empty space.",
+        "camera": "push-in",
+        "mood": "Bright turquoise light, wide-eyed curiosity."
+      },
+      {
+        "id": "azcmj7",
+        "narration": "Without mosquito bites, mosquito-borne diseases would spread far less.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Vertical lab view with a holographic globe surrounded by mosquito silhouettes and red disease particles, no text.",
+        "action": "Nova dims the mosquito silhouettes and their connected disease particles.",
+        "camera": "orbit",
+        "mood": "Hopeful green glow, clean colourful surfaces."
+      },
+      {
+        "id": "trnr6x",
+        "narration": "[excited] That includes malaria, carried by infected mosquitoes.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a magnified hologram of a mosquito containing glowing malaria parasites, no text.",
+        "action": "Nova highlights the parasites inside the holographic mosquito.",
+        "camera": "push-in",
+        "mood": "Clear golden illumination, fascinated expressions."
+      },
+      {
+        "id": "8m2nd9",
+        "narration": "But mosquitoes also belong to food webs.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Vertical lab frame with a holographic pond, mosquito larvae, adult mosquitoes, fish and birds connected by glowing lines, no text.",
+        "action": "Nova expands the pond hologram above the lab table.",
+        "camera": "pull-out",
+        "mood": "Lush greens and blues, thoughtful discovery."
+      },
+      {
+        "id": "8wsbo0",
+        "narration": "Some fish eat mosquito larvae living in water.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab beside a large underwater pond hologram, tiny mosquito larvae near the surface and a small fish below, no text.",
+        "action": "A holographic fish snaps up a mosquito larva.",
+        "camera": "pan-right",
+        "mood": "Sunlit water, gentle natural movement."
+      },
+      {
+        "id": "fat37u",
+        "narration": "[surprised] Some birds eat adult mosquitoes, so they'd lose food.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a pond hologram showing a bird above reeds and glowing mosquito silhouettes, no text.",
+        "action": "Nova fades the mosquito silhouettes from the bird's feeding area.",
+        "camera": "static",
+        "mood": "Soft amber light, thoughtful concern without danger."
+      },
+      {
+        "id": "7xh162",
+        "narration": "Scientists think many predators could switch to other prey.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Vertical lab view of a holographic pond with fish, birds and several other small insects, no text.",
+        "action": "Nova illuminates alternative feeding connections in the hologram.",
+        "camera": "pan-left",
+        "mood": "Fresh green glow, cautiously hopeful."
+      },
+      {
+        "id": "ttq674",
+        "narration": "Their larvae also help recycle nutrients in water.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab with a magnified pond hologram showing mosquito larvae beside floating organic particles, no text.",
+        "action": "A holographic larva filters tiny organic particles from the water.",
+        "camera": "push-in",
+        "mood": "Sparkling blue water, quiet fascination."
+      },
+      {
+        "id": "o8rg6w",
+        "narration": "[surprised] Some mosquitoes pollinate flowers—what if bees vanished next?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab, vertical close-up of a flower hologram with a mosquito touching pollen and a separate glowing bee model, no text.",
+        "action": "Nova enlarges the bee model beside the flower.",
+        "camera": "pull-out",
+        "mood": "Sunny yellow and purple glow, delighted anticipation."
+      }
+    ],
+    "endHook": "Some mosquitoes pollinate flowers—what if bees vanished next?",
+    "createdAt": "2026-11-12T20:21:25.911Z",
+    "description": "Dr. Nova shows Byte a world without mosquitoes: fewer diseases, but missing meals for some fish and birds. Explore the surprising roles these tiny insects play in nature.",
+    "tags": [
+      "What If Lab",
+      "mosquitoes",
+      "malaria",
+      "food webs",
+      "science",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "number": 4,
+  "topic": "Pay yourself first: move savings out on payday, before you spend.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:08:44.312Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "Pay Yourself First",
+    "shots": [
+      {
+        "id": "1m3cx4",
+        "narration": "Does your payday money disappear before you save?",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Vertical 9:16, bright 3D modern cafe, empty clear savings jar beside an empty coin tray, no text or signs.",
+        "action": "Kash tips the empty coin tray toward herself.",
+        "camera": "push-in",
+        "mood": "Raised eyebrows, puzzled expression, warm pastel lighting."
+      },
+      {
+        "id": "2or8hj",
+        "narration": "Let's rewind: payday arrives, and spending looks tempting.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical 9:16, same cafe table, ten plain gold money tokens on a tray beside an empty savings jar and a coffee cup, no markings.",
+        "action": "Kash reaches toward the coffee cup.",
+        "camera": "pan-right",
+        "mood": "Eager smile, inviting cafe colours."
+      },
+      {
+        "id": "3upby6",
+        "narration": "[excited] Coin's idea: move savings out first, before spending.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical 9:16, bright cafe tabletop with ten plain money tokens, an empty clear jar and a coffee cup, no text.",
+        "action": "Coin slides the empty savings jar in front of Kash.",
+        "camera": "low-angle",
+        "mood": "Coin beams brightly while Kash watches with curious eyes."
+      },
+      {
+        "id": "8mzqtt",
+        "narration": "Here's an example: ten coins arrive on payday.",
+        "characters": [
+          "coin"
+        ],
+        "scene": "Vertical 9:16, clean cafe tabletop, ten plain gold money tokens arranged separately on a tray, empty clear jar nearby, no text.",
+        "action": "Coin presents the ten tokens with outstretched arms.",
+        "camera": "pull-out",
+        "mood": "Clear, cheerful demonstration with bright soft lighting."
+      },
+      {
+        "id": "bdyec4",
+        "narration": "In this example, two go straight into savings.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Vertical 9:16, cafe table with ten plain gold money tokens and an empty clear savings jar, no markings or text.",
+        "action": "Coin drops two tokens into the savings jar.",
+        "camera": "push-in",
+        "mood": "Satisfying golden sparkle, Kash's attentive smile."
+      },
+      {
+        "id": "pm8k8d",
+        "narration": "[chuckles] Now spending comes after saving, not before.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical 9:16, cafe table, two tokens inside a clear savings jar, eight remaining on a tray beside a coffee cup, no text.",
+        "action": "Kash draws the tray of remaining tokens toward the coffee cup.",
+        "camera": "pan-left",
+        "mood": "Relaxed smile, friendly warm cafe lighting."
+      },
+      {
+        "id": "7m0u3z",
+        "narration": "Those example savings already have their own place.",
+        "characters": [
+          "coin"
+        ],
+        "scene": "Vertical 9:16, close view of a clear jar holding two plain gold tokens, coffee cup softly blurred behind it, no text.",
+        "action": "Coin points at the two saved tokens.",
+        "camera": "static",
+        "mood": "Proud cheerful grin, clean golden highlights."
+      },
+      {
+        "id": "1y0v9m",
+        "narration": "That's paying yourself first: savings before spending.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical 9:16, bright cafe table with savings jar, remaining-token tray, coffee cup and Kash's small blank notebook, no text.",
+        "action": "Kash opens her blank notebook beside the savings jar.",
+        "camera": "orbit",
+        "mood": "Confident smile, calm and practical atmosphere."
+      },
+      {
+        "id": "6xyq6s",
+        "narration": "[excited] Today, draw your savings jar; next, let's build a payday routine.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical 9:16, close view of a blank notebook beside the clear savings jar in the bright cafe, no letters, numbers or captions.",
+        "action": "Kash draws a simple jar outline in her notebook.",
+        "camera": "push-in",
+        "mood": "Encouraging smiles, bright optimistic colours."
+      }
+    ],
+    "endHook": "Next episode: turn your savings move into a simple payday routine.",
+    "createdAt": "2026-11-12T20:08:44.310Z",
+    "description": "Kash nearly spends her payday money before saving any. Coin demonstrates paying yourself first: moving savings out on payday, before spending, using a simple example.",
+    "tags": [
+      "Coin & Kash",
+      "money basics",
+      "pay yourself first",
+      "saving",
+      "payday"
+    ]
+  }
+}

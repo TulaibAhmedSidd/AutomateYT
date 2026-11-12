@@ -1,0 +1,142 @@
+{
+  "number": 9,
+  "topic": "Fatima al-Fihri founded al-Qarawiyyin in Fez, Morocco, in 859 CE. It is recognised as the oldest existing, continually operating educational institution in the world. Show the courtyard, books and the city of Fez. Show Fatima only from far away or from behind.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:17:37.132Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Fatima al-Fihri aur Al-Qarawiyyin | Tareekh ke Roshan Safhay",
+    "shots": [
+      {
+        "id": "hw0eqw",
+        "narration": "اریبہ، ایک ایسا تعلیمی ادارہ ہے جو آج بھی چلتا ہے!",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated family-film style. Pakistani home with floor cushions, an oil lamp and a miniature Moroccan courtyard on a low table. Nana has a neat white beard, round glasses, cream kurta and brown waistcoat. Areeba wears a light-pink dupatta and yellow shalwar kameez. No text or l",
+        "action": "Nana points toward the miniature courtyard.",
+        "camera": "push-in",
+        "mood": "Golden lamplight, inviting expressions, gentle curiosity."
+      },
+      {
+        "id": "1w3h7w",
+        "narration": "اتنے عرصے تک علم کی روشنی کیسے جلتی رہی؟",
+        "characters": [
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the same cozy home, miniature courtyard and closed unmarked books on the low table, warm 3D animation. No text or lettering.",
+        "action": "Areeba leans closer to inspect the miniature.",
+        "camera": "static",
+        "mood": "Raised eyebrows, thoughtful wonder, soft amber light."
+      },
+      {
+        "id": "6b8u1m",
+        "narration": "[excited] چلو، مراکش کے شہر فاس کی سیر کرتے ہیں!",
+        "characters": [],
+        "scene": "Vertical 9:16, panoramic view of Fez, Morocco, with closely packed earth-toned rooftops, tiled courtyards and distant green hills, warm 3D animated family-film style. Empty streets, no figures, no signs or lettering.",
+        "action": "A flock of birds glides above the rooftops.",
+        "camera": "pan-right",
+        "mood": "Clear golden morning, peaceful discovery."
+      },
+      {
+        "id": "ldcos6",
+        "narration": "یہاں فاطمہ الفہری نے القرویین کی بنیاد رکھی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, an unoccupied architectural view of al-Qarawiyyin in Fez, white courtyard walls, carved arches and green roof tiles, warm 3D animation. No people, silhouettes, inscriptions or lettering.",
+        "action": "Sunlight spreads across the courtyard floor.",
+        "camera": "push-in",
+        "mood": "Respectful stillness, luminous white stone, quiet pride."
+      },
+      {
+        "id": "mps46v",
+        "narration": "یہ 859 عیسوی کی بات ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of traditional masonry and a carved geometric arch at al-Qarawiyyin, warm 3D animation. No people, dates, inscriptions or lettering.",
+        "action": "A soft band of sunlight moves over the stonework.",
+        "camera": "low-angle",
+        "mood": "Warm stone textures, calm historical reflection."
+      },
+      {
+        "id": "356xa4",
+        "narration": "[whispers] اس صحن کی خاموشی کتنی پیاری ہے!",
+        "characters": [],
+        "scene": "Vertical 9:16, empty al-Qarawiyyin courtyard with a central fountain, pale paving and surrounding arches, warm 3D animated family-film style. No figures, inscriptions or lettering.",
+        "action": "Water ripples across the fountain basin.",
+        "camera": "pan-left",
+        "mood": "Soft reflections, cool shade, gentle serenity."
+      },
+      {
+        "id": "pecqqm",
+        "narration": "یہ کتابیں ہمیں علم کی قدر یاد دلاتی ہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, illustrative book still life beside an arched courtyard window, closed leather-bound volumes with plain unmarked covers and spines, warm 3D animation. No people or lettering.",
+        "action": "A loose blank page lifts gently in the breeze.",
+        "camera": "push-in",
+        "mood": "Honey-colored sunlight, carefully preserved objects, quiet appreciation."
+      },
+      {
+        "id": "t8u1n6",
+        "narration": "وقت گزرتا رہا، مگر سیکھنے کا سلسلہ جاری رہا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, fixed view across the empty al-Qarawiyyin courtyard, fountain and surrounding arches, warm 3D animation. No people, inscriptions or lettering.",
+        "action": "Courtyard shadows sweep slowly across the paving in a time-lapse.",
+        "camera": "static",
+        "mood": "Changing golden light, a gentle sense of passing time."
+      },
+      {
+        "id": "ip90ib",
+        "narration": "[surprised] اور القرویین آج بھی ایک تعلیمی ادارہ ہے!",
+        "characters": [],
+        "scene": "Vertical 9:16, present-day architectural view of al-Qarawiyyin amid the rooftops of Fez, green tiles and sunlit courtyard, warm 3D animation. No people, signs or lettering.",
+        "action": "A leafy branch sways in the foreground.",
+        "camera": "pull-out",
+        "mood": "Fresh daylight, enduring beauty, reassuring warmth."
+      },
+      {
+        "id": "7cblgs",
+        "narration": "اسے دنیا کا قدیم ترین، مسلسل چلتا تعلیمی ادارہ مانتے ہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, wide elevated view of al-Qarawiyyin's courtyard and surrounding Fez cityscape, warm 3D animated family-film style. No figures, inscriptions or lettering.",
+        "action": "Cloud shadows drift over the surrounding rooftops.",
+        "camera": "orbit",
+        "mood": "Expansive golden view, calm admiration."
+      },
+      {
+        "id": "5guj20",
+        "narration": "دیکھا اریبہ، علم کا سفر آج بھی جاری ہے۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, return to the cozy Pakistani home, miniature courtyard and a closed plain book on the table. Nana wears his cream kurta and brown waistcoat; Areeba wears her pink dupatta and yellow shalwar kameez. Warm 3D animation, no lettering.",
+        "action": "Nana slides the closed book toward Areeba.",
+        "camera": "pull-out",
+        "mood": "Affectionate smiles, warm lamplight, satisfying discovery."
+      },
+      {
+        "id": "gr3g8p",
+        "narration": "[excited] اگلی بار جانیں، پرانے زمانے میں کتابیں کیسے بنتی تھیں؟",
+        "characters": [
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, close view of Areeba at the home table beside a plain closed book, blank paper sheets and an unmarked reed pen, warm 3D animation. No text or lettering.",
+        "action": "Areeba picks up the reed pen.",
+        "camera": "push-in",
+        "mood": "Bright curious eyes, gentle anticipation, golden light."
+      }
+    ],
+    "endHook": "Purane zamane mein kitabein kaise banti theen?",
+    "createdAt": "2026-11-12T20:17:37.131Z",
+    "description": "نانا ابو، اریبہ کو فاطمہ الفہری کے قائم کردہ القرویین کی کہانی سناتے ہیں۔ مراکش کے شہر فاس کے صحنوں اور کتابوں کے ذریعے دنیا کے قدیم ترین، مسلسل چلتے تعلیمی ادارے کا سفر دیکھیے۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Fatima al-Fihri",
+      "Al-Qarawiyyin",
+      "Fez",
+      "Urdu stories for kids",
+      "Islamic history"
+    ]
+  }
+}

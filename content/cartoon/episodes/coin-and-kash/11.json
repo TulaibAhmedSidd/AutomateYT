@@ -1,0 +1,130 @@
+{
+  "number": 11,
+  "topic": "Diversification: do not put all your eggs in one basket.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:09:37.970Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "Diversification: One Basket Problem",
+    "shots": [
+      {
+        "id": "0bsn3g",
+        "narration": "All your eggs, one basket—what could go wrong?",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Bright modern kitchen, vertical 9:16 3D animation, one overflowing egg basket on a small table, no text.",
+        "action": "Kash lifts the overflowing basket.",
+        "camera": "push-in",
+        "mood": "Sunny kitchen, precariously stacked white eggs, Kash's wide confident smile."
+      },
+      {
+        "id": "sf5hsp",
+        "narration": "Kash's basket starts wobbling on the way to breakfast.",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Clean modern kitchen beside a breakfast counter, vertical 9:16, no text.",
+        "action": "Kash wobbles the overloaded basket in her hands.",
+        "camera": "pan-right",
+        "mood": "Tilted basket, raised eyebrows, playful suspense."
+      },
+      {
+        "id": "wtxjae",
+        "narration": "[surprised] Oops! Every egg was riding in that one basket.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Kitchen breakfast counter with an overturned basket, vertical 9:16, no text.",
+        "action": "The eggs tumble from Kash's basket onto the counter.",
+        "camera": "static",
+        "mood": "Cartoon splashes of yolk, Kash's startled face, Coin's concerned expression."
+      },
+      {
+        "id": "j2lykd",
+        "narration": "Coin explains: diversification means spreading investments across different baskets.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Bright kitchen table with several small empty baskets, vertical 9:16, no text.",
+        "action": "Coin gestures across the row of baskets.",
+        "camera": "pull-out",
+        "mood": "Friendly gold glow, Kash leaning forward with curious eyes."
+      },
+      {
+        "id": "k64pky",
+        "narration": "For example, imagine ten coins together in one basket.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Kitchen tabletop with ten plain gold tokens in one basket and another empty basket, vertical 9:16, no markings or text.",
+        "action": "Coin points at the basket holding all ten tokens.",
+        "camera": "push-in",
+        "mood": "Clear uncluttered arrangement, bright gold tokens, attentive expressions."
+      },
+      {
+        "id": "maqew9",
+        "narration": "[excited] Move five here: now everything isn't in one place.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Kitchen tabletop with two small baskets and ten plain gold tokens, vertical 9:16, no text.",
+        "action": "Coin slides five tokens into the second basket.",
+        "camera": "orbit",
+        "mood": "Two clearly separated groups, cheerful faces, bright friendly colours."
+      },
+      {
+        "id": "4xq5ml",
+        "narration": "The point isn't these baskets; it's avoiding one big pile.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Modern kitchen table with the two token baskets spaced apart, vertical 9:16, no text.",
+        "action": "Kash gestures between the two separated baskets.",
+        "camera": "static",
+        "mood": "Kash's understanding smile, Coin's approving expression, balanced composition."
+      },
+      {
+        "id": "23kk7d",
+        "narration": "Kash gets it: don't put every egg together.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Breakfast counter with fresh eggs and two small baskets, vertical 9:16, no text.",
+        "action": "Kash places eggs into the second basket.",
+        "camera": "pan-left",
+        "mood": "Neatly arranged breakfast setting, relaxed shoulders, warm smiles."
+      },
+      {
+        "id": "f28hnn",
+        "narration": "[chuckles] Sketch your baskets today; next, what goes inside?",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright kitchen table with Kash's open notebook, vertical 9:16, pages containing only simple basket drawings, no letters or text.",
+        "action": "Kash draws several empty basket shapes in her notebook.",
+        "camera": "push-in",
+        "mood": "Inviting blank basket drawings, Kash's curious smile, Coin peeking eagerly besid"
+      }
+    ],
+    "endHook": "Next episode: what goes inside those baskets?",
+    "createdAt": "2026-11-12T20:09:37.969Z",
+    "description": "Kash learns diversification through a tiny egg-basket mishap. Coin uses a simple example to explain spreading investments instead of putting everything in one place. General money education, not personal financial advice.",
+    "tags": [
+      "Coin & Kash",
+      "diversification",
+      "money education",
+      "financial literacy",
+      "animation",
+      "Shorts"
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "number": 8,
+  "topic": "Mano is afraid of the dark; Sheru helps her with a torch and a story.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:12:11.562Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Mano Ko Andheray Se Dar Lagta Hai!",
+    "shots": [
+      {
+        "id": "rcbeut",
+        "narration": "ارے، مانو اپنی گیند لینے کیوں نہیں جا رہی؟",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani courtyard at dusk, neem tree, blue ball in a dim corner, rounded friendly 3D family animation, no text.",
+        "action": "Mano stretches one paw toward the distant ball while keeping her body behind a flowerpot.",
+        "camera": "push-in",
+        "mood": "Gentle curiosity, soft blue shadows, nothing threatening."
+      },
+      {
+        "id": "rg27ub",
+        "narration": "شام ہو گئی، اور صحن میں اندھیرا بڑھنے لگا۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, same courtyard beneath the neem tree, fading peach sky, warm house windows, blue ball in the shaded corner, no text.",
+        "action": "Mano looks up at the fading sky.",
+        "camera": "pull-out",
+        "mood": "Quiet evening, cosy home, mild uncertainty."
+      },
+      {
+        "id": "qk32oo",
+        "narration": "[whispers] مانو بولی، مجھے اندھیرے سے ڈر لگتا ہے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard doorstep beside a flowerpot, Sheru sitting near Mano, soft warm window light, no text.",
+        "action": "Mano nestles against Sheru's shoulder.",
+        "camera": "static",
+        "mood": "Tender reassurance, friendly faces, soft rounded shapes."
+      },
+      {
+        "id": "axzqy7",
+        "narration": "شیرو بولا، میں تمہارے ساتھ ہوں، یہ ٹارچ دیکھو۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, same doorstep, small plain yellow torch beside Sheru, warm windows behind them, no text.",
+        "action": "Sheru lifts the yellow torch in one front paw.",
+        "camera": "low-angle",
+        "mood": "Kind confidence, comforting golden light."
+      },
+      {
+        "id": "icgswv",
+        "narration": "ٹارچ کی روشنی میں صحن کا راستہ صاف دکھائی دیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard floor leading toward the blue ball, neem leaves overhead, no text.",
+        "action": "Sheru sweeps the torch beam along the clear floor toward the ball.",
+        "camera": "pan-right",
+        "mood": "Reassuring visibility, soft-edged light, familiar surroundings."
+      },
+      {
+        "id": "sifgrk",
+        "narration": "[surprised] اچھا، یہاں تو بس ہمارے گملے رکھے ہیں!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, ordinary terracotta flowerpots illuminated beside the blue ball, Sheru holding the torch behind Mano, no text.",
+        "action": "Mano peeks around the nearest flowerpot.",
+        "camera": "push-in",
+        "mood": "Relieved surprise, colourful pots, gentle evening glow."
+      },
+      {
+        "id": "y5y1si",
+        "narration": "شیرو بولا، پہلے ایک ننھے بیج کی کہانی سنو۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, woven courtyard mat beside a pot containing a tiny neem seedling, torch resting securely on the ground, no text.",
+        "action": "Sheru points toward the tiny seedling.",
+        "camera": "static",
+        "mood": "Cosy storytelling, warm friendship, soft torchlight."
+      },
+      {
+        "id": "rfsfh5",
+        "narration": "ننھا بیج آہستہ آہستہ بڑھ کر ایک مضبوط درخت بن گیا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, tiny potted neem seedling in the foreground and the courtyard's mature neem tree behind it, no text.",
+        "action": "Sheru gestures upward toward the mature neem tree.",
+        "camera": "low-angle",
+        "mood": "Wonder and encouragement, leafy canopy against a peaceful evening sky."
+      },
+      {
+        "id": "3s7jc1",
+        "narration": "[excited] مانو بولی، میں بھی ذرا ہمت کر کے دیکھوں!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard mat facing the illuminated path, blue ball visible beside the pots, Sheru nearby, no text.",
+        "action": "Mano takes one small step toward the ball.",
+        "camera": "push-in",
+        "mood": "Growing confidence, bright blue eyes, supportive companionship."
+      },
+      {
+        "id": "aq1bsq",
+        "narration": "شیرو نے روشنی دکھائی، تو مانو اپنی گیند لے آئی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, clear courtyard path lit by Sheru's yellow torch, familiar flowerpots behind Mano, no text.",
+        "action": "Mano carries the blue ball toward Sheru.",
+        "camera": "pan-left",
+        "mood": "Small happy triumph, gentle light, relaxed ears."
+      },
+      {
+        "id": "x34nge",
+        "narration": "مانو بولی، شکریہ شیرو، اب مجھے کم ڈر لگتا ہے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard mat beneath the neem tree, retrieved ball between the friends, torch glowing on the ground, no text.",
+        "action": "Mano rubs her cheek against Sheru's shoulder.",
+        "camera": "orbit",
+        "mood": "Affectionate relief, peaceful evening, warm family-film colours."
+      },
+      {
+        "id": "ev2o3e",
+        "narration": "[excited] ساتھ سے ہمت ملتی ہے؛ اگلی بار چھت پر پتنگ اُڑائیں گے!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, cosy courtyard doorstep, plain colourful kite and spool beside Mano and Sheru, blue ball and yellow torch nearby, no text.",
+        "action": "Mano points toward the colourful kite.",
+        "camera": "pull-out",
+        "mood": "Safe togetherness and cheerful anticipation."
+      }
+    ],
+    "endHook": "اگلی بار مانو اور شیرو چھت پر پتنگ اُڑائیں گے!",
+    "createdAt": "2026-11-12T20:12:11.561Z",
+    "description": "مانو کی گیند صحن کے اندھیرے کونے میں چلی گئی، مگر وہ وہاں جانے سے گھبرا رہی تھی۔ شیرو نے ٹارچ اور ایک پیاری سی کہانی سے اس کی ہمت بڑھائی۔ دوستی ہو تو مشکل بھی آسان لگتی ہے!",
+    "tags": [
+      "Mano aur Sheru",
+      "Urdu cartoon",
+      "Pakistani kids",
+      "Friendship",
+      "Bedtime story"
+    ]
+  }
+}

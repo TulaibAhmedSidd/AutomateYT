@@ -1,0 +1,133 @@
+{
+  "number": 1,
+  "topic": "What if the Moon disappeared? Tides would become much smaller, nights much darker, and scientists think Earth's tilt would wobble more over very long times.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:20:05.223Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If the Moon Disappeared?",
+    "shots": [
+      {
+        "id": "888qq4",
+        "narration": "What if the Moon disappeared?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, vertical composition, Earth-and-Moon hologram between Nova and Byte, no text.",
+        "action": "Nova swipes the holographic Moon out of existence.",
+        "camera": "push-in",
+        "mood": "Bright cyan glow, wide-eyed curiosity, playful mystery."
+      },
+      {
+        "id": "jw63o3",
+        "narration": "First, oceans would lose the Moon's gravitational pull.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a large holographic Earth, curved oceans and luminous gravitational connection to a translucent Moon, no text.",
+        "action": "Nova extinguishes the glowing connection between the Moon and Earth's oceans.",
+        "camera": "orbit",
+        "mood": "Clear scientific demonstration, vivid blue oceans, curious robot eyes."
+      },
+      {
+        "id": "v5j827",
+        "narration": "[surprised] Tides would become much smaller, but wouldn't vanish!",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram showing an unoccupied coastal rock pool with translucent high-water and low-water surfaces, no text.",
+        "action": "Nova narrows the gap between the holographic water surfaces.",
+        "camera": "push-in",
+        "mood": "Intriguing discovery, sparkling turquoise water, warm lab lighting."
+      },
+      {
+        "id": "52zp6b",
+        "narration": "The Sun's gravity would keep some tides going.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with an enlarged Sun-and-Earth hologram and gently bulging blue oceans, no text.",
+        "action": "Nova traces the luminous gravitational connection from the Sun to Earth.",
+        "camera": "pan-right",
+        "mood": "Sunny gold and ocean blue, reassuring scientific wonder."
+      },
+      {
+        "id": "1g23hh",
+        "narration": "Without moonlight, nights would become much darker.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab containing a tall immersive hologram of an empty moonlit countryside beneath a starry sky, no text.",
+        "action": "Nova dims the holographic landscape by removing its moonlight.",
+        "camera": "pull-out",
+        "mood": "Deep indigo shadows, peaceful darkness, softly glowing laboratory edges."
+      },
+      {
+        "id": "a86dnl",
+        "narration": "[excited] Stars would stand out against those darker skies.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Darkened lab with a towering holographic night sky, crisp stars above an unoccupied meadow, no text.",
+        "action": "Byte points toward the stars in Nova's hologram.",
+        "camera": "low-angle",
+        "mood": "Sparkling celestial beauty, delighted blue robot eyes, quiet wonder."
+      },
+      {
+        "id": "n2i35d",
+        "narration": "The Moon also helps steady Earth's tilt.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a tilted holographic Earth, a luminous unmarked axis and the Moon beside it, no text.",
+        "action": "Nova rotates the Earth hologram around its steady tilted axis.",
+        "camera": "orbit",
+        "mood": "Balanced composition, clean glowing geometry, thoughtful curiosity."
+      },
+      {
+        "id": "o08r55",
+        "narration": "Scientists think Earth's tilt would wobble more over very long times.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram of moonless Earth surrounded by faint overlapping possible axis orientations, no text.",
+        "action": "Nova slowly rocks the holographic axis through the faint possible orientations.",
+        "camera": "static",
+        "mood": "Gentle speculative visualization, calm violet glow, attentive expressions."
+      },
+      {
+        "id": "juw12s",
+        "narration": "[surprised] Sunlight? No, solar gravity keeps tides—what if the Sun disappeared?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a brilliant Sun hologram above Earth and a small coastal tide model, no text.",
+        "action": "Nova enlarges the glowing Sun hologram.",
+        "camera": "push-in",
+        "mood": "Golden scientific surprise, playful anticipation, bright curious faces."
+      }
+    ],
+    "endHook": "What if the Sun disappeared?",
+    "createdAt": "2026-11-12T20:20:05.222Z",
+    "description": "Dr. Nova shows Byte how losing the Moon would change tides, darken nights, and possibly affect Earth's tilt over very long times. Explore the surprising influence of our closest celestial neighbor!",
+    "tags": [
+      "What If Lab",
+      "Moon",
+      "space",
+      "science",
+      "tides",
+      "Earth",
+      "animation"
+    ]
+  }
+}

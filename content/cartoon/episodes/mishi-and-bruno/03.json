@@ -1,0 +1,162 @@
+{
+  "number": 3,
+  "topic": "They find a baby bird that fell from its nest and get a grown-up to help put it back safely.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:13:18.377Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi & Bruno: A Little Bird Needs Help",
+    "shots": [
+      {
+        "id": "4uy5jt",
+        "narration": "Something tiny was peeping underneath the garden shrub!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny garden, dense flowering shrub beside a low branching tree, vertical 9:16, warm 3D family animation, no text.",
+        "action": "Mishi parts the outer leaves, leaving the shrub's interior concealed.",
+        "camera": "push-in",
+        "mood": "Bright flowers framing a mysterious leafy opening."
+      },
+      {
+        "id": "ghfizs",
+        "narration": "A baby bird had fallen, hidden among the leaves.",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Ground-level view beside the shrub, soft grass beneath dense overlapping leaves, bird entirely offscreen.",
+        "action": "Mishi crouches beside the shrub without reaching inside.",
+        "camera": "low-angle",
+        "mood": "Mishi's wide green eyes and gently tilted ears show concern."
+      },
+      {
+        "id": "puyzei",
+        "narration": "[surprised] Bruno wanted to scoop the little bird right up.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Grassy edge of the flowering shrub, leafy interior concealed, rounded colourful garden beyond.",
+        "action": "Bruno extends one paw toward the shrub.",
+        "camera": "push-in",
+        "mood": "Floppy ears lifted and brows raised with eager concern."
+      },
+      {
+        "id": "1lcjzh",
+        "narration": "Mishi gently stopped him. They needed a grown-up.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Beside the dense garden shrub, warm sunlight on a clear patch of grass.",
+        "action": "Mishi rests her paw on Bruno's extended paw.",
+        "camera": "static",
+        "mood": "Gentle eye contact and relaxed paws."
+      },
+      {
+        "id": "1h0vne",
+        "narration": "Above them, its nest rested between two low branches.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Low tree fork above the shrub, small twig nest screened by leaves, no bird visible.",
+        "action": "Mishi points toward the leafy nest.",
+        "camera": "pull-out",
+        "mood": "Sunlit branches connect the hidden ground spot to the nest."
+      },
+      {
+        "id": "rshle9",
+        "narration": "[excited] Bruno hurried to fetch help from inside.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Short garden path leading to an open kitchen doorway, cosy colourful interior beyond, nobody else visible.",
+        "action": "Bruno trots toward the open doorway.",
+        "camera": "pan-right",
+        "mood": "Purposeful little steps and bouncing floppy ears."
+      },
+      {
+        "id": "xkaa7m",
+        "narration": "He called until a grown-up answered from inside.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Open kitchen doorway viewed from the garden, interior beyond the threshold concealed by the door angle.",
+        "action": "Bruno barks toward the unseen room.",
+        "camera": "static",
+        "mood": "Bruno stands tall with an earnest, open-mouthed expression."
+      },
+      {
+        "id": "3zu3hq",
+        "narration": "Mishi waited nearby, giving the little bird plenty of space.",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Wide garden view with Mishi several steps from the dense shrub, baby bird entirely concealed.",
+        "action": "Mishi settles onto the grass.",
+        "camera": "pull-out",
+        "mood": "Still paws, soft eyes, and a generous clear space around the shrub."
+      },
+      {
+        "id": "2j04ll",
+        "narration": "[whispers] Together, they waited while the grown-up checked the bird.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Garden path facing away from the shrub, grown-up and bird entirely outside the frame.",
+        "action": "Bruno sits beside Mishi.",
+        "camera": "static",
+        "mood": "Two patient friends with attentive ears and neatly tucked paws."
+      },
+      {
+        "id": "uvw0nb",
+        "narration": "The grown-up safely returned the little bird to its nest.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "View from behind the friends toward the low tree fork, nest interior fully screened by leaves, grown-up offscreen.",
+        "action": "Mishi tilts her face toward the nest.",
+        "camera": "push-in",
+        "mood": "Warm sunlight surrounds the sheltered nest and the friends' relaxed silhouettes."
+      },
+      {
+        "id": "tb7suz",
+        "narration": "Then, a familiar rattle came from their watering can.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny garden path, rounded yellow watering can beside a flowerpot, leafy tree in the background.",
+        "action": "Bruno turns his head toward the watering can.",
+        "camera": "pan-left",
+        "mood": "One floppy ear lifted beside the bright yellow can."
+      },
+      {
+        "id": "ymnovg",
+        "narration": "[excited] Ask grown-ups for help! Next, what's rattling in our watering can?",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Close garden view of the yellow watering can between the two friends, vertical 9:16, no markings or text.",
+        "action": "Mishi leans toward the watering can's opening.",
+        "camera": "push-in",
+        "mood": "Curious green eyes, Bruno's playful head tilt, and warm golden light."
+      }
+    ],
+    "endHook": "What's rattling inside their watering can?",
+    "createdAt": "2026-11-12T20:13:18.375Z",
+    "description": "A tiny peep leads Mishi and Bruno to a baby bird beneath a garden shrub. They keep their distance and ask a grown-up to help reunite it with its nest.",
+    "tags": [
+      "Mishi and Bruno",
+      "kids cartoon",
+      "animal kindness",
+      "asking for help",
+      "garden adventure"
+    ]
+  }
+}

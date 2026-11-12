@@ -1,0 +1,128 @@
+{
+  "number": 15,
+  "topic": "Teaching kids about money: three jars, one to save, one to spend and one to share.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:09:45.016Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "Three Jars, Three Money Jobs",
+    "shots": [
+      {
+        "id": "l3hmef",
+        "narration": "Can three empty jars turn money confusion into a plan?",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Bright 3D animated city apartment, vertical 9:16 frame, three empty glass jars on a table, no text.",
+        "action": "Kash lifts three empty jars together on a small tray.",
+        "camera": "push-in",
+        "mood": "Curious expression, raised eyebrows, warm morning light."
+      },
+      {
+        "id": "ej9owm",
+        "narration": "Kash has coins, but they're all mixed together.",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Modern apartment table with a loose pile of plain gold coins beside three empty jars, no text.",
+        "action": "Kash nudges the loose coin pile with one finger.",
+        "camera": "static",
+        "mood": "Puzzled face, tilted head, bright friendly colours."
+      },
+      {
+        "id": "htlzkm",
+        "narration": "[excited] Coin has an idea: save, spend and share!",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Apartment tabletop with three glass jars featuring blue, orange and pink bases, no text.",
+        "action": "Coin sweeps one tiny arm toward the three jars.",
+        "camera": "pan-right",
+        "mood": "Coin smiles widely while Kash watches with an attentive expression."
+      },
+      {
+        "id": "t6zfmc",
+        "narration": "The saving jar holds money for something later.",
+        "characters": [
+          "coin"
+        ],
+        "scene": "Close view of the blue-based glass jar on the apartment table, other jars softly blurred, no text.",
+        "action": "Coin slides a plain gold coin into the blue-based jar.",
+        "camera": "push-in",
+        "mood": "Gentle blue highlights, cheerful smile, calm anticipation."
+      },
+      {
+        "id": "0ehoit",
+        "narration": "The spending jar holds money for buying things.",
+        "characters": [
+          "coin"
+        ],
+        "scene": "Close view of the orange-based glass jar beside a small unmarked shopping basket, no text.",
+        "action": "Coin slides a plain gold coin into the orange-based jar.",
+        "camera": "pan-left",
+        "mood": "Warm orange accents, welcoming light, practical and cheerful."
+      },
+      {
+        "id": "rhir7z",
+        "narration": "[chuckles] The sharing jar holds money to help others.",
+        "characters": [
+          "coin"
+        ],
+        "scene": "Close view of the pink-based glass jar with a simple raised heart shape, no text.",
+        "action": "Coin slides a plain gold coin into the pink-based jar.",
+        "camera": "low-angle",
+        "mood": "Soft pink glow, kind smile, bright friendly surroundings."
+      },
+      {
+        "id": "ardkr0",
+        "narration": "For example, Kash divides six coins: two in each jar.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Apartment tabletop with the three coloured jars now empty and six plain coins on a tray, no text.",
+        "action": "Kash distributes the six coins evenly among the three jars.",
+        "camera": "pull-out",
+        "mood": "Focused smile, tidy composition, clear sparkling glass."
+      },
+      {
+        "id": "lpk1n2",
+        "narration": "Now each jar has a different money job.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Three coloured jars holding two coins each on a tidy apartment shelf, no text.",
+        "action": "Kash gives the three jars a satisfied thumbs-up.",
+        "camera": "orbit",
+        "mood": "Relieved grin, Coin smiling beside the jars, sunny golden light."
+      },
+      {
+        "id": "f1ow5j",
+        "narration": "[excited] Today, choose three jars; next time, Kash puts them to work!",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright apartment table with three empty jars on a tray in the foreground, no text.",
+        "action": "Kash presents the tray of jars toward the viewer.",
+        "camera": "push-in",
+        "mood": "Inviting smile, Coin beaming beside her, playful bright colours."
+      }
+    ],
+    "endHook": "Next time, Kash puts her three jars to work!",
+    "createdAt": "2026-11-12T20:09:45.014Z",
+    "description": "Coin helps Kash explore a simple way to teach kids about money: jars for saving, spending and sharing. This everyday story offers general money education, not personal financial advice.",
+    "tags": [
+      "Coin & Kash",
+      "money education",
+      "kids and money",
+      "three jars",
+      "saving",
+      "spending",
+      "sharing"
+    ]
+  }
+}

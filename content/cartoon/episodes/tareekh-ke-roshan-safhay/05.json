@@ -1,0 +1,147 @@
+{
+  "number": 5,
+  "topic": "Baghdad was founded in 762 CE by the Abbasid caliph al-Mansur as a perfectly round city on the river Tigris. Show the round walls, four gates, markets and the river.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:17:22.311Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Baghdad Ka Gol Shehar | Tareekh ke Roshan Safhay",
+    "shots": [
+      {
+        "id": "tb2pa6",
+        "narration": "اریبہ، کبھی بالکل گول شہر کے بارے میں سنا ہے؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated family film look. A cozy Pakistani home with an oil lamp and a plain circular wooden city model on a low table. Nana and Areeba sit beside it. No writing, symbols, or captions.",
+        "action": "Nana points at the circular city model.",
+        "camera": "push-in",
+        "mood": "Golden lamplight, inviting curiosity, gentle grandfatherly warmth."
+      },
+      {
+        "id": "h9l1pi",
+        "narration": "یہ بغداد تھا، دریائے دجلہ کے کنارے بسا ہوا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, warm 3D animated historical landscape. A perfectly circular walled Baghdad stands beside the broad Tigris, with the river outside the circular enclosure. Gardens and sandy land surround it. No people or writing.",
+        "action": "The river flows beside the city.",
+        "camera": "pan-right",
+        "mood": "Soft golden sunlight, peaceful discovery, spacious river landscape."
+      },
+      {
+        "id": "58q1dh",
+        "narration": "[excited] عباسی خلیفہ المنصور نے بغداد کی بنیاد ۷۶۲ عیسوی میں رکھی۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated home interior. Nana and Areeba sit at a low table holding a plain clay landscape model with a circular city and a blue river channel. No historical figures, writing, or symbols.",
+        "action": "Nana places the circular city model beside the blue river channel.",
+        "camera": "static",
+        "mood": "Warm lamplight, proud storytelling, attentive calm."
+      },
+      {
+        "id": "s37omz",
+        "narration": "اس کی دیواریں ایک پورا دائرہ بناتی تھیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, warm 3D animated bird's-eye view of historic Baghdad. Continuous circular earthen-brick walls enclose the city, interrupted by four evenly spaced gateways. The Tigris remains outside the walls. No people or writing.",
+        "action": "A soft cloud shadow passes across the circular enclosure.",
+        "camera": "pull-out",
+        "mood": "Clear golden daylight, geometric beauty, quiet wonder."
+      },
+      {
+        "id": "y4ykth",
+        "narration": "مگر اتنی بڑی دیوار کے اندر لوگ کیسے جاتے تھے؟",
+        "characters": [
+          "areeba",
+          "nana"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated home interior. Areeba studies the high circular wall of the tabletop model while Nana sits beside her. No writing or symbols.",
+        "action": "Areeba leans closer to the model's wall.",
+        "camera": "push-in",
+        "mood": "Gentle puzzlement, warm lamplight, playful curiosity."
+      },
+      {
+        "id": "2bv3td",
+        "narration": "[excited] اس کے لیے شہر میں چار دروازے تھے!",
+        "characters": [],
+        "scene": "Vertical 9:16, warm 3D animated overhead view of the entire circular city model. Exactly four large gateways interrupt its ring wall, each connected to a clear inward road. No labels, writing, or people.",
+        "action": "The four model gate doors swing open together.",
+        "camera": "static",
+        "mood": "Bright golden light, satisfying discovery, clear visual answer."
+      },
+      {
+        "id": "o6r52e",
+        "narration": "ان دروازوں سے شہر کے اندر راستے جاتے تھے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, warm 3D animated view through an open historic Baghdad gateway. A broad road continues between earthen-brick buildings toward the city interior. No people, signs, or writing.",
+        "action": "A light breeze lifts the edge of a plain gateway awning.",
+        "camera": "push-in",
+        "mood": "Welcoming sunlight, calm exploration, impressive architecture."
+      },
+      {
+        "id": "ait8ig",
+        "narration": "اور بازاروں میں ضرورت کی چیزیں ملتی تھیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, warm 3D animated historic market lane with shaded stalls displaying plain pottery, woven baskets, folded cloth, and fruit. No people, labels, decorative lettering, or signs.",
+        "action": "A plain cloth canopy sways above the market stalls.",
+        "camera": "pan-left",
+        "mood": "Rich earthy colors, inviting abundance, peaceful everyday life."
+      },
+      {
+        "id": "fz4q7c",
+        "narration": "[whispers] قریب ہی دریائے دجلہ کا پانی بہتا تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, warm 3D animated Tigris riverbank. Reeds frame the foreground, with Baghdad's curved outer wall visible inland beyond the bank. No people, writing, or symbols.",
+        "action": "Gentle ripples spread across the river.",
+        "camera": "static",
+        "mood": "Quiet golden reflections, soothing natural beauty, restful wonder."
+      },
+      {
+        "id": "1s6so4",
+        "narration": "گول دیواریں، چار دروازے، بازار، اور ساتھ بہتا دریا!",
+        "characters": [],
+        "scene": "Vertical 9:16, warm 3D animated elevated overview of circular Baghdad beside the Tigris. The complete ring wall, exactly four gateways, inward roads, and market awnings are clearly visible. No people or writing.",
+        "action": "Market awnings flutter gently inside the walls.",
+        "camera": "orbit",
+        "mood": "Radiant late-afternoon light, coherent grandeur, peaceful pride."
+      },
+      {
+        "id": "xh8ify",
+        "narration": "اب اریبہ سمجھ گئی کہ گول بغداد کیسا دکھتا تھا۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated home interior. The completed circular city model sits beside its blue river channel, with four open gateways and miniature market stalls. Nana watches Areeba with a gentle smile. No writing.",
+        "action": "Areeba traces the model's circular wall with one finger.",
+        "camera": "pull-out",
+        "mood": "Cozy lamplight, satisfying understanding, affectionate family calm."
+      },
+      {
+        "id": "t2ge9n",
+        "narration": "[excited] اگلی بار جانیں، دریا کے راستے سفر کیسے ہوتا تھا؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated home interior. Nana and Areeba sit beside the city model and blue river channel. A small plain wooden boat rests in Nana's hand. No writing, symbols, or captions.",
+        "action": "Nana places the little wooden boat on the model river.",
+        "camera": "push-in",
+        "mood": "Golden lamplight, gentle anticipation, an inviting new mystery."
+      }
+    ],
+    "endHook": "Darya ke raaste safar kaise hota tha?",
+    "createdAt": "2026-11-12T20:17:22.310Z",
+    "description": "نانا ابو کے ساتھ جانیے بغداد کی کہانی، جس کی بنیاد عباسی خلیفہ المنصور نے ۷۶۲ عیسوی میں رکھی۔ دجلہ کنارے بسے اس گول شہر کی دیواریں، چار دروازے اور بازار دیکھیے۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Baghdad",
+      "Islamic History for Kids",
+      "Urdu Stories",
+      "Round City",
+      "Tigris"
+    ]
+  }
+}

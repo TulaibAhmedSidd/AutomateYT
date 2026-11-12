@@ -1,0 +1,132 @@
+{
+  "number": 9,
+  "topic": "How to spot a scam: guaranteed high returns, pressure to act fast, and asking you to keep it secret.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:09:04.982Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "Coin & Kash: Three Scam Warning Signs",
+    "shots": [
+      {
+        "id": "ynzpe3",
+        "narration": "That tempting money offer might hide three scam warning signs.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright modern cafe, vertical 9:16, clean 3D animation; blank gold envelope beside Kash's cup, no text or logos.",
+        "action": "Kash reaches toward the glittering envelope.",
+        "camera": "push-in",
+        "mood": "Tempting golden glow with a faint red shadow."
+      },
+      {
+        "id": "9l8mcv",
+        "narration": "Coin helps Kash examine the offer before handing over money.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe tabletop with a blank gold envelope and a small stack of coins, no text or markings.",
+        "action": "Coin places a tiny magnifying glass over the envelope.",
+        "camera": "static",
+        "mood": "Friendly curiosity with bright turquoise accents."
+      },
+      {
+        "id": "7nyuak",
+        "narration": "[surprised] Guaranteed high returns? That's the first warning sign.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe table with an imaginary oversized coin pile beneath a transparent dome, no text or markings.",
+        "action": "Coin points toward the oversized pile beneath the dome.",
+        "camera": "low-angle",
+        "mood": "Exaggerated golden sparkle edged with warning-red light."
+      },
+      {
+        "id": "8ic3fv",
+        "narration": "Next, the offer pressures Kash to act fast.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe table with the gold envelope beside a large hourglass, no text or numerals.",
+        "action": "Kash hurriedly slides her coin stack toward the envelope.",
+        "camera": "pan-right",
+        "mood": "Tense orange lighting and nearly empty hourglass."
+      },
+      {
+        "id": "vvxyk9",
+        "narration": "Coin spots the second warning sign: that hurry.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Close view of the cafe tabletop, hourglass and gold envelope visible, no text.",
+        "action": "Coin raises one palm between Kash's hand and the envelope.",
+        "camera": "push-in",
+        "mood": "Calm blue light interrupts the orange tension."
+      },
+      {
+        "id": "g6d3e5",
+        "narration": "[whispers] Then comes, 'Keep it secret.' That's warning sign three.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe table with a floating closed padlock beside a simple mouth-shaped symbol, no letters or text.",
+        "action": "Coin points toward the closed padlock.",
+        "camera": "static",
+        "mood": "Secretive purple shadows with a clear red warning glow."
+      },
+      {
+        "id": "hqsdbl",
+        "narration": "Guaranteed high returns, hurry, secrecy: Kash recognizes the warning signs.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Cafe table beneath three floating symbols: domed coin pile, hourglass, and locked mouth, no text.",
+        "action": "Kash pulls her coin stack back toward herself.",
+        "camera": "pull-out",
+        "mood": "Relieved daylight returns as the red glow fades."
+      },
+      {
+        "id": "tqd3cr",
+        "narration": "Today, check a money offer for these three warning signs.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright cafe table with Kash's open notebook showing only three simple pictograms, no writing.",
+        "action": "Kash taps the three warning pictograms in her notebook.",
+        "camera": "orbit",
+        "mood": "Practical, reassuring, and warmly lit."
+      },
+      {
+        "id": "l5jj0i",
+        "narration": "[excited] Next time, can you spot the warning signs with us?",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright cafe table with three blank envelopes and the closed notebook, vertical 9:16, no text.",
+        "action": "Coin fans out the three blank envelopes toward the viewer.",
+        "camera": "push-in",
+        "mood": "Playful anticipation with cheerful gold and turquoise colours."
+      }
+    ],
+    "endHook": "Next episode: Coin and Kash practice spotting the warning signs together.",
+    "createdAt": "2026-11-12T20:09:04.981Z",
+    "description": "Coin helps Kash spot three scam warning signs: guaranteed high returns, pressure to act fast, and demands for secrecy. General money education with one simple action to try today.",
+    "tags": [
+      "Coin and Kash",
+      "scam awareness",
+      "money education",
+      "financial literacy",
+      "animation",
+      "Shorts"
+    ]
+  }
+}

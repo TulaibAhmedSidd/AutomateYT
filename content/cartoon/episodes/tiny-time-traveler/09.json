@@ -1,0 +1,164 @@
+{
+  "number": 9,
+  "topic": "July 1969: Apollo 11 landed on the Moon, and Neil Armstrong became the first person to walk on it.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:19:24.654Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: Moonprint Mystery",
+    "shots": [
+      {
+        "id": "irg7y0",
+        "narration": "Golden sparkles, blue flashes—where did the ground go?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation; gray lunar ground beneath a black sky, bright sunlight, swirling golden time-jump sparkles.",
+        "action": "Zoya materializes beside Tock just above the dusty ground.",
+        "camera": "push-in",
+        "mood": "Brilliant blue glow, golden glitter, wide-eyed surprise."
+      },
+      {
+        "id": "6sn71l",
+        "narration": "Zoya and Tock have reached the Moon!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, sunlit lunar hollow; Zoya wears a transparent sealed spacesuit over her yellow hoodie and cargo shorts, with her black ponytail visible.",
+        "action": "Zoya settles her space boots onto the gray surface.",
+        "camera": "low-angle",
+        "mood": "Bright silver terrain, friendly wonder, crisp shadows."
+      },
+      {
+        "id": "3dlc9r",
+        "narration": "[excited] It's July 1969, and Apollo 11 has landed here!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, cinematic lunar hollow; a low dusty ridge blocks the horizon, with a small glint of gold beyond it.",
+        "action": "Tock points toward the distant gold glint.",
+        "camera": "pan-right",
+        "mood": "Sunlit dust, gleaming brass, eager curiosity."
+      },
+      {
+        "id": "672uon",
+        "narration": "But this ridge hides the landing site.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, base of a gently sloping lunar ridge, gray rocks and sharply defined shadows.",
+        "action": "Zoya stretches upward to peer over the ridge.",
+        "camera": "static",
+        "mood": "Playful frustration, raised eyebrows, bright sunlight."
+      },
+      {
+        "id": "r81wyo",
+        "narration": "Zoya spots a gentle path around it.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, curved open route beside the lunar ridge, clear of rocks and footprints.",
+        "action": "Zoya points along the open route.",
+        "camera": "pan-left",
+        "mood": "Clear inviting path, hopeful smiles, warm helmet reflections."
+      },
+      {
+        "id": "26wfpi",
+        "narration": "[giggles] Tock's tiny legs are ready for exploring!",
+        "characters": [
+          "tock"
+        ],
+        "scene": "Vertical 9:16, close view of untouched gray lunar soil beside the ridge; Tock has a brass body, glass face, and spring tail.",
+        "action": "Tock takes an exaggerated step along the path.",
+        "camera": "low-angle",
+        "mood": "Bouncy pose, cheerful glass face, sparkling brass."
+      },
+      {
+        "id": "dunemj",
+        "narration": "Around the ridge, something golden comes into view.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, ridge opening onto Apollo 11's lunar module, gold-colored foil and landing legs, without visible lettering, flags, or logos.",
+        "action": "Zoya rounds the edge of the ridge.",
+        "camera": "pull-out",
+        "mood": "Spectacular sunlit reveal, shining gold against gray terrain."
+      },
+      {
+        "id": "8nidt1",
+        "narration": "There it is: Apollo 11's lunar lander.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, wide lunar landing site; unmarked gold-and-silver lunar module in the background, no astronauts visible.",
+        "action": "Tock raises his tiny arms toward the lander.",
+        "camera": "orbit",
+        "mood": "Triumphant discovery, bright metallic reflections, welcoming adventure."
+      },
+      {
+        "id": "kwfyfc",
+        "narration": "[whispers] Look—bootprints in the Moon's dust!",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Vertical 9:16, close view of patterned astronaut bootprints near the lunar module; Zoya stands on untouched ground beside them.",
+        "action": "Zoya crouches beside the bootprints.",
+        "camera": "push-in",
+        "mood": "Quiet amazement, delicate dust texture, soft blue watch glow."
+      },
+      {
+        "id": "o4ul82",
+        "narration": "Neil Armstrong became the first person to walk on the Moon.",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic close-up of astronaut boot impressions in gray lunar dust, with a lander footpad softly visible behind them; no people or lettering.",
+        "action": "The camera reveals a trail of bootprints across the dust.",
+        "camera": "pan-right",
+        "mood": "Respectful wonder, crisp sunlight, extraordinary detail."
+      },
+      {
+        "id": "f72a4f",
+        "narration": "Zoya leaves the historic footprints untouched.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, lunar landing site with historic bootprints clearly separated from Zoya and Tock's route.",
+        "action": "Zoya steps back onto her own path.",
+        "camera": "pull-out",
+        "mood": "Satisfied smiles, careful discovery, golden lander gleaming behind them."
+      },
+      {
+        "id": "frfjrw",
+        "narration": "[excited] Tock asks, 'Where to next?'",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, sunlit lunar ridge; Zoya's blue wristwatch glows as golden time-travel sparkles gather around both travelers.",
+        "action": "Tock tilts his round glass face toward Zoya's glowing watch.",
+        "camera": "push-in",
+        "mood": "Eager eyes, brilliant blue light, swirling golden anticipation."
+      }
+    ],
+    "endHook": "The blue watch sparkles again—where will their next adventure begin?",
+    "createdAt": "2026-11-12T20:19:24.652Z",
+    "description": "Zoya and Tock time-jump to the Moon in July 1969! A dusty ridge hides their discovery as they explore Apollo 11’s landing and learn about Neil Armstrong’s first steps.",
+    "tags": [
+      "Tiny Time Traveler",
+      "Apollo 11",
+      "Moon",
+      "space adventure",
+      "history for kids",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

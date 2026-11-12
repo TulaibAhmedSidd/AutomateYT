@@ -1,0 +1,117 @@
+{
+  "number": 4,
+  "topic": "Axolotl: a Mexican salamander that can regrow its legs, tail and even parts of its heart.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:21:53.436Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Axolotl: The Amazing Regrower!",
+    "shots": [
+      {
+        "id": "b2u3wp",
+        "narration": "Did you know this animal can regrow its legs?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated Mexican freshwater canal, clear water beneath a sunny bank, no text.",
+        "action": "Kiko points toward a cute, anatomically accurate axolotl beneath the water.",
+        "camera": "push-in",
+        "mood": "Sunny greens, sparkling water, wide-eyed discovery."
+      },
+      {
+        "id": "6sd2d4",
+        "narration": "Meet the axolotl, a salamander from Mexico!",
+        "characters": [],
+        "scene": "Vertical underwater view of the same freshwater canal, soft aquatic plants and sandy bottom, natural 3D animation.",
+        "action": "The axolotl walks slowly across the sandy bottom.",
+        "camera": "pan-right",
+        "mood": "Bright filtered sunlight, peaceful and inviting."
+      },
+      {
+        "id": "mqk4a9",
+        "narration": "[surprised] But how much of itself can it regrow?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical view beside the clear canal, Kiko crouched on the safe grassy bank, Pip beside his hat.",
+        "action": "Kiko raises his hands in a questioning gesture.",
+        "camera": "static",
+        "mood": "Curious expressions, warm sunlight, playful mystery."
+      },
+      {
+        "id": "rgyd1p",
+        "narration": "A lost leg can grow back.",
+        "characters": [],
+        "scene": "Vertical educational 3D visualization against a soft aqua background, an axolotl-shaped translucent outline with one leg represented only by a dotted contour, no wounds or text.",
+        "action": "The outlined leg gradually fills into a complete leg.",
+        "camera": "push-in",
+        "mood": "Gentle pastel lighting, clear and reassuring discovery."
+      },
+      {
+        "id": "1mszft",
+        "narration": "Its tail can regrow, too!",
+        "characters": [],
+        "scene": "Vertical educational 3D visualization against the same aqua background, axolotl silhouette with a dotted tail contour, no wounds or text.",
+        "action": "The dotted tail contour gradually fills into a complete tail.",
+        "camera": "pan-right",
+        "mood": "Bright aqua tones, friendly scientific wonder."
+      },
+      {
+        "id": "71fm8w",
+        "narration": "[excited] Even parts of its heart can regrow!",
+        "characters": [],
+        "scene": "Vertical simplified educational visualization, translucent axolotl silhouette containing a small non-graphic heart model with one softly outlined region, no text.",
+        "action": "The outlined heart region fills to complete the model.",
+        "camera": "push-in",
+        "mood": "Warm pink and aqua lighting, gentle amazement."
+      },
+      {
+        "id": "zp8h7v",
+        "narration": "That's an extraordinary rebuilding superpower!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical view of the sunny canal bank, Kiko in his green safari hat and pocketed khaki vest, Pip hovering nearby.",
+        "action": "Kiko spreads his arms in amazement.",
+        "camera": "pull-out",
+        "mood": "Delighted faces, bright natural colors, joyful payoff."
+      },
+      {
+        "id": "1qt8kf",
+        "narration": "We'll leave our amazing friend peacefully at home.",
+        "characters": [],
+        "scene": "Vertical underwater canal view, healthy axolotl with all limbs intact among soft green aquatic plants.",
+        "action": "The axolotl swims gently into the plants.",
+        "camera": "static",
+        "mood": "Peaceful sunbeams, calm water, affectionate farewell."
+      },
+      {
+        "id": "5g5si2",
+        "narration": "[whispers] Next comes an animal with natural armor. Can you guess?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical sunny woodland path beside the canal, Kiko holding his big binoculars, Pip near his shoulder, no other animals or text.",
+        "action": "Kiko lifts his binoculars toward the distant woodland.",
+        "camera": "low-angle",
+        "mood": "Golden sunlight, eager anticipation, inviting mystery."
+      }
+    ],
+    "endHook": "Next time, meet an animal with natural armor. Can you guess?",
+    "createdAt": "2026-11-12T20:21:53.434Z",
+    "description": "Kiko and Pip discover a Mexican salamander with an extraordinary superpower. Meet the axolotl, which can regrow legs, its tail, and even parts of its heart!",
+    "tags": [
+      "Wild Superpowers",
+      "axolotl",
+      "animal facts",
+      "nature for kids",
+      "salamander",
+      "3D animation"
+    ]
+  }
+}

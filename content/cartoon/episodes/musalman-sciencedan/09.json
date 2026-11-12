@@ -1,0 +1,158 @@
+{
+  "number": 9,
+  "topic": "Al-Biruni (973-1050 CE) estimated the size of the Earth using a mountain, the horizon and simple geometry, and his answer was very close to the real value.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:15:42.068Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Al-Biruni: Pahaar Se Zameen Ki Pemaish!",
+    "shots": [
+      {
+        "id": "16m6y3",
+        "narration": "پورا چکر لگائے بغیر زمین کا سائز کیسے پتا چلے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated library with brass instruments and blank closed manuscripts; a glowing unlabelled Earth floats above a table, no text anywhere.",
+        "action": "Hamza spreads his arms around the enormous floating Earth.",
+        "camera": "push-in",
+        "mood": "Friendly wonder, warm amber light and soft blue planetary glow."
+      },
+      {
+        "id": "3yp4tr",
+        "narration": "نوری نے حمزہ کو البیرونی کی تحقیق دکھائی۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library opening into a luminous historical projection of a rocky mountain; Al-Biruni appears only as a small respectful cartoon figure seen from behind, no writing.",
+        "action": "Noori projects the mountain scene across the library.",
+        "camera": "pull-out",
+        "mood": "Inviting discovery, golden projector light."
+      },
+      {
+        "id": "vvf3ep",
+        "narration": "[surprised] اتنی بڑی زمین، اور بس ایک پہاڑ؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, immersive projected mountain landscape with a broad distant horizon, family-film 3D style, no text.",
+        "action": "Hamza tilts his head toward the towering summit.",
+        "camera": "low-angle",
+        "mood": "Playful disbelief, peaceful sunlit landscape."
+      },
+      {
+        "id": "hj0397",
+        "narration": "زمین اتنی بڑی ہے کہ اس کا خم چھپ جاتا ہے۔",
+        "characters": [
+          "hamza"
+        ],
+        "scene": "Vertical 9:16, educational projection showing Hamza beside a tiny patch of ground on a huge curved Earth, unlabelled and without markings.",
+        "action": "The projected view pulls back from flat-looking ground to reveal Earth's curve.",
+        "camera": "pull-out",
+        "mood": "Clear visual discovery, soft blue and green light."
+      },
+      {
+        "id": "dyaim1",
+        "narration": "البیرونی نے پہلے پہاڑ کی اونچائی معلوم کی۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected mountain profile with a distant rear-view historical scholar at its base; an unlabelled luminous triangle connects the ground and summit, no numbers or letters.",
+        "action": "Noori traces a glowing vertical line from the mountain's base to its summit.",
+        "camera": "pan-right",
+        "mood": "Focused curiosity, warm stone and brass tones."
+      },
+      {
+        "id": "603mq0",
+        "narration": "[excited] پھر چوٹی سے دور افق کو دیکھا!",
+        "characters": [],
+        "scene": "Vertical 9:16, mountain summit above a wide unobstructed horizon; Al-Biruni is a small respectful rear-view cartoon figure beside a plain brass sighting instrument, no text.",
+        "action": "The distant scholar sights toward the horizon through the brass instrument.",
+        "camera": "push-in",
+        "mood": "Quiet concentration, clear sky and gentle sunlight."
+      },
+      {
+        "id": "56597a",
+        "narration": "جہاں زمین آسمان سے ملتی لگے، وہ افق ہے۔",
+        "characters": [
+          "hamza"
+        ],
+        "scene": "Vertical 9:16, Hamza within Noori's projected summit view, with a crisp distant boundary between land and sky, no labels.",
+        "action": "Hamza points toward the distant horizon.",
+        "camera": "pan-left",
+        "mood": "Simple recognition, airy blue light."
+      },
+      {
+        "id": "d2pad8",
+        "narration": "انہوں نے دیکھا، افق سیدھی نظر سے کتنا نیچے ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, projected side-view diagram at the summit; one unlabelled horizontal ray and one downward horizon sightline form a small glowing angle, no symbols or numbers.",
+        "action": "A glowing arc appears between the horizontal ray and the horizon sightline.",
+        "camera": "static",
+        "mood": "Precise and approachable, clean luminous geometry."
+      },
+      {
+        "id": "nc2mxk",
+        "narration": "[excited] اونچائی اور افق کے زاویے سے زمین کا سائز نکالا!",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, simplified unlabelled Earth cross-section with an exaggerated mountain, summit sightline tangent to the curved surface, and triangle joining Earth's centre, summit and horizon; no writing.",
+        "action": "Noori illuminates the triangle connecting Earth's centre, the summit and the horizon.",
+        "camera": "push-in",
+        "mood": "Satisfying scientific insight, glowing gold against deep blue."
+      },
+      {
+        "id": "r4y8a5",
+        "narration": "ان کا جواب اصل قدر کے بہت قریب تھا!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library with two unlabelled translucent Earth spheres side by side, one estimated and one reference, almost identical in size, no text.",
+        "action": "Noori slides the two spheres together until their outlines nearly overlap.",
+        "camera": "static",
+        "mood": "Rewarding discovery, cheerful blue and amber glow."
+      },
+      {
+        "id": "7xii7t",
+        "narration": "حمزہ سمجھ گیا، چھوٹی پیمائش سے بڑی بات کھل سکتی ہے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, cozy library table holding a small mountain model beside an unlabelled globe, blank notebook in Hamza's hand, no writing anywhere.",
+        "action": "Hamza places the mountain model beside the globe.",
+        "camera": "orbit",
+        "mood": "Proud understanding, warm and encouraging."
+      },
+      {
+        "id": "um1gb5",
+        "narration": "[whispers] اندھیرے کمرے میں باہر کا منظر کیسے دکھ سکتا ہے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, dark workshop with a tiny opening in a shutter and a faint inverted image of an outdoor tree on the opposite wall, no text.",
+        "action": "Hamza points at the upside-down tree image on the wall.",
+        "camera": "push-in",
+        "mood": "Gentle mystery, soft lantern glow and a narrow beam of daylight."
+      }
+    ],
+    "endHook": "Andhere kamre mein bahar ka manzar kaise nazar aa sakta hai?",
+    "createdAt": "2026-11-12T20:15:42.066Z",
+    "description": "حمزہ اور نوری کے ساتھ دیکھیے کہ البیرونی نے پہاڑ، افق اور جیومیٹری سے زمین کے سائز کا اندازہ کیسے لگایا۔ ان کا جواب اصل قدر کے بہت قریب تھا!",
+    "tags": [
+      "Musalman Sciencedan",
+      "Al-Biruni",
+      "Urdu Science",
+      "Science for Kids",
+      "3D Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

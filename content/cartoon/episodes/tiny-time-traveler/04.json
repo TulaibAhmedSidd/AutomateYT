@@ -1,0 +1,166 @@
+{
+  "number": 4,
+  "topic": "The Great Wall of China was built and rebuilt over many centuries by different dynasties; most of the wall people visit today was built in the Ming period.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:18:49.899Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: The Great Wall’s Big Story",
+    "shots": [
+      {
+        "id": "50144y",
+        "narration": "Golden sparkles! Where has Zoya’s watch brought them?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, sunlit Great Wall of China during the Ming period, broad stone walkway between tall parapets, green mountain ridges, cinematic 3D animation, no text.",
+        "action": "Zoya and Tock materialize together inside a swirl of golden sparkles and dust.",
+        "camera": "push-in",
+        "mood": "Brilliant blue watch glow against warm golden sunlight."
+      },
+      {
+        "id": "806uhq",
+        "narration": "They’ve reached the Great Wall of China!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, broad Great Wall walkway with protective parapets and distant mountain watchtowers, bright cinematic 3D animation, no text.",
+        "action": "Zoya spreads her arms toward the winding wall.",
+        "camera": "pull-out",
+        "mood": "Wide green mountain views beneath a clear blue sky."
+      },
+      {
+        "id": "43e4a7",
+        "narration": "[surprised] This wall wasn’t built all at once!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, Great Wall walkway beside textured masonry, distant wall following mountain ridges, cinematic 3D animation, no text.",
+        "action": "Zoya traces the distant wall’s winding shape with her finger.",
+        "camera": "pan-right",
+        "mood": "Sunlit stone textures and an astonished open-mouthed smile."
+      },
+      {
+        "id": "bnt3je",
+        "narration": "It was built and rebuilt over many centuries.",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Vertical 9:16, close view of Great Wall masonry along a sheltered walkway, warm sunlight, cinematic 3D animation, no text.",
+        "action": "Zoya gently rests her palm against the stone wall.",
+        "camera": "static",
+        "mood": "Soft golden light reveals rough stone surfaces."
+      },
+      {
+        "id": "j0u2ee",
+        "narration": "Different dynasties helped build and rebuild it.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, Great Wall walkway leading toward a masonry watchtower, mountain landscape beyond tall parapets, cinematic 3D animation, no text.",
+        "action": "Tock gestures along the wall with his spring tail.",
+        "camera": "pan-left",
+        "mood": "Warm brass highlights against sunlit gray masonry."
+      },
+      {
+        "id": "u946zs",
+        "narration": "[excited] Most wall people visit today was built during the Ming period!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, sweeping view along the Great Wall during the Ming period, sturdy parapets and watchtower, cinematic 3D animation, no text.",
+        "action": "Zoya points toward the nearby watchtower.",
+        "camera": "orbit",
+        "mood": "Bright sunlight and sparkling blue reflections from Zoya’s watch."
+      },
+      {
+        "id": "4nei6p",
+        "narration": "But Tock has a tiny problem.",
+        "characters": [
+          "tock"
+        ],
+        "scene": "Vertical 9:16, base of a stone stair on the Great Wall, enclosed by tall protective masonry, cinematic 3D animation, no text.",
+        "action": "Tock raises a tiny leg toward the tall step.",
+        "camera": "low-angle",
+        "mood": "A towering stone step above a small puzzled brass face."
+      },
+      {
+        "id": "uqgxzs",
+        "narration": "That step is enormous for his little legs!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, sheltered Great Wall stair landing, Zoya beside Tock at the bottom step, cinematic 3D animation, no text.",
+        "action": "Tock stretches his leg without reaching the step’s top.",
+        "camera": "push-in",
+        "mood": "Comically stretched posture in gentle afternoon sunlight."
+      },
+      {
+        "id": "42c8hn",
+        "narration": "[giggles] Luckily, Zoya has a helping hand.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, broad stone landing beside the Great Wall stairs, tall parapets, cinematic 3D animation, no text.",
+        "action": "Zoya offers her open palm beside Tock.",
+        "camera": "static",
+        "mood": "A reassuring smile and warm light on an outstretched hand."
+      },
+      {
+        "id": "yp72mg",
+        "narration": "Together, even a big step feels smaller.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, enclosed Great Wall stair landing, Zoya holding Tock securely in her palm, cinematic 3D animation, no text.",
+        "action": "Zoya lifts Tock onto the upper landing.",
+        "camera": "pan-right",
+        "mood": "Tock’s spring tail curls upward in a cheerful arc."
+      },
+      {
+        "id": "qvdybo",
+        "narration": "Centuries of building, and a little teamwork to explore!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, spacious Great Wall landing behind tall parapets, winding wall visible across green mountains, cinematic 3D animation, no text.",
+        "action": "Zoya raises her glowing blue wristwatch.",
+        "camera": "pull-out",
+        "mood": "Fresh golden sparkles gather around the blue watch glow."
+      },
+      {
+        "id": "xvsljw",
+        "narration": "[excited] Where to next?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, Great Wall landing surrounded by rising golden time-travel sparkles, green mountains beyond protective parapets, cinematic 3D animation, no text.",
+        "action": "Tock turns his round glass face toward Zoya to ask his question.",
+        "camera": "push-in",
+        "mood": "Bright expectant eyes reflected in glass amid swirling gold."
+      }
+    ],
+    "endHook": "Zoya’s watch glows again—another adventure is waiting!",
+    "createdAt": "2026-11-12T20:18:49.897Z",
+    "description": "Zoya and Tock sparkle onto the Great Wall of China during the Ming period. Discover how different dynasties built and rebuilt the wall over centuries—and why a little teamwork helps on a big adventure!",
+    "tags": [
+      "Tiny Time Traveler",
+      "Great Wall of China",
+      "Ming period",
+      "history for kids",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

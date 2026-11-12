@@ -1,0 +1,119 @@
+{
+  "number": 6,
+  "topic": "Electric eel: can make electric shocks of several hundred volts to stun fish and defend itself.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:21:55.861Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Wild Superpowers: The Electric Eel’s Secret!",
+    "shots": [
+      {
+        "id": "zoc6t3",
+        "narration": "Did you know an electric eel has a shocking superpower?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated Amazon riverbank, leafy jungle, murky freshwater, no text.",
+        "action": "Kiko raises his big binoculars toward the river.",
+        "camera": "push-in",
+        "mood": "Sunny green foliage, curious wide eyes, inviting adventure."
+      },
+      {
+        "id": "9m86db",
+        "narration": "But finding one in this murky water looks tricky.",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Sunny jungle riverbank, Kiko safely back from the muddy water, vertical 3D nature-film composition.",
+        "action": "Kiko peers through his binoculars at the cloudy river.",
+        "camera": "pan-right",
+        "mood": "Puzzled expression, warm sunlight, gentle mystery."
+      },
+      {
+        "id": "tneljg",
+        "narration": "[whispers] Electric eels live in South America's freshwater.",
+        "characters": [],
+        "scene": "Underwater Amazon river view, suspended sediment, submerged roots, one realistic cute electric eel, vertical 3D animation.",
+        "action": "The electric eel glides between submerged roots.",
+        "camera": "pan-left",
+        "mood": "Soft golden underwater light, quiet discovery."
+      },
+      {
+        "id": "daiyfk",
+        "narration": "They also breathe air, so they visit the surface.",
+        "characters": [],
+        "scene": "Split-level view of the jungle river surface, one electric eel beneath sunlit water, vertical 3D nature-film look.",
+        "action": "The electric eel lifts its mouth above the surface for air.",
+        "camera": "static",
+        "mood": "Clear surface reflections, peaceful and revealing."
+      },
+      {
+        "id": "yda4go",
+        "narration": "There it is! Watching from the bank keeps us safe.",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Wide jungle riverbank, Kiko and Pip well back from the edge, electric eel visible at the distant surface.",
+        "action": "Kiko points toward the surfaced electric eel.",
+        "camera": "pull-out",
+        "mood": "Delighted discovery, bright tropical sunshine."
+      },
+      {
+        "id": "s7x3ob",
+        "narration": "[surprised] It can make electric shocks of several hundred volts!",
+        "characters": [],
+        "scene": "Underwater close view of the electric eel, faint stylized golden pulse illustrating invisible electricity, no text or symbols.",
+        "action": "A soft illustrative pulse expands around the electric eel.",
+        "camera": "orbit",
+        "mood": "Wonder-filled golden light, exciting but gentle."
+      },
+      {
+        "id": "fkmfqr",
+        "narration": "Those shocks can stun fish and defend the eel.",
+        "characters": [],
+        "scene": "Murky freshwater among rounded stones and submerged roots, one electric eel, no other animals.",
+        "action": "The electric eel curves around a submerged root.",
+        "camera": "low-angle",
+        "mood": "Calm, confident animal portrait with soft sunbeams."
+      },
+      {
+        "id": "si3ajv",
+        "narration": "Mystery solved: this hidden swimmer has real electric power!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Sunny jungle riverbank, Kiko standing safely away from the water, Pip hovering beside his green safari hat.",
+        "action": "Kiko gives a delighted thumbs-up.",
+        "camera": "push-in",
+        "mood": "Broad smile, sparkling emerald feathers, cheerful discovery."
+      },
+      {
+        "id": "bjl4o0",
+        "narration": "[excited] Which animal carries its home everywhere? Guess our next animal!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Bright jungle path beside the river, vertical 3D animated nature-film framing, no text.",
+        "action": "Kiko spreads his hands in a questioning gesture.",
+        "camera": "pull-out",
+        "mood": "Playful raised eyebrows, sunny anticipation."
+      }
+    ],
+    "endHook": "Which animal carries its home wherever it goes? Guess next!",
+    "createdAt": "2026-11-12T20:21:55.860Z",
+    "description": "Kiko and Pip discover an electric eel hiding in murky freshwater. Explore its powerful electric shocks, its surprising need for air, and a truly wild superpower!",
+    "tags": [
+      "Wild Superpowers",
+      "electric eel",
+      "animal facts",
+      "kids science",
+      "nature",
+      "3D animation"
+    ]
+  }
+}

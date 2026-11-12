@@ -1,0 +1,164 @@
+{
+  "number": 15,
+  "topic": "Paris, 1889: the Eiffel Tower was built for a world fair and was the tallest structure in the world for about 40 years.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:20:06.035Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: Paris’s Sky-High Surprise",
+    "shots": [
+      {
+        "id": "3lrul1",
+        "narration": "Golden sparkles! A giant iron arch appears overhead!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Beneath the Eiffel Tower in Paris, 1889; bright sunlight, towering iron lattice, vertical 9:16, cinematic 3D animation, no lettering.",
+        "action": "Zoya and Tock materialize together inside a swirling cloud of golden time-jump sparkles.",
+        "camera": "low-angle",
+        "mood": "Dazzling golden dust beneath immense sunlit ironwork."
+      },
+      {
+        "id": "zzohxm",
+        "narration": "We've landed in Paris, 1889!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "A sunlit path beneath the completed Eiffel Tower; Zoya wears her yellow hoodie and cargo shorts beside brass pocket-watch robot Tock.",
+        "action": "Zoya spreads her arms toward the enormous tower legs.",
+        "camera": "pull-out",
+        "mood": "Bright welcoming sunlight and lingering blue watch glow."
+      },
+      {
+        "id": "pjrrbk",
+        "narration": "[surprised] But where's the top?",
+        "characters": [
+          "zoya"
+        ],
+        "scene": "Close beneath the Eiffel Tower, with its iron lattice extending beyond the upper edge of the vertical frame.",
+        "action": "Zoya tilts her head far upward.",
+        "camera": "push-in",
+        "mood": "Wide-eyed curiosity beneath an overwhelming iron canopy."
+      },
+      {
+        "id": "gsiah2",
+        "narration": "We're too close to see the whole tower!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "At the base of the Eiffel Tower, tightly framed by massive iron supports and pale sky.",
+        "action": "Zoya shades her eyes with one hand.",
+        "camera": "static",
+        "mood": "Gentle puzzlement, sparkling sunlight between iron beams."
+      },
+      {
+        "id": "h9qskc",
+        "narration": "Tock spots a clearer view beyond the trees.",
+        "characters": [
+          "tock"
+        ],
+        "scene": "A broad open path leading away from the Eiffel Tower toward a tree-bordered viewing area; no signs or lettering.",
+        "action": "Tock points his spring tail toward the open path.",
+        "camera": "pan-right",
+        "mood": "Inviting sunlit space framed by leafy green trees."
+      },
+      {
+        "id": "np4x6l",
+        "narration": "[excited] Let's step back!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "An open path extending away from the Eiffel Tower, with its lower structure behind the travelers.",
+        "action": "Zoya and Tock walk together away from the tower.",
+        "camera": "pan-left",
+        "mood": "Playful movement through warm sunshine and soft path dust."
+      },
+      {
+        "id": "ez7y4z",
+        "narration": "The Eiffel Tower was built for a world fair.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "A wider view of the Eiffel Tower from the open path in Paris, 1889; rich iron detail, trees, and bright sky.",
+        "action": "Zoya gestures toward the tower's sweeping iron arches.",
+        "camera": "orbit",
+        "mood": "Friendly discovery amid grand sunlit architecture."
+      },
+      {
+        "id": "abi255",
+        "narration": "Its iron lattice reaches high above us.",
+        "characters": [],
+        "scene": "The Eiffel Tower's intricate iron lattice rising against a clear blue Paris sky, vertical cinematic 3D composition.",
+        "action": "A small white cloud drifts behind the upper ironwork.",
+        "camera": "low-angle",
+        "mood": "Airy blue sky and warm highlights on intricate metalwork."
+      },
+      {
+        "id": "m7ib0g",
+        "narration": "[surprised] It was the world's tallest structure for about 40 years!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "An open viewing area farther from the Eiffel Tower, with its summit now visible above the travelers.",
+        "action": "Zoya raises one hand toward the distant summit.",
+        "camera": "push-in",
+        "mood": "Astonished faces beneath a spectacular sunlit silhouette."
+      },
+      {
+        "id": "imxerz",
+        "narration": "Now we can see the whole tower!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "The complete Eiffel Tower fits inside the vertical frame from base to summit; Zoya and Tock stand small in the foreground.",
+        "action": "Zoya opens her arms beneath the fully revealed tower.",
+        "camera": "pull-out",
+        "mood": "Triumphant wide view, bright sky, golden afternoon light."
+      },
+      {
+        "id": "csmlrk",
+        "narration": "A little distance made a giant difference.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "The open viewing area with the full Eiffel Tower behind Zoya; her blue wristwatch begins glowing amid golden motes.",
+        "action": "Zoya lifts her glowing wristwatch.",
+        "camera": "push-in",
+        "mood": "Satisfied smiles and a fresh shimmer of time-travel magic."
+      },
+      {
+        "id": "occmh5",
+        "narration": "[excited] Where to next?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Beside Zoya's glowing blue wristwatch, Tock's round glass face catches golden sparkles; the Eiffel Tower remains in the background.",
+        "action": "Tock gestures toward Zoya's glowing watch with his spring tail.",
+        "camera": "static",
+        "mood": "Eager anticipation, swirling golden dust, inviting blue light."
+      }
+    ],
+    "endHook": "Zoya’s watch glows again—another adventure is waiting!",
+    "createdAt": "2026-11-12T20:20:06.034Z",
+    "description": "Zoya and Tock sparkle into Paris, 1889, to discover the Eiffel Tower! Learn why it was built and how long it held its world-record height.",
+    "tags": [
+      "Tiny Time Traveler",
+      "Eiffel Tower",
+      "Paris",
+      "1889",
+      "History for Kids",
+      "3D Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

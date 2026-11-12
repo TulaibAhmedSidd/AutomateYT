@@ -1,0 +1,166 @@
+{
+  "number": 11,
+  "topic": "Snow day: the first time Mishi and Bruno see snow.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:14:18.447Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi & Bruno: Their First Snow Day!",
+    "shots": [
+      {
+        "id": "f62dnb",
+        "narration": "Something fluffy is falling outside—and it isn't kitten fur!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Cosy colourful living room, tall window overlooking a snowy garden, warm morning sunlight, rounded 3D family-animation style, vertical 9:16, no text.",
+        "action": "Mishi and Bruno press their noses against the window beneath drifting snowflakes.",
+        "camera": "push-in",
+        "mood": "Wide green kitten eyes, lifted floppy puppy ears, golden indoor light."
+      },
+      {
+        "id": "fmvqfm",
+        "narration": "Their familiar garden has become a soft, white wonderland.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Open garden doorway beside snow-covered flowerpots, sunny winter garden, soft colourful 3D animation, vertical 9:16, no text.",
+        "action": "Bruno gently presses one front paw into fresh snow.",
+        "camera": "low-angle",
+        "mood": "Curious tilted puppy head, sparkling powder, warm sunlight."
+      },
+      {
+        "id": "0phonv",
+        "narration": "[giggles] Bruno's very first footprint looks like a tiny flower!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Fresh snow outside the garden doorway, one clear pawprint, rounded 3D animation, vertical 9:16, no text.",
+        "action": "Mishi points one grey paw toward Bruno's footprint.",
+        "camera": "static",
+        "mood": "Mishi's bright green eyes, Bruno's proud smile, glittering snow."
+      },
+      {
+        "id": "vgzsve",
+        "narration": "Bruno decides to build the tallest snow tower ever.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Sunny garden clearing with a narrow stack of uneven snowballs, colourful fence behind, 3D animation, vertical 9:16, no text.",
+        "action": "Bruno balances a large snowball atop the narrow stack.",
+        "camera": "static",
+        "mood": "Playful concentration, floppy ears, visibly wobbly snowballs."
+      },
+      {
+        "id": "8o5sh3",
+        "narration": "But his wobbly tower settles into a snowy pancake.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Snowy garden clearing beside the uneven snow tower, soft warm sunlight, rounded 3D animation, vertical 9:16, no text.",
+        "action": "The snow tower slumps into a low powdery mound before the friends.",
+        "camera": "static",
+        "mood": "Bruno's drooping ears, Mishi's thoughtful expression, harmless soft snow."
+      },
+      {
+        "id": "qvnwqg",
+        "narration": "[excited] Mishi knows their tower needs a wider bottom.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny garden clearing with the flattened snow mound, rich colourful fence, 3D animation, vertical 9:16, no text.",
+        "action": "Mishi pats the mound into a broad, flat-topped base.",
+        "camera": "push-in",
+        "mood": "Careful little paws, focused green eyes, Bruno watching attentively."
+      },
+      {
+        "id": "nlj6ey",
+        "narration": "Bruno rolls a smaller snowball for the middle.",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Smooth snowy garden path leading toward the broad snow base, 3D animation, vertical 9:16, no text.",
+        "action": "Bruno rolls a medium snowball along the short garden path.",
+        "camera": "pan-right",
+        "mood": "Eager puppy grin, blue collar, soft snow curling ahead."
+      },
+      {
+        "id": "2vi3pa",
+        "narration": "Together, they lift it onto Mishi's sturdy base.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny garden clearing with a broad snow base, rounded friendly 3D animation, vertical 9:16, no text.",
+        "action": "Mishi and Bruno jointly place the medium snowball onto the broad base.",
+        "camera": "orbit",
+        "mood": "Matching determined smiles, paws supporting one snowball, warm winter glow."
+      },
+      {
+        "id": "ywgk9g",
+        "narration": "[whispers] One tiny snowball goes right on top.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Low two-tier snow tower in the sunny garden, colourful fence behind, 3D animation, vertical 9:16, no text.",
+        "action": "Mishi carefully places a tiny snowball on the tower's middle tier.",
+        "camera": "push-in",
+        "mood": "Delicate paw placement, Bruno's expectant eyes, softly sparkling snow."
+      },
+      {
+        "id": "odxfqs",
+        "narration": "Bruno adds a leaf, their tower's finishing touch.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Stable three-tier snow tower beside a snow-dusted garden shrub, 3D animation, vertical 9:16, no text.",
+        "action": "Bruno places a small fallen leaf flat on the tower's top.",
+        "camera": "low-angle",
+        "mood": "Proud puppy smile, Mishi's delighted eyes, bright green leaf."
+      },
+      {
+        "id": "o1ay1e",
+        "narration": "Their little tower stands tall beside a mysterious mitten.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Completed snow tower in the garden, one purple mitten partly buried nearby, warm sunny 3D animation, vertical 9:16, no text.",
+        "action": "Mishi and Bruno lean back to admire their sturdy snow tower.",
+        "camera": "pull-out",
+        "mood": "Relaxed happy faces, balanced snow tiers, purple mitten visible below."
+      },
+      {
+        "id": "rnaztg",
+        "narration": "[excited] Teamwork builds wonders; tomorrow, let's explore that mysterious mitten!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunny snowy garden beside the completed leaf-topped tower and purple mitten, cosy 3D animation, vertical 9:16, no text.",
+        "action": "Mishi lifts the purple mitten from the snow beside Bruno.",
+        "camera": "push-in",
+        "mood": "Curious green eyes, perked floppy ears, powder falling from purple wool."
+      }
+    ],
+    "endHook": "Tomorrow, they'll explore a mysterious mitten in the snow!",
+    "createdAt": "2026-11-12T20:14:18.446Z",
+    "description": "Mishi and Bruno discover their garden covered in snow for the very first time! A wobbly snow tower teaches them that wonderful things happen when friends work together.",
+    "tags": [
+      "Mishi and Bruno",
+      "snow day",
+      "first snow",
+      "teamwork",
+      "kids cartoon",
+      "winter adventure",
+      "YouTube Shorts"
+    ]
+  }
+}

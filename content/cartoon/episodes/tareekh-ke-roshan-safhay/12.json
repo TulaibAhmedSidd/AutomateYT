@@ -1,0 +1,145 @@
+{
+  "number": 12,
+  "topic": "Mansa Musa of Mali went on Hajj in 1324 CE with a huge caravan carrying so much gold that its price fell in Cairo for years. Show a long caravan in the desert and glittering gold.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:18:04.852Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Mansa Musa: Sone Se Bhara Qafila",
+    "shots": [
+      {
+        "id": "1qpbhg",
+        "narration": "اتنا سونا کہ اُس کی قیمت ہی گر گئی!",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated family-film style. Pakistani home with an arched window, floor cushions, and a low table holding a shallow bowl of plain gold-colored discs without markings.",
+        "action": "Areeba leans forward toward the glittering bowl.",
+        "camera": "push-in",
+        "mood": "Golden lamplight, sparkling reflections, inviting curiosity."
+      },
+      {
+        "id": "6xn7g2",
+        "narration": "اریبہ، یہ مالی کے مانسا موسیٰ کے سفر کی کہانی ہے۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "The same cozy home, with Nana seated beside Areeba and a closed unmarked book on the low table, vertical 9:16.",
+        "action": "Nana opens the book to a wordless desert illustration.",
+        "camera": "static",
+        "mood": "Gentle storytelling, warm amber light, affectionate family atmosphere."
+      },
+      {
+        "id": "qc34cl",
+        "narration": "[excited] مانسا موسیٰ ۱۳۲۴ء میں حج پر گئے تھے۔",
+        "characters": [],
+        "scene": "A wordless raised-relief map showing West Africa, the Sahara, Egypt, the Red Sea, and western Arabia, with no borders, labels, or symbols resembling letters, vertical 9:16.",
+        "action": "A soft golden glow travels along the pilgrimage route.",
+        "camera": "low-angle",
+        "mood": "Wonder and anticipation, softly illuminated sand-colored terrain."
+      },
+      {
+        "id": "oi6qqv",
+        "narration": "اُن کا بہت بڑا قافلہ صحرا سے گزرا۔",
+        "characters": [],
+        "scene": "Vast Sahara dunes in warm morning light, a long camel caravan stretching into the distance, bundled packs on the camels, no riders or human figures, vertical 9:16.",
+        "action": "The loaded camels walk along a winding dune ridge.",
+        "camera": "pan-right",
+        "mood": "Peaceful grandeur, golden sand, clear blue sky."
+      },
+      {
+        "id": "b1ovl5",
+        "narration": "قافلے کے ساتھ بہت سا سونا بھی تھا۔",
+        "characters": [],
+        "scene": "Close view of an open travel chest among tied caravan bundles, filled with irregular gold pieces without inscriptions, no people, vertical 9:16.",
+        "action": "Sunlight sweeps across the exposed gold.",
+        "camera": "push-in",
+        "mood": "Rich golden sparkle, quiet amazement, warm desert colors."
+      },
+      {
+        "id": "qt74xj",
+        "narration": "[surprised] راستے میں یہ قافلہ قاہرہ بھی پہنچا۔",
+        "characters": [],
+        "scene": "Historic Cairo beside the Nile, stone buildings, domes, and minarets beyond a sandy approach; loaded camels in the foreground, no humans, signs, or writing, vertical 9:16.",
+        "action": "The caravan approaches the city gateway.",
+        "camera": "pull-out",
+        "mood": "Welcoming city panorama, soft afternoon sunlight."
+      },
+      {
+        "id": "h3ud3p",
+        "narration": "وہاں مانسا موسیٰ نے بہت سونا خرچ کیا اور بانٹا۔",
+        "characters": [],
+        "scene": "A quiet historic Cairo market courtyard with pottery, folded cloth, and several shallow trays holding plain gold pieces; no people or writing, vertical 9:16.",
+        "action": "The camera-facing cloth canopy ripples above the gold-filled trays.",
+        "camera": "pan-left",
+        "mood": "Abundance and warmth, colorful handmade goods, gentle sunlight."
+      },
+      {
+        "id": "5olbg0",
+        "narration": "اب قاہرہ میں سونا بہت زیادہ ہوگیا تھا۔",
+        "characters": [],
+        "scene": "An inscription-free tabletop visual metaphor: many shallow bowls overflowing with irregular gold pieces beside a small folded bundle of plain cloth, no people, vertical 9:16.",
+        "action": "Gold pieces spill from one full bowl onto the table.",
+        "camera": "static",
+        "mood": "Abundance becoming a puzzle, soft amber reflections."
+      },
+      {
+        "id": "mip4t5",
+        "narration": "[surprised] اتنا زیادہ سونا آیا کہ اُس کی قیمت گر گئی۔",
+        "characters": [],
+        "scene": "Symbolic close-up of a simple unmarked balance scale, one pan filled with gold and the other holding plain cloth, neutral historic interior, no numbers or writing, vertical 9:16.",
+        "action": "The gold-filled pan sinks lower.",
+        "camera": "push-in",
+        "mood": "Quiet surprise, clear visual emphasis on falling value."
+      },
+      {
+        "id": "bv790v",
+        "narration": "قاہرہ میں سونے کی قیمت برسوں تک کم رہی۔",
+        "characters": [],
+        "scene": "Historic Cairo market still life with plain gold pieces beside an unmarked balance scale, an arched window overlooking the city, no people or text, vertical 9:16.",
+        "action": "Repeated bands of daylight and moonlight pass across the gold.",
+        "camera": "static",
+        "mood": "Reflective passage of time, calm blue and gold light."
+      },
+      {
+        "id": "ynwsib",
+        "narration": "دیکھا اریبہ، بہت زیادہ سونا بھی قیمت بدل سکتا ہے۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Back in the cozy Pakistani home, Nana and Areeba beside the bowl of plain gold-colored discs and the open wordless picture book, vertical 9:16.",
+        "action": "Areeba nods toward Nana.",
+        "camera": "pull-out",
+        "mood": "Warm understanding, gentle smiles, satisfying discovery."
+      },
+      {
+        "id": "sd4pp7",
+        "narration": "[excited] اب سنو گی، تمبکتو علم کا مشہور شہر کیسے بنا؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "The same lamplit home, an open picture book displaying a wordless illustration of earthen West African architecture and closed unmarked books, vertical 9:16.",
+        "action": "Nana points to the illustrated city.",
+        "camera": "push-in",
+        "mood": "Inviting curiosity, warm golden light, anticipation of another story."
+      }
+    ],
+    "endHook": "Timbuktu ilm ka mashhoor shehar kaise bana?",
+    "createdAt": "2026-11-12T20:18:04.851Z",
+    "description": "نانا ابو، اریبہ کو مالی کے مانسا موسیٰ کے حج کی کہانی سناتے ہیں۔ ۱۳۲۴ء کے اس سفر میں اتنا سونا قاہرہ پہنچا کہ وہاں برسوں تک سونے کی قیمت کم رہی۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Mansa Musa",
+      "Mali",
+      "Hajj",
+      "Islamic History",
+      "Urdu Stories",
+      "Kids Learning"
+    ]
+  }
+}

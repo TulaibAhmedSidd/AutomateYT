@@ -1,0 +1,153 @@
+{
+  "number": 11,
+  "topic": "The art of calligraphy: Kufic script is angular and was used in early Quran copies; Naskh script is rounded and easy to read, and most printed Arabic today grew from it. Show a reed pen (qalam), ink and letters forming.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:17:57.622Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Qalam Ka Hunar: Kufi Se Naskh Tak",
+    "shots": [
+      {
+        "id": "uc4gbv",
+        "narration": "ایک قلم اتنی خوب صورت شکلیں کیسے بناتا ہے؟",
+        "characters": [
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated family-film style. A Pakistani home study with a reed pen, ceramic inkpot and blank paper on a low wooden table. No writing, symbols or captions.",
+        "action": "Areeba lifts the reed pen toward the golden lamplight.",
+        "camera": "push-in",
+        "mood": "Curious eyes, glowing amber light, inviting discovery."
+      },
+      {
+        "id": "pmhoq2",
+        "narration": "اریبہ، خوب صورت لکھنے کے فن کو خطاطی کہتے ہیں۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, cozy home study. Nana wears a cream kurta, brown waistcoat and round glasses; Areeba wears yellow with a light-pink dupatta. Blank paper and ink sit between them. No visible writing.",
+        "action": "Nana gestures toward the writing tools.",
+        "camera": "static",
+        "mood": "Gentle grandfatherly warmth, soft golden illumination."
+      },
+      {
+        "id": "0gb1ih",
+        "narration": "[excited] یہ سرکنڈے کا قلم ہے، اور یہ سیاہی!",
+        "characters": [
+          "nana"
+        ],
+        "scene": "Vertical 9:16 macro view of Nana's hand, a cut reed pen and a dark ceramic inkpot on the home table. Warm 3D textures, no markings or writing.",
+        "action": "Nana dips the reed pen into the inkpot.",
+        "camera": "push-in",
+        "mood": "Tactile detail, glossy ink, quiet anticipation."
+      },
+      {
+        "id": "3bgucu",
+        "narration": "قلم کی نوک سے موٹی، پتلی لکیریں بنتی ہیں۔",
+        "characters": [
+          "nana"
+        ],
+        "scene": "Vertical 9:16 close-up of blank cream paper on the home table. Only Nana's ordinary hand and reed pen enter the frame. Marks must remain isolated abstract strokes, never letters or symbols.",
+        "action": "Nana draws one tapered ink stroke across the paper.",
+        "camera": "static",
+        "mood": "Satisfying craftsmanship, crisp black ink against warm cream."
+      },
+      {
+        "id": "n7830b",
+        "narration": "کوفی خط کی بناوٹ زاویہ دار ہوتی ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16 historical art-study insert inside a sunlit courtyard with stone arches. A cream sheet displays widely separated angular practice strokes, not letters, words or symbols. No people.",
+        "action": "A single angular abstract ink stroke forms on the sheet.",
+        "camera": "pan-right",
+        "mood": "Orderly geometry, warm sandstone, calm visual clarity."
+      },
+      {
+        "id": "odtecp",
+        "narration": "[whispers] قرآن کے ابتدائی نسخوں میں کوفی خط استعمال ہوتا تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16 historical library alcove with a respectfully elevated, closed early manuscript volume on a clean wooden stand. Plain unmarked binding; no exposed pages, lettering or human figures.",
+        "action": "A patch of sunlight travels across the closed manuscript cover.",
+        "camera": "push-in",
+        "mood": "Reverent stillness, soft gold light, carefully preserved heritage."
+      },
+      {
+        "id": "v4cstl",
+        "narration": "لیکن ہر خط کی بناوٹ ایک جیسی نہیں ہوتی۔",
+        "characters": [
+          "areeba"
+        ],
+        "scene": "Vertical 9:16 home study. Two cream practice sheets lie side by side: one with disconnected angular strokes, one with disconnected curved strokes. No recognizable letters or writing.",
+        "action": "Areeba tilts her head toward the contrasting practice sheets.",
+        "camera": "low-angle",
+        "mood": "Thoughtful curiosity, gently raised eyebrows, warm lamplight."
+      },
+      {
+        "id": "xuhf6y",
+        "narration": "نسخ خط کی شکلیں گول ہوتی ہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16 close-up of cream paper beside a reed pen and inkpot. Only isolated curved practice marks appear, with generous empty space; no actual letters, words or symbols.",
+        "action": "One smooth curved ink stroke forms on the paper.",
+        "camera": "pan-left",
+        "mood": "Flowing elegance, soft curves, warm golden highlights."
+      },
+      {
+        "id": "xn0q4u",
+        "narration": "[excited] اور نسخ پڑھنا بھی آسان ہوتا ہے!",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16 home study. Nana and Areeba sit beside the angular and curved practice sheets, containing only abstract disconnected strokes. No legible writing anywhere.",
+        "action": "Nana points to the sheet of rounded practice strokes.",
+        "camera": "push-in",
+        "mood": "Clear understanding, reassuring smile, bright welcoming light."
+      },
+      {
+        "id": "fyi925",
+        "narration": "آج زیادہ تر چھپی عربی کی بنیاد نسخ ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16 visual bridge from a reed pen in the foreground to neatly stacked modern books in the background. All books are closed with plain unmarked covers and spines. Warm 3D family-film rendering.",
+        "action": "The camera-facing stack of closed books settles gently onto the table.",
+        "camera": "pull-out",
+        "mood": "Quiet continuity between old craftsmanship and modern books."
+      },
+      {
+        "id": "304rd9",
+        "narration": "دیکھیں نانا ابو، میری لکیر بھی خوب صورت بن گئی!",
+        "characters": [
+          "areeba",
+          "nana"
+        ],
+        "scene": "Vertical 9:16 home study with Nana watching Areeba at the low table. Her cream paper holds only one simple abstract curve, never a letter or symbol.",
+        "action": "Areeba completes one curved stroke with the reed pen.",
+        "camera": "orbit",
+        "mood": "Small proud smile, affectionate encouragement, golden evening glow."
+      },
+      {
+        "id": "3nye6j",
+        "narration": "[surprised] نانا ابو، پرانے زمانے میں سیاہی کیسے بنتی تھی؟",
+        "characters": [
+          "areeba",
+          "nana"
+        ],
+        "scene": "Vertical 9:16 cozy home study. A plain ceramic inkpot stands between Areeba and Nana, with the reed pen resting beside it. No writing, labels or captions.",
+        "action": "Areeba points at the inkpot.",
+        "camera": "push-in",
+        "mood": "Fresh curiosity, Nana's knowing smile, a warm inviting finish."
+      }
+    ],
+    "endHook": "Purane zamane mein siyahi kaise banti thi?",
+    "createdAt": "2026-11-12T20:17:57.620Z",
+    "description": "نانا ابو اریبہ کو خطاطی کی خوب صورت دنیا دکھاتے ہیں۔ جانیے کوفی خط کی زاویہ دار بناوٹ اور نسخ کی گول، آسانی سے پڑھی جانے والی شکلوں کے بارے میں۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Calligraphy",
+      "Kufic",
+      "Naskh",
+      "Urdu Stories",
+      "Islamic Art",
+      "Kids Learning"
+    ]
+  }
+}

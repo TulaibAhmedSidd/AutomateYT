@@ -1,0 +1,165 @@
+{
+  "number": 11,
+  "topic": "Maryam al-Ijliya (al-Asturlabi), a woman in 10th-century Aleppo, was famous for making astrolabes for the ruler of the city. Show her workshop from behind and the shining brass astrolabe.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:16:08.705Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Maryam al-Ijliya: Sitaron Ko Naapne Wala Aala",
+    "shots": [
+      {
+        "id": "kc34lq",
+        "narration": "ستارے اتنے دور، مگر ان کی اونچائی کیسے ناپیں؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, family-film-style 3D animation, warm library balcony overlooking a starry sky; Hamza wears round glasses and a blue shirt and holds a blank notebook; Noori floats beside him. No text or symbols.",
+        "action": "Hamza reaches toward a distant star.",
+        "camera": "push-in",
+        "mood": "Deep blue night, warm amber light, inviting curiosity."
+      },
+      {
+        "id": "lf53w4",
+        "narration": "نوری ہمیں ایک پرانی ورکشاپ دکھاتا ہے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library with a clear floor area; Noori is a small brass lantern-robot with friendly glowing eyes. All books and surfaces are unlettered.",
+        "action": "Noori projects a glowing scene of a brassworker's workshop.",
+        "camera": "pull-out",
+        "mood": "Magical golden glow, gentle anticipation."
+      },
+      {
+        "id": "p4m890",
+        "narration": "[excited] دسویں صدی کے حلب میں، مریم العجلیہ اسطرلاب بناتی تھیں۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected workshop in 10th-century Aleppo; Maryam al-Ijliya (al-Asturlabi) appears only as a distant, respectfully dressed cartoon figure seen from behind at a wooden bench. Hamza and Noori watch from the projection's edge. No writing anywhere.",
+        "action": "Maryam turns a brass astrolabe component on her workbench.",
+        "camera": "pan-right",
+        "mood": "Respectful, welcoming, warm workshop lamplight."
+      },
+      {
+        "id": "jyxwmj",
+        "narration": "وہ شہر کے حکمران کے لیے بھی اسطرلاب بناتی تھیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, wide rear view of Maryam's workshop, with Maryam small in the background; a finished brass astrolabe rests beside an open padded wooden case. Instrument surfaces have only plain geometric divisions, no letters or numerals.",
+        "action": "Maryam places the finished astrolabe into the padded case.",
+        "camera": "static",
+        "mood": "Quiet craftsmanship, rich brass highlights."
+      },
+      {
+        "id": "qlft7t",
+        "narration": "یہ چمکتا آلہ آخر کام کیسے کرتا ہے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, close view of a projected brass astrolabe above the workshop bench; Hamza and Noori stand beside it. The instrument has an openwork star pointer and unlettered geometric divisions.",
+        "action": "Hamza leans closer to inspect the astrolabe.",
+        "camera": "push-in",
+        "mood": "Friendly puzzlement, soft golden reflections."
+      },
+      {
+        "id": "rty6dc",
+        "narration": "[surprised] اسے ہلائیں، تو نشانہ بھی ہل جاتا ہے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, simplified projected demonstration on a nighttime terrace; Hamza holds a brass astrolabe by its top ring, with Noori nearby. No text, numerals or labels.",
+        "action": "The astrolabe sways beneath Hamza's unsteady hand.",
+        "camera": "static",
+        "mood": "Gentle comic surprise, safe and encouraging."
+      },
+      {
+        "id": "p75fkf",
+        "narration": "پہلے اسے حلقے سے سیدھا لٹکاؤ۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, nighttime terrace demonstration, close view of Hamza's hand holding the top suspension ring; the astrolabe hangs freely beneath it. No writing.",
+        "action": "Hamza steadies the suspended astrolabe.",
+        "camera": "push-in",
+        "mood": "Calm concentration, reassuring amber light."
+      },
+      {
+        "id": "g1izzq",
+        "narration": "پھر اس کی گھومتی پٹی ستارے کی طرف کرو۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, side view of the astrolabe's back and its rotating sighting bar beneath a clear night sky; Hamza holds the ring while Noori watches. No text or numerical markings.",
+        "action": "Hamza rotates the sighting bar toward a bright star.",
+        "camera": "pan-left",
+        "mood": "Focused discovery, crisp starlight."
+      },
+      {
+        "id": "p87o90",
+        "narration": "[excited] اسطرلاب آسمان میں ستاروں کی اونچائی ناپنے کا آلہ ہے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, large projected astrolabe beside a simple horizon and one bright star; a plain luminous arc connects the horizontal direction to the star's direction. No labels, numbers or letters.",
+        "action": "Noori illuminates the angle between the horizon and the star.",
+        "camera": "static",
+        "mood": "Clear visual understanding, bright and inspiring."
+      },
+      {
+        "id": "fdu9hy",
+        "narration": "اب حمزہ کا نشانہ ستارے سے مل گیا!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, close side view of Hamza holding the astrolabe steadily; its sighting bar aligns with the same bright star. Noori floats beside him. No writing anywhere.",
+        "action": "Hamza smiles at the aligned sighting bar.",
+        "camera": "push-in",
+        "mood": "Small triumphant discovery, gentle joyful glow."
+      },
+      {
+        "id": "w3kk6c",
+        "narration": "مریم کی کاریگری نے آسمان ناپنے میں مدد دی۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, return to the projected workshop; Maryam remains a distant rear-view figure at her bench, while a shining brass astrolabe dominates the foreground. Hamza and Noori watch quietly. No text or numerals.",
+        "action": "Noori casts a warm spotlight across the finished astrolabe.",
+        "camera": "pull-out",
+        "mood": "Respectful appreciation, luminous brass and cozy shadows."
+      },
+      {
+        "id": "n0dn3j",
+        "narration": "[whispers] کیا روشنی ہمیشہ سیدھی چلتی ہے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, back in the warm library; a narrow beam from Noori crosses floating dust toward a blank wall, with Hamza beside it. No text, signs or captions.",
+        "action": "Hamza holds his open palm across Noori's light beam.",
+        "camera": "low-angle",
+        "mood": "Intriguing shadow, playful anticipation of the next discovery."
+      }
+    ],
+    "endHook": "Kya roshni hamesha seedhi chalti hai?",
+    "createdAt": "2026-11-12T20:16:08.703Z",
+    "description": "حمزہ اور نوری کے ساتھ دسویں صدی کے حلب چلیں، جہاں مریم العجلیہ اسطرلاب بناتی تھیں۔ ان کی ورکشاپ میں دیکھیں کہ پیتل کا یہ آلہ ستاروں کی اونچائی ناپنے میں کیسے مدد دیتا ہے۔",
+    "tags": [
+      "Musalman Sciencedan",
+      "Maryam al-Ijliya",
+      "al-Asturlabi",
+      "Astrolabe",
+      "Urdu Science",
+      "Science for Kids",
+      "3D Animation"
+    ]
+  }
+}

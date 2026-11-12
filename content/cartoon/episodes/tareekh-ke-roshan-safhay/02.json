@@ -1,0 +1,147 @@
+{
+  "number": 2,
+  "topic": "Masjid an-Nabawi: first built in Madinah in 622 CE with palm-tree trunks, mud bricks and a roof of palm leaves. Today it is one of the largest mosques in the world. Show the simple first mosque, then today's mosque with its green dome.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:16:44.479Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Masjid an-Nabawi: Saadgi Se Shaan Tak",
+    "shots": [
+      {
+        "id": "jnozse",
+        "narration": "کیا اتنی بڑی مسجد کبھی کھجور کے تنوں سے بنی تھی؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated family-film look. A Pakistani home with an oil lamp and a plain architectural model of today's Masjid an-Nabawi, including its green dome. Nana wears a cream kurta, brown waistcoat and round glasses; Areeba wears a yellow shalwar kameez and light-pink dupatta. No text",
+        "action": "Areeba points at the large mosque model.",
+        "camera": "push-in",
+        "mood": "Golden lamplight, wide curious eyes, inviting discovery."
+      },
+      {
+        "id": "xo5zrh",
+        "narration": "آؤ اریبہ، مسجدِ نبوی کی پہلی عمارت دیکھتے ہیں۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the same cozy home. A second, small cutaway model shows a simple mud-brick mosque with palm-trunk supports and a palm-leaf roof. No writing or human figurines.",
+        "action": "Nana slides the simple mosque model toward Areeba.",
+        "camera": "static",
+        "mood": "Warm amber light, gentle smiles, quiet attention."
+      },
+      {
+        "id": "e7zgs8",
+        "narration": "[excited] مسجدِ نبوی مدینہ میں 622 عیسوی میں پہلی بار بنی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, respectful 3D architectural reconstruction of the first Masjid an-Nabawi in Madinah, with low mud-brick walls, palm-trunk supports and a palm-leaf shaded area beside an open courtyard. No people, figures, writing or modern features.",
+        "action": "Nearby palm fronds sway gently.",
+        "camera": "pull-out",
+        "mood": "Soft golden morning light, sandy earth, peaceful simplicity."
+      },
+      {
+        "id": "nmjtp8",
+        "narration": "اس کی دیواریں مٹی کی اینٹوں سے بنی تھیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of the early mosque's plain mud-brick wall, with earthy uneven surfaces and a sandy courtyard beyond. Warm 3D animated family-film look, no people or writing.",
+        "action": "A small drift of sand skims along the wall's base.",
+        "camera": "pan-right",
+        "mood": "Warm ochre colors, clear brick textures, calm daylight."
+      },
+      {
+        "id": "62sjlf",
+        "narration": "کھجور کے تنے اس کے ستون تھے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, inside the early mosque's shaded area. Rough palm-tree trunks support the palm-leaf roof above a bare earth floor. No people, silhouettes, decorations or text.",
+        "action": "Loose palm fibers flutter on one trunk.",
+        "camera": "low-angle",
+        "mood": "Soft patterned sunlight, natural brown textures, quiet dignity."
+      },
+      {
+        "id": "ffzaa1",
+        "narration": "[surprised] لیکن اس سادہ عمارت کی چھت کس چیز کی تھی؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, back in the warm family home. Nana and Areeba sit beside the cutaway mosque model, its palm-leaf roof clearly visible. No writing or figurines.",
+        "action": "Areeba tilts her head toward the model's roof.",
+        "camera": "push-in",
+        "mood": "Raised eyebrows, glowing oil lamp, playful curiosity."
+      },
+      {
+        "id": "gxf01t",
+        "narration": "اس کی چھت کھجور کے پتوں سے بنی تھی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close architectural view beneath the first mosque's palm-leaf roof, with overlapping leaves resting above rough palm-trunk supports. No people or writing.",
+        "action": "The edges of the roof leaves stir in the breeze.",
+        "camera": "pan-left",
+        "mood": "Gentle shade, filtered golden sunlight, visible woven leaf textures."
+      },
+      {
+        "id": "zxwjpw",
+        "narration": "مٹی، کھجور کے تنے اور پتے، کتنی سادہ عمارت تھی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, full view of the simple early mosque reconstruction. Mud-brick walls surround an open earth courtyard beside palm-trunk supports and a palm-leaf roof. Empty surroundings, no figures or text.",
+        "action": "A nearby palm casts a slowly swaying shadow across the courtyard.",
+        "camera": "orbit",
+        "mood": "Humble earthy materials, warm afternoon light, spacious stillness."
+      },
+      {
+        "id": "wrlty8",
+        "narration": "[excited] آج مسجدِ نبوی دنیا کی سب سے بڑی مسجدوں میں شامل ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, expansive present-day Masjid an-Nabawi exterior with its recognizable green dome, pale stone arcades, slender minarets and broad marble courtyard. Respectful 3D family-film rendering, no people, readable inscriptions or signs.",
+        "action": "A small white cloud drifts above the mosque.",
+        "camera": "pull-out",
+        "mood": "Luminous golden daylight, grand architectural scale, peaceful admiration."
+      },
+      {
+        "id": "ljw8gl",
+        "narration": "اور یہ رہا اس کا مشہور سبز گنبد۔",
+        "characters": [],
+        "scene": "Vertical 9:16, clear exterior view of Masjid an-Nabawi's green dome above pale stone architecture, with a minaret behind it and a soft blue sky. No interior views, people, inscriptions or signs.",
+        "action": "A small bird glides across the distant sky.",
+        "camera": "push-in",
+        "mood": "Rich green dome, warm stone highlights, calm respectful beauty."
+      },
+      {
+        "id": "lziirh",
+        "narration": "اریبہ، پہلی سادہ عمارت سے آج کی مسجد کتنی مختلف ہے۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, cozy Pakistani home. The simple early mosque model and the modern green-domed mosque model sit side by side before Nana and Areeba. Neither model contains writing or human figures.",
+        "action": "Areeba moves her pointing finger from the simple model to the modern model.",
+        "camera": "pan-right",
+        "mood": "Warm lamplight, delighted understanding, clear visual contrast."
+      },
+      {
+        "id": "nm0502",
+        "narration": "[whispers] اگلی بار جانیں، مسجدوں کے صحن میں فوارے کیوں ہوتے ہیں؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the same home beside an open window overlooking a garden with a small flowing stone fountain. Nana and Areeba remain seated together. No writing, signs or additional people.",
+        "action": "Nana points toward the garden fountain.",
+        "camera": "pan-left",
+        "mood": "Golden evening light, sparkling water, gentle anticipation."
+      }
+    ],
+    "endHook": "اگلی بار جانیں، مسجدوں کے صحن میں فوارے کیوں ہوتے ہیں؟",
+    "createdAt": "2026-11-12T20:16:44.477Z",
+    "description": "نانا ابو اریبہ کو مسجدِ نبوی کی پہلی سادہ عمارت کی کہانی سناتے ہیں۔ مدینہ میں 622 عیسوی میں بننے والی اس مسجد سے آج کے سبز گنبد تک، آئیے یہ خوب صورت سفر دیکھیں۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Masjid an-Nabawi",
+      "Madinah",
+      "Urdu Kids",
+      "Islamic Architecture",
+      "3D Animation"
+    ]
+  }
+}

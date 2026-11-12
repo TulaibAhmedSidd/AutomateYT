@@ -1,0 +1,119 @@
+{
+  "number": 5,
+  "topic": "Peregrine falcon: the fastest animal on Earth, diving at over 300 km/h to catch prey in the air.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:21:54.656Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Peregrine Falcon: Earth's Fastest Animal!",
+    "shots": [
+      {
+        "id": "2ce4fo",
+        "narration": "Did you know Earth's fastest animal wears feathers?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated mountain overlook beneath a wide blue sky; a realistic peregrine falcon overhead.",
+        "action": "Kiko points toward the peregrine falcon.",
+        "camera": "push-in",
+        "mood": "Sunny wonder, wide eyes, bright natural colours."
+      },
+      {
+        "id": "i4804i",
+        "narration": "Meet the peregrine falcon, a true sky superstar!",
+        "characters": [],
+        "scene": "Vertical 9:16, realistic cute peregrine falcon above sunlit mountain cliffs, slate-grey back and dark cheek markings.",
+        "action": "The peregrine falcon glides across the sky.",
+        "camera": "pan-right",
+        "mood": "Majestic and inviting, warm sunlight on detailed feathers."
+      },
+      {
+        "id": "wkqobl",
+        "narration": "[excited] Its dives can reach over 300 km/h!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, grassy mountain overlook, Kiko with green safari hat and binoculars, emerald Pip beside him.",
+        "action": "Kiko raises his binoculars toward the sky.",
+        "camera": "low-angle",
+        "mood": "Astonished anticipation, open blue sky."
+      },
+      {
+        "id": "1kcjum",
+        "narration": "But where did it go?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, mountain overlook beneath an apparently empty sky, Kiko holding binoculars to his eyes.",
+        "action": "Kiko sweeps his binoculars across the sky.",
+        "camera": "pan-left",
+        "mood": "Gentle puzzlement, raised eyebrows, sunny and safe."
+      },
+      {
+        "id": "4pd6bt",
+        "narration": "There! High above the cliffs!",
+        "characters": [],
+        "scene": "Vertical 9:16, peregrine falcon high above rugged sunlit cliffs, soft clouds far behind.",
+        "action": "The peregrine falcon tips downward.",
+        "camera": "push-in",
+        "mood": "Exciting discovery, crisp feather detail against blue sky."
+      },
+      {
+        "id": "h45xqb",
+        "narration": "[surprised] It folds its wings and plunges through the sky!",
+        "characters": [],
+        "scene": "Vertical 9:16, open mountain sky with distant cliffs, realistic peregrine falcon in a steep dive.",
+        "action": "The peregrine falcon dives with its wings tucked close.",
+        "camera": "static",
+        "mood": "Thrilling speed, softly blurred background, no danger or impact."
+      },
+      {
+        "id": "np68ht",
+        "narration": "Peregrines catch prey in the air.",
+        "characters": [],
+        "scene": "Vertical 9:16, clear sky above a broad mountain valley, peregrine falcon alone with no prey visible.",
+        "action": "The peregrine falcon spreads its wings to level out.",
+        "camera": "pan-right",
+        "mood": "Graceful control, bright sunlight, gentle wildlife discovery."
+      },
+      {
+        "id": "hhlln1",
+        "narration": "That diving speed makes it Earth's fastest animal!",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, sunny mountain overlook, Kiko and Pip beneath the peregrine falcon's distant silhouette.",
+        "action": "Kiko throws his arms upward in celebration.",
+        "camera": "pull-out",
+        "mood": "Joyful payoff, delighted faces, expansive mountain scenery."
+      },
+      {
+        "id": "eijfcn",
+        "narration": "[excited] Can you guess our next animal: a spotted land sprinter?",
+        "characters": [
+          "kiko",
+          "pip"
+        ],
+        "scene": "Vertical 9:16, Kiko and Pip on a sunlit mountain path overlooking distant golden grasslands, no other animals visible.",
+        "action": "Kiko cups one hand behind his ear toward the viewer.",
+        "camera": "push-in",
+        "mood": "Playful curiosity, inviting smile, warm adventurous colours."
+      }
+    ],
+    "endHook": "Can you guess our next animal: a spotted land sprinter?",
+    "createdAt": "2026-11-12T20:21:54.654Z",
+    "description": "Join Kiko and Pip as they discover the peregrine falcon’s incredible diving superpower. This speedy bird can dive at over 300 km/h and catch prey in the air!",
+    "tags": [
+      "Wild Superpowers",
+      "peregrine falcon",
+      "animal facts",
+      "nature for kids",
+      "YouTube Shorts"
+    ]
+  }
+}

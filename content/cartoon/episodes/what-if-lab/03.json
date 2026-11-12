@@ -1,0 +1,130 @@
+{
+  "number": 3,
+  "topic": "What if you fell into a black hole? The pull on your feet would be much stronger than on your head, stretching you like spaghetti (spaghettification).",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:20:22.631Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If You Fell Into a Black Hole?",
+    "shots": [
+      {
+        "id": "557d5a",
+        "narration": "What if you fell feetfirst into a black hole?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, vertical frame, glowing black hole hologram without text.",
+        "action": "nova presents the black hole hologram to byte.",
+        "camera": "push-in",
+        "mood": "Bright cyan lighting, curious expressions, dramatic swirling orange glow."
+      },
+      {
+        "id": "aquweb",
+        "narration": "Let's explore safely, using an empty spacesuit.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab beside a holographic black hole, visibly empty transparent demonstration spacesuit.",
+        "action": "nova places the miniature empty spacesuit into the hologram.",
+        "camera": "orbit",
+        "mood": "Playful laboratory demonstration, soft blue highlights, reassuring atmosphere."
+      },
+      {
+        "id": "bau7by",
+        "narration": "[excited] Gravity pulls the suit toward the black hole.",
+        "characters": [
+          "byte"
+        ],
+        "scene": "Close view of the floating hologram, empty spacesuit aligned boots toward the black hole.",
+        "action": "The empty spacesuit drifts boots-first toward the dark sphere.",
+        "camera": "pan-right",
+        "mood": "Vivid cosmic colours, fascinated robot expression, clear spatial arrangement."
+      },
+      {
+        "id": "z009d7",
+        "narration": "Its feet are closer, so gravity pulls them harder.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram showing an empty spacesuit beside a black hole, large glowing arrow at boots and smaller arrow at helmet, no labels.",
+        "action": "nova points at the larger arrow beside the boots.",
+        "camera": "static",
+        "mood": "Crisp educational lighting, bright contrasting arrows, attentive expressions."
+      },
+      {
+        "id": "4mh18t",
+        "narration": "That difference stretches the suit from head to toe.",
+        "characters": [
+          "byte"
+        ],
+        "scene": "Magnified hologram of the empty flexible demonstration spacesuit above the lab table.",
+        "action": "The holographic suit elongates between its helmet and boots.",
+        "camera": "push-in",
+        "mood": "Rubbery cartoon demonstration, luminous blue material, curious rather than frigh"
+      },
+      {
+        "id": "kq9n3l",
+        "narration": "[surprised] Scientists call this stretching spaghettification!",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a tall holographic empty spacesuit, elongated into a thin noodle-like shape.",
+        "action": "byte tilts sideways beside the stretched hologram.",
+        "camera": "pull-out",
+        "mood": "Comical robot expression, cheerful purple and turquoise lighting."
+      },
+      {
+        "id": "1x83xq",
+        "narration": "These tidal forces grow stronger as you approach the center.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram with a black hole and an empty demonstration suit positioned closer to its center.",
+        "action": "The empty suit stretches further toward the black hole.",
+        "camera": "pan-left",
+        "mood": "Clear visual progression, saturated cosmic glow, calm scientific curiosity."
+      },
+      {
+        "id": "4wp085",
+        "narration": "The event horizon marks the boundary of no return.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Black hole hologram with a thin highlighted spherical event horizon, no lettering or markings.",
+        "action": "nova traces the highlighted boundary with her fingertip.",
+        "camera": "orbit",
+        "mood": "Elegant blue boundary glow, thoughtful expressions, wondrous atmosphere."
+      },
+      {
+        "id": "lasekx",
+        "narration": "[whispers] Even light cannot escape; what if Earth stopped spinning?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with light paths confined inside the black hole hologram and a stationary Earth hologram beside it.",
+        "action": "nova reveals the stationary Earth hologram to byte.",
+        "camera": "pull-out",
+        "mood": "Surprising cosmic reveal, bright planetary colours, eager anticipation."
+      }
+    ],
+    "endHook": "What if Earth stopped spinning?",
+    "createdAt": "2026-11-12T20:20:22.630Z",
+    "description": "Dr. Nova shows Byte how a black hole could stretch a falling object like spaghetti. Explore tidal forces, spaghettification, and the boundary beyond which even light cannot escape.",
+    "tags": [
+      "What If Lab",
+      "black holes",
+      "space",
+      "science",
+      "spaghettification",
+      "3D animation"
+    ]
+  }
+}

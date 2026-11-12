@@ -1,0 +1,165 @@
+{
+  "number": 10,
+  "topic": "They plan a birthday surprise for their human friend Sara.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:14:07.182Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi & Bruno: Sara’s Birthday Surprise",
+    "shots": [
+      {
+        "id": "liibhr",
+        "narration": "Could one tangled ribbon spoil Sara’s birthday surprise?",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Cosy colourful living room, tangled yellow ribbon beside a blank wrapped present, warm sunlight, rounded 3D family-film styling, vertical 9:16, no text.",
+        "action": "Bruno lifts one ribbon end, revealing a tangled clump beneath it.",
+        "camera": "push-in",
+        "mood": "Golden-brown floppy ears, puzzled eyes, bright yellow loops filling the foregrou"
+      },
+      {
+        "id": "zyv08x",
+        "narration": "Mishi had planned a special birthday table for Sara.",
+        "characters": [
+          "mishi"
+        ],
+        "scene": "Low living-room table with a small frosted birthday cake, unlit candles, colourful paper flowers and an empty gift space, vertical 9:16, no text.",
+        "action": "Mishi slides the plain wrapped present beside the cake.",
+        "camera": "pan-right",
+        "mood": "Fluffy grey fur, green eyes, red ear bow, neatly arranged pastel decorations."
+      },
+      {
+        "id": "1rfw0n",
+        "narration": "[chuckles] Bruno’s ribbon looked more like a noodle nest!",
+        "characters": [
+          "bruno"
+        ],
+        "scene": "Soft living-room rug beside the birthday table, yellow ribbon piled on the floor, vertical 9:16, no text.",
+        "action": "Bruno tilts his head at the ribbon clump.",
+        "camera": "low-angle",
+        "mood": "One floppy ear hanging sideways, blue collar and bone-shaped tag, comically rais"
+      },
+      {
+        "id": "sn40ul",
+        "narration": "Mishi spotted one loose end beneath the loops.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Sunlit rug with the tangled ribbon between the two friends, birthday table behind them, vertical 9:16, no text.",
+        "action": "Mishi points one grey paw at the loose ribbon end.",
+        "camera": "push-in",
+        "mood": "Focused green eyes, a clearly visible yellow ribbon tip, Bruno watching closely."
+      },
+      {
+        "id": "zwo4dk",
+        "narration": "Bruno tried pulling, but the tangle only tightened.",
+        "characters": [
+          "bruno",
+          "mishi"
+        ],
+        "scene": "Living-room floor beside the low birthday table, ribbon clump centered between the friends, vertical 9:16, no text.",
+        "action": "Bruno pulls the wrong ribbon loop into a tighter bunch.",
+        "camera": "static",
+        "mood": "Small puckered ribbon knot, Bruno’s surprised eyebrows, Mishi’s attentive expres"
+      },
+      {
+        "id": "2sost6",
+        "narration": "[sighs] Perhaps gentle paws would work better than strong pulls.",
+        "characters": [
+          "bruno",
+          "mishi"
+        ],
+        "scene": "Warm living-room rug with the yellow ribbon resting flat, vertical 9:16, no text.",
+        "action": "Bruno releases the ribbon from beneath his paw.",
+        "camera": "pull-out",
+        "mood": "Relaxed paws, softened puppy expression, Mishi sitting patiently nearby."
+      },
+      {
+        "id": "e6fbly",
+        "narration": "Mishi held the loose end steady.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Close floor-level view of the ribbon’s loose end and tangled loops on a soft rug, vertical 9:16, no text.",
+        "action": "Mishi pins the loose ribbon end gently beneath one paw.",
+        "camera": "static",
+        "mood": "Careful grey paw, bright yellow ribbon, Bruno poised beside the remaining loops."
+      },
+      {
+        "id": "5a65n5",
+        "narration": "Bruno carefully unwound the loops, one by one.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Open rug space between the sofa and birthday table, ribbon extending from Mishi’s stationary paw, vertical 9:16, no text.",
+        "action": "Bruno gently draws the final loose loop out of the tangle.",
+        "camera": "pan-left",
+        "mood": "Smooth ribbon stretching across the rug, Bruno’s concentrated face, warm golden "
+      },
+      {
+        "id": "59fs6o",
+        "narration": "[excited] Together, they finally had one lovely ribbon!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Living-room rug in front of the decorated birthday table, vertical 9:16, no text.",
+        "action": "Mishi and Bruno stretch the straightened ribbon between their paws.",
+        "camera": "pull-out",
+        "mood": "Matching proud smiles, flowing yellow ribbon, colourful birthday decorations ove"
+      },
+      {
+        "id": "xlam8v",
+        "narration": "Mishi added the finishing touch to Sara’s present.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Low birthday table with frosted cake, paper flowers and a blank wrapped present encircled by yellow ribbon, vertical 9:16, no text.",
+        "action": "Mishi presses a large matching bow onto the present.",
+        "camera": "push-in",
+        "mood": "Plump yellow bow, Mishi’s pleased green eyes, Bruno’s admiring smile."
+      },
+      {
+        "id": "3a1jpw",
+        "narration": "Now Sara’s birthday surprise was ready!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Completed birthday table beside an open garden doorway, cake with unlit candles, wrapped gift and paper flowers, vertical 9:16, no text.",
+        "action": "Mishi and Bruno present the birthday table with outstretched paws.",
+        "camera": "orbit",
+        "mood": "Big welcoming smiles, festive colours, sunny garden glowing beyond the doorway."
+      },
+      {
+        "id": "y4qba2",
+        "narration": "[whispers] Teamwork makes surprises sweeter; next, a mysterious garden trail!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Open doorway beside the birthday table, a winding trail of pink petals crossing the sunny garden path, vertical 9:16, no text.",
+        "action": "Mishi points toward the petal trail while Bruno watches beside her.",
+        "camera": "pan-right",
+        "mood": "Curious green eyes, lifted floppy ears, inviting pink petals disappearing behind"
+      }
+    ],
+    "endHook": "Where does the mysterious garden petal trail lead?",
+    "createdAt": "2026-11-12T20:14:07.181Z",
+    "description": "Mishi and Bruno prepare a birthday surprise for their human friend Sara, but a tangled ribbon slows them down. A little teamwork turns their twisty problem into something lovely!",
+    "tags": [
+      "Mishi and Bruno",
+      "birthday surprise",
+      "teamwork",
+      "kids animation",
+      "friendship",
+      "YouTube Shorts"
+    ]
+  }
+}

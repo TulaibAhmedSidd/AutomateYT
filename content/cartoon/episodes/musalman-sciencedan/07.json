@@ -1,0 +1,163 @@
+{
+  "number": 7,
+  "topic": "Abbas ibn Firnas (810-887 CE) of Cordoba made one of the first recorded attempts to fly with wings, gliding a short way before landing hard. He also worked on clear glass and water clocks. Today a crater on the Moon is named after him.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:15:28.001Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Abbas ibn Firnas: Insaan Bhi Urr Sakta Hai?",
+    "shots": [
+      {
+        "id": "bxwsek",
+        "narration": "کیا انسان بھی پر لگا کر اُڑ سکتا ہے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated library, Hamza with round glasses and blue shirt holding a blank notebook, Noori floating beside a large projected wing silhouette, no text or symbols.",
+        "action": "Hamza reaches toward the projected wing.",
+        "camera": "push-in",
+        "mood": "Golden light, wide-eyed curiosity, inviting mystery."
+      },
+      {
+        "id": "n2kag9",
+        "narration": "نوری ہمیں پرانے قرطبہ لے آیا!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library opening into a luminous projection of old Cordoba rooftops and a quiet workshop, no writing or signs.",
+        "action": "Noori projects a panoramic view of old Cordoba.",
+        "camera": "pan-right",
+        "mood": "Friendly brass glow, colourful historical discovery."
+      },
+      {
+        "id": "p7wvdi",
+        "narration": "[excited] یہ عباس ابن فرناس ہیں، اُڑنے کا خواب دیکھنے والے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected historical workshop, Abbas ibn Firnas shown respectfully as a small distant cartoon figure from behind beside a large wing frame, Hamza and Noori in the foreground, no text.",
+        "action": "The distant scholar studies the wing frame.",
+        "camera": "push-in",
+        "mood": "Warm workshop light, thoughtful and inspiring."
+      },
+      {
+        "id": "9qul3z",
+        "narration": "مگر انسان کو ہوا میں سہارا کیسے ملے؟",
+        "characters": [
+          "hamza"
+        ],
+        "scene": "Vertical 9:16, close view of a broad wing in the projected workshop, Hamza holding his blank notebook beside it, no labels or writing.",
+        "action": "Hamza examines the broad surface of the wing.",
+        "camera": "orbit",
+        "mood": "Gentle puzzlement, soft amber light."
+      },
+      {
+        "id": "drry0b",
+        "narration": "پروں پر ہوا کی قوت جسم کو اوپر سہارا دیتی ہے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, Noori beside an educational projection of a wing in profile, pale flowing air ribbons and a small attached silhouette, no arrows, labels or text.",
+        "action": "Flowing air ribbons lift the projected wing slightly.",
+        "camera": "static",
+        "mood": "Clear, calm scientific wonder."
+      },
+      {
+        "id": "fyypb2",
+        "narration": "[excited] انہوں نے پر لگا کر اُڑنے کی کوشش کی!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, historical scene contained inside Noori's glowing projection, distant rear view of Abbas ibn Firnas wearing broad wings, Hamza safely watching from the library foreground, no text.",
+        "action": "The distant scholar spreads his wings.",
+        "camera": "pull-out",
+        "mood": "Hopeful anticipation, peaceful daylight."
+      },
+      {
+        "id": "0wq1g7",
+        "narration": "وہ کچھ دور تک ہوا میں اُڑے!",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, wide projected historical landscape with a distant rear-view winged figure above gently sloping ground, Noori visible at the projection edge, no text.",
+        "action": "The winged figure glides a short distance.",
+        "camera": "pan-left",
+        "mood": "Brief soaring wonder, soft blue sky."
+      },
+      {
+        "id": "110ge2",
+        "narration": "مگر زمین پر سخت اترے؛ اُترنا بھی آسان نہیں تھا۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, distant projected landing area, rear-view scholar with wings close to the ground, Hamza and Noori watching from the library, no injuries or text.",
+        "action": "The distant figure lands abruptly in a small puff of dust.",
+        "camera": "static",
+        "mood": "Gentle concern, restrained and reassuring."
+      },
+      {
+        "id": "at65it",
+        "narration": "[surprised] انہوں نے شفاف شیشے پر بھی کام کیا تھا!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected historical workbench with a clear glass piece, distant rear-view scholar softly blurred beyond it, Hamza and Noori in the foreground, no writing.",
+        "action": "Noori sweeps a warm light across the clear glass.",
+        "camera": "push-in",
+        "mood": "Sparkling discovery, warm and friendly."
+      },
+      {
+        "id": "wn8rm4",
+        "narration": "اور پانی سے چلنے والی گھڑیوں پر بھی!",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected illustrative water-clock model with a plain vessel dripping into a lower bowl, distant scholar seen from behind, no numbered dial, markings or text.",
+        "action": "Water drips steadily into the lower bowl.",
+        "camera": "low-angle",
+        "mood": "Quiet fascination, warm brass reflections."
+      },
+      {
+        "id": "lpzip8",
+        "narration": "چاند کے ایک گڑھے کا نام بھی اُن پر ہے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, library darkened around Noori's detailed lunar globe projection, one lunar crater softly illuminated without a label, Hamza holding his blank notebook, no text.",
+        "action": "Noori projects a close view of the Moon's cratered surface.",
+        "camera": "push-in",
+        "mood": "Silver moonlight, proud and peaceful wonder."
+      },
+      {
+        "id": "m91dhg",
+        "narration": "[excited] اگلی بار دیکھیں، پانی کی طاقت سے مشین کیسے چلتی ہے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library with a glowing preview of a wooden waterwheel and simple connected gears, Hamza and Noori beside the projection, no writing or captions.",
+        "action": "Flowing water turns the projected waterwheel.",
+        "camera": "pull-out",
+        "mood": "Playful anticipation, inviting golden glow."
+      }
+    ],
+    "endHook": "Paani ki taaqat se machine kaise chalti hai?",
+    "createdAt": "2026-11-12T20:15:27.999Z",
+    "description": "حمزہ اور نوری کے ساتھ قرطبہ کے عباس ابن فرناس کی اُڑنے کی کوشش دیکھیں۔ انہوں نے پروں کے ساتھ کچھ دور پرواز کی، مگر زمین پر سخت اترے۔ شفاف شیشے، پانی کی گھڑیوں اور چاند پر اُن کے نام کے گڑھے کا بھی ذکر ہوگا۔",
+    "tags": [
+      "Musalman Sciencedan",
+      "Abbas ibn Firnas",
+      "Urdu science",
+      "Kids animation",
+      "History of flight"
+    ]
+  }
+}

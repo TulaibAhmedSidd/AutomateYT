@@ -1,0 +1,130 @@
+{
+  "number": 5,
+  "topic": "Needs versus wants: how to tell the difference before you buy.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:08:42.082Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "Needs vs. Wants: The Before-You-Buy Check",
+    "shots": [
+      {
+        "id": "78cdzr",
+        "narration": "Two purchases, one small pile of money: what comes first?",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright 3D city flat, vertical 9:16 frame, table holding loose coins, dinner vegetables, and a decorative mug; no text or logos.",
+        "action": "Kash holds her open hands between the vegetables and the mug.",
+        "camera": "push-in",
+        "mood": "Bright coral and teal accents, curious expression, playful tension."
+      },
+      {
+        "id": "hs77br",
+        "narration": "Kash needs dinner ingredients, but wants a decorative mug.",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Clean modern flat kitchen, vertical frame, empty dinner bowl beside vegetables and a glossy decorative mug; no text or logos.",
+        "action": "Kash reaches toward the decorative mug.",
+        "camera": "static",
+        "mood": "Warm afternoon light, delighted eyes, tempting sparkle on the mug."
+      },
+      {
+        "id": "wocm17",
+        "narration": "[chuckles] Coin explains: needs cover essentials; wants are nice extras.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Modern flat kitchen table, vegetables beside an empty dinner bowl, decorative mug farther away; no text or logos.",
+        "action": "Coin points toward the dinner ingredients.",
+        "camera": "pan-left",
+        "mood": "Friendly gold glow, clear visual focus on food, attentive Kash."
+      },
+      {
+        "id": "gjs5g6",
+        "narration": "First ask: is this essential for my everyday life?",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical close view of the kitchen table, empty dinner bowl directly behind fresh vegetables; no text or logos.",
+        "action": "Kash places the vegetables beside her dinner bowl.",
+        "camera": "push-in",
+        "mood": "Calm blue background, thoughtful expression, practical everyday warmth."
+      },
+      {
+        "id": "jn6lq6",
+        "narration": "Then ask: do I already have something that works?",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Bright kitchen cupboard containing a plain intact mug, decorative mug visible on the counter below; no text or logos.",
+        "action": "Kash lifts the plain mug from the cupboard.",
+        "camera": "pan-right",
+        "mood": "Soft sunshine, raised eyebrows, a small moment of recognition."
+      },
+      {
+        "id": "lfzu4l",
+        "narration": "[surprised] Her old mug works; the new one is a want.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Clean kitchen counter with a decorative mug beside Kash's plain mug; no text or logos.",
+        "action": "Kash pours water from an unmarked pitcher into her plain mug.",
+        "camera": "static",
+        "mood": "Clear sparkling water, cheerful realization, Coin smiling nearby."
+      },
+      {
+        "id": "jpjsak",
+        "narration": "Wants aren't bad; knowing the difference helps you choose.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Modern flat table with dinner vegetables in front and decorative mug off to one side; no text or logos.",
+        "action": "Coin gives the decorative mug a friendly thumbs-up.",
+        "camera": "low-angle",
+        "mood": "Reassuring smile, bright friendly colours, relaxed atmosphere."
+      },
+      {
+        "id": "gjrp4n",
+        "narration": "Kash sets aside money for dinner before the extra mug.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical overhead-style view of the flat table, small coin pile beside vegetables, decorative mug farther away; no text or logos.",
+        "action": "Kash slides the coin pile toward the dinner ingredients.",
+        "camera": "pull-out",
+        "mood": "Warm golden lighting, satisfied expression, uncluttered visual payoff."
+      },
+      {
+        "id": "bc14k9",
+        "narration": "[excited] Today, sort one purchase; next, explore waiting before buying.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright flat kitchen, dinner ingredients beside their coin pile, decorative mug on a separate shelf; no text or logos.",
+        "action": "Kash places an unmarked sand timer beside the decorative mug.",
+        "camera": "push-in",
+        "mood": "Playful anticipation, warm sunset colours, encouraging smiles."
+      }
+    ],
+    "endHook": "Next episode: can waiting help you understand a want?",
+    "createdAt": "2026-11-12T20:08:42.075Z",
+    "description": "Kash wants a decorative mug, but dinner ingredients come first. Coin shares a simple way to tell needs from wants before buying. General money education, not personal financial advice.",
+    "tags": [
+      "Coin & Kash",
+      "needs versus wants",
+      "money basics",
+      "before you buy",
+      "budgeting",
+      "animated shorts"
+    ]
+  }
+}

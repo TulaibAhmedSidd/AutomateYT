@@ -1,0 +1,105 @@
+{
+  "number": 6,
+  "topic": "A lonely sock that lost its pair in the wash.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:10:31.916Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "If Things Could Talk: The Lonely Sock",
+    "shots": [
+      {
+        "id": "drx5ty",
+        "narration": "I went into the wash married. I came out single.",
+        "characters": [],
+        "scene": "Cosy modern laundry room, open washing machine, vertical 9:16 frame, bright 3D cartoon style, no visible text.",
+        "action": "A blue sock with big cartoon eyes and a small shocked mouth tumbles alone from the washer onto the floor.",
+        "camera": "push-in",
+        "mood": "Bright pastel colours, dramatic empty space around the tiny sock."
+      },
+      {
+        "id": "439xnm",
+        "narration": "Naturally, I checked our last known address.",
+        "characters": [],
+        "scene": "Inside an empty washing machine drum, vertical 9:16 frame, soft reflected laundry-room light, no visible text.",
+        "action": "The blue sock with big cartoon eyes and a small worried mouth peers into the empty drum.",
+        "camera": "static",
+        "mood": "Cool silver reflections, comically cavernous emptiness."
+      },
+      {
+        "id": "0uef4s",
+        "narration": "[sighs] Nothing. Just that coin nobody ever claims.",
+        "characters": [],
+        "scene": "Bottom of an empty washing machine drum with one plain coin, vertical 9:16 frame, no visible text.",
+        "action": "The blue sock with big cartoon eyes and a small disappointed mouth nudges the coin with its toe.",
+        "camera": "low-angle",
+        "mood": "Soft blue lighting, tiny lonely treasure."
+      },
+      {
+        "id": "3v1pg7",
+        "narration": "Maybe my partner was hiding in the clean laundry.",
+        "characters": [],
+        "scene": "White laundry basket filled with colourful unmarked clothes, cosy laundry room, vertical 9:16 frame.",
+        "action": "The blue sock with big cartoon eyes and a small determined mouth dives into the laundry pile.",
+        "camera": "pan-right",
+        "mood": "Warm light, colourful fabric mountains, hopeful energy."
+      },
+      {
+        "id": "3up04z",
+        "narration": "Nope. Just a fitted sheet swallowing everyone else's belongings.",
+        "characters": [],
+        "scene": "Laundry basket with a pale fitted sheet spread across the top, vertical 9:16 frame, no visible text.",
+        "action": "The blue sock with big cartoon eyes and a small strained mouth wriggles out of an elastic sheet corner.",
+        "camera": "push-in",
+        "mood": "Playful fabric chaos, exaggerated struggle."
+      },
+      {
+        "id": "zih4kx",
+        "narration": "[sarcastic] The missing-sock drawer. Very comforting name for a retirement home.",
+        "characters": [],
+        "scene": "Open wooden bedroom drawer containing several unmatched socks, vertical 9:16 frame, no visible text.",
+        "action": "The blue sock with big cartoon eyes and a small dejected mouth slumps into an empty corner.",
+        "camera": "pull-out",
+        "mood": "Warm bedroom light, lonely gap among colourful socks."
+      },
+      {
+        "id": "y56yrh",
+        "narration": "Then someone else showed up without a plus-one.",
+        "characters": [],
+        "scene": "Same open wooden drawer, blue sock beside an empty space, vertical 9:16 frame, no visible text.",
+        "action": "A pink striped sock drops beside the blue sock with big cartoon eyes and a small surprised mouth.",
+        "camera": "static",
+        "mood": "Bright pink accent, sudden hopeful warmth."
+      },
+      {
+        "id": "vtcs6k",
+        "narration": "Different colours. Same abandonment issues. Honestly, we clicked.",
+        "characters": [],
+        "scene": "Open bedroom drawer with blue and pink striped socks side by side, vertical 9:16 frame, no visible text.",
+        "action": "The blue sock with big cartoon eyes and a small delighted mouth curls its toe around the pink sock's toe.",
+        "camera": "push-in",
+        "mood": "Cosy golden lighting, sweetly ridiculous romance."
+      },
+      {
+        "id": "1g2ixl",
+        "narration": "[chuckles] I found love again. The dryer still needs a lawyer.",
+        "characters": [],
+        "scene": "Laundry counter beside a closed unmarked dryer, pink striped sock beside the blue sock, vertical 9:16 frame.",
+        "action": "The blue sock with big cartoon eyes and a small suspicious mouth points its toe accusingly at the dryer.",
+        "camera": "low-angle",
+        "mood": "Bright domestic courtroom drama, dryer looming in the background."
+      }
+    ],
+    "endHook": "Next episode: the dryer finally tells its side of the story.",
+    "createdAt": "2026-11-12T20:10:31.916Z",
+    "description": "One wash cycle, one missing soulmate, and one very suspicious dryer. A lonely sock discovers that moving on doesn't always mean matching.",
+    "tags": [
+      "If Things Could Talk",
+      "sock",
+      "laundry",
+      "animated comedy",
+      "relatable",
+      "YouTube Shorts"
+    ]
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "number": 4,
+  "topic": "Ibn Sina (980-1037 CE) wrote 'The Canon of Medicine', which was used to teach doctors in Europe for hundreds of years.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:15:06.272Z",
+  "episode": {
+    "id": "",
+    "seriesId": "musalman-sciencedan",
+    "title": "Ibn Sina (980-1037 CE) | The Canon of Medicine",
+    "shots": [
+      {
+        "id": "8srjvx",
+        "narration": "ایک کتاب سینکڑوں سال ڈاکٹروں کو کیسے پڑھاتی رہی؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated library with brass instruments and blank-spined books; a giant projected book floats above a table, with no visible text.",
+        "action": "Hamza tilts his head up toward the giant projected book.",
+        "camera": "low-angle",
+        "mood": "Golden light, wide-eyed curiosity, welcoming mystery."
+      },
+      {
+        "id": "uftaih",
+        "narration": "حمزہ سوچنے لگا، پہلے ڈاکٹر پڑھتے کیسے تھے؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, cozy library desk with a small notebook showing only simple drawings, no letters or numbers.",
+        "action": "Hamza scratches his head over his open notebook.",
+        "camera": "push-in",
+        "mood": "Gentle puzzlement, warm amber lighting."
+      },
+      {
+        "id": "x3vc01",
+        "narration": "[excited] نوری نے کہا، آؤ ابن سینا سے ملیں!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library opening into a glowing historical projection, with no text or signs.",
+        "action": "Noori projects a distant rear-view cartoon depiction of Ibn Sina seated at a study desk.",
+        "camera": "pull-out",
+        "mood": "Magical discovery, respectful and inviting."
+      },
+      {
+        "id": "2s41yo",
+        "narration": "ابن سینا طب کے مشہور عالم تھے۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected historical study with brass lamps, rolled manuscripts and closed unmarked books; Ibn Sina remains small and seen from behind.",
+        "action": "The distant projected scholar opens a large book.",
+        "camera": "pan-right",
+        "mood": "Quiet scholarship, soft golden workshop light."
+      },
+      {
+        "id": "dtajtt",
+        "narration": "انہوں نے القانون فی الطب نام کی کتاب لکھی۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected study desk with a large leather-bound volume, blank cover and pages without visible writing; the scholar is distant in the background.",
+        "action": "Noori enlarges the projected leather-bound book.",
+        "camera": "push-in",
+        "mood": "Proud discovery, rich leather and warm brass textures."
+      },
+      {
+        "id": "8ld2nx",
+        "narration": "[excited] طب ہمیں بیماری سمجھنے اور علاج کرنے میں مدد دیتی ہے۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, library tabletop holding a wordless projection of an anatomy drawing beside a brass balance and a closed medicine jar.",
+        "action": "Hamza points to the projected anatomy drawing.",
+        "camera": "static",
+        "mood": "Clear, reassuring, child-friendly learning."
+      },
+      {
+        "id": "ojo6vk",
+        "narration": "تو ڈاکٹر بھی کتابوں سے سیکھتے تھے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, cozy library desk with the projected medical book beside Hamza's drawing-only notebook; no visible text.",
+        "action": "Hamza opens his notebook beside the projected book.",
+        "camera": "orbit",
+        "mood": "A cheerful moment of understanding."
+      },
+      {
+        "id": "h0hgkt",
+        "narration": "یہ کتاب یورپ تک پہنچی۔",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, wordless miniature projection transitioning from the historical study to a European teaching hall with stone arches and empty wooden desks.",
+        "action": "The projected book glides into the European teaching hall.",
+        "camera": "pan-left",
+        "mood": "Wonder at knowledge travelling, soft luminous colors."
+      },
+      {
+        "id": "8wolks",
+        "narration": "[surprised] وہاں سینکڑوں سال ڈاکٹر اس سے پڑھتے رہے!",
+        "characters": [
+          "noori"
+        ],
+        "scene": "Vertical 9:16, projected European teaching desk with the same unmarked medical volume, an arched window and changing seasonal scenery; no people or text.",
+        "action": "Seasons cycle repeatedly beyond the window beside the book.",
+        "camera": "static",
+        "mood": "A gentle sense of passing time and lasting learning."
+      },
+      {
+        "id": "stjmbf",
+        "narration": "حمزہ کو اپنے سوال کا جواب مل گیا۔",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, warm library with the floating medical book above the desk and drawing-only notebook below.",
+        "action": "Hamza nods at the projected book.",
+        "camera": "push-in",
+        "mood": "Satisfied curiosity, friendly golden glow."
+      },
+      {
+        "id": "2zrrb8",
+        "narration": "علم واقعی سب کے کام آتا ہے!",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, cozy library with the projected book surrounded by small wordless models of different libraries; no labels or lettering.",
+        "action": "Noori spreads the book's warm projected glow across the miniature libraries.",
+        "camera": "pull-out",
+        "mood": "Hopeful, peaceful, shared discovery."
+      },
+      {
+        "id": "6vogtm",
+        "narration": "[excited] روشنی کا راز کس مسلمان سائنس دان نے سمجھایا؟",
+        "characters": [
+          "hamza",
+          "noori"
+        ],
+        "scene": "Vertical 9:16, dim library corner with a tiny aperture projecting an inverted image of a colorful outdoor tree onto a blank screen; no text.",
+        "action": "Hamza leans toward the upside-down tree image.",
+        "camera": "push-in",
+        "mood": "Playful optical mystery, inviting anticipation."
+      }
+    ],
+    "endHook": "Agli baar: roshni ka raaz kis Musalman science dan ne samjhaya?",
+    "createdAt": "2026-11-12T20:15:06.271Z",
+    "description": "حمزہ اور نوری کے ساتھ ابن سینا کی مشہور کتاب، القانون فی الطب، کے بارے میں جانیے۔ یہ کتاب یورپ میں سینکڑوں سال ڈاکٹروں کو پڑھانے کے لیے استعمال ہوئی۔",
+    "tags": [
+      "Musalman Sciencedan",
+      "Ibn Sina",
+      "The Canon of Medicine",
+      "Urdu",
+      "Science for Kids",
+      "History of Medicine"
+    ]
+  }
+}

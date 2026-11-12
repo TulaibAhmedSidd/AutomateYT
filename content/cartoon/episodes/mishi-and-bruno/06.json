@@ -1,0 +1,168 @@
+{
+  "number": 6,
+  "topic": "Both want the one sunny spot by the window; they learn to share it.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:13:39.788Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi & Bruno: One Sunny Spot",
+    "shots": [
+      {
+        "id": "ic54hc",
+        "narration": "One sunny spot, two best friends—who gets the warmth?",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, warm 3D family animation. A cosy colourful living room has one small oval of sunshine beside a tall window. Mishi is a fluffy grey kitten with green eyes, a pink nose and a red ear bow. Bruno is a chubby golden-brown puppy with floppy ears, a black nose and a blue collar with a bone-s",
+        "action": "Mishi and Bruno reach a front paw toward the same sunny oval.",
+        "camera": "push-in",
+        "mood": "Golden light, rounded furniture, wide curious eyes."
+      },
+      {
+        "id": "mnqki5",
+        "narration": "Bruno claims it with one enormous puppy flop.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, cosy 3D living room, small sunny oval on a soft peach rug beside the window, no text.",
+        "action": "Bruno flops across the whole sunny oval beside Mishi.",
+        "camera": "low-angle",
+        "mood": "Soft golden fur, floppy ears spread wide, playful warmth."
+      },
+      {
+        "id": "zqufzp",
+        "narration": "[chuckles] But where can Mishi put her chilly paws?",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, peach rug beside the window, Bruno filling the sunny oval, Mishi just beyond its edge, no text.",
+        "action": "Mishi stretches one paw toward a tiny uncovered sliver of sunshine.",
+        "camera": "static",
+        "mood": "Comically tiny sunlit sliver, hopeful green eyes, gentle disappointment."
+      },
+      {
+        "id": "1w91tu",
+        "narration": "Bruno notices his friend sitting outside the sunshine.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, warm 3D living room, Bruno in the sunny oval and Mishi sitting on the shaded rug, no text.",
+        "action": "Bruno turns his head toward Mishi's shaded paws.",
+        "camera": "pan-left",
+        "mood": "Soft concerned eyes, relaxed ears, warm afternoon colours."
+      },
+      {
+        "id": "1q5s9e",
+        "narration": "His big heart makes room—for Mishi alone.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, peach rug with one sunny oval beside the window, no text.",
+        "action": "Bruno scoots completely out of the sunshine.",
+        "camera": "pull-out",
+        "mood": "Generous puppy smile, inviting empty patch of golden light."
+      },
+      {
+        "id": "55tzo0",
+        "narration": "[sighs] Now Mishi's warm, but Bruno isn't.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, sunny oval on the peach rug, Bruno sitting just outside its edge, no text.",
+        "action": "Mishi stretches across the sunny oval.",
+        "camera": "static",
+        "mood": "Contented kitten, drooping puppy ears, gentle visual contrast."
+      },
+      {
+        "id": "15nzj3",
+        "narration": "Mishi spots the problem: taking turns still leaves someone out.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, warm 3D living room, Mishi stretched in sunshine beside shaded Bruno, no text.",
+        "action": "Mishi turns her head toward Bruno.",
+        "camera": "push-in",
+        "mood": "Thoughtful green eyes, soft shadows, quiet affection."
+      },
+      {
+        "id": "a1tara",
+        "narration": "She curls up small, leaving half the sunshine free.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, clearly defined sunny oval on a peach rug, Bruno seated at its edge, no text.",
+        "action": "Mishi curls into a compact ball on one side of the oval.",
+        "camera": "low-angle",
+        "mood": "Neat fluffy kitten curl, bright empty space beside her."
+      },
+      {
+        "id": "53gz9p",
+        "narration": "[giggles] Bruno tries his smallest, roundest puppy curl.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, Mishi curled on half the sunny oval beside the window, no text.",
+        "action": "Bruno curls into the remaining half beside Mishi.",
+        "camera": "pan-right",
+        "mood": "Squishy puppy cheeks, tucked floppy ears, cosy golden light."
+      },
+      {
+        "id": "6w4xz1",
+        "narration": "Two little curls fit better than one big sprawl.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, both friends curled together inside the same sunny oval on the peach rug, no text.",
+        "action": "Mishi rests her head against Bruno's shoulder.",
+        "camera": "push-in",
+        "mood": "Touching fluffy cheeks, sleepy smiles, soft warm highlights."
+      },
+      {
+        "id": "pppogw",
+        "narration": "The sunshine feels even nicer with a friend.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, cosy colourful living room, both friends sharing the sunlit rug beside the garden window, no text.",
+        "action": "Mishi and Bruno close their eyes together.",
+        "camera": "pull-out",
+        "mood": "Peaceful smiles, touching shoulders, rich honey-coloured sunlight."
+      },
+      {
+        "id": "iue7fh",
+        "narration": "[excited] Sharing feels sunny; next, why won't our garden pinwheel spin?",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, both friends together in the sunny window spot, a bright motionless pinwheel visible outside in the sunny garden, no text.",
+        "action": "Mishi points one paw toward the garden pinwheel.",
+        "camera": "pan-right",
+        "mood": "Curious green eyes, perked puppy ears, colourful garden promise."
+      }
+    ],
+    "endHook": "Next, why won't their garden pinwheel spin?",
+    "createdAt": "2026-11-12T20:13:39.787Z",
+    "description": "Mishi and Bruno both want the same cosy patch of sunshine. A little kindness helps them discover that the best spot is one they can share.",
+    "tags": [
+      "Mishi & Bruno",
+      "kids cartoon",
+      "sharing",
+      "friendship",
+      "kitten and puppy",
+      "animated shorts"
+    ]
+  }
+}

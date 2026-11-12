@@ -1,0 +1,104 @@
+{
+  "number": 1,
+  "topic": "A phone at 1% battery, begging its owner for a charger.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:10:11.616Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "If Phones Could Talk: My Last One Percent",
+    "shots": [
+      {
+        "id": "18gtza",
+        "narration": "I'm at one percent. Why are we opening the camera?",
+        "characters": [],
+        "scene": "Cosy modern living room, vertical 9:16 composition, bright 3D cartoon style, no visible text.",
+        "action": "An owner's hand raises a phone with big pleading eyes and a tiny trembling mouth beneath a nearly empty red battery symbol.",
+        "camera": "push-in",
+        "mood": "Warm afternoon light, comically desperate expression."
+      },
+      {
+        "id": "wf1uvp",
+        "narration": "Lovely ceiling photo. Could be my last.",
+        "characters": [],
+        "scene": "Living room beneath a plain ceiling lamp, vertical 9:16 frame, blank phone interface without lettering.",
+        "action": "The phone with big worried eyes and a small downturned mouth tilts toward the ceiling in the owner's hand.",
+        "camera": "low-angle",
+        "mood": "Bright domestic calm contrasting with exaggerated dread."
+      },
+      {
+        "id": "iaojhx",
+        "narration": "[sighs] The charger is right there. Beside your elbow.",
+        "characters": [],
+        "scene": "Soft sofa beside a small side table holding a coiled charging cable, vertical 9:16 frame.",
+        "action": "The phone with big imploring eyes and a tiny tense mouth leans toward the charging cable from the owner's hand.",
+        "camera": "pan-right",
+        "mood": "Hopeful urgency, vivid cosy colours."
+      },
+      {
+        "id": "3oomna",
+        "narration": "Yes! Pick it up! We're making excellent choices!",
+        "characters": [],
+        "scene": "Close view of the side table beside the sofa, vertical 9:16 frame.",
+        "action": "The owner's hand lifts the charging cable beside the phone with big sparkling eyes and a small delighted smile.",
+        "camera": "push-in",
+        "mood": "Triumphant anticipation, warm golden highlights."
+      },
+      {
+        "id": "qk7hy1",
+        "narration": "That's the wrong cable. We have different holes.",
+        "characters": [],
+        "scene": "Living room side table, close view of an obviously oversized connector beside the phone's small charging port.",
+        "action": "The owner's hand holds the oversized connector against the phone with big unimpressed eyes and a tiny flat mouth.",
+        "camera": "static",
+        "mood": "Awkward pause, playful visual mismatch."
+      },
+      {
+        "id": "ia6qx4",
+        "narration": "[excited] Correct cable! Finally, a meaningful connection.",
+        "characters": [],
+        "scene": "Same side table with a second, correctly sized charging cable, vertical 9:16 composition.",
+        "action": "The owner's hand inserts the correct connector into the phone with big relieved eyes and a small beaming mouth.",
+        "camera": "orbit",
+        "mood": "Joyful relief, bright polished cartoon lighting."
+      },
+      {
+        "id": "rb4qgv",
+        "narration": "Why do I still feel like a Victorian ghost?",
+        "characters": [],
+        "scene": "Phone resting on the side table with its cable trailing toward a wall outlet, vertical 9:16 frame.",
+        "action": "The phone with big drooping eyes and a tiny exhausted mouth slumps against a cushion beside the table.",
+        "camera": "pull-out",
+        "mood": "Comically drained, soft shadows and muted screen glow."
+      },
+      {
+        "id": "bylcmk",
+        "narration": "The wall. Please include the wall in this relationship.",
+        "characters": [],
+        "scene": "Low wall outlet beside the side table, phone visible above with its charging cable attached, no lettering.",
+        "action": "The owner's hand plugs the loose power adapter into the outlet beside the phone with big expectant eyes and a tiny hopeful smile.",
+        "camera": "low-angle",
+        "mood": "Last-second rescue, cheerful warm light."
+      },
+      {
+        "id": "6k35fv",
+        "narration": "[chuckles] I'm saved. Now the remote wants a charger. Adorable.",
+        "characters": [],
+        "scene": "Side table with the charging phone glowing softly green and a remote with an open, empty battery compartment, vertical 9:16 frame.",
+        "action": "The remote nudges the charging phone with big amused eyes and a small crooked smile.",
+        "camera": "push-in",
+        "mood": "Cosy relief with a cheeky final visual joke."
+      }
+    ],
+    "endHook": "Next episode: the remote discovers chargers aren't for everyone.",
+    "createdAt": "2026-11-12T20:10:11.615Z",
+    "description": "A phone at one percent begs for the one thing its owner keeps forgetting: a charger. Getting plugged in should be the easy part.",
+    "tags": [
+      "If Things Could Talk",
+      "phone battery",
+      "relatable comedy",
+      "animated shorts",
+      "talking objects"
+    ]
+  }
+}

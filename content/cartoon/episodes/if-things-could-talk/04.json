@@ -1,0 +1,105 @@
+{
+  "number": 4,
+  "topic": "The umbrella that is always forgotten at home on rainy days.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:10:05.895Z",
+  "episode": {
+    "id": "",
+    "seriesId": "if-things-could-talk",
+    "title": "The Umbrella Everyone Forgets",
+    "shots": [
+      {
+        "id": "dydh0m",
+        "narration": "I'm an umbrella, and apparently my job is staying dry.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon modern entryway, closed front door, rain visible through a narrow window, no text or logos.",
+        "action": "A folded yellow umbrella with big expressive eyes and a small disappointed mouth points its curved handle toward the rain.",
+        "camera": "push-in",
+        "mood": "Cosy warm interior contrasted with a rainy blue outdoors."
+      },
+      {
+        "id": "auwmco",
+        "narration": "Every morning, I wait right beside the door.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon entryway, umbrella stand directly beside the front door, plain shoes below, no text or logos.",
+        "action": "The folded yellow umbrella with big expressive eyes and a small hopeful mouth leans toward the doorway.",
+        "camera": "static",
+        "mood": "Eager anticipation, cheerful yellow against soft pastel walls."
+      },
+      {
+        "id": "aprgcu",
+        "narration": "[sighs] They remember keys, shoes, and absolutely not me.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon entryway, open front door revealing wet pavement, umbrella stand beside the threshold, no text or logos.",
+        "action": "The front door swings shut beside the folded yellow umbrella with big expressive eyes and a small stunned mouth.",
+        "camera": "pan-right",
+        "mood": "Comic abandonment, grey daylight shrinking behind the door."
+      },
+      {
+        "id": "p6yu2v",
+        "narration": "Then the rain starts showing off.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon entryway beside a tall window streaked with heavy rain, no text or logos.",
+        "action": "The folded yellow umbrella with big expressive eyes and a small envious mouth presses its face against the window.",
+        "camera": "static",
+        "mood": "Dramatic rainy blue light, exaggerated longing."
+      },
+      {
+        "id": "1z46jg",
+        "narration": "Look at that weather. That's my entire skill set.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon entryway, rain-filled window behind an umbrella stand, no text or logos.",
+        "action": "The yellow umbrella with big expressive eyes and a small determined mouth springs open inside the stand.",
+        "camera": "low-angle",
+        "mood": "Heroic pose in a comically ordinary hallway."
+      },
+      {
+        "id": "1gb9t6",
+        "narration": "[sarcastic] Meanwhile, I'm protecting the hallway from absolutely nothing.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon entryway, open yellow umbrella above a spotless dry floor, no text or logos.",
+        "action": "The open yellow umbrella with big expressive eyes and a small unimpressed mouth tilts toward the dry floor.",
+        "camera": "pull-out",
+        "mood": "Quiet absurdity, warm lighting and conspicuously dry surroundings."
+      },
+      {
+        "id": "kpblz6",
+        "narration": "They finally remember me when the puddles come home.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon entryway, wet muddy boots resting on a plain doormat beside the open yellow umbrella, no text or logos.",
+        "action": "Water drips from the boots beside the open yellow umbrella with big expressive eyes and a small horrified mouth.",
+        "camera": "push-in",
+        "mood": "Messy homecoming, glossy puddles on a clean floor."
+      },
+      {
+        "id": "iddcys",
+        "narration": "Now I'm ready for tomorrow, right by the exit.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon entryway, closed front door, folded yellow umbrella standing on a plain brown doormat, no text or logos.",
+        "action": "The folded yellow umbrella with big expressive eyes and a small determined mouth wedges its curved handle beneath the door lever.",
+        "camera": "low-angle",
+        "mood": "Triumphant preparation, bright hopeful morning light."
+      },
+      {
+        "id": "u5rrgi",
+        "narration": "[chuckles] If they forget me again, the doormat gets custody.",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D cartoon entryway, plain brown doormat beneath the door lever, no text or logos.",
+        "action": "The folded yellow umbrella with big expressive eyes and a small cheeky smile topples onto the muddy doormat.",
+        "camera": "static",
+        "mood": "Playful defeat, cosy lighting and a muddy landing."
+      }
+    ],
+    "endHook": "Next episode: the doormat has some dirty laundry to share.",
+    "createdAt": "2026-11-12T20:10:05.893Z",
+    "description": "I'm ready for rain. Unfortunately, my human only remembers me after getting soaked. An umbrella shares its very dry side of a rainy day.",
+    "tags": [
+      "If Things Could Talk",
+      "umbrella",
+      "rainy day",
+      "relatable comedy",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

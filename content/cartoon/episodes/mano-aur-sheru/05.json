@@ -1,0 +1,164 @@
+{
+  "number": 5,
+  "topic": "The first rain of the monsoon: making paper boats in the street.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:11:51.951Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Mano aur Sheru: Pehli Barish Ki Kashti",
+    "shots": [
+      {
+        "id": "bwhi80",
+        "narration": "کیا مانو کی کشتی پہلی بارش میں تیر پائے گی؟",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani courtyard doorway overlooking a shallow rain puddle in a pedestrian mohalla lane; soft sunlight through light drizzle, rounded 3D family-film style, no text.",
+        "action": "Mano raises a plain square of paper toward the puddle.",
+        "camera": "push-in",
+        "mood": "Curious blue eyes, tiny raindrops, inviting pastel colours."
+      },
+      {
+        "id": "btg2xw",
+        "narration": "شیرو خشک کاغذ لے آیا، تاکہ دونوں کشتیاں بنا سکیں۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, sheltered courtyard veranda beside a neem tree, low wooden table, rain beyond the roof edge, colourful 3D family-film style, no text.",
+        "action": "Sheru places a small stack of blank paper on the table.",
+        "camera": "pan-right",
+        "mood": "Helpful smile, cosy shelter, warm reflected light."
+      },
+      {
+        "id": "oaps4r",
+        "narration": "[giggles] مانو نے جلدی کی، تو کاغذ ٹیڑھا مڑ گیا!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, close view of the low table beneath the Pakistani courtyard veranda, blank paper, soft rainy daylight, rounded 3D style, no text.",
+        "action": "Mano folds her paper with its corners visibly misaligned.",
+        "camera": "push-in",
+        "mood": "Playful concentration, crooked fold, Sheru watching kindly."
+      },
+      {
+        "id": "0w6dfl",
+        "narration": "مانو نے کاغذ کھولا اور شیرو کی طرف دیکھا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, sheltered courtyard craft table with the neem tree softly blurred behind, colourful 3D family-film style, no text.",
+        "action": "Mano unfolds the crooked paper.",
+        "camera": "static",
+        "mood": "Mild puzzlement, tilted kitten ears, reassuring friendly dog."
+      },
+      {
+        "id": "m7gm8l",
+        "narration": "شیرو نے آہستہ سے دونوں کونے برابر کیے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, close view of blank paper on the low courtyard table, dry veranda floor and gentle rain beyond, rounded 3D style, no text.",
+        "action": "Sheru folds the upper corners inward into matching triangles.",
+        "camera": "low-angle",
+        "mood": "Patient demonstration, neatly aligned corners, Mano watching closely."
+      },
+      {
+        "id": "aohpdv",
+        "narration": "[excited] اب مانو نے تہہ دبائی، بالکل سیدھی!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, sheltered veranda table with a partly folded paper boat, colourful Pakistani courtyard, soft sunlight, 3D family-film style, no text.",
+        "action": "Mano presses the folded paper edge flat with her paw.",
+        "camera": "push-in",
+        "mood": "Proud blue eyes, careful little paw, encouraging smile."
+      },
+      {
+        "id": "jhv47g",
+        "narration": "دونوں کی محنت سے ننھی سی کشتی تیار ہو گئی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, low wooden table under the courtyard veranda, nearly completed plain paper boat, neem leaves behind, rounded 3D style, no text.",
+        "action": "Sheru gently opens the final folded shape into a paper boat.",
+        "camera": "orbit",
+        "mood": "Delighted faces, crisp paper folds, warm teamwork."
+      },
+      {
+        "id": "b6a9cb",
+        "narration": "بارش تھمی، تو مانو کشتی باہر لے آئی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, courtyard doorway opening onto a traffic-free pedestrian mohalla lane, tiny shallow puddle beside the doorstep, no drains visible, sunny post-rain 3D style, no text.",
+        "action": "Mano carries the paper boat through the doorway.",
+        "camera": "pull-out",
+        "mood": "Fresh washed colours, sparkling droplets, eager anticipation."
+      },
+      {
+        "id": "rl6t69",
+        "narration": "[whispers] مانو نے کشتی آہستہ سے پانی پر رکھی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, tiny shallow puddle beside the dry doorstep in a traffic-free Pakistani pedestrian lane, colourful house walls, rounded 3D family-film style, no text.",
+        "action": "Mano lowers the paper boat onto the puddle.",
+        "camera": "low-angle",
+        "mood": "Gentle suspense, careful paws, Sheru standing close on dry paving."
+      },
+      {
+        "id": "jsih3u",
+        "narration": "کشتی تیرنے لگی، جیسے پانی پر ننھا سا گھر!",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of a tiny shallow puddle reflecting pastel Pakistani house walls and neem leaves, soft post-rain sunlight, 3D family-film style, no text.",
+        "action": "The paper boat glides across the puddle on small ripples.",
+        "camera": "pan-left",
+        "mood": "Peaceful floating boat, shimmering reflections, gentle triumph."
+      },
+      {
+        "id": "mokgdt",
+        "narration": "مانو اور شیرو نے خوشی سے پنجے ملائے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, dry doorstep beside the shallow puddle, paper boat floating in the foreground, colourful Pakistani lane, rounded 3D family-film style, no text.",
+        "action": "Mano and Sheru touch their raised front paws together.",
+        "camera": "push-in",
+        "mood": "Bright smiles, proud friendship, tiny bell and green collar catching sunlight."
+      },
+      {
+        "id": "nvh8fe",
+        "narration": "[excited] مل کر کام کریں؛ اگلی بار چھت پر دھنک دیکھیں!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani courtyard entrance with a rooftop parapet above, shallow puddle and floating boat below, sunlit clouds, rounded 3D family-film style, no text.",
+        "action": "Mano points toward the rooftop.",
+        "camera": "pull-out",
+        "mood": "Hopeful upward gazes, friendly smiles, fresh post-rain glow."
+      }
+    ],
+    "endHook": "اگلی بار مانو اور شیرو چھت پر دھنک ڈھونڈیں گے!",
+    "createdAt": "2026-11-12T20:11:51.950Z",
+    "description": "پہلی بارش میں مانو کاغذ کی کشتی بنانا چاہتی ہے، مگر کاغذ ٹھیک سے نہیں مڑتا۔ شیرو کی مدد سے کشتی تیار ہوتی ہے، اور دونوں سیکھتے ہیں کہ مل کر کام آسان ہو جاتا ہے۔",
+    "tags": [
+      "Mano aur Sheru",
+      "Urdu cartoons",
+      "kids stories",
+      "paper boats",
+      "monsoon",
+      "teamwork"
+    ]
+  }
+}

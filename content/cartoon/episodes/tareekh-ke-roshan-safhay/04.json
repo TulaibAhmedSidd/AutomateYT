@@ -1,0 +1,144 @@
+{
+  "number": 4,
+  "topic": "The Quran gathered into one book: after 632 CE, under the first Caliph Abu Bakr (RA), the written pages of the Quran were collected into one copy; later, under Caliph Uthman (RA), standard copies were sent to the major cities. Show parchment, leather, ink pots, reed pens and copies travelling on camels.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:16:57.346Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Quran Ke Safhay Ek Jild Mein Kaise Jama Hue?",
+    "shots": [
+      {
+        "id": "l4uu31",
+        "narration": "قرآن کے لکھے ہوئے صفحات ایک جگہ کیسے جمع ہوئے؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D family animation; Pakistani home with arched windows, a low table and a closed leather-bound volume on a wooden stand; no visible writing.",
+        "action": "Areeba points toward the closed volume.",
+        "camera": "push-in",
+        "mood": "Golden lamplight, curious eyes, peaceful evening."
+      },
+      {
+        "id": "a1vqjj",
+        "narration": "اریبہ، پہلے قرآن کے لکھے ہوئے صفحات الگ الگ تھے۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the same cozy home; several plain parchment bundles arranged separately on a clean table; no visible writing.",
+        "action": "Nana gestures toward the separate parchment bundles.",
+        "camera": "static",
+        "mood": "Warm amber light, thoughtful expressions, gentle storytelling."
+      },
+      {
+        "id": "xfjahm",
+        "narration": "[whispers] آؤ، ان صفحات کے جمع ہونے کی کہانی سنیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, historical still life introducing the period after 632 CE; rolled parchment, leather covers, ink pots and reed pens on a clean wooden desk; all writing concealed; no people or human silhouettes.",
+        "action": "A rolled parchment slowly unfurls with its unmarked reverse facing upward.",
+        "camera": "push-in",
+        "mood": "Soft golden light, quiet discovery, respectful stillness."
+      },
+      {
+        "id": "8auhjo",
+        "narration": "یہ دیکھو، چمڑا، سیاہی اور سرکنڈے کے قلم۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of leather sheets, a dark ink pot and reed pens beside covered parchment bundles; no visible writing, people or silhouettes.",
+        "action": "The camera-facing ink surface ripples gently.",
+        "camera": "low-angle",
+        "mood": "Warm highlights, tactile handmade materials, calm attention."
+      },
+      {
+        "id": "15nmgp",
+        "narration": "یہ کام پہلے خلیفہ، حضرت ابو بکر رضی اللہ عنہ کے دور میں ہوا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, an empty early Islamic courtyard study after 632 CE; separate parchment bundles on a clean raised desk, plain stone arches and a shaded garden; no people, silhouettes or visible writing.",
+        "action": "A light breeze lifts the corner of a parchment's unmarked reverse.",
+        "camera": "pan-right",
+        "mood": "Dignified golden daylight, quiet care."
+      },
+      {
+        "id": "hkpai2",
+        "narration": "[excited] قرآن کے لکھے ہوئے صفحات ایک نسخے میں جمع ہوئے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, respectful symbolic still life of one closed leather-bound Quran copy on a raised wooden stand, with no separate bundles remaining; plain cover, no visible writing or people.",
+        "action": "A shaft of sunlight moves across the closed cover.",
+        "camera": "push-in",
+        "mood": "Luminous warm light, clear visual resolution, peaceful pride."
+      },
+      {
+        "id": "g55ohz",
+        "narration": "بعد میں حضرت عثمان رضی اللہ عنہ کے دور میں معیاری نسخے تیار ہوئے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, a later early Islamic study with matching closed leather-bound copies neatly arranged on a clean raised table; ink pots and reed pens nearby; no visible writing, people or silhouettes.",
+        "action": "The curtain beside the table sways gently.",
+        "camera": "pan-left",
+        "mood": "Soft morning gold, orderly arrangement, respectful calm."
+      },
+      {
+        "id": "qzpv4l",
+        "narration": "پھر یہ نسخے بڑے شہروں کی طرف بھیجے گئے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, empty historic courtyard with closed Quran copies secured inside protective leather travel cases on a clean raised platform beside a saddled camel; no writing, people or silhouettes.",
+        "action": "The camel turns toward the open courtyard gateway.",
+        "camera": "pull-out",
+        "mood": "Warm departure light, careful preparation, gentle anticipation."
+      },
+      {
+        "id": "fjtyum",
+        "narration": "[excited] چلو، اونٹوں کے ساتھ اس سفر کی جھلک دیکھیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, peaceful desert route with camels carrying securely fastened protective leather manuscript cases high on their saddles; distant palms and dunes; no riders, people, silhouettes or visible writing.",
+        "action": "The camels walk along the sandy route.",
+        "camera": "pan-right",
+        "mood": "Golden desert light, slow steady movement, peaceful travel."
+      },
+      {
+        "id": "um3m6f",
+        "narration": "یوں قرآن کے معیاری نسخے بڑے شہروں تک پہنچے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, historic city gateway with stone arches, a distant river and gardens; a camel carries protected manuscript cases; no people, silhouettes, signs or visible writing.",
+        "action": "The camel passes through the city gateway.",
+        "camera": "low-angle",
+        "mood": "Welcoming golden daylight, safe arrival, quiet accomplishment."
+      },
+      {
+        "id": "6bg56t",
+        "narration": "پہلے صفحات جمع ہوئے، پھر معیاری نسخے شہروں میں پہنچے۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, return to the cozy Pakistani home; a closed leather-bound volume rests respectfully on its wooden stand; no visible writing.",
+        "action": "Areeba nods in understanding.",
+        "camera": "pull-out",
+        "mood": "Warm lamplight, satisfied smile, gentle family connection."
+      },
+      {
+        "id": "qcnpxx",
+        "narration": "[surprised] پھر کتابوں کے لیے بڑے بڑے کتب خانے کیسے بنے؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, home reading nook with arched wooden shelves holding plain closed books without spine lettering; Nana and Areeba sit nearby.",
+        "action": "Nana points toward the bookshelf.",
+        "camera": "push-in",
+        "mood": "Golden evening glow, inviting curiosity, peaceful anticipation."
+      }
+    ],
+    "endHook": "Phir kitaabon ke liye bari bari libraries kaise baneen?",
+    "createdAt": "2026-11-12T20:16:57.344Z",
+    "description": "نانا ابو اریبہ کو بتاتے ہیں کہ حضرت ابو بکر رضی اللہ عنہ کے دور میں قرآن کے لکھے ہوئے صفحات ایک نسخے میں جمع کیے گئے۔ پھر حضرت عثمان رضی اللہ عنہ کے دور میں معیاری نسخے بڑے شہروں میں بھیجے گئے۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Quran History",
+      "Urdu Stories",
+      "Islamic History for Kids",
+      "3D Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

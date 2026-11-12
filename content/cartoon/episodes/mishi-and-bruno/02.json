@@ -1,0 +1,168 @@
+{
+  "number": 2,
+  "topic": "A thunderstorm night: Mishi is scared of the loud thunder and Bruno stays beside her with a blanket fort.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:13:14.658Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mishi-and-bruno",
+    "title": "Mishi & Bruno: The Cozy Thunder Fort",
+    "shots": [
+      {
+        "id": "7rkwjt",
+        "narration": "Could a blanket turn this rumbly night into something cozy?",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Vertical 9:16, warm 3D animated living room, rain streaking a dark window, folded blankets beside rounded sofa cushions, no text.",
+        "action": "Mishi hugs a yellow cushion while Bruno sits nearby.",
+        "camera": "push-in",
+        "mood": "Soft amber lamplight, Mishi's ears slightly lowered, gentle rainy-night atmosphe"
+      },
+      {
+        "id": "5hqgh8",
+        "narration": "Bruno stayed right beside her.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Warm living room rug beside the sofa, rainy window in the background.",
+        "action": "Bruno settles shoulder-to-shoulder with Mishi.",
+        "camera": "static",
+        "mood": "Reassuring closeness, soft rounded shapes, warm golden light."
+      },
+      {
+        "id": "4dq9da",
+        "narration": "[whispers] Mishi had a clever, cozy idea.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Living room rug with two broad sofa cushions and a folded blue blanket.",
+        "action": "Mishi points toward the cushions.",
+        "camera": "pan-right",
+        "mood": "Mishi's bright green eyes widen with inspiration, Bruno watches attentively."
+      },
+      {
+        "id": "6x7lvw",
+        "narration": "Bruno nudged the first cushion into place.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Soft living room rug beneath the rounded sofa edge.",
+        "action": "Bruno pushes a broad cushion onto its flat base with his nose.",
+        "camera": "low-angle",
+        "mood": "Playful concentration, Bruno's floppy ears hanging beside his cheeks."
+      },
+      {
+        "id": "fktcly",
+        "narration": "Mishi carefully placed another cushion beside it.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Living room rug, first cushion standing low and stable.",
+        "action": "Mishi positions a second broad cushion a kitten-width from the first.",
+        "camera": "pan-left",
+        "mood": "Careful teamwork, rich cushion colours, soft warm shadows."
+      },
+      {
+        "id": "t7juzu",
+        "narration": "[chuckles] Bruno added a wonderfully wobbly blanket roof.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Two low cushion supports on the living room rug, lightweight blue blanket.",
+        "action": "Bruno drapes the blanket across both cushions.",
+        "camera": "pull-out",
+        "mood": "A charming uneven blanket roof, Bruno's proud smile, Mishi's amused eyes."
+      },
+      {
+        "id": "ohq31x",
+        "narration": "Mishi opened their tiny front door.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Low blue blanket fort with an open front and yellow cushion floor.",
+        "action": "Mishi lifts one corner of the blanket.",
+        "camera": "push-in",
+        "mood": "Inviting golden glow, soft fabric folds, a snug little hideaway."
+      },
+      {
+        "id": "5vm06a",
+        "narration": "Bruno squeezed inside, floppy ears first.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Blanket fort entrance on the soft rug, Mishi holding the flap.",
+        "action": "Bruno crawls through the wide fort entrance.",
+        "camera": "low-angle",
+        "mood": "Gentle silliness, Bruno's ears brushing the soft blanket edge."
+      },
+      {
+        "id": "5f3tx2",
+        "narration": "[sighs] The thunder still rumbled, but Mishi wasn't alone.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Inside the open-front blanket fort, distant rainy window beyond.",
+        "action": "Mishi nestles against Bruno's side.",
+        "camera": "static",
+        "mood": "Mishi's ears relaxed, Bruno's calm smile, warm light across fluffy fur."
+      },
+      {
+        "id": "et1pg7",
+        "narration": "Bruno tucked a little blanket around them both.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Cosy fort interior with yellow cushion flooring and a small peach blanket.",
+        "action": "Bruno draws the peach blanket across their paws.",
+        "camera": "push-in",
+        "mood": "Tender friendship, loose comfortable blanket folds, sleepy contented faces."
+      },
+      {
+        "id": "ujtykn",
+        "narration": "Their little boat could explore tomorrow's garden puddles.",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Open fort entrance, small plain wooden toy boat within Mishi's reach.",
+        "action": "Mishi places the toy boat beside the entrance.",
+        "camera": "pan-right",
+        "mood": "Quiet anticipation, rain droplets shining softly on the distant window."
+      },
+      {
+        "id": "n26rxb",
+        "narration": "[whispers] Friends bring comfort; tomorrow, we're sailing puddles!",
+        "characters": [
+          "mishi",
+          "bruno"
+        ],
+        "scene": "Wide vertical view of the warm living room, blanket fort and wooden toy boat in the foreground.",
+        "action": "Mishi rests one paw on Bruno's foreleg.",
+        "camera": "pull-out",
+        "mood": "Peaceful smiles beneath the blue blanket roof, gentle rain outside, cosy amber l"
+      }
+    ],
+    "endHook": "Tomorrow, a little boat sets sail in garden puddles!",
+    "createdAt": "2026-11-12T20:13:14.658Z",
+    "description": "A rumbly night feels much cozier when Bruno stays beside Mishi. Together, they build a blanket fort and discover the comfort of a caring friend.",
+    "tags": [
+      "Mishi and Bruno",
+      "blanket fort",
+      "friendship",
+      "cozy cartoon",
+      "kids animation",
+      "bedtime story"
+    ]
+  }
+}

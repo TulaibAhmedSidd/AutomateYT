@@ -1,0 +1,113 @@
+{
+  "number": 13,
+  "topic": "Dolphin: can sleep with half of its brain at a time, so one half stays alert and it can keep coming up to breathe.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:22:36.943Z",
+  "episode": {
+    "id": "",
+    "seriesId": "wild-superpowers",
+    "title": "Dolphin’s Amazing Half-Asleep Superpower!",
+    "shots": [
+      {
+        "id": "rjdeze",
+        "narration": "Did you know dolphins can sleep and stay alert?",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D animated tropical ocean, a cute realistic dolphin just beneath turquoise water, no text.",
+        "action": "The dolphin slowly closes one eye.",
+        "camera": "push-in",
+        "mood": "Sunny water sparkles around the dolphin's peaceful face."
+      },
+      {
+        "id": "xmhp4n",
+        "narration": "Kiko spots a dolphin resting beneath the waves.",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Vertical 9:16, sunny rocky shoreline beside clear deep water, Kiko in his green safari hat and khaki vest, dolphin visible underwater.",
+        "action": "Kiko leans forward to watch the dolphin.",
+        "camera": "pan-right",
+        "mood": "Bright coastal colours and curious anticipation."
+      },
+      {
+        "id": "pkfljj",
+        "narration": "[surprised] But dolphins breathe air. How can this one keep sleeping?",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Vertical 9:16, Kiko safely seated back from the shoreline edge, resting dolphin visible through clear ocean water.",
+        "action": "Kiko raises his hands with his palms upward.",
+        "camera": "static",
+        "mood": "Kiko's lifted eyebrows show a gentle, puzzled concern."
+      },
+      {
+        "id": "nlxxkz",
+        "narration": "Their secret: only half the brain sleeps at a time.",
+        "characters": [],
+        "scene": "Vertical 9:16, close underwater view of a realistic dolphin's head against softly glowing blue water.",
+        "action": "The dolphin glides slowly past the camera.",
+        "camera": "pan-left",
+        "mood": "Peaceful blue light and a sense of discovery."
+      },
+      {
+        "id": "87wccr",
+        "narration": "The other half stays alert.",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of the dolphin's open eye, sunlight rippling over its smooth grey skin.",
+        "action": "The dolphin turns its head toward the sunlit surface.",
+        "camera": "push-in",
+        "mood": "Clear, attentive eye beneath warm shafts of sunlight."
+      },
+      {
+        "id": "cysu35",
+        "narration": "[excited] That helps the dolphin keep coming up to breathe!",
+        "characters": [],
+        "scene": "Vertical 9:16, underwater view looking toward the bright ocean surface, dolphin below the rippling water.",
+        "action": "The dolphin rises toward the surface.",
+        "camera": "low-angle",
+        "mood": "Uplifting sunlight and gentle anticipation."
+      },
+      {
+        "id": "181fgl",
+        "narration": "Up it comes for air through its blowhole.",
+        "characters": [],
+        "scene": "Vertical 9:16, water-level view of the dolphin's head and back at the surface of a calm turquoise sea.",
+        "action": "The dolphin exhales a brief mist through its blowhole.",
+        "camera": "static",
+        "mood": "Sparkling droplets and a bright, reassuring atmosphere."
+      },
+      {
+        "id": "p3o33j",
+        "narration": "Mystery solved: resting, breathing, and staying alert!",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Vertical 9:16, sunny shoreline with Kiko safely seated on a broad rock, dolphin resting at the surface beyond him.",
+        "action": "Kiko gives a delighted thumbs-up.",
+        "camera": "pull-out",
+        "mood": "Warm sunshine, Kiko's broad smile, and calm blue water."
+      },
+      {
+        "id": "19dcuy",
+        "narration": "[whispers] Next mystery: which animal can taste with its feet? Guess!",
+        "characters": [
+          "kiko"
+        ],
+        "scene": "Vertical 9:16, Kiko beside coastal flowers with the ocean behind him, no other animals visible.",
+        "action": "Kiko points toward the colourful flowers.",
+        "camera": "orbit",
+        "mood": "Playful curiosity in a bright, inviting coastal garden."
+      }
+    ],
+    "endHook": "Which animal can taste with its feet? Guess our next explorer!",
+    "createdAt": "2026-11-12T20:22:36.942Z",
+    "description": "How can a dolphin sleep and still come up for air? Join Kiko to discover how resting half its brain helps this ocean explorer stay alert.",
+    "tags": [
+      "Wild Superpowers",
+      "dolphin",
+      "animal facts",
+      "ocean",
+      "kids learning",
+      "3D animation"
+    ]
+  }
+}

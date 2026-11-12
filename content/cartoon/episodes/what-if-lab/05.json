@@ -1,0 +1,133 @@
+{
+  "number": 5,
+  "topic": "What if all the bees disappeared? About one third of the food crops we eat depend on pollinators like bees.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:20:35.503Z",
+  "episode": {
+    "id": "",
+    "seriesId": "what-if-lab",
+    "title": "What If All the Bees Disappeared?",
+    "shots": [
+      {
+        "id": "odaet9",
+        "narration": "What if all the bees disappeared?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful 3D science lab, vertical 9:16 frame, glowing garden hologram between Nova and Byte, no text or symbols.",
+        "action": "Nova sweeps the holographic bees out of the garden.",
+        "camera": "push-in",
+        "mood": "Bright turquoise lighting, curious expressions, suddenly empty flowers."
+      },
+      {
+        "id": "zomqtm",
+        "narration": "Bees carry pollen between flowers, helping many plants make seeds.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a large flower hologram at Byte's eye level, vertical composition, no text.",
+        "action": "A holographic bee transfers golden pollen between two flowers.",
+        "camera": "orbit",
+        "mood": "Warm pink petals, sparkling pollen, fascinated faces."
+      },
+      {
+        "id": "xm68oz",
+        "narration": "[surprised] About one third of our food crops depend on pollinators.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram showing crop models arranged in three equal clusters, one cluster glowing gold, no labels or numbers.",
+        "action": "Nova points to the glowing cluster of pollinator-dependent crops.",
+        "camera": "pull-out",
+        "mood": "Colourful produce, golden illumination, wide-eyed discovery."
+      },
+      {
+        "id": "r3w2ng",
+        "narration": "Butterflies, flies, and other animals also pollinate flowers.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Vertical lab garden hologram with oversized blossoms and tiny holographic butterflies and flies, no text.",
+        "action": "Byte magnifies the other pollinators visiting blossoms.",
+        "camera": "pan-right",
+        "mood": "Lively green foliage, delicate wings, reassuring blue glow."
+      },
+      {
+        "id": "4mln4y",
+        "narration": "Without bees, many crops would produce fewer fruits and seeds.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Lab hologram containing adjacent apple branches, one heavily fruited and one sparsely fruited, no labels.",
+        "action": "Nova reveals the sparsely fruited branch inside the hologram.",
+        "camera": "push-in",
+        "mood": "Clear visual contrast, thoughtful expressions, gentle amber lighting."
+      },
+      {
+        "id": "12t3b2",
+        "narration": "[sighs] Our meals could become less varied, with fewer bee-dependent foods.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a holographic meal containing apples, almonds, bread and rice, no text.",
+        "action": "Byte reduces the apple and almond portions on the holographic plate.",
+        "camera": "static",
+        "mood": "Noticeable empty plate space, concerned screen eyes, soft lighting."
+      },
+      {
+        "id": "iw2asl",
+        "narration": "But rice and wheat don't need bees for pollination.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Bright lab with a tall hologram of golden wheat and green rice plants, no labels.",
+        "action": "Nova enlarges the wheat and rice hologram.",
+        "camera": "low-angle",
+        "mood": "Golden light, sturdy grain heads, relieved smiles."
+      },
+      {
+        "id": "2rj6lr",
+        "narration": "Protecting wild habitats helps bees and other pollinators thrive.",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Colourful lab with a holographic meadow surrounding farmland, native flowers and nesting patches, no text.",
+        "action": "Nova expands the flowering habitat around the holographic fields.",
+        "camera": "pan-left",
+        "mood": "Lush greens, abundant blossoms, hopeful purple and blue lighting."
+      },
+      {
+        "id": "rzedep",
+        "narration": "[excited] Wind pollinates wheat—what if Earth lost its wind?",
+        "characters": [
+          "nova",
+          "byte"
+        ],
+        "scene": "Vertical lab hologram of wheat beneath a floating Earth, visible golden pollen and translucent airflow ribbons, no text.",
+        "action": "A holographic breeze carries pollen between wheat flower heads.",
+        "camera": "pull-out",
+        "mood": "Glowing golden particles, swirling blue ribbons, delighted curiosity."
+      }
+    ],
+    "endHook": "Wheat relies on wind—but what if Earth lost its wind?",
+    "createdAt": "2026-11-12T20:20:35.502Z",
+    "description": "Dr. Nova shows Byte how disappearing bees would change our food supply. Explore pollination, the foods we'd miss, and the surprising crops that don't need bees.",
+    "tags": [
+      "What If Lab",
+      "bees",
+      "pollination",
+      "food",
+      "science",
+      "animation",
+      "YouTube Shorts"
+    ]
+  }
+}

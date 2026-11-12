@@ -1,0 +1,129 @@
+{
+  "number": 1,
+  "topic": "The 50/30/20 budget: about 50% of take-home pay for needs, 30% for wants and 20% for savings, as a simple starting point.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:08:47.349Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "The 50/30/20 Budget: Three Simple Buckets",
+    "shots": [
+      {
+        "id": "lcqr3l",
+        "narration": "Payday already feels confusing? Coin has a simple starting point.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Bright modern flat, vertical 9:16 3D animation, scattered plain gold tokens beside groceries and a takeaway cup on a table; no text or lettering.",
+        "action": "Kash scratches her head over the scattered tokens.",
+        "camera": "push-in",
+        "mood": "Sunny yellow lighting, puzzled expression, friendly rounded shapes."
+      },
+      {
+        "id": "7n7kqb",
+        "narration": "Try 50/30/20: needs, wants, and savings from take-home pay.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Same table with three empty transparent jars bearing only pictograms: a grocery basket, a café cup, and a piggy bank; no text.",
+        "action": "Coin sweeps one tiny arm across the three jars.",
+        "camera": "pan-right",
+        "mood": "Bright teal and mustard palette, welcoming smiles, clear uncluttered layout."
+      },
+      {
+        "id": "6nunb4",
+        "narration": "[excited] For example, imagine taking home 100 coins.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical 3D view of the flat's table, ten neat stacks of ten plain gold tokens beside the empty pictogram jars; no text.",
+        "action": "Kash places a tray holding the ten stacks onto the table.",
+        "camera": "pull-out",
+        "mood": "Warm daylight, delighted expressions, orderly shiny tokens."
+      },
+      {
+        "id": "dihjlu",
+        "narration": "About 50 coins go toward needs, like groceries.",
+        "characters": [
+          "coin"
+        ],
+        "scene": "Close view of the grocery-basket jar and the tray of gold tokens in the bright flat; no text or numerals.",
+        "action": "Coin slides five ten-token stacks into the wide grocery-basket jar.",
+        "camera": "static",
+        "mood": "Fresh green accents, reassuring smile, crisp readable shapes."
+      },
+      {
+        "id": "0ey7ih",
+        "narration": "Then 30 coins cover wants, like café treats.",
+        "characters": [
+          "coin"
+        ],
+        "scene": "Close view of the café-cup jar beside a small pastry, with five token stacks remaining on the tray; no text.",
+        "action": "Coin slides three ten-token stacks into the wide café-cup jar.",
+        "camera": "pan-right",
+        "mood": "Soft coral accents, cheerful expression, cozy café-inspired details."
+      },
+      {
+        "id": "zbdlq9",
+        "narration": "[chuckles] And 20 coins go into savings.",
+        "characters": [
+          "coin"
+        ],
+        "scene": "Close view of the piggy-bank jar and the final two token stacks on the tray; bright modern flat, no text.",
+        "action": "Coin slides the final two ten-token stacks into the wide piggy-bank jar.",
+        "camera": "push-in",
+        "mood": "Sky-blue accents, sparkling gold highlights, pleased smile."
+      },
+      {
+        "id": "1j2ghg",
+        "narration": "It's a simple starting point, not a strict rule.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "All three jars on the table, holding five, three, and two equal token stacks respectively; pictograms only, no lettering.",
+        "action": "Coin presents the three-jar arrangement with open arms.",
+        "camera": "orbit",
+        "mood": "Relaxed posture, gentle smiles, balanced pastel composition."
+      },
+      {
+        "id": "itfybt",
+        "narration": "Now Kash can see needs, wants, and savings separately.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Tidy flat table with the three filled pictogram jars aligned beside Kash's small blank notebook; no text.",
+        "action": "Kash nods toward the neatly separated jars.",
+        "camera": "pull-out",
+        "mood": "Bright afternoon light, relieved smile, calm uncluttered surroundings."
+      },
+      {
+        "id": "4fxv3p",
+        "narration": "[excited] Sketch three buckets today; next, we'll sort needs from wants.",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Close view of Kash's notebook beside the grocery-basket and café-cup jars, vertical 3D frame; no text, letters, or numerals.",
+        "action": "Kash draws three simple bucket outlines in her notebook.",
+        "camera": "push-in",
+        "mood": "Warm inviting light, curious smiles, playful anticipation."
+      }
+    ],
+    "endHook": "Next episode: how do you tell needs from wants?",
+    "createdAt": "2026-11-12T20:08:47.345Z",
+    "description": "Coin helps Kash explore the 50/30/20 budget: about 50% of take-home pay for needs, 30% for wants, and 20% for savings. Follow a simple 100-coin example, then sketch your own three buckets today. General money education, not personal financial advice.",
+    "tags": [
+      "Coin & Kash",
+      "budgeting",
+      "50/30/20",
+      "money basics",
+      "financial education",
+      "YouTube Shorts"
+    ]
+  }
+}

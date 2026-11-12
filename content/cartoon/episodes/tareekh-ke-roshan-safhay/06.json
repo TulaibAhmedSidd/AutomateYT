@@ -1,0 +1,144 @@
+{
+  "number": 6,
+  "topic": "Paper comes to the Muslim world: paper-making was learned in Samarkand after 751 CE, and Baghdad had its first paper mill around 794-795 CE. Books became cheaper and libraries grew. Show pulp, frames, drying sheets and a busy book market.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:17:27.221Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tareekh-ke-roshan-safhay",
+    "title": "Kaghaz Ka Safar: Samarkand Se Baghdad",
+    "shots": [
+      {
+        "id": "egsrgj",
+        "narration": "ایک سادہ کاغذ نے کتابوں کی دنیا کیسے بدل دی؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, warm 3D family animation. A Pakistani home with golden lamplight, an ordinary grandfather in a cream kurta and brown waistcoat beside a girl in yellow with a light-pink dupatta. A blank paper sheet rests on a low table. No visible writing.",
+        "action": "Nana raises the blank sheet toward Areeba.",
+        "camera": "push-in",
+        "mood": "Warm amber light, curious eyes, inviting mystery."
+      },
+      {
+        "id": "qui747",
+        "narration": "پہلے کتابیں مہنگی تھیں، زیادہ کاغذ سے وہ سستی ہوئیں۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the same cozy home. One closed plain book sits beside a stack of plain books on a low wooden table; all covers are unmarked.",
+        "action": "Nana gestures from the single book toward the stack.",
+        "camera": "static",
+        "mood": "Gentle explanation, soft golden light, attentive expressions."
+      },
+      {
+        "id": "npvx1d",
+        "narration": "[excited] سمرقند میں 751 کے بعد کاغذ بنانا سیکھا گیا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, stylized historic Samarkand with earthen courtyard buildings, brick arches, a garden and distant hills, warm 3D family animation. No people, signs or inscriptions.",
+        "action": "A courtyard tree sways in the breeze.",
+        "camera": "pan-right",
+        "mood": "Golden morning light, peaceful discovery."
+      },
+      {
+        "id": "oyeq5s",
+        "narration": "کاغذ بنانے کے لیے ریشوں کا گودا تیار ہوتا تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of a shallow workshop basin containing pale fibrous pulp and water, with plain wooden tools nearby. No people or writing.",
+        "action": "Pale fibers swirl through the water.",
+        "camera": "push-in",
+        "mood": "Tactile detail, warm light, quiet fascination."
+      },
+      {
+        "id": "af4isp",
+        "narration": "پھر جالی والے سانچے پر گودے کی تہہ بچھتی تھی۔",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, back at the home demonstration table. Nana and Areeba sit beside a shallow basin and a small wooden mesh frame. Plain objects only, no writing.",
+        "action": "Nana lifts a pulp-covered mesh frame from the basin.",
+        "camera": "low-angle",
+        "mood": "Patient teaching, sparkling droplets, warm family atmosphere."
+      },
+      {
+        "id": "ad5oe7",
+        "narration": "[whispers] پانی نکلتا، تو جالی پر گیلی تہہ رہ جاتی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, macro view of the demonstration frame resting across the basin, with a thin even layer of pale pulp covering its mesh. No writing.",
+        "action": "Water drips from the underside of the frame.",
+        "camera": "static",
+        "mood": "Soft highlights on droplets, calm concentration."
+      },
+      {
+        "id": "e59tar",
+        "narration": "یہ تہہ سوکھتی، تو کاغذ کی چادر بن جاتی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, historic workshop courtyard with blank paper sheets drying on smooth boards beneath a shaded brick arcade. No people, markings or inscriptions.",
+        "action": "A loose corner of a dry sheet lifts in the breeze.",
+        "camera": "pan-left",
+        "mood": "Sunlit cream paper, gentle shadows, satisfying transformation."
+      },
+      {
+        "id": "apqbic",
+        "narration": "بغداد میں تقریباً 794-795 میں کاغذ بنانے کا پہلا کارخانہ بنا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, a modest historic Baghdad paper workshop courtyard with brick arches, pulp basins, mesh frames and drying boards. No people, machinery, signage or writing.",
+        "action": "A light breeze ripples blank sheets on a drying rack.",
+        "camera": "pull-out",
+        "mood": "Warm afternoon light, orderly craft, quiet pride."
+      },
+      {
+        "id": "5qpkr6",
+        "narration": "[excited] کاغذ بڑھا، تو کتابیں بنانا بھی سستا ہونے لگا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of abundant blank paper stacks beside several finished books with plain leather covers on a historic workshop bench. No lettering or symbols.",
+        "action": "The top blank sheet curls slightly in the breeze.",
+        "camera": "push-in",
+        "mood": "Rich paper textures, golden highlights, hopeful abundance."
+      },
+      {
+        "id": "0t6nqi",
+        "narration": "کتابوں کے بازاروں میں زیادہ کتابیں دستیاب ہونے لگیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, a richly stocked historic Baghdad book market lane, closely spaced stalls, overflowing plain-covered book stacks and colorful fabric awnings. The market is shown without people; no signs or writing.",
+        "action": "Fabric awnings flutter above the book stalls.",
+        "camera": "pan-right",
+        "mood": "Lively colors, plentiful books, welcoming golden light."
+      },
+      {
+        "id": "7okevy",
+        "narration": "کتابیں بڑھیں، تو کتب خانے بھی بڑے ہونے لگے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, a spacious historic library with brick arches, many shelves of plain unmarked books, low reading desks and a garden visible beyond. No people or inscriptions.",
+        "action": "A sheer curtain billows beside the garden doorway.",
+        "camera": "pull-out",
+        "mood": "Quiet wonder, long golden sunbeams, abundant knowledge."
+      },
+      {
+        "id": "1q1b4o",
+        "narration": "[excited] پھر بغداد کے کتب خانوں میں علم کیسے پھیلا؟",
+        "characters": [
+          "nana",
+          "areeba"
+        ],
+        "scene": "Vertical 9:16, the cozy Pakistani home again. Nana sits beside Areeba at the low table, with their dried blank paper sheet beside a closed unmarked book.",
+        "action": "Areeba opens the book to blank pages.",
+        "camera": "push-in",
+        "mood": "Warm lamplight, eager curiosity, inviting anticipation."
+      }
+    ],
+    "endHook": "Baghdad ke kutub khanon mein ilm kaise phaila?",
+    "createdAt": "2026-11-12T20:17:27.220Z",
+    "description": "نانا ابو اریبہ کو بتاتے ہیں کہ سمرقند میں 751 CE کے بعد کاغذ بنانا سیکھا گیا، اور بغداد میں تقریباً 794-795 CE میں پہلا کاغذ بنانے کا کارخانہ قائم ہوا۔ گودے سے تیار ہونے والے کاغذ نے کتابیں سستی کیں اور کتب خانوں کو بڑھنے میں مدد دی۔",
+    "tags": [
+      "Tareekh ke Roshan Safhay",
+      "Paper Making",
+      "Samarkand",
+      "Baghdad",
+      "Urdu History",
+      "Kids Learning"
+    ]
+  }
+}

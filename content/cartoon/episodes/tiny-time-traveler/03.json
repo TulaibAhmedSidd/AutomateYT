@@ -1,0 +1,168 @@
+{
+  "number": 3,
+  "topic": "Rome, 80 CE: the Colosseum opened and could hold about 50,000 people, with a giant cloth roof (velarium) for shade.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:18:43.936Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: Rome’s Giant Sunshade",
+    "shots": [
+      {
+        "id": "062ijl",
+        "narration": "A sparkle jump lands us beside something enormous!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, 3D animated adventure look; ancient Rome beside the Colosseum, bright sunlight, golden time-travel sparkles and swirling dust, no lettering.",
+        "action": "Zoya materializes beside Tock in a burst of golden sparkles.",
+        "camera": "low-angle",
+        "mood": "Glowing blue wristwatch, towering stone arches, welcoming golden light."
+      },
+      {
+        "id": "en2il1",
+        "narration": "We're in Rome, 80 CE!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, richly detailed ancient Roman plaza outside the newly completed Colosseum, pale stone paving and sunlit arcades, no lettering.",
+        "action": "Zoya points up at the Colosseum.",
+        "camera": "push-in",
+        "mood": "Wide-eyed wonder beneath an immense bright facade."
+      },
+      {
+        "id": "lz8jkd",
+        "narration": "[excited] The Colosseum opened in 80 CE!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, shaded entrance arch of the newly completed Colosseum, clean stonework and bright daylight beyond, no lettering.",
+        "action": "Tock bounces beneath the entrance arch.",
+        "camera": "static",
+        "mood": "Playful brass reflections against monumental stone."
+      },
+      {
+        "id": "36yxms",
+        "narration": "Inside, rows of seats stretch all around.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, Colosseum interior overlooking sweeping tiers of empty stone seats and the sandy arena, no lettering.",
+        "action": "Zoya spreads her arms toward the sweeping seating tiers.",
+        "camera": "pan-right",
+        "mood": "Grand sunlit curves surrounding a tiny delighted explorer."
+      },
+      {
+        "id": "m6q4jd",
+        "narration": "It could hold about 50,000 people!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, wide Colosseum interior with immense empty seating tiers encircling the arena, Zoya and Tock small in the foreground, no lettering.",
+        "action": "Tock extends one tiny leg toward the distant seats.",
+        "camera": "pull-out",
+        "mood": "Astonishing scale, warm stone and clear blue sky."
+      },
+      {
+        "id": "dm1fae",
+        "narration": "[sighs] But this sunny seat feels much too hot.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, exposed stone seating inside the Colosseum under strong sunlight, no lettering.",
+        "action": "Zoya fans her face with her hand.",
+        "camera": "push-in",
+        "mood": "Bright glare, flushed cheeks and a gently comic pout."
+      },
+      {
+        "id": "rnz6aj",
+        "narration": "Can we find somewhere shady?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, sunlit Colosseum seating aisle with a shaded seating section visible nearby, no lettering.",
+        "action": "Zoya shades her eyes with one hand.",
+        "camera": "static",
+        "mood": "Searching eyes and a clear contrast between sunshine and shade."
+      },
+      {
+        "id": "1zksk5",
+        "narration": "Tock spots a giant cloth sunshade overhead.",
+        "characters": [
+          "tock"
+        ],
+        "scene": "Vertical 9:16, upward view from Colosseum seating toward broad cloth awnings supported by ropes, open sky above the arena, no lettering.",
+        "action": "Tock points upward at the cloth awnings.",
+        "camera": "low-angle",
+        "mood": "Cream fabric glowing softly against a brilliant blue sky."
+      },
+      {
+        "id": "1sa8ir",
+        "narration": "[surprised] It's called the velarium!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, Colosseum seating beneath the velarium, broad cloth panels overhead with an open central sky, no lettering.",
+        "action": "Zoya tilts her head toward the velarium.",
+        "camera": "orbit",
+        "mood": "Curious upturned face beneath sweeping fabric and taut ropes."
+      },
+      {
+        "id": "pgo9gz",
+        "narration": "The velarium helped shade the spectators.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, Colosseum seating aisle crossing from bright sunlight into shade cast by the cloth velarium, no lettering.",
+        "action": "Zoya steps into the shaded seating section.",
+        "camera": "pan-left",
+        "mood": "A crisp shadow edge and visibly softer light around Zoya."
+      },
+      {
+        "id": "incqs9",
+        "narration": "A shady seat makes exploring feel much better.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, shaded stone bench inside the Colosseum, Tock beside Zoya and sunlit seating beyond, no lettering.",
+        "action": "Zoya settles onto the shaded bench.",
+        "camera": "push-in",
+        "mood": "Relaxed shoulders, happy smile and cool gentle shadows."
+      },
+      {
+        "id": "iarqvu",
+        "narration": "[excited] Where to next?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Vertical 9:16, shaded Colosseum seating with the velarium overhead, Zoya's blue wristwatch glowing beside Tock, no lettering.",
+        "action": "Tock turns his round glass face toward Zoya to ask his question.",
+        "camera": "push-in",
+        "mood": "Eager robot expression, bright blue watchlight and a hint of golden sparkles."
+      }
+    ],
+    "endHook": "The blue watch glows again—where will their next adventure begin?",
+    "createdAt": "2026-11-12T20:18:43.935Z",
+    "description": "Zoya and Tock sparkle into Rome, 80 CE, when the Colosseum opened. They discover its enormous capacity and learn how a giant cloth sunshade called the velarium helped shade spectators.",
+    "tags": [
+      "Tiny Time Traveler",
+      "Rome",
+      "Colosseum",
+      "Ancient Rome",
+      "History for Kids",
+      "3D Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "number": 1,
+  "topic": "Giza, Egypt, around 2560 BCE: the Great Pyramid was built from over two million stone blocks and was the tallest human-made structure for about 3,800 years.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:18:32.507Z",
+  "episode": {
+    "id": "",
+    "seriesId": "tiny-time-traveler",
+    "title": "Tiny Time Traveler: The Giant of Giza",
+    "shots": [
+      {
+        "id": "0u28oy",
+        "narration": "One sparkling jump—and something enormous hides behind the dust!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Sunlit desert at Giza, Egypt; swirling dust conceals a towering pyramid, cinematic 3D animation, vertical 9:16, no text.",
+        "action": "Zoya and Tock materialize together in golden time-jump sparkles.",
+        "camera": "push-in",
+        "mood": "Brilliant blue watch glow, golden particles, welcoming adventure."
+      },
+      {
+        "id": "kz67xk",
+        "narration": "We're in Giza, Egypt, around 2560 BCE.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Sandy ground beside massive pale stone blocks at the Great Pyramid, bright sunlight, vertical 9:16, no text.",
+        "action": "Zoya shades her eyes with one hand.",
+        "camera": "low-angle",
+        "mood": "Warm sunlight, enormous stone surfaces, curious anticipation."
+      },
+      {
+        "id": "wc6les",
+        "narration": "[surprised] But where's the top?",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Close beside the Great Pyramid's base, its stone face extends beyond the upper frame, vertical 9:16, no text.",
+        "action": "Zoya tilts her head far backward.",
+        "camera": "static",
+        "mood": "Playful bewilderment beneath a towering wall of sunlit stone."
+      },
+      {
+        "id": "gvyeo8",
+        "narration": "We're too close to see the whole pyramid!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Narrow upward view beside the Great Pyramid, clear blue sky above pale stone, vertical 9:16, no text.",
+        "action": "Tock leans backward on his tiny legs.",
+        "camera": "push-in",
+        "mood": "Gentle visual comedy, shiny brass, bright desert light."
+      },
+      {
+        "id": "7xbnlf",
+        "narration": "Zoya spots open ground farther away.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Broad flat sandy clearing extending away from the Great Pyramid, vertical 9:16, no text.",
+        "action": "Zoya points toward the open clearing.",
+        "camera": "pan-right",
+        "mood": "Clear inviting space, warm sand, hopeful discovery."
+      },
+      {
+        "id": "ut1x98",
+        "narration": "[excited] A little distance might reveal a giant!",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Level sandy ground leading away from the Great Pyramid, ancient Giza beneath blue sky, vertical 9:16, no text.",
+        "action": "Zoya and Tock walk together into the clearing.",
+        "camera": "pull-out",
+        "mood": "Bouncy friendly movement, sunlit dust, growing anticipation."
+      },
+      {
+        "id": "13eo6j",
+        "narration": "The Great Pyramid was built from over two million stone blocks.",
+        "characters": [],
+        "scene": "Detailed close view of fitted stone blocks on the Great Pyramid, pale textured surfaces in golden sunlight, vertical 9:16, no text.",
+        "action": "A thin veil of windblown dust drifts across the stonework.",
+        "camera": "pan-left",
+        "mood": "Tactile stone textures, immense scale, quiet wonder."
+      },
+      {
+        "id": "tt7fqx",
+        "narration": "Now its whole shape comes into view.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Wide clear view of the complete Great Pyramid from flat sandy ground, tiny travelers in the foreground, vertical 9:16, no text.",
+        "action": "Zoya spreads her arms toward the pyramid.",
+        "camera": "pull-out",
+        "mood": "Triumphant reveal, radiant sunlight, immense triangular silhouette."
+      },
+      {
+        "id": "qj0huo",
+        "narration": "[surprised] It remained the tallest human-made structure for about 3,800 years.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "The Great Pyramid rises above Zoya and Tock across the sunlit clearing, vertical 9:16, no text.",
+        "action": "Tock tips his round glass face upward.",
+        "camera": "low-angle",
+        "mood": "Awe-filled stillness, gleaming brass, towering pale stone."
+      },
+      {
+        "id": "6x5zab",
+        "narration": "Their tiny shadows make the giant look even bigger.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Zoya and Tock stand on flat sand before the complete Great Pyramid, distinct shadows beneath them, vertical 9:16, no text.",
+        "action": "Zoya looks down at their shadows.",
+        "camera": "orbit",
+        "mood": "Gentle amusement, warm light, satisfying sense of scale."
+      },
+      {
+        "id": "9012sy",
+        "narration": "One last look, then another leap through time.",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Open clearing facing the Great Pyramid, blue watch light spilling across Zoya's yellow sleeve, vertical 9:16, no text.",
+        "action": "Zoya presses her glowing blue wristwatch.",
+        "camera": "push-in",
+        "mood": "Golden sparkles gathering, affectionate farewell, fresh anticipation."
+      },
+      {
+        "id": "ei714h",
+        "narration": "[excited] Tock asks, \"Where to next?\"",
+        "characters": [
+          "zoya",
+          "tock"
+        ],
+        "scene": "Giza's Great Pyramid behind the travelers, a halo of blue light and golden time-travel sparkles, vertical 9:16, no text.",
+        "action": "Tock turns his round glass face toward Zoya.",
+        "camera": "static",
+        "mood": "Bright curious expressions, magical glow, inviting cliffhanger."
+      }
+    ],
+    "endHook": "The blue watch glows again—where will their next adventure begin?",
+    "createdAt": "2026-11-12T20:18:32.506Z",
+    "description": "Zoya and Tock sparkle into Giza, Egypt, around 2560 BCE. A blocked view becomes a little adventure as they discover the Great Pyramid’s enormous scale and remarkable history.",
+    "tags": [
+      "Tiny Time Traveler",
+      "Giza",
+      "Egypt",
+      "Great Pyramid",
+      "History for Kids",
+      "3D Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "number": 7,
+  "topic": "Inflation: why the same money buys less over time, and why savings left as cash slowly lose value.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:09:13.801Z",
+  "episode": {
+    "id": "",
+    "seriesId": "coin-and-kash",
+    "title": "Why the Same Money Buys Less",
+    "shots": [
+      {
+        "id": "p2v5n3",
+        "narration": "Same money, fewer snacks—what happened?",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Vertical 9:16, bright 3D cafe counter, one bread roll beside a small pile of coins, no text or signs.",
+        "action": "Kash holds up two fingers beside the single bread roll.",
+        "camera": "push-in",
+        "mood": "Puzzled expression, raised eyebrows, warm peach lighting."
+      },
+      {
+        "id": "jq5v74",
+        "narration": "Coin explains: inflation means prices rise over time.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Vertical 9:16, clean 3D cafe table, bread roll beside a staircase of progressively taller coin piles, no text.",
+        "action": "Coin points along the rising coin piles.",
+        "camera": "pan-right",
+        "mood": "Friendly teaching moment, bright gold and turquoise colours."
+      },
+      {
+        "id": "ghk7om",
+        "narration": "[surprised] For example, ten coins once bought two snacks.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Vertical 9:16, softly glowing illustrative cafe tabletop, ten plain coins opposite two matching bread rolls, no markings or text.",
+        "action": "Coin slides the ten coins toward the two bread rolls.",
+        "camera": "static",
+        "mood": "Clear and cheerful, warm nostalgic glow."
+      },
+      {
+        "id": "bgxnj3",
+        "narration": "Later, those same snacks might cost ten coins each.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Vertical 9:16, same illustrative cafe tabletop, two matching bread rolls each beside a separate pile of ten plain coins, no text.",
+        "action": "Coin points to one bread roll and its coin pile.",
+        "camera": "pan-left",
+        "mood": "Noticeable contrast, gently concerned expressions."
+      },
+      {
+        "id": "mhgbqw",
+        "narration": "Now Kash's ten coins buy just one snack.",
+        "characters": [
+          "kash"
+        ],
+        "scene": "Vertical 9:16, bright cafe counter, ten plain coins opposite one bread roll, no text or signs.",
+        "action": "Kash pulls the single bread roll toward herself.",
+        "camera": "pull-out",
+        "mood": "Small disappointment, soft daylight, uncluttered composition."
+      },
+      {
+        "id": "mi06hr",
+        "narration": "[sighs] Her cash stayed the same; its buying power shrank.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Vertical 9:16, modern apartment table, unchanged transparent jar containing ten plain coins beside two bread rolls, no text.",
+        "action": "Coin slides one bread roll away from the jar.",
+        "camera": "static",
+        "mood": "Gentle realization, clear visual contrast, friendly colours."
+      },
+      {
+        "id": "k7crj6",
+        "narration": "Cash savings can lose buying power as prices rise.",
+        "characters": [
+          "coin",
+          "kash"
+        ],
+        "scene": "Vertical 9:16, modern apartment table, cash jar beside a rising staircase of coin piles and one bread roll, no text.",
+        "action": "Coin gestures from the cash jar toward the rising piles.",
+        "camera": "orbit",
+        "mood": "Calm explanation, warm gold highlights, attentive expression."
+      },
+      {
+        "id": "zntcyc",
+        "narration": "The key question: what can your money still buy?",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical 9:16, clean apartment table, transparent cash jar and single bread roll, no text.",
+        "action": "Kash holds the cash jar beside the bread roll.",
+        "camera": "push-in",
+        "mood": "Thoughtful understanding, relaxed smile, bright natural light."
+      },
+      {
+        "id": "izweo1",
+        "narration": "[excited] Check one everyday price today; next, let's explore budgeting!",
+        "characters": [
+          "kash",
+          "coin"
+        ],
+        "scene": "Vertical 9:16, bright cafe table, bread roll, plain coins and an open notebook containing only a bread-roll drawing, no letters or numbers.",
+        "action": "Kash points to the bread roll beside her open notebook.",
+        "camera": "pull-out",
+        "mood": "Practical and upbeat, cheerful smiles, sunny yellow accents."
+      }
+    ],
+    "endHook": "Next episode: how a simple budget helps organize your money.",
+    "createdAt": "2026-11-12T20:09:13.795Z",
+    "description": "Coin helps Kash discover how inflation can shrink what cash savings buy. Simple example numbers show the difference between keeping the same money and keeping the same buying power.",
+    "tags": [
+      "Coin & Kash",
+      "inflation",
+      "money basics",
+      "financial education",
+      "cash savings",
+      "animation",
+      "Shorts"
+    ]
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "number": 12,
+  "topic": "Street cricket: winning and losing while staying friends.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T20:12:40.091Z",
+  "episode": {
+    "id": "",
+    "seriesId": "mano-aur-sheru",
+    "title": "Gali Cricket: Jeet Se Barh Kar Dosti",
+    "shots": [
+      {
+        "id": "wyrdee",
+        "narration": "آج گلی کے کرکٹ میں کون جیتے گا؟",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani residential lane beside a courtyard entrance and neem tree, soft sunlight, rounded 3D family-film style. No traffic, writing, signs or logos.",
+        "action": "Mano, a white kitten with orange patches, blue eyes and a bell on a red ribbon, raises a small plain cricket bat beside Sheru, a brown desi dog with a white chest, pointy ears and a green collar.",
+        "camera": "push-in",
+        "mood": "Playful anticipation, bright eyes and warm colours."
+      },
+      {
+        "id": "bkr3vq",
+        "narration": "دونوں نے طے کیا، لکیر پار کرنے والا جیتے گا۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, the same empty Pakistani lane, a plain cricket bat and soft orange ball beside Mano, no writing or logos.",
+        "action": "Sheru lays a short blue rope flat across the lane as a boundary.",
+        "camera": "low-angle",
+        "mood": "Friendly agreement, relaxed smiles, soft sunlight."
+      },
+      {
+        "id": "xa52f7",
+        "narration": "[excited] پہلے مانو نے زور سے گیند ماری!",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, batting spot in the same colourful lane, blue rope boundary visible farther down, no writing or logos.",
+        "action": "Mano strikes the soft orange ball with the small plain bat.",
+        "camera": "pan-right",
+        "mood": "Energetic delight, wide blue eyes, lifted ears."
+      },
+      {
+        "id": "731tq3",
+        "narration": "ارے، گیند تو لکیر سے پہلے ہی رک گئی۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, ground-level view of the blue rope boundary in the empty lane, Mano visible behind it, no writing or logos.",
+        "action": "The soft orange ball rolls to a stop just short of the blue rope.",
+        "camera": "static",
+        "mood": "Gentle disappointment, Mano's ears slightly lowered."
+      },
+      {
+        "id": "unv0y7",
+        "narration": "اب شیرو کی باری تھی۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, original batting spot beside pastel courtyard walls, orange ball resting nearby, no writing or logos.",
+        "action": "Mano hands the small plain cricket bat to Sheru.",
+        "camera": "push-in",
+        "mood": "Patient turn-taking, friendly and calm."
+      },
+      {
+        "id": "7xsz4q",
+        "narration": "[excited] شیرو نے بھی خوب شاٹ لگایا!",
+        "characters": [
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, same batting spot and distant blue rope boundary, sunny empty Pakistani lane, no writing or logos.",
+        "action": "Sheru strikes the soft orange ball with the small plain bat.",
+        "camera": "low-angle",
+        "mood": "Joyful effort, focused eyes and perked ears."
+      },
+      {
+        "id": "9a2rno",
+        "narration": "گیند لکیر پار گئی، شیرو جیت گیا!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, clear view across the blue rope boundary, Mano and Sheru watching from the batting spot behind it, no writing or logos.",
+        "action": "The orange ball rolls across the blue rope.",
+        "camera": "pan-right",
+        "mood": "Clear victory, Sheru smiling and Mano looking disappointed."
+      },
+      {
+        "id": "q08svw",
+        "narration": "مانو ہار کر منہ پھلا کر بیٹھ گئی۔",
+        "characters": [
+          "mano"
+        ],
+        "scene": "Vertical 9:16, low doorstep beside the same lane and courtyard entrance, neem leaves overhead, no writing or logos.",
+        "action": "Mano sits on the doorstep with her face turned away from the cricket game.",
+        "camera": "push-in",
+        "mood": "Mild sulking, puffed cheeks, gentle and never distressing."
+      },
+      {
+        "id": "3kaji5",
+        "narration": "[whispers] شیرو بولا، تمہارے بغیر کھیل کا مزہ ہی نہیں۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, the shaded doorstep beside the colourful lane, no writing or logos.",
+        "action": "Sheru offers the small plain cricket bat to seated Mano.",
+        "camera": "static",
+        "mood": "Kind reassurance, Sheru's soft smile and Mano's curious glance."
+      },
+      {
+        "id": "344q8y",
+        "narration": "مانو بولی، تم اچھا کھیلے، مبارک ہو!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, same doorstep with warm sunlight along the pastel wall, no writing or logos.",
+        "action": "Mano accepts the cricket bat from Sheru.",
+        "camera": "push-in",
+        "mood": "Genuine congratulations, bright smiles and relaxed ears."
+      },
+      {
+        "id": "1eggrd",
+        "narration": "دونوں پھر ہنسی خوشی کھیلنے کو تیار تھے۔",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, same empty lane, bat resting beside the orange ball, blue rope boundary in the distance, no writing or logos.",
+        "action": "Mano and Sheru share a friendly paw bump.",
+        "camera": "orbit",
+        "mood": "Warm friendship, cheerful faces, golden sunlight."
+      },
+      {
+        "id": "d7up0o",
+        "narration": "[excited] دوستی جیت سے بڑھ کر ہے؛ کل پتنگ اڑائیں گے!",
+        "characters": [
+          "mano",
+          "sheru"
+        ],
+        "scene": "Vertical 9:16, colourful Pakistani courtyard beneath a neem tree, cricket bat and ball beside a plain diamond kite with no writing, loose undecorated string spool nearby, no signs or logos.",
+        "action": "Mano points toward the plain colourful kite beside Sheru.",
+        "camera": "pull-out",
+        "mood": "Happy friendship and eager anticipation for tomorrow."
+      }
+    ],
+    "endHook": "Agli baar Mano aur Sheru patang urayenge!",
+    "createdAt": "2026-11-12T20:12:40.090Z",
+    "description": "مانو اور شیرو نے محلے کی گلی میں کرکٹ کھیلی، مگر ہار کر مانو ناراض ہو گئی۔ دیکھیے دونوں نے کیسے جانا کہ دوستی جیت سے بڑھ کر ہے!",
+    "tags": [
+      "Mano aur Sheru",
+      "Urdu cartoon",
+      "street cricket",
+      "friendship",
+      "kids animation",
+      "YouTube Shorts"
+    ]
+  }
+}
