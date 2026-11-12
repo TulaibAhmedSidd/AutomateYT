@@ -47,3 +47,6 @@ next-env.d.ts
 !/public/audio/.gitkeep
 !/public/images/.gitkeep
 !/public/videos/.gitkeep
+
+# motion graphics renders (local)
+/storage/
