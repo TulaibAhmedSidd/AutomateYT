@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import {
   CalendarClock,
+  Clapperboard,
   Layers,
   LayoutDashboard,
   Library,
@@ -31,6 +32,7 @@ const NAV = [
     group: 'Produce',
     items: [
       { href: '/motion', label: 'Motion Studio', icon: Sparkles },
+      { href: '/cartoon', label: 'Cartoon Studio', icon: Clapperboard },
       { href: '/studio', label: 'Image Studio', icon: Wand2 },
       { href: '/studio?tab=library', label: 'Library', icon: Library },
       { href: '/queue', label: 'Queue', icon: ListVideo },

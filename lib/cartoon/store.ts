@@ -257,9 +257,9 @@ function shotOf(ep: CartoonEpisode, shotId: string) {
 
 /** Saves the owner's recorded line for one shot: cleans it to MP3 and stores its length. */
 export async function saveRecording(id: string, shotId: string, bytes: Buffer): Promise<{ recording: Recording; episode: CartoonEpisode }> {
-  const ep = getEpisode(id);
-  if (!ep) throw new CartoonError('Episode not found');
-  const shot = shotOf(ep, shotId);
+  const before = getEpisode(id);
+  if (!before) throw new CartoonError('Episode not found');
+  shotOf(before, shotId);
   if (bytes.length < 1000) throw new CartoonError('The recording is empty. Check that the microphone is allowed and try again.');
   if (bytes.length > MAX_AUDIO) throw new CartoonError('The recording is too long. Keep each line under 30 seconds.');
   const dir = path.join(episodeDir(id), 'recordings');
@@ -272,7 +272,10 @@ export async function saveRecording(id: string, shotId: string, bytes: Buffer): 
     });
     if (seconds < 0.4) throw new CartoonError('The recording is silent. Speak closer to the microphone and try again.');
     const recording: Recording = { file: `${shotId}.mp3`, seconds, at: new Date().toISOString() };
-    shot.recording = recording;
+    // Re-read: the owner may have saved text edits while FFmpeg was cleaning the audio.
+    const ep = getEpisode(id);
+    if (!ep) throw new CartoonError('Episode not found');
+    shotOf(ep, shotId).recording = recording;
     writeJson(path.join(episodeDir(id), 'episode.json'), ep);
     return { recording, episode: ep };
   } finally {
