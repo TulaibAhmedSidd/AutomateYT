@@ -22,8 +22,10 @@
       }
     ],
     "voice": {
-      "provider": "recorded",
-      "edgeVoice": "ur-PK-UzmaNeural"
+      "provider": "elevenlabs",
+      "edgeVoice": "ur-PK-UzmaNeural",
+      "elevenVoiceId": "FGY2WhTYpPnrIDTdsKH5",
+      "elevenModel": "eleven_v4"
     },
     "rules": [
       "Narration in simple, polite Urdu for children, in Urdu script.",

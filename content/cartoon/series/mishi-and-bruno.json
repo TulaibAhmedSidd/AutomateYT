@@ -22,8 +22,10 @@
       }
     ],
     "voice": {
-      "provider": "recorded",
-      "edgeVoice": "en-US-AnaNeural"
+      "provider": "elevenlabs",
+      "edgeVoice": "en-US-AnaNeural",
+      "elevenVoiceId": "cgSgspJ2msm6clMCkdW9",
+      "elevenModel": "eleven_v4"
     },
     "rules": [
       "Mishi is clever and careful; Bruno is brave, silly and big-hearted. They are best friends.",

@@ -23,8 +23,10 @@
       }
     ],
     "voice": {
-      "provider": "recorded",
-      "edgeVoice": "en-US-AndrewNeural"
+      "provider": "elevenlabs",
+      "edgeVoice": "en-US-AndrewNeural",
+      "elevenVoiceId": "iP95p4xoKVk53GoZ742B",
+      "elevenModel": "eleven_v4"
     },
     "rules": [
       "General money education only, never personal financial advice. Never recommend a specific stock, coin, fund or product, and never promise returns.",

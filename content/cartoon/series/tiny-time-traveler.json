@@ -23,8 +23,10 @@
       }
     ],
     "voice": {
-      "provider": "recorded",
-      "edgeVoice": "en-US-AnaNeural"
+      "provider": "elevenlabs",
+      "edgeVoice": "en-US-AnaNeural",
+      "elevenVoiceId": "EXAVITQu4vr4xnSDxMaL",
+      "elevenModel": "eleven_v4"
     },
     "rules": [
       "Each episode Zoya and Tock travel to one place and time and learn two or three true facts about it.",

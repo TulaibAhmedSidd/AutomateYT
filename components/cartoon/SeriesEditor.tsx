@@ -1,10 +1,15 @@
 'use client';
 
 import { ImagePlus, Loader2, Plus, Save, Trash2 } from 'lucide-react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { VOICES } from '@/lib/motion/spec';
-import type { CartoonSeries, Character } from '@/lib/cartoon/spec';
+import { ELEVEN_MODELS, type CartoonSeries, type Character, type ElevenModel } from '@/lib/cartoon/spec';
 import { api, field, ghostBtn, jsonBody, label } from './ui';
+
+/** A 45-60 s episode is roughly 600-700 characters of narration. */
+const CHARS_PER_EPISODE = 650;
+
+type ElevenVoice = { id: string; name: string; gender: string; paidOnly: boolean };
 
 type Props = {
   series: CartoonSeries;
@@ -17,7 +22,17 @@ export function SeriesEditor({ series, onSaved, onError }: Props) {
   const [draft, setDraft] = useState<CartoonSeries>(series);
   const [saving, setSaving] = useState(false);
   const [uploading, setUploading] = useState<string | null>(null);
-  const set = (patch: Partial<CartoonSeries>) => setDraft((d) => ({ ...d, ...patch }));
+  const [elevenVoices, setElevenVoices] = useState<ElevenVoice[]>([]);
+  const [elevenError, setElevenError] = useState<string | null>(null);
+  useEffect(() => {
+    api<{ voices: ElevenVoice[]; error?: string }>('/api/cartoon/eleven/voices')
+      .then((d) => {
+        setElevenVoices(d.voices);
+        if (d.error) setElevenError(d.error);
+      })
+      .catch((e: unknown) => setElevenError(e instanceof Error ? e.message : String(e)));
+  }, []);
+  const set =(patch: Partial<CartoonSeries>) => setDraft((d) => ({ ...d, ...patch }));
   const setChar = (i: number, patch: Partial<Character>) =>
     setDraft((d) => ({ ...d, characters: d.characters.map((c, j) => (j === i ? { ...c, ...patch } : c)) }));
 
@@ -151,26 +166,70 @@ export function SeriesEditor({ series, onSaved, onError }: Props) {
 
       <div className="grid gap-3 sm:grid-cols-2">
         <label className="block">
-          <span className={label}>Narrator voice</span>
+          <span className={label}>Who speaks the lines</span>
           <select
             className={field}
             value={draft.voice.provider}
-            onChange={(e) => set({ voice: { ...draft.voice, provider: e.target.value === 'edge' ? 'edge' : 'recorded' } })}
+            onChange={(e) => {
+              const provider = e.target.value === 'edge' || e.target.value === 'elevenlabs' ? e.target.value : 'recorded';
+              const elevenVoiceId = draft.voice.elevenVoiceId || elevenVoices.find((v) => !v.paidOnly)?.id;
+              set({ voice: { ...draft.voice, provider, ...(provider === 'elevenlabs' ? { elevenVoiceId, elevenModel: draft.voice.elevenModel || 'eleven_v4' } : {}) } });
+            }}
           >
+            <option value="elevenlabs">ElevenLabs AI voice (natural, uses ElevenLabs credits)</option>
             <option value="recorded">My own voice (I record each line)</option>
-            <option value="edge">AI voice (free Microsoft voice)</option>
+            <option value="edge">Free Microsoft voice (sounds robotic)</option>
           </select>
         </label>
-        <label className="block">
-          <span className={label}>AI voice (for missing lines)</span>
-          <select className={field} value={draft.voice.edgeVoice} onChange={(e) => set({ voice: { ...draft.voice, edgeVoice: e.target.value } })}>
-            {voices.map((v) => (
-              <option key={v.id} value={v.id}>
-                {v.label}
-              </option>
-            ))}
-          </select>
-        </label>
+        {draft.voice.provider === 'edge' ? (
+          <label className="block">
+            <span className={label}>Free voice</span>
+            <select className={field} value={draft.voice.edgeVoice} onChange={(e) => set({ voice: { ...draft.voice, edgeVoice: e.target.value } })}>
+              {voices.map((v) => (
+                <option key={v.id} value={v.id}>
+                  {v.label}
+                </option>
+              ))}
+            </select>
+          </label>
+        ) : (
+          <label className="block">
+            <span className={label}>{draft.voice.provider === 'elevenlabs' ? 'ElevenLabs voice' : 'AI voice for lines I did not record'}</span>
+            <select
+              className={field}
+              value={draft.voice.elevenVoiceId || ''}
+              onChange={(e) => set({ voice: { ...draft.voice, elevenVoiceId: e.target.value || undefined, elevenModel: draft.voice.elevenModel || 'eleven_v4' } })}
+            >
+              {draft.voice.provider !== 'elevenlabs' && <option value="">Free Microsoft voice</option>}
+              {elevenVoices.map((v) => (
+                <option key={v.id} value={v.id}>
+                  {v.name}
+                  {v.paidOnly ? ' (needs paid ElevenLabs plan)' : ''}
+                </option>
+              ))}
+            </select>
+            {elevenError && <span className="mt-1 block text-xs text-amber-300">{elevenError}</span>}
+          </label>
+        )}
+        {draft.voice.elevenVoiceId && draft.voice.provider !== 'edge' && (
+          <label className="block sm:col-span-2">
+            <span className={label}>ElevenLabs model</span>
+            <select
+              className={field}
+              value={draft.voice.elevenModel || 'eleven_v4'}
+              onChange={(e) => set({ voice: { ...draft.voice, elevenModel: e.target.value as ElevenModel } })}
+            >
+              {ELEVEN_MODELS.map((m) => (
+                <option key={m.id} value={m.id}>
+                  {m.label} · about {Math.round(CHARS_PER_EPISODE * m.multiplier)} credits per episode
+                </option>
+              ))}
+            </select>
+            <span className="mt-1 block text-xs text-slate-500">
+              Free plan: about 10,000 credits a month and no commercial use. A monetised channel needs a paid ElevenLabs plan.
+            </span>
+          </label>
+        )}
         <label className="block sm:col-span-2">
           <span className={label}>Story rules (one per line)</span>
           <textarea

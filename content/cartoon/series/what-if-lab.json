@@ -23,8 +23,10 @@
       }
     ],
     "voice": {
-      "provider": "recorded",
-      "edgeVoice": "en-US-AndrewNeural"
+      "provider": "elevenlabs",
+      "edgeVoice": "en-US-AndrewNeural",
+      "elevenVoiceId": "IKne3meq5aSn9XLyUdCD",
+      "elevenModel": "eleven_v4"
     },
     "rules": [
       "Each episode answers one 'What if...?' question using mainstream science, step by step, as Dr. Nova shows Byte a hologram.",

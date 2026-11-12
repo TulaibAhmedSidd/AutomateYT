@@ -100,6 +100,11 @@ function ShotVisual({ shot, frames, first, palette, assetBase, names }: {
   return <AbsoluteFill style={{ opacity, overflow: 'hidden', backgroundColor: palette.bg }}>{inner}</AbsoluteFill>;
 }
 
+/** Titles and end cards may be Roman Urdu or English even in an Urdu series: pick font and direction from the text itself. */
+function hasUrduLetters(text: string) {
+  return /[؀-ۿ]/.test(text);
+}
+
 function TitleCard({ title, seriesName, palette, urdu }: { title: string; seriesName: string; palette: Palette; urdu: boolean }) {
   const frame = useCurrentFrame();
   const opacity = interpolate(frame, [0, 6, TITLE_FRAMES - 8, TITLE_FRAMES], [0, 1, 1, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
@@ -177,11 +182,11 @@ export function CartoonEpisode({ episode, series, assetBase }: EpisodeRenderProp
         <Sequence key={`a-${shot.id}`} from={starts[i]} durationInFrames={frames[i]} name={`${i + 1}. voice`}>
           {shot.audio && <Html5Audio src={src(assetBase, shot.audio)} />}
           <Captions words={shotWords(shot)} urdu={urdu} accent={series.palette.accent} bottom={260} />
-          {i === last && episode.endHook && <EndHook text={episode.endHook} palette={series.palette} urdu={urdu} />}
+          {i === last && episode.endHook && <EndHook text={episode.endHook} palette={series.palette} urdu={hasUrduLetters(episode.endHook)} />}
         </Sequence>
       ))}
       <Sequence from={0} durationInFrames={Math.min(TITLE_FRAMES, total)} name="title">
-        <TitleCard title={episode.title} seriesName={series.name} palette={series.palette} urdu={urdu} />
+        <TitleCard title={episode.title} seriesName={series.name} palette={series.palette} urdu={hasUrduLetters(episode.title)} />
       </Sequence>
       <ProgressBar total={total} accent={series.palette.accent} />
     </AbsoluteFill>

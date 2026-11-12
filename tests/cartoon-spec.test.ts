@@ -12,6 +12,7 @@ import {
   shotSeconds,
   shotWords,
   spreadWords,
+  spokenText,
   FPS,
   type CartoonShot,
 } from '../lib/cartoon/spec.ts';
@@ -123,6 +124,19 @@ test('the Islamic preset forbids showing holy figures', () => {
   const islamic = SERIES_PRESETS.find((s) => s.id === 'stories-of-light');
   assert.ok(islamic);
   assert.ok(islamic.rules.some((r) => /never show/i.test(r) && /prophet/i.test(r)));
+});
+
+test('ElevenLabs voice settings are kept only when valid', () => {
+  const ok = sanitizeSeries({ name: 'X', voice: { provider: 'elevenlabs', elevenVoiceId: 'TX3LPaxmHKxFdv7VOQHJ', elevenModel: 'eleven_v4_turbo' } });
+  assert.deepEqual(ok.voice, { provider: 'elevenlabs', edgeVoice: 'en-US-AndrewNeural', elevenVoiceId: 'TX3LPaxmHKxFdv7VOQHJ', elevenModel: 'eleven_v4_turbo' });
+  const noVoice = sanitizeSeries({ name: 'X', voice: { provider: 'elevenlabs', elevenVoiceId: 'bad id!' } });
+  assert.equal(noVoice.voice.provider, 'recorded');
+  assert.equal(noVoice.voice.elevenVoiceId, undefined);
+});
+
+test('audio tags are spoken as sounds but never shown in captions', () => {
+  assert.equal(spokenText('[laughs] Hello there! [sighs] Bye'), 'Hello there! Bye');
+  assert.deepEqual(spreadWords('[laughs] a bb', 2).map((w) => w.text), ['a', 'bb']);
 });
 
 test('sanitizeSeries fills defaults and clamps', () => {

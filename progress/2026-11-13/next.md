@@ -11,3 +11,8 @@
    - `scripts/lib/comfy.mjs` + `npm run comfy:check`;
    - the worker uses ComfyUI when `CARTOON_ENGINE=comfy`.
 5. `YouTube`: publish the OAuth consent screen, make a new refresh token, then add upload for Motion and Cartoon videos.
+
+## 03:45 PKT
+1. **Owner:** listen to the 4 ElevenLabs samples and the test video, then pick voices. To use the native Urdu voices (Kamran, Saira…) and post on a monetised channel, upgrade ElevenLabs to a paid plan.
+2. **Owner:** decide which OpenAI account pays for scripts (today: Volt On Solar Energy), then write the 135 missing scripts with the Write script buttons.
+3. Home PC: ComfyUI Phase 2 (see the Antigravity prompt).

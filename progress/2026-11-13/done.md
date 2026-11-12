@@ -27,3 +27,13 @@
 - `/cartoon/<series>`: every episode with its status (✅ video ready / 🎙 recording / 📝 script ready / no script yet). "Write script" (with cost) appears only on unwritten ones. Includes a model dropdown with the cost per episode.
 - `/cartoon/studio?series=&episode=` opens the episode straight away.
 - Checked in the browser: cards → Chacha series → episode 1 opens in the studio.
+
+## 03:45 PKT — office PC
+- **ElevenLabs voices** (the owner will not record his own voice):
+  - each series now picks ElevenLabs, own recording or the free voice;
+  - the 10 library series default to ElevenLabs eleven_v4 with premade voices (Liam, George, Jessica, Laura, Sarah, Callum, Charlie, Chris);
+  - the writer adds [laughs]/[sighs] tags and natural Urdu with everyday English words;
+  - captions use real word timings and skip the tags.
+- Explored the ElevenLabs API: v4, v4 turbo and v3 speak Urdu; older models do not. The account is on the **Free plan**: Urdu library voices (Kamran M, Naqsh, Saira…) are blocked via the API (402), and output is non-commercial.
+- Tested: 4 Urdu samples sent to the owner, plus a 2-shot Chacha episode rendered end to end with ElevenLabs. Fixed two caption bugs: the caption jumped to the last word in gaps between words, and the Roman Urdu end card was shown right-to-left.
+- Library series updates now reach the app on the next load, unless the owner edited that series in the app.

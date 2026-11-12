@@ -23,8 +23,10 @@
       }
     ],
     "voice": {
-      "provider": "recorded",
-      "edgeVoice": "en-US-AnaNeural"
+      "provider": "elevenlabs",
+      "edgeVoice": "en-US-AnaNeural",
+      "elevenVoiceId": "TX3LPaxmHKxFdv7VOQHJ",
+      "elevenModel": "eleven_v4"
     },
     "rules": [
       "One animal per episode. Kiko and Pip discover its real superpower and two or three true facts about it.",

@@ -1,7 +1,23 @@
 import { jsonAsker, mostlyUrduScript } from '@/lib/llm-json';
-import { CAMERAS, sanitizeEpisode, shotCountFor, type CartoonEpisode, type CartoonSeries } from './spec';
+import { CAMERAS, sanitizeEpisode, shotCountFor, spokenText, type CartoonEpisode, type CartoonSeries } from './spec';
 
 // The AI episode writer. Server only. Costs OpenAI/Gemini credit (about 1.7 cents per episode with gpt-6.1-sol).
+
+/** Rules that depend on the language and on the narrator's voice. */
+function extraRules(series: CartoonSeries) {
+  const rules: string[] = [];
+  if (series.language === 'ur') {
+    rules.push(
+      'Write natural spoken Pakistani Urdu, the way people really talk at home. Everyday English words people use inside Urdu (phone, school, WhatsApp, sorry, please, okay) may stay in English letters.',
+    );
+  }
+  if (series.voice.provider === 'elevenlabs') {
+    rules.push(
+      'The narrator is an expressive AI voice. In about every third line, add ONE audio tag in square brackets where the feeling fits: [laughs], [chuckles], [giggles], [sighs], [excited], [whispers], [surprised], [sarcastic]. Tags are performed, not spoken, and do not count as words.',
+    );
+  }
+  return rules.map((r, i) => `${9 + i}. ${r}\n`).join('');
+}
 
 function systemPrompt(series: CartoonSeries, shots: number) {
   const urdu = series.language === 'ur';
@@ -27,7 +43,7 @@ HARD RULES:
 6. "camera" is one of: ${CAMERAS.map((c) => c.id).join(', ')}. Vary it.
 7. The story has a beginning, a problem and a payoff, and makes sense with sound off (captions are shown).
 8. No invented facts, statistics or quotes.
-
+${extraRules(series)}
 Return JSON only:
 {"title": "...", "description": "2-3 sentence YouTube description", "tags": ["..."], "endHook": "one line teasing the next episode",
  "shots": [{"narration": "...", "characters": ["id"], "scene": "...", "action": "...", "camera": "push-in", "mood": "..."}]}
@@ -38,7 +54,7 @@ function problems(ep: CartoonEpisode, shots: number) {
   const out: string[] = [];
   if (Math.abs(ep.shots.length - shots) > 2) out.push(`Write ${shots} shots, not ${ep.shots.length}.`);
   ep.shots.forEach((s, i) => {
-    const words = s.narration.split(/\s+/).filter(Boolean).length;
+    const words = spokenText(s.narration).split(/\s+/).filter(Boolean).length;
     if (words > 14) out.push(`Shot ${i + 1} narration has ${words} words; keep it to 12 or fewer.`);
     if (!s.narration) out.push(`Shot ${i + 1} has no narration.`);
   });

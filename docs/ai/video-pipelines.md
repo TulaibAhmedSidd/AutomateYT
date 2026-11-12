@@ -64,6 +64,8 @@ It costs ElevenLabs + Leonardo + OpenAI credits. Retention is poor because there
 
 **Script model:** gpt-6.1-sol by default (best Urdu and stories in a 4-model test on 2026-11-13; ~700 in + ~1,580 out tokens, about 1.7 cents per episode). Prices and estimates: `lib/cartoon/models.ts`. Reasoning models (gpt-5+, gpt-6+) get `reasoning_effort` instead of temperature (`lib/llm-json.ts`).
 
+**Voices:** each series picks who speaks: `elevenlabs` (default for the library series, natural Urdu/English with [laughs]-style tags), `recorded` (the owner records each line) or `edge` (free Microsoft voice). A shot with a recording always uses it. When the series voice is ElevenLabs the writer adds about one audio tag every third line, and for Urdu series it writes natural spoken Urdu with everyday English words.
+
 **Recording:** the browser records each line (MediaRecorder); `lib/cartoon/audio.ts` cleans it with FFmpeg: highpass 80 Hz, afftdn, loudnorm -16 LUFS, then silence trim at both ends (loudnorm must come before areverse or FFmpeg stalls on short clips).
 
 Design: `docs/superpowers/specs/2026-11-12-cartoon-design.md`. Summary:

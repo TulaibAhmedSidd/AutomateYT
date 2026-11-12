@@ -12,8 +12,10 @@ export function Captions({ words, urdu, accent, bottom = 300 }: { words: Caption
   const t = frame / fps;
   if (!words.length) return null;
   const size = 4;
-  let current = words.findIndex((w) => t >= w.start && t < w.end);
-  if (current === -1) current = t < words[0].start ? 0 : words.length - 1;
+  // The word being spoken is the last one that has started. Real voices leave small gaps between words; during a gap
+  // the previous word stays lit instead of jumping to the end.
+  let current = 0;
+  for (let i = 0; i < words.length; i += 1) if (words[i].start <= t) current = i;
   const start = Math.floor(current / size) * size;
   const group = words.slice(start, start + size);
   const groupStart = group[0].start;

@@ -8,8 +8,28 @@ export const HEIGHT = 1920;
 
 export type CartoonLang = 'en' | 'ur';
 export type Camera = 'static' | 'push-in' | 'pull-out' | 'pan-left' | 'pan-right' | 'orbit' | 'low-angle';
-export type VoiceProvider = 'recorded' | 'edge';
+/** recorded = the owner's own voice; elevenlabs = ElevenLabs AI voice (natural, costs credits); edge = free Microsoft voice. */
+export type VoiceProvider = 'recorded' | 'elevenlabs' | 'edge';
 export type Word = { text: string; start: number; end: number };
+
+/** Narrator voice of a series. The ElevenLabs fields are set when provider is elevenlabs (or as the AI fallback). */
+export type SeriesVoice = { provider: VoiceProvider; edgeVoice: string; elevenVoiceId?: string; elevenModel?: ElevenModel };
+
+/** ElevenLabs models that speak Urdu (checked against the API on 2026-11-13). Credits = characters × multiplier. */
+export type ElevenModel = 'eleven_v4' | 'eleven_v4_turbo' | 'eleven_v3';
+export const ELEVEN_MODELS: { id: ElevenModel; label: string; multiplier: number }[] = [
+  { id: 'eleven_v4', label: 'Eleven v4: most natural', multiplier: 1 },
+  { id: 'eleven_v4_turbo', label: 'Eleven v4 Turbo: half the credits', multiplier: 0.5 },
+  { id: 'eleven_v3', label: 'Eleven v3: very expressive', multiplier: 1 },
+];
+
+/** ElevenLabs audio tags like [laughs] or [sighs]: spoken as sound, never shown in captions. */
+export const AUDIO_TAG = /\[[^\]]{1,30}\]/g;
+
+/** Narration as spoken words only (audio tags removed). */
+export function spokenText(text: string) {
+  return text.replace(AUDIO_TAG, ' ').replace(/\s+/g, ' ').trim();
+}
 
 /** A recurring character. `look` is the fixed description used in every shot prompt; `reference` is an image file in series/<id>/refs/. */
 export type Character = { id: string; name: string; look: string; reference?: string };
@@ -24,7 +44,7 @@ export type CartoonSeries = {
   style: string;
   negative: string;
   characters: Character[];
-  voice: { provider: VoiceProvider; edgeVoice: string };
+  voice: SeriesVoice;
   rules: string[];
   episodeSeconds: 45 | 60 | 75;
   palette: { bg: string; accent: string };
@@ -111,7 +131,7 @@ export function shotCountFor(seconds: number) {
 export function shotSeconds(shot: CartoonShot) {
   if (shot.duration && shot.duration > 0) return shot.duration;
   if (shot.recording && shot.recording.seconds > 0) return shot.recording.seconds + TAIL;
-  const words = shot.narration.split(/\s+/).filter(Boolean).length;
+  const words = spokenText(shot.narration).split(/\s+/).filter(Boolean).length;
   return Math.max(2.4, words / WORDS_PER_SECOND + 0.35);
 }
 
@@ -127,7 +147,7 @@ export function episodeFrames(ep: CartoonEpisode) {
 
 /** Spreads the words of `text` over `seconds`, longer words getting more time. Used when we have no real word timings. */
 export function spreadWords(text: string, seconds: number, offset = 0): Word[] {
-  const parts = text.split(/\s+/).filter(Boolean);
+  const parts = spokenText(text).split(/\s+/).filter(Boolean);
   if (!parts.length) return [];
   const total = Math.max(0.2, seconds - offset - 0.05);
   const weights = parts.map((p) => Math.max(2, p.length));
@@ -196,6 +216,14 @@ export function sanitizeSeries(input: unknown): CartoonSeries {
   const v = (r.voice && typeof r.voice === 'object' ? r.voice : {}) as Record<string, unknown>;
   const language: CartoonLang = r.language === 'ur' ? 'ur' : 'en';
   const edgeVoice = EDGE_VOICE.test(str(v.edgeVoice, 60)) ? str(v.edgeVoice, 60) : language === 'ur' ? 'ur-PK-AsadNeural' : 'en-US-AndrewNeural';
+  const provider: VoiceProvider = v.provider === 'edge' || v.provider === 'elevenlabs' ? v.provider : 'recorded';
+  const voice: SeriesVoice = { provider, edgeVoice };
+  const elevenVoiceId = str(v.elevenVoiceId, 40);
+  if (/^[A-Za-z0-9]{10,40}$/.test(elevenVoiceId)) voice.elevenVoiceId = elevenVoiceId;
+  if (ELEVEN_MODELS.some((m) => m.id === v.elevenModel)) voice.elevenModel = v.elevenModel as ElevenModel;
+  else if (voice.elevenVoiceId) voice.elevenModel = 'eleven_v4';
+  // ElevenLabs needs a voice; without one, fall back to the owner's recordings.
+  if (provider === 'elevenlabs' && !voice.elevenVoiceId) voice.provider = 'recorded';
   const p = (r.palette && typeof r.palette === 'object' ? r.palette : {}) as Record<string, unknown>;
   const hex = (x: unknown, d: string) => (typeof x === 'string' && /^#[0-9a-fA-F]{6}$/.test(x) ? x : d);
   const seconds = Number(r.episodeSeconds);
@@ -208,7 +236,7 @@ export function sanitizeSeries(input: unknown): CartoonSeries {
     style: str(r.style, 600),
     negative: str(r.negative, 400),
     characters,
-    voice: { provider: v.provider === 'edge' ? 'edge' : 'recorded', edgeVoice },
+    voice,
     rules: (Array.isArray(r.rules) ? r.rules : []).map((x) => str(x, 300)).filter(Boolean).slice(0, 12),
     episodeSeconds: seconds === 45 || seconds === 75 ? seconds : 60,
     palette: { bg: hex(p.bg, '#120c24'), accent: hex(p.accent, '#ffb547') },

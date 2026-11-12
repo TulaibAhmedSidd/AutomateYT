@@ -23,8 +23,10 @@
       }
     ],
     "voice": {
-      "provider": "recorded",
-      "edgeVoice": "ur-PK-AsadNeural"
+      "provider": "elevenlabs",
+      "edgeVoice": "ur-PK-AsadNeural",
+      "elevenVoiceId": "TX3LPaxmHKxFdv7VOQHJ",
+      "elevenModel": "eleven_v4"
     },
     "rules": [
       "Each episode, Noori the lantern-robot shows Hamza one Muslim scientist or inventor and what they discovered or built.",

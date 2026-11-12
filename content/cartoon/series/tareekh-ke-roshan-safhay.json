@@ -23,8 +23,10 @@
       }
     ],
     "voice": {
-      "provider": "recorded",
-      "edgeVoice": "ur-PK-AsadNeural"
+      "provider": "elevenlabs",
+      "edgeVoice": "ur-PK-AsadNeural",
+      "elevenVoiceId": "JBFqnCBsd6RMkjVDRZzb",
+      "elevenModel": "eleven_v4"
     },
     "rules": [
       "Never show the face or body of any prophet, companion (sahabi), member of the Prophet's family or any holy figure, not even as a silhouette. Show places, objects, nature and light instead; the story is narrated.",

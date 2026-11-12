@@ -28,8 +28,10 @@
       }
     ],
     "voice": {
-      "provider": "recorded",
-      "edgeVoice": "ur-PK-AsadNeural"
+      "provider": "elevenlabs",
+      "edgeVoice": "ur-PK-AsadNeural",
+      "elevenVoiceId": "TX3LPaxmHKxFdv7VOQHJ",
+      "elevenModel": "eleven_v4"
     },
     "rules": [
       "Family-friendly desi comedy. Laugh with the characters, never at any ethnicity, religion, region or group.",

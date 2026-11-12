@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { spawn } from 'child_process';
+import { createHash } from 'crypto';
 import { cleanRecording } from './audio';
 import {
   SERIES_PRESETS,
@@ -137,14 +138,38 @@ export function libraryEpisodeId(seriesId: string, n: number) {
   return `${seriesId}-e${String(n).padStart(2, '0')}`;
 }
 
+const hash = (text: string) => createHash('sha1').update(text).digest('hex');
+
 /**
- * Copies library series and written episodes into storage the first time they are seen. Never overwrites, so the
- * owner's edits, recordings and videos are safe. Library episodes get old createdAt dates, in episode order.
+ * Copies a library series into storage. When the library version changes (e.g. after a git pull), the stored copy is
+ * updated too, but only if the owner has not edited it in the app since the last import (tracked in library.json).
+ */
+function importSeries(series: CartoonSeries) {
+  const file = path.join(SERIES_ROOT, series.id, 'series.json');
+  const marker = path.join(SERIES_ROOT, series.id, 'library.json');
+  const content = JSON.stringify(series, null, 2);
+  const seen = readJson<{ content: string; stored: string }>(marker);
+  if (fs.existsSync(file)) {
+    if (seen?.content === hash(content)) return;
+    const editedInApp = seen ? hash(fs.readFileSync(file, 'utf8')) !== seen.stored : false;
+    if (editedInApp) return;
+  }
+  // Keep reference pictures the owner uploaded.
+  const old = readJson<CartoonSeries>(file);
+  const next = { ...series, characters: series.characters.map((c) => ({ ...c, ...(old?.characters.find((o) => o.id === c.id)?.reference ? { reference: old?.characters.find((o) => o.id === c.id)?.reference } : {}) })) };
+  const text = JSON.stringify(next, null, 2);
+  fs.mkdirSync(path.dirname(file), { recursive: true });
+  fs.writeFileSync(file, text);
+  writeJson(marker, { content: hash(content), stored: hash(text) });
+}
+
+/**
+ * Copies library series and written episodes into storage. Episodes are never overwritten, so the owner's edits,
+ * recordings and videos are safe. Library episodes get old createdAt dates, in episode order.
  */
 function importLibrary() {
   for (const lib of readLibrary()) {
-    const file = path.join(SERIES_ROOT, lib.series.id, 'series.json');
-    if (!fs.existsSync(file)) writeJson(file, lib.series);
+    importSeries(lib.series);
     const epDir = path.join(LIBRARY, 'episodes', lib.series.id);
     if (!fs.existsSync(epDir)) continue;
     for (const f of fs.readdirSync(epDir)) {

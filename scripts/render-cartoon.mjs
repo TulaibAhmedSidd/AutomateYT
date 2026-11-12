@@ -9,6 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { speakEdge } from './lib/voice.mjs';
+import { speakEleven } from './lib/eleven.mjs';
 import { renderComposition } from './lib/remotion-render.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -52,23 +53,33 @@ async function voiceFor(shot, index, series, options) {
   if (recorded && fs.existsSync(recorded)) {
     return { kind: 'recorded', audio: stage(recorded, `${shot.id}.mp3`), duration: shot.recording.seconds + TAIL };
   }
-  if (series.voice.provider !== 'edge' && !options.allowAiVoice) {
+  const v = series.voice;
+  if (v.provider === 'recorded' && !options.allowAiVoice) {
     throw new Error(`Shot ${index + 1} has no recording. Record it, or tick "use AI voice for missing lines".`);
   }
-  // Free Edge voice, cached per shot so a resumed render does not speak it again.
+  // AI voice: ElevenLabs when the series has an ElevenLabs voice (and is not set to the free voice), else free Edge.
+  const useEleven = v.provider !== 'edge' && Boolean(v.elevenVoiceId);
+  const voiceKey = useEleven ? `eleven:${v.elevenVoiceId}:${v.elevenModel || 'eleven_v4'}` : `edge:${v.edgeVoice}`;
+  // Cached per shot, so a resumed or repeated render does not pay for the same line twice.
   const cacheFile = path.join(assets, `${shot.id}.voice.json`);
   const mp3 = path.join(assets, `${shot.id}.ai.mp3`);
   const cache = readJson(cacheFile);
-  if (!cache || cache.text !== text || cache.voice !== series.voice.edgeVoice || !fs.existsSync(mp3)) {
-    const tmp = path.join(dir, `tts-${shot.id}`);
-    const out = await speakEdge(text, series.voice.edgeVoice, tmp);
-    fs.copyFileSync(out.file, mp3);
-    fs.rmSync(tmp, { recursive: true, force: true });
-    fs.writeFileSync(cacheFile, JSON.stringify({ text, voice: series.voice.edgeVoice, seconds: out.seconds, words: out.words }));
+  if (!cache || cache.text !== text || cache.voice !== voiceKey || !fs.existsSync(mp3)) {
+    let out;
+    if (useEleven) {
+      out = await speakEleven(text, v.elevenVoiceId, v.elevenModel || 'eleven_v4', mp3);
+    } else {
+      const tmp = path.join(dir, `tts-${shot.id}`);
+      const edge = await speakEdge(text.replace(/\[[^\]]{1,30}\]/g, ' '), v.edgeVoice, tmp);
+      fs.copyFileSync(edge.file, mp3);
+      fs.rmSync(tmp, { recursive: true, force: true });
+      out = edge;
+    }
+    fs.writeFileSync(cacheFile, JSON.stringify({ text, voice: voiceKey, seconds: out.seconds, words: out.words }));
   }
   const { seconds, words } = readJson(cacheFile);
   const lastWord = words.length ? words[words.length - 1].end : 0;
-  return { kind: 'ai', audio: `${shot.id}.ai.mp3`, words, duration: Math.max(2.2, seconds, lastWord) + 0.35 };
+  return { kind: useEleven ? 'elevenlabs' : 'ai', audio: `${shot.id}.ai.mp3`, words, duration: Math.max(2.2, seconds, lastWord) + 0.35 };
 }
 
 function pictureFor(shot, series) {

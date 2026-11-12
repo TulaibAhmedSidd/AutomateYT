@@ -7,7 +7,7 @@
 | OpenAI | Scripts (`gpt-4o-mini`, `gpt-4o`), Whisper captions (Image Studio) | `openai` / `OPENAI_API_KEY` | Under 1 cent per script | Working |
 | Google Gemini | Scripts (`gemini-2.5-flash`) | `gemini` / `GEMINI_API_KEY` | Free tier, then cheap | Working |
 | Microsoft Edge neural voices | All free voiceover, with word timings | none (`msedge-tts`, online) | Free | Working |
-| ElevenLabs | Premium voice (Image Studio) | `elevenlabs` / `ELEVENLABS_API_KEY` | Paid plan | Working |
+| ElevenLabs | Cartoon narrator voices (eleven_v4 speaks Urdu) and Image Studio voice | `ELEVENLABS_API_KEY` | **Free plan today**: ~10,000 credits/month, premade voices only via API, no commercial use | Working (premade voices) |
 | Leonardo.ai | Images (Image Studio) | `leonardo` / `LEONARDO_API_KEY` | Credits | Working |
 | MongoDB Atlas | Image Studio videos, settings | `MONGODB_URI` | Free M0 | Working (needs your IP in Atlas → Network Access) |
 | ComfyUI (home PC) | Cartoon keyframes + clips | `COMFY_URL` (default `http://127.0.0.1:8188`), `CARTOON_ENGINE` (`stills`/`comfy`) | Free (your GPU) | Being built |
@@ -23,6 +23,14 @@
 - Quota is 10 000 units/day, and one upload costs about 1 600. That allows about 6 uploads a day.
 - Shorts: vertical, up to 3 minutes.
 - Today only Image Studio videos can be uploaded. Motion and cartoon uploads are planned.
+
+## ElevenLabs (cartoon voices) — `scripts/lib/eleven.mjs`
+- Models that speak Urdu (checked 2026-11-13): `eleven_v4` (most natural, 1 credit/char), `eleven_v4_turbo` (0.5), `eleven_v3` (expressive, 1). Older models (multilingual_v2, flash/turbo v2.5) do **not** support Urdu.
+- `/with-timestamps` returns character timings; the worker turns them into word timings for captions and skips audio tags.
+- Audio tags like `[laughs]`, `[sighs]`, `[excited]` in the narration are performed, not spoken; captions strip them (`spokenText()`).
+- **The account is on the Free plan:** library voices (Urdu natives like Kamran M, Naqsh, Amjid, Saira, Reva) return HTTP 402 via the API; only premade voices (Liam, George, Laura, Jessica, Sarah, Callum, Charlie, Chris…) work. Free plan output is non-commercial; a monetised channel needs a paid plan (Starter or higher).
+- One 45-60 s episode is about 650 characters, so about 650 credits with eleven_v4. Voices are cached per shot, so re-rendering costs nothing.
+- `GET /api/cartoon/eleven/voices` lists the account voices for the series editor (free).
 
 ## Instagram (planned)
 - The account must be **Professional** (Creator or Business).
