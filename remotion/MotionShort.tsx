@@ -10,11 +10,9 @@ import {
   useVideoConfig,
   Easing,
 } from 'remotion';
-import { loadFont as loadSpace } from '@remotion/google-fonts/SpaceGrotesk';
-import { loadFont as loadInter } from '@remotion/google-fonts/Inter';
-import { loadFont as loadNastaliq } from '@remotion/google-fonts/NotoNastaliqUrdu';
+import { inter, nastaliq, space } from './shared/fonts';
+import { Captions } from './shared/Captions';
 import {
-  FPS,
   THEMES,
   plainText,
   sceneFrames,
@@ -24,10 +22,6 @@ import {
   type MotionSpec,
   type Theme,
 } from '../lib/motion/spec';
-
-const space = loadSpace('normal', { weights: ['700'], subsets: ['latin'] });
-const inter = loadInter('normal', { weights: ['500', '700', '800'], subsets: ['latin'] });
-const nastaliq = loadNastaliq('normal', { weights: ['400', '700'], subsets: ['arabic'] });
 
 type Ctx = { theme: Theme; urdu: boolean; display: string; body: string };
 
@@ -468,59 +462,6 @@ function SceneBody({ scene, ctx, frames }: { scene: MotionScene; ctx: Ctx; frame
 }
 
 /** Karaoke captions: up to 4 words at a time, the spoken word lit up. */
-function Captions({ scene, ctx }: { scene: MotionScene; ctx: Ctx }) {
-  const frame = useCurrentFrame();
-  const t = frame / FPS;
-  const words = sceneWords(scene);
-  if (!words.length) return null;
-  const size = 4;
-  let current = words.findIndex((w) => t >= w.start && t < w.end);
-  if (current === -1) current = t < words[0].start ? 0 : words.length - 1;
-  const start = Math.floor(current / size) * size;
-  const group = words.slice(start, start + size);
-  const groupStart = group[0].start;
-  const s = interpolate(t, [groupStart, groupStart + 0.12], [0.7, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
-  return (
-    <AbsoluteFill style={{ justifyContent: 'flex-end', alignItems: 'center', paddingBottom: 300 }}>
-      <div
-        style={{
-          maxWidth: 940,
-          display: 'flex',
-          flexWrap: 'wrap',
-          justifyContent: 'center',
-          gap: '6px 18px',
-          padding: '18px 34px',
-          borderRadius: 28,
-          background: 'rgba(0,0,0,0.42)',
-          transform: `scale(${s})`,
-          direction: ctx.urdu ? 'rtl' : 'ltr',
-        }}
-      >
-        {group.map((w, i) => {
-          const active = start + i === current;
-          return (
-            <span
-              key={start + i}
-              style={{
-                fontFamily: ctx.urdu ? nastaliq.fontFamily : inter.fontFamily,
-                fontWeight: 800,
-                fontSize: ctx.urdu ? 52 : 58,
-                lineHeight: ctx.urdu ? 1.9 : 1.2,
-                color: active ? ctx.theme.accent2 : '#ffffff',
-                textTransform: ctx.urdu ? undefined : 'uppercase',
-                transform: active ? 'scale(1.08)' : undefined,
-                textShadow: '0 4px 18px rgba(0,0,0,0.6)',
-              }}
-            >
-              {w.text}
-            </span>
-          );
-        })}
-      </div>
-    </AbsoluteFill>
-  );
-}
-
 function ProgressBar({ theme, total }: { theme: Theme; total: number }) {
   const frame = useCurrentFrame();
   return (
@@ -551,7 +492,7 @@ export const MotionShort: React.FC<{ spec: MotionSpec }> = ({ spec }) => {
             <SceneShell frames={frames}>
               <SceneBody scene={scene} ctx={ctx} frames={frames} />
             </SceneShell>
-            {spec.captions && <Captions scene={scene} ctx={ctx} />}
+            {spec.captions && <Captions words={sceneWords(scene)} urdu={ctx.urdu} accent={ctx.theme.accent2} />}
             {scene.audio && <Html5Audio src={audioSrc(spec, scene.audio)} />}
           </Sequence>
         );
