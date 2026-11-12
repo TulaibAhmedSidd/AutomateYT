@@ -1,0 +1,76 @@
+{
+  "model": "gpt-6.1-sol",
+  "why": "Owner's request: kids cartoon with a cat and a dog in Urdu, set in a Pakistani home. Few quality Urdu animated kids channels.",
+  "series": {
+    "id": "mano-aur-sheru",
+    "name": "Mano aur Sheru",
+    "language": "ur",
+    "audience": "kids",
+    "madeForKids": true,
+    "style": "3D animated family film look, colourful Pakistani house with a courtyard (sehan), a neem tree, rooftop and busy mohalla street, soft sunlight, rounded friendly shapes, vertical 9:16 frame",
+    "negative": "text, letters, words, watermark, logo, scary, horror, violence, blood, extra legs, deformed face, blurry",
+    "characters": [
+      {
+        "id": "mano",
+        "name": "Mano",
+        "look": "Mano, a white kitten with orange patches, bright blue eyes and a tiny bell on a red ribbon"
+      },
+      {
+        "id": "sheru",
+        "name": "Sheru",
+        "look": "Sheru, a brave brown desi dog with a white chest, pointy ears and a green collar"
+      }
+    ],
+    "voice": {
+      "provider": "recorded",
+      "edgeVoice": "ur-PK-UzmaNeural"
+    },
+    "rules": [
+      "Narration in simple, polite Urdu for children, in Urdu script.",
+      "Everyday Pakistani life: home, rooftop, mohalla, bazaar, park, school gate, family.",
+      "Mano is curious and sometimes naughty; Sheru is brave, loyal and kind. They are best friends.",
+      "Every episode has one small lesson; nothing scary or violent.",
+      "The last shot says the lesson in one short line and teases the next episode."
+    ],
+    "episodeSeconds": 60,
+    "palette": {
+      "bg": "#1f2a17",
+      "accent": "#f4a261"
+    }
+  },
+  "topics": [
+    "Mano and Sheru meet for the first time in the courtyard and become friends.",
+    "A hot summer afternoon: they put a bowl of water on the rooftop for thirsty birds.",
+    "Getting ready for Eid: new clothes, sweets and sharing happiness with everyone.",
+    "Mano spills the milk and tells the truth instead of hiding it.",
+    "The first rain of the monsoon: making paper boats in the street.",
+    "They share their food with a hungry stray cat in the mohalla.",
+    "Sheru helps a lost little boy find his way back home.",
+    "Mano is afraid of the dark; Sheru helps her with a torch and a story.",
+    "Mango season: waiting patiently for the mangoes to ripen.",
+    "Lost in the bazaar: why it is important to remember your home address.",
+    "The electricity goes out: the whole family tells stories by lamplight.",
+    "Street cricket: winning and losing while staying friends.",
+    "Ramzan: helping prepare iftar with fruit chaat and pakoras.",
+    "Don't waste water: Mano learns to close the dripping tap.",
+    "One year of friendship: Mano and Sheru remember their best moments."
+  ],
+  "group": "kids",
+  "moreIdeas": [
+    "Kite season: Sheru keeps Mano away from sharp kite string on the rooftop (safety first).",
+    "Cleaning day: they help tidy the courtyard and put rubbish in the bin.",
+    "A train journey to Nani's house in the village.",
+    "Sheru gets a new ball and learns to share it with all the street children.",
+    "Planting a little neem tree and caring for it every day.",
+    "Mano's birthday: a small celebration that makes everyone happy.",
+    "Sheru stays quiet while Dada Jaan is sleeping: respecting elders.",
+    "The new neighbour's dog: from jealousy to friendship.",
+    "Mano hides in the school bag, but learns that school is for children and waits at home.",
+    "A sparrow's nest on the veranda: they learn not to disturb it.",
+    "Sheru is scared of the injection at the vet, and Mano holds his paw until he is brave.",
+    "Mano visits a bookshop and discovers how much fun reading is.",
+    "The shopkeeper gives Ammi too much change, and Mano and Sheru help return it honestly.",
+    "Mano and Sheru remind Dadi Amma to take her medicine on time: helping elders.",
+    "A trip to the zoo: they learn never to tease or feed the animals."
+  ]
+}

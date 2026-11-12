@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6.1-sol",
+  "why": "Owner's request: kids cartoon with a cat and a dog (English). Cute animal friendship stories are evergreen for kids.",
+  "series": {
+    "id": "mishi-and-bruno",
+    "name": "Mishi & Bruno",
+    "language": "en",
+    "audience": "kids",
+    "madeForKids": true,
+    "style": "3D animated family film look, cosy colourful house and sunny garden, soft warm lighting, rounded friendly shapes, rich colours, vertical 9:16 frame",
+    "negative": "text, letters, words, watermark, logo, scary, horror, violence, blood, extra legs, deformed face, blurry",
+    "characters": [
+      {
+        "id": "mishi",
+        "name": "Mishi",
+        "look": "Mishi, a small fluffy grey kitten with big green eyes, a pink nose and a little red bow on one ear"
+      },
+      {
+        "id": "bruno",
+        "name": "Bruno",
+        "look": "Bruno, a chubby golden-brown puppy with floppy ears, a big black nose and a blue collar with a bone-shaped tag"
+      }
+    ],
+    "voice": {
+      "provider": "recorded",
+      "edgeVoice": "en-US-AnaNeural"
+    },
+    "rules": [
+      "Mishi is clever and careful; Bruno is brave, silly and big-hearted. They are best friends.",
+      "Every episode is a small adventure at home, in the garden or the park, with one gentle lesson.",
+      "Nothing scary or violent. Problems are small and they solve them together.",
+      "The last shot says the lesson in one short line and teases the next adventure."
+    ],
+    "episodeSeconds": 60,
+    "palette": {
+      "bg": "#16213e",
+      "accent": "#ff9f68"
+    }
+  },
+  "topics": [
+    "Bruno spins round and round trying to catch his own tail; Mishi teaches him to slow down and be patient.",
+    "A thunderstorm night: Mishi is scared of the loud thunder and Bruno stays beside her with a blanket fort.",
+    "They find a baby bird that fell from its nest and get a grown-up to help put it back safely.",
+    "Bruno breaks a flower pot while playing and learns to say sorry and help fix it.",
+    "Mishi's first bath: she hates water, but Bruno makes it fun with bubbles.",
+    "Both want the one sunny spot by the window; they learn to share it.",
+    "The mystery of the missing socks: detective Mishi discovers Bruno has been hiding them in his bed.",
+    "A ball rolls under the sofa; Bruno is too big, so small Mishi saves the day. Being small is a superpower.",
+    "Kite day in the park: their kite gets stuck in a tree and they find a clever, safe way to get it back.",
+    "They plan a birthday surprise for their human friend Sara.",
+    "Snow day: the first time Mishi and Bruno see snow.",
+    "The noisy vacuum cleaner 'monster' turns out to be harmless.",
+    "A trip to the vet: Mishi is nervous and Bruno shows her how to be brave.",
+    "Bruno helps an old slow tortoise cross the garden path.",
+    "Best Friends Day: Mishi and Bruno remember all their favourite adventures."
+  ],
+  "group": "kids",
+  "moreIdeas": [
+    "Bruno's first day at puppy school: he is nervous, but makes a new friend.",
+    "A rainy-day indoor treasure hunt with clues around the house.",
+    "Bruno feels jealous of Mishi's new toy mouse until they invent a game together.",
+    "Bruno tries to climb a tree like Mishi; he learns everyone has different talents.",
+    "Mishi helps a shy hedgehog in the garden make friends.",
+    "Bruno learns to wait his turn at the water bowl.",
+    "They plant seeds in the garden and learn to wait for them to grow.",
+    "Their ball flies into the neighbour's garden, and they learn to ask politely to get it back.",
+    "Mishi teaches Bruno to tidy up his toys before bedtime.",
+    "A clear night on the roof: counting stars and making wishes together.",
+    "Bruno is nervous about his first swim at the lake, and Sara holds him until he feels brave.",
+    "Mishi learns to say please and thank you to the birds who share the garden.",
+    "Picnic day: ants carry away crumbs, and Mishi and Bruno learn to share with nature.",
+    "Bruno loses a wobbly puppy tooth and learns that growing up is nothing to fear.",
+    "Mishi and Bruno help clean up the park and learn to look after the Earth."
+  ]
+}

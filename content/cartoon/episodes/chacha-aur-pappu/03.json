@@ -1,0 +1,134 @@
+{
+  "number": 3,
+  "topic": "Chacha Jee joins Pappu's online class and forgets the camera is on.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:48:44.212Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Chacha Jee Ka Camera On Tha!",
+    "shots": [
+      {
+        "id": "7cwsug",
+        "narration": "چچا کلاس میں آئے، مگر کیمرہ بند کرنا بھول گئے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Bright Pakistani living room, vertical 9:16, warm 3D animated comedy film look. An open laptop has a glowing green webcam light; its screen faces away. No visible text or lettering.",
+        "action": "Chacha settles confidently into the chair directly in front of the laptop.",
+        "camera": "push-in",
+        "mood": "Chacha beams proudly while Pappu watches with raised eyebrows."
+      },
+      {
+        "id": "akrkzb",
+        "narration": "پپو بولا، چچا، بس میرا سبق سن لیجیے۔",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Beside the laptop table in the sunny living room, vertical 9:16, bright 3D animation. No visible text or lettering.",
+        "action": "Pappu offers Chacha an open notebook with blank pages.",
+        "camera": "pan-right",
+        "mood": "Pappu wears a patient smile; Chacha sits with his chin lifted."
+      },
+      {
+        "id": "wz4wdx",
+        "narration": "چچا بولے، پہلے استاد کے سامنے شخصیت تو بناؤں!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Living room laptop table, vertical 9:16, warm sunlight across Chacha's grey waistcoat. No visible text or lettering.",
+        "action": "Chacha straightens his grey karakul cap in front of the laptop.",
+        "camera": "low-angle",
+        "mood": "Chacha looks grand and self-assured; Pappu presses his lips into a restrained sm"
+      },
+      {
+        "id": "eya6zd",
+        "narration": "پھر مونچھوں کی ایسی تیاری ہوئی، جیسے شادی ہو!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Close view beside the laptop webcam with its green light illuminated, vertical 9:16, polished 3D cartoon look. No visible text or lettering.",
+        "action": "Chacha carefully combs his big black moustache with a tiny comb.",
+        "camera": "push-in",
+        "mood": "His eyes narrow with exaggerated concentration."
+      },
+      {
+        "id": "0xyd4y",
+        "narration": "چچا نے سمجھا، کوئی دیکھ ہی نہیں رہا!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Sunny living room, laptop open on the table, vertical 9:16. No visible text or lettering.",
+        "action": "Chacha flexes both arms toward the laptop.",
+        "camera": "pull-out",
+        "mood": "Chacha grins triumphantly while Pappu stares wide-eyed at the glowing webcam lig"
+      },
+      {
+        "id": "ul5g4j",
+        "narration": "پپو بولا، چچا، کیمرہ تو چل رہا ہے!",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Tight view of the laptop's upper edge and glowing green webcam light, vertical 9:16. No visible text or lettering.",
+        "action": "Pappu points directly at the glowing webcam light.",
+        "camera": "static",
+        "mood": "Pappu looks gently insistent; Chacha's proud grin turns stiff."
+      },
+      {
+        "id": "z0000b",
+        "narration": "چچا بولے، یہ تو اعتماد کی مشق تھی!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Living room table with Chachi standing beside it, vertical 9:16, warm 3D animation. No visible text or lettering.",
+        "action": "Chacha hurriedly lowers his flexed arms into his lap.",
+        "camera": "pan-left",
+        "mood": "Chacha forces a dignified smile; Chachi raises one knowing eyebrow."
+      },
+      {
+        "id": "foeauu",
+        "narration": "چچی بولیں، اب ذرا کام کی مشق بھی ہو!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Living room laptop table, vertical 9:16, with space beside the computer. No visible text or lettering.",
+        "action": "Chachi places a basin of dirty plates directly in front of Chacha.",
+        "camera": "push-in",
+        "mood": "Chachi smiles sweetly; Chacha stares at the plates with rounded eyes."
+      },
+      {
+        "id": "la2g6m",
+        "narration": "آج برتن چمکائیں، کل آپ کی ورزش کی کلاس ہے!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Wide vertical 9:16 living room view, laptop safely apart from the washing basin. Chachi holds small plain dumbbells beside a rolled exercise mat. No visible text or lettering.",
+        "action": "Chacha scrubs a plate in the basin.",
+        "camera": "pull-out",
+        "mood": "Chacha wears a sheepish smile; Pappu grins and Chachi stands triumphantly beside"
+      }
+    ],
+    "endHook": "Kal Chachi Jaan lagayengi Chacha Jee ki exercise class!",
+    "createdAt": "2026-11-12T19:48:44.211Z",
+    "description": "چچا جی پپو کی آن لائن کلاس میں مدد کرنے بیٹھے، مگر کیمرہ بند کرنا بھول گئے۔ مونچھیں سنوارتے سنوارتے ایسی کلاس لگی کہ چچی جان پھر جیت گئیں!",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu cartoon",
+      "Pakistani comedy",
+      "online class",
+      "family comedy",
+      "YouTube Shorts"
+    ]
+  }
+}

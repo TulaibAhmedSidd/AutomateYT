@@ -1,0 +1,132 @@
+{
+  "number": 17,
+  "topic": "Pappu teaches Chacha Jee to make a short video, and it goes viral for the wrong reason.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:49:59.700Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Chacha Jee Ki Viral Safai!",
+    "shots": [
+      {
+        "id": "g8lztu",
+        "narration": "چچا کی پہلی ویڈیو چلی، مگر ہیرو بنا جھاڑو!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Bright Pakistani living room, sunny yellow walls, vertical 9:16, polished 3D animated comedy look, no text or lettering.",
+        "action": "Chacha confidently poses with a straw broom held like a film award.",
+        "camera": "push-in",
+        "mood": "Puffed chest, proud grin, comically glamorous sunlight."
+      },
+      {
+        "id": "zq1i9b",
+        "narration": "پپو بولا، بس یہ گول بٹن دبائیں، ویڈیو شروع!",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Same living room beside a small wooden table, phone screen showing only a large red circle, no text or lettering, vertical 9:16.",
+        "action": "Pappu points to the phone's red recording button while Chacha watches.",
+        "camera": "static",
+        "mood": "Patient young teacher, overly confident uncle, warm sunny colours."
+      },
+      {
+        "id": "p4nk0b",
+        "narration": "چچا بولے، اداکاری تو میرے بائیں ہاتھ کا کھیل!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Living room with a phone mounted vertically on a plain tripod, no text or lettering, bright 3D animation, vertical 9:16.",
+        "action": "Chacha strikes a grand moustache-twirling pose in front of the phone.",
+        "camera": "low-angle",
+        "mood": "Raised eyebrows, theatrical confidence, Pappu's patient smile."
+      },
+      {
+        "id": "ha9evs",
+        "narration": "چاچی آئیں، پہلے کمرہ صاف کریں، پھر ہیرو بنیں!",
+        "characters": [
+          "chachi",
+          "chacha"
+        ],
+        "scene": "Same living room with scattered crumbs on the tiled floor and the recording phone in the foreground, no text, vertical 9:16.",
+        "action": "Chachi hands Chacha the straw broom.",
+        "camera": "pan-right",
+        "mood": "Chachi's firm smile, Chacha's suddenly drooping moustache."
+      },
+      {
+        "id": "z4jbvr",
+        "narration": "چچا نے صفائی کو بھی فلمی منظر بنا ڈالا!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Sunlit living room floor with crumbs, recording phone visible at the frame edge, no text or lettering, vertical 9:16.",
+        "action": "Chacha sweeps the crumbs with an exaggerated dancing flourish.",
+        "camera": "pull-out",
+        "mood": "Energetic slapstick, billowing waistcoat, delighted theatrical expression."
+      },
+      {
+        "id": "vphj0q",
+        "narration": "پپو ہنسا، چچا، کیمرا تو ابھی تک چل رہا تھا!",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Beside the tripod in the same living room, phone showing a plain red recording circle without words or numbers, vertical 9:16.",
+        "action": "Pappu points at the still-recording phone beside a frozen, broom-holding Chacha.",
+        "camera": "push-in",
+        "mood": "Pappu's amused smile, Chacha's wide-eyed surprise."
+      },
+      {
+        "id": "h1t8aw",
+        "narration": "ویڈیو لگائی، تو دل والے نشان برسنے لگے!",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Living room sofa, close view of a phone displaying Chacha's broom dance surrounded by numerous heart icons, no words or numbers, vertical 9:16.",
+        "action": "Pappu holds the phone up for Chacha to see.",
+        "camera": "static",
+        "mood": "Pappu's delighted grin, Chacha's returning celebrity swagger."
+      },
+      {
+        "id": "1mc5zm",
+        "narration": "چاچی بولیں، اداکاری نہیں، آپ کی صفائی مشہور ہوئی!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same living room, phone screen visibly displaying the broom dance with heart icons only, clean tiled floor, vertical 9:16.",
+        "action": "Chachi points at the broom in Chacha's hands.",
+        "camera": "push-in",
+        "mood": "Chachi's victorious knowing smile, Chacha's deflated pride, Pappu's suppressed l"
+      },
+      {
+        "id": "vxs46j",
+        "narration": "مشہور صفائی والے، اب کپڑے دھوئیں؛ اگلی ویڈیو تیار ہے!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Sunny laundry corner adjoining the living room, plain washing machine without labels, Pappu beside the phone tripod, vertical 9:16.",
+        "action": "Chachi places an overflowing laundry basket into Chacha's arms.",
+        "camera": "pull-out",
+        "mood": "Chachi's triumphant grin, Chacha's stunned face above the laundry, Pappu's eager"
+      }
+    ],
+    "endHook": "Agli video mein Chacha Jee ka washing machine se muqabla!",
+    "createdAt": "2026-11-12T19:49:59.699Z",
+    "description": "پپو نے چچا جی کو مختصر ویڈیو بنانا سکھائی، مگر مشہور کچھ اور ہی ہوگیا۔ چچا جی کی اداکاری اپنی جگہ، چاچی جان نے اصل کام نکلوا لیا!",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu cartoon",
+      "Pakistani comedy",
+      "family comedy",
+      "YouTube Shorts",
+      "3D animation"
+    ]
+  }
+}

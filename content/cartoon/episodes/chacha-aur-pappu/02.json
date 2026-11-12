@@ -1,0 +1,133 @@
+{
+  "number": 2,
+  "topic": "Load-shedding: Chacha Jee tries to fix the UPS himself and becomes the hero of the street, almost.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:48:48.598Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Chacha Jee Ka UPS: Mohallay Ke Hero, Taqreeban!",
+    "shots": [
+      {
+        "id": "rufdv4",
+        "narration": "چچا بولے، آج پورا محلہ مجھے دعائیں دے گا!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Vertical 9:16, bright Pakistani house entrance opening onto an empty sunny street, 3D animated comedy film look. An enclosed UPS and a stationary pedestal fan stand beside the doorway. No visible text or markings.",
+        "action": "Chacha raises a triumphant fist beside the silent fan while Pappu watches with raised eyebrows.",
+        "camera": "push-in",
+        "mood": "Warm golden sunlight, exaggerated confidence, playful anticipation."
+      },
+      {
+        "id": "hu9r0w",
+        "narration": "بجلی گئی، اور یو پی ایس بھی خاموش!",
+        "characters": [
+          "pappu"
+        ],
+        "scene": "Same sunny entrance, enclosed UPS with a dark indicator and pedestal fan with motionless blades, no exposed wires or readable markings.",
+        "action": "Pappu fans his sweaty face with his hand.",
+        "camera": "static",
+        "mood": "Bright summer heat, flushed cheeks, comic discomfort."
+      },
+      {
+        "id": "o53vm4",
+        "narration": "چچا نے مرمت شروع کی، کپڑے سے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same entrance, closed UPS casing beside the stationary fan, warm Pakistani home interior behind them, no text.",
+        "action": "Chacha proudly polishes the closed UPS casing with a yellow cloth.",
+        "camera": "low-angle",
+        "mood": "Grand heroic posture contrasted with an ordinary cleaning cloth."
+      },
+      {
+        "id": "2m48bw",
+        "narration": "پپو بولا، پہلے یہ بٹن تو دبا لیں!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Close view of the closed UPS at the house entrance, one large unmarked external power button clearly visible, no exposed components.",
+        "action": "Pappu points patiently at the external power button.",
+        "camera": "push-in",
+        "mood": "Patient little smile, Chacha's stubbornly confident expression."
+      },
+      {
+        "id": "bhn6te",
+        "narration": "چچا بولے، یہی تو میری اگلی چال تھی!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same house entrance, enclosed UPS beside the pedestal fan, no lettering or symbols.",
+        "action": "Chacha presses the UPS external power button with a theatrical flourish.",
+        "camera": "static",
+        "mood": "Raised moustache, puffed chest, Pappu's knowing smile."
+      },
+      {
+        "id": "29gfxk",
+        "narration": "پنکھا چلا، چچا محلے کے ہیرو بن گئے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "View from the sunny empty street toward the entrance, pedestal fan spinning beside the powered UPS, Chacha's waistcoat fluttering gently, no signs or text.",
+        "action": "Chacha waves grandly toward the empty street.",
+        "camera": "pull-out",
+        "mood": "Mock victory parade, warm sunlight, delighted self-importance."
+      },
+      {
+        "id": "lh3x8t",
+        "narration": "بس، بیٹری کی ہمت اتنی ہی تھی!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same entrance moments later, UPS indicator dark again, pedestal fan completely stopped, Chacha's waistcoat hanging still.",
+        "action": "Chacha slowly lowers his triumphant waving hand.",
+        "camera": "push-in",
+        "mood": "Sudden comic silence, frozen smile, Pappu's sympathetic expression."
+      },
+      {
+        "id": "667ujs",
+        "narration": "چاچی بولیں، یہ والا کبھی بند نہیں ہوتا!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Same bright entrance, silent electrical fan and closed UPS in the background, Chachi holding a colourful woven hand fan without lettering.",
+        "action": "Chachi places the woven hand fan into Chacha's open hand.",
+        "camera": "pan-right",
+        "mood": "Chachi's victorious sweet smile, Chacha's wide-eyed realization."
+      },
+      {
+        "id": "fgx7uc",
+        "narration": "ہیرو اب پنکھا جھلیں گے، اگلی بار فریج کی باری!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Bright sitting area just inside the same entrance, Chachi reclining comfortably in a cane chair, Pappu seated nearby, a plain closed refrigerator visible in the adjoining kitchen, no text or branding.",
+        "action": "Chacha dutifully fans Chachi with the woven hand fan.",
+        "camera": "pull-out",
+        "mood": "Chachi comfortably triumphant, Chacha maintaining heroic dignity, Pappu grinning"
+      }
+    ],
+    "endHook": "Agli baar Chacha Jee fridge ko thanda karna sikhaenge!",
+    "createdAt": "2026-11-12T19:48:48.598Z",
+    "description": "بجلی گئی تو چچا جی یو پی ایس ٹھیک کرنے نکل پڑے! محلے کے ہیرو بنتے بنتے، چاچی جان نے انہیں بالکل نئی ڈیوٹی دے دی۔",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Load Shedding",
+      "UPS",
+      "Urdu Comedy",
+      "Pakistani Cartoon",
+      "YouTube Shorts"
+    ]
+  }
+}

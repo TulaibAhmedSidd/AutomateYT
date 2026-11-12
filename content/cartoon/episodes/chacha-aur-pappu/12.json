@@ -1,0 +1,135 @@
+{
+  "number": 12,
+  "topic": "Eid: Chacha Jee tries to keep track of everyone's Eidi.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:49:22.033Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Eid Ka Hisaab, Chacha Jee Ke Naam!",
+    "shots": [
+      {
+        "id": "x91ys9",
+        "narration": "عیدی سب کی تھی، مگر چاچا کی کٹوری کیوں بھر رہی تھی؟",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Bright Pakistani living room decorated with plain festive bunting, three bowls in green, maroon and grey on a low table; vertical 9:16, warm 3D animated comedy look, no text or markings.",
+        "action": "Chacha protectively hugs the grey bowl filled with smooth unmarked gold-colored coins.",
+        "camera": "push-in",
+        "mood": "Raised eyebrows, enormous self-satisfied smile, playful mystery."
+      },
+      {
+        "id": "5zoqhb",
+        "narration": "چاچا بولے، سب کی عیدی کا حساب میں رکھوں گا!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Same sunny living room, green bowl before Pappu, maroon bowl before Chachi, empty grey bowl before Chacha; vertical 9:16, no text.",
+        "action": "Chacha spreads his arms over the three bowls like a confident accountant.",
+        "camera": "pull-out",
+        "mood": "Chacha looks authoritative; Pappu watches patiently; Chachi raises one eyebrow."
+      },
+      {
+        "id": "13b5t7",
+        "narration": "پپو نے اپنی عیدی سبز کٹوری میں رکھ دی۔",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Low table in the festive Pakistani living room, green and grey bowls clearly separated; vertical 9:16, all coins smooth and unmarked.",
+        "action": "Pappu empties a handful of gold-colored coins into the green bowl.",
+        "camera": "static",
+        "mood": "Pappu smiles trustingly while Chacha watches with exaggerated concentration."
+      },
+      {
+        "id": "1uy1a4",
+        "narration": "چاچی کی عیدی بھی الگ، بالکل پکا حساب!",
+        "characters": [
+          "chachi",
+          "chacha"
+        ],
+        "scene": "Same low table with maroon bowl beside the filled green bowl and empty grey bowl; vertical 9:16, bright warm lighting, no text.",
+        "action": "Chachi drops her gold-colored coins into the maroon bowl.",
+        "camera": "pan-right",
+        "mood": "Chachi looks quietly observant; Chacha beams with confidence."
+      },
+      {
+        "id": "qv1fw4",
+        "narration": "پھر چاچا نے پپو کی عیدی سے فیس نکالی۔",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Close view of the green and grey bowls on the living room table; vertical 9:16, smooth unmarked coins, no writing.",
+        "action": "Chacha transfers a small stack of coins from the green bowl into his grey bowl.",
+        "camera": "push-in",
+        "mood": "Chacha wears a businesslike grin; Pappu gives him a patient sideways look."
+      },
+      {
+        "id": "b6e6zl",
+        "narration": "اور چاچی کے حساب کی بھی فیس رکھ لی!",
+        "characters": [
+          "chacha",
+          "chachi"
+        ],
+        "scene": "Same table with the maroon bowl and increasingly full grey bowl prominent; vertical 9:16, warm 3D cartoon lighting, no text.",
+        "action": "Chacha transfers a second stack of coins from the maroon bowl into the grey bowl.",
+        "camera": "low-angle",
+        "mood": "Chacha looks grandly pleased; Chachi folds her lips into a knowing smile."
+      },
+      {
+        "id": "scpkuh",
+        "narration": "چاچا بولے، دیکھا، حساب رکھنے میں بھی کمائی ہے!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Sunny living room with all three colored bowls on the low table; vertical 9:16, plain festive decorations, no text.",
+        "action": "Chacha proudly presents his full grey bowl to Chachi.",
+        "camera": "orbit",
+        "mood": "Chacha grins triumphantly; Pappu suppresses a smile; Chachi looks calmly decisiv"
+      },
+      {
+        "id": "50hhcl",
+        "narration": "چاچی بولیں، یہ پپو کی عیدی، تمہارا انعام ابھی آیا!",
+        "characters": [
+          "chachi",
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Same living room table, green bowl directly beneath the tilted grey bowl; vertical 9:16, smooth unmarked coins, no text.",
+        "action": "Chachi pours every coin from Chacha's grey bowl into Pappu's green bowl.",
+        "camera": "push-in",
+        "mood": "Chachi smiles victoriously; Pappu lights up; Chacha's proud grin freezes."
+      },
+      {
+        "id": "ig0hae",
+        "narration": "انعام میں برتن ملے، اب چاچا دھلائی کا شارٹ کٹ ڈھونڈیں گے!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Bright Pakistani kitchen with a sink full of plain dishes, Chacha at the counter and Pappu holding his green coin bowl in the doorway; vertical 9:16, no text.",
+        "action": "Chachi places a dishwashing sponge into Chacha's open hand.",
+        "camera": "pull-out",
+        "mood": "Chachi wears a winning smile; Pappu looks amused; Chacha stares wide-eyed at his"
+      }
+    ],
+    "endHook": "Agli baar: Chacha Jee ka bartan dhone ka shortcut!",
+    "createdAt": "2026-11-12T19:49:22.032Z",
+    "description": "چاچا جی نے سب کی عیدی کا حساب اپنے ذمے لے لیا، مگر اپنی فیس بھی رکھنے لگے۔ پھر چاچی جان نے ایسا حساب کیا کہ چاچا کے حصے کچھ اور ہی آگیا!",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Eid",
+      "Eidi",
+      "Urdu Cartoon",
+      "Pakistani Family Comedy",
+      "YouTube Shorts"
+    ]
+  }
+}

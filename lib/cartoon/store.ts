@@ -43,6 +43,8 @@ export type EpisodeStatus = {
 
 export type EpisodeSummary = {
   id: string;
+  /** Episode number for library episodes (from the id, e.g. -e07). */
+  number?: number;
   title: string;
   seriesId: string;
   createdAt: string;
@@ -92,7 +94,8 @@ export function listSeries(): CartoonSeries[] {
     const file = path.join(SERIES_ROOT, preset.id, 'series.json');
     if (!fs.existsSync(file)) writeJson(file, preset);
   }
-  const order = new Map(SERIES_PRESETS.map((p, i) => [p.id, i]));
+  importLibrary();
+  const order = new Map([...readLibrary().map((l) => l.series.id), ...SERIES_PRESETS.map((p) => p.id)].map((id, i) => [id, i]));
   return fs
     .readdirSync(SERIES_ROOT, { withFileTypes: true })
     .filter((d) => d.isDirectory() && ID.test(d.name))
@@ -100,6 +103,63 @@ export function listSeries(): CartoonSeries[] {
     .filter((s): s is CartoonSeries => Boolean(s))
     .map((s) => sanitizeSeries(s))
     .sort((a, b) => (order.get(a.id) ?? 99) - (order.get(b.id) ?? 99) || a.name.localeCompare(b.name));
+}
+
+// ---------- Content library (committed in content/cartoon, shared by every PC) ----------
+
+const LIBRARY = path.join(process.cwd(), 'content', 'cartoon');
+
+/** A series from the content library, with its planned episode ideas. */
+export type LibrarySeries = { series: CartoonSeries; group: string; why: string; model: string; topics: string[] };
+
+/** Reads content/cartoon/series/*.json (series bible + episode ideas). */
+export function readLibrary(): LibrarySeries[] {
+  const dir = path.join(LIBRARY, 'series');
+  if (!fs.existsSync(dir)) return [];
+  const groups = ['islamic', 'kids', 'grown-ups', 'trending', 'earning'];
+  return fs
+    .readdirSync(dir)
+    .filter((f) => f.endsWith('.json'))
+    .map((f) => readJson<{ series: unknown; group?: string; why?: string; model?: string; topics?: unknown[] }>(path.join(dir, f)))
+    .filter((x): x is NonNullable<typeof x> => Boolean(x?.series))
+    .map((x) => ({
+      series: sanitizeSeries(x.series),
+      group: String(x.group || 'other'),
+      why: String(x.why || ''),
+      model: String(x.model || 'gpt-6.1-sol'),
+      topics: (x.topics || []).map(String),
+    }))
+    .sort((a, b) => groups.indexOf(a.group) - groups.indexOf(b.group) || a.series.name.localeCompare(b.series.name));
+}
+
+/** Episode id of library episode number n, e.g. mishi-and-bruno-e07. */
+export function libraryEpisodeId(seriesId: string, n: number) {
+  return `${seriesId}-e${String(n).padStart(2, '0')}`;
+}
+
+/**
+ * Copies library series and written episodes into storage the first time they are seen. Never overwrites, so the
+ * owner's edits, recordings and videos are safe. Library episodes get old createdAt dates, in episode order.
+ */
+function importLibrary() {
+  for (const lib of readLibrary()) {
+    const file = path.join(SERIES_ROOT, lib.series.id, 'series.json');
+    if (!fs.existsSync(file)) writeJson(file, lib.series);
+    const epDir = path.join(LIBRARY, 'episodes', lib.series.id);
+    if (!fs.existsSync(epDir)) continue;
+    for (const f of fs.readdirSync(epDir)) {
+      const m = /^(\d{2})\.json$/.exec(f);
+      if (!m) continue;
+      const n = Number(m[1]);
+      const id = libraryEpisodeId(lib.series.id, n);
+      const target = path.join(EPISODES_ROOT, id, 'episode.json');
+      if (fs.existsSync(target)) continue;
+      const data = readJson<{ episode?: unknown }>(path.join(epDir, f));
+      if (!data?.episode) continue;
+      const ep = { ...sanitizeEpisode(data.episode, lib.series.id), id, createdAt: new Date(Date.UTC(2026, 0, 1, 0, n)).toISOString() };
+      writeJson(target, ep);
+    }
+  }
 }
 
 /** One series, or null. */
@@ -175,6 +235,7 @@ export function getEpisode(id: string): CartoonEpisode | null {
 
 /** Newest first, with how many lines are recorded. */
 export function listEpisodes(): EpisodeSummary[] {
+  importLibrary();
   if (!fs.existsSync(EPISODES_ROOT)) return [];
   return fs
     .readdirSync(EPISODES_ROOT, { withFileTypes: true })
@@ -183,6 +244,7 @@ export function listEpisodes(): EpisodeSummary[] {
     .filter((e): e is CartoonEpisode => Boolean(e))
     .map((e) => ({
       id: e.id,
+      number: Number(/-e(\d{2})$/.exec(e.id)?.[1]) || undefined,
       title: e.title,
       seriesId: e.seriesId,
       createdAt: e.createdAt,

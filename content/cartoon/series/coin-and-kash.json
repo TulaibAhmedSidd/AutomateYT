@@ -1,0 +1,71 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "earning",
+  "why": "Earning: personal finance is widely reported as one of the highest-paying YouTube topics per view (advertisers pay more). Animated money basics are friendly, evergreen and useful.",
+  "series": {
+    "id": "coin-and-kash",
+    "name": "Coin & Kash",
+    "language": "en",
+    "audience": "general",
+    "madeForKids": false,
+    "style": "3D animated explainer look, clean modern city flat and cafe settings, floating coins, jars and simple charts, bright friendly colours, vertical 9:16 frame",
+    "negative": "text, letters, numbers on screen, watermark, logo, brand names, blurry",
+    "characters": [
+      {
+        "id": "kash",
+        "name": "Kash",
+        "look": "Kash, a friendly 25-year-old woman with short curly hair, round glasses, a mustard sweater and a small notebook"
+      },
+      {
+        "id": "coin",
+        "name": "Coin",
+        "look": "Coin, a shiny talking gold coin with tiny arms and legs and a big cheerful smile"
+      }
+    ],
+    "voice": {
+      "provider": "recorded",
+      "edgeVoice": "en-US-AndrewNeural"
+    },
+    "rules": [
+      "General money education only, never personal financial advice. Never recommend a specific stock, coin, fund or product, and never promise returns.",
+      "Use simple round example numbers and call them examples. Use only the facts and rules given in the episode idea.",
+      "Each episode, Coin teaches Kash one money idea with a tiny everyday story.",
+      "Friendly and practical, never preachy. Warn about scams whenever money promises sound too good.",
+      "End with one simple action the viewer can take today."
+    ],
+    "episodeSeconds": 45,
+    "palette": {
+      "bg": "#10251f",
+      "accent": "#f4c95d"
+    }
+  },
+  "topics": [
+    "The 50/30/20 budget: about 50% of take-home pay for needs, 30% for wants and 20% for savings, as a simple starting point.",
+    "Emergency fund: many experts suggest saving three to six months of living costs for surprises like a job loss or a broken phone.",
+    "Compound interest: your money earns money, and then that money earns money too. The earlier you start, the bigger the snowball (use a simple example).",
+    "Pay yourself first: move savings out on payday, before you spend.",
+    "Needs versus wants: how to tell the difference before you buy.",
+    "Credit cards: if you do not pay the full balance, interest is charged, and it can grow fast.",
+    "Inflation: why the same money buys less over time, and why savings left as cash slowly lose value.",
+    "The Rule of 72: divide 72 by a yearly growth rate to estimate how many years money takes to double (example: 72 / 8 = 9 years).",
+    "How to spot a scam: guaranteed high returns, pressure to act fast, and asking you to keep it secret.",
+    "Never share a one-time password (OTP) or PIN, not even with someone claiming to be from your bank.",
+    "Diversification: do not put all your eggs in one basket.",
+    "Impulse buying: the 24-hour rule, wait one day before buying anything you did not plan.",
+    "Track your spending for 30 days: the first step to knowing where your money goes.",
+    "Lifestyle creep: when income goes up, spending quietly goes up too.",
+    "Teaching kids about money: three jars, one to save, one to spend and one to share."
+  ],
+  "moreIdeas": [
+    "Small daily spending adds up: a small amount every day becomes a big amount in a year (simple example).",
+    "Good debt versus bad debt: borrowing to build skills or a home can help; borrowing for things that lose value quickly usually hurts.",
+    "Index funds explained simply: one fund that holds many companies at once, usually with low fees (education only, not advice).",
+    "Sinking funds: save a little each month for big planned costs like school fees, Eid or a new phone.",
+    "Earning more: building a skill that people pay for, like design, writing or coding.",
+    "Asking for a raise: research the normal pay for your job, show your results, and ask politely.",
+    "Insurance basics: paying a small amount to protect yourself from a very big loss.",
+    "Opportunity cost: every time you spend money, you give up something else you could have done with it.",
+    "Saving for a goal: divide the cost by the number of months to know how much to save each month (example).",
+    "Buy now, pay later traps: small instalments can hide fees and lead to overspending."
+  ]
+}

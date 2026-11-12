@@ -1,0 +1,76 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "grown-ups",
+  "why": "Grown-ups / family: desi comedy skits in Urdu. Animated comedy skits are one of the strongest Shorts formats, and everyday Pakistani humour is very shareable on WhatsApp and Facebook.",
+  "series": {
+    "id": "chacha-aur-pappu",
+    "name": "Chacha Jee aur Pappu",
+    "language": "ur",
+    "audience": "general",
+    "madeForKids": false,
+    "style": "3D animated comedy film look, bright Pakistani home, street, bazaar and wedding settings, expressive faces, warm sunny colours, vertical 9:16 frame",
+    "negative": "text, letters, watermark, logo, blood, violence, insulting stereotypes, blurry",
+    "characters": [
+      {
+        "id": "chacha",
+        "name": "Chacha Jee",
+        "look": "Chacha Jee, a round-bellied Pakistani uncle in his fifties with a big black moustache, a grey karakul cap, a white shalwar kameez and a grey waistcoat"
+      },
+      {
+        "id": "pappu",
+        "name": "Pappu",
+        "look": "Pappu, his clever 12-year-old nephew with spiky black hair, a green cricket t-shirt and jeans"
+      },
+      {
+        "id": "chachi",
+        "name": "Chachi Jaan",
+        "look": "Chachi Jaan, a sharp but kind Pakistani aunt in a maroon shalwar kameez with a printed dupatta over her shoulders"
+      }
+    ],
+    "voice": {
+      "provider": "recorded",
+      "edgeVoice": "ur-PK-AsadNeural"
+    },
+    "rules": [
+      "Family-friendly desi comedy. Laugh with the characters, never at any ethnicity, religion, region or group.",
+      "Chacha Jee is confident and always sure he knows best; Pappu is smart and patient; Chachi Jaan always wins in the end.",
+      "Each episode is one everyday situation that builds to a funny twist punchline in the last two shots.",
+      "Narration in natural spoken Urdu, in Urdu script. Short, punchy lines.",
+      "The last shot is the punchline, then a quick tease of the next situation."
+    ],
+    "episodeSeconds": 45,
+    "palette": {
+      "bg": "#2b1a0f",
+      "accent": "#f6bd60"
+    }
+  },
+  "topics": [
+    "Chacha Jee's new smartphone: his private voice note goes to the whole family WhatsApp group by mistake.",
+    "Load-shedding: Chacha Jee tries to fix the UPS himself and becomes the hero of the street, almost.",
+    "Chacha Jee joins Pappu's online class and forgets the camera is on.",
+    "The wedding dinner: Chacha Jee's master plan to be first in the biryani line.",
+    "Chacha Jee starts a diet, but the samosas have other plans.",
+    "Street cricket: Chacha Jee insists on bowling the last ball.",
+    "A long queue at the petrol pump, and Chacha Jee's genius shortcut.",
+    "Chacha Jee opens the electricity bill.",
+    "Guests are coming for a rishta: the battle over which biscuits to serve with tea.",
+    "Chacha Jee trusts the GPS completely and ends up in a village field.",
+    "Pappu's result day, and Chacha Jee's 'true' story about his own report card.",
+    "Eid: Chacha Jee tries to keep track of everyone's Eidi.",
+    "Bakra Eid: Chacha Jee goes to the cattle market to buy a goat, but the goat chooses him.",
+    "The summer war over the AC remote.",
+    "Chacha Jee's car horn gets stuck and will not stop.",
+    "The search for the perfect cup of chai.",
+    "Pappu teaches Chacha Jee to make a short video, and it goes viral for the wrong reason.",
+    "Chacha Jee's big entry at the wedding dance."
+  ],
+  "moreIdeas": [
+    "Rain, pakoras and a power cut, all at the same time.",
+    "Chacha Jee's new jogging routine, which lasts exactly one day.",
+    "Chachi Jaan, the bargaining champion, at the vegetable cart.",
+    "Chacha Jee assembles a new cupboard without reading the instructions.",
+    "The train journey and the famous food basket.",
+    "Chacha Jee's stories about his old motorcycle.",
+    "New year's resolution: Chacha Jee keeps it for two hours."
+  ]
+}

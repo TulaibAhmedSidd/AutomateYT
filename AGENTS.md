@@ -13,12 +13,14 @@ AutomateYT ("AutoVid Studio") is a local web app that makes faceless YouTube Sho
 - **Video formats** (`lib/video-formats.ts`):
   - Motion Graphics (live, `/motion`)
   - Image + Voiceover (live, `/studio`)
-  - Animated 3D Cartoon (being built, needs the home GPU)
+  - Animated 3D Cartoon (Phase 1 live with pictures at `/cartoon`; animated clips need the home GPU, Phase 2)
   - AI Cinematic (paid, not built)
 - **Two computers:**
   - Office PC has Intel graphics only. It runs everything except AI video.
   - Home PC has an NVIDIA GPU with 6–8 GB VRAM. It runs ComfyUI for the cartoon clips. Setup: `docs/ai/home-pc-setup.md`.
 - **Design specs:** `docs/superpowers/specs/`. **Plans:** `docs/superpowers/plans/`. **Progress:** newest folder in `progress/`.
+
+- **Cartoon content library:** 10 series in `content/cartoon/series/*.json` (bible + 15 episode ideas + `moreIdeas`), written scripts in `content/cartoon/episodes/<series>/<NN>.json`. Scripts are written only when the owner asks (they cost OpenAI credit on the Volt On Solar account, about 1.7 cents each with gpt-6.1-sol).
 
 ## 2. Read before you edit
 | You are touching | Read first |

@@ -28,6 +28,7 @@ AutomateYT is one Next.js app in the repo root. Next.js serves the dashboard and
 | `/formats`, `/formats/[id]` | Strategy card per video format (data in `lib/video-formats.ts`). |
 | `/research` | Reel research notes (`lib/research.ts`). |
 | `/motion` | **Motion Studio**: templates, AI scene writer, editor, live preview, render, renders list. |
+| `/cartoon` | **Cartoon Studio**: series cards with progress. `/cartoon/[seriesId]` lists every episode; `/cartoon/studio` records lines and renders. |
 | `/studio` (and `?tab=library`) | Image Studio: create image-slideshow videos, library. |
 | `/videos/[id]` | One Image Studio video: steps, retry, YouTube upload button. |
 | `/queue` | Old job table (polls `/api/jobs`). |

@@ -1,0 +1,135 @@
+{
+  "number": 11,
+  "topic": "Pappu's result day, and Chacha Jee's 'true' story about his own report card.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:49:23.973Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Pappu Ka Result Aur Chacha Ki Asli Report",
+    "shots": [
+      {
+        "id": "x45o2z",
+        "narration": "چچا بولے، میری رپورٹ دیکھو گے تو حیران رہ جاؤ گے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Bright Pakistani living room, warm sunshine, vertical 9:16, expressive 3D animated comedy film look, no visible text.",
+        "action": "Chacha proudly raises a worn sealed envelope above his head beside an attentive Pappu.",
+        "camera": "push-in",
+        "mood": "Chacha's puffed chest and enormous confident grin."
+      },
+      {
+        "id": "x726p0",
+        "narration": "پپو تو اپنا اچھا نتیجہ دکھانے آیا تھا۔",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Sunny living room beside a low wooden table, vertical 9:16, no visible text.",
+        "action": "Pappu presents his report decorated only with shiny gold stars.",
+        "camera": "static",
+        "mood": "Pappu's modest smile beside Chacha's competitive raised eyebrow."
+      },
+      {
+        "id": "147zsl",
+        "narration": "مگر چچا نے اپنی کامیابیوں کا قصہ چھیڑ دیا۔",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Bright living room sofa with patterned cushions, worn envelope on the table, vertical 9:16, no visible text.",
+        "action": "Chacha gestures grandly toward his own chest.",
+        "camera": "low-angle",
+        "mood": "Exaggerated self-importance and Pappu's patient half-smile."
+      },
+      {
+        "id": "otpnfp",
+        "narration": "کہنے لگے، استاد بھی میری رپورٹ سنبھال کر رکھتے تھے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Warm Pakistani living room, envelope centered on the low table, vertical 9:16, no visible text.",
+        "action": "Chacha lovingly pats the sealed envelope.",
+        "camera": "push-in",
+        "mood": "Chacha's dreamy proud expression and Pappu's curious eyes."
+      },
+      {
+        "id": "a0yzfh",
+        "narration": "پپو بولا، پھر آج ہمیں بھی دکھا دیں۔",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Low wooden table in the sunlit living room, vertical 9:16, no visible text.",
+        "action": "Pappu slides the envelope toward Chacha.",
+        "camera": "pan-right",
+        "mood": "Pappu's polite expectant smile and Chacha's suddenly stiff moustache."
+      },
+      {
+        "id": "ntxjxr",
+        "narration": "چچا بولے، پرانی چیزیں کھولنے سے خراب ہوجاتی ہیں!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Living room table with the worn envelope, vertical 9:16, no visible text.",
+        "action": "Chacha clamps both hands over the envelope.",
+        "camera": "static",
+        "mood": "Chacha's nervous grin and Pappu's gently skeptical raised eyebrow."
+      },
+      {
+        "id": "u4677j",
+        "narration": "چاچی بولیں، لائیں، میں بہت احتیاط سے کھولتی ہوں۔",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Bright living room around the low table, vertical 9:16, no visible text.",
+        "action": "Chachi pulls a folded report from the envelope beneath Chacha's hovering hands.",
+        "camera": "pan-left",
+        "mood": "Chachi's knowing smile and Chacha's wide-eyed alarm."
+      },
+      {
+        "id": "6r2jrk",
+        "narration": "اندر چچا کی رپورٹ تھی، لال دائروں سے بھری ہوئی!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Close view of the unfolded report in the sunny living room, report contains only rows of large red circles and an illustrated portrait of Chacha in one corner, no letters or numbers, vertical 9:16.",
+        "action": "Chachi displays the red-covered report beside Pappu's gold-star report.",
+        "camera": "push-in",
+        "mood": "Chachi's triumphant raised eyebrow, Pappu's restrained smile, Chacha's sheepish "
+      },
+      {
+        "id": "c0lshp",
+        "narration": "آج چچا کا ہوم ورک، کل اسکول میں حاضری ہوگی!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Living room table arranged as a study desk with blank paper, pencil, counting beads and an unmarked schoolbag, vertical 9:16, no visible text.",
+        "action": "Chachi places a pencil into seated Chacha's hand while Pappu sits beside him.",
+        "camera": "pull-out",
+        "mood": "Chachi's satisfied smile, Pappu's patient tutor expression, Chacha's comically r"
+      }
+    ],
+    "endHook": "Kal Chacha Jee ki school mein haazri hogi!",
+    "createdAt": "2026-11-12T19:49:23.972Z",
+    "description": "پپو کے نتیجے پر چچا جی نے اپنے شاندار نمبروں کی کہانی سنائی۔ مگر چاچی جان نے پرانی رپورٹ نکالی تو کہانی ہی بدل گئی! اب دیکھیے ہوم ورک کون کرے گا۔",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu Cartoon",
+      "Pakistani Comedy",
+      "Result Day",
+      "Family Comedy",
+      "YouTube Shorts"
+    ]
+  }
+}

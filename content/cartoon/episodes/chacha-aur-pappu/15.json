@@ -1,0 +1,132 @@
+{
+  "number": 15,
+  "topic": "Chacha Jee's car horn gets stuck and will not stop.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:49:53.038Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Chacha Jee Ka Horn Band Hi Nahi Hota!",
+    "shots": [
+      {
+        "id": "3ulcaw",
+        "narration": "ہارن ایسا بجا کہ چچا جی خود اچھل پڑے!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated Pakistani home driveway, plain unbranded car parked beside a washing bucket and coiled garden hose, no writing anywhere.",
+        "action": "Chacha jolts upright in the driver's seat as the steering wheel horn pad visibly trembles.",
+        "camera": "push-in",
+        "mood": "Wide startled eyes, bouncing moustache, warm sunny comedy."
+      },
+      {
+        "id": "llpm4y",
+        "narration": "چچا بولے، یہ تو میرے بائیں ہاتھ کا کھیل ہے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Vertical 9:16, view through the parked car's open passenger doorway, blank dashboard surfaces, sunny driveway beyond.",
+        "action": "Chacha confidently taps the trembling horn pad with his left hand.",
+        "camera": "low-angle",
+        "mood": "Puffed chest and smug grin beside Pappu's patient expression."
+      },
+      {
+        "id": "6y65f7",
+        "narration": "مگر ہارن نے چچا جی کی ایک نہ مانی!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Vertical 9:16, parked car interior with an unmarked steering wheel and open passenger door.",
+        "action": "Pappu covers his ears beside the still-trembling horn pad.",
+        "camera": "static",
+        "mood": "Pappu's scrunched face contrasts with Chacha's stubborn confidence."
+      },
+      {
+        "id": "9wyo63",
+        "narration": "پپو بولا، ذرا پیچھے ہو کر تو دیکھیں!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Vertical 9:16, side view into the parked car, driver's seat positioned unusually close to the steering wheel.",
+        "action": "Pappu points toward the empty space behind Chacha's seat.",
+        "camera": "pan-right",
+        "mood": "Patient raised eyebrows and a clear helpful gesture."
+      },
+      {
+        "id": "08qya3",
+        "narration": "چچا بولے، پہلے انجن بند کرکے دیکھتے ہیں!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Vertical 9:16, close view of the parked car's plain ignition and steering wheel, no logos or dashboard lettering.",
+        "action": "Chacha turns the ignition key while the horn pad continues trembling.",
+        "camera": "push-in",
+        "mood": "Determined squint and increasingly ruffled moustache."
+      },
+      {
+        "id": "vphhgz",
+        "narration": "چاچی آئیں تو چچا کی ساری ماہری غائب!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Vertical 9:16, sunny driveway beside the parked car's open driver doorway, washing bucket and coiled hose nearby.",
+        "action": "Chachi leans into the open driver doorway to inspect the steering wheel.",
+        "camera": "pull-out",
+        "mood": "Chachi's sharp inspecting gaze, Chacha's sheepish smile, Pappu's hopeful face."
+      },
+      {
+        "id": "niemgz",
+        "narration": "چچا بولے، خرابی ضرور گاڑی کے اندر ہے!",
+        "characters": [
+          "chacha",
+          "chachi"
+        ],
+        "scene": "Vertical 9:16, view through the open driver doorway, Chacha seated close against the steering wheel.",
+        "action": "Chacha points solemnly toward the car's dashboard.",
+        "camera": "static",
+        "mood": "Comically serious confidence against Chachi's knowing raised eyebrow."
+      },
+      {
+        "id": "bm7xxv",
+        "narration": "چاچی بولیں، خرابی نہیں، آپ کا پیٹ ہارن دبا رہا ہے!",
+        "characters": [
+          "chacha",
+          "chachi"
+        ],
+        "scene": "Vertical 9:16, clear side close-up inside the parked car, Chacha's round belly visibly pressing the central horn pad.",
+        "action": "Chachi points directly at Chacha's belly depressing the horn.",
+        "camera": "push-in",
+        "mood": "Chachi's victorious grin and Chacha's wide-eyed realization."
+      },
+      {
+        "id": "6s0amm",
+        "narration": "پیٹ پیچھے، ہارن خاموش؛ اب گاڑی کی دھلائی ہوگی!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Vertical 9:16, wide view through the open driver doorway, washing bucket and garden hose prominent beside Pappu.",
+        "action": "Chachi slides Chacha's seat backward, freeing the horn pad from his belly.",
+        "camera": "pull-out",
+        "mood": "Chachi beams triumphantly, Chacha looks sheepish, Pappu grins beside the waiting"
+      }
+    ],
+    "endHook": "Ab gaari dhulegi, ya Chacha Jee?",
+    "createdAt": "2026-11-12T19:49:53.037Z",
+    "description": "چچا جی کی گاڑی کا ہارن بجنے لگا تو پورا صحن گونج اٹھا! پپو کی سمجھ داری اور چاچی جان کی تیز نظر نے اصل مسئلہ پکڑ لیا۔",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu Cartoon",
+      "Pakistani Comedy",
+      "Family Comedy",
+      "YouTube Shorts",
+      "3D Animation"
+    ]
+  }
+}

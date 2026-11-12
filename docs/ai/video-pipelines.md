@@ -56,7 +56,16 @@ Files:
 
 It costs ElevenLabs + Leonardo + OpenAI credits. Retention is poor because there are too few, too slow pictures. Don't invest more here unless asked.
 
-## 3. Animated 3D Cartoon (being built) — `/cartoon`
+## 3. Animated 3D Cartoon (Phase 1 live) — `/cartoon`
+
+**Screens:** `/cartoon` = series cards with progress bars → `/cartoon/<seriesId>` = every episode (done / to record / no script yet, with a Write script button and cost) → `/cartoon/studio?series=&episode=` = record each line in your own voice, preview, render.
+
+**Content library** (`content/cartoon/`, committed): `series/<id>.json` = { series bible, group, why, model, topics (15 planned episodes), moreIdeas }; `episodes/<id>/<NN>.json` = a written script. `lib/cartoon/store.ts` imports both into `storage/cartoon` the first time it sees them (never overwrites). Library episode ids are `<seriesId>-eNN`. `node scripts/write-library.mjs [seriesId]` writes all missing scripts (costs credit; the app must be running).
+
+**Script model:** gpt-6.1-sol by default (best Urdu and stories in a 4-model test on 2026-11-13; ~700 in + ~1,580 out tokens, about 1.7 cents per episode). Prices and estimates: `lib/cartoon/models.ts`. Reasoning models (gpt-5+, gpt-6+) get `reasoning_effort` instead of temperature (`lib/llm-json.ts`).
+
+**Recording:** the browser records each line (MediaRecorder); `lib/cartoon/audio.ts` cleans it with FFmpeg: highpass 80 Hz, afftdn, loudnorm -16 LUFS, then silence trim at both ends (loudnorm must come before areverse or FFmpeg stalls on short clips).
+
 Design: `docs/superpowers/specs/2026-11-12-cartoon-design.md`. Summary:
 - **Series bible** (one per series): look and style prompt, characters (look text + one reference image), narrator voice, story rules, language.
 - **Episode** = 8–12 shots of about 5 s each. Each shot = narration (≤ 12 words) + scene + action + camera + characters.

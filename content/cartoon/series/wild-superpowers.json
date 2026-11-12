@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "kids",
+  "why": "Kids + families: real animal facts with a fun explorer. Animal facts are one of the most watched evergreen Shorts topics, and they teach.",
+  "series": {
+    "id": "wild-superpowers",
+    "name": "Wild Superpowers",
+    "language": "en",
+    "audience": "kids",
+    "madeForKids": true,
+    "style": "3D animated nature film look, bright natural colours, jungles, oceans, deserts and mountains, animals shown cute but true to life, sunny and exciting mood, vertical 9:16 frame",
+    "negative": "text, letters, words, watermark, logo, gore, blood, animals hurting each other, scary, blurry",
+    "characters": [
+      {
+        "id": "kiko",
+        "name": "Kiko",
+        "look": "Kiko, an energetic 9-year-old boy explorer with brown skin, a green safari hat, big binoculars and a khaki vest with many pockets"
+      },
+      {
+        "id": "pip",
+        "name": "Pip",
+        "look": "Pip, a tiny talking hummingbird with shimmering emerald-green feathers and a ruby-red throat"
+      }
+    ],
+    "voice": {
+      "provider": "recorded",
+      "edgeVoice": "en-US-AnaNeural"
+    },
+    "rules": [
+      "One animal per episode. Kiko and Pip discover its real superpower and two or three true facts about it.",
+      "Only true, well-known facts, using the numbers exactly as given in the episode idea. Never invent numbers.",
+      "No gore and no animals hurting each other; hunting is only hinted at.",
+      "Start with a 'Did you know?' style hook; end by asking viewers to guess the next animal."
+    ],
+    "episodeSeconds": 45,
+    "palette": {
+      "bg": "#0f2f2a",
+      "accent": "#7bdc65"
+    }
+  },
+  "topics": [
+    "Octopus: has three hearts and blue blood, and can change both colour and skin texture in an instant to hide.",
+    "Mantis shrimp: throws one of the fastest punches in the animal kingdom, fast enough to crack shells, and has far more colour-sensing cells in its eyes than humans.",
+    "Tardigrade (water bear): a tiny animal smaller than 1 mm that can survive freezing, boiling heat, drying out and even being sent into space.",
+    "Axolotl: a Mexican salamander that can regrow its legs, tail and even parts of its heart.",
+    "Peregrine falcon: the fastest animal on Earth, diving at over 300 km/h to catch prey in the air.",
+    "Electric eel: can make electric shocks of several hundred volts to stun fish and defend itself.",
+    "Hummingbird: the only bird that can fly backwards; its heart can beat over 1,000 times a minute.",
+    "Owl: can turn its head about 270 degrees, and its soft feathers let it fly almost silently.",
+    "Chameleon: its eyes move separately to look two ways at once, and its sticky tongue shoots out faster than you can blink.",
+    "Snow leopard: lives high in the mountains, including Pakistan's north; its thick tail helps it balance and keeps its face warm like a scarf.",
+    "Markhor: Pakistan's national animal, a wild goat with long spiral horns that climbs steep cliffs with ease.",
+    "Bat: many bats find food in total darkness using echolocation: they shout and listen to the echoes.",
+    "Dolphin: can sleep with half of its brain at a time, so one half stays alert and it can keep coming up to breathe.",
+    "Platypus: a mammal that lays eggs and can sense tiny electric signals from prey with its bill.",
+    "Indus river dolphin: lives in Pakistan's Indus river, is almost blind, and finds food using echolocation."
+  ],
+  "moreIdeas": [
+    "Cheetah: the fastest land animal, reaching around 100 km/h in short bursts; its long tail helps it steer.",
+    "Elephant: its trunk has tens of thousands of muscles, and it can sense rumbles through the ground with its feet.",
+    "Camel: its hump stores fat, not water, and a thirsty camel can drink over 100 litres of water in about 10 minutes.",
+    "Archerfish: shoots jets of water from its mouth to knock insects off leaves into the water.",
+    "Ant: some ants can carry objects many times heavier than their own body and work together in huge colonies.",
+    "Firefly: makes its own cold light (bioluminescence) to talk to other fireflies.",
+    "Giraffe: has the same number of neck bones as a human, just seven, but each one is huge.",
+    "Emperor penguin: the dads keep the egg warm on their feet under a belly fold through the freezing Antarctic winter.",
+    "Gecko: can walk up walls and on ceilings thanks to millions of tiny hairs on its toes.",
+    "Sea turtle: can find its way across whole oceans, and scientists think it uses Earth's magnetic field like a compass.",
+    "Woodpecker: hammers wood many times a second without getting a headache; its long tongue wraps around its skull like a seatbelt.",
+    "Arctic tern: flies from the Arctic to the Antarctic and back every year, the longest migration of any animal, around 70,000 km.",
+    "Pistol shrimp: snaps its claw so fast it makes a bubble that pops with a loud crack, loud enough to stun small fish.",
+    "Kangaroo: a newborn joey is about the size of a jelly bean and crawls into its mother's pouch to grow.",
+    "Mudskipper: a fish that walks on mud using its fins and can breathe through its skin; it lives on Pakistan's coast too."
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "number": 6,
+  "topic": "Street cricket: Chacha Jee insists on bowling the last ball.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:48:48.095Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Chacha Jee Ki Aakhri Ball!",
+    "shots": [
+      {
+        "id": "cnndm8",
+        "narration": "آخری گیند کراتے ہی چچا کو گھر کا کام کیسے ملا؟",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Bright Pakistani residential lane, plain wooden cricket stumps at the far end, warm sunny colours, 3D animated comedy film look, vertical 9:16, no visible text.",
+        "action": "Chacha takes the cricket ball from Pappu's open palm.",
+        "camera": "push-in",
+        "mood": "Chacha wears a triumphant grin; Pappu raises one doubtful eyebrow."
+      },
+      {
+        "id": "wiisll",
+        "narration": "پپو بولا، چچا، بس سیدھی گیند کرانی ہے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same sunny lane, clear view from the bowling spot to plain wooden stumps, vertical 9:16, no visible text.",
+        "action": "Pappu points directly toward the stumps.",
+        "camera": "pan-right",
+        "mood": "Pappu looks patient and precise; Chacha smiles with absolute confidence."
+      },
+      {
+        "id": "4r8dm9",
+        "narration": "چچا بولے، میری گیند تو ہوا سے باتیں کرتی ہے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Bowling end of the narrow Pakistani lane, pastel house walls and sunlit paving, vertical 9:16, no visible text.",
+        "action": "Chacha raises the ball above his head in a grand bowler's pose.",
+        "camera": "low-angle",
+        "mood": "Puffed chest, magnificent moustache, exaggerated sporting confidence."
+      },
+      {
+        "id": "j64dmq",
+        "narration": "اتنے میں چاچی دھلے کپڑوں کی ٹوکری لے آئیں۔",
+        "characters": [
+          "chachi"
+        ],
+        "scene": "House doorway beside the cricket stumps, low doorstep and an empty clothesline overhead, vertical 9:16, no visible text.",
+        "action": "Chachi places a basket of clean white laundry beside the stumps.",
+        "camera": "static",
+        "mood": "Chachi looks composed and busy in the warm afternoon sunshine."
+      },
+      {
+        "id": "8u9jra",
+        "narration": "پپو بولا، چچا، سامنے کپڑے ہیں، ذرا سنبھل کر!",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Lane viewed from beside the bowling spot, laundry basket clearly visible near the distant stumps, vertical 9:16, no visible text.",
+        "action": "Pappu holds an open warning palm toward Chacha.",
+        "camera": "push-in",
+        "mood": "Pappu's eyes widen; Chacha keeps a stubborn, reassuring grin."
+      },
+      {
+        "id": "kbj1l2",
+        "narration": "چچا بولے، فکر نہ کرو، نشانہ بالکل پکا ہے!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Sunny bowling end of the same lane, plain house walls framing the cricket pitch, vertical 9:16, no visible text.",
+        "action": "Chacha releases the dusty cricket ball with an extravagant bowling swing.",
+        "camera": "orbit",
+        "mood": "Wildly enthusiastic delivery, flaring waistcoat and fierce concentration."
+      },
+      {
+        "id": "2fe6p2",
+        "narration": "گیند وکٹ چھوڑ کر سیدھی صاف کپڑوں میں جا گری!",
+        "characters": [
+          "chachi"
+        ],
+        "scene": "Close view of the laundry basket beside untouched wooden stumps, Chachi standing immediately behind it, vertical 9:16, no visible text.",
+        "action": "The dusty ball lands on a clean white garment inside the basket.",
+        "camera": "static",
+        "mood": "A small puff of dust marks the white cloth; Chachi gives a sharp sideways look."
+      },
+      {
+        "id": "8sh0jo",
+        "narration": "چاچی بولیں، بہت خوب، اب کپڑے بھی آپ دھوئیں!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "House doorstep beside the street cricket pitch, laundry basket between Chachi and Chacha, vertical 9:16, no visible text.",
+        "action": "Chachi deposits the laundry basket into Chacha's arms.",
+        "camera": "pull-out",
+        "mood": "Chachi smiles decisively; Chacha's proud grin collapses; Pappu suppresses a gigg"
+      },
+      {
+        "id": "fzm89q",
+        "narration": "آخری گیند میری، اگلی باری آپ کی؛ کل مشین چلائیے!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Bright household laundry corner just inside the doorway, plain washing machine with blank controls, Chacha holding the laundry basket beside it, vertical 9:16, no visible text.",
+        "action": "Chachi raises the rescued cricket ball like a winner's trophy.",
+        "camera": "push-in",
+        "mood": "Chachi beams victoriously; Pappu grins; Chacha stares nervously at the washing m"
+      }
+    ],
+    "endHook": "Agli baar Chacha Jee ka muqabla washing machine se!",
+    "createdAt": "2026-11-12T19:48:48.094Z",
+    "description": "گلی کے کرکٹ میں چچا جی آخری گیند کرانے پر اڑ گئے۔ پپو کی تنبیہ بھی کام نہ آئی، مگر چاچی جان نے میچ کا نتیجہ ہی بدل دیا!",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu cartoon",
+      "street cricket",
+      "desi comedy",
+      "YouTube Shorts"
+    ]
+  }
+}

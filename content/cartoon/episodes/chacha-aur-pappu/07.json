@@ -1,0 +1,134 @@
+{
+  "number": 7,
+  "topic": "A long queue at the petrol pump, and Chacha Jee's genius shortcut.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:49:24.561Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Chacha Jee Ka Petrol Pump Shortcut",
+    "shots": [
+      {
+        "id": "2pti2r",
+        "narration": "اتنی لمبی قطار، مگر چچا کے پاس شارٹ کٹ تھا!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Bright Pakistani petrol station, vertical 9:16, warm sunny 3D animated comedy look. A long queue of unbranded cars with opaque windows stretches behind a fuel dispenser. Chacha and Pappu sit in their small car. No writing or logos anywhere.",
+        "action": "Chacha points confidently toward an empty side lane.",
+        "camera": "push-in",
+        "mood": "Chacha wears a triumphant grin; Pappu raises one eyebrow."
+      },
+      {
+        "id": "qnn7d4",
+        "narration": "پپو، عقل ہو تو قطار میں کون لگتا ہے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Inside the same small car beside the petrol queue, vertical 9:16. Through the windshield, an empty lane leads behind a low station wall. All surfaces are unlettered.",
+        "action": "Chacha steers the car into the empty side lane.",
+        "camera": "pan-right",
+        "mood": "Chacha sits proudly upright; Pappu watches with pursed lips."
+      },
+      {
+        "id": "1xl2uc",
+        "narration": "پپو کو خالی راستہ کچھ زیادہ ہی خالی لگا۔",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Passenger-side view inside the car entering a narrow petrol station service bay, bright 3D animation, vertical 9:16. A coiled air hose is visible beyond the window, with no signs or lettering.",
+        "action": "Pappu points toward the coiled air hose.",
+        "camera": "static",
+        "mood": "Pappu looks patiently concerned; Chacha keeps his chin raised."
+      },
+      {
+        "id": "rg5zbj",
+        "narration": "چچا فاتح بن کر سب سے آگے پہنچ گئے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Empty tyre-air bay beside the petrol station, vertical 9:16. Their car stands beside a compact compressor with a blank casing and a coiled air hose. The fuel queue remains visible beyond the low wall.",
+        "action": "Chacha steps out of the parked car with his chest puffed out.",
+        "camera": "low-angle",
+        "mood": "Chacha beams like a champion; Pappu watches through the open passenger window."
+      },
+      {
+        "id": "8p7ttu",
+        "narration": "چچا، یہاں پیٹرول نہیں، ٹائروں میں ہوا بھرتے ہیں!",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Beside the front wheel in the same tyre-air bay, vertical 9:16. A thin air hose and tyre chuck lie clearly beside the compressor. No text or numerical displays.",
+        "action": "Pappu lifts the air hose beside the car tyre.",
+        "camera": "push-in",
+        "mood": "Pappu gives a gentle knowing smile; Chacha's proud smile freezes."
+      },
+      {
+        "id": "eib2zq",
+        "narration": "چچا بولے، پہلے ہوا، پھر پیٹرول؛ یہی تو منصوبہ تھا!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Close view of the car's front tyre in the sunny air bay, polished 3D cartoon style, vertical 9:16. The fuel queue remains stationary in the background.",
+        "action": "Chacha presses the air chuck onto the tyre valve.",
+        "camera": "static",
+        "mood": "Chacha forces an impressively serious expression; Pappu folds his lips to hide a"
+      },
+      {
+        "id": "894ge0",
+        "narration": "اتنے میں چاچی اپنی پیڈل والی سواری لے آئیں۔",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Open forecourt beside the tyre-air bay, vertical 9:16. A small unbranded pedal-powered cargo tricycle has a front rider saddle and a cushioned rear passenger bench. Chacha and Pappu stand by their parked car.",
+        "action": "Chachi pedals the cargo tricycle into the bay.",
+        "camera": "pan-left",
+        "mood": "Chachi smiles brightly; Chacha looks intrigued; Pappu's eyes light up."
+      },
+      {
+        "id": "fkoezz",
+        "narration": "چاچی بولیں، اصلی بچت چاہیے تو یہ چلائیں!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Beside the parked cargo tricycle at the sunny petrol station, vertical 9:16. Its rider saddle and rear passenger bench are clearly visible. An empty vegetable basket rests on the bench.",
+        "action": "Chachi presents the tricycle handlebars to Chacha.",
+        "camera": "push-in",
+        "mood": "Chachi gives a sweet victorious smile; Chacha stares wide-eyed; Pappu grins."
+      },
+      {
+        "id": "le7hzt",
+        "narration": "شارٹ کٹ چچا کا، مفت سواری چاچی کی؛ اب سبزی منڈی!",
+        "characters": [
+          "chacha",
+          "chachi"
+        ],
+        "scene": "Sunny street just outside the petrol station, vertical 9:16, warm 3D animated comedy look. Chacha occupies the cargo tricycle's rider saddle; Chachi sits comfortably on its rear bench with an empty vegetable basket on her lap. No signs, lettering or logos.",
+        "action": "Chacha pedals the cargo tricycle away from the petrol station.",
+        "camera": "pull-out",
+        "mood": "Chacha puffs his cheeks with effort while Chachi reclines with a delighted winni"
+      }
+    ],
+    "endHook": "Agli baar sabzi mandi mein Chacha Jee ki bargaining!",
+    "createdAt": "2026-11-12T19:49:24.559Z",
+    "description": "پیٹرول پمپ کی لمبی قطار دیکھ کر چچا جی نے زبردست شارٹ کٹ ڈھونڈ لیا۔ مگر منزل کچھ اور نکلی، اور اصل فائدہ چاچی جان اٹھا گئیں!",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu cartoon",
+      "Pakistani comedy",
+      "Petrol pump",
+      "YouTube Shorts",
+      "3D animation"
+    ]
+  }
+}

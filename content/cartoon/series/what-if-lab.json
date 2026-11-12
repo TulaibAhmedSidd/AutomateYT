@@ -1,0 +1,70 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "trending",
+  "why": "Trending: 'what if' science questions get huge curiosity clicks and high retention, and suit people of every age.",
+  "series": {
+    "id": "what-if-lab",
+    "name": "What If? Lab",
+    "language": "en",
+    "audience": "general",
+    "madeForKids": false,
+    "style": "3D animated science film look, colourful lab, space, planets, oceans and cities, glowing holograms, bright and curious mood, vertical 9:16 frame",
+    "negative": "text, letters, watermark, logo, gore, blood, people hurt, scary, blurry",
+    "characters": [
+      {
+        "id": "nova",
+        "name": "Dr. Nova",
+        "look": "Dr. Nova, a cheerful young scientist with curly purple hair, big round goggles on her forehead and a white lab coat"
+      },
+      {
+        "id": "byte",
+        "name": "Byte",
+        "look": "Byte, a small floating round robot with a screen face, blue glowing eyes and tiny propeller ears"
+      }
+    ],
+    "voice": {
+      "provider": "recorded",
+      "edgeVoice": "en-US-AndrewNeural"
+    },
+    "rules": [
+      "Each episode answers one 'What if...?' question using mainstream science, step by step, as Dr. Nova shows Byte a hologram.",
+      "Say 'scientists think' for anything uncertain. Use only well-known numbers, exactly as given in the episode idea; never invent numbers.",
+      "Exciting but never fear-mongering: no people getting hurt on screen.",
+      "Hook with the question in the first shot; end with a surprising final fact and the next question."
+    ],
+    "episodeSeconds": 45,
+    "palette": {
+      "bg": "#0d1b2a",
+      "accent": "#4cc9f0"
+    }
+  },
+  "topics": [
+    "What if the Moon disappeared? Tides would become much smaller, nights much darker, and scientists think Earth's tilt would wobble more over very long times.",
+    "What if Earth suddenly stopped spinning? Everything not fixed down would keep moving east at the speed of Earth's spin, which is about 1,670 km/h at the equator, and a day would last a whole year.",
+    "What if you fell into a black hole? The pull on your feet would be much stronger than on your head, stretching you like spaghetti (spaghettification).",
+    "What if all the ice on Earth melted? Scientists estimate sea levels would rise by about 70 metres, changing every coastline.",
+    "What if all the bees disappeared? About one third of the food crops we eat depend on pollinators like bees.",
+    "What if the Sun switched off? We would not notice for about 8 minutes, the time sunlight takes to reach Earth.",
+    "What if you could dig a tunnel straight through the Earth? You would pass through the hot mantle and the iron core, hotter than the surface of the Sun.",
+    "What if we lived on Mars? Gravity there is about 38% of Earth's, so you could jump almost three times higher, but the air is too thin to breathe.",
+    "What if you never drank water? Most people can only survive about three days without water.",
+    "What if gravity were twice as strong? Everything would feel twice as heavy, and walking up stairs would be like carrying another person.",
+    "What if the internet went down worldwide for one day? Payments, messages, maps and many businesses would stop.",
+    "What if dinosaurs never went extinct? Scientists think mammals, and maybe humans, might never have become dominant.",
+    "What if Earth were flat? It could not happen: gravity pulls a planet-sized mass into a ball.",
+    "What if there were no friction? You could not walk, hold a cup or tie your shoes; everything would slide forever.",
+    "What if mosquitoes vanished? Fewer diseases like malaria, but some fish and birds that eat them would lose food."
+  ],
+  "moreIdeas": [
+    "What if humans could make food from sunlight like plants? We would need skin as big as a tennis court and would still need to eat.",
+    "What if you didn't sleep for a week? Memory, mood and reaction time get much worse; sleep is when the brain sorts memories.",
+    "What if there was twice as much oxygen in the air? Fires would burn much more easily; long ago, high oxygen levels let insects grow giant.",
+    "What if Earth had rings like Saturn? They would stretch across the sky as a giant bright arch, visible even in the day.",
+    "What if humans had tails? Our ancestors did long ago; we still have a tailbone (coccyx).",
+    "What if you could see heat like a snake? Some snakes have pits that sense infrared, so warm animals glow in the dark.",
+    "What if Earth were twice as big? Gravity would be stronger, the air thicker, and rockets would struggle to reach space.",
+    "What if a day lasted 48 hours? Days and nights would be much hotter and colder, and our body clocks would be confused.",
+    "What if we could talk to animals? We would learn how bees dance to share directions and how elephants call over long distances.",
+    "What if lightning struck the sea near you? The electricity spreads out across the surface, so being far away and in a safe place matters."
+  ]
+}

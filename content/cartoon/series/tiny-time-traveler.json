@@ -1,0 +1,75 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "kids",
+  "why": "Kids + families: story-driven history adventures. History facts are a top faceless niche; a recurring time-travelling hero turns facts into a story.",
+  "series": {
+    "id": "tiny-time-traveler",
+    "name": "Tiny Time Traveler",
+    "language": "en",
+    "audience": "kids",
+    "madeForKids": true,
+    "style": "3D animated adventure film look, rich historical settings, bright sunlight, dust and golden sparkles when time-travelling, exciting and friendly mood, vertical 9:16 frame",
+    "negative": "text, letters, words, watermark, logo, war, weapons, blood, scary, blurry",
+    "characters": [
+      {
+        "id": "zoya",
+        "name": "Zoya",
+        "look": "Zoya, an adventurous 10-year-old girl with a black ponytail, a yellow hoodie, cargo shorts and a glowing blue wristwatch time machine"
+      },
+      {
+        "id": "tock",
+        "name": "Tock",
+        "look": "Tock, a talking brass pocket-watch robot with tiny legs, a round glass face and a bouncy spring tail"
+      }
+    ],
+    "voice": {
+      "provider": "recorded",
+      "edgeVoice": "en-US-AnaNeural"
+    },
+    "rules": [
+      "Each episode Zoya and Tock travel to one place and time and learn two or three true facts about it.",
+      "Only real places and well-known facts, using names, dates and numbers exactly as given in the episode idea. Never invent numbers.",
+      "No war, violence or weapons. Be respectful to every culture.",
+      "Start with the time-jump sparkle as the hook; end with Tock asking 'Where to next?'."
+    ],
+    "episodeSeconds": 60,
+    "palette": {
+      "bg": "#1b1532",
+      "accent": "#ffd166"
+    }
+  },
+  "topics": [
+    "Giza, Egypt, around 2560 BCE: the Great Pyramid was built from over two million stone blocks and was the tallest human-made structure for about 3,800 years.",
+    "Mohenjo-daro in today's Pakistan, around 2500 BCE: a planned city of the Indus Valley with straight streets, covered drains and the Great Bath.",
+    "Rome, 80 CE: the Colosseum opened and could hold about 50,000 people, with a giant cloth roof (velarium) for shade.",
+    "The Great Wall of China was built and rebuilt over many centuries by different dynasties; most of the wall people visit today was built in the Ming period.",
+    "Olympia, Greece, 776 BCE: the first recorded Olympic Games, where the main race was a sprint of about 192 metres.",
+    "Machu Picchu, Peru, 1400s: the Inca built this mountain city with stones cut so precisely they fit together without mortar.",
+    "Mainz, Germany, around 1440: Johannes Gutenberg's printing press with movable metal type made books much faster to produce.",
+    "Kitty Hawk, USA, 1903: the Wright brothers made the first powered aeroplane flight, which lasted 12 seconds.",
+    "July 1969: Apollo 11 landed on the Moon, and Neil Armstrong became the first person to walk on it.",
+    "Petra, Jordan: the Nabataeans carved a whole city, including the famous Treasury building, straight into pink sandstone cliffs.",
+    "Mesopotamia (today's Iraq), around 3200 BCE: one of the first writing systems, cuneiform, pressed into wet clay with a reed.",
+    "Taxila in today's Pakistan: an ancient centre of learning on trade routes, and home of the beautiful Gandhara art in stone.",
+    "The Karakoram Highway, built between Pakistan and China from 1959 to 1979: one of the highest paved roads in the world.",
+    "Xi'an, China, around 210 BCE: the Terracotta Army of about 8,000 clay soldiers, each with a different face, discovered by farmers in 1974.",
+    "Paris, 1889: the Eiffel Tower was built for a world fair and was the tallest structure in the world for about 40 years."
+  ],
+  "moreIdeas": [
+    "The Vikings, around 800 CE: they sailed long, narrow longships that could cross oceans and also travel up rivers.",
+    "Samarkand on the Silk Road: caravans of camels carried silk, spices and paper between China and the Mediterranean.",
+    "Angkor Wat, Cambodia, built in the early 1100s: the largest religious monument in the world, surrounded by a huge moat.",
+    "Florence, Italy, around 1490: Leonardo da Vinci filled notebooks with designs for flying machines, written in mirror writing.",
+    "Philadelphia, 1752: Benjamin Franklin's famous kite experiment helped show that lightning is electricity.",
+    "Stonehenge, England, around 2500 BCE: giant stones arranged in a circle that line up with the sunrise on the longest day of the year.",
+    "Boston, 1876: Alexander Graham Bell made the first telephone call, saying 'Mr. Watson, come here'.",
+    "Menlo Park, USA, 1879: Thomas Edison's team made a long-lasting, practical electric light bulb.",
+    "Himeji Castle, Japan, completed in 1609: called the White Heron Castle for its shining white walls.",
+    "The Pacific Ocean: Polynesian navigators sailed thousands of kilometres between islands without maps, reading stars, waves and birds.",
+    "Persepolis, Persia (today's Iran), from around 518 BCE: a grand palace city with staircases carved with people bringing gifts from many lands.",
+    "Chichen Itza, Mexico: on the spring and autumn equinox, the sunlight makes a shadow that looks like a snake sliding down the El Castillo pyramid.",
+    "England, 1829: George Stephenson's locomotive 'Rocket' won a famous speed trial and helped start the age of railways.",
+    "Paris, 1898: Marie Curie and Pierre Curie discovered the elements polonium and radium; in 1903 Marie became the first woman to win a Nobel Prize.",
+    "France, around 1826-1827: Nicephore Niepce took the oldest surviving photograph from a window, and it needed hours of exposure."
+  ]
+}

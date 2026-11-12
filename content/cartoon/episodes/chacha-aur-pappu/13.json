@@ -1,0 +1,136 @@
+{
+  "number": 13,
+  "topic": "Bakra Eid: Chacha Jee goes to the cattle market to buy a goat, but the goat chooses him.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:49:47.913Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Bakra Eid: Bakray Ne Chacha Ko Chun Liya!",
+    "shots": [
+      {
+        "id": "v8g1ut",
+        "narration": "چچا بکرا لینے گئے، مگر بکرے نے چچا کو چن لیا!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Sunny Pakistani cattle market, plain fabric awnings, bamboo pens, one white goat with brown ears. Bright 3D animated comedy look, vertical 9:16, no text or signage.",
+        "action": "The goat gently catches the hem of chacha's grey waistcoat in its mouth.",
+        "camera": "push-in",
+        "mood": "Chacha looks astonished; pappu suppresses a smile."
+      },
+      {
+        "id": "7yvolw",
+        "narration": "چچا بولے، جانور بھی سمجھتے ہیں، اصل ماہر کون ہے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Beside the bamboo goat pen in the sunny cattle market, vertical 9:16, warm 3D animation, no text.",
+        "action": "Chacha proudly points both thumbs toward himself.",
+        "camera": "low-angle",
+        "mood": "Chacha beams with absolute confidence; pappu looks patiently amused."
+      },
+      {
+        "id": "m3bgmw",
+        "narration": "پپو بولا، پہلے ذرا پیچھے ہٹ کر تو دیکھیں!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Open sandy aisle beside the same market pen, the white goat facing chacha, vertical 9:16, no signs or lettering.",
+        "action": "Chacha takes an exaggerated sideways step away from the goat.",
+        "camera": "pan-right",
+        "mood": "Chacha looks smug; pappu watches with curious concentration."
+      },
+      {
+        "id": "obizsg",
+        "narration": "بکرا پھر ساتھ، چچا کا سینہ اور چوڑا!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same sunny cattle-market aisle, chacha beside a bamboo fence, vertical 9:16, bright 3D animation, no text.",
+        "action": "The goat sidesteps directly alongside chacha's waistcoat pocket.",
+        "camera": "static",
+        "mood": "Chacha wears a triumphant grin; pappu raises one suspicious eyebrow."
+      },
+      {
+        "id": "7qlhfr",
+        "narration": "چچی نے سودا کیا، چچا نے مبارک باد وصول کی!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Plain wooden payment counter beside the goat pen, an unmarked shallow payment bowl, white goat beside chacha, vertical 9:16, no other people or text.",
+        "action": "Chachi places a small stack of plain coins into the payment bowl.",
+        "camera": "push-in",
+        "mood": "Chachi looks practical; chacha smiles grandly; pappu looks knowingly amused."
+      },
+      {
+        "id": "08ct4u",
+        "narration": "گھر تک بکرا چچا کی جیب سے چپکا رہا!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Bright Pakistani home courtyard with an open gate, terracotta pots and a low woven charpai, vertical 9:16, warm 3D animation, no text.",
+        "action": "Chacha walks through the gate with the goat's nose pressed against his waistcoat pocket.",
+        "camera": "pull-out",
+        "mood": "Chacha looks royally pleased; pappu and chachi exchange skeptical looks."
+      },
+      {
+        "id": "6mcs8a",
+        "narration": "چچا بولے، دیکھا، محبت ہو تو ایسی!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Same sunny home courtyard, goat standing close to chacha's bulging waistcoat pocket, vertical 9:16, no lettering.",
+        "action": "Chacha spreads his arms in a proud, theatrical pose.",
+        "camera": "low-angle",
+        "mood": "Chacha looks deeply self-satisfied; chachi studies the pocket with a knowing smi"
+      },
+      {
+        "id": "42xmm9",
+        "narration": "چچی نے جیب سے چارہ نکالا، محبت کا راز کھل گیا!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Close view in the home courtyard, fresh green fodder protruding from chacha's waistcoat pocket, goat watching intently, vertical 9:16, no text.",
+        "action": "Chachi pulls a leafy bundle of fodder from chacha's pocket.",
+        "camera": "push-in",
+        "mood": "Chachi smiles victoriously; pappu grins; chacha's proud expression collapses."
+      },
+      {
+        "id": "lajgei",
+        "narration": "بکرا میرا، خدمت تمہاری؛ کل اسے نہلانا بھی تم نے ہے!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Sunny courtyard, goat eating fodder beside chachi, a water bucket at chacha's feet, pappu beside the charpai, vertical 9:16, no text.",
+        "action": "Chachi places a large bathing brush into chacha's hand.",
+        "camera": "pull-out",
+        "mood": "Chachi wears a winning smile; chacha stares at the brush in dismay; pappu laughs"
+      }
+    ],
+    "endHook": "Agli baar: Chacha Jee bakray ko nehlayenge, ya khud nahayenge?",
+    "createdAt": "2026-11-12T19:49:47.910Z",
+    "description": "چچا جی عید کے لیے بکرا پسند کرنے گئے، مگر بکرے نے خود چچا جی کو چن لیا! پپو کو شک ہوا تو اس انوکھی دوستی کا راز کھل گیا، اور چچی جان نے آخری فیصلہ سنا دیا۔",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Bakra Eid",
+      "Urdu cartoon",
+      "Pakistani family comedy",
+      "YouTube Shorts"
+    ]
+  }
+}

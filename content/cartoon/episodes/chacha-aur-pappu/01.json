@@ -1,0 +1,133 @@
+{
+  "number": 1,
+  "topic": "Chacha Jee's new smartphone: his private voice note goes to the whole family WhatsApp group by mistake.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:48:46.893Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Chacha Jee Ka Private Voice Note!",
+    "shots": [
+      {
+        "id": "winz2y",
+        "narration": "چچا کا خفیہ پیغام پورے خاندان کو کیسے پہنچ گیا؟",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Bright Pakistani living room, sunny yellow walls, sofa with plump cushions, vertical 9:16, expressive 3D animated comedy film look; no text or lettering.",
+        "action": "Chacha proudly raises his new smartphone toward the camera.",
+        "camera": "push-in",
+        "mood": "Chacha wears a huge confident grin; Pappu watches with raised eyebrows."
+      },
+      {
+        "id": "hri0a3",
+        "narration": "پپو بولا، چچا، پہلے دیکھ لیں پیغام کس کو بھیجنا ہے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same sunny living room, close view of a smartphone showing abstract circular chat buttons without text, numbers, letters, or branding.",
+        "action": "Pappu points to a single-circle chat button on Chacha's phone.",
+        "camera": "static",
+        "mood": "Pappu looks patient and careful; Chacha smiles with absolute certainty."
+      },
+      {
+        "id": "51sthl",
+        "narration": "پپو، مٹھائی صوفے میں چھپائی ہے، چاچی کو مت بتانا!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Beside the living room sofa, one cushion slightly raised over a concealed sweet box, phone screen facing away, vertical 9:16.",
+        "action": "Chacha records a voice note with the phone near his mouth.",
+        "camera": "push-in",
+        "mood": "Exaggerated secretive whispering face, twinkling eyes, mischievous smile."
+      },
+      {
+        "id": "ud873y",
+        "narration": "چچا نے ایک کے بجائے پورے خاندان کو بھیج دیا!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Close view of Chacha's phone in the same room, a selected cluster-of-circles chat symbol and a triangular send icon; no text, letters, numbers, or branding.",
+        "action": "Chacha taps the send icon beneath the selected group symbol.",
+        "camera": "static",
+        "mood": "Chacha looks satisfied while Pappu's eyes widen in alarm."
+      },
+      {
+        "id": "k0c212",
+        "narration": "ادھر چاچی کے فون پر وہی خفیہ پیغام چل پڑا!",
+        "characters": [
+          "chachi"
+        ],
+        "scene": "Sunny Pakistani kitchen adjoining the living room, warm cabinets, phone showing only an abstract audio waveform with no lettering.",
+        "action": "Chachi taps the audio playback icon on her phone.",
+        "camera": "push-in",
+        "mood": "One raised eyebrow and a small knowing smile."
+      },
+      {
+        "id": "qfnug5",
+        "narration": "پپو بولا، چاچی بھی اسی گروپ میں ہیں!",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Living room sofa beneath a bright window, Chacha holding his phone, no visible writing anywhere.",
+        "action": "Pappu points toward Chachi's kitchen doorway.",
+        "camera": "pan-right",
+        "mood": "Pappu looks gently concerned; Chacha's confident grin becomes stiff."
+      },
+      {
+        "id": "24n9oj",
+        "narration": "چچا بولے، فکر نہیں، مٹھائی کا کوئی ثبوت نہیں!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Living room sofa with the sweet box concealed beneath a cushion, Chachi standing beside the sofa, vertical 9:16.",
+        "action": "Chacha spreads his empty hands in a grand innocent gesture.",
+        "camera": "low-angle",
+        "mood": "Chacha looks theatrically confident; Chachi wears an amused, unconvinced smile."
+      },
+      {
+        "id": "n6rp7v",
+        "narration": "چاچی بولیں، ثبوت تو تم نے خود بھیجا ہے!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same sofa, an open unmarked box of colorful sweets hidden beneath the loose cushion, warm sunny lighting.",
+        "action": "Chachi lifts the sofa cushion to reveal the sweets.",
+        "camera": "push-in",
+        "mood": "Chachi smiles triumphantly; Chacha freezes wide-eyed; Pappu suppresses a grin."
+      },
+      {
+        "id": "3z9krc",
+        "narration": "مٹھائی ضبط، اب کل سمارٹ ٹی وی پر عقل لڑائیے!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Living room with the recovered sweets beside Chachi, a blank television in the background, an unmarked remote with plain colored buttons, vertical 9:16.",
+        "action": "Chachi holds the television remote out to Chacha.",
+        "camera": "pull-out",
+        "mood": "Chachi beams victoriously; Chacha regains a dangerously confident smile; Pappu l"
+      }
+    ],
+    "endHook": "Agli baar Chacha Jee smart TV ko apne ishare par chalayenge!",
+    "createdAt": "2026-11-12T19:48:46.892Z",
+    "description": "چچا جی نے نیا فون لیا اور پپو کو ایک خفیہ وائس نوٹ بھیجا۔ مگر پیغام پورے خاندان کے واٹس ایپ گروپ میں پہنچ گیا، جہاں چاچی جان بھی موجود تھیں!",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu Comedy",
+      "Pakistani Cartoon",
+      "YouTube Shorts",
+      "Family Comedy",
+      "Voice Note"
+    ]
+  }
+}

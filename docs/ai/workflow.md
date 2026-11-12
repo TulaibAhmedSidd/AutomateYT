@@ -20,6 +20,9 @@
 | `npm run ai:check` | Verify the AI setup: AGENTS.md size, docs present, skills in sync, rule frontmatter |
 | `npm run hooks:install` | Point git at `.githooks/` (`npm install` does this automatically) |
 | `node scripts/render-motion.mjs <jobId>` | Run a Motion render by hand (normally the API starts it) |
+| `npm test` | Unit tests (`node --test`, files in `tests/`) |
+| `node scripts/render-cartoon.mjs <episodeId>` | Run a cartoon render by hand |
+| `node scripts/write-library.mjs [seriesId]` | Write missing library scripts (costs OpenAI credit: ask the owner first) |
 
 ## Git
 - One-time setup on each computer:

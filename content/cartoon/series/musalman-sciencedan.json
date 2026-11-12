@@ -1,0 +1,72 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "islamic",
+  "why": "Second Islamic history series in Urdu: Muslim scientists and inventors for kids. Peaceful, inspiring, uncontroversial, and teaches real science.",
+  "series": {
+    "id": "musalman-sciencedan",
+    "name": "Musalman Sciencedan",
+    "language": "ur",
+    "audience": "kids",
+    "madeForKids": true,
+    "style": "3D animated family film look, warm library and workshop lighting, old manuscripts, brass instruments, star charts and colourful bazaars, inspiring and friendly mood, vertical 9:16 frame",
+    "negative": "text, letters, watermark, logo, faces or bodies of prophets, companions or holy figures, weapons, blood, scary, blurry",
+    "characters": [
+      {
+        "id": "hamza",
+        "name": "Hamza",
+        "look": "Hamza, a curious 10-year-old Pakistani boy with short black hair, big round glasses, a blue shirt and a small notebook in his hand"
+      },
+      {
+        "id": "noori",
+        "name": "Noori",
+        "look": "Noori, a small floating brass lantern-robot (fanoos) with two big friendly glowing eyes that can project scenes from the past like a projector"
+      }
+    ],
+    "voice": {
+      "provider": "recorded",
+      "edgeVoice": "ur-PK-AsadNeural"
+    },
+    "rules": [
+      "Each episode, Noori the lantern-robot shows Hamza one Muslim scientist or inventor and what they discovered or built.",
+      "Show the scientist as a respectful cartoon figure seen from a distance or from behind; focus on the invention, the experiment and the idea.",
+      "Only authentic, well-known history. Use the names, dates and numbers exactly as given in the episode idea; never invent quotes, dates or numbers.",
+      "Child-friendly and peaceful: no politics, no sectarian topics, no criticism of any group. Science helps everyone.",
+      "Explain the science in one simple, correct sentence a 10-year-old understands. Narration in simple Urdu script.",
+      "The last shot asks a question that leads to the next episode."
+    ],
+    "episodeSeconds": 60,
+    "palette": {
+      "bg": "#14213d",
+      "accent": "#fca311"
+    }
+  },
+  "topics": [
+    "Al-Khwarizmi (about 780-850 CE) worked in Baghdad's House of Wisdom. His book on 'al-jabr' gave us the word 'algebra', and the word 'algorithm' comes from his name.",
+    "Ibn al-Haytham (about 965-1040 CE), working in Cairo, showed that we see because light enters the eye, and used a dark room with a small hole (camera obscura) that makes an upside-down picture. His Book of Optics was later translated into Latin.",
+    "Al-Zahrawi (936-1013 CE) of Cordoba is called the father of modern surgery. His book Kitab al-Tasrif described and drew more than 200 surgical tools. Show the drawings of tools (no blood).",
+    "Ibn Sina (980-1037 CE) wrote 'The Canon of Medicine', which was used to teach doctors in Europe for hundreds of years.",
+    "Al-Razi (about 854-925 CE) ran a hospital in Baghdad and was the first to clearly explain the difference between smallpox and measles. Legend says he chose the hospital site by hanging pieces of meat around the city and picking the place where they spoiled slowest.",
+    "Ibn al-Nafis (1213-1288 CE) in Cairo described how blood travels from the heart through the lungs and back (pulmonary circulation), about 300 years before this was described in Europe.",
+    "Abbas ibn Firnas (810-887 CE) of Cordoba made one of the first recorded attempts to fly with wings, gliding a short way before landing hard. He also worked on clear glass and water clocks. Today a crater on the Moon is named after him.",
+    "Al-Jazari wrote 'The Book of Knowledge of Ingenious Mechanical Devices' in 1206 CE, with designs for an elephant clock, water-raising machines and automatic machines. Show the giant elephant clock working.",
+    "Al-Biruni (973-1050 CE) estimated the size of the Earth using a mountain, the horizon and simple geometry, and his answer was very close to the real value.",
+    "Al-Sufi (903-986 CE) wrote 'The Book of Fixed Stars' and gave the first recorded description of the Andromeda galaxy, which he called a 'small cloud'.",
+    "Maryam al-Ijliya (al-Asturlabi), a woman in 10th-century Aleppo, was famous for making astrolabes for the ruler of the city. Show her workshop from behind and the shining brass astrolabe.",
+    "How an astrolabe works: Muslim astronomers improved this brass instrument to tell the time, find prayer times and find the direction of the qibla using the Sun and stars.",
+    "Al-Kindi (about 801-873 CE) of Baghdad wrote the oldest known book on breaking secret codes by counting how often each letter appears (frequency analysis).",
+    "Ulugh Beg built a great observatory in Samarkand in the 1420s CE. His star catalogue listed about 1,000 stars and was among the most accurate of its time.",
+    "Zheng He (1371-1433 CE) was a Chinese Muslim admiral who led seven great sea voyages between 1405 and 1433 CE with huge treasure ships, reaching Arabia and East Africa."
+  ],
+  "moreIdeas": [
+    "The House of Wisdom (Bayt al-Hikmah) in Baghdad flourished under caliph al-Ma'mun (813-833 CE). Scholars translated Greek, Persian and Indian books into Arabic and added their own discoveries.",
+    "The Banu Musa brothers in 9th-century Baghdad wrote 'The Book of Ingenious Devices' with more than 100 clever machines, including trick jugs and an automatic flute player.",
+    "Al-Battani (about 858-929 CE) measured the length of the solar year as 365 days, 5 hours, 46 minutes and 24 seconds, very close to today's value.",
+    "Jabir ibn Hayyan (8th century CE) is linked with early chemistry: books under his name describe distillation, crystallisation and careful experiments.",
+    "Thabit ibn Qurra (826-901 CE) was a mathematician, astronomer and translator in Baghdad who worked on numbers, geometry and the motion of the Sun.",
+    "Al-Idrisi made one of the most famous world maps of the Middle Ages in 1154 CE for King Roger II of Sicily, with a book describing the lands of the world.",
+    "Ibn Khaldun (1332-1406 CE) wrote the Muqaddimah, studying how societies, cities and economies grow and change. He is often called a founder of sociology.",
+    "Piri Reis, an Ottoman admiral and map-maker, drew a world map in 1513 CE that shows parts of the coast of South America and Africa.",
+    "Taqi al-Din (1526-1585 CE) built an observatory in Istanbul in 1577 CE and described a simple steam-driven turbine in 1551 CE that turned a roasting spit.",
+    "Fatima al-Fihri founded al-Qarawiyyin in Fez, Morocco, in 859 CE, recognised as the oldest existing, continually operating educational institution in the world. Learning is for everyone: boys and girls."
+  ]
+}

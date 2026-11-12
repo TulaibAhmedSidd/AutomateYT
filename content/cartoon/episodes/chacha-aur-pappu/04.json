@@ -1,0 +1,133 @@
+{
+  "number": 4,
+  "topic": "The wedding dinner: Chacha Jee's master plan to be first in the biryani line.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:48:43.701Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Biryani Ki Line Mein Chacha Number One!",
+    "shots": [
+      {
+        "id": "jjcw0m",
+        "narration": "آج بریانی کی پہلی پلیٹ میری، منصوبہ بالکل پکا ہے!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Bright Pakistani wedding courtyard, floral garlands, covered biryani pot on a buffet table, no writing anywhere, warm 3D animated comedy look, vertical 9:16.",
+        "action": "Chacha holds an enormous empty plate proudly against his belly.",
+        "camera": "push-in",
+        "mood": "Raised eyebrows, broad confident grin, sunny gold lighting."
+      },
+      {
+        "id": "iyrnc1",
+        "narration": "پپو بولا، چچا، ابھی تو دیگ بھی بند ہے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Beside the wedding buffet, a large metal biryani pot with its lid firmly closed, floral courtyard background, vertical 9:16.",
+        "action": "Pappu points at the closed biryani pot while Chacha clutches his plate.",
+        "camera": "pan-right",
+        "mood": "Pappu wears a patient half-smile; Chacha looks completely untroubled."
+      },
+      {
+        "id": "5thq1s",
+        "narration": "جہاں دیگ، وہیں میری کرسی؛ پہلا نمبر پکا!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Wedding buffet with an empty space directly behind the biryani pot, warm festive courtyard, vertical 9:16.",
+        "action": "Chacha places a chair directly behind the serving pot.",
+        "camera": "pull-out",
+        "mood": "Chacha beams triumphantly; Pappu studies the chair with a doubtful expression."
+      },
+      {
+        "id": "vrs2k1",
+        "narration": "چچا اپنی جگہ ایسے جمے، جیسے کرسی کے مالک!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Behind the wedding buffet, chair facing outward over the covered biryani pot, oversized plate resting on the table, vertical 9:16.",
+        "action": "Chacha settles into the chair with his arms folded.",
+        "camera": "low-angle",
+        "mood": "Regal posture, lifted chin, exaggerated self-satisfaction."
+      },
+      {
+        "id": "sn5jvb",
+        "narration": "پپو بولا، یہاں تو کھانا بانٹنے والا بیٹھتا ہے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Serving side of the wedding buffet, long serving ladle beside the covered biryani pot, vertical 9:16.",
+        "action": "Pappu holds the long serving ladle out toward Chacha.",
+        "camera": "static",
+        "mood": "Pappu looks gently amused; Chacha keeps a stubborn smile."
+      },
+      {
+        "id": "bzbqs4",
+        "narration": "چچا بولے، بس دیکھتے جاؤ، بریانی پہلے میں کھاؤں گا!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Behind the wedding buffet, Chacha seated beside the covered pot and his oversized empty plate, vertical 9:16.",
+        "action": "Chacha taps his empty plate with one confident finger.",
+        "camera": "push-in",
+        "mood": "Unshakable confidence on Chacha's face, knowing smile on Pappu's face."
+      },
+      {
+        "id": "yi761i",
+        "narration": "چچی آئیں، تو چچا کا منصوبہ انہیں بھی پسند آیا!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Wedding buffet beneath flower garlands, Chacha seated behind the biryani pot, vertical 9:16.",
+        "action": "Chachi ties a plain serving apron around Chacha's waist.",
+        "camera": "pan-left",
+        "mood": "Chachi smiles sweetly; Chacha looks proudly important; Pappu suppresses a grin."
+      },
+      {
+        "id": "m28csr",
+        "narration": "دیگ کھلی، مگر چچا کے ہاتھ میں چمچ آگیا!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Open pot of steaming biryani on the wedding buffet, lid resting beside it, Chachi holding an empty dinner plate on the guest side, vertical 9:16.",
+        "action": "Chachi places the long serving ladle into Chacha's hand.",
+        "camera": "push-in",
+        "mood": "Chacha's smile freezes; Chachi looks delighted; Pappu grins."
+      },
+      {
+        "id": "cimqxt",
+        "narration": "پہلے نمبر پر چچا کھلائیں گے؛ اگلا امتحان شادی کا تحفہ!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Wedding buffet with steaming biryani, Chachi waiting opposite apron-wearing Chacha, Pappu beside a small gift table with an empty decorative tray, no writing, vertical 9:16.",
+        "action": "Chacha ladles the first serving of biryani onto Chachi's plate.",
+        "camera": "pull-out",
+        "mood": "Chachi wears a victorious smile; Chacha has a sheepish grin; Pappu looks curious"
+      }
+    ],
+    "endHook": "Agli baar: Chacha Jee shaadi ka tohfa kahan bhool aaye?",
+    "createdAt": "2026-11-12T19:48:43.699Z",
+    "description": "شادی کی بریانی سب سے پہلے کھانے کے لیے چچا جی نے زبردست منصوبہ بنایا۔ مگر چچی جان نے پہلے نمبر کا مطلب ہی بدل دیا!",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu Cartoon",
+      "Desi Comedy",
+      "Biryani",
+      "Wedding Comedy",
+      "YouTube Shorts"
+    ]
+  }
+}

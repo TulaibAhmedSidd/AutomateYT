@@ -1,0 +1,135 @@
+{
+  "number": 16,
+  "topic": "The search for the perfect cup of chai.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:49:56.095Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Chacha Jee Ki Perfect Chai",
+    "shots": [
+      {
+        "id": "faemln",
+        "narration": "چچا بہترین چائے بنائیں گے، مگر یہ ترازو کیوں نکالا؟",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Bright Pakistani kitchen, sunny yellow walls, vertical 9:16 composition, stylized 3D animated comedy look, no text or labels.",
+        "action": "Chacha places a large balance scale beside a tiny empty teacup.",
+        "camera": "push-in",
+        "mood": "Chacha beams proudly; Pappu watches with raised eyebrows."
+      },
+      {
+        "id": "coe2ch",
+        "narration": "پپو، بہترین چائے اندازے سے نہیں، حساب سے بنتی ہے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same sunny kitchen counter, loose tea in an unmarked bowl, balance scale and tiny cup, vertical 9:16, no text.",
+        "action": "Chacha carefully lowers one tea leaf onto the balance scale.",
+        "camera": "static",
+        "mood": "Exaggerated concentration on Chacha's face; patient amusement on Pappu's."
+      },
+      {
+        "id": "265e2u",
+        "narration": "پھر دودھ بھی قطرہ قطرہ ناپا جانے لگا!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Kitchen stove with a small saucepan, plain milk jug and an oversized spoon nearby, bright 3D animation, vertical 9:16, no markings.",
+        "action": "Chacha drips milk from a tiny spoon into the saucepan.",
+        "camera": "low-angle",
+        "mood": "Chacha looks grandly scientific; Pappu's shoulders sag with boredom."
+      },
+      {
+        "id": "22r4jg",
+        "narration": "چچا، چائے بن رہی ہے یا کل کا ناشتہ؟",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Same kitchen, saucepan on the stove behind the characters, warm sunshine, vertical 9:16, no visible writing.",
+        "action": "Pappu holds an empty teacup directly beneath Chacha's nose.",
+        "camera": "pan-left",
+        "mood": "Pappu wears a patient half-smile; Chacha remains stubbornly serious."
+      },
+      {
+        "id": "pz9tuy",
+        "narration": "بس خوشبو کم ہے، تھوڑی پتی اور صحیح!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Close view of the kitchen stove and steaming saucepan, unmarked tea bowl beside it, vertical 9:16, colorful 3D film look.",
+        "action": "Chacha tips a heaped spoonful of tea leaves into the saucepan.",
+        "camera": "push-in",
+        "mood": "Chacha looks completely certain; Pappu's eyes widen."
+      },
+      {
+        "id": "00ug6f",
+        "narration": "پہلا گھونٹ آیا، تو مونچھیں بھی گھبرا گئیں!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Kitchen counter with a cup of extremely dark tea and abandoned measuring utensils, vertical 9:16, no labels or text.",
+        "action": "Chacha takes a tiny sip of the dark tea.",
+        "camera": "static",
+        "mood": "Chacha's cheeks pucker dramatically beneath his moustache; Pappu looks knowingly"
+      },
+      {
+        "id": "8g5ohz",
+        "narration": "چچی بولیں، ذرا ہٹو، مجھے بھی چائے پینی ہے!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Another section of the same kitchen counter, plain teapot and clean cups, warm sunny 3D animation, vertical 9:16, no writing.",
+        "action": "Chachi pours creamy golden chai from a plain teapot into a cup.",
+        "camera": "pan-right",
+        "mood": "Chachi looks calmly confident; Chacha watches with skeptical eyebrows."
+      },
+      {
+        "id": "7ggjtl",
+        "narration": "چچا نے چچی کی چائے چکھی، اور ترازو ہٹا دیا!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Kitchen counter, half-full golden chai cup before Chacha, balance scale beside it, vertical 9:16, no text.",
+        "action": "Chacha slides his balance scale away from Chachi's golden chai.",
+        "camera": "pull-out",
+        "mood": "Chacha smiles sheepishly; Chachi wears a victorious smile; Pappu grins."
+      },
+      {
+        "id": "iav3dz",
+        "narration": "چائے چچی کی، دعوے چچا کے؛ اگلا تجربہ پنکھے پر!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Sunny kitchen dining nook, Chachi seated with her golden chai, a small tabletop fan with its unplugged cord clearly visible, vertical 9:16, no text.",
+        "action": "Chacha proudly lifts the unplugged tabletop fan onto the table.",
+        "camera": "low-angle",
+        "mood": "Chacha's swagger has returned; Chachi smiles knowingly over her cup; Pappu looks"
+      }
+    ],
+    "endHook": "Chai ke baad ab pankhay par Chacha Jee ka tajurba!",
+    "createdAt": "2026-11-12T19:49:56.094Z",
+    "description": "چچا جی بہترین چائے بنانے نکلے تو باورچی خانہ تجربہ گاہ بن گیا۔ پپو دیکھتا رہ گیا، مگر چچی جان کی سادہ سی چائے نے میدان مار لیا!",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu cartoon",
+      "Pakistani comedy",
+      "chai",
+      "family comedy",
+      "YouTube Shorts"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "number": 5,
+  "topic": "Chacha Jee starts a diet, but the samosas have other plans.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:48:43.564Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Chacha Jee Ki Diet Aur Samosay",
+    "shots": [
+      {
+        "id": "c147oz",
+        "narration": "چچا نے سموسوں کو للکارا، آج سے صرف سلاد!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Bright Pakistani dining room, sunny yellow walls, wooden table with a platter of golden samosas, 3D animated comedy film look, vertical 9:16, no visible text.",
+        "action": "Chacha confidently pushes the samosa platter away with one finger.",
+        "camera": "push-in",
+        "mood": "Puffed chest, raised chin, comically determined eyebrows."
+      },
+      {
+        "id": "qfr2pl",
+        "narration": "چاچی نے فوراً صحت والی پلیٹ حاضر کر دی۔",
+        "characters": [
+          "chacha",
+          "chachi"
+        ],
+        "scene": "Same sunny dining room, samosa platter at the far end of the table, vertical 9:16, no visible text.",
+        "action": "Chachi places a plate of cucumber slices and large lettuce leaves before Chacha.",
+        "camera": "static",
+        "mood": "Chachi's satisfied smile contrasts with Chacha's stiff, polite grin."
+      },
+      {
+        "id": "h2xwsh",
+        "narration": "مگر سموسوں کی خوشبو سیدھی ناک تک پہنچ گئی۔",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Close view across the dining table, steaming golden samosas in the foreground and untouched salad beside Chacha, vertical 9:16, no visible text.",
+        "action": "Chacha leans his nose toward the steaming samosas.",
+        "camera": "pan-right",
+        "mood": "Half-closed eyes, flared nostrils, helpless temptation."
+      },
+      {
+        "id": "s1a4p3",
+        "narration": "چچا بولے، سلاد کو ذرا مزیدار بناتے ہیں!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Dining tabletop close-up, salad plate beside the samosa platter, vertical 9:16, no visible text.",
+        "action": "Chacha folds a large lettuce leaf around one samosa.",
+        "camera": "push-in",
+        "mood": "Mischievous sideways glance and a smug little smile."
+      },
+      {
+        "id": "dh92ol",
+        "narration": "پپو نے سلاد کا نکلا ہوا کونا دیکھ لیا۔",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Sunny dining table, Chacha holding a bulky lettuce parcel with a crisp triangular samosa corner protruding, vertical 9:16, no visible text.",
+        "action": "Pappu points at the exposed samosa corner.",
+        "camera": "static",
+        "mood": "Pappu wears a patient knowing smile; Chacha's eyes widen."
+      },
+      {
+        "id": "cf2qur",
+        "narration": "چچا بولے، بیٹا، یہ سلاد کی ہڈی ہے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same dining table, lettuce-wrapped samosa clearly visible in Chacha's hand, vertical 9:16, no visible text.",
+        "action": "Chacha raises the lettuce parcel like a prized discovery.",
+        "camera": "low-angle",
+        "mood": "Chacha looks utterly authoritative; Pappu raises one skeptical eyebrow."
+      },
+      {
+        "id": "odmqsj",
+        "narration": "چاچی آئیں تو ہڈی فوراً پلیٹ میں پہنچ گئی۔",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Dining room with Chachi standing beside the table, salad plate directly beneath Chacha's hand, vertical 9:16, no visible text.",
+        "action": "Chacha lowers the lettuce parcel onto his salad plate.",
+        "camera": "pull-out",
+        "mood": "Chacha's exaggerated innocence, Pappu's restrained grin, Chachi's narrowed eyes."
+      },
+      {
+        "id": "zr4ynk",
+        "narration": "چاچی بولیں، واہ، سلاد نے سموسہ پیدا کر دیا!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Close view of the salad plate with the hidden golden samosa, all three faces visible above the table, vertical 9:16, no visible text.",
+        "action": "Chachi lifts the lettuce leaf off the samosa.",
+        "camera": "push-in",
+        "mood": "Triumphant raised eyebrow, Chacha's frozen guilty smile, Pappu's delighted expre"
+      },
+      {
+        "id": "ertj80",
+        "narration": "سموسے میرے، سلاد آپ کا؛ کل چہل قدمی ہوگی!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Wider dining room view, samosa platter beside Chachi, plain salad before seated Chacha, Pappu beside him, vertical 9:16, no visible text.",
+        "action": "Chachi places a pair of walking shoes at Chacha's feet.",
+        "camera": "pull-out",
+        "mood": "Chachi beams victoriously; Chacha stares open-mouthed at the shoes; Pappu grins."
+      }
+    ],
+    "endHook": "Kal Chacha Jee ki sair hogi, ya sair ka bahana?",
+    "createdAt": "2026-11-12T19:48:43.561Z",
+    "description": "چچا جی نے پرہیز شروع کیا، مگر سموسوں کی خوشبو نے ارادہ ہلا دیا۔ پپو نے ترکیب پکڑ لی، اور چاچی جان نے آخری فیصلہ سنا دیا!",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu Cartoon",
+      "Desi Comedy",
+      "Samosa",
+      "YouTube Shorts"
+    ]
+  }
+}

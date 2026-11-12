@@ -1,0 +1,134 @@
+{
+  "number": 10,
+  "topic": "Chacha Jee trusts the GPS completely and ends up in a village field.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:49:24.999Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Chacha Jee Ka GPS Seedha Khet Mein!",
+    "shots": [
+      {
+        "id": "8rkb2l",
+        "narration": "چچا بولے، یہ راستہ کھیت سے گزرے تو بھی درست ہے!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated Pakistani countryside, compact unbranded car at a fork between a paved road and a narrow dirt track beside green fields, no visible text.",
+        "action": "Chacha steers the car onto the narrow dirt track.",
+        "camera": "push-in",
+        "mood": "Sunny colours, Chacha's confident grin, Pappu's raised eyebrows, Chachi's doubtf"
+      },
+      {
+        "id": "liicq5",
+        "narration": "پپو نے پوچھا، چچا، منزل شادی ہے یا کھیتی باڑی؟",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated car interior, Chacha driving and Pappu securely seated beside him, tall crops close outside the windows, no visible text.",
+        "action": "Pappu points through the side window at the crops.",
+        "camera": "static",
+        "mood": "Pappu's patient questioning expression contrasts with Chacha's cheerful certaint"
+      },
+      {
+        "id": "b67hau",
+        "narration": "چچا بولے، جی پی ایس میرے تجربے کی تصدیق کررہا ہے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated car dashboard, mounted unbranded phone displaying only a thick forward arrow on a plain map without letters or numbers.",
+        "action": "Chacha gestures proudly toward the mounted phone.",
+        "camera": "push-in",
+        "mood": "Comically puffed chest, broad moustached smile, Pappu's restrained concern."
+      },
+      {
+        "id": "rgm0p4",
+        "narration": "پھر پکی سڑک گئی، اور کچا راستہ بھی ختم ہوگیا!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated countryside, dirt track ending at an open cultivated field, family visible through the car windows, no buildings or signs.",
+        "action": "The car rolls off the dirt track into the field.",
+        "camera": "pan-right",
+        "mood": "Warm sunlight, absurdly peaceful countryside, increasingly alarmed passengers."
+      },
+      {
+        "id": "ks8a4t",
+        "narration": "چاچی بولیں، اب فصل سے راستہ پوچھ لیجیے!",
+        "characters": [
+          "chacha",
+          "chachi"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated car interior surrounded by tall green crops, Chacha at the wheel and Chachi in the rear seat, no visible text.",
+        "action": "Chachi presents an open palm toward the crops outside.",
+        "camera": "static",
+        "mood": "Chachi's knowing half-smile, Chacha's stubbornly confident expression."
+      },
+      {
+        "id": "cpwqqx",
+        "narration": "چچا نے رفتار بڑھائی، پہیہ وہیں گھومتا رہ گیا!",
+        "characters": [],
+        "scene": "Vertical 9:16, bright 3D animated close view of the unbranded car's rear wheel lodged in a shallow muddy furrow, green field beyond, no visible text.",
+        "action": "The rear wheel spins in the mud.",
+        "camera": "low-angle",
+        "mood": "Small comic mud splashes, bright sunshine, unmistakably stuck car."
+      },
+      {
+        "id": "gg66qq",
+        "narration": "پپو بولا، منزل نہیں آئی، مگر گاڑی ضرور رک گئی!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated muddy field, stationary car with one wheel sunk in a furrow, family standing beside it, no visible text.",
+        "action": "Pappu points down at the sunken wheel.",
+        "camera": "pull-out",
+        "mood": "Pappu's gentle amusement, Chacha's embarrassed moustache twitch, Chachi's decisi"
+      },
+      {
+        "id": "01smns",
+        "narration": "چاچی نے کہا، رہنمائی میری، باقی محنت آپ کی!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated field, stationary car with driver door open, Chacha beside the rear bumper and Pappu beside the passenger door.",
+        "action": "Chachi settles into the driver's seat.",
+        "camera": "pan-left",
+        "mood": "Chachi's victorious smile, Pappu's delighted grin, Chacha's reluctant realisatio"
+      },
+      {
+        "id": "gknvk6",
+        "narration": "چاچی بنیں رہنما، چچا بنے انجن؛ اب چلیں گے سبزی منڈی!",
+        "characters": [
+          "chacha",
+          "pappu",
+          "chachi"
+        ],
+        "scene": "Vertical 9:16, bright 3D animated field beside the dirt track, Chachi at the car's wheel, Pappu seated inside with an empty woven shopping basket, Chacha behind the rear bumper, no visible text.",
+        "action": "Chacha pushes the car toward the dirt track.",
+        "camera": "low-angle",
+        "mood": "Chacha's exaggerated determined grimace, Chachi's triumphant calm, Pappu's affec"
+      }
+    ],
+    "endHook": "Agla parao sabzi mandi: kya Chacha Jee bhao taao jeet payenge?",
+    "createdAt": "2026-11-12T19:49:24.998Z",
+    "description": "چچا جی کو راستہ بھول سکتا ہے، مگر ان کا جی پی ایس کبھی نہیں! جب گاڑی کھیت میں جا پہنچی تو چاچی جان نے رہنمائی بھی سنبھالی اور چچا جی کی ڈیوٹی بھی لگا دی۔",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu cartoon",
+      "Pakistani comedy",
+      "GPS comedy",
+      "YouTube Shorts",
+      "3D animation"
+    ]
+  }
+}

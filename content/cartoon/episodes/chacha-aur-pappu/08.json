@@ -1,0 +1,131 @@
+{
+  "number": 8,
+  "topic": "Chacha Jee opens the electricity bill.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:49:14.831Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Chacha Jee Ka Ek Plug Wala Formula!",
+    "shots": [
+      {
+        "id": "kc1wm2",
+        "narration": "بجلی کا بل آیا، چاچا کی مونچھیں بھی ہل گئیں!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Bright Pakistani living room, sunny yellow walls, patterned sofa, vertical 9:16, polished 3D animated comedy look; bill paper faces away from camera, no visible text or symbols.",
+        "action": "Chacha opens a folded electricity bill with dramatically widened eyes.",
+        "camera": "push-in",
+        "mood": "Raised eyebrows, trembling moustache, warm sunny colours."
+      },
+      {
+        "id": "dsqd6l",
+        "narration": "پھر بولے، بچت کا اصل طریقہ مجھے آتا ہے!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same bright living room beside a wall socket, vertical 9:16, polished 3D animation, no text or logos.",
+        "action": "Chacha raises one finger confidently beside an attentive Pappu.",
+        "camera": "low-angle",
+        "mood": "Chacha beams proudly; Pappu watches with patient curiosity."
+      },
+      {
+        "id": "8w2lti",
+        "narration": "پپو، وہ زیادہ سوراخوں والا بورڈ لاؤ!",
+        "characters": [
+          "pappu"
+        ],
+        "scene": "Same living room, open floor beside the sofa, vertical 9:16, polished 3D animation; plain unmarked power strip, no text.",
+        "action": "Pappu presents a three-socket power strip in both hands.",
+        "camera": "static",
+        "mood": "Pappu wears a small, questioning smile."
+      },
+      {
+        "id": "sq0rz0",
+        "narration": "تین پنکھے، مگر دیوار میں پلگ صرف ایک!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same living room with three small pedestal fans and a wall-connected power strip, two fan plugs already inserted, vertical 9:16, no text or logos.",
+        "action": "Chacha inserts the third fan plug into the power strip.",
+        "camera": "pan-right",
+        "mood": "Chacha grins triumphantly while Pappu raises an eyebrow."
+      },
+      {
+        "id": "sbq50a",
+        "narration": "چاچا سمجھے، اب بل بھی ایک پنکھے کا آئے گا!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Same sunny living room, three running pedestal fans aimed toward the sofa, curtains blowing, vertical 9:16, no text.",
+        "action": "Chacha reclines on the sofa in the combined breeze.",
+        "camera": "pull-out",
+        "mood": "Eyes closed, satisfied smile, waistcoat fluttering comically."
+      },
+      {
+        "id": "yrykey",
+        "narration": "پپو بولا، چاچا، تینوں پنکھے بجلی تو کھائیں گے!",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Same living room with three running fans and their cables leading to one power strip, vertical 9:16, no text.",
+        "action": "Pappu points toward the three occupied power-strip sockets.",
+        "camera": "push-in",
+        "mood": "Pappu looks patiently explanatory; Chacha keeps a stubbornly confident smile."
+      },
+      {
+        "id": "jlno7y",
+        "narration": "چاچی آئیں، اور سارا فارمولا بند کر دیا!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same living room, wall socket clearly visible beside the sofa, three fans in the background, vertical 9:16, no text.",
+        "action": "Chachi pulls the power strip's single plug from the wall socket.",
+        "camera": "pan-left",
+        "mood": "Chachi looks calmly decisive; Chacha's smile drops."
+      },
+      {
+        "id": "bi7lwe",
+        "narration": "بولیں، یہ پنکھا چلاؤ، بل بالکل نہیں بڑھے گا!",
+        "characters": [
+          "chachi",
+          "chacha"
+        ],
+        "scene": "Same sunny living room, stationary electric fans behind the sofa, vertical 9:16; plain woven hand fan without writing.",
+        "action": "Chachi places a woven hand fan into Chacha's hand.",
+        "camera": "static",
+        "mood": "Chachi smiles sweetly; Chacha stares at the fan in disbelief."
+      },
+      {
+        "id": "7yhejc",
+        "narration": "اب چاچا ہوا دیں گے، اگلی بار استری کی باری!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Same bright living room, Chachi seated comfortably beside Pappu, ironing board with rumpled clothes and an unplugged plain iron nearby, vertical 9:16, no text or logos.",
+        "action": "Chacha fans the comfortably seated Chachi with the woven hand fan.",
+        "camera": "pull-out",
+        "mood": "Chachi wears a victorious smile; Pappu suppresses a giggle; Chacha's moustache d"
+      }
+    ],
+    "endHook": "Agli baar kapron ki istri, aur Chacha Jee ki nayi tarkeeb!",
+    "createdAt": "2026-11-12T19:49:14.829Z",
+    "description": "بجلی کا بل دیکھ کر چاچا جی نے بچت کا انوکھا نسخہ نکالا۔ مگر چاچی جان کے ایک فیصلے نے سارا حساب بدل دیا!",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu cartoon",
+      "Pakistani comedy",
+      "Bijli ka bill",
+      "Family comedy",
+      "YouTube Shorts"
+    ]
+  }
+}

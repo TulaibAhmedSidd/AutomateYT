@@ -1,0 +1,132 @@
+{
+  "number": 14,
+  "topic": "The summer war over the AC remote.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:49:50.495Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "AC Remote Ki Jang",
+    "shots": [
+      {
+        "id": "0abam1",
+        "narration": "چچا نے ریموٹ ایسے پکڑا، جیسے خزانے کی چابی ہو!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Bright Pakistani living room, wall-mounted air conditioner, sunny window, 3D animated comedy film look, vertical 9:16, no text or symbols.",
+        "action": "Chacha hugs the air conditioner remote tightly against his grey waistcoat while Pappu watches with raised eyebrows.",
+        "camera": "push-in",
+        "mood": "Chacha's triumphant grin contrasts with Pappu's patient disbelief."
+      },
+      {
+        "id": "zkl9fh",
+        "narration": "بولے، آج گرمی کو گھر سے نکال دوں گا!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "White sofa beneath a wall-mounted air conditioner, curtains beside a sunlit window, vertical 9:16, no visible writing or display digits.",
+        "action": "Chacha repeatedly presses the remote's blue button toward the air conditioner.",
+        "camera": "low-angle",
+        "mood": "Puffed chest, confident smile, exaggerated determination."
+      },
+      {
+        "id": "mriue7",
+        "narration": "پپو بولا، چچا، ہمیں برف نہیں بننا!",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Pakistani living room with curtains fluttering beneath the air conditioner, vertical 9:16, unmarked remote.",
+        "action": "Pappu reaches an open hand toward the remote in Chacha's fist.",
+        "camera": "pan-right",
+        "mood": "Pappu wears a patient pleading expression; Chacha looks stubbornly pleased."
+      },
+      {
+        "id": "6xuo3l",
+        "narration": "چچا نے ریموٹ ٹوپی میں چھپا لیا!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Close view beside the living room sofa, bright warm furnishings, vertical 9:16, no text.",
+        "action": "Chacha slips the remote beneath his lifted grey karakul cap.",
+        "camera": "push-in",
+        "mood": "Secretive smug grin, Pappu's amused sideways glance."
+      },
+      {
+        "id": "kglx4f",
+        "narration": "تھوڑی دیر میں پپو کے دانت بجنے لگے!",
+        "characters": [
+          "pappu"
+        ],
+        "scene": "Living room armchair directly beneath the air conditioner, fluttering curtain edge, vertical 9:16, no text.",
+        "action": "Pappu shivers with his arms wrapped around his green cricket shirt.",
+        "camera": "static",
+        "mood": "Comically chattering teeth and hunched shoulders."
+      },
+      {
+        "id": "f40cyc",
+        "narration": "پھر چچا بھی کانپے، مگر اکڑ برقرار رہی!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "White living room sofa beneath the air conditioner, remote bulge visible under Chacha's tilted cap, vertical 9:16, no text.",
+        "action": "Chacha shivers while maintaining a stiff, proudly upright pose.",
+        "camera": "push-in",
+        "mood": "Forced smile, trembling moustache, stubbornly raised chin."
+      },
+      {
+        "id": "n1t381",
+        "narration": "چاچی کمبل لائیں تو چچا کی آنکھیں چمک اٹھیں!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Living room doorway beside the sofa, thick folded blanket in Chachi's arms, vertical 9:16, no text.",
+        "action": "Chachi extends the folded blanket toward Chacha.",
+        "camera": "pull-out",
+        "mood": "Chachi's knowing smile, Chacha's eager wide eyes, Pappu's curious expression."
+      },
+      {
+        "id": "ut8rtt",
+        "narration": "کمبل کے بدلے، ریموٹ خود پیش کر دیا!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Living room sofa with the blanket spread across Chacha's lap and his cap tilted back, vertical 9:16, no text.",
+        "action": "Chacha places the recovered remote into Chachi's open palm.",
+        "camera": "push-in",
+        "mood": "Chacha looks sheepishly relieved; Chachi smiles victoriously; Pappu beams."
+      },
+      {
+        "id": "n024kh",
+        "narration": "ریموٹ چاچی کا، کمبل چچا کا؛ کل پنکھے کی باری!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Bright Pakistani living room, Chacha bundled up to his chin on the sofa, Pappu beside an unplugged pedestal fan, vertical 9:16, no text or logos.",
+        "action": "Chachi tucks the remote securely into a fold of her printed dupatta.",
+        "camera": "pull-out",
+        "mood": "Chachi's satisfied smile, Chacha's embarrassed eyes above the oversized blanket,"
+      }
+    ],
+    "endHook": "Agli baar pankhe ka rukh kaun tay karega?",
+    "createdAt": "2026-11-12T19:49:50.494Z",
+    "description": "گرمی میں چچا جی نے اے سی کے ریموٹ پر قبضہ جما لیا! پپو سمجھاتا رہ گیا، مگر چاچی جان نے ایک کمبل سے پوری جنگ جیت لی۔",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu cartoon",
+      "Pakistani comedy",
+      "AC remote",
+      "family comedy",
+      "YouTube Shorts"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "islamic",
+  "why": "Owner's request: Islamic history in Urdu, child-friendly. Peaceful history only: places, buildings, books, travel and learning. Big Pakistani audience, evergreen.",
+  "series": {
+    "id": "tareekh-ke-roshan-safhay",
+    "name": "Tareekh ke Roshan Safhay",
+    "language": "ur",
+    "audience": "kids",
+    "madeForKids": false,
+    "style": "3D animated family film look, warm golden light, historic Islamic architecture, gardens, desert, river and city landscapes, oil lamps and manuscripts, calm and respectful mood, vertical 9:16 frame",
+    "negative": "text, letters, watermark, logo, faces or bodies of prophets, companions or holy figures, weapons, war, blood, scary, blurry",
+    "characters": [
+      {
+        "id": "nana",
+        "name": "Nana Abbu",
+        "look": "Nana Abbu, a kind Pakistani grandfather with a neat white beard, round glasses, a cream kurta and a brown waistcoat, an ordinary family elder"
+      },
+      {
+        "id": "areeba",
+        "name": "Areeba",
+        "look": "Areeba, a curious 10-year-old Pakistani girl with a light-pink dupatta over her hair and a yellow shalwar kameez"
+      }
+    ],
+    "voice": {
+      "provider": "recorded",
+      "edgeVoice": "ur-PK-AsadNeural"
+    },
+    "rules": [
+      "Never show the face or body of any prophet, companion (sahabi), member of the Prophet's family or any holy figure, not even as a silhouette. Show places, objects, nature and light instead; the story is narrated.",
+      "Child-friendly and peaceful: no wars, battles, politics, sectarian differences or criticism of any religion or group. Focus on knowledge, kindness, beauty, travel and building things.",
+      "Only authentic, well-known history. Use the names, dates and numbers exactly as given in the episode idea; never invent quotes, hadith, dates or numbers.",
+      "Nana Abbu tells the story to Areeba at home; the history itself is shown through places, buildings, maps, manuscripts and objects.",
+      "Respectful, calm and proud tone. Narration in simple Urdu script that a 10-year-old understands.",
+      "The last shot asks a question that leads to the next episode."
+    ],
+    "episodeSeconds": 60,
+    "palette": {
+      "bg": "#0b1a2e",
+      "accent": "#e9c46a"
+    }
+  },
+  "topics": [
+    "The Hijra: in 622 CE the Muslims of Makkah migrated to Madinah. The Islamic (Hijri) calendar counts its years from this journey. Show the desert road at night, the cave of Thawr from outside, and Madinah's palm groves welcoming travellers.",
+    "Masjid an-Nabawi: first built in Madinah in 622 CE with palm-tree trunks, mud bricks and a roof of palm leaves. Today it is one of the largest mosques in the world. Show the simple first mosque, then today's mosque with its green dome.",
+    "How the Hijri calendar was chosen: around 638 CE, in the time of the second Caliph Umar (RA), the year of the Hijra was chosen as year one. Show old letters without dates, a moon in the sky and a calendar page.",
+    "The Quran gathered into one book: after 632 CE, under the first Caliph Abu Bakr (RA), the written pages of the Quran were collected into one copy; later, under Caliph Uthman (RA), standard copies were sent to the major cities. Show parchment, leather, ink pots, reed pens and copies travelling on camels.",
+    "Baghdad was founded in 762 CE by the Abbasid caliph al-Mansur as a perfectly round city on the river Tigris. Show the round walls, four gates, markets and the river.",
+    "Paper comes to the Muslim world: paper-making was learned in Samarkand after 751 CE, and Baghdad had its first paper mill around 794-795 CE. Books became cheaper and libraries grew. Show pulp, frames, drying sheets and a busy book market.",
+    "Hospitals of the past: the al-Mansuri hospital in Cairo, opened in 1284 CE, treated patients free of charge, rich or poor, with separate wards and music to calm patients. Show clean halls, fountains, gardens and medicine jars (no blood).",
+    "The Great Mosque of Cordoba was begun in 784-785 CE by Abd al-Rahman I. It is famous for its forest of red-and-white striped arches. Show endless arches and soft light.",
+    "Fatima al-Fihri founded al-Qarawiyyin in Fez, Morocco, in 859 CE. It is recognised as the oldest existing, continually operating educational institution in the world. Show the courtyard, books and the city of Fez. Show Fatima only from far away or from behind.",
+    "Islamic geometric patterns: artists made amazing stars and repeating patterns using only a compass and a straight ruler. Show a circle becoming a star, then a whole tiled wall.",
+    "The art of calligraphy: Kufic script is angular and was used in early Quran copies; Naskh script is rounded and easy to read, and most printed Arabic today grew from it. Show a reed pen (qalam), ink and letters forming.",
+    "Mansa Musa of Mali went on Hajj in 1324 CE with a huge caravan carrying so much gold that its price fell in Cairo for years. Show a long caravan in the desert and glittering gold.",
+    "Ibn Battuta (1304-1369 CE) from Tangier travelled for about 30 years and covered roughly 120,000 km, reaching India, China and Africa, and wrote about everything he saw. Show his journey on a map with ships, camels and cities.",
+    "The Alhambra palace in Granada was built mainly in the 1300s CE by the Nasrid dynasty. Its walls are covered in geometric tiles and carved patterns. Show the Court of the Lions, water channels and tile patterns.",
+    "The Badshahi Mosque in Lahore was built by Mughal emperor Aurangzeb in 1671-1673 CE. For a long time it was the largest mosque in the world. Show its red sandstone, white marble domes and huge courtyard at sunset."
+  ],
+  "moreIdeas": [
+    "The Taj Mahal in Agra was built by Mughal emperor Shah Jahan in memory of his wife Mumtaz Mahal, between about 1632 and 1653 CE, by around 20,000 workers. Show white marble, gardens and the river Yamuna.",
+    "The Umayyad Mosque of Damascus was completed in 715 CE, famous for its golden mosaics of trees, rivers and houses. Show the big courtyard and the shining mosaics.",
+    "Timbuktu in Mali was a great centre of learning in the 1300s to 1500s CE. Families kept huge numbers of old manuscripts on science, poetry and law safe for centuries. Show mud-brick buildings, chests of manuscripts and students reading.",
+    "The Great Mosque of Xi'an in China looks like a Chinese temple, with curved roofs and a pagoda-style minaret. Tradition says it was founded in 742 CE; most buildings standing today are from the Ming period. Show its gardens and Chinese roofs.",
+    "The Great Mosque of Djenne in Mali is the largest mud-brick building in the world. Today's building dates from 1907, and every year the whole town replasters it with fresh mud in a happy festival. Show people carrying mud baskets together.",
+    "The journey of coffee: in the 1400s, Sufis in Yemen drank coffee to stay awake for night prayers. Coffee then spread to Makkah, Cairo and Istanbul, and from there to the whole world. Show coffee beans, small cups and old coffee houses.",
+    "The Qutub Minar in Delhi was begun around 1199 CE by Qutb-ud-din Aibak and finished by Iltutmish. It is about 73 metres tall and made of red and buff sandstone with carved writing bands. Show the tall tower from the ground looking up.",
+    "The Shah Jahan Mosque in Thatta, Sindh, was built around 1647-1649 CE. It has 93 domes and is famous for its blue tiles and its echo: a whisper can be heard far across the hall. Show blue tiles and domes.",
+    "The Wazir Khan Mosque in Lahore was built in 1634-1641 CE. It is famous for its colourful tile work (kashi kari) and painted walls. Show the colourful walls and the old city around it.",
+    "The Shalimar Gardens in Lahore were built in 1641-1642 CE by Mughal emperor Shah Jahan. They have three terraces and about 410 fountains. Show water channels, fountains and flower beds."
+  ]
+}

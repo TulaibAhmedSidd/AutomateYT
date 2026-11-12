@@ -1,0 +1,134 @@
+{
+  "number": 9,
+  "topic": "Guests are coming for a rishta: the battle over which biscuits to serve with tea.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-12T19:49:14.242Z",
+  "episode": {
+    "id": "",
+    "seriesId": "chacha-aur-pappu",
+    "title": "Rishtay Ke Biscuit!",
+    "shots": [
+      {
+        "id": "s4uzeq",
+        "narration": "رشتے والے آنے کو تھے، مگر بسکٹوں پر جنگ چھڑ گئی!",
+        "characters": [
+          "chacha",
+          "chachi",
+          "pappu"
+        ],
+        "scene": "Bright Pakistani living room, sunny yellow walls, tea table, vertical 9:16, 3D animated comedy film look, no text or logos.",
+        "action": "Chacha holds a towering platter of decorated biscuits opposite Chachi's small plate of plain biscuits, with Pappu between them.",
+        "camera": "push-in",
+        "mood": "Raised eyebrows, exaggerated competitive smiles, warm sunny colours."
+      },
+      {
+        "id": "u09xjv",
+        "narration": "چچا بولے، رشتہ پکا کرنا ہے، سادہ بسکٹ نہیں چلیں گے!",
+        "characters": [
+          "chacha",
+          "chachi"
+        ],
+        "scene": "Tea table in the same bright Pakistani living room, vertical 9:16, polished 3D animation, no text or logos.",
+        "action": "Chacha slides Chachi's plain biscuit plate to the far end of the table.",
+        "camera": "pan-right",
+        "mood": "Chacha's chin lifted confidently, Chachi's eyebrow sharply raised."
+      },
+      {
+        "id": "ikqi8a",
+        "narration": "پپو بولا، پہلے چکھ لیں، کہیں ذائقہ خراب نہ ہو!",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Beside the decorated biscuit platter in the sunny living room, vertical 9:16, 3D animated comedy look, no text or logos.",
+        "action": "Pappu offers Chacha one decorated biscuit.",
+        "camera": "static",
+        "mood": "Pappu's patient smile, Chacha's eager wide eyes."
+      },
+      {
+        "id": "ltruqu",
+        "narration": "چچا نے کہا، معیار پر سمجھوتہ بالکل نہیں ہوگا!",
+        "characters": [
+          "chacha"
+        ],
+        "scene": "Close view of Chacha beside the tea table, decorated biscuit platter below, vertical 9:16, bright 3D animation, no text or logos.",
+        "action": "Chacha takes an enormous bite of the biscuit.",
+        "camera": "push-in",
+        "mood": "Puffed cheeks, solemn food-expert expression, playful warmth."
+      },
+      {
+        "id": "2isgx8",
+        "narration": "پھر ہر قسم کا معیار الگ الگ جانچا گیا!",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Same living room tea table with only one decorated biscuit remaining on the platter, vertical 9:16, 3D animation, no text or logos.",
+        "action": "Chacha lifts the final decorated biscuit toward his mouth.",
+        "camera": "pan-left",
+        "mood": "Chacha looks blissfully absorbed, Pappu watches with a knowing half-smile."
+      },
+      {
+        "id": "m61dbz",
+        "narration": "آخر چچا بولے، مہمانوں والی پلیٹ کہاں ہے؟",
+        "characters": [
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Sunny living room, crumb-covered serving platter on the tea table, vertical 9:16, cinematic 3D cartoon look, no text or logos.",
+        "action": "Chacha tilts the empty platter toward Pappu.",
+        "camera": "pull-out",
+        "mood": "Chacha's frozen smile, biscuit crumbs caught in his moustache, Pappu's calm expr"
+      },
+      {
+        "id": "y5uf75",
+        "narration": "پپو بولا، پلیٹ یہاں ہے، بسکٹ آپ کے اندر ہیں!",
+        "characters": [
+          "pappu",
+          "chacha"
+        ],
+        "scene": "Beside the tea table in the bright Pakistani living room, vertical 9:16, expressive 3D animation, no text or logos.",
+        "action": "Pappu points at Chacha's round belly.",
+        "camera": "low-angle",
+        "mood": "Pappu's gentle amusement, Chacha's sheepish downward glance."
+      },
+      {
+        "id": "44ihdi",
+        "narration": "چاچی کے سادہ بسکٹ آخر خاص پلیٹ میں پہنچ گئے!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Tea table with an elegant serving platter in the sunny living room, vertical 9:16, warm 3D animated comedy look, no text or logos.",
+        "action": "Chachi transfers her plain biscuits onto the elegant platter.",
+        "camera": "push-in",
+        "mood": "Chachi's triumphant smile, Chacha's embarrassed grin, Pappu's approving expressi"
+      },
+      {
+        "id": "uhi63h",
+        "narration": "بسکٹ میرے چلیں گے، اب آپ کی چائے کا امتحان ہے!",
+        "characters": [
+          "chachi",
+          "chacha",
+          "pappu"
+        ],
+        "scene": "Living room beside the open kitchen doorway, plain biscuits displayed behind the family, vertical 9:16, bright 3D animation, no text or logos.",
+        "action": "Chachi hands Chacha an empty tea saucepan.",
+        "camera": "pull-out",
+        "mood": "Chachi's victorious grin, Chacha's startled eyes, Pappu's delighted smile."
+      }
+    ],
+    "endHook": "Agli baar: Chacha Jee ki chai ka imtihaan!",
+    "createdAt": "2026-11-12T19:49:14.240Z",
+    "description": "رشتے والے آنے لگے تو چچا جی اور چاچی جان میں بسکٹوں پر مقابلہ چھڑ گیا۔ پپو کی سمجھداری اور چچا جی کی چکھنے کی عادت نے سارا فیصلہ بدل دیا!",
+    "tags": [
+      "Chacha Jee aur Pappu",
+      "Urdu cartoon",
+      "Pakistani family comedy",
+      "rishta",
+      "biscuits",
+      "YouTube Shorts"
+    ]
+  }
+}

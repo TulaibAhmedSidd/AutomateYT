@@ -1,0 +1,60 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "trending",
+  "why": "Trending: 'talking objects' POV comedy is one of the most-cited rising animated Shorts formats. Every viewer owns these objects, so it is instantly relatable.",
+  "series": {
+    "id": "if-things-could-talk",
+    "name": "If Things Could Talk",
+    "language": "en",
+    "audience": "general",
+    "madeForKids": false,
+    "style": "3D animated comedy look, everyday objects with cute expressive cartoon faces (big eyes, small mouth), cosy modern home and city settings, bright colours, vertical 9:16 frame",
+    "negative": "text, letters, words, brand names, logos, watermark, blood, scary, blurry",
+    "characters": [],
+    "voice": {
+      "provider": "recorded",
+      "edgeVoice": "en-US-AndrewNeural"
+    },
+    "rules": [
+      "Each episode, one everyday object tells its side of the story in first person, like a funny diary of its day.",
+      "The object has a cute cartoon face. Describe it in every shot's action so it stays recognisable.",
+      "Relatable observational comedy that every viewer has lived through. No brand names.",
+      "Only include a fact about the object if it is common knowledge; never invent numbers.",
+      "End on a punchline in the last shot."
+    ],
+    "episodeSeconds": 45,
+    "palette": {
+      "bg": "#1d1b3a",
+      "accent": "#ff7aa2"
+    }
+  },
+  "topics": [
+    "A phone at 1% battery, begging its owner for a charger.",
+    "The alarm clock that everyone hates every morning.",
+    "The fridge at midnight, watching the owner open the door for the tenth time.",
+    "The umbrella that is always forgotten at home on rainy days.",
+    "A toothbrush's morning and night routine.",
+    "A lonely sock that lost its pair in the wash.",
+    "The TV remote hiding in the sofa cushions.",
+    "A ceiling fan working overtime in the summer heat.",
+    "The pressure cooker that loves to whistle at the worst moment.",
+    "A school bag on Monday morning.",
+    "A bent phone charger cable holding on for dear life.",
+    "An ice cube's last minutes in a glass of lemonade.",
+    "The rubbish bin on collection day.",
+    "An old phone retired to the drawer.",
+    "The bathroom mirror on a bad-hair morning."
+  ],
+  "moreIdeas": [
+    "A pencil who keeps losing to the eraser.",
+    "The washing machine on spin day.",
+    "The 'E' key on an old keyboard, tired of being pressed the most.",
+    "A light bulb who thinks it is the source of every good idea.",
+    "The doormat that everyone walks over.",
+    "A shopping trolley with one wobbly wheel.",
+    "The kettle that is always switched on and then forgotten.",
+    "A pair of sunglasses always being lost on top of their owner's head.",
+    "A calculator during a maths exam.",
+    "A backpack zipper stuck at the worst moment."
+  ]
+}
