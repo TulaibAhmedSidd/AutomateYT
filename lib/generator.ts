@@ -8,7 +8,8 @@ import { renderVideo, generateThumbnail } from './ffmpeg';
 import { normalizeModelSelections, type StepModelSelections } from './generation-config';
 import { saveLocalFileToGridFS } from './storage';
 
-const IS_VERCEL = process.env.VERCEL === '1' || process.env.NODE_ENV === 'production';
+// Only real Vercel servers use /tmp. `npm start` on a PC (the GPU home PC) keeps files in the project.
+const IS_VERCEL = process.env.VERCEL === '1';
 const WORKSPACE_DIR = IS_VERCEL ? '/tmp' : process.cwd();
 
 function getStoragePath(subDir: string, fileName: string) {
@@ -245,7 +246,7 @@ export async function executeVideoGeneration(
       try {
         for (let i = 0; i < scriptDataObj.length; i++) {
           if (scriptDataObj[i].uploadedImagePath) {
-            await fs.copy(getPublicAssetDiskPath(scriptDataObj[i].uploadedImagePath), imagePaths[i], { overwrite: true });
+            await fs.copy(getPublicAssetDiskPath(scriptDataObj[i].uploadedImagePath as string), imagePaths[i], { overwrite: true });
             continue;
           }
 

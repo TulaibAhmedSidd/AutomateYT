@@ -3,8 +3,10 @@
 import { useState, useEffect } from 'react';
 import { Activity, CheckCircle2, AlertCircle, Loader2 } from 'lucide-react';
 
+type QueueJob = { _id: string; type: string; videoId?: string | { _id: string }; status: string; progress?: number; logs?: string[] };
+
 export default function QueuePage() {
-  const [jobs, setJobs] = useState([]);
+  const [jobs, setJobs] = useState<QueueJob[]>([]);
 
   const fetchJobs = async () => {
     const res = await fetch('/api/jobs');
@@ -13,9 +15,12 @@ export default function QueuePage() {
   };
 
   useEffect(() => {
-    fetchJobs();
+    const first = setTimeout(fetchJobs, 0);
     const int = setInterval(fetchJobs, 3000);
-    return () => clearInterval(int);
+    return () => {
+      clearTimeout(first);
+      clearInterval(int);
+    };
   }, []);
 
   return (
@@ -37,13 +42,13 @@ export default function QueuePage() {
             </tr>
           </thead>
           <tbody className="divide-y divide-slate-800/50">
-            {jobs.map((job: any) => (
+            {jobs.map((job) => (
               <tr key={job._id} className="hover:bg-slate-800/20 transition-colors">
                 <td className="p-4">
                   <span className="font-medium text-slate-200">{job.type}</span>
                 </td>
                 <td className="p-4 text-slate-400 text-sm font-mono truncate max-w-[120px]">
-                  {job.videoId?._id || job.videoId}
+                  {typeof job.videoId === 'object' ? job.videoId._id : job.videoId}
                 </td>
                 <td className="p-4">
                   <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium ${

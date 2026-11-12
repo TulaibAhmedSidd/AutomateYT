@@ -540,14 +540,14 @@ export const MotionShort: React.FC<{ spec: MotionSpec }> = ({ spec }) => {
   const urdu = spec.language === 'ur';
   const ctx: Ctx = { theme, urdu, ...fonts(urdu) };
   const total = totalFrames(spec);
-  let from = 0;
+  const starts = spec.scenes.reduce<number[]>((acc, s, i) => [...acc, i === 0 ? 0 : acc[i - 1] + sceneFrames(spec.scenes[i - 1])], []);
   return (
     <AbsoluteFill style={{ backgroundColor: theme.bg }}>
       <Background theme={theme} />
       {spec.scenes.map((scene, i) => {
         const frames = sceneFrames(scene);
-        const seq = (
-          <Sequence key={i} from={from} durationInFrames={frames} name={`${i + 1}. ${scene.kind}`}>
+        return (
+          <Sequence key={i} from={starts[i]} durationInFrames={frames} name={`${i + 1}. ${scene.kind}`}>
             <SceneShell frames={frames}>
               <SceneBody scene={scene} ctx={ctx} frames={frames} />
             </SceneShell>
@@ -555,8 +555,6 @@ export const MotionShort: React.FC<{ spec: MotionSpec }> = ({ spec }) => {
             {scene.audio && <Html5Audio src={audioSrc(spec, scene.audio)} />}
           </Sequence>
         );
-        from += frames;
-        return seq;
       })}
       <ProgressBar theme={theme} total={total} />
       <div

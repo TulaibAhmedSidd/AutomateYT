@@ -207,7 +207,7 @@ export default function MotionStudioPage() {
     if (data.spec) {
       const { assetBase: _assetBase, ...rest } = data.spec as MotionSpec;
       void _assetBase;
-      setSpec({ ...rest, scenes: rest.scenes.map(({ audio: _a, words: _w, duration: _d, ...s }) => s) });
+      setSpec({ ...rest, scenes: rest.scenes.map((s) => ({ kind: s.kind, voice: s.voice, heading: s.heading, sub: s.sub, value: s.value, items: s.items })) });
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }

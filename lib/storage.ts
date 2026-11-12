@@ -21,9 +21,10 @@ function getBucket() {
 
 export async function saveLocalFileToGridFS(localPath: string, remoteName: string, contentType: string) {
   const bucket = getBucket();
+  // The MongoDB 7 driver dropped the top-level contentType option, so it lives in metadata.
   const uploadStream = bucket.openUploadStream(remoteName, {
-    contentType,
     metadata: {
+      contentType,
       sourcePath: localPath,
     },
   });
@@ -61,7 +62,7 @@ export async function readGridFSFile(fileId: string) {
 
   return {
     buffer: Buffer.concat(chunks),
-    contentType: typeof fileDoc.contentType === 'string' ? fileDoc.contentType : 'application/octet-stream',
+    contentType: typeof fileDoc.metadata?.contentType === 'string' ? fileDoc.metadata.contentType : typeof fileDoc.contentType === 'string' ? fileDoc.contentType : 'application/octet-stream',
     filename: typeof fileDoc.filename === 'string' ? fileDoc.filename : path.basename(fileId),
   };
 }

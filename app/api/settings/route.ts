@@ -22,7 +22,7 @@ export async function POST(req: Request) {
     
     await settings.save();
     return NextResponse.json({ success: true, settings });
-  } catch (error: any) {
-    return NextResponse.json({ success: false, error: error.message }, { status: 500 });
+  } catch (error: unknown) {
+    return NextResponse.json({ success: false, error: error instanceof Error ? error.message : String(error) }, { status: 500 });
   }
 }

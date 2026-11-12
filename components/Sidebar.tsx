@@ -52,8 +52,11 @@ export default function Sidebar() {
   const [search, setSearch] = useState('');
 
   useEffect(() => {
-    setOpen(false);
-    setSearch(window.location.search);
+    const id = window.setTimeout(() => {
+      setOpen(false);
+      setSearch(window.location.search);
+    }, 0);
+    return () => window.clearTimeout(id);
   }, [pathname]);
 
   useEffect(() => {

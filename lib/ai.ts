@@ -50,7 +50,7 @@ Return exactly 3 scenes for AI image generation. Keep the video around 45 to 60 
     : `Generate a script about a fascinating but lesser-known historical event.`;
 
   if (aiModel.includes('gemini')) {
-    const genAI = new GoogleGenerativeAI(settings.apiKeys.gemini || process.env.GEMINI_API_KEY || '');
+    const genAI = new GoogleGenerativeAI(settings.apiKeys?.gemini || process.env.GEMINI_API_KEY || '');
     const model = genAI.getGenerativeModel({ 
         model: aiModel.includes('pro') ? 'gemini-1.5-pro' : 'gemini-1.5-flash',
         generationConfig: { responseMimeType: "application/json" }
@@ -61,7 +61,7 @@ Return exactly 3 scenes for AI image generation. Keep the video around 45 to 60 
   } else {
     // OpenAI Fallback
     const openai = new OpenAI({
-      apiKey: settings.apiKeys.openai || process.env.OPENAI_API_KEY
+      apiKey: settings.apiKeys?.openai || process.env.OPENAI_API_KEY
     });
 
     const response = await openai.chat.completions.create({
@@ -78,7 +78,7 @@ Return exactly 3 scenes for AI image generation. Keep the video around 45 to 60 
 }
 
 export async function generateVoiceover(text: string, outputPath: string, settings: AISettings, voiceModel: string = 'eleven_multilingual_v2') {
-  const apiKey = settings.apiKeys.elevenlabs || process.env.ELEVENLABS_API_KEY;
+  const apiKey = settings.apiKeys?.elevenlabs || process.env.ELEVENLABS_API_KEY;
   if (!apiKey) throw new Error('ElevenLabs API Key missing');
 
   const voiceId = settings.voiceover?.selectedVoiceId || 'CwhRBWXzGAHq8TQ4Fs17';
@@ -107,7 +107,7 @@ export async function generateVoiceover(text: string, outputPath: string, settin
 }
 
 export async function generateImage(prompt: string, outputPath: string, settings: AISettings, imageModel: string = 'leonardo-sdxl-basic') {
-  const apiKey = settings.apiKeys.leonardo || process.env.LEONARDO_API_KEY;
+  const apiKey = settings.apiKeys?.leonardo || process.env.LEONARDO_API_KEY;
   if (!apiKey) throw new Error('Leonardo API Key missing');
   const imageConfig = getImageModelConfig(imageModel);
 

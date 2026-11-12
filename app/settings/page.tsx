@@ -129,12 +129,12 @@ export default function SettingsPage() {
             Default Models
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {[
+            {([
               ['script', 'Script Model', SCRIPT_MODEL_OPTIONS],
               ['voice', 'Voice Model', VOICE_MODEL_OPTIONS],
               ['image', 'Image Model', IMAGE_MODEL_OPTIONS],
               ['video', 'Video Render', VIDEO_MODEL_OPTIONS],
-            ].map(([key, label, options]) => (
+            ] as [string, string, { id: string; name: string }[]][]).map(([key, label, options]) => (
               <div key={key} className="space-y-2">
                 <label className="text-sm font-medium text-slate-400 block">{label}</label>
                 <select

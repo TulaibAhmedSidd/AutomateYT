@@ -2,7 +2,8 @@ import fs from 'fs-extra';
 import path from 'path';
 import { normalizeModelSelections, type StepModelSelections } from './generation-config';
 
-const IS_VERCEL = process.env.VERCEL === '1' || process.env.NODE_ENV === 'production';
+// Only real Vercel servers use /tmp. `npm start` on a PC (the GPU home PC) keeps files in the project.
+const IS_VERCEL = process.env.VERCEL === '1';
 const WORKSPACE_DIR = IS_VERCEL ? '/tmp' : process.cwd();
 
 function getDiskPath(publicPath: string) {
