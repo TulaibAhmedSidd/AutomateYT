@@ -165,53 +165,64 @@ export function SeriesEditor({ series, onSaved, onError }: Props) {
       </div>
 
       <div className="grid gap-3 sm:grid-cols-2">
-        <label className="block">
-          <span className={label}>Who speaks the lines</span>
+        <label className="block sm:col-span-2">
+          <span className={label}>Narrator voice</span>
           <select
             className={field}
-            value={draft.voice.provider}
+            value={
+              draft.voice.provider === 'elevenlabs'
+                ? `eleven:${draft.voice.elevenVoiceId}`
+                : draft.voice.provider === 'edge'
+                  ? `edge:${draft.voice.edgeVoice}`
+                  : 'recorded'
+            }
             onChange={(e) => {
-              const provider = e.target.value === 'edge' || e.target.value === 'elevenlabs' ? e.target.value : 'recorded';
-              const elevenVoiceId = draft.voice.elevenVoiceId || elevenVoices.find((v) => !v.paidOnly)?.id;
-              set({ voice: { ...draft.voice, provider, ...(provider === 'elevenlabs' ? { elevenVoiceId, elevenModel: draft.voice.elevenModel || 'eleven_v4' } : {}) } });
+              const [kind, id] = e.target.value.split(':');
+              if (kind === 'eleven') set({ voice: { ...draft.voice, provider: 'elevenlabs', elevenVoiceId: id, elevenModel: draft.voice.elevenModel || 'eleven_v4' } });
+              else if (kind === 'edge') set({ voice: { ...draft.voice, provider: 'edge', edgeVoice: id } });
+              else set({ voice: { ...draft.voice, provider: 'recorded' } });
             }}
           >
-            <option value="elevenlabs">ElevenLabs AI voice (natural, uses ElevenLabs credits)</option>
-            <option value="recorded">My own voice (I record each line)</option>
-            <option value="edge">Free Microsoft voice (sounds robotic)</option>
-          </select>
-        </label>
-        {draft.voice.provider === 'edge' ? (
-          <label className="block">
-            <span className={label}>Free voice</span>
-            <select className={field} value={draft.voice.edgeVoice} onChange={(e) => set({ voice: { ...draft.voice, edgeVoice: e.target.value } })}>
+            <optgroup label="ElevenLabs: natural, works on your free plan (speaks Urdu and English)">
+              {elevenVoices
+                .filter((v) => !v.paidOnly)
+                .map((v) => (
+                  <option key={v.id} value={`eleven:${v.id}`}>
+                    {v.name}
+                    {v.gender ? ` · ${v.gender}` : ''}
+                  </option>
+                ))}
+            </optgroup>
+            <optgroup label="Free Microsoft voices (no credits, sounds more robotic)">
               {voices.map((v) => (
-                <option key={v.id} value={v.id}>
+                <option key={v.id} value={`edge:${v.id}`}>
                   {v.label}
                 </option>
               ))}
-            </select>
-          </label>
-        ) : (
-          <label className="block">
-            <span className={label}>{draft.voice.provider === 'elevenlabs' ? 'ElevenLabs voice' : 'AI voice for lines I did not record'}</span>
-            <select
-              className={field}
-              value={draft.voice.elevenVoiceId || ''}
-              onChange={(e) => set({ voice: { ...draft.voice, elevenVoiceId: e.target.value || undefined, elevenModel: draft.voice.elevenModel || 'eleven_v4' } })}
-            >
-              {draft.voice.provider !== 'elevenlabs' && <option value="">Free Microsoft voice</option>}
-              {elevenVoices.map((v) => (
-                <option key={v.id} value={v.id}>
-                  {v.name}
-                  {v.paidOnly ? ' (needs paid ElevenLabs plan)' : ''}
-                </option>
-              ))}
-            </select>
-            {elevenError && <span className="mt-1 block text-xs text-amber-300">{elevenError}</span>}
-          </label>
-        )}
-        {draft.voice.elevenVoiceId && draft.voice.provider !== 'edge' && (
+            </optgroup>
+            <optgroup label="Me">
+              <option value="recorded">My own voice (I record each line)</option>
+            </optgroup>
+            {elevenVoices.some((v) => v.paidOnly) && (
+              <optgroup label="ElevenLabs: needs a paid plan (native Urdu voices)">
+                {elevenVoices
+                  .filter((v) => v.paidOnly)
+                  .map((v) => (
+                    <option key={v.id} value={`eleven:${v.id}`} disabled>
+                      {v.name} (paid plan only)
+                    </option>
+                  ))}
+              </optgroup>
+            )}
+          </select>
+          {elevenError && <span className="mt-1 block text-xs text-amber-300">{elevenError}</span>}
+          {draft.voice.provider === 'elevenlabs' && draft.language === 'ur' && (
+            <span className="mt-1 block text-xs text-slate-500">
+              These voices speak Urdu with a slight foreign accent. Native Pakistani voices (Kamran, Naqsh, Saira…) need a paid ElevenLabs plan.
+            </span>
+          )}
+        </label>
+        {draft.voice.elevenVoiceId && draft.voice.provider === 'elevenlabs' && (
           <label className="block sm:col-span-2">
             <span className={label}>ElevenLabs model</span>
             <select

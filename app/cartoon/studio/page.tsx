@@ -7,6 +7,7 @@ import { Clapperboard, Download, FilePlus2, FolderOpen, Info, Loader2, Pencil, P
 import { PageHeader } from '@/components/format-ui';
 import { SCRIPT_MODEL_INFO, fmtCost, scriptEstimate } from '@/lib/cartoon/models';
 import { ShotCard } from '@/components/cartoon/ShotCard';
+import { VoiceStep, defaultVoiceChoice, type VoiceMode } from '@/components/cartoon/VoiceStep';
 import { SeriesEditor } from '@/components/cartoon/SeriesEditor';
 import { useRecorder } from '@/components/cartoon/useRecorder';
 import { api, card, field, fmtSeconds, ghostBtn, jsonBody, label } from '@/components/cartoon/ui';
@@ -57,6 +58,10 @@ export default function CartoonStudioPage() {
   const [busy, setBusy] = useState<Record<string, string>>({});
   const [bust, setBust] = useState<Record<string, number>>({});
   const [allowAi, setAllowAi] = useState(false);
+  // Step 1 voice choices; null = use the series default.
+  const [voiceMode, setVoiceMode] = useState<VoiceMode | null>(null);
+  const [aiChoice, setAiChoice] = useState<string | null>(null);
+  const [aiModel, setAiModel] = useState<string | null>(null);
   const [starting, setStarting] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const editVersion = useRef(0);
@@ -162,6 +167,9 @@ export default function CartoonStudioPage() {
     setSeriesId(d.episode.seriesId);
     setDirty(false);
     setEditingSeries(false);
+    setVoiceMode(null);
+    setAiChoice(null);
+    setAiModel(null);
   }
 
   async function openEpisode(id: string) {
@@ -232,6 +240,29 @@ export default function CartoonStudioPage() {
     [refreshEpisodes],
   );
   const recorder = useRecorder(onRecorded);
+
+  const mode: VoiceMode = voiceMode ?? (series?.voice.provider === 'recorded' ? 'own' : 'ai');
+  const choice = aiChoice ?? (series ? defaultVoiceChoice(series) : '');
+  const aiModelValue = aiModel ?? series?.voice.elevenModel ?? 'eleven_v4';
+
+  /** Makes (or remakes) one line with the AI voice chosen in Step 1. */
+  async function makeLine(shotId: string) {
+    if (!episode) return;
+    const [kind, voiceId] = choice.split(':');
+    setBusy((b) => ({ ...b, [shotId]: 'voice' }));
+    try {
+      const d = await api<{ episode: CartoonEpisode }>(
+        `/api/cartoon/episodes/${episode.id}/voice?shot=${shotId}`,
+        jsonBody('POST', { provider: kind === 'eleven' ? 'elevenlabs' : 'edge', voiceId, model: aiModelValue }),
+      );
+      mergeShot(shotId, d.episode);
+      refreshEpisodes();
+    } catch (e) {
+      fail(e);
+    } finally {
+      setBusy((b) => omit(b, shotId));
+    }
+  }
 
   async function deleteRecording(shotId: string) {
     if (!episode) return;
@@ -324,7 +355,7 @@ export default function CartoonStudioPage() {
   };
   const recorded = episode?.shots.filter((s) => s.recording).length || 0;
   const total = episode ? episodeFrames(episode) / FPS : 0;
-  const needsVoice = series?.voice.provider === 'recorded' && episode ? episode.shots.length - recorded : 0;
+  const needsVoice = episode ? episode.shots.filter((s) => s.narration.trim() && !s.recording).length : 0;
   const pct = Math.round((status?.progress || 0) * 100);
   const shownError = error || recorder.error;
 
@@ -483,7 +514,27 @@ export default function CartoonStudioPage() {
                   </button>
                 </div>
               </div>
-              <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              <div className="mt-4">
+                <VoiceStep
+                  episode={episode}
+                  series={series}
+                  mode={mode}
+                  onMode={setVoiceMode}
+                  disabled={dirty || saving || isRunning || !episode.shots.every((s) => savedIds.has(s.id))}
+                  choice={choice}
+                  model={aiModelValue}
+                  onChoice={setAiChoice}
+                  onModel={setAiModel}
+                  onLineDone={(shotId, updated) => {
+                    mergeShot(shotId, updated);
+                    refreshEpisodes();
+                  }}
+                  onError={setError}
+                />
+              </div>
+              <details className="mt-4">
+                <summary className="cursor-pointer text-xs font-semibold text-slate-400 hover:text-white">Title and last card</summary>
+              <div className="mt-3 grid gap-3 sm:grid-cols-2">
                 <label className="block sm:col-span-2">
                   <span className={label}>Title</span>
                   <input dir="auto" className={field} value={episode.title} onChange={(e) => edit((x) => ({ ...x, title: e.target.value }))} />
@@ -493,12 +544,19 @@ export default function CartoonStudioPage() {
                   <input dir="auto" className={field} value={episode.endHook} onChange={(e) => edit((x) => ({ ...x, endHook: e.target.value }))} />
                 </label>
               </div>
+              </details>
+
+              <p className="mt-4 rounded-2xl border border-white/[0.07] bg-black/20 p-3 text-xs text-slate-400">
+                <b className="text-slate-200">Step 2 · Pictures:</b> on this PC each line shows the character picture or a scene card. You can upload your own
+                picture for any line under “Picture &amp; scene”. On the GPU PC, ComfyUI will turn them into moving cartoon clips.
+              </p>
 
               <div className="mt-5 flex flex-wrap items-center justify-between gap-3">
                 <p className="text-sm font-semibold text-white">
-                  🎙 Recorded {recorded}/{episode.shots.length}
+                  Lines with voice: {recorded}/{episode.shots.length}
                   <span className="ms-2 text-xs font-normal text-slate-500">{fmtSeconds(total)} total</span>
                 </p>
+                {mode === 'own' && (
                 <details className="text-xs text-slate-400">
                   <summary className="inline-flex cursor-pointer items-center gap-1 hover:text-white">
                     <Info size={13} /> Recording tips
@@ -510,6 +568,7 @@ export default function CartoonStudioPage() {
                     <li>Not happy? Press Record again. The app removes noise, evens the volume and cuts the silence.</li>
                   </ul>
                 </details>
+                )}
               </div>
 
               <ol className="mt-3 space-y-3">
@@ -547,6 +606,9 @@ export default function CartoonStudioPage() {
                       onDeleteRecording={() => deleteRecording(shot.id)}
                       onPicture={(f) => uploadPicture(shot.id, f)}
                       onRemovePicture={() => removePicture(shot.id)}
+                      mode={mode}
+                      onRegenerate={() => makeLine(shot.id)}
+                      onUploadAudio={(f) => onRecorded(shot.id, f)}
                     />
                   );
                 })}
@@ -570,7 +632,7 @@ export default function CartoonStudioPage() {
                 <div className="mx-auto max-w-[340px]">
                   <EpisodePlayer {...preview} />
                 </div>
-                <p className="mt-3 text-center text-xs text-slate-500">Preview plays your recordings. Lines not recorded yet are silent here.</p>
+                <p className="mt-3 text-center text-xs text-slate-500">The preview plays every line that has a voice. Lines without a voice are silent.</p>
                 <dl className="mt-4 grid grid-cols-3 gap-2 text-center">
                   {[
                     ['Length', fmtSeconds(total)],
@@ -583,21 +645,25 @@ export default function CartoonStudioPage() {
                     </div>
                   ))}
                 </dl>
-                {needsVoice > 0 && (
-                  <label className="mt-4 flex items-start gap-2 text-xs text-slate-400">
+                <p className="mt-4 text-[11px] font-bold uppercase tracking-[0.2em] text-[var(--accent)]">Step 3 · Make the video</p>
+                <p className="mt-1 text-xs text-slate-400">Joins the voice, pictures and captions into one MP4 file, ready for YouTube.</p>
+                {needsVoice > 0 && mode === 'own' && (
+                  <label className="mt-3 flex items-start gap-2 text-xs text-slate-400">
                     <input type="checkbox" className="mt-0.5 h-4 w-4" checked={allowAi} onChange={(e) => setAllowAi(e.target.checked)} />
-                    Use AI voice for the {needsVoice} line(s) not recorded yet (good for a quick test)
+                    Use the AI voice for the {needsVoice} line(s) I did not record
                   </label>
                 )}
                 <button
                   onClick={render}
-                  disabled={starting || isRunning || dirty || saving || recorder.activeKey !== null || (needsVoice > 0 && !allowAi)}
-                  className="mt-4 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-2xl bg-[var(--accent)] px-4 text-sm font-bold text-slate-950 shadow-[0_10px_40px_-10px_var(--accent)] transition hover:brightness-110 disabled:opacity-40"
+                  disabled={starting || isRunning || dirty || saving || recorder.activeKey !== null || (needsVoice > 0 && !(mode === 'own' && allowAi))}
+                  className="mt-3 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-2xl bg-[var(--accent)] px-4 text-sm font-bold text-slate-950 shadow-[0_10px_40px_-10px_var(--accent)] transition hover:brightness-110 disabled:opacity-40"
                 >
                   {starting || isRunning ? <Loader2 size={16} className="animate-spin" /> : <Clapperboard size={16} />}
-                  {isRunning ? 'Rendering…' : 'Render MP4'}
+                  {isRunning ? 'Making the video…' : 'Make the video (MP4)'}
                 </button>
-                {needsVoice > 0 && !allowAi && <p className="mt-2 text-center text-[11px] text-amber-300">Record {needsVoice} more line(s) to render.</p>}
+                {needsVoice > 0 && !(mode === 'own' && allowAi) && (
+                  <p className="mt-2 text-center text-[11px] text-amber-300">Finish Step 1 first: {needsVoice} line(s) have no voice yet.</p>
+                )}
                 {status && status.stage !== 'idle' && (
                   <div className="mt-4 rounded-2xl bg-black/25 p-3">
                     <div className="flex items-center justify-between text-xs">

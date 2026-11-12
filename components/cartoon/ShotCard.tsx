@@ -1,6 +1,6 @@
 'use client';
 
-import { ArrowDown, ArrowUp, CheckCircle2, ImagePlus, Loader2, Mic, Square, Trash2, X } from 'lucide-react';
+import { ArrowDown, ArrowUp, Bot, CheckCircle2, ImagePlus, Loader2, Mic, Square, Trash2, Upload, X } from 'lucide-react';
 import { CAMERAS, type Camera, type CartoonSeries, type CartoonShot } from '@/lib/cartoon/spec';
 import { field, ghostBtn, label } from './ui';
 
@@ -24,6 +24,10 @@ type Props = {
   onDeleteRecording: () => void;
   onPicture: (file: File) => void;
   onRemovePicture: () => void;
+  /** 'ai' shows the AI voice controls; 'own' shows Record and Upload. */
+  mode: 'ai' | 'own';
+  onRegenerate: () => void;
+  onUploadAudio: (file: File) => void;
 };
 
 /** Editor for one shot: the line to record, what is on screen, and the owner's recording. */
@@ -65,7 +69,21 @@ export function ShotCard(p: Props) {
 
       {/* Voice */}
       <div className="mt-3 flex flex-wrap items-center gap-2 rounded-xl bg-white/[0.03] p-2">
-        {p.recording ? (
+        {p.mode === 'ai' && !p.recording ? (
+          <>
+            {shot.recording ? (
+              <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-300">
+                <CheckCircle2 size={14} /> {shot.recording.by === 'own' ? '🎙 Your voice' : '🤖 AI voice'}
+              </span>
+            ) : (
+              <span className="text-xs text-slate-500">No voice yet: press Generate voice above</span>
+            )}
+            <button className={ghostBtn} onClick={p.onRegenerate} disabled={!p.canRecord || p.busy !== null || !shot.narration.trim()}>
+              {p.busy === 'voice' ? <Loader2 size={14} className="animate-spin" /> : <Bot size={14} />}
+              {shot.recording ? 'Make again' : 'Make this line'}
+            </button>
+          </>
+        ) : p.recording ? (
           <button
             onClick={p.onStop}
             className="inline-flex min-h-11 items-center gap-2 rounded-xl bg-rose-500 px-4 text-sm font-bold text-white"
@@ -84,6 +102,21 @@ export function ShotCard(p: Props) {
             {p.busy === 'voice' ? 'Cleaning…' : shot.recording ? 'Record again' : 'Record'}
           </button>
         )}
+        {p.mode === 'own' && !p.recording && (
+          <label className={`${ghostBtn} cursor-pointer ${!p.canRecord || p.busy !== null ? 'pointer-events-none opacity-40' : ''}`}>
+            <Upload size={14} /> Upload
+            <input
+              type="file"
+              accept="audio/*,video/*"
+              className="sr-only"
+              onChange={(e) => {
+                const f = e.target.files?.[0];
+                if (f) p.onUploadAudio(f);
+                e.target.value = '';
+              }}
+            />
+          </label>
+        )}
         {shot.recording && p.audioUrl && !p.recording && (
           <>
             <audio src={p.audioUrl} controls preload="none" className="h-10 min-w-0 flex-1" />
@@ -93,7 +126,7 @@ export function ShotCard(p: Props) {
             </button>
           </>
         )}
-        {!shot.recording && !p.recording && <span className="text-xs text-slate-500">Not recorded yet</span>}
+        {p.mode === 'own' && !shot.recording && !p.recording && <span className="text-xs text-slate-500">Not recorded yet</span>}
       </div>
 
       {/* What is on screen */}

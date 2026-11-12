@@ -3,7 +3,9 @@ import path from 'path';
 import { spawn } from 'child_process';
 import { createHash } from 'crypto';
 import { cleanRecording } from './audio';
+import { edgeTts, elevenTts } from './tts';
 import {
+  ELEVEN_MODELS,
   SERIES_PRESETS,
   sanitizeEpisode,
   sanitizeSeries,
@@ -358,7 +360,7 @@ export async function saveRecording(id: string, shotId: string, bytes: Buffer): 
       throw new CartoonError(`This recording could not be used. Please record again. (${e instanceof Error ? e.message : String(e)})`);
     });
     if (seconds < 0.4) throw new CartoonError('The recording is silent. Speak closer to the microphone and try again.');
-    const recording: Recording = { file: `${shotId}.mp3`, seconds, at: new Date().toISOString() };
+    const recording: Recording = { file: `${shotId}.mp3`, seconds, at: new Date().toISOString(), by: 'own' };
     // Re-read: the owner may have saved text edits while FFmpeg was cleaning the audio.
     const ep = getEpisode(id);
     if (!ep) throw new CartoonError('Episode not found');
@@ -368,6 +370,45 @@ export async function saveRecording(id: string, shotId: string, bytes: Buffer): 
   } finally {
     fs.rmSync(input, { force: true });
   }
+}
+
+/** Which AI voice to use for a line. */
+export type AiVoiceChoice = { provider: 'elevenlabs' | 'edge'; voiceId: string; model?: string };
+
+/**
+ * Makes one shot's line with an AI voice and saves it like a recording (with exact word timings when ElevenLabs gives
+ * them). Takes a few seconds per line, so the browser calls it once per shot and shows progress.
+ */
+export async function saveAiVoice(id: string, shotId: string, choice: AiVoiceChoice): Promise<{ recording: Recording; episode: CartoonEpisode }> {
+  const before = getEpisode(id);
+  if (!before) throw new CartoonError('Episode not found');
+  const text = shotOf(before, shotId).narration.trim();
+  if (!text) throw new CartoonError('This shot has no line to speak.');
+  if (!/^[\w-]{3,60}$/.test(choice.voiceId)) throw new CartoonError('Pick a voice first.');
+  const model = ELEVEN_MODELS.some((m) => m.id === choice.model) ? String(choice.model) : 'eleven_v4';
+  const result =
+    choice.provider === 'elevenlabs' ? await elevenTts(text, choice.voiceId, model).catch(toUserError) : await edgeTts(text, choice.voiceId).catch(toUserError);
+  const dir = path.join(episodeDir(id), 'recordings');
+  fs.mkdirSync(dir, { recursive: true });
+  removeVariants(dir, shotId);
+  fs.writeFileSync(path.join(dir, `${shotId}.mp3`), result.audio);
+  const recording: Recording = {
+    file: `${shotId}.mp3`,
+    seconds: Math.round(result.seconds * 100) / 100,
+    at: new Date().toISOString(),
+    by: choice.provider === 'elevenlabs' ? `elevenlabs:${choice.voiceId}:${model}` : `edge:${choice.voiceId}`,
+    ...(result.words.length ? { words: result.words } : {}),
+  };
+  // Re-read: the owner may have saved text edits while the voice was being made.
+  const ep = getEpisode(id);
+  if (!ep) throw new CartoonError('Episode not found');
+  shotOf(ep, shotId).recording = recording;
+  writeJson(path.join(episodeDir(id), 'episode.json'), ep);
+  return { recording, episode: ep };
+}
+
+function toUserError(e: unknown): never {
+  throw new CartoonError(e instanceof Error ? e.message : String(e));
 }
 
 /** Removes one shot's recording. */

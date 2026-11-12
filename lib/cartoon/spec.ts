@@ -51,7 +51,15 @@ export type CartoonSeries = {
 };
 
 /** The owner's recorded line for one shot, already cleaned to MP3 (file in episodes/<id>/recordings/). */
-export type Recording = { file: string; seconds: number; at: string };
+export type Recording = {
+  file: string;
+  seconds: number;
+  at: string;
+  /** Who made it: "own" (recorded or uploaded by the owner), or the AI voice used, e.g. "elevenlabs:<voiceId>:eleven_v4" or "edge:ur-PK-AsadNeural". */
+  by?: string;
+  /** Real word timings from the AI voice, for exact captions. */
+  words?: Word[];
+};
 
 /** One ~5 s shot. The worker fills image/clip/audio/words/duration before rendering. */
 export type CartoonShot = {
@@ -164,6 +172,7 @@ export function spreadWords(text: string, seconds: number, offset = 0): Word[] {
 /** Caption timings for a shot: real ones when the worker has them, otherwise spread over the shot. */
 export function shotWords(shot: CartoonShot): Word[] {
   if (shot.words?.length) return shot.words;
+  if (shot.recording?.words?.length) return shot.recording.words;
   return spreadWords(shot.narration, Math.max(0.5, shotSeconds(shot) - TAIL), 0.05);
 }
 
@@ -262,7 +271,18 @@ function sanitizeShot(input: unknown): CartoonShot | null {
   if (mood) shot.mood = mood;
   const rec = (r.recording && typeof r.recording === 'object' ? r.recording : null) as Record<string, unknown> | null;
   if (rec && AUDIO_FILE.test(str(rec.file, 80)) && typeof rec.seconds === 'number' && rec.seconds > 0 && rec.seconds <= 60) {
-    shot.recording = { file: str(rec.file, 80), seconds: rec.seconds, at: str(rec.at, 40) };
+    const recording: Recording = { file: str(rec.file, 80), seconds: rec.seconds, at: str(rec.at, 40) };
+    const by = str(rec.by, 80);
+    if (by) recording.by = by;
+    if (Array.isArray(rec.words)) {
+      const words = rec.words
+        .slice(0, 80)
+        .map((w) => (w && typeof w === 'object' ? (w as Record<string, unknown>) : {}))
+        .filter((w) => typeof w.text === 'string' && typeof w.start === 'number' && typeof w.end === 'number')
+        .map((w) => ({ text: String(w.text).slice(0, 40), start: Number(w.start), end: Number(w.end) }));
+      if (words.length) recording.words = words;
+    }
+    shot.recording = recording;
   }
   const keyframe = str(r.keyframe, 80);
   if (IMAGE_FILE.test(keyframe)) shot.keyframe = keyframe;
