@@ -50,3 +50,11 @@ next-env.d.ts
 
 # motion graphics renders (local)
 /storage/
+
+# env template is safe to commit
+!.env.example
+
+# AI model files never go in the repo
+*.safetensors
+*.gguf
+*.ckpt

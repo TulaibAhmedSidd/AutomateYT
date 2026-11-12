@@ -1,0 +1,3 @@
+#!/bin/sh
+# Runs scripts/hooks/pre-commit.mjs (secrets, author, lint, AI setup). Do not bypass with --no-verify.
+exec node "$(git rev-parse --show-toplevel)/scripts/hooks/pre-commit.mjs"

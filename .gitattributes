@@ -1,0 +1,2 @@
+# Git hooks are run by sh; CRLF would break them on any machine.
+.githooks/* text eol=lf

@@ -1,0 +1,3 @@
+#!/bin/sh
+# Runs scripts/hooks/commit-msg.mjs (conventional commit subject).
+exec node "$(git rev-parse --show-toplevel)/scripts/hooks/commit-msg.mjs" "$1"
