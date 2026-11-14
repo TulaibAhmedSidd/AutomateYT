@@ -16,3 +16,9 @@
 1. **Owner:** listen to the 4 ElevenLabs samples and the test video, then pick voices. To use the native Urdu voices (Kamran, Saira…) and post on a monetised channel, upgrade ElevenLabs to a paid plan.
 2. **Owner:** decide which OpenAI account pays for scripts (today: Volt On Solar Energy), then write the 135 missing scripts with the Write script buttons.
 3. Home PC: ComfyUI Phase 2 (see the Antigravity prompt).
+
+
+## 21:15 PKT — home PC
+1. `Cartoon P2 — home PC`: Wan 2.2 TI2V 5B clip workflow benchmark complete (480×832 chosen).
+2. `Cartoon P2 — home PC`: Set up FLUX.1 Kontext dev (GGUF Q4) for keyframe generation (`docs/ai/home-pc-setup.md`), test it, and export `comfy/workflows/keyframe.api.json`.
+3. `Cartoon P2 — office PC`: Implement `CARTOON_ENGINE=comfy` in `scripts/render-cartoon.mjs` and `npm run comfy:check`.

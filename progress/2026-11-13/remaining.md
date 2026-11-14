@@ -23,3 +23,12 @@
 - Image Studio generation still runs inside the request.
 - The scheduler only saves times.
 - 9 old Image Studio videos are stuck as "generating".
+
+
+## 21:15 PKT — home PC
+
+| Phase | State |
+|---|---|
+| Cartoon P2: ComfyUI animated clips on the home GPU | ✅ Wan 2.2 TI2V 5B working, benchmarks complete, `clip.api.json` exported |
+| Cartoon P2: ComfyUI keyframe workflow (Flux.1) | ⬜ next on home PC |
+| Cartoon P2: App integration (`CARTOON_ENGINE=comfy`) | ⬜ |

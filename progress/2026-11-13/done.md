@@ -37,3 +37,44 @@
 - Explored the ElevenLabs API: v4, v4 turbo and v3 speak Urdu; older models do not. The account is on the **Free plan**: Urdu library voices (Kamran M, Naqsh, Saira…) are blocked via the API (402), and output is non-commercial.
 - Tested: 4 Urdu samples sent to the owner, plus a 2-shot Chacha episode rendered end to end with ElevenLabs. Fixed two caption bugs: the caption jumped to the last word in gaps between words, and the Roman Urdu end card was shown right-to-left.
 - Library series updates now reach the app on the next load, unless the owner edited that series in the app.
+
+
+## 19:40 PKT — home PC (NVIDIA RTX 2070 Super, 8 GB VRAM)
+
+**System Health & Setup (home-pc-setup skill)**
+- GPU: NVIDIA GeForce RTX 2070 SUPER (8,192 MiB VRAM). Driver 566.14, CUDA 12.7.
+- System RAM: 15.91 GB total (~4.7 GB free initially).
+- Disk: C: 23.3 GB free; D: ~160 GB free (after cleanup).
+- Node: v22.11.0, Git user: `ahsidtullu@gmail.com`, git hooks path: `.githooks`.
+- `.env.local`: verified required keys are present (names only, values never logged).
+- Checked ComfyUI Desktop: installed at `D:\Comfy-Desktop\ComfyUI-Installs\ComfyUI\ComfyUI` using shared models at `D:\Comfy-Desktop\ComfyUI-Shared\models`.
+
+**ComfyUI Cleanup & Wan 2.2 Model Setup**
+- Investigated the ~40 GB background download: confirmed it was the MiniMax H3 template (`video_minimax_h3_t2v`), which requires 24+ GB VRAM and cannot run on an 8 GB card.
+- User approved cleanup: removed ~42 GB of MiniMax files, freeing disk space on D:.
+- Cloned and installed `ComfyUI-GGUF` custom node into ComfyUI's `custom_nodes/`. Installed `gguf` and `protobuf` into ComfyUI python venv.
+- Downloaded and verified all 3 Wan 2.2 TI2V 5B components:
+  - `Wan2.2-TI2V-5B-Q4_K_M.gguf` (3.19 GB) in `models/unet/` and `models/diffusion_models/`
+  - `umt5-xxl-encoder-Q4_K_M.gguf` (3.40 GB) in `models/text_encoders/` and `models/clip/`
+  - `Wan2.2_VAE.safetensors` (1.31 GB) in `models/vae/`
+- Created `D:\Comfy-Desktop\run_nvidia_gpu.bat` and started ComfyUI as background server on port 8188.
+
+**Wan 2.2 TI2V 5B Timing Benchmarks (8 GB VRAM)**
+- **Test A (480×832, 49 frames / 2.04 s @ 24 fps):**
+  - Time taken: **21.37 minutes** (sampling: 9.3 min @ ~28s/step; tiled VAE decode + MP4 save: ~12 min).
+  - Peak VRAM: **7,938 MB**.
+  - UNet fit completely in VRAM during sampling.
+  - Video verified: `wan5b_480x832_49f_00001_.mp4` (960×1664, 24 fps, 2.04 s, 49 frames). Clean render, 0 errors.
+- **Test B (480×832, 121 frames / 5.04 s @ 24 fps):**
+  - Time taken: **41.86 minutes** (sampling: 38.3 min @ ~119s/step; tiled VAE decode + MP4 save: 3.5 min).
+  - Peak VRAM: **7,185 MB**.
+  - ComfyUI partially loaded UNet (992 MB in VRAM, 2,364 MB offloaded to system RAM) to fit larger latent volume.
+  - Video verified: `wan5b_480x832_121f_00001_.mp4` (960×1664, 24 fps, 5.04 s, 121 frames). Clean render, 0 errors.
+- **Test C (704×1280, 121 frames / 5.04 s @ 24 fps):**
+  - Result: Impractical for 8 GB VRAM. ComfyUI reserved 0 MB in VRAM for UNet (100% offloaded) and the 2.25× larger video latent caused the NVIDIA driver to page 3.44 GB into shared system RAM. Step 1 alone took >1.5 hours (~25–30 hours projected for 20 steps). Halted with owner's approval.
+  - Conclusion: 480×832 is the definitive resolution for 8 GB VRAM (upscales automatically to 960×1664 via VAE, perfect for Remotion vertical 1080×1920).
+
+**Workflow Export & Documentation (comfy-workflow skill)**
+- Created `comfy/workflows/clip.api.json` with token placeholders (`{{PROMPT}}`, `{{NEGATIVE}}`, `{{IMAGE}}`, `{{SEED}}`, `{{WIDTH}}`, `{{HEIGHT}}`, `{{FRAMES}}`, `{{PREFIX}}`).
+- Uses `UnetLoaderGGUF` and `CLIPLoaderGGUF` with `VAEDecodeTiled` (tile size 512, temporal size 64) to prevent VAE OOM on video latents.
+- Wrote `comfy/workflows/README.md` detailing models, folders, custom nodes, token schema, benchmark timings, and recommended settings (480×832 at 49 or 121 frames).
