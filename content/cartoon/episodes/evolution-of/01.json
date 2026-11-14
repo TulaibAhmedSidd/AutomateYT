@@ -1,0 +1,103 @@
+{
+  "number": 1,
+  "topic": "The telephone: from the first telephone to today's smartphone",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:27:57.233Z",
+  "episode": {
+    "id": "",
+    "seriesId": "evolution-of",
+    "title": "From the First Telephone to Your Pocket",
+    "shots": [
+      {
+        "id": "ucl9b5",
+        "narration": "1876",
+        "characters": [],
+        "scene": "Clean studio product photograph of an early experimental wooden telephone, with a circular speaking opening and a separate wired listening piece. Centered on a pale blue-gray gradient background, fixed front three-quarter view, soft upper-left lighting, vertical 9:16 composition. No people, text, le",
+        "action": "Show the simple wooden construction as the defining feature; arrange the listening piece beside the main apparatus within a compact centered silhouette.",
+        "camera": "static",
+        "mood": "Historic and ingenious",
+        "duration": 1.8
+      },
+      {
+        "id": "ds65ex",
+        "narration": "1890s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a candlestick telephone with an upright metal speaking horn and a separate wired receiver hanging on its side hook. Centered on the same pale blue-gray gradient background, fixed front three-quarter view, soft upper-left lighting, vertical 9:16 composition. No peop",
+        "action": "Make the tall candlestick silhouette the dominant visible change; show an undialed base and neatly arranged cord.",
+        "camera": "static",
+        "mood": "Elegant and antique",
+        "duration": 1.8
+      },
+      {
+        "id": "76or8i",
+        "narration": "1930s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a black rotary desk telephone with a curved combined handset resting horizontally on its cradle. Centered on the same pale blue-gray gradient background, fixed front three-quarter view, soft upper-left lighting, vertical 9:16 composition. The rotary dial has empty ",
+        "action": "Make the low, integrated desk-phone silhouette the dominant visible change; keep the handset neatly seated.",
+        "camera": "static",
+        "mood": "Solid and iconic",
+        "duration": 1.8
+      },
+      {
+        "id": "4m6q7i",
+        "narration": "1960s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a black push-button desk telephone with a curved handset resting horizontally on its cradle. Centered on the same pale blue-gray gradient background, fixed front three-quarter view, soft upper-left lighting, vertical 9:16 composition. Its keypad buttons are complet",
+        "action": "Preserve the previous desk-phone proportions and replace the rotary dial with a rectangular push-button keypad as the defining change.",
+        "camera": "static",
+        "mood": "Orderly and modernizing",
+        "duration": 1.8
+      },
+      {
+        "id": "jykh9x",
+        "narration": "1980s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a black brick-style handheld mobile telephone standing upright, with a thick rectangular body, long antenna, blank keypad buttons, and an unlit display. Centered on the same pale blue-gray gradient background, fixed front three-quarter view, soft upper-left lightin",
+        "action": "Make the self-contained handheld form the dominant visible change; show the entire antenna and remove all external cords.",
+        "camera": "static",
+        "mood": "Bold and pioneering",
+        "duration": 1.8
+      },
+      {
+        "id": "gzn7fb",
+        "narration": "1990s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a compact black candy-bar mobile telephone standing upright, with a short antenna, blank physical keypad, and an unlit display. Centered on the same pale blue-gray gradient background, fixed front three-quarter view, soft upper-left lighting, vertical 9:16 composit",
+        "action": "Make miniaturization the defining change: substantially reduce the body and antenna while retaining the previous phone's upright keypad layout. Preserve the camera distance.",
+        "camera": "static",
+        "mood": "Compact and practical",
+        "duration": 1.8
+      },
+      {
+        "id": "hpa1u3",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a black clamshell mobile telephone standing upright and opened to reveal an unlit upper display and blank lower keypad. Centered on the same pale blue-gray gradient background, fixed front three-quarter view, soft upper-left lighting, vertical 9:16 composition. No ",
+        "action": "Make the hinged folding body the defining change; keep its central axis and front-facing presentation aligned with the previous phone.",
+        "camera": "static",
+        "mood": "Sleek and nostalgic",
+        "duration": 1.8
+      },
+      {
+        "id": "nzb49d",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Clean studio product photograph of a contemporary premium smartphone standing upright, with a thin dark metal frame and nearly edge-to-edge glass display showing only a luminous abstract blue gradient. Centered on the same pale blue-gray gradient background, fixed front three-quarter view, soft uppe",
+        "action": "Make the uninterrupted full-face touchscreen the defining change; emphasize polished glass, narrow bezels, and precise reflections for the most impressive final image.",
+        "camera": "static",
+        "mood": "Premium and striking",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which telephone did you use first?",
+    "createdAt": "2026-11-14T11:27:57.232Z",
+    "description": "From early wooden telephones to today's edge-to-edge smartphone, watch the telephone transform through eight eras. #TelephoneEvolution #EvolutionOf #TechHistory #Smartphone #Shorts",
+    "tags": [
+      "telephone evolution",
+      "technology history",
+      "smartphone",
+      "then and now",
+      "Evolution Of"
+    ]
+  }
+}

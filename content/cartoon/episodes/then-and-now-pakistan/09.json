@@ -1,0 +1,85 @@
+{
+  "number": 9,
+  "topic": "Hunza valley: from an old mountain village to today's tourist valley",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:30:10.589Z",
+  "episode": {
+    "id": "",
+    "seriesId": "then-and-now-pakistan",
+    "title": "Hunza Then & Now: Village to Tourist Valley",
+    "shots": [
+      {
+        "id": "zvcy9t",
+        "narration": "1900s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Karimabad, Hunza Valley, Pakistan. Fixed elevated viewpoint facing Baltit Fort, instantly recognizable in the upper center, with the village descending below it and the same rugged mountain skyline behind. Golden-hour light, high detail, vertical",
+        "action": "Establish the old mountain village: emphasize earthen rooftops and open terraces beneath the recognizable fort. Keep the fort, skyline and framing fixed.",
+        "camera": "static",
+        "mood": "Quiet, timeless, remote",
+        "duration": 1.8
+      },
+      {
+        "id": "97krnk",
+        "narration": "1947",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Karimabad, Hunza Valley, Pakistan. Identical fixed elevated viewpoint facing Baltit Fort in the upper center, village below and identical mountain skyline behind. Golden-hour light, high detail, vertical 9:16, aged warm-sepia photograph. Preserve",
+        "action": "Add a small cluster of traditional stone-and-timber houses along the lower village edge; retain all other visible elements and their positions.",
+        "camera": "static",
+        "mood": "Rooted, enduring, intimate",
+        "duration": 1.8
+      },
+      {
+        "id": "awgnnx",
+        "narration": "1970s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Karimabad, Hunza Valley, Pakistan. Identical fixed elevated viewpoint facing Baltit Fort in the upper center, village below and identical mountain skyline behind. Golden-hour light, high detail, vertical 9:16, gently aged warm-sepia photograph. P",
+        "action": "Introduce one winding unpaved vehicle track along the lower village edge, replacing a footpath; keep every other visible feature unchanged.",
+        "camera": "static",
+        "mood": "Anticipation, connection, change",
+        "duration": 1.8
+      },
+      {
+        "id": "pfgk3i",
+        "narration": "1990s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Karimabad, Hunza Valley, Pakistan. Identical fixed elevated viewpoint facing Baltit Fort in the upper center, village below and identical mountain skyline behind. Golden-hour light, high detail, vertical 9:16, lightly faded warm-sepia photograph.",
+        "action": "Add a modest stone-faced guesthouse beside the existing lower track, with simple balconies and no signage; leave the surrounding village unchanged.",
+        "camera": "static",
+        "mood": "Welcoming, emerging, peaceful",
+        "duration": 1.8
+      },
+      {
+        "id": "vxf7ri",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Karimabad, Hunza Valley, Pakistan. Identical fixed elevated viewpoint facing Baltit Fort in the upper center, village below and identical mountain skyline behind. Golden-hour light, high detail, vertical 9:16, subtly aged warm photographic tones.",
+        "action": "Change only the existing unpaved track into a neatly paved mountain road, following exactly the same curve.",
+        "camera": "static",
+        "mood": "Connected, evolving, inviting",
+        "duration": 1.8
+      },
+      {
+        "id": "4pwgdw",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Photorealistic cinematic present-day interpretation of Karimabad, Hunza Valley, Pakistan. Identical fixed elevated viewpoint facing Baltit Fort in the upper center, village below and identical mountain skyline behind. Brilliant golden-hour light, bright natural modern color, exceptional detail, vert",
+        "action": "Add a tasteful cluster of modern stone-and-glass tourist lodges with panoramic terraces along the existing road. Keep Baltit Fort unobstructed and the mountains dominant for the most impressive final image.",
+        "camera": "static",
+        "mood": "Breathtaking, vibrant, aspirational",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Old Hunza or today's Hunza?",
+    "createdAt": "2026-11-14T11:30:10.589Z",
+    "description": "Watch Hunza transform from a mountain village into today's tourist valley, with Baltit Fort anchoring the same timeless view. An AI-imagined historical transition, not archival footage. #Hunza #Pakistan #ThenAndNow #HunzaValley #TravelPakistan",
+    "tags": [
+      "Hunza Valley",
+      "Karimabad",
+      "Baltit Fort",
+      "Pakistan",
+      "then and now",
+      "AI transition",
+      "travel"
+    ]
+  }
+}

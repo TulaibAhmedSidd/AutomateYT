@@ -1,0 +1,84 @@
+{
+  "number": 6,
+  "topic": "A kitten growing into a cat",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:51.665Z",
+  "episode": {
+    "id": "",
+    "seriesId": "glow-up-nature",
+    "title": "Tiny Paws, Beautiful Glow Up",
+    "shots": [
+      {
+        "id": "af9zh9",
+        "narration": "Newborn Kitten",
+        "characters": [],
+        "scene": "Photorealistic nature photography with delicate macro-style fur detail, vertical 9:16. One tiny cream-and-ginger kitten with a white chest and white front paws rests on an ivory linen cushion beside a window. Soft natural light, blurred leafy garden background. Fixed eye-level three-quarter view, fr",
+        "action": "The newborn kitten rests comfortably on its belly at the center of the cushion, eyes naturally closed, tiny paws tucked close.",
+        "camera": "static",
+        "mood": "Tender and peaceful",
+        "duration": 1.8
+      },
+      {
+        "id": "o8xz2s",
+        "narration": "Eyes Open",
+        "characters": [],
+        "scene": "Photorealistic nature photography with delicate macro-style fur detail, vertical 9:16. The same tiny cream-and-ginger kitten with a white chest and white front paws rests on the same ivory linen cushion beside the same window. Identical soft natural light, blurred leafy garden background, fixed eye-",
+        "action": "Keep the kitten's size, placement and belly-down pose nearly identical; the visible change is its newly open eyes.",
+        "camera": "static",
+        "mood": "Gentle wonder",
+        "duration": 1.8
+      },
+      {
+        "id": "vt5aap",
+        "narration": "First Steps",
+        "characters": [],
+        "scene": "Photorealistic nature photography with delicate macro-style fur detail, vertical 9:16. The same cream-and-ginger kitten with identical white chest and white front paws occupies the same central spot on the ivory linen cushion beside the window. Identical soft natural light, blurred leafy garden back",
+        "action": "The visible change is posture: the small kitten now stands on all four paws, looking toward the same point beside the camera.",
+        "camera": "static",
+        "mood": "Sweet and tentative",
+        "duration": 1.8
+      },
+      {
+        "id": "7ie953",
+        "narration": "Growing Kitten",
+        "characters": [],
+        "scene": "Photorealistic nature photography with delicate macro-style fur detail, vertical 9:16. The same cream-and-ginger kitten with identical white chest and white front paws stands in the same central spot on the ivory linen cushion beside the window. Identical soft natural light, blurred leafy garden bac",
+        "action": "Keep the standing pose and gaze matched to the previous image; the visible change is a larger kitten body, with the same recognizable markings.",
+        "camera": "static",
+        "mood": "Warm and endearing",
+        "duration": 1.8
+      },
+      {
+        "id": "tczbmi",
+        "narration": "Young Cat",
+        "characters": [],
+        "scene": "Photorealistic nature photography with delicate macro-style fur detail, vertical 9:16. The same cream-and-ginger cat with identical white chest and white front paws stands in the same central spot on the ivory linen cushion beside the window. Identical soft natural light, blurred leafy garden backgr",
+        "action": "Preserve the same standing pose and gaze; the visible change is growth into a lanky young cat, noticeably taller and longer than the kitten.",
+        "camera": "static",
+        "mood": "Graceful and bright",
+        "duration": 1.8
+      },
+      {
+        "id": "e3xmd2",
+        "narration": "Adult Cat",
+        "characters": [],
+        "scene": "Photorealistic nature photography with delicate macro-style fur detail, vertical 9:16. The same cream-and-ginger cat with identical white chest and white front paws stands in the same central spot on the ivory linen cushion beside the window. Identical soft natural light, blurred leafy garden backgr",
+        "action": "Preserve the same standing pose and gaze; the visible change is a fully grown, healthy adult build, filling the reserved frame space with a beautiful mature silhouette.",
+        "camera": "static",
+        "mood": "Radiant and majestic",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which stage stole your heart?",
+    "createdAt": "2026-11-14T11:28:51.664Z",
+    "description": "From a sleepy newborn kitten to a magnificent adult cat, watch the same little face grow through gentle flash-cut transitions. #GlowUpNature #KittenToCat #CatGlowUp #NaturePhotography #Shorts",
+    "tags": [
+      "kitten",
+      "cat",
+      "growth",
+      "nature",
+      "glow up",
+      "transition reel"
+    ]
+  }
+}

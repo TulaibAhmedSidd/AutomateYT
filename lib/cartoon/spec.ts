@@ -47,6 +47,8 @@ export type CartoonSeries = {
   voice: SeriesVoice;
   rules: string[];
   episodeSeconds: 45 | 60 | 75;
+  /** "transition" = short reel of pictures with labels and flash cuts, no voice. Absent = a narrated story. */
+  format?: 'transition';
   palette: { bg: string; accent: string };
 };
 
@@ -119,7 +121,7 @@ export type CartoonEpisode = {
 /** Props of the Remotion composition. assetBase = URL folder for preview files; empty while rendering (staticFile). */
 export type EpisodeRenderProps = {
   episode: CartoonEpisode;
-  series: Pick<CartoonSeries, 'name' | 'language' | 'palette'>;
+  series: Pick<CartoonSeries, 'name' | 'language' | 'palette' | 'format'>;
   assetBase?: string;
 };
 
@@ -274,7 +276,16 @@ export function sanitizeSeries(input: unknown): CartoonSeries {
     rules: (Array.isArray(r.rules) ? r.rules : []).map((x) => str(x, 300)).filter(Boolean).slice(0, 12),
     episodeSeconds: seconds === 45 || seconds === 75 ? seconds : 60,
     palette: { bg: hex(p.bg, '#120c24'), accent: hex(p.accent, '#ffb547') },
+    ...(r.format === 'transition' ? { format: 'transition' as const } : {}),
   };
+}
+
+/** Seconds each picture stays on screen in a transition reel. */
+export const TRANSITION_SECONDS = 1.8;
+
+/** True for short no-voice transition reels (picture → picture with a label). */
+export function isTransition(series: Pick<CartoonSeries, 'format'> | null | undefined) {
+  return series?.format === 'transition';
 }
 
 function sanitizeShot(input: unknown): CartoonShot | null {

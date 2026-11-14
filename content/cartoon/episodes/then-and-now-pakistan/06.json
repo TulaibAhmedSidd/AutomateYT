@@ -1,0 +1,85 @@
+{
+  "number": 6,
+  "topic": "Murree Mall Road from the 1900s hill station to today",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:59.576Z",
+  "episode": {
+    "id": "",
+    "seriesId": "then-and-now-pakistan",
+    "title": "Murree Mall Road: A Century in a Flash",
+    "shots": [
+      {
+        "id": "1f4zug",
+        "narration": "1900s",
+        "characters": [],
+        "scene": "Photorealistic cinematic artistic reconstruction of Murree Mall Road in the 1900s, viewed at eye level from the pedestrian street toward the recognizable historic GPO building at GPO Chowk. Its distinctive roofline anchors the upper center, with shopfronts framing both sides and pine-covered hills b",
+        "action": "Establish the recognizable GPO-centered composition and rough street surface; freeze the viewpoint and landmark proportions for every subsequent image.",
+        "camera": "static",
+        "mood": "Nostalgic hill-station calm",
+        "duration": 1.8
+      },
+      {
+        "id": "nc3p56",
+        "narration": "1930s",
+        "characters": [],
+        "scene": "Photorealistic cinematic artistic reconstruction of Murree Mall Road in the 1930s, viewed at eye level from the identical pedestrian-street position toward the recognizable historic GPO building at GPO Chowk. Identical roofline, upper-center placement, flanking shopfronts, pine-covered hills, framin",
+        "action": "Flash-cut to the same view; change only the rough street surface to a smoother period-appropriate surface.",
+        "camera": "static",
+        "mood": "Quiet early-century refinement",
+        "duration": 1.8
+      },
+      {
+        "id": "1gbi08",
+        "narration": "1947",
+        "characters": [],
+        "scene": "Photorealistic cinematic artistic reconstruction of Murree Mall Road in 1947, viewed at eye level from the identical pedestrian-street position toward the recognizable historic GPO building at GPO Chowk. Identical roofline, upper-center placement, flanking shopfronts, pine-covered hills, framing and",
+        "action": "Flash-cut without moving the camera; change only the awnings to visibly weathered timber, without adding invented Independence events or decorations.",
+        "camera": "static",
+        "mood": "Reflective historical stillness",
+        "duration": 1.8
+      },
+      {
+        "id": "4fk5rr",
+        "narration": "1970s",
+        "characters": [],
+        "scene": "Photorealistic cinematic artistic reconstruction of Murree Mall Road in the 1970s, viewed at eye level from the identical pedestrian-street position toward the recognizable historic GPO building at GPO Chowk. Identical roofline, upper-center placement, flanking shopfronts, pine-covered hills, framin",
+        "action": "Flash-cut to the locked composition; change only the streetlight fixtures, keeping the historic landmark untouched.",
+        "camera": "static",
+        "mood": "Understated modernization",
+        "duration": 1.8
+      },
+      {
+        "id": "wb4zza",
+        "narration": "1990s",
+        "characters": [],
+        "scene": "Photorealistic cinematic artistic reconstruction of Murree Mall Road in the 1990s, viewed at eye level from the identical pedestrian-street position toward the recognizable historic GPO building at GPO Chowk. Identical roofline, upper-center placement, flanking shopfronts, pine-covered hills, framin",
+        "action": "Flash-cut to the same view; change only the shop canopies while preserving every building's position and scale.",
+        "camera": "static",
+        "mood": "Familiar mountain-town nostalgia",
+        "duration": 1.8
+      },
+      {
+        "id": "a9ai56",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Photorealistic cinematic present-day interpretation of Murree Mall Road, viewed at eye level from the identical pedestrian-street position toward the recognizable historic GPO building at GPO Chowk. Identical roofline, upper-center placement, flanking shopfronts, pine-covered hills, framing and pers",
+        "action": "Flash-cut into vivid modern color and reveal the refreshed pedestrian surface as the sole physical change; hold the unchanged landmark composition for the strongest final image.",
+        "camera": "static",
+        "mood": "Radiant mountain-town finale",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which era would you stroll through?",
+    "createdAt": "2026-11-14T11:29:59.574Z",
+    "description": "Watch Murree’s iconic Mall Road shift from a sepia hill-station scene to a glowing modern promenade. Artistic era reconstructions, not archival photographs. #Murree #MallRoad #ThenAndNow #Pakistan #TravelReels",
+    "tags": [
+      "Murree",
+      "Mall Road",
+      "GPO Chowk",
+      "Pakistan",
+      "then and now",
+      "hill station",
+      "architectural evolution"
+    ]
+  }
+}

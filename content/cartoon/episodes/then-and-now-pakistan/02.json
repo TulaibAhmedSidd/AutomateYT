@@ -1,0 +1,85 @@
+{
+  "number": 2,
+  "topic": "Karachi Saddar and Empress Market from the 1890s to today",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:41.778Z",
+  "episode": {
+    "id": "",
+    "seriesId": "then-and-now-pakistan",
+    "title": "Karachi’s Empress Market: 1890s → Today",
+    "shots": [
+      {
+        "id": "yeqm5z",
+        "narration": "1890s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Empress Market in Saddar, Karachi, vertical 9:16. Fixed eye-level frontal view from across the approach, centered on the instantly recognizable clock tower, with the full original stone facade and foreground street visible. Golden-hour light, hig",
+        "action": "Show one unattended wooden carriage without a horse at the left foreground edge. Keep the central sightline to the market clear.",
+        "camera": "static",
+        "mood": "Historic, warm, quietly grand",
+        "duration": 1.8
+      },
+      {
+        "id": "j7otap",
+        "narration": "1920s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Empress Market in Saddar, Karachi, vertical 9:16. The identical eye-level frontal view from across the approach, centered clock tower, identical original stone facade, framing and golden-hour shadows. High detail, warm sepia aged-photograph finis",
+        "action": "Replace only the foreground carriage with an unattended period bicycle in the same left-edge position. Leave the architecture and central approach unchanged.",
+        "camera": "static",
+        "mood": "Nostalgic, still, gently changing",
+        "duration": 1.8
+      },
+      {
+        "id": "k09w19",
+        "narration": "1947",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Empress Market in Saddar, Karachi, vertical 9:16. The identical eye-level frontal view from across the approach, centered clock tower, identical original stone facade, framing and golden-hour shadows. High detail, warm sepia aged-photograph finis",
+        "action": "Replace only the foreground bicycle with a parked, unoccupied 1940s automobile in the same left-edge position. Leave the architecture and central approach unchanged.",
+        "camera": "static",
+        "mood": "Reflective, historic, dignified",
+        "duration": 1.8
+      },
+      {
+        "id": "dz3pa1",
+        "narration": "1970s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Empress Market in Saddar, Karachi, vertical 9:16. The identical eye-level frontal view from across the approach, centered clock tower, identical original stone facade, framing and golden-hour shadows. High detail, warm sepia aged-photograph finis",
+        "action": "Replace only the foreground automobile with a parked, unoccupied period three-wheeled auto-rickshaw in the same left-edge position. Leave the architecture and central approach unchanged.",
+        "camera": "static",
+        "mood": "Nostalgic, distinctly Karachi",
+        "duration": 1.8
+      },
+      {
+        "id": "l6za5z",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Empress Market in Saddar, Karachi, vertical 9:16. The identical eye-level frontal view from across the approach, centered clock tower, identical original stone facade, framing and golden-hour shadows. High detail, lightly aged warm-sepia photogra",
+        "action": "Replace only the foreground auto-rickshaw with a parked, unoccupied compact hatchback typical of the 2000s in the same left-edge position. Leave the architecture and central approach unchanged.",
+        "camera": "static",
+        "mood": "Familiar, warm, transitional",
+        "duration": 1.8
+      },
+      {
+        "id": "nfq9yw",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Photorealistic cinematic present-day Empress Market in Saddar, Karachi, vertical 9:16. The identical eye-level frontal view from across the approach, centered clock tower, identical original stone facade, framing and golden-hour shadows. Bright modern photographic clarity, luminous sandstone, rich n",
+        "action": "Retain the same parked compact hatchback and unchanged composition. Make the sole transformation the shift from aged sepia into brilliant full color, revealing the landmark in its most impressive cinematic finish.",
+        "camera": "static",
+        "mood": "Radiant, enduring, magnificent",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which era of Saddar would you visit?",
+    "createdAt": "2026-11-14T11:29:41.776Z",
+    "description": "Watch Saddar change around Empress Market’s unmistakable clock tower, from the 1890s to today. A cinematic visual reconstruction of one iconic Karachi view. #Karachi #EmpressMarket #Saddar #ThenAndNow #Pakistan",
+    "tags": [
+      "Karachi",
+      "Saddar",
+      "Empress Market",
+      "Then and Now",
+      "Pakistan",
+      "Historic Architecture",
+      "AI Reconstruction"
+    ]
+  }
+}

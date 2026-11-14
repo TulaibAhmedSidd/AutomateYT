@@ -1,0 +1,85 @@
+{
+  "number": 5,
+  "topic": "A lion cub growing into a lion",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:51.332Z",
+  "episode": {
+    "id": "",
+    "seriesId": "glow-up-nature",
+    "title": "Little Cub, Future King 🦁",
+    "shots": [
+      {
+        "id": "h577ax",
+        "narration": "Lion Cub",
+        "characters": [],
+        "scene": "Photorealistic intimate wildlife photography, vertical 9:16. A single small male lion cub with golden fur rests comfortably on a smooth sandy patch beneath an acacia tree. Front paws extended, face turned slightly toward the camera, eyes open. Soft natural morning light, blurred savanna grass, one r",
+        "action": "Show the tiny, instantly recognizable cub with round ears, a short muzzle, faint juvenile spots, and no mane. Peaceful resting pose, entire body visible.",
+        "camera": "static",
+        "mood": "Tender and peaceful",
+        "duration": 1.8
+      },
+      {
+        "id": "uztvx3",
+        "narration": "Growing Cub",
+        "characters": [],
+        "scene": "Photorealistic intimate wildlife photography, vertical 9:16. The same golden male lion rests on the identical sandy patch beneath the same acacia tree, front paws extended and face turned slightly toward the camera. Identical soft morning light, blurred savanna grass, rounded stone at frame left, fi",
+        "action": "Increase the cub's overall size slightly while retaining his round ears, faint spots, short muzzle, and maneless neck. Match the previous resting pose exactly.",
+        "camera": "static",
+        "mood": "Gentle and endearing",
+        "duration": 1.8
+      },
+      {
+        "id": "zxnt1v",
+        "narration": "Older Cub",
+        "characters": [],
+        "scene": "Photorealistic intimate wildlife photography, vertical 9:16. The same golden male lion rests on the identical sandy patch beneath the same acacia tree, front paws extended and face turned slightly toward the camera. Identical soft morning light, blurred savanna grass, rounded stone at frame left, fi",
+        "action": "Show another clear increase in body size, with the same cub features, faint spots, and no mane. Keep his pose and position unchanged.",
+        "camera": "static",
+        "mood": "Warm and serene",
+        "duration": 1.8
+      },
+      {
+        "id": "crjntq",
+        "narration": "Juvenile Lion",
+        "characters": [],
+        "scene": "Photorealistic intimate wildlife photography, vertical 9:16. The same golden male lion rests on the identical sandy patch beneath the same acacia tree, front paws extended and face turned slightly toward the camera. Identical soft morning light, blurred savanna grass, rounded stone at frame left, fi",
+        "action": "Advance his physical development to a larger, lean juvenile silhouette, still without a developed mane. Preserve his recognizable face and exact resting pose.",
+        "camera": "static",
+        "mood": "Quiet and confident",
+        "duration": 1.8
+      },
+      {
+        "id": "srfjeh",
+        "narration": "Subadult Lion",
+        "characters": [],
+        "scene": "Photorealistic intimate wildlife photography, vertical 9:16. The same golden male lion rests on the identical sandy patch beneath the same acacia tree, front paws extended and face turned slightly toward the camera. Identical soft morning light, blurred savanna grass, rounded stone at frame left, fi",
+        "action": "Make the main visible change an emerging short, sparse golden mane around his neck and cheeks. Maintain visual continuity in body proportions, identity, and resting pose.",
+        "camera": "static",
+        "mood": "Anticipatory and graceful",
+        "duration": 1.8
+      },
+      {
+        "id": "c4e7fv",
+        "narration": "Adult Lion",
+        "characters": [],
+        "scene": "Photorealistic intimate wildlife photography, vertical 9:16. The same golden male lion rests on the identical sandy patch beneath the same acacia tree, front paws extended and face turned slightly toward the camera. Identical soft morning light, blurred savanna grass, rounded stone at frame left, fi",
+        "action": "Reveal the completed transformation through a magnificent full golden-brown mane framing his face and cascading over his chest. Preserve the same resting pose, with the entire lion comfortably inside the original frame.",
+        "camera": "static",
+        "mood": "Majestic and peaceful",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which stage has the most charm?",
+    "createdAt": "2026-11-14T11:28:51.330Z",
+    "description": "From a tiny lion cub to a magnificent adult male, watch a gentle transformation in the same sunlit savanna spot. Flash cuts reveal each stage, with on-screen labels and no voiceover. #GlowUpNature #Lion #NaturePhotography #AnimalGrowth #Wildlife",
+    "tags": [
+      "lion",
+      "lion cub",
+      "animal growth",
+      "nature",
+      "wildlife",
+      "glow up",
+      "transition reel"
+    ]
+  }
+}

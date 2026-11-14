@@ -47,6 +47,12 @@ function cameraStyle(camera: Camera, p: number): React.CSSProperties {
   }
 }
 
+/** First sentence of a long picture prompt, cut to `max` characters, for the placeholder card. */
+function short(text: string, max: number) {
+  const first = text.split(/(?<=[.!?])\s/)[0];
+  return first.length > max ? `${first.slice(0, max - 1).trimEnd()}…` : first;
+}
+
 /** Shown when a shot has no picture yet: says what the shot will show, so a stills test still makes sense. */
 function PlaceholderCard({ shot, palette, names }: { shot: CartoonShot; palette: Palette; names: string[] }) {
   return (
@@ -59,9 +65,9 @@ function PlaceholderCard({ shot, palette, names }: { shot: CartoonShot; palette:
       }}
     >
       <div style={{ fontFamily: inter.fontFamily, fontWeight: 700, fontSize: 30, letterSpacing: 6, color: palette.accent, textTransform: 'uppercase' }}>
-        {shot.scene || 'Scene'}
+        {short(shot.scene || 'Scene', 48)}
       </div>
-      <div style={{ fontFamily: space.fontFamily, fontWeight: 700, fontSize: 76, lineHeight: 1.1, color: '#fff' }}>{shot.action || shot.narration}</div>
+      <div style={{ fontFamily: space.fontFamily, fontWeight: 700, fontSize: 76, lineHeight: 1.1, color: '#fff' }}>{short(shot.action || shot.narration, 90)}</div>
       {names.length > 0 && (
         <div style={{ display: 'flex', gap: 16, flexWrap: 'wrap' }}>
           {names.map((n) => (
@@ -173,6 +179,41 @@ function ProgressBar({ total, accent }: { total: number; accent: string }) {
   );
 }
 
+/** Transition reels: a white flash on each cut and a big label that punches in (e.g. "1947", "Seed"). */
+function TransitionLabel({ text, palette, flash }: { text: string; palette: Palette; flash: boolean }) {
+  const frame = useCurrentFrame();
+  const flashOpacity = flash ? interpolate(frame, [0, 2, 9], [0.85, 0.6, 0], { extrapolateRight: 'clamp' }) : 0;
+  const scale = interpolate(frame, [0, 6, 10], [1.35, 0.96, 1], { extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic) });
+  const urdu = hasUrduLetters(text);
+  return (
+    <>
+      <AbsoluteFill style={{ background: '#fff', opacity: flashOpacity }} />
+      <AbsoluteFill style={{ justifyContent: 'flex-end', alignItems: 'center', paddingBottom: 330 }}>
+        <div
+          style={{
+            transform: `scale(${scale})`,
+            fontFamily: urdu ? nastaliq.fontFamily : space.fontFamily,
+            fontWeight: 700,
+            fontSize: urdu ? 96 : 110,
+            lineHeight: urdu ? 1.7 : 1,
+            color: '#fff',
+            padding: '18px 44px',
+            borderRadius: 28,
+            background: `${palette.bg}cc`,
+            border: `4px solid ${palette.accent}`,
+            textShadow: '0 6px 30px rgba(0,0,0,0.6)',
+            direction: urdu ? 'rtl' : 'ltr',
+            maxWidth: 960,
+            textAlign: 'center',
+          }}
+        >
+          {text}
+        </div>
+      </AbsoluteFill>
+    </>
+  );
+}
+
 /** The whole episode. */
 export function CartoonEpisode({ episode, series, assetBase }: EpisodeRenderProps) {
   const urdu = series.language === 'ur';
@@ -180,6 +221,7 @@ export function CartoonEpisode({ episode, series, assetBase }: EpisodeRenderProp
   const frames = episode.shots.map(shotFrames);
   const starts = frames.reduce<number[]>((acc, _f, i) => [...acc, i === 0 ? 0 : acc[i - 1] + frames[i - 1]], []);
   const last = episode.shots.length - 1;
+  const transition = series.format === 'transition';
   return (
     <AbsoluteFill style={{ backgroundColor: series.palette.bg }}>
       {episode.shots.map((shot, i) => (
@@ -196,9 +238,13 @@ export function CartoonEpisode({ episode, series, assetBase }: EpisodeRenderProp
       ))}
       <AbsoluteFill style={{ background: 'linear-gradient(180deg, rgba(0,0,0,0.35) 0%, transparent 18%, transparent 62%, rgba(0,0,0,0.55) 100%)' }} />
       {episode.shots.map((shot, i) => (
-        <Sequence key={`a-${shot.id}`} from={starts[i]} durationInFrames={frames[i]} name={`${i + 1}. voice`}>
+        <Sequence key={`a-${shot.id}`} from={starts[i]} durationInFrames={frames[i]} name={`${i + 1}. ${transition ? 'label' : 'voice'}`}>
           {shot.audio && <Html5Audio src={src(assetBase, shot.audio)} />}
-          <Captions words={shotWords(shot)} urdu={urdu} accent={series.palette.accent} bottom={260} />
+          {transition ? (
+            <TransitionLabel text={shot.narration} palette={series.palette} flash={i > 0} />
+          ) : (
+            <Captions words={shotWords(shot)} urdu={urdu} accent={series.palette.accent} bottom={260} />
+          )}
           {i === last && episode.endHook && <EndHook text={episode.endHook} palette={series.palette} urdu={hasUrduLetters(episode.endHook)} />}
         </Sequence>
       ))}

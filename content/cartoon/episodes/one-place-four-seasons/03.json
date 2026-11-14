@@ -1,0 +1,105 @@
+{
+  "number": 3,
+  "topic": "Swat valley river through the four seasons",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:21.894Z",
+  "episode": {
+    "id": "",
+    "seriesId": "one-place-four-seasons",
+    "title": "Swat Valley: One River, Four Seasons",
+    "shots": [
+      {
+        "id": "ku8gyq",
+        "narration": "Spring Sunrise",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of the Swat River in Swat Valley, Pakistan, vertical 9:16. Fixed elevated viewpoint from the riverbank: a distinctive rounded boulder at bottom left, turquoise river curving through the center, a wooded slope on the right, and rugged mountain peaks centered abov",
+        "action": "Establish the locked composition with delicate sunrise light touching the peaks and soft reflections on the river. Render one still image.",
+        "camera": "static",
+        "mood": "Fresh, peaceful, instantly inviting",
+        "duration": 1.8
+      },
+      {
+        "id": "ntbsl9",
+        "narration": "Spring Sunset",
+        "characters": [],
+        "scene": "The identical Swat River landscape in Swat Valley, Pakistan, vertical 9:16, photographed from exactly the same elevated riverbank viewpoint with the same lens and crop. Rounded boulder bottom left, central river bend, wooded right slope, centered mountain peaks, and blossoming branch upper right rem",
+        "action": "Flash cut from the previous image. Change only the time of day: replace sunrise illumination with warm sunset light and corresponding river reflections. Keep the spring landscape unchanged.",
+        "camera": "static",
+        "mood": "Warm, luminous, serene",
+        "duration": 1.8
+      },
+      {
+        "id": "z8588m",
+        "narration": "Summer Sunset",
+        "characters": [],
+        "scene": "The identical Swat River landscape, fixed elevated riverbank viewpoint, same lens, crop, and vertical 9:16 framing. Rounded boulder bottom left, central turquoise river bend, wooded right slope, centered rugged peaks, and foreground branch upper right in exactly the same positions. Full summer folia",
+        "action": "Flash cut. Change only the seasonal vegetation from spring blossoms and fresh leaves to dense, rich summer greenery. Preserve the sunset, river level, terrain, and composition.",
+        "camera": "static",
+        "mood": "Lush, radiant, abundant",
+        "duration": 1.8
+      },
+      {
+        "id": "02gd94",
+        "narration": "Summer Sunrise",
+        "characters": [],
+        "scene": "The identical Swat River landscape in vertical 9:16, with the exact same elevated viewpoint, lens, crop, foreground boulder, central river bend, wooded right slope, centered mountains, and upper-right leafy branch. Preserve the dense summer greenery. Clear sunrise lighting illuminates the valley. Ph",
+        "action": "Flash cut. Change only the time of day from sunset to the following sunrise, replacing amber evening illumination with soft morning light. Preserve all summer vegetation and physical features.",
+        "camera": "static",
+        "mood": "Clear, refreshing, expansive",
+        "duration": 1.8
+      },
+      {
+        "id": "kok7ff",
+        "narration": "Autumn Sunrise",
+        "characters": [],
+        "scene": "The identical Swat River landscape, exact fixed elevated viewpoint and vertical 9:16 crop. Rounded boulder bottom left, turquoise river curving centrally, wooded slope right, rugged peaks centered, and foreground branch upper right remain perfectly aligned. Deciduous foliage turns golden and copper ",
+        "action": "Flash cut. Change only the seasonal foliage from summer green to autumn gold and copper. Keep the sunrise illumination, river level, terrain, and framing unchanged.",
+        "camera": "static",
+        "mood": "Golden, elegant, tranquil",
+        "duration": 1.8
+      },
+      {
+        "id": "v5qic2",
+        "narration": "Autumn Sunset",
+        "characters": [],
+        "scene": "The identical Swat River landscape from the same elevated riverbank viewpoint, same lens and vertical 9:16 framing. Preserve the bottom-left boulder, central river bend, right wooded slope, centered peaks, and upper-right golden branch. Identical copper and gold autumn foliage. Warm sunset light bri",
+        "action": "Flash cut. Change only the time of day from sunrise to sunset, warming the light on the autumn canopy and river. Keep every landscape feature and leaf arrangement consistent.",
+        "camera": "static",
+        "mood": "Glowing, rich, majestic",
+        "duration": 1.8
+      },
+      {
+        "id": "qo1sbk",
+        "narration": "Winter Sunset",
+        "characters": [],
+        "scene": "The identical Swat River landscape, precisely matching the elevated viewpoint, lens, and vertical 9:16 crop. The rounded boulder remains bottom left, the open river curves through the center, the wooded slope stays right, and rugged peaks remain centered. Winter snow coats the banks, boulder, evergr",
+        "action": "Flash cut. Change only the season to winter, replacing autumn foliage with bare branches and a coherent blanket of snow. Keep the river open, its level unchanged, and the sunset and composition identical.",
+        "camera": "static",
+        "mood": "Pristine, luminous, awe-inspiring",
+        "duration": 1.8
+      },
+      {
+        "id": "kzb11l",
+        "narration": "Winter Night",
+        "characters": [],
+        "scene": "The identical snow-covered Swat River landscape from exactly the same elevated riverbank viewpoint, same lens and vertical 9:16 crop. Preserve the snow-covered boulder bottom left, open central river bend, snowy wooded slope right, centered peaks, and bare snowy branch upper right. Clear winter nigh",
+        "action": "Final flash cut. Change only the time of day from sunset to clear moonlit night. Preserve every winter detail and exact alignment; let the luminous snow, silver river, and star-filled sky create the most impressive final image.",
+        "camera": "static",
+        "mood": "Celestial, breathtaking, unforgettable",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which season would you visit?",
+    "createdAt": "2026-11-14T11:29:21.892Z",
+    "description": "One fixed view of Swat Valley transforms through four seasons, from fresh spring greenery to a breathtaking winter night. Flash cuts carry the river through the year. #SwatValley #FourSeasons #Pakistan #NatureReels #LandscapePhotography",
+    "tags": [
+      "Swat Valley",
+      "Swat River",
+      "Pakistan",
+      "four seasons",
+      "landscape",
+      "seasonal transition",
+      "vertical reel"
+    ]
+  }
+}

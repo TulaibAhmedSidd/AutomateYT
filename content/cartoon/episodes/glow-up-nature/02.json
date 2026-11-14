@@ -1,0 +1,104 @@
+{
+  "number": 2,
+  "topic": "An egg hatching into a chick and growing into a hen",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:34.519Z",
+  "episode": {
+    "id": "",
+    "seriesId": "glow-up-nature",
+    "title": "From Tiny Egg to Beautiful Hen",
+    "shots": [
+      {
+        "id": "6gu6f3",
+        "narration": "Egg",
+        "characters": [],
+        "scene": "Beautiful nature macro-style photography, vertical 9:16. One pale brown chicken egg rests in a shallow straw nest beside a mossy stone in a sheltered garden nook. Soft natural morning light, blurred green background. Fixed ground-level three-quarter view, framing wide enough for an adult hen in late",
+        "action": "Show the single intact egg centered in the nest, its smooth shell clearly visible. Establish the nest, mossy stone, lighting, and camera position as permanent visual anchors.",
+        "camera": "static",
+        "mood": "Quiet anticipation",
+        "duration": 1.8
+      },
+      {
+        "id": "hehqxa",
+        "narration": "Pipped Egg",
+        "characters": [],
+        "scene": "Beautiful nature macro-style photography, vertical 9:16. The same pale brown egg in the same straw nest beside the same mossy stone, with identical soft morning light, blurred garden background, fixed ground-level three-quarter angle, and framing. No other animals, people, text, letters, or logos.",
+        "action": "The only change is a small star-shaped opening near the egg's broad end, with a tiny beak tip visible through it. Most of the shell remains intact.",
+        "camera": "static",
+        "mood": "Delicate anticipation",
+        "duration": 1.8
+      },
+      {
+        "id": "18v99c",
+        "narration": "Hatching",
+        "characters": [],
+        "scene": "Beautiful nature macro-style photography, vertical 9:16. The same egg and its single chick occupy the same straw nest beside the same mossy stone. Identical soft morning light, blurred garden background, fixed ground-level three-quarter angle, and framing. No other animals, people, text, letters, or",
+        "action": "The shell opening has widened enough to reveal the chick's head and upper body, with damp golden down. Its lower body remains gently cradled inside the shell; no distress or injury.",
+        "camera": "static",
+        "mood": "Tender wonder",
+        "duration": 1.8
+      },
+      {
+        "id": "rfftpf",
+        "narration": "Newly Hatched Chick",
+        "characters": [],
+        "scene": "Beautiful nature macro-style photography, vertical 9:16. The same golden chick is centered in the same straw nest beside the same mossy stone. Identical soft morning light, blurred garden background, fixed ground-level three-quarter angle, and framing. No other animals, people, text, letters, or log",
+        "action": "Show the chick fully free of the shell, resting upright with slightly damp down. The two empty shell halves lie immediately beside it. The visible change is complete emergence.",
+        "camera": "static",
+        "mood": "Gentle new beginnings",
+        "duration": 1.8
+      },
+      {
+        "id": "77xhqp",
+        "narration": "Fluffy Chick",
+        "characters": [],
+        "scene": "Beautiful nature macro-style photography, vertical 9:16. The same golden chick occupies the same straw nest beside the same mossy stone, with the empty shell halves still beside it. Identical soft morning light, blurred garden background, fixed ground-level three-quarter angle, and framing. No other",
+        "action": "Keep the chick approximately the same size and position, but show its down fully dry and softly fluffed into a rounded golden silhouette.",
+        "camera": "static",
+        "mood": "Warm and adorable",
+        "duration": 1.8
+      },
+      {
+        "id": "cvamjn",
+        "narration": "Feathering Chick",
+        "characters": [],
+        "scene": "Beautiful nature macro-style photography, vertical 9:16. The same female golden-brown chicken is centered in the same straw nest beside the same mossy stone, with shell remnants beside it. Identical soft morning light, blurred garden background, fixed ground-level three-quarter angle, and framing. N",
+        "action": "Show the chick beginning to replace its fluffy down with distinct golden-brown wing and tail feathers. Keep its familiar golden face and centered orientation.",
+        "camera": "static",
+        "mood": "Fresh growth",
+        "duration": 1.8
+      },
+      {
+        "id": "fht86a",
+        "narration": "Pullet",
+        "characters": [],
+        "scene": "Beautiful nature macro-style photography, vertical 9:16. The same female golden-brown chicken stands at the center of the same straw nest beside the same mossy stone, with shell remnants beside it. Identical soft morning light, blurred garden background, fixed ground-level three-quarter angle, and f",
+        "action": "Show the next growth stage: a slim young pullet with full golden-brown juvenile plumage and a small pale comb. Preserve the same orientation and recognizable feather coloring.",
+        "camera": "static",
+        "mood": "Graceful becoming",
+        "duration": 1.8
+      },
+      {
+        "id": "l0imcj",
+        "narration": "Hen",
+        "characters": [],
+        "scene": "Beautiful nature macro-style photography, vertical 9:16. The same golden-brown female chicken stands in the same straw nest beside the same mossy stone, with shell remnants beside it. Identical soft morning light, blurred garden background, fixed ground-level three-quarter angle, and unchanged frami",
+        "action": "Reveal her mature adult form: a full-bodied golden-brown hen with richly layered feathers and a developed red comb and wattles. Her impressive silhouette fills the space reserved above the original egg.",
+        "camera": "static",
+        "mood": "Radiant and triumphant",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which stage is the cutest?",
+    "createdAt": "2026-11-14T11:28:34.517Z",
+    "description": "One little egg becomes a beautiful hen in a gentle, step-by-step transformation. Soft natural light and flash-cut transitions reveal every stage. #GlowUpNature #EggToHen #NaturePhotography #GrowingUp #NatureReels",
+    "tags": [
+      "Glow Up: Nature",
+      "egg hatching",
+      "chick",
+      "hen",
+      "chicken growth",
+      "nature transformation"
+    ]
+  }
+}

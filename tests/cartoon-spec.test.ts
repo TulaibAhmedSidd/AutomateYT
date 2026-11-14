@@ -149,6 +149,11 @@ test('key moments: ticked shots, or hook, middle and ending', () => {
   assert.equal(keyShotIds(one).length, 1);
 });
 
+test('transition format is kept only when asked for', () => {
+  assert.equal(sanitizeSeries({ name: 'T', format: 'transition' }).format, 'transition');
+  assert.equal('format' in sanitizeSeries({ name: 'T', format: 'weird' }), false);
+});
+
 test('sanitizeSeries fills defaults and clamps', () => {
   const s = sanitizeSeries({ id: '../evil', name: '', language: 'fr', characters: [{ name: 'A' }], episodeSeconds: 999 });
   assert.match(s.id, /^[\w-]{3,64}$/);

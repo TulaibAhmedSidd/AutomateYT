@@ -1,0 +1,95 @@
+{
+  "number": 10,
+  "topic": "Fairy Meadows and Nanga Parbat from sunrise to night",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:35.043Z",
+  "episode": {
+    "id": "",
+    "seriesId": "one-place-four-seasons",
+    "title": "Fairy Meadows: Sunrise to Starlight",
+    "shots": [
+      {
+        "id": "fjckci",
+        "narration": "Sunrise",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Nanga Parbat's north face viewed from Fairy Meadows, Pakistan. Fixed vertical 9:16 composition: grassy meadow across the lower quarter, one dark conifer framing the left edge, forested valley in the middle, unmistakable snowy massif centered beneath a generou",
+        "action": "Show sunrise illumination only: the highest snowy summit glows rose-gold while the meadow and valley remain in cool blue shadow. Preserve all landscape positions. Hold the still image, then flash-cut.",
+        "camera": "static",
+        "mood": "Iconic, serene, expectant",
+        "duration": 1.8
+      },
+      {
+        "id": "pa932f",
+        "narration": "Morning",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Nanga Parbat's north face viewed from Fairy Meadows, Pakistan. Fixed vertical 9:16 composition: grassy meadow across the lower quarter, one dark conifer framing the left edge, forested valley in the middle, unmistakable snowy massif centered beneath a generou",
+        "action": "Change only the time-of-day illumination to morning: fresh warm sunlight reaches the meadow, with long soft shadows and luminous white snow. Preserve all landscape positions. Hold the still image, then flash-cut.",
+        "camera": "static",
+        "mood": "Fresh, radiant, peaceful",
+        "duration": 1.8
+      },
+      {
+        "id": "bg3aoc",
+        "narration": "Noon",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Nanga Parbat's north face viewed from Fairy Meadows, Pakistan. Fixed vertical 9:16 composition: grassy meadow across the lower quarter, one dark conifer framing the left edge, forested valley in the middle, unmistakable snowy massif centered beneath a generou",
+        "action": "Change only the time-of-day illumination to noon: brilliant neutral daylight, short shadows, vivid meadow greens and sharply defined mountain textures beneath a deep blue sky. Preserve all landscape positions. Hold the still image, then flash-cut.",
+        "camera": "static",
+        "mood": "Majestic, vivid, expansive",
+        "duration": 1.8
+      },
+      {
+        "id": "q3k81z",
+        "narration": "Afternoon",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Nanga Parbat's north face viewed from Fairy Meadows, Pakistan. Fixed vertical 9:16 composition: grassy meadow across the lower quarter, one dark conifer framing the left edge, forested valley in the middle, unmistakable snowy massif centered beneath a generou",
+        "action": "Change only the time-of-day illumination to late afternoon: angled amber light sculpts the mountain ridges and stretches shadows across the meadow. Preserve all landscape positions. Hold the still image, then flash-cut.",
+        "camera": "static",
+        "mood": "Warm, sculptural, tranquil",
+        "duration": 1.8
+      },
+      {
+        "id": "qcsaxl",
+        "narration": "Sunset",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Nanga Parbat's north face viewed from Fairy Meadows, Pakistan. Fixed vertical 9:16 composition: grassy meadow across the lower quarter, one dark conifer framing the left edge, forested valley in the middle, unmistakable snowy massif centered beneath a generou",
+        "action": "Change only the time-of-day illumination to sunset: fiery pink-orange alpenglow washes the upper snowfields while the meadow falls into violet shadow beneath a peach-gradient sky. Preserve all landscape positions. Hold the still image, then flash-cut.",
+        "camera": "static",
+        "mood": "Glowing, dramatic, sublime",
+        "duration": 1.8
+      },
+      {
+        "id": "z8aeos",
+        "narration": "Twilight",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Nanga Parbat's north face viewed from Fairy Meadows, Pakistan. Fixed vertical 9:16 composition: grassy meadow across the lower quarter, one dark conifer framing the left edge, forested valley in the middle, unmistakable snowy massif centered beneath a generou",
+        "action": "Change only the time-of-day illumination to blue-hour twilight: cobalt ambient light surrounds softly luminous snow, with a fading lavender horizon and the first faint stars overhead. Preserve all landscape positions. Hold the still image, then flash-cut.",
+        "camera": "static",
+        "mood": "Dreamlike, hushed, ethereal",
+        "duration": 1.8
+      },
+      {
+        "id": "vrlwdb",
+        "narration": "Night",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Nanga Parbat's north face viewed from Fairy Meadows, Pakistan. Fixed vertical 9:16 composition: grassy meadow across the lower quarter, one dark conifer framing the left edge, forested valley in the middle, unmistakable snowy massif centered beneath a generou",
+        "action": "Change only the time-of-day illumination to full astronomical night: reveal a breathtaking, naturally detailed Milky Way across the sky, with subtly luminous snow and a dark meadow rendered through realistic long-exposure photography. Preserve all landscape positions; no oversized stars or artificia",
+        "camera": "static",
+        "mood": "Awe-inspiring, celestial, unforgettable",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Sunrise or starlight—which view wins?",
+    "createdAt": "2026-11-14T11:29:35.042Z",
+    "description": "One breathtaking view of Fairy Meadows and Nanga Parbat, transformed by light from sunrise to a star-filled night. Flash-cut through a day beneath the giant. #FairyMeadows #NangaParbat #Pakistan #LandscapePhotography #DayToNight",
+    "tags": [
+      "Fairy Meadows",
+      "Nanga Parbat",
+      "Pakistan",
+      "day to night",
+      "mountain landscape",
+      "cinematic",
+      "vertical reel"
+    ]
+  }
+}

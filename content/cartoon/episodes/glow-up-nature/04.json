@@ -1,0 +1,95 @@
+{
+  "number": 4,
+  "topic": "A tadpole becoming a frog",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:41.794Z",
+  "episode": {
+    "id": "",
+    "seriesId": "glow-up-nature",
+    "title": "Tiny Tadpole, Beautiful Frog 🐸",
+    "shots": [
+      {
+        "id": "wo98zg",
+        "narration": "Egg",
+        "characters": [],
+        "scene": "Beautiful nature macro photography, vertical 9:16. A single common frog egg with a dark round center inside clear jelly rests in a shallow pond hollow beside a mossy stone that rises above the water. Fixed three-quarter close-up looking slightly downward, soft natural light, muted green background, ",
+        "action": "Show the single jelly-coated egg clearly, with its round dark center sharply focused. Establish the stone, waterline and framing that remain identical throughout.",
+        "camera": "static",
+        "mood": "Delicate and peaceful",
+        "duration": 1.8
+      },
+      {
+        "id": "2kkzn8",
+        "narration": "Embryo",
+        "characters": [],
+        "scene": "Beautiful nature macro photography, vertical 9:16. The same single common frog egg in the same shallow pond hollow beside the same mossy stone. Identical fixed three-quarter close-up, waterline, soft natural light and muted green background. No other animals, people, text, letters or logos.",
+        "action": "Change only the dark center into a visibly elongated, curled embryo inside the transparent jelly.",
+        "camera": "static",
+        "mood": "Quiet anticipation",
+        "duration": 1.8
+      },
+      {
+        "id": "pxbaec",
+        "narration": "Tadpole",
+        "characters": [],
+        "scene": "Beautiful nature macro photography, vertical 9:16. The same developing common frog now rests underwater in the same shallow pond hollow beside the same mossy stone. Identical fixed three-quarter close-up, waterline, soft natural light and muted green background. No other animals, people, text, lette",
+        "action": "Show the newly hatched tadpole free of the egg, with a rounded dark body and a long translucent tail, no visible legs. Keep it centered in the original egg's location.",
+        "camera": "static",
+        "mood": "Tender discovery",
+        "duration": 1.8
+      },
+      {
+        "id": "jbobil",
+        "narration": "Hind Legs",
+        "characters": [],
+        "scene": "Beautiful nature macro photography, vertical 9:16. The same common frog tadpole rests underwater in the same shallow pond hollow beside the same mossy stone. Identical fixed three-quarter close-up, waterline, soft natural light and muted green background. No other animals, people, text, letters or l",
+        "action": "Add a clearly visible pair of small hind legs to the tadpole, retaining its rounded body and long tail. No visible front legs yet.",
+        "camera": "static",
+        "mood": "Gentle wonder",
+        "duration": 1.8
+      },
+      {
+        "id": "rq34it",
+        "narration": "Front Legs",
+        "characters": [],
+        "scene": "Beautiful nature macro photography, vertical 9:16. The same developing common frog remains in the same shallow pond hollow at the submerged edge of the same mossy stone. Identical fixed three-quarter close-up, waterline, soft natural light and muted green background. No other animals, people, text, ",
+        "action": "Reveal the pair of front legs, making all four limbs visible while retaining a prominent long tail. Its head rests close to the water surface.",
+        "camera": "static",
+        "mood": "Remarkable transformation",
+        "duration": 1.8
+      },
+      {
+        "id": "7lwo9v",
+        "narration": "Froglet",
+        "characters": [],
+        "scene": "Beautiful nature macro photography, vertical 9:16. The same young common frog rests at the waterline on the sloping edge of the same mossy stone in the same pond hollow. Identical fixed three-quarter close-up, soft natural light and muted green background. No other animals, people, text, letters or ",
+        "action": "Show the tail reduced to a tiny remaining stub, with all four legs supporting the small frog-shaped body. Keep the subject centered beside the original hollow.",
+        "camera": "static",
+        "mood": "Fresh and hopeful",
+        "duration": 1.8
+      },
+      {
+        "id": "70j9hn",
+        "narration": "Adult Frog",
+        "characters": [],
+        "scene": "Beautiful nature macro photography, vertical 9:16. The same common frog, now fully grown, sits at the waterline on the same mossy stone beside the same pond hollow. Identical fixed three-quarter close-up, soft natural light and muted green background. The original framing leaves room for its adult s",
+        "action": "Present the mature, tailless frog in a graceful resting pose, with beautifully detailed mottled brown skin, folded hind legs and a sharply focused golden eye. Its larger adult form fills the frame impressively.",
+        "camera": "static",
+        "mood": "Beautiful and triumphant",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which transformation surprised you most?",
+    "createdAt": "2026-11-14T11:28:41.792Z",
+    "description": "From a jelly-coated egg to a beautiful frog, watch one tiny life transform in a peaceful pond. #GlowUpNature #FrogLifeCycle #Metamorphosis #NatureMacro #NatureShorts",
+    "tags": [
+      "frog",
+      "tadpole",
+      "metamorphosis",
+      "frog life cycle",
+      "nature",
+      "macro photography",
+      "Glow Up Nature"
+    ]
+  }
+}

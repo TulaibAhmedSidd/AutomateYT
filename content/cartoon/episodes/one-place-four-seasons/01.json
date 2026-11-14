@@ -1,0 +1,104 @@
+{
+  "number": 1,
+  "topic": "Hunza valley in spring, summer, autumn and winter",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:12.923Z",
+  "episode": {
+    "id": "",
+    "seriesId": "one-place-four-seasons",
+    "title": "Hunza Valley: One View, Four Seasons",
+    "shots": [
+      {
+        "id": "13hdca",
+        "narration": "Early Spring",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of Hunza Valley, Pakistan, from a fixed hillside overlook near Duikar. An apricot tree frames the lower left, terraced orchards fill the valley, and snow-crowned Rakaposhi anchors the distant skyline. Warm late-afternoon light, clear sky, cinematic natural colour, v",
+        "action": "Show the foreground apricot tree and valley orchards covered in delicate pale-pink blossoms. Establish the exact composition to preserve throughout the sequence.",
+        "camera": "static",
+        "mood": "Fresh, delicate, awe-inspiring",
+        "duration": 1.8
+      },
+      {
+        "id": "3rhqj0",
+        "narration": "Late Spring",
+        "characters": [],
+        "scene": "The identical Hunza Valley overlook near Duikar, with the same apricot tree at lower left, terraced orchards below, and distant snow-crowned Rakaposhi. Identical framing, mountain silhouette, clear sky, and warm late-afternoon light. Cinematic landscape photography, vertical 9:16. No people, text, l",
+        "action": "Change only the orchard foliage: replace the blossoms with tender light-green leaves. Preserve all landscape geometry.",
+        "camera": "static",
+        "mood": "Tender, luminous, hopeful",
+        "duration": 1.8
+      },
+      {
+        "id": "hhtp3x",
+        "narration": "Early Summer",
+        "characters": [],
+        "scene": "The identical Hunza Valley overlook near Duikar, with the same apricot tree at lower left, terraced orchards below, and distant snow-crowned Rakaposhi. Identical framing, mountain silhouette, clear sky, and warm late-afternoon light. Cinematic landscape photography, vertical 9:16. No people, text, l",
+        "action": "Change only the orchard foliage into fuller, vibrant emerald-green canopies. Keep every other element unchanged.",
+        "camera": "static",
+        "mood": "Lush, radiant, expansive",
+        "duration": 1.8
+      },
+      {
+        "id": "6eegfy",
+        "narration": "Late Summer",
+        "characters": [],
+        "scene": "The identical Hunza Valley overlook near Duikar, with the same apricot tree at lower left, terraced orchards below, and distant snow-crowned Rakaposhi. Identical framing, mountain silhouette, clear sky, and warm late-afternoon light. Cinematic landscape photography, vertical 9:16. No people, text, l",
+        "action": "Change only the orchard foliage colour from emerald to rich, deep summer green. Preserve canopy shapes and all other details.",
+        "camera": "static",
+        "mood": "Rich, tranquil, majestic",
+        "duration": 1.8
+      },
+      {
+        "id": "3rqrh8",
+        "narration": "Early Autumn",
+        "characters": [],
+        "scene": "The identical Hunza Valley overlook near Duikar, with the same apricot tree at lower left, terraced orchards below, and distant snow-crowned Rakaposhi. Identical framing, mountain silhouette, clear sky, and warm late-afternoon light. Cinematic landscape photography, vertical 9:16. No people, text, l",
+        "action": "Change only the orchard foliage colour to luminous golden yellow. Preserve the same canopy shapes and landscape.",
+        "camera": "static",
+        "mood": "Golden, glowing, enchanting",
+        "duration": 1.8
+      },
+      {
+        "id": "zsn2ee",
+        "narration": "Late Autumn",
+        "characters": [],
+        "scene": "The identical Hunza Valley overlook near Duikar, with the same apricot tree at lower left, terraced orchards below, and distant snow-crowned Rakaposhi. Identical framing, mountain silhouette, clear sky, and warm late-afternoon light. Cinematic landscape photography, vertical 9:16. No people, text, l",
+        "action": "Change only the orchard foliage colour from golden yellow to burnished amber and copper. Keep the same tree silhouettes and every other element unchanged.",
+        "camera": "static",
+        "mood": "Fiery, sumptuous, cinematic",
+        "duration": 1.8
+      },
+      {
+        "id": "573n8p",
+        "narration": "Early Winter",
+        "characters": [],
+        "scene": "The identical Hunza Valley overlook near Duikar, with the same apricot tree at lower left, terraced orchards below, and distant snow-crowned Rakaposhi. Identical framing, mountain silhouette, clear sky, and warm late-afternoon light. Cinematic landscape photography, vertical 9:16. No people, text, l",
+        "action": "Change only the orchard foliage state: reveal elegant bare branches where the copper leaves were. Retain the warm light and unchanged terrain.",
+        "camera": "static",
+        "mood": "Quiet, sculptural, serene",
+        "duration": 1.8
+      },
+      {
+        "id": "kflgwf",
+        "narration": "Winter",
+        "characters": [],
+        "scene": "The identical Hunza Valley overlook near Duikar, with the same apricot tree at lower left, terraced orchards below, and distant snow-crowned Rakaposhi. Identical framing, mountain silhouette, clear sky, and warm late-afternoon light. Cinematic landscape photography, vertical 9:16. No people, text, l",
+        "action": "Change only snow coverage: blanket the bare branches, terraces, and valley slopes in pristine fresh snow. Preserve every shape and the same lighting, letting the snow reflect peach highlights and blue shadows for the most breathtaking final image.",
+        "camera": "static",
+        "mood": "Dazzling, monumental, unforgettable",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which season would you visit?",
+    "createdAt": "2026-11-14T11:29:12.921Z",
+    "description": "One breathtaking view of Hunza Valley transforms from apricot blossoms to a winter wonderland. Watch the seasons change with every flash. #HunzaValley #Pakistan #FourSeasons #LandscapePhotography #TravelReels",
+    "tags": [
+      "Hunza Valley",
+      "Pakistan",
+      "four seasons",
+      "Rakaposhi",
+      "landscape",
+      "transition reel"
+    ]
+  }
+}

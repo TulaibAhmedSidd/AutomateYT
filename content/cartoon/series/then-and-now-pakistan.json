@@ -1,0 +1,42 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "transition",
+  "why": "Then-vs-now city reels are one of the most shared transition formats; Pakistani cities and landmarks get huge local engagement and proud shares.",
+  "series": {
+    "id": "then-and-now-pakistan",
+    "name": "Then & Now: Pakistan",
+    "language": "en",
+    "audience": "general",
+    "madeForKids": false,
+    "style": "photorealistic cinematic look, same famous view of the place in every picture, golden-hour light, high detail, vertical 9:16 frame",
+    "negative": "text, letters, words, watermark, logo, real people, celebrities, blood, blurry, distorted",
+    "characters": [],
+    "voice": {
+      "provider": "edge",
+      "edgeVoice": "en-US-AndrewNeural"
+    },
+    "rules": [
+      "Same place, same camera angle in every stage; only the era changes.",
+      "Labels are eras or years that are well known (e.g. 1900s, 1947, Today). Never invent exact dates.",
+      "Old eras look like aged photographs with warm sepia; today looks bright and modern."
+    ],
+    "episodeSeconds": 45,
+    "palette": {
+      "bg": "#0f1b14",
+      "accent": "#7fd17f"
+    },
+    "format": "transition"
+  },
+  "topics": [
+    "Lahore Fort and the Badshahi Mosque view from the 1600s to today",
+    "Karachi Saddar and Empress Market from the 1890s to today",
+    "Islamabad: from empty Margalla foothills in the 1950s to the Faisal Mosque city of today",
+    "Peshawar Qissa Khwani Bazaar through the centuries to today",
+    "Gwadar: from a small fishing village to a modern port city",
+    "Murree Mall Road from the 1900s hill station to today",
+    "Faisalabad Clock Tower and its eight bazaars from the 1900s to today",
+    "Multan: the city of shrines and blue tiles through the ages",
+    "Hunza valley: from an old mountain village to today's tourist valley",
+    "Minar-e-Pakistan site from 1940 to today's park"
+  ]
+}

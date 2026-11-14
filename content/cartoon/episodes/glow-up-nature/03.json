@@ -1,0 +1,104 @@
+{
+  "number": 3,
+  "topic": "A caterpillar becoming a butterfly",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:33.472Z",
+  "episode": {
+    "id": "",
+    "seriesId": "glow-up-nature",
+    "title": "Tiny Caterpillar, Spectacular Monarch",
+    "shots": [
+      {
+        "id": "2erttg",
+        "narration": "Young Caterpillar",
+        "characters": [],
+        "scene": "Photorealistic nature macro photography, vertical 9:16. One small monarch caterpillar with recognizable black, white and yellow bands rests beneath the leaf junction of a single milkweed stem. Fixed side-on camera angle, soft natural daylight, blurred green meadow background. Frame includes open spa",
+        "action": "Show the small caterpillar gripping the underside of the leaf junction, its entire body clearly visible.",
+        "camera": "static",
+        "mood": "Delicate and peaceful",
+        "duration": 1.8
+      },
+      {
+        "id": "z0da3x",
+        "narration": "Growing Caterpillar",
+        "characters": [],
+        "scene": "Photorealistic nature macro photography, vertical 9:16. The same monarch caterpillar beneath the same milkweed leaf junction, identical side-on camera angle, framing, soft daylight and blurred green meadow background. No other animals, people, text, letters or logos.",
+        "action": "Make the caterpillar larger while preserving its striped markings and its position beneath the leaf junction.",
+        "camera": "static",
+        "mood": "Gentle growth",
+        "duration": 1.8
+      },
+      {
+        "id": "tzzvb4",
+        "narration": "Mature Caterpillar",
+        "characters": [],
+        "scene": "Photorealistic nature macro photography, vertical 9:16. The same monarch caterpillar beneath the same milkweed leaf junction, identical side-on camera angle, framing, soft daylight and blurred green meadow background. No other animals, people, text, letters or logos.",
+        "action": "Show the caterpillar fully grown and plump, still gripping the same spot in the same orientation.",
+        "camera": "static",
+        "mood": "Quiet anticipation",
+        "duration": 1.8
+      },
+      {
+        "id": "lu592o",
+        "narration": "Hanging Caterpillar",
+        "characters": [],
+        "scene": "Photorealistic nature macro photography, vertical 9:16. The same mature monarch caterpillar at the same milkweed leaf junction, identical side-on camera angle, framing, soft daylight and blurred green meadow background. No other animals, people, text, letters or logos.",
+        "action": "Change its posture into the characteristic hanging J shape, attached by its rear end to a tiny silk pad beneath the junction.",
+        "camera": "static",
+        "mood": "Still and expectant",
+        "duration": 1.8
+      },
+      {
+        "id": "ef6kc2",
+        "narration": "Chrysalis",
+        "characters": [],
+        "scene": "Photorealistic nature macro photography, vertical 9:16. The same monarch now forms a chrysalis suspended beneath the same milkweed leaf junction. Identical side-on camera angle, framing, soft daylight and blurred green meadow background. No other animals, people, text, letters or logos.",
+        "action": "Replace the hanging caterpillar form with a smooth jade-green monarch chrysalis bearing delicate natural gold accents, attached at the same point.",
+        "camera": "static",
+        "mood": "Jewel-like serenity",
+        "duration": 1.8
+      },
+      {
+        "id": "ny624h",
+        "narration": "Darkening Chrysalis",
+        "characters": [],
+        "scene": "Photorealistic nature macro photography, vertical 9:16. The same monarch chrysalis suspended beneath the same milkweed leaf junction, identical side-on camera angle, framing, soft daylight and blurred green meadow background. No other animals, people, text, letters or logos.",
+        "action": "Make the chrysalis casing translucent and darker, revealing the orange-and-black wing pattern inside without changing its shape or attachment.",
+        "camera": "static",
+        "mood": "Beautiful suspense",
+        "duration": 1.8
+      },
+      {
+        "id": "2oionq",
+        "narration": "Emerging Butterfly",
+        "characters": [],
+        "scene": "Photorealistic nature macro photography, vertical 9:16. The same monarch emerging at the same milkweed leaf junction, identical side-on camera angle, framing, soft daylight and blurred green meadow background. No other animals, people, text, letters or logos.",
+        "action": "Show the newly emerged butterfly gripping its empty chrysalis, with small, soft, crumpled wings hanging downward.",
+        "camera": "static",
+        "mood": "Tender wonder",
+        "duration": 1.8
+      },
+      {
+        "id": "1eec08",
+        "narration": "Monarch Butterfly",
+        "characters": [],
+        "scene": "Photorealistic nature macro photography, vertical 9:16. The same monarch butterfly gripping its empty chrysalis beneath the same milkweed leaf junction, identical side-on camera angle, framing, soft daylight and blurred green meadow background. No other animals, people, text, letters or logos.",
+        "action": "Show its wings fully expanded and held together upright, displaying a magnificent orange side profile with crisp black veins and white-spotted borders.",
+        "camera": "static",
+        "mood": "Radiant and triumphant",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which transformation surprised you most?",
+    "createdAt": "2026-11-14T11:28:33.471Z",
+    "description": "Watch one monarch caterpillar transform into a butterfly, one beautiful stage at a time. Flash cuts reveal nature’s remarkable glow up. #NatureGlowUp #MonarchButterfly #Metamorphosis #MacroNature #NatureReels",
+    "tags": [
+      "monarch butterfly",
+      "caterpillar",
+      "metamorphosis",
+      "nature macro",
+      "nature glow up",
+      "transition reel"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "number": 9,
+  "topic": "Video game consoles: from a simple tennis game box to a modern console (no brands)",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:29.881Z",
+  "episode": {
+    "id": "",
+    "seriesId": "evolution-of",
+    "title": "Evolution of Consoles: Tennis Box to Today",
+    "shots": [
+      {
+        "id": "6b8khe",
+        "narration": "Early 1970s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one generic early home tennis video game console, a low cream-colored rectangular box with two large rotary control knobs built into its top. Centered, front three-quarter view from slightly above, plain cool-gray gradient background, soft upper-left lighting, vert",
+        "action": "Show the simple tennis-game box alone, with its two rotary knobs as the unmistakable focal feature. Sharp product detail, generous empty space.",
+        "camera": "static",
+        "mood": "Simple, nostalgic",
+        "duration": 1.8
+      },
+      {
+        "id": "ljeka1",
+        "narration": "Late 1970s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one generic late-1970s home video game console, a low cream-colored rectangular box with a prominent top-loading cartridge socket in place of the built-in rotary controls. Centered, front three-quarter view from slightly above, plain cool-gray gradient background, ",
+        "action": "Match the previous console's position and scale; make the cartridge socket the single dominant visible evolution.",
+        "camera": "static",
+        "mood": "Inventive, nostalgic",
+        "duration": 1.8
+      },
+      {
+        "id": "0e76wd",
+        "narration": "1980s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one generic 1980s home video game console, a low cream-colored rectangular box with a broad front-loading cartridge flap instead of a top-loading cartridge socket. Centered, front three-quarter view from slightly above, plain cool-gray gradient background, soft upp",
+        "action": "Match the previous console's position and scale; make the move from top-loading to front-loading cartridges the single dominant visible change.",
+        "camera": "static",
+        "mood": "Familiar, playful",
+        "duration": 1.8
+      },
+      {
+        "id": "vkl7oi",
+        "narration": "1990s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one generic 1990s home video game console, a low cream-colored rectangular box with a circular top-loading optical-disc lid replacing the cartridge-loading feature. Centered, front three-quarter view from slightly above, plain cool-gray gradient background, soft up",
+        "action": "Match the previous console's position and scale; emphasize only the transition from cartridge loading to the circular disc lid.",
+        "camera": "static",
+        "mood": "Exciting, futuristic",
+        "duration": 1.8
+      },
+      {
+        "id": "wa8025",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one generic 2000s home video game console, a low cream-colored rectangular box with a slim front-loading optical-disc tray replacing the circular top-loading disc lid. Centered, front three-quarter view from slightly above, plain cool-gray gradient background, soft",
+        "action": "Match the previous console's position and scale; make the front-loading disc tray the single dominant visible update.",
+        "camera": "static",
+        "mood": "Polished, capable",
+        "duration": 1.8
+      },
+      {
+        "id": "76fseq",
+        "narration": "2010s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one generic 2010s home video game console, a low cream-colored rectangular box with a narrow slot-loading optical-disc opening replacing the protruding disc-tray outline. Centered, front three-quarter view from slightly above, plain cool-gray gradient background, s",
+        "action": "Match the previous console's position and scale; emphasize only the cleaner slot-loading disc opening.",
+        "camera": "static",
+        "mood": "Sleek, refined",
+        "duration": 1.8
+      },
+      {
+        "id": "4rpola",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Clean studio product photograph of one generic current-generation home video game console, a substantial cream-colored rectangular console resting horizontally, retaining a narrow front disc slot, its upper shell now defined by a bold precision-perforated cooling grille. Centered, front three-quarte",
+        "action": "Match the previous console's position and framing; make the expansive precision-engineered cooling grille the single dominant upgrade and the visually impressive final reveal.",
+        "camera": "static",
+        "mood": "Powerful, premium",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which console era was your first?",
+    "createdAt": "2026-11-14T11:28:29.880Z",
+    "description": "From a simple home tennis box to a powerful modern console, watch gaming hardware evolve through seven eras. Flash cuts, no voice—just the transformation. #EvolutionOf #GamingHistory #GameConsoles #RetroGaming #Shorts",
+    "tags": [
+      "console evolution",
+      "gaming history",
+      "retro gaming",
+      "video game consoles",
+      "technology evolution"
+    ]
+  }
+}

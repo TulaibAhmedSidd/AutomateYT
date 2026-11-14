@@ -1,0 +1,103 @@
+{
+  "number": 2,
+  "topic": "The car: from the first motor car to an electric car",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:27:52.187Z",
+  "episode": {
+    "id": "",
+    "seriesId": "evolution-of",
+    "title": "Evolution of the Car: From Motorwagen to Electric",
+    "shots": [
+      {
+        "id": "5nzyib",
+        "narration": "1886",
+        "characters": [],
+        "scene": "Clean studio product photograph of a historically grounded 1886 three-wheeled gasoline motor car, open carriage seat, thin spoked wheels, exposed mechanical frame. Centered front-left three-quarter view, nose pointing left, eye-level camera, entire vehicle visible in a vertical 9:16 frame. Plain pal",
+        "action": "Show the stationary vehicle with its three-wheel layout as the defining silhouette. Establish the framing and lighting to match every subsequent image.",
+        "camera": "static",
+        "mood": "Inventive and pioneering",
+        "duration": 1.8
+      },
+      {
+        "id": "dc65kb",
+        "narration": "1900s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a generic 1900s motor car, open carriage-style passenger compartment, four thin spoked wheels, upright seating and compact front engine hood. Centered front-left three-quarter view, nose pointing left, eye-level camera, entire vehicle visible in a vertical 9:16 fra",
+        "action": "Show the stationary car. Make the move to a four-wheel stance the dominant visible change; preserve the carriage-like character.",
+        "camera": "static",
+        "mood": "Mechanical and adventurous",
+        "duration": 1.8
+      },
+      {
+        "id": "x2l0fl",
+        "narration": "1920s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a generic 1920s motor car with a tall enclosed passenger cabin, upright windshield, narrow wheels, separate fenders and a compact front hood. Centered front-left three-quarter view, nose pointing left, eye-level camera, entire vehicle visible in a vertical 9:16 fra",
+        "action": "Show the stationary car. Make the enclosed hard-roof cabin the dominant visible change.",
+        "camera": "static",
+        "mood": "Practical and established",
+        "duration": 1.8
+      },
+      {
+        "id": "1nblnt",
+        "narration": "1930s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a generic 1930s enclosed sedan with a rounded steel body, flowing fenders, sloping roof and round headlights. Centered front-left three-quarter view, nose pointing left, eye-level camera, entire vehicle visible in a vertical 9:16 frame. Plain pale gray gradient bac",
+        "action": "Show the stationary car. Make the newly rounded, streamlined body silhouette the dominant visible change.",
+        "camera": "static",
+        "mood": "Elegant and progressive",
+        "duration": 1.8
+      },
+      {
+        "id": "ujmgzw",
+        "narration": "1950s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a generic 1950s enclosed sedan with a longer, lower steel body, broad hood, restrained chrome trim and modest rear fins. Centered front-left three-quarter view, nose pointing left, eye-level camera, entire vehicle visible in a vertical 9:16 frame. Plain pale gray g",
+        "action": "Show the stationary car. Make the stretched, lower body proportions the dominant visible change.",
+        "camera": "static",
+        "mood": "Confident and glamorous",
+        "duration": 1.8
+      },
+      {
+        "id": "wokn9y",
+        "narration": "1980s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a generic 1980s enclosed sedan with an angular three-box body, flat panels, rectangular headlights and simple dark bumpers. Centered front-left three-quarter view, nose pointing left, eye-level camera, entire vehicle visible in a vertical 9:16 frame. Plain pale gra",
+        "action": "Show the stationary car. Make the crisp, box-shaped body silhouette the dominant visible change.",
+        "camera": "static",
+        "mood": "Functional and precise",
+        "duration": 1.8
+      },
+      {
+        "id": "mns55w",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a generic 2000s enclosed sedan with a smoothly rounded aerodynamic body, swept-back headlights and neatly integrated bumpers. Centered front-left three-quarter view, nose pointing left, eye-level camera, entire vehicle visible in a vertical 9:16 frame. Plain pale g",
+        "action": "Show the stationary car. Make the smoothly sculpted body silhouette the dominant visible change.",
+        "camera": "static",
+        "mood": "Refined and contemporary",
+        "duration": 1.8
+      },
+      {
+        "id": "xl2f9b",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Clean studio product photograph of a generic present-day premium electric sedan with a smooth closed front fascia, sleek aerodynamic body, slim headlights and flush detailing. Centered front-left three-quarter view, nose pointing left, eye-level camera, entire vehicle visible in a vertical 9:16 fram",
+        "action": "Show the stationary electric car. Make the smooth grille-free nose the dominant visible change, delivering the most polished and impressive final reveal.",
+        "camera": "static",
+        "mood": "Advanced and striking",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which era had the best-looking cars?",
+    "createdAt": "2026-11-14T11:27:52.185Z",
+    "description": "Watch the car evolve from an early three-wheeled motor car into a sleek modern electric vehicle. Each flash cut jumps forward through automotive history. #CarEvolution #ElectricCar #AutomotiveHistory #ThenAndNow #EvolutionOf",
+    "tags": [
+      "car evolution",
+      "automotive history",
+      "electric cars",
+      "transport evolution",
+      "transition reel"
+    ]
+  }
+}

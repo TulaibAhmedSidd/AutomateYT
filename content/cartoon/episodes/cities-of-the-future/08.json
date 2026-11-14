@@ -1,0 +1,84 @@
+{
+  "number": 8,
+  "topic": "Gwadar from today to the year 2150",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:27:45.040Z",
+  "episode": {
+    "id": "",
+    "seriesId": "cities-of-the-future",
+    "title": "Gwadar 2150: A Greener Coastal Future",
+    "shots": [
+      {
+        "id": "jz72fh",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art of present-day Gwadar, Pakistan, from a fixed elevated viewpoint on Koh-e-Batil, looking across the curved East Bay toward the port. Recognisable rocky headland, arid coastline, low-rise city and Arabian Sea, blue-hour light. No people, text, letters or logos.",
+        "action": "Establish the recognisable present-day coastal panorama with realistic buildings and restrained harbour lighting. Lock the horizon, coastline and landmark positions for every subsequent image.",
+        "camera": "static",
+        "mood": "Recognisable, calm, anticipatory",
+        "duration": 1.8
+      },
+      {
+        "id": "ofg97f",
+        "narration": "2050",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Gwadar from the identical elevated viewpoint on Koh-e-Batil, looking across the curved East Bay toward the port. Preserve the rocky headland, coastline, low-rise city, horizon and blue-hour lighting. No people, text, letters or logos.",
+        "action": "Keep the previous composition unchanged; add only a continuous green waterfront park with native coastal planting and softly glowing pedestrian paths.",
+        "camera": "static",
+        "mood": "Fresh, green, hopeful",
+        "duration": 1.8
+      },
+      {
+        "id": "f6td0h",
+        "narration": "2075",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Gwadar from the identical elevated viewpoint on Koh-e-Batil, looking across the curved East Bay toward the port. Preserve the rocky headland, coastline, waterfront park, horizon and blue-hour lighting. No people, text, letters or logos.",
+        "action": "Retain every previous element; add only a district of elegant terraced towers with planted balconies behind the waterfront park, softly illuminated in turquoise.",
+        "camera": "static",
+        "mood": "Elegant, thriving, optimistic",
+        "duration": 1.8
+      },
+      {
+        "id": "p2z42b",
+        "narration": "2100",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Gwadar from the identical elevated viewpoint on Koh-e-Batil, looking across the curved East Bay toward the port. Preserve the rocky headland, coastline, waterfront park, planted terraced towers, horizon and blue-hour lighting. No people, text, letter",
+        "action": "Retain every previous element; add only a slender elevated electric transit loop following the waterfront, with a clean ribbon of cyan illumination.",
+        "camera": "static",
+        "mood": "Connected, serene, futuristic",
+        "duration": 1.8
+      },
+      {
+        "id": "580v8i",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Gwadar from the identical elevated viewpoint on Koh-e-Batil, looking across the curved East Bay toward the port. Preserve the rocky headland, coastline, waterfront park, planted towers, elevated transit loop, horizon and blue-hour lighting. No people",
+        "action": "Retain every previous element; add only a monumental sail-shaped garden spire behind the port, its planted terraces outlined with luminous teal accents.",
+        "camera": "static",
+        "mood": "Visionary, luminous, magnificent",
+        "duration": 1.8
+      },
+      {
+        "id": "mtbddr",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Gwadar from the identical elevated viewpoint on Koh-e-Batil, looking across the curved East Bay toward the port. Preserve the rocky headland, coastline, waterfront park, planted towers, transit loop, sail-shaped garden spire, horizon and blue-hour li",
+        "action": "Retain every previous element; add only an expansive crescent-shaped floating botanical island offshore, with softly glowing edges framing the city without obscuring the recognisable bay. This is the completed imagined 2150 panorama.",
+        "camera": "static",
+        "mood": "Breathtaking, harmonious, hopeful",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Would you live in this future Gwadar?",
+    "createdAt": "2026-11-14T11:27:45.039Z",
+    "description": "Imagine Gwadar transforming into a luminous, green coastal city by 2150. This cinematic concept is fiction, not a prediction; year labels are editing overlays, with flash cuts and no voiceover. #Gwadar #CitiesOfTheFuture #FutureCity #AIArt #Shorts",
+    "tags": [
+      "Gwadar",
+      "Pakistan",
+      "future cities",
+      "green architecture",
+      "cinematic concept art",
+      "AI transitions"
+    ]
+  }
+}

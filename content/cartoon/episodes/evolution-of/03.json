@@ -1,0 +1,94 @@
+{
+  "number": 3,
+  "topic": "The aeroplane: from the first powered flight to a modern jet",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:11.532Z",
+  "episode": {
+    "id": "",
+    "seriesId": "evolution-of",
+    "title": "Evolution of the Aeroplane: First Flight to Today",
+    "shots": [
+      {
+        "id": "do86bs",
+        "narration": "1903",
+        "characters": [],
+        "scene": "Clean studio product photograph of a historically accurate first-powered-flight-era aeroplane: fabric-covered biplane wings, exposed wooden framework, forward elevator, twin rear pusher propellers and landing skids. Entire aircraft centred, nose pointing left, elevated front-left three-quarter view,",
+        "action": "Show the aircraft motionless. Establish its instantly recognisable skeletal wood-and-fabric silhouette. Keep the full wingspan visible with generous margins.",
+        "camera": "static",
+        "mood": "pioneering, delicate",
+        "duration": 1.8
+      },
+      {
+        "id": "hhzglt",
+        "narration": "1910s",
+        "characters": [],
+        "scene": "Clean studio product photograph of an unmarked 1910s tractor biplane aeroplane with fabric-covered wings, a slender enclosed fuselage, empty open cockpit, fixed landing wheels and a single nose-mounted propeller. Entire aircraft centred, nose pointing left, elevated front-left three-quarter view, pl",
+        "action": "Match the previous aircraft's position and apparent wingspan. Make the conventional nose-mounted propeller the single highlighted visual advance; keep it stationary and sharply defined.",
+        "camera": "static",
+        "mood": "inventive, adventurous",
+        "duration": 1.8
+      },
+      {
+        "id": "cx3opi",
+        "narration": "1920s",
+        "characters": [],
+        "scene": "Clean studio product photograph of an unmarked 1920s cabin biplane aeroplane, fabric-covered wings, slender fuselage, enclosed glazed cabin, fixed landing wheels and a single nose-mounted propeller. Entire aircraft centred, nose pointing left, elevated front-left three-quarter view, plain pale-blue ",
+        "action": "Match the previous aircraft's position and apparent wingspan. Make the enclosed cabin replacing the open cockpit the single highlighted visual advance.",
+        "camera": "static",
+        "mood": "practical, optimistic",
+        "duration": 1.8
+      },
+      {
+        "id": "148912",
+        "narration": "1930s",
+        "characters": [],
+        "scene": "Clean studio product photograph of an unmarked 1930s all-metal passenger aeroplane, streamlined silver fuselage, one low-mounted wing pair, enclosed cockpit, small cabin windows and two stationary propeller engines. Landing gear retracted. Entire aircraft centred, nose pointing left, elevated front-",
+        "action": "Match the previous aircraft's position and apparent wingspan. Make the clean single-wing silhouette replacing stacked wings the single highlighted visual advance.",
+        "camera": "static",
+        "mood": "streamlined, confident",
+        "duration": 1.8
+      },
+      {
+        "id": "7rqulg",
+        "narration": "1950s",
+        "characters": [],
+        "scene": "Clean studio product photograph of an unmarked 1950s early jet passenger aeroplane, polished silver narrow fuselage, enclosed cockpit, small cabin windows, swept wings and compact jet intakes integrated near the wing roots, without propellers. Landing gear retracted. Entire aircraft centred, nose po",
+        "action": "Match the previous aircraft's position and apparent wingspan. Make jet propulsion replacing visible propellers the single highlighted visual advance.",
+        "camera": "static",
+        "mood": "fast, revolutionary",
+        "duration": 1.8
+      },
+      {
+        "id": "mdcf4s",
+        "narration": "1970s",
+        "characters": [],
+        "scene": "Clean studio product photograph of an unmarked 1970s wide-body passenger jet aeroplane, broad polished silver fuselage, short raised forward upper deck, swept wings and four cylindrical underwing jet engines. Landing gear retracted. Entire aircraft centred, nose pointing left, elevated front-left th",
+        "action": "Match the previous aircraft's position and apparent wingspan. Make the dramatically broader passenger fuselage the single highlighted visual advance.",
+        "camera": "static",
+        "mood": "monumental, ambitious",
+        "duration": 1.8
+      },
+      {
+        "id": "p86mqm",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Clean studio product photograph of an unmarked contemporary long-haul passenger jet aeroplane, sleek silver wide-body fuselage, single passenger deck, long gracefully swept wings with raked tips and two large underwing turbofan engines with clearly visible fan blades. Landing gear retracted. Entire ",
+        "action": "Match the previous aircraft's position and apparent wingspan. Make the pair of enormous modern turbofans the single highlighted visual advance. Finish on a crisp, impressive hero image; use a brief flash cut between every stage and add era labels only in editing.",
+        "camera": "static",
+        "mood": "advanced, majestic",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which era changed flying the most?",
+    "createdAt": "2026-11-14T11:28:11.531Z",
+    "description": "From the first powered aeroplane to today's advanced passenger jet, watch flight evolve through seven eras. Flash cuts reveal each transformation without a word spoken. #EvolutionOf #Aeroplane #AviationHistory #Aircraft #Shorts",
+    "tags": [
+      "evolution",
+      "aeroplane",
+      "aviation",
+      "first flight",
+      "modern jet",
+      "transport history"
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "number": 5,
+  "topic": "The television: from a tiny round screen to a thin smart TV",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:11.674Z",
+  "episode": {
+    "id": "",
+    "seriesId": "evolution-of",
+    "title": "Evolution of TV: Tiny Circle to Ultra-Thin",
+    "shots": [
+      {
+        "id": "zgweo3",
+        "narration": "1930s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a single early television with a tiny circular monochrome screen in a tall dark wooden cabinet. Centered, front three-quarter view showing the right side, eye-level camera, plain pale gray gradient background, soft upper-left studio lighting, vertical 9:16 composit",
+        "action": "Establish the tiny round screen as the focal point. Keep the complete cabinet visible with generous surrounding space.",
+        "camera": "static",
+        "mood": "Nostalgic, curious",
+        "duration": 1.8
+      },
+      {
+        "id": "fi9fv2",
+        "narration": "1950s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a single vintage television with a much larger rounded rectangular monochrome screen in a dark wooden cabinet. Centered, front three-quarter view showing the right side, eye-level camera, plain pale gray gradient background, soft upper-left studio lighting, vertica",
+        "action": "Flash cut from the previous image. Make the enlarged rounded rectangular screen the dominant visible change; retain the wooden finish and aligned screen center.",
+        "camera": "static",
+        "mood": "Familiar, nostalgic",
+        "duration": 1.8
+      },
+      {
+        "id": "op8pvn",
+        "narration": "1960s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a single vintage color television with a large rounded rectangular screen in a dark wooden cabinet matching the previous stage's proportions. Centered, front three-quarter view showing the right side, eye-level camera, plain pale gray gradient background, soft uppe",
+        "action": "Flash cut from the previous image. Change only the screen image from monochrome to vivid color, preserving the cabinet silhouette and screen position.",
+        "camera": "static",
+        "mood": "Bright, exciting",
+        "duration": 1.8
+      },
+      {
+        "id": "uadv2b",
+        "narration": "1980s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a single color CRT television with a large rounded rectangular screen and a deep charcoal molded-plastic cabinet. Match the previous television's overall size and screen position. Centered, front three-quarter view showing the right side, eye-level camera, plain pa",
+        "action": "Flash cut from the previous image. Make the change from wooden cabinetry to charcoal plastic the dominant difference, retaining the bulky CRT profile.",
+        "camera": "static",
+        "mood": "Retro, practical",
+        "duration": 1.8
+      },
+      {
+        "id": "lulxsc",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a single early widescreen flat-panel television with a substantial charcoal bezel, moderately thick panel, and simple central pedestal. Centered, front three-quarter view showing the right side, eye-level camera, plain pale gray gradient background, soft upper-left",
+        "action": "Flash cut from the previous image. Make the replacement of the deep CRT body with a widescreen flat-panel form the dominant transformation, keeping the screen center aligned.",
+        "camera": "static",
+        "mood": "Modern, transformative",
+        "duration": 1.8
+      },
+      {
+        "id": "hcjacf",
+        "narration": "2010s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a single slim widescreen smart television with a charcoal bezel and simple central pedestal. Match the previous stage's screen dimensions, bezel width, pedestal, and screen position, but use a visibly slimmer panel body. Centered, front three-quarter view showing t",
+        "action": "Flash cut from the previous image. Reduce the panel depth while preserving the frontal silhouette, screen content, lighting, and framing.",
+        "camera": "static",
+        "mood": "Sleek, refined",
+        "duration": 1.8
+      },
+      {
+        "id": "9vabv2",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Clean studio product photograph of a single premium ultra-thin OLED smart television with a nearly edge-to-edge widescreen display and simple central pedestal. Match the previous stage's outer dimensions, slim profile, pedestal, and screen position, but reduce the bezel to a barely visible rim. Cent",
+        "action": "Flash cut from the previous image. Shrink the bezel to reveal an almost uninterrupted wall of picture within the same outer silhouette. Hold briefly on the premium final design.",
+        "camera": "static",
+        "mood": "Premium, impressive",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which era was your first TV?",
+    "createdAt": "2026-11-14T11:28:11.673Z",
+    "description": "Watch the television evolve from a tiny round screen to a stunning ultra-thin smart TV. Same angle, decades of transformation. #EvolutionOf #Television #TechHistory #ThenAndNow #Shorts",
+    "tags": [
+      "evolution of television",
+      "TV history",
+      "technology evolution",
+      "smart TV",
+      "transition reel"
+    ]
+  }
+}

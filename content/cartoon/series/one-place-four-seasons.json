@@ -1,0 +1,42 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "transition",
+  "why": "Season and day-to-night transitions of stunning places are calm, satisfying and very shareable; Pakistan's northern valleys are trending travel content.",
+  "series": {
+    "id": "one-place-four-seasons",
+    "name": "One Place, Four Seasons",
+    "language": "en",
+    "audience": "general",
+    "madeForKids": false,
+    "style": "breathtaking landscape photography, the same viewpoint in every picture, cinematic colour, vertical 9:16 frame",
+    "negative": "text, letters, words, watermark, logo, real people, celebrities, blood, blurry, distorted",
+    "characters": [],
+    "voice": {
+      "provider": "edge",
+      "edgeVoice": "en-US-AndrewNeural"
+    },
+    "rules": [
+      "Same place and same viewpoint in every stage; only the season or time of day changes.",
+      "Labels are seasons or times of day (Spring, Summer, Autumn, Winter, Sunrise, Night).",
+      "Make every stage beautiful."
+    ],
+    "episodeSeconds": 45,
+    "palette": {
+      "bg": "#0b1a2a",
+      "accent": "#38bdf8"
+    },
+    "format": "transition"
+  },
+  "topics": [
+    "Hunza valley in spring, summer, autumn and winter",
+    "Lake Saiful Muluk from sunrise to a starry night",
+    "Swat valley river through the four seasons",
+    "Neelum valley through the four seasons",
+    "Badshahi Mosque from sunrise to night",
+    "Thar desert from dawn to a starry night",
+    "Karachi Sea View beach from sunrise to night",
+    "Shalimar Gardens Lahore through the seasons",
+    "Naran Kaghan through the four seasons",
+    "Fairy Meadows and Nanga Parbat from sunrise to night"
+  ]
+}

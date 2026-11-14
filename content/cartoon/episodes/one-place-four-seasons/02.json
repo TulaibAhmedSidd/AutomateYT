@@ -1,0 +1,95 @@
+{
+  "number": 2,
+  "topic": "Lake Saiful Muluk from sunrise to a starry night",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:09.151Z",
+  "episode": {
+    "id": "",
+    "seriesId": "one-place-four-seasons",
+    "title": "Lake Saiful Muluk: Sunrise to Starlight",
+    "shots": [
+      {
+        "id": "dzom91",
+        "narration": "Sunrise",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Lake Saiful Muluk in Pakistan, vertical 9:16. Fixed wide-angle viewpoint from the rocky lakeshore: three rounded stones in the bottom foreground, turquoise lake centered, rugged mountain skyline with snow patches across the upper third. Clear sky, glassy wate",
+        "action": "First golden sunlight touches the mountain summits while the lake remains in cool shadow. Preserve this exact composition, terrain, snow coverage and still water throughout the sequence.",
+        "camera": "static",
+        "mood": "Quiet wonder",
+        "duration": 1.8
+      },
+      {
+        "id": "918884",
+        "narration": "Morning",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Lake Saiful Muluk in Pakistan, vertical 9:16. Identical fixed wide-angle lakeshore viewpoint: three rounded stones in the bottom foreground, turquoise lake centered, identical rugged mountain skyline with unchanged snow patches across the upper third. Clear s",
+        "action": "Change only the time-of-day illumination to fresh morning light, revealing the turquoise water and softly lighting the mountain faces. Keep all landscape details and framing identical.",
+        "camera": "static",
+        "mood": "Fresh and luminous",
+        "duration": 1.8
+      },
+      {
+        "id": "d9spwp",
+        "narration": "Noon",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Lake Saiful Muluk in Pakistan, vertical 9:16. Identical fixed wide-angle lakeshore viewpoint: three rounded stones in the bottom foreground, turquoise lake centered, identical rugged mountain skyline with unchanged snow patches across the upper third. Clear s",
+        "action": "Change only the time-of-day illumination to clear midday sunshine, with vivid turquoise water and crisp mountain detail. Preserve the exact framing, stillness and landscape geometry.",
+        "camera": "static",
+        "mood": "Brilliant and expansive",
+        "duration": 1.8
+      },
+      {
+        "id": "lh3odc",
+        "narration": "Afternoon",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Lake Saiful Muluk in Pakistan, vertical 9:16. Identical fixed wide-angle lakeshore viewpoint: three rounded stones in the bottom foreground, turquoise lake centered, identical rugged mountain skyline with unchanged snow patches across the upper third. Clear s",
+        "action": "Change only the time-of-day illumination to warm afternoon side light, creating sculpted shadows on the mountains and warmer reflections. Keep every physical feature unchanged.",
+        "camera": "static",
+        "mood": "Warm and majestic",
+        "duration": 1.8
+      },
+      {
+        "id": "f5xojl",
+        "narration": "Sunset",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Lake Saiful Muluk in Pakistan, vertical 9:16. Identical fixed wide-angle lakeshore viewpoint: three rounded stones in the bottom foreground, turquoise lake centered, identical rugged mountain skyline with unchanged snow patches across the upper third. Clear s",
+        "action": "Change only the time-of-day illumination to sunset: rose-gold mountain summits beneath a peach-to-lavender sky, naturally mirrored in the lake. Preserve the exact composition and terrain.",
+        "camera": "static",
+        "mood": "Radiant and romantic",
+        "duration": 1.8
+      },
+      {
+        "id": "0shhmq",
+        "narration": "Twilight",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Lake Saiful Muluk in Pakistan, vertical 9:16. Identical fixed wide-angle lakeshore viewpoint: three rounded stones in the bottom foreground, lake centered, identical rugged mountain skyline with unchanged snow patches across the upper third. Clear sky, glassy",
+        "action": "Change only the time of day to blue twilight, with a cobalt sky, a faint warm horizon and softly visible mountain silhouettes reflected in the lake. Keep all physical details and framing unchanged.",
+        "camera": "static",
+        "mood": "Hushed and dreamlike",
+        "duration": 1.8
+      },
+      {
+        "id": "lowjgk",
+        "narration": "Night",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Lake Saiful Muluk in Pakistan, vertical 9:16. Identical fixed wide-angle lakeshore viewpoint: three rounded stones in the bottom foreground, lake centered, identical rugged mountain skyline with unchanged snow patches across the upper third. Clear sky, glassy",
+        "action": "Change only the time of day to a moonless starry night. Reveal a spectacular, naturally detailed Milky Way above the unchanged mountain skyline, with delicate starlight reflections in the dark lake. Use realistic astrophotography exposure, subtle visible foreground detail and no oversized stars. Mak",
+        "camera": "static",
+        "mood": "Awe-inspiring and celestial",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Golden sunrise or starry night?",
+    "createdAt": "2026-11-14T11:29:09.149Z",
+    "description": "One breathtaking viewpoint of Lake Saiful Muluk, from the first golden light to a dazzling starry night. Watch the mountain reflections transform with every flash cut. #LakeSaifulMuluk #Pakistan #OnePlaceFourSeasons #LandscapePhotography #FromDayToNight",
+    "tags": [
+      "Lake Saiful Muluk",
+      "Pakistan",
+      "Kaghan Valley",
+      "sunrise to night",
+      "mountain lake",
+      "landscape",
+      "transition reel"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "number": 10,
+  "topic": "Minar-e-Pakistan site from 1940 to today's park",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:30:19.122Z",
+  "episode": {
+    "id": "",
+    "seriesId": "then-and-now-pakistan",
+    "title": "Minar-e-Pakistan: From 1940 to Today",
+    "shots": [
+      {
+        "id": "f5tpuj",
+        "narration": "1940",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Minto Park, Lahore, in 1940. Fixed elevated wide view toward the future Minar-e-Pakistan site, with the unmistakable domes and minarets of Badshahi Mosque in the distant background. The future monument location is open ground with sparse grass. G",
+        "action": "Show the open pre-monument landscape; keep the future tower position centered and the mosque clearly recognizable in the background.",
+        "camera": "static",
+        "mood": "Historic, quiet, expectant",
+        "duration": 1.8
+      },
+      {
+        "id": "epouw2",
+        "narration": "1947",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Minto Park, Lahore, in 1947. Identical fixed elevated wide view toward the future Minar-e-Pakistan site, with Badshahi Mosque unchanged in the distant background. The same open ground and sparse grass remain, now crossed by a modest worn footpath",
+        "action": "Introduce only a worn earth footpath across the foreground as an illustrative environmental change; preserve the empty monument site and identical framing.",
+        "camera": "static",
+        "mood": "Reflective, historic",
+        "duration": 1.8
+      },
+      {
+        "id": "y6t4hv",
+        "narration": "1960s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Minar-e-Pakistan under construction in Lahore during the 1960s. Identical fixed elevated wide view, with Badshahi Mosque unchanged in the distant background. At the previously empty central site, the recognizable flared monument base and partiall",
+        "action": "Replace only the empty central site with the partially constructed monument; retain the same surrounding ground, horizon, and camera position.",
+        "camera": "static",
+        "mood": "Purposeful, emerging",
+        "duration": 1.8
+      },
+      {
+        "id": "5qv146",
+        "narration": "1968",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of the completed Minar-e-Pakistan in Lahore in 1968. Identical fixed elevated wide view, with Badshahi Mosque unchanged in the distant background. The finished tower and its distinctive flared base occupy the exact construction footprint; surroundin",
+        "action": "Transform only the construction area into the completed Minar-e-Pakistan, revealing its full height and finished silhouette without changing the framing.",
+        "camera": "static",
+        "mood": "Proud, monumental",
+        "duration": 1.8
+      },
+      {
+        "id": "gdlws9",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Photorealistic cinematic view of Minar-e-Pakistan in Lahore during the 2000s. Identical fixed elevated wide view, with the completed tower centered and Badshahi Mosque unchanged in the distant background. The formerly sparse surrounding ground is now an established green park with maintained lawns a",
+        "action": "Change only the surrounding park landscaping from sparse ground to maintained lawns and walking paths; preserve the monument, horizon, and camera position.",
+        "camera": "static",
+        "mood": "Welcoming, nostalgic",
+        "duration": 1.8
+      },
+      {
+        "id": "ke2fd8",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Photorealistic cinematic present-day view of Minar-e-Pakistan within Greater Iqbal Park, Lahore. Identical fixed elevated wide view, with the same completed tower centered and Badshahi Mosque unchanged in the distant background. The surrounding park now displays expansive manicured lawns, sweeping g",
+        "action": "Upgrade only the surrounding landscaping to today's Greater Iqbal Park, creating the most impressive reveal while keeping the monument and framing identical.",
+        "camera": "static",
+        "mood": "Radiant, grand, celebratory",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which era would you visit?",
+    "createdAt": "2026-11-14T11:30:19.122Z",
+    "description": "Watch Lahore’s historic Minto Park transform into the landscaped setting of Minar-e-Pakistan through cinematic historical reconstructions. #MinarePakistan #Lahore #Pakistan #ThenAndNow #GreaterIqbalPark",
+    "tags": [
+      "Minar-e-Pakistan",
+      "Lahore",
+      "Minto Park",
+      "Greater Iqbal Park",
+      "Pakistan history",
+      "then and now"
+    ]
+  }
+}

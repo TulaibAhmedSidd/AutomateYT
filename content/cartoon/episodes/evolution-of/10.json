@@ -1,0 +1,84 @@
+{
+  "number": 10,
+  "topic": "Light: from an oil lamp to an LED bulb",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:32.920Z",
+  "episode": {
+    "id": "",
+    "seriesId": "evolution-of",
+    "title": "Evolution of Light: Oil Flame to LED Glow",
+    "shots": [
+      {
+        "id": "113e7i",
+        "narration": "Ancient Times",
+        "characters": [],
+        "scene": "Clean studio product photograph of one ancient terracotta oil lamp, centred and upright, spout pointing right, viewed at a fixed three-quarter angle at object height. Plain charcoal gradient background, soft upper-left lighting, subtle floor shadow, vertical 9:16 composition. No people, text, letter",
+        "action": "Show a recognisable rounded clay reservoir with a short exposed wick and a small warm flame. Keep the entire lamp visible with generous space around it.",
+        "camera": "static",
+        "mood": "Warm, humble, timeless",
+        "duration": 1.8
+      },
+      {
+        "id": "rr6ur5",
+        "narration": "1850s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one kerosene lamp, centred and upright, viewed at the same fixed three-quarter angle at object height. Plain charcoal gradient background, soft upper-left lighting, subtle floor shadow, vertical 9:16 composition. Match the previous shot's framing and visual centre.",
+        "action": "Replace the open clay lamp with a clear fuel reservoir and tall glass chimney enclosing a small warm flame. Make the protective glass enclosure the defining visual change.",
+        "camera": "static",
+        "mood": "Warm, practical, nostalgic",
+        "duration": 1.8
+      },
+      {
+        "id": "9snwls",
+        "narration": "1880s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one early carbon-filament incandescent light bulb, centred and upright with screw base downward, viewed at the same fixed three-quarter angle at object height. Plain charcoal gradient background, soft upper-left lighting, subtle floor shadow, vertical 9:16 composit",
+        "action": "Replace the fuel-burning lamp with a clear pear-shaped electric bulb containing a visibly glowing carbon-filament loop. Make the enclosed electric filament the defining visual change.",
+        "camera": "static",
+        "mood": "Inventive, warm, transformative",
+        "duration": 1.8
+      },
+      {
+        "id": "mpy41k",
+        "narration": "1910s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one clear tungsten-filament incandescent light bulb, centred and upright with screw base downward, viewed at the same fixed three-quarter angle at object height. Plain charcoal gradient background, soft upper-left lighting, subtle floor shadow, vertical 9:16 compos",
+        "action": "Change only the internal light source from a broad carbon loop to a fine supported tungsten filament glowing warm white.",
+        "camera": "static",
+        "mood": "Precise, familiar, refined",
+        "duration": 1.8
+      },
+      {
+        "id": "b3gp8o",
+        "narration": "1980s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one early compact fluorescent light bulb, centred and upright with screw base downward, viewed at the same fixed three-quarter angle at object height. Plain charcoal gradient background, soft upper-left lighting, subtle floor shadow, vertical 9:16 composition. Matc",
+        "action": "Replace the filament-filled glass envelope with folded white fluorescent tubes rising from a plain ballast housing. Make the folded glowing tube the defining visual change.",
+        "camera": "static",
+        "mood": "Functional, modernising, efficient",
+        "duration": 1.8
+      },
+      {
+        "id": "x2kl3g",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Clean studio product photograph of one contemporary LED light bulb, centred and upright with screw base downward, viewed at the same fixed three-quarter angle at object height. Plain charcoal gradient background, soft upper-left lighting, subtle floor shadow, vertical 9:16 composition. Match the pre",
+        "action": "Replace the exposed fluorescent tubes with a seamless frosted dome on a compact matte-white housing. Give the dome a beautifully even warm-white glow with controlled highlights for an impressive final reveal.",
+        "camera": "static",
+        "mood": "Brilliant, sleek, polished",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which era had the best-looking light?",
+    "createdAt": "2026-11-14T11:28:32.919Z",
+    "description": "From a flickering oil lamp to a brilliant LED bulb, watch everyday lighting transform through the ages. #EvolutionOf #LightingHistory #LED #ThenAndNow #Shorts",
+    "tags": [
+      "evolution of light",
+      "oil lamp",
+      "light bulb",
+      "LED",
+      "lighting history",
+      "transformation"
+    ]
+  }
+}

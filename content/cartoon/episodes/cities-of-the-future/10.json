@@ -1,0 +1,84 @@
+{
+  "number": 10,
+  "topic": "Multan from today to the year 2150",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:27:46.679Z",
+  "episode": {
+    "id": "",
+    "seriesId": "cities-of-the-future",
+    "title": "Multan to 2150: A Green Future Dream",
+    "shots": [
+      {
+        "id": "edgd17",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art of Multan, Pakistan, from a fixed elevated viewpoint looking toward the Tomb of Shah Rukn-e-Alam. Its recognizable red-brick octagonal structure, blue tile bands and white dome dominate the foreground, with the city stretching behind it beneath a cle",
+        "action": "Establish present-day Multan with ordinary low-rise rooftops behind the faithfully preserved landmark. Lock the framing, landmark scale and horizon for every subsequent image.",
+        "camera": "static",
+        "mood": "Recognizable, calm, warm",
+        "duration": 1.8
+      },
+      {
+        "id": "0u82cr",
+        "narration": "2050",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art of Multan from the identical elevated viewpoint, with the Tomb of Shah Rukn-e-Alam at exactly the same foreground position and scale. Preserve its red brick, blue tile bands and white dome, the background city layout and clear dusk sky. No people, te",
+        "action": "Retain the previous composition unchanged except for adding sleek solar panels across the existing background rooftops. Leave the historic tomb untouched.",
+        "camera": "static",
+        "mood": "Hopeful, clean, sun-powered",
+        "duration": 1.8
+      },
+      {
+        "id": "2fyuoa",
+        "narration": "2075",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art of Multan from the identical elevated viewpoint, with the unchanged Tomb of Shah Rukn-e-Alam in the foreground, solar-panel rooftops behind it and the same clear dusk sky. Match the previous landmark scale, horizon and composition. No people, text, l",
+        "action": "Retain every existing element and add only lush planted terraces to the background buildings, keeping their footprints and the tomb unchanged.",
+        "camera": "static",
+        "mood": "Verdant, peaceful, optimistic",
+        "duration": 1.8
+      },
+      {
+        "id": "8fqn80",
+        "narration": "2100",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art of Multan from the identical elevated viewpoint. The unchanged Tomb of Shah Rukn-e-Alam anchors the foreground; solar-panel rooftops and lush planted terraces fill the background beneath the same clear dusk sky. Match all previous geometry and framin",
+        "action": "Add only elegant cyan and emerald architectural lighting along the modern background buildings, creating a glowing sci-fi city while leaving the historic tomb naturally lit.",
+        "camera": "static",
+        "mood": "Luminous, futuristic, serene",
+        "duration": 1.8
+      },
+      {
+        "id": "8k5vgu",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art of Multan from the identical elevated viewpoint. Preserve the foreground Tomb of Shah Rukn-e-Alam, background solar rooftops, planted terraces, cyan and emerald lighting, and clear dusk sky. Keep the landmark scale and horizon identical. No people, t",
+        "action": "Add only one slender illuminated elevated transit ribbon weaving through the distant background city, never crossing or obscuring the tomb.",
+        "camera": "static",
+        "mood": "Elegant, connected, hopeful",
+        "duration": 1.8
+      },
+      {
+        "id": "imei8z",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art of Multan from the identical elevated viewpoint. Preserve the untouched Tomb of Shah Rukn-e-Alam in the foreground and every established background feature: solar rooftops, green terraces, glowing architectural edges and the elevated transit ribbon. ",
+        "action": "Add only a monumental elevated sky-garden ring above the distant skyline, its lush planted surface edged with soft emerald light. Keep it entirely behind the unobstructed historic dome, forming the most spectacular final silhouette.",
+        "camera": "static",
+        "mood": "Awe-inspiring, green, radiant",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Would you want this future for Multan?",
+    "createdAt": "2026-11-14T11:27:46.677Z",
+    "description": "Imagine Multan transforming around the iconic Tomb of Shah Rukn-e-Alam, from today to a glowing green 2150. A fictional future concept, not a prediction. #Multan #FutureCities #Pakistan #AIArt #CitiesOfTheFuture",
+    "tags": [
+      "Multan",
+      "Shah Rukn-e-Alam",
+      "future city",
+      "Pakistan",
+      "AI transitions",
+      "2150"
+    ]
+  }
+}

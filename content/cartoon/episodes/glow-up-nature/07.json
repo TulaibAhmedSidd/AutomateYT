@@ -1,0 +1,94 @@
+{
+  "number": 7,
+  "topic": "A rose bud opening into a full rose",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:50.585Z",
+  "episode": {
+    "id": "",
+    "seriesId": "glow-up-nature",
+    "title": "From Tiny Bud to Perfect Rose 🌹",
+    "shots": [
+      {
+        "id": "ztf681",
+        "narration": "Closed Bud",
+        "characters": [],
+        "scene": "Beautiful photorealistic macro photograph of one pink rose bud on a slender stem in a garden, tightly enclosed by green sepals with a small pink tip visible. Fixed three-quarter side angle, bud centered in the lower middle with generous space above and beside it for the eventual bloom, softly blurre",
+        "action": "Show the compact, closed bud with its green sepals held snugly against it.",
+        "camera": "static",
+        "mood": "Quiet anticipation",
+        "duration": 1.8
+      },
+      {
+        "id": "6mo6i9",
+        "narration": "Sepals Part",
+        "characters": [],
+        "scene": "Beautiful photorealistic macro photograph of the same single pink rose bud on the same slender stem in the same garden position. Identical fixed three-quarter side angle, framing, scale, softly blurred sage-green background, and soft natural morning light, vertical 9:16. The bud remains compact, but",
+        "action": "Change only the sepals: bend them outward from the still tightly closed pink bud.",
+        "camera": "static",
+        "mood": "Gentle awakening",
+        "duration": 1.8
+      },
+      {
+        "id": "81x4rl",
+        "narration": "Petals Loosen",
+        "characters": [],
+        "scene": "Beautiful photorealistic macro photograph of the same single pink rose on the same slender stem in the same garden position. Identical fixed three-quarter side angle, framing, scale, softly blurred sage-green background, and soft natural morning light, vertical 9:16. Green sepals remain parted benea",
+        "action": "Change only the outermost petal edges: separate them slightly from the tightly wrapped bud.",
+        "camera": "static",
+        "mood": "Delicate promise",
+        "duration": 1.8
+      },
+      {
+        "id": "kj7bm8",
+        "narration": "Opening",
+        "characters": [],
+        "scene": "Beautiful photorealistic macro photograph of the same single pink rose on the same slender stem in the same garden position. Identical fixed three-quarter side angle, framing, scale, softly blurred sage-green background, and soft natural morning light, vertical 9:16. Parted green sepals sit beneath ",
+        "action": "Change only the outermost petals: unfold them outward into a small cup.",
+        "camera": "static",
+        "mood": "Soft revelation",
+        "duration": 1.8
+      },
+      {
+        "id": "y117jc",
+        "narration": "Half Open",
+        "characters": [],
+        "scene": "Beautiful photorealistic macro photograph of the same single pink rose on the same slender stem in the same garden position. Identical fixed three-quarter side angle, framing, scale, softly blurred sage-green background, and soft natural morning light, vertical 9:16. The outer petals retain their op",
+        "action": "Change only the next petal layer: spread it outward to create a half-open rose.",
+        "camera": "static",
+        "mood": "Graceful unfolding",
+        "duration": 1.8
+      },
+      {
+        "id": "t02s3c",
+        "narration": "Nearly Open",
+        "characters": [],
+        "scene": "Beautiful photorealistic macro photograph of the same single pink rose on the same slender stem in the same garden position. Identical fixed three-quarter side angle, framing, scale, softly blurred sage-green background, and soft natural morning light, vertical 9:16. Outer petal layers remain spread",
+        "action": "Change only the inner petal layer: loosen it into a wider spiral.",
+        "camera": "static",
+        "mood": "Radiant anticipation",
+        "duration": 1.8
+      },
+      {
+        "id": "5hnojh",
+        "narration": "Full Bloom",
+        "characters": [],
+        "scene": "Beautiful photorealistic macro photograph of the same single pink rose on the same slender stem in the same garden position. Identical fixed three-quarter side angle, framing, scale, softly blurred sage-green background, and soft natural morning light, vertical 9:16. A lush fully opened pink rose di",
+        "action": "Change only the remaining central petals: unfurl them into the finished rosette for the fullest, most impressive bloom.",
+        "camera": "static",
+        "mood": "Beautiful fulfillment",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which stage is the most beautiful?",
+    "createdAt": "2026-11-14T11:28:50.584Z",
+    "description": "Watch a rose unfold, one beautiful layer at a time. #Rose #NatureGlowUp #FlowerBloom #MacroPhotography #NatureReels",
+    "tags": [
+      "rose",
+      "rose blooming",
+      "nature",
+      "macro photography",
+      "flower transition",
+      "nature glow up"
+    ]
+  }
+}

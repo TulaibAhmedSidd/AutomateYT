@@ -1,0 +1,85 @@
+{
+  "number": 9,
+  "topic": "Naran Kaghan through the four seasons",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:36.870Z",
+  "episode": {
+    "id": "",
+    "seriesId": "one-place-four-seasons",
+    "title": "Naran Kaghan: Four Seasons, One Magical View",
+    "shots": [
+      {
+        "id": "s67ecl",
+        "narration": "Spring",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of Lake Saiful Muluk near Naran in Kaghan Valley, Pakistan. Fixed viewpoint from the southern shoreline looking north across the lake toward the rugged mountain amphitheater. A distinctive triangular boulder anchors the lower-left foreground; the curving shoreline f",
+        "action": "Establish the instantly recognizable alpine lake and mountain composition. Keep the boulder, shoreline, horizon and camera position precisely locked for every subsequent image.",
+        "camera": "static",
+        "mood": "Fresh, serene, magnificent",
+        "duration": 1.8
+      },
+      {
+        "id": "9zlc7n",
+        "narration": "Summer",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of the exact same Lake Saiful Muluk viewpoint near Naran, Pakistan. Identical southern-shore camera position looking north, triangular boulder at lower left, curving shoreline in the lower third, identical mountain skyline in the upper third. Same soft late-afternoo",
+        "action": "Flash cut from spring. Change only the seasonal appearance to summer; preserve all permanent landscape features and the exact composition.",
+        "camera": "static",
+        "mood": "Lush, luminous, inviting",
+        "duration": 1.8
+      },
+      {
+        "id": "rs6z9q",
+        "narration": "Autumn",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of the exact same Lake Saiful Muluk viewpoint near Naran, Pakistan. Identical southern-shore camera position looking north, triangular boulder at lower left, curving shoreline in the lower third, identical mountain skyline in the upper third. Same soft late-afternoo",
+        "action": "Flash cut from summer. Change only the seasonal appearance to autumn, making the golden grass the dominant visible transformation. Preserve the permanent terrain and exact composition.",
+        "camera": "static",
+        "mood": "Golden, peaceful, cinematic",
+        "duration": 1.8
+      },
+      {
+        "id": "3ig4jw",
+        "narration": "Winter",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of the exact same Lake Saiful Muluk viewpoint near Naran, Pakistan. Identical southern-shore camera position looking north, triangular boulder at lower left, curving shoreline in the lower third, identical mountain skyline in the upper third. Same soft late-afternoo",
+        "action": "Flash cut from autumn. Change only the seasonal appearance to deep winter, using an uninterrupted white snow-and-ice palette as the dominant transformation. Preserve the exact landscape geometry.",
+        "camera": "static",
+        "mood": "Pristine, silent, majestic",
+        "duration": 1.8
+      },
+      {
+        "id": "wes9kh",
+        "narration": "Sunset",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of the exact same frozen Lake Saiful Muluk winter scene near Naran, Pakistan. Identical southern-shore viewpoint looking north, snow-capped triangular boulder at lower left, shoreline in the lower third, identical mountain skyline in the upper third. Unchanged snow ",
+        "action": "Flash cut from winter daylight. Change only the time-of-day lighting to sunset; keep the season, snow coverage, terrain and framing unchanged.",
+        "camera": "static",
+        "mood": "Radiant, dreamlike, awe-inspiring",
+        "duration": 1.8
+      },
+      {
+        "id": "ii6too",
+        "narration": "Night",
+        "characters": [],
+        "scene": "Breathtaking long-exposure landscape photograph of the exact same frozen Lake Saiful Muluk winter scene near Naran, Pakistan. Identical southern-shore viewpoint looking north, snow-capped triangular boulder at lower left, shoreline in the lower third, identical mountain skyline in the upper third. U",
+        "action": "Flash cut from sunset. Change only the time of day to a clear star-filled night. Preserve every landscape anchor and end on the most spectacular image, holding the final frame longer.",
+        "camera": "static",
+        "mood": "Celestial, immense, unforgettable",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which season would you choose?",
+    "createdAt": "2026-11-14T11:29:36.869Z",
+    "description": "Watch Lake Saiful Muluk near Naran transform through four seasons, then glow beneath a winter sunset and a sky full of stars. One viewpoint, endless wonder. #Naran #KaghanValley #SaifulMuluk #FourSeasons #PakistanTravel",
+    "tags": [
+      "Naran",
+      "Kaghan Valley",
+      "Lake Saiful Muluk",
+      "Pakistan",
+      "four seasons",
+      "landscape photography",
+      "transition reel"
+    ]
+  }
+}

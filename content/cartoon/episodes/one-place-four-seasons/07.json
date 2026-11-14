@@ -1,0 +1,85 @@
+{
+  "number": 7,
+  "topic": "Karachi Sea View beach from sunrise to night",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:28.892Z",
+  "episode": {
+    "id": "",
+    "seriesId": "one-place-four-seasons",
+    "title": "Karachi Sea View: Sunrise to Starlight",
+    "shots": [
+      {
+        "id": "ci4ibf",
+        "narration": "Sunrise",
+        "characters": [],
+        "scene": "Breathtaking photorealistic landscape of Sea View beach in Clifton, Karachi, vertical 9:16. Fixed elevated viewpoint beside the promenade, looking along the broad sandy beach curving toward distant Clifton buildings, with the Arabian Sea on the left and the promenade on the right. Open sky fills the",
+        "action": "Soft peach sunrise light washes the sand and distant buildings; the sea reflects delicate pink and lavender. Establish the exact shoreline, small wave pattern, architecture, and framing to preserve in every subsequent image. Cinematic natural colour. Hold still, then flash cut.",
+        "camera": "static",
+        "mood": "Peaceful anticipation",
+        "duration": 1.8
+      },
+      {
+        "id": "r2tz9h",
+        "narration": "Morning",
+        "characters": [],
+        "scene": "The identical Sea View beach in Clifton, Karachi, photographed from the exact same elevated promenade viewpoint, vertical 9:16. Arabian Sea left, broad sandy beach curving toward the same distant Clifton buildings, promenade right, open sky filling the upper half. Empty beach, no people, vehicles, t",
+        "action": "Change only the time-of-day lighting to clear morning: fresh pale-blue sky, gentle golden illumination, and sparkling blue water. Preserve the exact shoreline, small wave pattern, architecture, and framing. Breathtaking landscape photography with cinematic natural colour. Hold still, then flash cut.",
+        "camera": "static",
+        "mood": "Fresh and radiant",
+        "duration": 1.8
+      },
+      {
+        "id": "5pwtiw",
+        "narration": "Noon",
+        "characters": [],
+        "scene": "The identical Sea View beach in Clifton, Karachi, photographed from the exact same elevated promenade viewpoint, vertical 9:16. Arabian Sea left, broad sandy beach curving toward the same distant Clifton buildings, promenade right, open sky filling the upper half. Empty beach, no people, vehicles, t",
+        "action": "Change only the time-of-day lighting to bright noon: luminous blue sky, crisp turquoise-blue water, and pale sunlit sand with short shadows. Preserve the exact shoreline, small wave pattern, architecture, and framing. Breathtaking landscape photography with cinematic natural colour. Hold still, then",
+        "camera": "static",
+        "mood": "Brilliant coastal energy",
+        "duration": 1.8
+      },
+      {
+        "id": "doivn6",
+        "narration": "Afternoon",
+        "characters": [],
+        "scene": "The identical Sea View beach in Clifton, Karachi, photographed from the exact same elevated promenade viewpoint, vertical 9:16. Arabian Sea left, broad sandy beach curving toward the same distant Clifton buildings, promenade right, open sky filling the upper half. Empty beach, no people, vehicles, t",
+        "action": "Change only the time-of-day lighting to late afternoon: warm honey-coloured light, longer soft shadows, and a broad golden sheen on the sea. Preserve the exact shoreline, small wave pattern, architecture, and framing. Breathtaking landscape photography with cinematic natural colour. Hold still, then",
+        "camera": "static",
+        "mood": "Warm and expansive",
+        "duration": 1.8
+      },
+      {
+        "id": "om42mx",
+        "narration": "Sunset",
+        "characters": [],
+        "scene": "The identical Sea View beach in Clifton, Karachi, photographed from the exact same elevated promenade viewpoint, vertical 9:16. Arabian Sea left, broad sandy beach curving toward the same distant Clifton buildings, promenade right, open sky filling the upper half. Empty beach, no people, vehicles, t",
+        "action": "Change only the time-of-day lighting to sunset: a coral and amber horizon fading into mauve, with copper reflections across the water and softly silhouetted buildings. Preserve the exact shoreline, small wave pattern, architecture, and framing. Breathtaking landscape photography with cinematic natur",
+        "camera": "static",
+        "mood": "Glowing and cinematic",
+        "duration": 1.8
+      },
+      {
+        "id": "pfmq3l",
+        "narration": "Night",
+        "characters": [],
+        "scene": "The identical Sea View beach in Clifton, Karachi, photographed from the exact same elevated promenade viewpoint, vertical 9:16. Arabian Sea left, broad sandy beach curving toward the same distant Clifton buildings, promenade right, open sky filling the upper half. Empty beach, no people, vehicles, t",
+        "action": "Change only the time-of-day illumination to a spectacular clear night: deep indigo sky with a few faint stars, silvery moonlight revealing the surf, and warm promenade and building lights forming a luminous curve into the distance. Preserve the exact shoreline, small wave pattern, architecture, and ",
+        "camera": "static",
+        "mood": "Majestic coastal wonder",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Sunrise or night—which Karachi view wins?",
+    "createdAt": "2026-11-14T11:29:28.890Z",
+    "description": "One fixed view of Karachi’s Sea View beach transforms from soft sunrise to a luminous coastal night. Six moments, one unforgettable shoreline. #Karachi #SeaView #CliftonBeach #DayToNight #LandscapePhotography",
+    "tags": [
+      "Karachi",
+      "Sea View",
+      "Clifton Beach",
+      "Pakistan",
+      "day to night",
+      "coastal photography",
+      "transition reel"
+    ]
+  }
+}

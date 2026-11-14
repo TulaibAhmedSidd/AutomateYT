@@ -1,0 +1,84 @@
+{
+  "number": 1,
+  "topic": "Karachi from today to the year 2150",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:27:27.607Z",
+  "episode": {
+    "id": "",
+    "seriesId": "cities-of-the-future",
+    "title": "Karachi 2150: A Greener Skyline",
+    "shots": [
+      {
+        "id": "uhhk0t",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art of Karachi at blue hour, fixed elevated view facing Mazar-e-Quaid, its instantly recognizable white marble mausoleum and dome centered in the lower third, formal gardens surrounding it, contemporary Karachi skyline behind it. Empty visible grounds an",
+        "action": "Establish the present-day landmark and skyline. Lock the viewpoint, horizon, landmark proportions, and blue-hour lighting for every subsequent image.",
+        "camera": "static",
+        "mood": "Recognizable, peaceful, expectant",
+        "duration": 1.8
+      },
+      {
+        "id": "iiuzot",
+        "narration": "2050",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Karachi at blue hour, identical fixed elevated view facing Mazar-e-Quaid, white marble mausoleum and dome centered in the lower third, unchanged formal gardens and contemporary skyline. The surrounding city rooftops now carry lush green roof gardens.",
+        "action": "Flash-cut to the identical composition. Change only the surrounding rooftops into green gardens; preserve the mausoleum, buildings, lighting, and framing.",
+        "camera": "static",
+        "mood": "Fresh, hopeful, green",
+        "duration": 1.8
+      },
+      {
+        "id": "0k55b9",
+        "narration": "2075",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Karachi at blue hour, identical fixed elevated view facing Mazar-e-Quaid, white marble mausoleum and dome centered in the lower third, unchanged formal gardens and skyline with lush rooftop gardens. Elegant solar canopies now cover the streets outsid",
+        "action": "Flash-cut with perfect landmark alignment. Add only sleek solar street canopies, retaining the rooftop gardens and all existing architecture.",
+        "camera": "static",
+        "mood": "Clean, inventive, optimistic",
+        "duration": 1.8
+      },
+      {
+        "id": "ytg3hq",
+        "narration": "2100",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Karachi at blue hour, identical fixed elevated view facing Mazar-e-Quaid, white marble mausoleum and dome centered in the lower third, unchanged formal gardens, skyline with rooftop gardens, and solar street canopies. A slender elevated transit ribbo",
+        "action": "Flash-cut to the same framing. Add only the elegant elevated transit ribbon without obscuring the mausoleum; preserve every previous upgrade.",
+        "camera": "static",
+        "mood": "Connected, graceful, forward-looking",
+        "duration": 1.8
+      },
+      {
+        "id": "ru0hb5",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Karachi at blue hour, identical fixed elevated view facing Mazar-e-Quaid, white marble mausoleum and dome centered in the lower third, unchanged formal gardens, green rooftops, solar street canopies, and elevated transit ribbon. The existing skyline ",
+        "action": "Flash-cut with exact compositional alignment. Change only the existing skyline's facade lighting to glowing sci-fi illumination; keep the landmark's white marble appearance unchanged.",
+        "camera": "static",
+        "mood": "Luminous, serene, futuristic",
+        "duration": 1.8
+      },
+      {
+        "id": "shrcry",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 spectacular futuristic cinematic concept art of Karachi at blue hour, identical fixed elevated view facing Mazar-e-Quaid, unchanged white marble mausoleum and dome centered in the lower third. Preserve the formal gardens, green rooftops, solar street canopies, elevated transit ribbon, ",
+        "action": "Final flash-cut, holding the identical camera angle. Add only the distant sky-garden towers for the grandest reveal of this imagined 2150, preserving all earlier features.",
+        "camera": "static",
+        "mood": "Breathtaking, flourishing, hopeful",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which upgrade would you want for Karachi?",
+    "createdAt": "2026-11-14T11:27:27.605Z",
+    "description": "Imagine Karachi transforming around Mazar-e-Quaid into a glowing, green city of 2150. This cinematic future is creative speculation, not a prediction. #Karachi #FutureCities #Karachi2150 #AIArt #CityTransformation",
+    "tags": [
+      "Karachi",
+      "Pakistan",
+      "Mazar-e-Quaid",
+      "Cities of the Future",
+      "futuristic architecture",
+      "AI transition reel"
+    ]
+  }
+}

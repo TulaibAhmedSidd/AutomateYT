@@ -1,0 +1,85 @@
+{
+  "number": 2,
+  "topic": "Lahore from today to the year 2150",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:27:29.178Z",
+  "episode": {
+    "id": "",
+    "seriesId": "cities-of-the-future",
+    "title": "Lahore 2150: A Greener Future",
+    "shots": [
+      {
+        "id": "pcsqsx",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art of Lahore, looking west from the elevated Alamgiri Gate of Lahore Fort across Hazuri Bagh toward Badshahi Mosque. Recognizable red sandstone facade, three marble domes and four minarets; garden foreground and distant city skyline. Warm dusk, clear sk",
+        "action": "Establish present-day Lahore with ordinary garden paths, lawns and a low-rise distant skyline. Preserve this exact viewpoint and landmark geometry throughout the sequence.",
+        "camera": "static",
+        "mood": "Recognizable, peaceful, majestic",
+        "duration": 1.8
+      },
+      {
+        "id": "hf52eq",
+        "narration": "2050",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Lahore, identical west-facing elevated Alamgiri Gate viewpoint across Hazuri Bagh toward Badshahi Mosque. Same centered mosque, unchanged red sandstone facade, three marble domes, four minarets, garden layout and distant low-rise skyline. Same warm d",
+        "action": "Change only the garden-path lighting: add slender, softly glowing cyan light strips along existing paths. Keep everything else identical to Today. Flash-cut transition.",
+        "camera": "static",
+        "mood": "Hopeful, subtly futuristic",
+        "duration": 1.8
+      },
+      {
+        "id": "dlkx66",
+        "narration": "2075",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Lahore, identical west-facing elevated Alamgiri Gate viewpoint across Hazuri Bagh toward Badshahi Mosque. Same centered historic mosque and garden geometry, cyan-lit garden paths, warm dusk and clear sky. Empty public spaces, no people, no text, lett",
+        "action": "Change only the distant modern rooftops: cover them with lush rooftop gardens. Retain the cyan path lighting and keep the historic mosque completely unchanged. Flash-cut transition.",
+        "camera": "static",
+        "mood": "Green, serene, optimistic",
+        "duration": 1.8
+      },
+      {
+        "id": "rcyyj3",
+        "narration": "2100",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Lahore, identical west-facing elevated Alamgiri Gate viewpoint across Hazuri Bagh toward Badshahi Mosque. Same centered historic mosque, unchanged garden geometry, cyan-lit paths and distant green rooftops. Same warm dusk and clear sky. Empty public ",
+        "action": "Add only a cluster of elegant, plant-covered towers far behind the mosque, with restrained emerald sci-fi lighting. Keep towers clear of the domes and minaret silhouettes; preserve all previous features. Flash-cut transition.",
+        "camera": "static",
+        "mood": "Visionary, clean, uplifting",
+        "duration": 1.8
+      },
+      {
+        "id": "mjk6ol",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Lahore, identical west-facing elevated Alamgiri Gate viewpoint across Hazuri Bagh toward Badshahi Mosque. Same untouched centered mosque, cyan garden-path lighting, distant green rooftops and emerald-lit botanical towers. Same warm dusk and clear sky",
+        "action": "Add only a slender luminous skybridge linking the distant botanical towers, well behind the mosque and outside its silhouette. Preserve every existing element. Flash-cut transition.",
+        "camera": "static",
+        "mood": "Connected, graceful, futuristic",
+        "duration": 1.8
+      },
+      {
+        "id": "31c1ws",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of Lahore, identical west-facing elevated Alamgiri Gate viewpoint across Hazuri Bagh toward Badshahi Mosque. Same untouched centered mosque, cyan-lit garden paths, green rooftops, emerald-lit botanical towers and distant luminous skybridge. Same warm du",
+        "action": "Add only a spectacular floating botanical terrace high above the distant modern skyline, with hanging greenery and a softly glowing turquoise underside. Leave open sky around the mosque's domes and minarets. Preserve all earlier features for the grand final reveal. Flash-cut transition.",
+        "camera": "static",
+        "mood": "Breathtaking, harmonious, hopeful",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Would you want this future for Lahore?",
+    "createdAt": "2026-11-14T11:27:29.176Z",
+    "description": "Imagine Lahore transforming into a luminous green city while its historic heart stays unmistakable. This is a fictional future, not a prediction. #Lahore #FutureCities #BadshahiMosque #AIArt #Shorts",
+    "tags": [
+      "Lahore",
+      "Pakistan",
+      "Cities of the Future",
+      "Badshahi Mosque",
+      "futuristic",
+      "AI art",
+      "transition reel"
+    ]
+  }
+}

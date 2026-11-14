@@ -1,0 +1,94 @@
+{
+  "number": 6,
+  "topic": "Thar desert from dawn to a starry night",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:15.566Z",
+  "episode": {
+    "id": "",
+    "seriesId": "one-place-four-seasons",
+    "title": "Thar Desert: Dawn to a Million Stars",
+    "shots": [
+      {
+        "id": "n5i8mf",
+        "narration": "Dawn",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of the Thar Desert, vertical 9:16. Fixed eye-level viewpoint: a sweeping S-shaped sand dune crest starts at the bottom left and curves toward the centre, parallel sand ripples fill the lower right, three overlapping dunes sit beneath a low horizon. Clear sky, pristi",
+        "action": "Illuminate the unchanged landscape with soft predawn blue light and a delicate peach band along the eastern horizon. Preserve all dune contours and sand ripples. Cinematic natural colour.",
+        "camera": "static",
+        "mood": "Quiet anticipation",
+        "duration": 1.8
+      },
+      {
+        "id": "v5s2r9",
+        "narration": "Sunrise",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of the Thar Desert, vertical 9:16. Fixed eye-level viewpoint: a sweeping S-shaped sand dune crest starts at the bottom left and curves toward the centre, parallel sand ripples fill the lower right, three overlapping dunes sit beneath a low horizon. Clear sky, pristi",
+        "action": "Change only the time-of-day illumination: the rising sun just outside the left edge washes the dune crest in luminous gold and casts long violet shadows. Preserve the exact composition, dune contours and sand ripples.",
+        "camera": "static",
+        "mood": "Radiant awakening",
+        "duration": 1.8
+      },
+      {
+        "id": "n8y4yo",
+        "narration": "Morning",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of the Thar Desert, vertical 9:16. Fixed eye-level viewpoint: a sweeping S-shaped sand dune crest starts at the bottom left and curves toward the centre, parallel sand ripples fill the lower right, three overlapping dunes sit beneath a low horizon. Clear sky, pristi",
+        "action": "Change only the time-of-day illumination: clear morning sunlight reveals warm honey-coloured sand and crisp, moderately long shadows beneath a pale blue sky. Preserve the exact composition, dune contours and sand ripples.",
+        "camera": "static",
+        "mood": "Fresh and expansive",
+        "duration": 1.8
+      },
+      {
+        "id": "p82a3m",
+        "narration": "Noon",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of the Thar Desert, vertical 9:16. Fixed eye-level viewpoint: a sweeping S-shaped sand dune crest starts at the bottom left and curves toward the centre, parallel sand ripples fill the lower right, three overlapping dunes sit beneath a low horizon. Clear sky, pristi",
+        "action": "Change only the time-of-day illumination: high midday sunlight turns the sand pale gold, with short, sharply defined ripple shadows and a vivid blue sky. Retain highlight detail. Preserve the exact composition, dune contours and sand ripples.",
+        "camera": "static",
+        "mood": "Brilliant desert stillness",
+        "duration": 1.8
+      },
+      {
+        "id": "eetg24",
+        "narration": "Afternoon",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of the Thar Desert, vertical 9:16. Fixed eye-level viewpoint: a sweeping S-shaped sand dune crest starts at the bottom left and curves toward the centre, parallel sand ripples fill the lower right, three overlapping dunes sit beneath a low horizon. Clear sky, pristi",
+        "action": "Change only the time-of-day illumination: lowering sunlight from the right warms the sand to amber and lengthens shadows toward the left, sculpting the dune faces. Preserve the exact composition, dune contours and sand ripples.",
+        "camera": "static",
+        "mood": "Warm and sculptural",
+        "duration": 1.8
+      },
+      {
+        "id": "wlupak",
+        "narration": "Sunset",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of the Thar Desert, vertical 9:16. Fixed eye-level viewpoint: a sweeping S-shaped sand dune crest starts at the bottom left and curves toward the centre, parallel sand ripples fill the lower right, three overlapping dunes sit beneath a low horizon. Clear sky, pristi",
+        "action": "Change only the time-of-day illumination: the setting sun just outside the right edge paints the dune crest copper-orange, with deep plum shadows and a rose-coloured horizon. Preserve the exact composition, dune contours and sand ripples.",
+        "camera": "static",
+        "mood": "Glowing and cinematic",
+        "duration": 1.8
+      },
+      {
+        "id": "8eh7hh",
+        "narration": "Night",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of the Thar Desert, vertical 9:16. Fixed eye-level viewpoint: a sweeping S-shaped sand dune crest starts at the bottom left and curves toward the centre, parallel sand ripples fill the lower right, three overlapping dunes sit beneath a low horizon. Clear sky, pristi",
+        "action": "Change only the time-of-day illumination to a moonless night, photographed with a naturalistic long exposure. Reveal countless sharp stars and a luminous, finely detailed Milky Way across the sky; retain subtle blue-grey detail in the unchanged dunes. Preserve the exact composition, dune contours an",
+        "camera": "static",
+        "mood": "Awe beneath infinity",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Sunset gold or a sky full of stars?",
+    "createdAt": "2026-11-14T11:29:15.564Z",
+    "description": "One timeless view of the Thar Desert transforms from first light to a breathtaking starry night. Watch the dunes change colour without moving an inch. #TharDesert #DesertLandscape #DayToNight #LandscapePhotography #AIReels",
+    "tags": [
+      "Thar Desert",
+      "day to night",
+      "desert dunes",
+      "starry sky",
+      "landscape photography",
+      "transition reel"
+    ]
+  }
+}

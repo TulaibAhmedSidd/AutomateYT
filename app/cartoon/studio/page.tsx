@@ -15,7 +15,9 @@ import { useRecorder } from '@/components/cartoon/useRecorder';
 import { api, card, field, fmtSeconds, ghostBtn, jsonBody, label } from '@/components/cartoon/ui';
 import {
   episodeFrames,
+  isTransition,
   keyShotIds,
+  TRANSITION_SECONDS,
   newShotId,
   FPS,
   type CartoonEpisode,
@@ -340,7 +342,7 @@ export default function CartoonStudioPage() {
     if (!episode || !series) return null;
     return {
       assetBase: FILES,
-      series: { name: series.name, language: series.language, palette: series.palette },
+      series: { name: series.name, language: series.language, palette: series.palette, format: series.format },
       episode: {
         ...episode,
         shots: episode.shots.map((s) => ({
@@ -362,7 +364,7 @@ export default function CartoonStudioPage() {
   };
   const recorded = episode?.shots.filter((s) => s.recording).length || 0;
   const total = episode ? episodeFrames(episode) / FPS : 0;
-  const needsVoice = episode ? episode.shots.filter((s) => s.narration.trim() && !s.recording).length : 0;
+  const needsVoice = episode && !isTransition(series) ? episode.shots.filter((s) => s.narration.trim() && !s.recording).length : 0;
   const pct = Math.round((status?.progress || 0) * 100);
   const shownError = error || recorder.error;
 
@@ -521,6 +523,12 @@ export default function CartoonStudioPage() {
                   </button>
                 </div>
               </div>
+              {isTransition(series) ? (
+                <p className="mt-4 rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/[0.05] p-4 text-sm text-slate-300">
+                  <b className="text-white">Transition reel · no voice.</b> Each picture shows for {TRANSITION_SECONDS} s with a flash cut and its label. After
+                  uploading, add a trending sound in the Instagram or YouTube app: that is what makes transition reels travel.
+                </p>
+              ) : (
               <div className="mt-4">
                 <VoiceStep
                   episode={episode}
@@ -539,6 +547,7 @@ export default function CartoonStudioPage() {
                   onError={setError}
                 />
               </div>
+              )}
               <details className="mt-4">
                 <summary className="cursor-pointer text-xs font-semibold text-slate-400 hover:text-white">Title and last card</summary>
               <div className="mt-3 grid gap-3 sm:grid-cols-2">

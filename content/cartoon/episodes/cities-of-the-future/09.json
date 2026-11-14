@@ -1,0 +1,85 @@
+{
+  "number": 9,
+  "topic": "Hunza valley from today to the year 2150, with green technology",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:27:50.637Z",
+  "episode": {
+    "id": "",
+    "seriesId": "cities-of-the-future",
+    "title": "Hunza Valley: A Green Dream of 2150",
+    "shots": [
+      {
+        "id": "cxe6vi",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art, recognizable present-day Hunza Valley, Pakistan. Fixed elevated viewpoint overlooking Karimabad, with historic Baltit Fort prominent in the foreground, terraced orchards below and snow-covered Karakoram peaks beyond. Clear golden-hour light, realistic mountain sc",
+        "action": "Establish the original landscape, traditional buildings and orchards. Keep Baltit Fort, the mountain skyline and the framing locked for every subsequent image.",
+        "camera": "static",
+        "mood": "Peaceful, recognizable, majestic",
+        "duration": 1.8
+      },
+      {
+        "id": "crdgwq",
+        "narration": "2050",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of the identical elevated view over Karimabad and Hunza Valley. Baltit Fort remains unchanged in the foreground; identical orchards, mountains, golden-hour lighting and composition. Modern village rooftops now carry discreet blue-green solar tiles. No p",
+        "action": "Change only the modern village roofs by adding integrated solar tiles with a subtle turquoise glow. Preserve the historic fort and all other landscape details.",
+        "camera": "static",
+        "mood": "Hopeful, clean, gently futuristic",
+        "duration": 1.8
+      },
+      {
+        "id": "yewjbz",
+        "narration": "2075",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of the identical elevated Hunza Valley view, with unchanged Baltit Fort, Karimabad, terraced orchards and snowy Karakoram skyline. Retain the solar-tiled modern rooftops. Add slender glowing irrigation channels following the existing orchard terraces. S",
+        "action": "Introduce only a precision-irrigation network, visible as delicate cyan water channels tracing the existing terraces. Keep all previous features unchanged.",
+        "camera": "static",
+        "mood": "Lush, resourceful, harmonious",
+        "duration": 1.8
+      },
+      {
+        "id": "raqpl3",
+        "narration": "2100",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art from the identical elevated viewpoint over Karimabad and Hunza Valley. Preserve Baltit Fort, the mountain skyline, solar rooftops and cyan orchard irrigation channels. A single slender electric transit guideway now follows the village contour below the ",
+        "action": "Add only the quiet electric transit system, carefully fitted around existing buildings and orchards without touching the historic fort.",
+        "camera": "static",
+        "mood": "Elegant, connected, optimistic",
+        "duration": 1.8
+      },
+      {
+        "id": "grc4rk",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art of the identical Hunza Valley composition. Keep Baltit Fort untouched, with the same mountains, solar rooftops, glowing irrigation and contour-following transit system. Modern village buildings now have cascading planted balconies, forming a continuous ",
+        "action": "Change only the modern building facades by adding lush planted balconies. Preserve their footprints, the historic architecture and every previously introduced technology.",
+        "camera": "static",
+        "mood": "Verdant, thriving, visionary",
+        "duration": 1.8
+      },
+      {
+        "id": "nc3nev",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 spectacular futuristic cinematic concept art from the identical elevated viewpoint over Hunza Valley. Retain untouched Baltit Fort, snowy mountains, solar rooftops, cyan irrigation channels, electric transit and planted balconies. A delicate leaf-shaped photovoltaic canopy now spans th",
+        "action": "Add only the luminous leaf-shaped energy canopy as the final architectural centerpiece. Keep the fort, skyline, camera framing and all earlier upgrades unchanged for a seamless flash-cut reveal.",
+        "camera": "static",
+        "mood": "Breathtaking, hopeful, nature-first",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which green upgrade would you choose for Hunza?",
+    "createdAt": "2026-11-14T11:27:50.637Z",
+    "description": "Imagine Hunza Valley evolving into a clean, green mountain paradise by 2150. A speculative visual journey, not a prediction. #HunzaValley #FutureCities #GreenTechnology #Solarpunk #AIArt",
+    "tags": [
+      "Hunza Valley",
+      "Karimabad",
+      "Baltit Fort",
+      "green technology",
+      "solarpunk",
+      "imagined future",
+      "transition reel"
+    ]
+  }
+}

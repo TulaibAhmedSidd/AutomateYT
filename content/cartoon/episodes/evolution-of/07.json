@@ -1,0 +1,83 @@
+{
+  "number": 7,
+  "topic": "The bicycle: from the wooden running machine to an electric bike",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:14.195Z",
+  "episode": {
+    "id": "",
+    "seriesId": "evolution-of",
+    "title": "Bicycle Evolution: Wooden Wheels to Electric Power",
+    "shots": [
+      {
+        "id": "cywazg",
+        "narration": "1817",
+        "characters": [],
+        "scene": "Clean studio product photograph of one wooden running bicycle, complete left-side profile facing right, both wheels aligned horizontally on the floor, centered in a vertical 9:16 frame. Plain pale-gray gradient background, soft upper-left lighting, subtle floor shadow, generous margins. Wooden frame",
+        "action": "Show the early bicycle's defining feature: a wooden frame propelled by the rider's feet, without pedals. Keep the full object visible.",
+        "camera": "static",
+        "mood": "Simple, ingenious, historical",
+        "duration": 1.8
+      },
+      {
+        "id": "zcifuf",
+        "narration": "1860s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one 1860s pedal bicycle, complete left-side profile facing right, both wheels aligned horizontally on the floor, centered in a vertical 9:16 frame. Plain pale-gray gradient background, soft upper-left lighting, subtle floor shadow, generous margins. Period-accurate",
+        "action": "Make the newly added front-hub pedals the dominant visible change. Preserve the previous shot's camera position, ground line, and lighting.",
+        "camera": "static",
+        "mood": "Mechanical, inventive, pioneering",
+        "duration": 1.8
+      },
+      {
+        "id": "9yvrrj",
+        "narration": "1870s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one high-wheel bicycle, complete left-side profile facing right, both wheels aligned horizontally on the floor, centered in a vertical 9:16 frame. Plain pale-gray gradient background, soft upper-left lighting, subtle floor shadow, generous margins. Period-accurate ",
+        "action": "Make the dramatically enlarged front wheel the dominant visible change. Preserve the previous shot's camera position, ground line, and lighting; leave enough space above the saddle.",
+        "camera": "static",
+        "mood": "Dramatic, daring, iconic",
+        "duration": 1.8
+      },
+      {
+        "id": "ksguw6",
+        "narration": "1880s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one late-1880s safety bicycle, complete left-side profile facing right, both wheels aligned horizontally on the floor, centered in a vertical 9:16 frame. Plain pale-gray gradient background, soft upper-left lighting, subtle floor shadow, generous margins. Period-ac",
+        "action": "Make the return to two similarly sized wheels the dominant visible change, creating the recognizable low safety-bicycle silhouette. Preserve the camera position, ground line, and lighting.",
+        "camera": "static",
+        "mood": "Balanced, practical, transformative",
+        "duration": 1.8
+      },
+      {
+        "id": "4fzy8d",
+        "narration": "1890s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one 1890s safety bicycle, complete left-side profile facing right, both wheels aligned horizontally on the floor, centered in a vertical 9:16 frame. Plain pale-gray gradient background, soft upper-left lighting, subtle floor shadow, generous margins. Dark metal dia",
+        "action": "Change the narrow solid tires into thicker, rounded pneumatic tires. Keep the frame, pose, camera position, ground line, and lighting visually matched to the preceding shot.",
+        "camera": "static",
+        "mood": "Refined, comfortable, familiar",
+        "duration": 1.8
+      },
+      {
+        "id": "75a4mh",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Clean studio product photograph of one premium modern electric bicycle, complete left-side profile facing right, both wheels aligned horizontally on the floor, centered in a vertical 9:16 frame. Plain pale-gray gradient background, soft upper-left lighting, subtle floor shadow, generous margins. Ele",
+        "action": "Make the integrated electric-assist assembly the dominant visible upgrade. Retain the familiar bicycle silhouette and matching camera position, ground line, and lighting for a striking final comparison.",
+        "camera": "static",
+        "mood": "Premium, powerful, impressive",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which era would you take for a ride?",
+    "createdAt": "2026-11-14T11:28:14.194Z",
+    "description": "Two wheels, two centuries of change—from the wooden running machine to today's electric bicycle. Flash-cut through the evolution. #BicycleEvolution #CyclingHistory #ElectricBike #ThenAndNow #EvolutionOf",
+    "tags": [
+      "bicycle",
+      "bicycle evolution",
+      "cycling history",
+      "electric bicycle",
+      "transport evolution"
+    ]
+  }
+}

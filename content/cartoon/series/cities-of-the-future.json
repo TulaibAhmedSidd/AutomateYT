@@ -1,0 +1,42 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "transition",
+  "why": "AI future-city reels (\"what will my city look like in 2100?\") are a hot trend with big curiosity and lively comment debates.",
+  "series": {
+    "id": "cities-of-the-future",
+    "name": "Cities of the Future",
+    "language": "en",
+    "audience": "general",
+    "madeForKids": false,
+    "style": "futuristic cinematic concept art, same famous view of the city in every picture, glowing sci-fi lighting in the future stages, vertical 9:16 frame",
+    "negative": "text, letters, words, watermark, logo, real people, celebrities, blood, blurry, distorted",
+    "characters": [],
+    "voice": {
+      "provider": "edge",
+      "edgeVoice": "en-US-AndrewNeural"
+    },
+    "rules": [
+      "Same city view in every stage: Today first, then future years getting more futuristic.",
+      "Labels are years: Today, 2050, 2075, 2100, 2150. It is imagination: never claim it will really happen.",
+      "Hopeful, green and clean future: no war or ruins."
+    ],
+    "episodeSeconds": 45,
+    "palette": {
+      "bg": "#0b0b1e",
+      "accent": "#c084fc"
+    },
+    "format": "transition"
+  },
+  "topics": [
+    "Karachi from today to the year 2150",
+    "Lahore from today to the year 2150",
+    "Islamabad from today to the year 2150",
+    "Dubai from today to the year 2150",
+    "London from today to the year 2150",
+    "New York from today to the year 2150",
+    "Tokyo from today to the year 2150",
+    "Gwadar from today to the year 2150",
+    "Hunza valley from today to the year 2150, with green technology",
+    "Multan from today to the year 2150"
+  ]
+}

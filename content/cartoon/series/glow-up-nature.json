@@ -1,0 +1,42 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "transition",
+  "why": "Satisfying growth transformations (seed to tree, egg to chick) are loved by all ages, safe for any audience, and get a strong rewatch rate.",
+  "series": {
+    "id": "glow-up-nature",
+    "name": "Glow Up: Nature",
+    "language": "en",
+    "audience": "general",
+    "madeForKids": false,
+    "style": "beautiful nature macro photography, soft natural light, the same spot and same camera angle in every stage, vertical 9:16 frame",
+    "negative": "text, letters, words, watermark, logo, real people, celebrities, blood, blurry, distorted",
+    "characters": [],
+    "voice": {
+      "provider": "edge",
+      "edgeVoice": "en-US-AndrewNeural"
+    },
+    "rules": [
+      "One living thing per reel, growing step by step in the same place.",
+      "Labels are stages (e.g. Seed, Sprout, Tree) or simple times (Day 1, Week 6). Only real, well-known stages.",
+      "Gentle and beautiful; no animals hurt."
+    ],
+    "episodeSeconds": 45,
+    "palette": {
+      "bg": "#0f2a1d",
+      "accent": "#a3e635"
+    },
+    "format": "transition"
+  },
+  "topics": [
+    "A mango seed growing into a mango tree with fruit",
+    "An egg hatching into a chick and growing into a hen",
+    "A caterpillar becoming a butterfly",
+    "A tadpole becoming a frog",
+    "A lion cub growing into a lion",
+    "A kitten growing into a cat",
+    "A rose bud opening into a full rose",
+    "A foal growing into a horse",
+    "A baby sea turtle growing into a big sea turtle",
+    "A sunflower from seed to full bloom"
+  ]
+}

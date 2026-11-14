@@ -1,0 +1,93 @@
+{
+  "number": 6,
+  "topic": "The camera: from a wooden box camera to a phone camera",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:12.338Z",
+  "episode": {
+    "id": "",
+    "seriesId": "evolution-of",
+    "title": "From Wooden Box to Pocket Powerhouse",
+    "shots": [
+      {
+        "id": "tjazq3",
+        "narration": "1880s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one antique wooden box camera with a brass lens, lens facing the viewer at a fixed slight three-quarter angle. Centered on a plain pale-gray gradient background, soft upper-left lighting, vertical 9:16 frame. No people, text, letters, numbers, or logos.",
+        "action": "Show a recognizable polished wooden camera body with a prominent round brass lens. Keep the lens center at the frame's midpoint; establish this alignment for every subsequent image.",
+        "camera": "static",
+        "mood": "Warm, nostalgic",
+        "duration": 1.8
+      },
+      {
+        "id": "528rf9",
+        "narration": "1900s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one antique folding bellows camera, lens facing the viewer at the same fixed slight three-quarter angle. Centered on the same plain pale-gray gradient background, identical soft upper-left lighting, vertical 9:16 frame. No people, text, letters, numbers, or logos.",
+        "action": "Flash-cut to the next image. Make the extended black accordion bellows the defining visible change, keeping the lens center at the identical frame position.",
+        "camera": "static",
+        "mood": "Inventive, nostalgic",
+        "duration": 1.8
+      },
+      {
+        "id": "sgktwh",
+        "narration": "1930s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one compact metal-bodied rangefinder film camera with a round lens and small optical viewfinder, lens facing the viewer at the same fixed slight three-quarter angle. Centered on the same plain pale-gray gradient background, identical soft upper-left lighting, verti",
+        "action": "Flash-cut to the next image. Emphasize the compact rigid metal body replacing the extended bellows; preserve the exact lens-center alignment.",
+        "camera": "static",
+        "mood": "Precise, classic",
+        "duration": 1.8
+      },
+      {
+        "id": "iv6r4d",
+        "narration": "1960s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one silver-and-black single-lens reflex film camera with a standard round lens and raised central prism housing, lens facing the viewer at the same fixed slight three-quarter angle. Centered on the same plain pale-gray gradient background, identical soft upper-left",
+        "action": "Flash-cut to the next image. Make the raised prism housing above the lens the defining visible change; preserve the exact lens-center alignment.",
+        "camera": "static",
+        "mood": "Confident, mechanical",
+        "duration": 1.8
+      },
+      {
+        "id": "6wy4cl",
+        "narration": "1990s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one early compact digital camera with a rounded silver body and small circular lens, lens facing the viewer at the same fixed slight three-quarter angle. Centered on the same plain pale-gray gradient background, identical soft upper-left lighting, vertical 9:16 fra",
+        "action": "Flash-cut to the next image. Emphasize the simplified pocket-sized body as the defining visible change; preserve the exact lens-center alignment.",
+        "camera": "static",
+        "mood": "Fresh, accessible",
+        "duration": 1.8
+      },
+      {
+        "id": "77xq26",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Clean studio product photograph of one early camera phone, its plain silver rear panel and single tiny camera lens facing the viewer at the same fixed slight three-quarter angle. Phone upright, centered on the same plain pale-gray gradient background, identical soft upper-left lighting, vertical 9:1",
+        "action": "Flash-cut to the next image. Make the transformation into a phone-shaped body the defining visible change; position its tiny rear lens at the established lens-center point.",
+        "camera": "static",
+        "mood": "Playful, revolutionary",
+        "duration": 1.8
+      },
+      {
+        "id": "kjpi5y",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Clean studio product photograph of one premium modern camera phone, its matte graphite rear panel and three large rear camera lenses facing the viewer at the same fixed slight three-quarter angle. Phone upright, centered on the same plain pale-gray gradient background, identical soft upper-left ligh",
+        "action": "Flash-cut to the final image. Make the large triple-camera cluster the defining visible upgrade; align its primary lens with the established lens-center point and hold for the final beat.",
+        "camera": "static",
+        "mood": "Premium, impressive",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which camera era is your favorite?",
+    "createdAt": "2026-11-14T11:28:12.337Z",
+    "description": "Watch the camera evolve from a wooden box into today's phone camera, one flash cut at a time. Which era would you shoot with? #EvolutionOf #CameraHistory #Photography #TechEvolution #Shorts",
+    "tags": [
+      "camera evolution",
+      "photography history",
+      "camera technology",
+      "phone camera",
+      "transition reel"
+    ]
+  }
+}

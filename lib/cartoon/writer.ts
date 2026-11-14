@@ -1,5 +1,5 @@
 import { jsonAsker, mostlyUrduScript } from '@/lib/llm-json';
-import { CAMERAS, sanitizeEpisode, shotCountFor, spokenText, type CartoonEpisode, type CartoonSeries } from './spec';
+import { CAMERAS, TRANSITION_SECONDS, isTransition, sanitizeEpisode, shotCountFor, spokenText, type CartoonEpisode, type CartoonSeries } from './spec';
 
 // The AI episode writer. Server only. Costs OpenAI/Gemini credit (about 1.7 cents per episode with gpt-6.1-sol).
 
@@ -61,8 +61,50 @@ function problems(ep: CartoonEpisode, shots: number) {
   return out;
 }
 
+function transitionPrompt(series: CartoonSeries) {
+  return `You plan short vertical (9:16) TRANSITION reels for Instagram Reels and YouTube Shorts: a fast sequence of AI pictures
+that change step by step (then → now, evolution, growth, seasons), with a flash cut between pictures and no voice.
+
+SERIES: ${series.name}
+LOOK: ${series.style}
+SERIES RULES:
+${series.rules.map((r) => `- ${r}`).join('\n') || '- (none)'}
+
+HARD RULES:
+1. 6 to 10 stages ("shots") in a clear order. The first stage is instantly recognisable; the last is the most impressive.
+2. "narration" is the on-screen LABEL for that stage, at most 5 words (e.g. "1947", "Seed", "Year 2100"). It is not spoken.
+3. "scene" and "action" are image prompts in English: the same subject and the same camera angle in every stage, so the change is easy to see. One visible difference per stage.
+4. "camera" is "static" or "push-in". No text, letters or logos inside the pictures. No real people.
+5. Only well-known facts in labels; never invent dates or numbers.
+
+Return JSON only:
+{"title": "catchy title, max 60 characters", "description": "1-2 sentences + 5 hashtags", "tags": ["..."], "endHook": "a short question for the comments",
+ "shots": [{"narration": "label", "characters": [], "scene": "...", "action": "...", "camera": "static", "mood": "..."}]}`;
+}
+
+/** Writes one transition reel draft: 6-10 labelled pictures, each shown for TRANSITION_SECONDS. */
+async function writeTransition(series: CartoonSeries, topic: string, model: string): Promise<CartoonEpisode> {
+  const ask = await jsonAsker(model, transitionPrompt(series));
+  const parse = (text: string) => {
+    const ep = sanitizeEpisode(JSON.parse(text), series.id);
+    for (const s of ep.shots) {
+      s.characters = [];
+      s.duration = TRANSITION_SECONDS;
+    }
+    return ep;
+  };
+  let ep = parse(await ask(`Reel idea: ${topic}`));
+  const long = ep.shots.filter((s) => s.narration.split(/\s+/).filter(Boolean).length > 6).length;
+  if (ep.shots.length < 5 || ep.shots.length > 12 || long) {
+    ep = parse(await ask(`Reel idea: ${topic}\n\nYour last answer broke the rules: use 6-10 stages and labels of at most 5 words. Rewrite it.`));
+  }
+  if (!ep.shots.length) throw new Error('The model returned no stages. Try again.');
+  return ep;
+}
+
 /** Writes one episode draft (not saved) for a series from an idea. Retries once if the rules are broken. */
 export async function writeEpisode(series: CartoonSeries, topic: string, model: string): Promise<CartoonEpisode> {
+  if (isTransition(series)) return writeTransition(series, topic, model);
   const shots = shotCountFor(series.episodeSeconds);
   const ask = await jsonAsker(model, systemPrompt(series, shots));
   const prompt = `Episode idea: ${topic}`;

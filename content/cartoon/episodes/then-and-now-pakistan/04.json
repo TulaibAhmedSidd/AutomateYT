@@ -1,0 +1,85 @@
+{
+  "number": 4,
+  "topic": "Peshawar Qissa Khwani Bazaar through the centuries to today",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:58.475Z",
+  "episode": {
+    "id": "",
+    "seriesId": "then-and-now-pakistan",
+    "title": "Qissa Khwani Bazaar: Then to Today",
+    "shots": [
+      {
+        "id": "0tp8an",
+        "narration": "1900s",
+        "characters": [],
+        "scene": "Photorealistic cinematic reconstruction of Qissa Khwani Bazaar, Peshawar, viewed at eye level straight down its narrow market street. Historic brick-and-plaster shopfronts, projecting timber balconies and a distinctive corner facade anchor the composition. Empty street, dusty ground, simple wooden s",
+        "action": "Establish the recognizable old-bazaar streetscape. Lock the camera position, street geometry, corner facade and balcony silhouettes for every subsequent image.",
+        "camera": "static",
+        "mood": "Nostalgic and atmospheric",
+        "duration": 1.8
+      },
+      {
+        "id": "gk8m7h",
+        "narration": "1947",
+        "characters": [],
+        "scene": "The identical Qissa Khwani Bazaar view, eye-level composition, historic shopfronts, timber balconies and corner facade. Empty street with simple wooden shutters. Fixed golden-hour light, high detail, vertical 9:16. Warm sepia, aged photographic texture. No people, readable text, letters, signs or lo",
+        "action": "Change only the dusty street surface into worn stone paving; preserve every building and all other visible details. Treat the street treatment as illustrative rather than a documented change in this year.",
+        "camera": "static",
+        "mood": "Historic and reflective",
+        "duration": 1.8
+      },
+      {
+        "id": "l31r3p",
+        "narration": "1970s",
+        "characters": [],
+        "scene": "The identical Qissa Khwani Bazaar view, eye-level composition, historic shopfronts, timber balconies and corner facade. Empty stone-paved street with simple wooden shutters. Fixed golden-hour light, high detail, vertical 9:16. Warm sepia with lightly faded photographic texture. No people, readable t",
+        "action": "Add one unoccupied vintage bicycle leaning against the foreground shopfront. Preserve the paving, architecture and framing exactly.",
+        "camera": "static",
+        "mood": "Quiet and nostalgic",
+        "duration": 1.8
+      },
+      {
+        "id": "8sq24z",
+        "narration": "1990s",
+        "characters": [],
+        "scene": "The identical Qissa Khwani Bazaar view, eye-level composition, historic shopfronts, timber balconies and corner facade. Empty stone-paved street, one vintage bicycle against the foreground shopfront. Fixed golden-hour light, high detail, vertical 9:16. Muted warm photographic color. No people, reada",
+        "action": "Replace only the foreground shop's wooden shutters with plain, weathered metal roller shutters. Keep the bicycle and every other physical detail unchanged.",
+        "camera": "static",
+        "mood": "Familiar and timeworn",
+        "duration": 1.8
+      },
+      {
+        "id": "r14kbw",
+        "narration": "2010s",
+        "characters": [],
+        "scene": "The identical Qissa Khwani Bazaar view, eye-level composition, historic shopfronts, timber balconies and corner facade. Empty stone-paved street, vintage bicycle against the foreground shopfront, plain metal roller shutters on that shop. Fixed golden-hour light, high detail, vertical 9:16. Natural w",
+        "action": "Add one plain fabric awning above the foreground shop. Preserve all existing objects, street surfaces and architecture.",
+        "camera": "static",
+        "mood": "Warm and enduring",
+        "duration": 1.8
+      },
+      {
+        "id": "dfteqg",
+        "narration": "Today",
+        "characters": [],
+        "scene": "The identical Qissa Khwani Bazaar view, eye-level composition, historic shopfronts, timber balconies and corner facade. Empty stone-paved street, vintage bicycle, plain metal roller shutters and fabric awning at the foreground shop. Fixed golden-hour light, exceptionally detailed photorealism, brigh",
+        "action": "Add a discreet warm-white light strip beneath the existing foreground awning, giving the final view a luminous modern finish. Preserve the historic architecture and every other physical detail. Make the final image the richest and most visually impressive.",
+        "camera": "static",
+        "mood": "Radiant heritage, living present",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "What is your favorite Qissa Khwani memory?",
+    "createdAt": "2026-11-14T11:29:58.474Z",
+    "description": "Watch Peshawar’s iconic Qissa Khwani Bazaar transform through six cinematic eras. An illustrative AI reconstruction, not archival footage. #Peshawar #QissaKhwaniBazaar #ThenAndNow #Pakistan #AIReels",
+    "tags": [
+      "Peshawar",
+      "Qissa Khwani Bazaar",
+      "Pakistan",
+      "Then and Now",
+      "AI reconstruction",
+      "heritage",
+      "street history"
+    ]
+  }
+}

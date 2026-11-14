@@ -1,0 +1,85 @@
+{
+  "number": 8,
+  "topic": "Multan: the city of shrines and blue tiles through the ages",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:30:04.323Z",
+  "episode": {
+    "id": "",
+    "seriesId": "then-and-now-pakistan",
+    "title": "Multan Through Time: The Blue-Tile City",
+    "shots": [
+      {
+        "id": "etchd0",
+        "narration": "1900s",
+        "characters": [],
+        "scene": "Photorealistic cinematic architectural photograph of the Tomb of Shah Rukn-e-Alam in Multan, Pakistan. Fixed ground-level three-quarter view from the empty forecourt, entire recognizable octagonal red-brick shrine and white dome centered, blue-and-white glazed tile bands clearly visible, warm golden",
+        "action": "Opening still: establish the instantly recognizable shrine silhouette. Use strong warm-sepia toning and soft archival detail; this is an era-inspired rendering, not a claimed archival photograph.",
+        "camera": "static",
+        "mood": "Historic, reverent, timeless",
+        "duration": 1.8
+      },
+      {
+        "id": "foota7",
+        "narration": "1947",
+        "characters": [],
+        "scene": "Photorealistic cinematic architectural photograph of the Tomb of Shah Rukn-e-Alam in Multan, Pakistan. Fixed ground-level three-quarter view from the empty forecourt, entire recognizable octagonal red-brick shrine and white dome centered, blue-and-white glazed tile bands clearly visible, warm golden",
+        "action": "Flash cut to the identical view. Change only photographic definition: slightly clearer brickwork within the same aged warm-sepia treatment. Do not add structures or imply an architectural alteration.",
+        "camera": "static",
+        "mood": "Reflective, enduring",
+        "duration": 1.8
+      },
+      {
+        "id": "8w1fgf",
+        "narration": "1960s",
+        "characters": [],
+        "scene": "Photorealistic cinematic architectural photograph of the Tomb of Shah Rukn-e-Alam in Multan, Pakistan. Fixed ground-level three-quarter view from the empty forecourt, entire recognizable octagonal red-brick shrine and white dome centered, blue-and-white glazed tile bands clearly visible, warm golden",
+        "action": "Flash cut to the identical view. Change only the color treatment: introduce faint, faded natural colors beneath the warm sepia, with the blue tiles just beginning to register.",
+        "camera": "static",
+        "mood": "Nostalgic, quietly luminous",
+        "duration": 1.8
+      },
+      {
+        "id": "dbfo7q",
+        "narration": "1980s",
+        "characters": [],
+        "scene": "Photorealistic cinematic architectural photograph of the Tomb of Shah Rukn-e-Alam in Multan, Pakistan. Fixed ground-level three-quarter view from the empty forecourt, entire recognizable octagonal red-brick shrine and white dome centered, blue-and-white glazed tile bands clearly visible, warm golden",
+        "action": "Flash cut to the identical view. Change only color saturation: strengthen the brick reds and tile blues modestly while retaining a warm, aged photographic cast.",
+        "camera": "static",
+        "mood": "Warm, nostalgic, resilient",
+        "duration": 1.8
+      },
+      {
+        "id": "y039ef",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Photorealistic cinematic architectural photograph of the Tomb of Shah Rukn-e-Alam in Multan, Pakistan. Fixed ground-level three-quarter view from the empty forecourt, entire recognizable octagonal red-brick shrine and white dome centered, blue-and-white glazed tile bands clearly visible, warm golden",
+        "action": "Flash cut to the identical view. Change only the photographic color cast: remove the remaining sepia to reveal clean, natural golden-hour colors.",
+        "camera": "static",
+        "mood": "Fresh, vivid, enduring",
+        "duration": 1.8
+      },
+      {
+        "id": "mh7bvg",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Photorealistic cinematic architectural photograph of the Tomb of Shah Rukn-e-Alam in Multan, Pakistan. Fixed ground-level three-quarter view from the empty forecourt, entire recognizable octagonal red-brick shrine and white dome centered, blue-and-white glazed tile bands clearly visible, warm golden",
+        "action": "Final flash cut to the identical view. Change only image clarity to exceptional modern photographic detail: crisp glazed blue tiles, intricate brick textures and luminous dome surfaces. Hold on this most impressive frame; do not redesign or embellish the shrine.",
+        "camera": "static",
+        "mood": "Majestic, radiant, awe-inspiring",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which Multan landmark should travel through time next?",
+    "createdAt": "2026-11-14T11:30:04.322Z",
+    "description": "A cinematic journey through Multan’s shrine heritage, anchored by the iconic Tomb of Shah Rukn-e-Alam. Era-inspired photographic treatments change—not the monument’s historic architecture. #Multan #ThenAndNow #Pakistan #CityOfSaints #BlueTiles",
+    "tags": [
+      "Multan",
+      "Shah Rukn-e-Alam",
+      "Pakistan",
+      "shrines",
+      "blue tiles",
+      "Then and Now",
+      "architectural heritage"
+    ]
+  }
+}

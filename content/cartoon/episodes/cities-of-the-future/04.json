@@ -1,0 +1,84 @@
+{
+  "number": 4,
+  "topic": "Dubai from today to the year 2150",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:27:26.799Z",
+  "episode": {
+    "id": "",
+    "seriesId": "cities-of-the-future",
+    "title": "Dubai to 2150: Imagine the Skyline",
+    "shots": [
+      {
+        "id": "h9jzbn",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Futuristic cinematic concept-art style depicting present-day Dubai realistically, vertical 9:16. Locked wide view from the promenade across Burj Lake toward the unmistakable Burj Khalifa, centered and fully visible, with surrounding Downtown Dubai towers. Blue-hour sky, clean water reflections, empt",
+        "action": "Establish the recognizable present-day skyline with existing architecture and warm building lights. Keep the Burj Khalifa silhouette clearly readable.",
+        "camera": "static",
+        "mood": "Recognizable, elegant, expectant",
+        "duration": 1.8
+      },
+      {
+        "id": "1ujkwh",
+        "narration": "2050",
+        "characters": [],
+        "scene": "Imagined future Dubai, cinematic concept art, vertical 9:16. Identical locked wide view from the promenade across Burj Lake toward the centered, fully visible Burj Khalifa and the same surrounding towers. Identical blue-hour sky, framing, and reflections. No people, text, letters, or logos.",
+        "action": "Preserve the previous composition. The only new feature is lush planted terraces attached to surrounding towers, softly illuminated with emerald sci-fi lighting. Keep the Burj Khalifa unchanged. Flash cut into this image.",
+        "camera": "static",
+        "mood": "Fresh, hopeful, green",
+        "duration": 1.8
+      },
+      {
+        "id": "946f5f",
+        "narration": "2075",
+        "characters": [],
+        "scene": "Imagined future Dubai, cinematic concept art, vertical 9:16. Identical locked wide view from the promenade across Burj Lake toward the centered, fully visible Burj Khalifa and the same surrounding towers. Retain illuminated planted terraces, identical blue-hour sky, framing, and reflections. No peop",
+        "action": "Preserve all previous features. Add only a slender elevated transit ribbon curving between the surrounding towers, glowing softly cyan without obscuring the Burj Khalifa. Flash cut into this image.",
+        "camera": "static",
+        "mood": "Clean, connected, optimistic",
+        "duration": 1.8
+      },
+      {
+        "id": "uwt3qo",
+        "narration": "2100",
+        "characters": [],
+        "scene": "Imagined future Dubai, cinematic concept art, vertical 9:16. Identical locked wide view from the promenade across Burj Lake toward the centered, fully visible Burj Khalifa and the same surrounding towers. Retain illuminated planted terraces and the cyan transit ribbon, with identical blue-hour sky, ",
+        "action": "Preserve all previous features. Add only a network of luminous, leaf-shaped solar canopies above the lakeside promenade, leaving the lake and central landmark unobstructed. Flash cut into this image.",
+        "camera": "static",
+        "mood": "Sustainable, serene, radiant",
+        "duration": 1.8
+      },
+      {
+        "id": "i0bfoo",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Imagined future Dubai, cinematic concept art, vertical 9:16. Identical locked wide view from the promenade across Burj Lake toward the centered, fully visible Burj Khalifa and the same surrounding towers. Retain illuminated planted terraces, cyan transit ribbon, and leaf-shaped solar canopies. Ident",
+        "action": "Preserve all previous features. Add only sculptural floating garden islands on the lake, edged with soft turquoise light and arranged around an open central reflection of the Burj Khalifa. Flash cut into this image.",
+        "camera": "static",
+        "mood": "Lush, tranquil, extraordinary",
+        "duration": 1.8
+      },
+      {
+        "id": "vs8pwz",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Imagined future Dubai, cinematic concept art, vertical 9:16. Identical locked wide view from the promenade across Burj Lake toward the centered, fully visible Burj Khalifa and the same surrounding towers. Retain illuminated planted terraces, cyan transit ribbon, leaf-shaped solar canopies, and float",
+        "action": "Preserve all previous features. For the final reveal within the same imagined year, add only enormous suspended garden rings around the outer skyline, glowing emerald and gold while framing—not covering—the Burj Khalifa. Flash cut into this most spectacular image and hold.",
+        "camera": "static",
+        "mood": "Awe-inspiring, flourishing, visionary",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Would you live in this imagined Dubai?",
+    "createdAt": "2026-11-14T11:27:26.798Z",
+    "description": "One iconic Dubai view transforms into an imagined green future, ending in 2150. A cinematic concept—not a prediction—with flash cuts and no voice. #Dubai #FutureCities #AIArt #Reels #Shorts",
+    "tags": [
+      "Dubai",
+      "Burj Khalifa",
+      "Cities of the Future",
+      "green architecture",
+      "AI transition",
+      "2150"
+    ]
+  }
+}

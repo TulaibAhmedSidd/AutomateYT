@@ -1,0 +1,42 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "transition",
+  "why": "Evolution reels (phones, cars, planes) are evergreen viral transitions that everyone understands without words; huge global reach.",
+  "series": {
+    "id": "evolution-of",
+    "name": "Evolution Of",
+    "language": "en",
+    "audience": "general",
+    "madeForKids": false,
+    "style": "clean studio product photography, the object centred on a plain gradient background, same angle and lighting in every stage, vertical 9:16 frame",
+    "negative": "text, letters, words, watermark, logo, real people, celebrities, blood, blurry, distorted",
+    "characters": [],
+    "voice": {
+      "provider": "edge",
+      "edgeVoice": "en-US-AndrewNeural"
+    },
+    "rules": [
+      "One object type per reel, shown in the same pose every stage, from oldest to newest.",
+      "Labels are well-known eras or years (e.g. 1876, 1980s, Today). No brand names or logos.",
+      "Each stage clearly newer than the last."
+    ],
+    "episodeSeconds": 45,
+    "palette": {
+      "bg": "#111827",
+      "accent": "#60a5fa"
+    },
+    "format": "transition"
+  },
+  "topics": [
+    "The telephone: from the first telephone to today's smartphone",
+    "The car: from the first motor car to an electric car",
+    "The aeroplane: from the first powered flight to a modern jet",
+    "The computer: from room-sized machines to a laptop",
+    "The television: from a tiny round screen to a thin smart TV",
+    "The camera: from a wooden box camera to a phone camera",
+    "The bicycle: from the wooden running machine to an electric bike",
+    "Music players: from the gramophone to wireless earbuds",
+    "Video game consoles: from a simple tennis game box to a modern console (no brands)",
+    "Light: from an oil lamp to an LED bulb"
+  ]
+}

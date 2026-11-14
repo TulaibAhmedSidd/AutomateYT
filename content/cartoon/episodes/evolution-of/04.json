@@ -1,0 +1,94 @@
+{
+  "number": 4,
+  "topic": "The computer: from room-sized machines to a laptop",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:07.662Z",
+  "episode": {
+    "id": "",
+    "seriesId": "evolution-of",
+    "title": "From Room-Sized Computer to Sleek Laptop",
+    "shots": [
+      {
+        "id": "dek6g4",
+        "narration": "1940s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a room-sized electronic computer, towering interconnected cabinets arranged as one installation, exposed vacuum tubes and blank control panels. Centered on a plain cool-gray gradient background with a seamless floor, front three-quarter view at a fixed viewing angl",
+        "action": "Show the complete installation with its massive cabinet footprint as the defining feature. Keep generous negative space above and below.",
+        "camera": "static",
+        "mood": "Monumental and pioneering",
+        "duration": 1.8
+      },
+      {
+        "id": "khii47",
+        "narration": "1950s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a room-sized electronic computer, interconnected enclosed metal cabinets arranged as one installation with blank control panels. Centered on a plain cool-gray gradient background with a seamless floor, front three-quarter view at the same fixed viewing angle, soft ",
+        "action": "Replace the exposed vacuum-tube construction with smooth enclosed cabinet faces; preserve the previous installation's arrangement and visual center.",
+        "camera": "static",
+        "mood": "Orderly and industrial",
+        "duration": 1.8
+      },
+      {
+        "id": "rihqfw",
+        "narration": "1960s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a compact cabinet-based electronic computer, a reduced bank of enclosed metal cabinets with blank control panels. Centered on a plain cool-gray gradient background with a seamless floor, front three-quarter view at the same fixed viewing angle, soft upper-left ligh",
+        "action": "Reduce the enclosed computer installation to a much smaller cabinet bank. Make the reduced footprint the dominant visible change.",
+        "camera": "static",
+        "mood": "Efficient and purposeful",
+        "duration": 1.8
+      },
+      {
+        "id": "xjwwe0",
+        "narration": "1970s",
+        "characters": [],
+        "scene": "Clean studio product photograph of an early all-in-one desktop computer, a chunky beige enclosure combining a small curved glass screen and integrated keyboard, blank dark screen and unmarked keys. Centered on a plain cool-gray gradient background with a seamless floor, front three-quarter view at t",
+        "action": "Consolidate the cabinet computer into one desktop-sized enclosure. Emphasize the newly compact all-in-one silhouette.",
+        "camera": "static",
+        "mood": "Approachable and inventive",
+        "duration": 1.8
+      },
+      {
+        "id": "hkv5jf",
+        "narration": "1980s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a beige desktop personal computer, a boxy curved-glass monitor resting on a horizontal computer case with a separate keyboard directly in front, blank dark screen and unmarked keys. Centered on a plain cool-gray gradient background with a seamless floor, front thre",
+        "action": "Change the integrated desktop enclosure into a modular desktop arrangement, keeping the beige finish and curved-glass screen.",
+        "camera": "static",
+        "mood": "Familiar and nostalgic",
+        "duration": 1.8
+      },
+      {
+        "id": "wphbuq",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a chunky silver-gray laptop computer, open at a right angle with a thick flat-screen lid, substantial keyboard base, blank dark screen and unmarked keys. Centered on a plain cool-gray gradient background with a seamless floor, front three-quarter view at the same f",
+        "action": "Fold the desktop computer's separate components into a single portable clamshell silhouette, with the keyboard facing the same direction as before.",
+        "camera": "static",
+        "mood": "Mobile and practical",
+        "duration": 1.8
+      },
+      {
+        "id": "xhg9jf",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Clean studio product photograph of a premium silver-gray laptop computer, open at a right angle with an exceptionally thin flat-screen lid and slim keyboard base, blank dark screen and unmarked keys. Centered on a plain cool-gray gradient background with a seamless floor, front three-quarter view at",
+        "action": "Dramatically slim the previous laptop's lid and base while preserving its open angle, finish, orientation, and visual center. Make the razor-thin profile the final reveal.",
+        "camera": "static",
+        "mood": "Elegant and impressive",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which era was your first computer?",
+    "createdAt": "2026-11-14T11:28:07.661Z",
+    "description": "Watch the computer shrink from towering cabinets into a sleek modern laptop, one flash cut at a time. #ComputerEvolution #TechHistory #ThenAndNow #EvolutionOf #Shorts",
+    "tags": [
+      "computer evolution",
+      "technology history",
+      "computers",
+      "laptop",
+      "then and now",
+      "transition reel"
+    ]
+  }
+}

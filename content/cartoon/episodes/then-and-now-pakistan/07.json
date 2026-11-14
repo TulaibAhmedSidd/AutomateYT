@@ -1,0 +1,95 @@
+{
+  "number": 7,
+  "topic": "Faisalabad Clock Tower and its eight bazaars from the 1900s to today",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:30:06.450Z",
+  "episode": {
+    "id": "",
+    "seriesId": "then-and-now-pakistan",
+    "title": "Faisalabad Clock Tower: Eight Bazaars Through Time",
+    "shots": [
+      {
+        "id": "cri641",
+        "narration": "1900s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical visualization of the completed Faisalabad Clock Tower, recognizable red-brick architecture centered in a vertical 9:16 frame. Fixed elevated oblique viewpoint looking down across the tower junction and eight radiating bazaar streets. Modest low-rise shop rows, dus",
+        "action": "Establish the recognizable tower and eight-spoke street layout. Hold the composition completely still; this is an illustrative period reconstruction, not an archival photograph.",
+        "camera": "static",
+        "mood": "Historic, quiet, instantly recognizable",
+        "duration": 1.8
+      },
+      {
+        "id": "2o9429",
+        "narration": "1930s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical visualization of Faisalabad Clock Tower, identical centered scale and fixed elevated oblique viewpoint across the same eight radiating bazaar streets. Preserve the red-brick tower, dusty roads and low-rise shop footprints. Add simple canvas awnings along the shopf",
+        "action": "Flash cut from the previous image. Change only the shopfront awnings, introducing a continuous rhythm of period-appropriate canvas canopies.",
+        "camera": "static",
+        "mood": "Nostalgic, gently evolving",
+        "duration": 1.8
+      },
+      {
+        "id": "05ihwz",
+        "narration": "1947",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical visualization of Faisalabad Clock Tower, identical centered scale and fixed elevated oblique viewpoint across the same eight radiating bazaar streets. Preserve the tower, low-rise shops and canvas awnings. The previously dusty street surfaces are now worn paving. ",
+        "action": "Flash cut. Change only the street surface from dusty ground to worn paving, suggesting the passage of time without depicting a specific historical construction event.",
+        "camera": "static",
+        "mood": "Reflective, historic",
+        "duration": 1.8
+      },
+      {
+        "id": "iny3bk",
+        "narration": "1960s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical visualization of Faisalabad Clock Tower, identical centered scale and fixed elevated oblique viewpoint across the same eight radiating bazaar streets. Preserve the tower, paved roads, shop footprints and canvas awnings. A few unoccupied period-appropriate cars are",
+        "action": "Flash cut. Change only the vehicle layer by adding a few parked mid-century cars; retain the architecture and exact framing.",
+        "camera": "static",
+        "mood": "Transitional, quietly energetic",
+        "duration": 1.8
+      },
+      {
+        "id": "87bwn5",
+        "narration": "1980s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical visualization of Faisalabad Clock Tower, identical centered scale and fixed elevated oblique viewpoint across the same eight radiating bazaar streets. Preserve the tower, paving, low-rise shops and canvas awnings. Replace the parked cars with a restrained mix of u",
+        "action": "Flash cut. Change only the parked vehicle mix, making the era shift visible without changing the landmark or street geometry.",
+        "camera": "static",
+        "mood": "Nostalgic, increasingly urban",
+        "duration": 1.8
+      },
+      {
+        "id": "vsugbq",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical visualization of Faisalabad Clock Tower, identical centered scale and fixed elevated oblique viewpoint across the same eight radiating bazaar streets. Preserve the tower, paving, shop rows and parked vehicle positions. Replace the old canvas shop awnings with prac",
+        "action": "Flash cut. Change only the shop canopy material, maintaining every major architectural edge and the tower's exact position.",
+        "camera": "static",
+        "mood": "Familiar, approaching the present",
+        "duration": 1.8
+      },
+      {
+        "id": "cxoy0p",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Photorealistic cinematic present-day visualization of Faisalabad Clock Tower, identical centered scale and fixed elevated oblique viewpoint across the same eight radiating bazaar streets. Preserve the tower, paving, shop canopies and street geometry. Contemporary unoccupied cars, motorcycles and aut",
+        "action": "Final flash cut. Update only the parked vehicle layer within the scene, while switching the photographic treatment from aged sepia to vivid modern color. Hold the final image longest so viewers can trace all eight bazaars.",
+        "camera": "static",
+        "mood": "Radiant, impressive, proudly enduring",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which bazaar holds your favorite memory?",
+    "createdAt": "2026-11-14T11:30:06.449Z",
+    "description": "An AI-imagined journey from the 1900s to today, keeping Faisalabad’s iconic Clock Tower and eight radiating bazaars in one unforgettable view. #Faisalabad #ClockTower #EightBazaars #ThenAndNow #Pakistan",
+    "tags": [
+      "Faisalabad",
+      "Clock Tower",
+      "Ghanta Ghar",
+      "Eight Bazaars",
+      "Pakistan",
+      "Then and Now",
+      "AI historical visualization"
+    ]
+  }
+}

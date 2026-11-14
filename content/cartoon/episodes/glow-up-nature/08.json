@@ -1,0 +1,84 @@
+{
+  "number": 8,
+  "topic": "A foal growing into a horse",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:51.690Z",
+  "episode": {
+    "id": "",
+    "seriesId": "glow-up-nature",
+    "title": "Tiny Foal to Magnificent Horse",
+    "shots": [
+      {
+        "id": "7rjnq1",
+        "narration": "Newborn Foal",
+        "characters": [],
+        "scene": "Vertical 9:16 photorealistic nature portrait of one chestnut newborn foal with a small white forehead star, standing comfortably in short meadow grass. Side profile facing right, all four hooves visible, centered beneath a distant oak on the left horizon. Fixed eye-level viewpoint and framing, enoug",
+        "action": "Show the healthy newborn standing steadily, with a tiny body, long slender legs and a short fuzzy mane. Hold a relaxed, neutral pose.",
+        "camera": "static",
+        "mood": "Tender and peaceful",
+        "duration": 1.8
+      },
+      {
+        "id": "4khebi",
+        "narration": "Foal",
+        "characters": [],
+        "scene": "Vertical 9:16 photorealistic nature portrait of the same chestnut horse with the identical small white forehead star, in the exact same meadow position. Side profile facing right, all four hooves visible, distant oak on the left horizon. Identical fixed viewpoint, framing, soft morning light and blu",
+        "action": "Increase the foal's body size slightly while preserving its baby proportions, short fuzzy mane and identical relaxed standing pose.",
+        "camera": "static",
+        "mood": "Sweet and bright",
+        "duration": 1.8
+      },
+      {
+        "id": "wwh6ds",
+        "narration": "Weanling",
+        "characters": [],
+        "scene": "Vertical 9:16 photorealistic nature portrait of the same chestnut horse with the identical small white forehead star, in the exact same meadow position. Side profile facing right, all four hooves visible, distant oak on the left horizon. Identical fixed viewpoint, framing, soft morning light and blu",
+        "action": "Show the next growth increment as a larger weanling with a fuller torso, retaining youthful proportions and the same relaxed standing pose.",
+        "camera": "static",
+        "mood": "Gentle and hopeful",
+        "duration": 1.8
+      },
+      {
+        "id": "dzsfxq",
+        "narration": "Yearling",
+        "characters": [],
+        "scene": "Vertical 9:16 photorealistic nature portrait of the same chestnut horse with the identical small white forehead star, in the exact same meadow position. Side profile facing right, all four hooves visible, distant oak on the left horizon. Identical fixed viewpoint, framing, soft morning light and blu",
+        "action": "Increase its stature into a lanky yearling, noticeably taller but still lightly built. Preserve the same coat markings and relaxed standing pose.",
+        "camera": "static",
+        "mood": "Fresh and graceful",
+        "duration": 1.8
+      },
+      {
+        "id": "zu4p40",
+        "narration": "Young Horse",
+        "characters": [],
+        "scene": "Vertical 9:16 photorealistic nature portrait of the same chestnut horse with the identical small white forehead star, in the exact same meadow position. Side profile facing right, all four hooves visible, distant oak on the left horizon. Identical fixed viewpoint, framing, soft morning light and blu",
+        "action": "Develop the lanky frame into a more filled-out young horse, with increasing depth through the chest and hindquarters. Keep its position and relaxed standing pose unchanged.",
+        "camera": "static",
+        "mood": "Confident and serene",
+        "duration": 1.8
+      },
+      {
+        "id": "zjfg1y",
+        "narration": "Adult Horse",
+        "characters": [],
+        "scene": "Vertical 9:16 photorealistic nature portrait of the same chestnut horse with the identical small white forehead star, in the exact same meadow position. Side profile facing right, all four hooves visible, distant oak on the left horizon. Identical fixed viewpoint, framing, soft morning light and blu",
+        "action": "Complete its growth into a magnificent, fully mature horse with balanced adult proportions and naturally developed musculature, filling the reserved frame space. Maintain the identical relaxed standing pose.",
+        "camera": "static",
+        "mood": "Majestic and beautiful",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which stage stole your heart?",
+    "createdAt": "2026-11-14T11:28:51.688Z",
+    "description": "A little chestnut foal grows into a magnificent horse, one beautiful stage at a time. Flash cuts reveal the transformation in the same peaceful meadow. #GlowUpNature #FoalToHorse #HorseGrowth #NaturePhotography #Shorts",
+    "tags": [
+      "Glow Up: Nature",
+      "foal",
+      "horse",
+      "growth",
+      "nature",
+      "transformation"
+    ]
+  }
+}

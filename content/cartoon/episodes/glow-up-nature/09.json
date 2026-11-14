@@ -1,0 +1,84 @@
+{
+  "number": 9,
+  "topic": "A baby sea turtle growing into a big sea turtle",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:55.514Z",
+  "episode": {
+    "id": "",
+    "seriesId": "glow-up-nature",
+    "title": "Tiny Flippers, Ocean Giant 🐢",
+    "shots": [
+      {
+        "id": "kw6qdt",
+        "narration": "Hatchling",
+        "characters": [],
+        "scene": "Beautiful underwater nature photography, vertical 9:16. One tiny green sea turtle hatchling centered just above pale sand in a clear tropical lagoon, facing right in three-quarter side profile. A rounded limestone rock sits at lower left, sparse seagrass at right, turquoise water behind. Soft natura",
+        "action": "Show the tiny hatchling with flippers gently extended and its whole body visible. Establish the exact pose, background and composition for every growth portrait.",
+        "camera": "static",
+        "mood": "Tender and luminous",
+        "duration": 1.8
+      },
+      {
+        "id": "5reh7w",
+        "narration": "Young Juvenile",
+        "characters": [],
+        "scene": "Beautiful underwater nature photography, vertical 9:16. The same single green sea turtle in the same tropical lagoon, centered above the same pale sand, facing right in the identical three-quarter side profile. Identical limestone rock at lower left, seagrass at right, turquoise background, soft sun",
+        "action": "Make the turtle modestly larger than the hatchling. Keep its flipper pose, muted olive-brown coloring, central position and surrounding scenery unchanged; growth is the only visible change.",
+        "camera": "static",
+        "mood": "Gentle and hopeful",
+        "duration": 1.8
+      },
+      {
+        "id": "wkvmi1",
+        "narration": "Juvenile",
+        "characters": [],
+        "scene": "Beautiful underwater nature photography, vertical 9:16. The same single green sea turtle centered above the same sandy lagoon floor, facing right in the identical three-quarter side profile. Preserve the limestone rock at lower left, sparse seagrass at right, turquoise water, soft natural sunlight, ",
+        "action": "Increase the turtle's body size another clear step. Preserve the same flipper pose, shell coloring and placement; leave all background elements unchanged.",
+        "camera": "static",
+        "mood": "Peaceful and radiant",
+        "duration": 1.8
+      },
+      {
+        "id": "7fbbxr",
+        "narration": "Older Juvenile",
+        "characters": [],
+        "scene": "Beautiful underwater nature photography, vertical 9:16. The same single green sea turtle in the identical lagoon composition, centered above pale sand and facing right in three-quarter side profile. The same limestone rock remains at lower left and seagrass at right. Identical turquoise background, ",
+        "action": "Show a visibly larger juvenile, occupying more of the unchanged frame. Keep its pose, olive-brown shell appearance and position consistent; only its size increases.",
+        "camera": "static",
+        "mood": "Graceful and serene",
+        "duration": 1.8
+      },
+      {
+        "id": "rfa0y1",
+        "narration": "Subadult",
+        "characters": [],
+        "scene": "Beautiful underwater nature photography, vertical 9:16. The same single green sea turtle centered over the same pale sandy lagoon floor, facing right in the identical three-quarter side profile. Preserve the limestone rock at lower left, seagrass at right, turquoise water and soft natural light. Exa",
+        "action": "Increase the turtle to nearly adult size, with its entire shell and extended flippers still inside the frame. Maintain identical pose, coloring and scenery; size is the only visible change.",
+        "camera": "static",
+        "mood": "Majestic and tranquil",
+        "duration": 1.8
+      },
+      {
+        "id": "elt3wg",
+        "narration": "Adult",
+        "characters": [],
+        "scene": "Beautiful underwater nature photography, vertical 9:16. The same single green sea turtle in the same lagoon, centered above pale sand and facing right in the identical three-quarter side profile. The unchanged limestone rock at lower left and seagrass at right emphasize its scale. Same turquoise bac",
+        "action": "Reveal the fully grown adult at its largest size, filling the composition impressively while keeping every flipper visible. Preserve the same pose, coloring and surroundings; growth alone creates the final transformation.",
+        "camera": "static",
+        "mood": "Breathtaking and peaceful",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which stage stole your heart?",
+    "createdAt": "2026-11-14T11:28:55.512Z",
+    "description": "A green sea turtle grows from a tiny hatchling into a magnificent adult in a dreamy underwater glow-up. Stylized growth portraits, connected by flash cuts. #GlowUpNature #SeaTurtle #OceanLife #NatureReels #YouTubeShorts",
+    "tags": [
+      "sea turtle",
+      "green sea turtle",
+      "nature glow up",
+      "underwater",
+      "growth",
+      "transition reel"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "number": 5,
+  "topic": "London from today to the year 2150",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:27:28.031Z",
+  "episode": {
+    "id": "",
+    "seriesId": "cities-of-the-future",
+    "title": "London 2150: A Greener Future Imagined",
+    "shots": [
+      {
+        "id": "x334bj",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art of present-day London, viewed from a fixed position on the opposite Thames embankment facing the Palace of Westminster and Elizabeth Tower, with Westminster Bridge entering from the right. Recognizable historic architecture, blue-hour sky, realistic river reflecti",
+        "action": "Establish the recognizable baseline view with ordinary riverside landscaping and warm architectural lighting. Preserve this exact framing, skyline placement and blue-hour lighting throughout the sequence.",
+        "camera": "static",
+        "mood": "Familiar, calm, cinematic",
+        "duration": 1.8
+      },
+      {
+        "id": "socoht",
+        "narration": "2050",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art from the identical fixed Thames embankment viewpoint, facing the Palace of Westminster and Elizabeth Tower, Westminster Bridge entering from the right. Historic buildings remain unchanged. Lush planted terraces now line the riverbank. Same blue-hour sky",
+        "action": "Flash cut from the previous image. Change only the riverbank landscaping into lush, layered green terraces; keep every other element fixed.",
+        "camera": "static",
+        "mood": "Fresh, hopeful, serene",
+        "duration": 1.8
+      },
+      {
+        "id": "2twxt9",
+        "narration": "2075",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art from the identical fixed Thames embankment viewpoint, facing the unchanged Palace of Westminster and Elizabeth Tower, Westminster Bridge entering from the right. Retain the lush riverbank terraces. Add a ribbon of floating garden islands on the Thames, ",
+        "action": "Flash cut. Add only the floating garden islands in previously open water, preserving the riverbank terraces and all architecture.",
+        "camera": "static",
+        "mood": "Clean, luminous, optimistic",
+        "duration": 1.8
+      },
+      {
+        "id": "yaf9mk",
+        "narration": "2100",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art from the identical fixed Thames embankment viewpoint, facing the unchanged Palace of Westminster and Elizabeth Tower, Westminster Bridge entering from the right. Retain lush riverbank terraces and cyan-edged floating garden islands. A slender transparen",
+        "action": "Flash cut. Add only the transparent solar canopy above the existing bridge; preserve every earlier feature and the historic bridge beneath it.",
+        "camera": "static",
+        "mood": "Elegant, inventive, radiant",
+        "duration": 1.8
+      },
+      {
+        "id": "kp7nl8",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art from the identical fixed Thames embankment viewpoint, facing the unchanged Palace of Westminster and Elizabeth Tower, Westminster Bridge entering from the right. Retain planted riverbank terraces, cyan-edged floating gardens and the transparent turquois",
+        "action": "Flash cut. Add only the imagined clean-energy hovering river vessel; hold all existing structures, gardens and lighting in place.",
+        "camera": "static",
+        "mood": "Wonder-filled, peaceful, futuristic",
+        "duration": 1.8
+      },
+      {
+        "id": "jcxrps",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 futuristic cinematic concept art from the identical fixed Thames embankment viewpoint, facing the unchanged Palace of Westminster and Elizabeth Tower, Westminster Bridge entering from the right. Retain planted riverbank terraces, cyan-edged floating gardens, transparent turquoise-lit b",
+        "action": "Final flash cut within the same imagined year. Add only the distant illuminated sky-garden arch, creating the most impressive composition while preserving every previous feature. Hold the final image.",
+        "camera": "static",
+        "mood": "Spectacular, green, uplifting",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Would you live in this London?",
+    "createdAt": "2026-11-14T11:27:28.029Z",
+    "description": "Watch London's iconic Westminster view transform into an imagined green city of 2150, one flash cut at a time. A hopeful sci-fi vision, not a prediction. #London #CitiesOfTheFuture #FutureLondon #AIArt #Shorts",
+    "tags": [
+      "London",
+      "Westminster",
+      "future cities",
+      "2150",
+      "cinematic AI art",
+      "transition reel"
+    ]
+  }
+}

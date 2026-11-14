@@ -1,0 +1,104 @@
+{
+  "number": 1,
+  "topic": "A mango seed growing into a mango tree with fruit",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:33.486Z",
+  "episode": {
+    "id": "",
+    "seriesId": "glow-up-nature",
+    "title": "From Mango Seed to Golden Fruit 🥭",
+    "shots": [
+      {
+        "id": "ixgjfi",
+        "narration": "Seed",
+        "characters": [],
+        "scene": "Vertical 9:16, beautiful photorealistic nature photography with delicate macro-like textures and soft natural light. A single recognizable pale mango seed rests partly embedded in dark soil at the center of a tropical garden clearing. A small gray stone sits to its left, with distant foliage behind.",
+        "action": "Show the exposed mango seed before any green shoot appears. Keep the seed sharply detailed.",
+        "camera": "static",
+        "mood": "Quiet anticipation",
+        "duration": 1.8
+      },
+      {
+        "id": "6mizsd",
+        "narration": "Sprout",
+        "characters": [],
+        "scene": "Vertical 9:16, photorealistic nature photography, soft natural light. The same mango seed in the same soil patch, small gray stone on its left and identical distant foliage. Exactly the same fixed low camera angle, framing, and focus position. No people, text, letters, or logos.",
+        "action": "A single short green shoot now rises from the partly exposed seed; its leaf tips remain folded.",
+        "camera": "static",
+        "mood": "Tender beginnings",
+        "duration": 1.8
+      },
+      {
+        "id": "l0q8s2",
+        "narration": "First Leaves",
+        "characters": [],
+        "scene": "Vertical 9:16, photorealistic nature photography, soft natural light. The same mango sprout rooted in the same tropical garden soil, with the same gray stone and background foliage. Exactly the same fixed low camera angle and framing. No people, text, letters, or logos.",
+        "action": "The shoot's first narrow leaves have unfolded, showing delicate copper-red young mango foliage. Keep the stem approximately the same height.",
+        "camera": "static",
+        "mood": "Fresh and delicate",
+        "duration": 1.8
+      },
+      {
+        "id": "cslf8n",
+        "narration": "Sapling",
+        "characters": [],
+        "scene": "Vertical 9:16, photorealistic nature photography, soft natural light. The same mango plant at the exact same planting point, gray stone still on its left, identical garden background. Exactly the same fixed low camera angle and framing. No people, text, letters, or logos.",
+        "action": "Show growth into a slender mango sapling with a taller central stem and several tiers of glossy green leaves. No flowers or fruit.",
+        "camera": "static",
+        "mood": "Gentle growth",
+        "duration": 1.8
+      },
+      {
+        "id": "j7t4hq",
+        "narration": "Mature Tree",
+        "characters": [],
+        "scene": "Vertical 9:16, photorealistic nature photography, soft natural light. The same mango tree in the same clearing, its trunk emerging beside the unchanged gray stone. Exactly the same fixed low camera angle and framing; its full rounded canopy fits within the space reserved above. No people, text, lett",
+        "action": "Show the plant grown into a mature mango tree with a sturdy trunk and a lush branching canopy. Keep it free of flowers and fruit.",
+        "camera": "static",
+        "mood": "Lush and magnificent",
+        "duration": 1.8
+      },
+      {
+        "id": "bgeqj6",
+        "narration": "Flowering",
+        "characters": [],
+        "scene": "Vertical 9:16, photorealistic nature photography, soft natural light. The same mature mango tree, identical trunk, canopy silhouette, gray stone, soil, and distant foliage. Exactly the same fixed low camera angle and framing. No people, text, letters, or logos.",
+        "action": "Add airy branching clusters of tiny cream-colored mango flowers at the canopy tips. Preserve the tree's size and structure.",
+        "camera": "static",
+        "mood": "Soft celebration",
+        "duration": 1.8
+      },
+      {
+        "id": "xvso8r",
+        "narration": "Green Mangoes",
+        "characters": [],
+        "scene": "Vertical 9:16, photorealistic nature photography, soft natural light. The same mature mango tree with unchanged trunk, canopy silhouette, gray stone, and garden background. Exactly the same fixed low camera angle and framing. No people, text, letters, or logos.",
+        "action": "Replace the flower clusters with hanging green mangoes on slender stems, clearly visible among the leaves. Keep the tree's structure unchanged.",
+        "camera": "static",
+        "mood": "Abundant promise",
+        "duration": 1.8
+      },
+      {
+        "id": "rdgi5e",
+        "narration": "Ripe Mangoes",
+        "characters": [],
+        "scene": "Vertical 9:16, photorealistic nature photography, soft natural light. The same mature mango tree in the identical clearing, with the same trunk, canopy, gray stone, and distant foliage. Exactly the same fixed low camera angle and framing. No people, text, letters, or logos.",
+        "action": "Keep every mango in its previous position, now ripened to rich golden yellow with a gentle orange blush. Preserve the tree and lighting for a radiant, fruit-filled final image.",
+        "camera": "static",
+        "mood": "Golden abundance",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Have you ever grown a mango from seed?",
+    "createdAt": "2026-11-14T11:28:33.485Z",
+    "description": "One mango seed becomes a flourishing tree, then fills with golden fruit. Watch nature glow up through gentle flash-cut transitions. #Mango #NatureGlowUp #PlantGrowth #NaturePhotography #Shorts",
+    "tags": [
+      "mango",
+      "mango tree",
+      "seed to fruit",
+      "plant growth",
+      "nature",
+      "transition reel"
+    ]
+  }
+}

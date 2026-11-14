@@ -1,0 +1,85 @@
+{
+  "number": 1,
+  "topic": "Lahore Fort and the Badshahi Mosque view from the 1600s to today",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:40.621Z",
+  "episode": {
+    "id": "",
+    "seriesId": "then-and-now-pakistan",
+    "title": "Lahore Then & Now: Two Icons, One Timeless View",
+    "shots": [
+      {
+        "id": "siu3t7",
+        "narration": "Late 1600s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction, vertical 9:16. Fixed elevated viewpoint from Lahore Fort beside the Alamgiri Gate, looking across the ground toward Badshahi Mosque. Recognizable red sandstone mosque, three marble domes and four corner minarets centered in the distance; a section ",
+        "action": "Establish the completed Mughal-era mosque with relatively fresh sandstone surfaces. Keep the entire architectural composition sharply recognizable and reserve a clear lower margin for an externally added era label.",
+        "camera": "static",
+        "mood": "Majestic, warm, historic",
+        "duration": 1.8
+      },
+      {
+        "id": "i5dwv1",
+        "narration": "1700s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction, vertical 9:16. Identical elevated viewpoint from Lahore Fort beside the Alamgiri Gate, with the same sandstone parapet foreground and Badshahi Mosque centered beyond the same open ground. Match every dome, minaret, horizon line and architectural sc",
+        "action": "Change only the sandstone surface condition to show gentle accumulated weathering. Preserve the open ground, building silhouettes and exact framing for a clean flash-cut transition.",
+        "camera": "static",
+        "mood": "Quiet, enduring, nostalgic",
+        "duration": 1.8
+      },
+      {
+        "id": "9j698e",
+        "narration": "1800s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction representing the later nineteenth century, vertical 9:16. Identical elevated viewpoint from Lahore Fort beside the Alamgiri Gate, same foreground sandstone parapet and centered Badshahi Mosque, identical dome and minaret positions. Golden-hour light",
+        "action": "Replace only the intervening open ground with the established Hazuri Bagh garden ensemble and its central white marble baradari. Show the pavilion with its historical upper storey; leave the mosque and fort unchanged.",
+        "camera": "static",
+        "mood": "Regal, layered, elegant",
+        "duration": 1.8
+      },
+      {
+        "id": "vighhv",
+        "narration": "Early 1900s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction, vertical 9:16. Identical elevated viewpoint from Lahore Fort beside the Alamgiri Gate, same sandstone parapet foreground, Hazuri Bagh and its two-storey marble baradari in the middle distance, Badshahi Mosque centered behind. Exact same architectur",
+        "action": "Change only the marble pavilion's surface finish to a more weathered, timeworn appearance. Preserve its upper storey, all landscaping and the mosque silhouette.",
+        "camera": "static",
+        "mood": "Reflective, weathered, timeless",
+        "duration": 1.8
+      },
+      {
+        "id": "ieabb4",
+        "narration": "1947",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction, vertical 9:16. Identical elevated viewpoint from Lahore Fort beside the Alamgiri Gate, same sandstone parapet foreground, Hazuri Bagh in the middle distance and Badshahi Mosque centered behind. Match all framing, architectural scale and golden-hour",
+        "action": "Change only the baradari silhouette: its upper storey is now absent, reflecting its collapse before 1947. Retain the surviving lower marble pavilion and leave the surrounding composition unchanged.",
+        "camera": "static",
+        "mood": "Poignant, resilient, historic",
+        "duration": 1.8
+      },
+      {
+        "id": "xxvzl1",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Photorealistic cinematic present-day view, vertical 9:16. Identical elevated viewpoint from Lahore Fort beside the Alamgiri Gate, same sandstone parapet foreground, Hazuri Bagh and surviving single-storey marble baradari in the middle distance, Badshahi Mosque centered behind. Precisely matched dome",
+        "action": "Make the single dominant change a transition from sepia into luminous natural color: rich red sandstone, glowing white marble and vivid green garden. Preserve the previous shot's architectural arrangement for the most impressive final flash-cut reveal.",
+        "camera": "static",
+        "mood": "Radiant, magnificent, proud",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which era of Lahore would you visit?",
+    "createdAt": "2026-11-14T11:29:40.620Z",
+    "description": "An AI-imagined journey from late-1600s Lahore to today, framing Badshahi Mosque from Lahore Fort. Historical stages are artistic reconstructions, not archival photographs. #Lahore #LahoreFort #BadshahiMosque #ThenAndNow #Pakistan",
+    "tags": [
+      "Lahore",
+      "Lahore Fort",
+      "Badshahi Mosque",
+      "Pakistan",
+      "Then and Now",
+      "AI history",
+      "architectural evolution"
+    ]
+  }
+}

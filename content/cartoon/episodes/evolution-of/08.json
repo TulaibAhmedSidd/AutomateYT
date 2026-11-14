@@ -1,0 +1,93 @@
+{
+  "number": 8,
+  "topic": "Music players: from the gramophone to wireless earbuds",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:20.866Z",
+  "episode": {
+    "id": "",
+    "seriesId": "evolution-of",
+    "title": "From Gramophone to Wireless Earbuds",
+    "shots": [
+      {
+        "id": "skcp7a",
+        "narration": "1900s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a horn gramophone, centered on a seamless pale gray gradient background, vertical 9:16. Fixed front three-quarter view from slightly above, soft upper-left lighting, subtle floor shadow. Polished wooden base, large brass horn, blank black record. No people, text, l",
+        "action": "Show the music-playing device stationary, its front facing slightly right. Make the oversized brass horn the defining feature. Preserve this camera angle, lighting, and centered staging throughout the sequence.",
+        "camera": "static",
+        "mood": "Nostalgic and elegant",
+        "duration": 1.8
+      },
+      {
+        "id": "w07f07",
+        "narration": "1950s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a compact tabletop record player, centered on a seamless pale gray gradient background, vertical 9:16. Fixed front three-quarter view from slightly above, soft upper-left lighting, subtle floor shadow. Wooden cabinet, open lid, blank black vinyl record and tonearm.",
+        "action": "Flash-cut replacement at the same center point. The defining change is the horn replaced by a compact cabinet with an integrated speaker; keep the record clearly visible.",
+        "camera": "static",
+        "mood": "Warm and classic",
+        "duration": 1.8
+      },
+      {
+        "id": "474tcw",
+        "narration": "1970s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a tabletop cassette player, centered on a seamless pale gray gradient background, vertical 9:16. Fixed front three-quarter view from slightly above, soft upper-left lighting, subtle floor shadow. Simple rectangular body, clear cassette window showing two tape spool",
+        "action": "Flash-cut replacement at the same center point. Make the switch from an exposed record to an enclosed cassette the single dominant visual change.",
+        "camera": "static",
+        "mood": "Tactile and retro",
+        "duration": 1.8
+      },
+      {
+        "id": "fvslip",
+        "narration": "1980s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a pocket-sized portable cassette player, centered on a seamless pale gray gradient background, vertical 9:16. Fixed front three-quarter view from slightly above, soft upper-left lighting, subtle floor shadow. Compact rectangular body, clear cassette window showing ",
+        "action": "Flash-cut replacement at the same center point and camera scale. Retain the recognizable cassette window; make the reduction to a pocket-sized body the defining change.",
+        "camera": "static",
+        "mood": "Youthful and portable",
+        "duration": 1.8
+      },
+      {
+        "id": "gkuo1y",
+        "narration": "1990s",
+        "characters": [],
+        "scene": "Clean studio product photograph of a portable CD player, centered on a seamless pale gray gradient background, vertical 9:16. Fixed front three-quarter view from slightly above, soft upper-left lighting, subtle floor shadow. Slim circular silver body, transparent closed lid revealing a reflective co",
+        "action": "Flash-cut replacement at the same center point. Make the circular disc format replacing the rectangular cassette format the single dominant visual change.",
+        "camera": "static",
+        "mood": "Sleek and futuristic",
+        "duration": 1.8
+      },
+      {
+        "id": "f7sxf7",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Clean studio product photograph of an unbranded pocket digital music player, centered on a seamless pale gray gradient background, vertical 9:16. Fixed front three-quarter view from slightly above, soft upper-left lighting, subtle floor shadow. Small brushed-silver rectangular body, dark blank scree",
+        "action": "Flash-cut replacement at the same center point and camera scale. Make the disappearance of physical music media into a tiny solid-state device the defining visual change.",
+        "camera": "static",
+        "mood": "Minimal and modern",
+        "duration": 1.8
+      },
+      {
+        "id": "845waf",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Clean studio product photograph of wireless earbuds seated in an open charging case, presented as one centered product on a seamless pale gray gradient background, vertical 9:16. Fixed front three-quarter view from slightly above, soft upper-left lighting, subtle floor shadow. Sculpted pearl-white s",
+        "action": "Flash-cut replacement at the same center point. Make the transformation from a separate handheld player to miniature wireless listening hardware the defining change. Finish with a pristine hero image emphasizing the earbuds and their sculpted case.",
+        "camera": "static",
+        "mood": "Premium and impressive",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which one was your first music player?",
+    "createdAt": "2026-11-14T11:28:20.864Z",
+    "description": "A century of music listening, transformed in seven flash cuts. Which era was yours? #EvolutionOf #MusicPlayers #TechEvolution #Reels #Shorts",
+    "tags": [
+      "music players",
+      "technology evolution",
+      "gramophone",
+      "cassette player",
+      "wireless earbuds"
+    ]
+  }
+}

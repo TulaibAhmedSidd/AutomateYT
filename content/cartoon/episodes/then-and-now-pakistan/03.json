@@ -1,0 +1,94 @@
+{
+  "number": 3,
+  "topic": "Islamabad: from empty Margalla foothills in the 1950s to the Faisal Mosque city of today",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:50.584Z",
+  "episode": {
+    "id": "",
+    "seriesId": "then-and-now-pakistan",
+    "title": "Islamabad: From Foothills to Faisal Mosque",
+    "shots": [
+      {
+        "id": "nh8obt",
+        "narration": "1950s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction, vertical 9:16. Fixed elevated viewpoint south of the future Faisal Mosque site, looking north toward the instantly recognizable Margalla Hills ridgeline. The future mosque site occupies the lower center, with sparsely developed scrubland and open f",
+        "action": "Establish the open foothill landscape before Islamabad's development; preserve this exact framing and mountain silhouette throughout the sequence.",
+        "camera": "static",
+        "mood": "Quiet, expansive, nostalgic",
+        "duration": 1.8
+      },
+      {
+        "id": "z0wfcq",
+        "narration": "1960s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction, vertical 9:16. Identical elevated viewpoint south of the future Faisal Mosque site, looking north at the same Margalla Hills ridgeline. Preserve the open central site and scrubland; a newly laid approach road now enters from the bottom center. Gold",
+        "action": "Add only the approach road as the visible sign of the emerging planned capital; keep the terrain and composition unchanged.",
+        "camera": "static",
+        "mood": "Hopeful, pioneering",
+        "duration": 1.8
+      },
+      {
+        "id": "0sms4g",
+        "narration": "Late 1970s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction, vertical 9:16. Identical elevated viewpoint looking north across the Faisal Mosque site toward the same Margalla Hills. Preserve the approach road and surrounding scrubland. Mosque construction now occupies the central site, with an unfinished conc",
+        "action": "Introduce only the mosque construction site, keeping its footprint aligned with the completed mosque in later stages.",
+        "camera": "static",
+        "mood": "Anticipation, ambition",
+        "duration": 1.8
+      },
+      {
+        "id": "pmu0sh",
+        "narration": "Late 1980s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction, vertical 9:16. Identical elevated viewpoint looking north toward the same Margalla Hills. The completed Faisal Mosque occupies the exact central construction footprint, with its distinctive white tent-shaped prayer hall and four slender minarets. P",
+        "action": "Replace only the unfinished structure with the completed Faisal Mosque, removing its construction scaffolding.",
+        "camera": "static",
+        "mood": "Monumental, triumphant",
+        "duration": 1.8
+      },
+      {
+        "id": "t6izol",
+        "narration": "1990s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction, vertical 9:16. Identical elevated viewpoint north toward Faisal Mosque and the unchanged Margalla Hills ridgeline. Preserve the mosque, approach road, and terrain exactly. Orderly planted lawns and young trees now occupy the mosque grounds. Golden-",
+        "action": "Add only landscaped greenery around the completed mosque; preserve the architecture and camera position.",
+        "camera": "static",
+        "mood": "Graceful, welcoming",
+        "duration": 1.8
+      },
+      {
+        "id": "77upaj",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction, vertical 9:16. Identical elevated viewpoint north toward Faisal Mosque and the same Margalla Hills. Preserve the mosque, road, and landscaped grounds. A modest layer of low-rise urban development now fills the outer foreground edges, leaving the ce",
+        "action": "Add only low-rise city development along the outer foreground edges, keeping the mosque dominant and the hills untouched.",
+        "camera": "static",
+        "mood": "Growing, confident",
+        "duration": 1.8
+      },
+      {
+        "id": "al1cbe",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Photorealistic cinematic present-day view, vertical 9:16. Identical elevated viewpoint north toward the brilliant white Faisal Mosque, its four minarets framed against the exact same Margalla Hills ridgeline. Preserve the road alignment and low-rise foreground development. The previously young lands",
+        "action": "Mature only the existing planted greenery into a lush canopy; reveal the scene in vivid contemporary color for the most impressive final image.",
+        "camera": "static",
+        "mood": "Luminous, majestic, awe-inspiring",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which era would you want to explore?",
+    "createdAt": "2026-11-14T11:29:50.583Z",
+    "description": "Watch Islamabad’s Margalla foothills transform into the iconic Faisal Mosque skyline in an era-inspired visual reconstruction. One view, decades of change. #Islamabad #FaisalMosque #Pakistan #ThenAndNow #MargallaHills",
+    "tags": [
+      "Islamabad",
+      "Faisal Mosque",
+      "Margalla Hills",
+      "Pakistan",
+      "Then and Now",
+      "city evolution"
+    ]
+  }
+}

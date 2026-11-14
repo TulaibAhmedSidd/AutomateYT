@@ -1,0 +1,84 @@
+{
+  "number": 7,
+  "topic": "Tokyo from today to the year 2150",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:27:43.684Z",
+  "episode": {
+    "id": "",
+    "seriesId": "cities-of-the-future",
+    "title": "Tokyo to 2150: A Greener Sci-Fi Dream",
+    "shots": [
+      {
+        "id": "3co4ar",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art, recognizable Tokyo Tower centered above Shiba Park, viewed from a fixed elevated viewpoint facing north. Its familiar orange-and-white lattice silhouette dominates the contemporary skyline at blue hour. Empty foreground, no visible people, no text, letters, numbe",
+        "action": "Establish the present-day view with ordinary buildings and warm city lights. Keep the tower, horizon and framing locked for every subsequent image.",
+        "camera": "static",
+        "mood": "Recognizable, calm, anticipatory",
+        "duration": 1.8
+      },
+      {
+        "id": "mduv5y",
+        "narration": "2050",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art, Tokyo Tower centered above Shiba Park from the identical fixed elevated viewpoint facing north, identical blue-hour sky and framing. Preserve the tower and contemporary skyline. Empty foreground, no visible people, no text, letters, numbers or logos.",
+        "action": "Change only the surrounding rooftops into lush planted gardens. Keep building shapes, lighting and all other elements unchanged. Reveal with a brief flash cut.",
+        "camera": "static",
+        "mood": "Fresh, hopeful, verdant",
+        "duration": 1.8
+      },
+      {
+        "id": "cr84ml",
+        "narration": "2075",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art, Tokyo Tower centered above Shiba Park from the identical fixed elevated viewpoint facing north, identical blue-hour sky and framing. Retain the original skyline shapes and lush rooftop gardens. Empty foreground, no visible people, no text, letters, numbers or log",
+        "action": "Add only a slender elevated transit ribbon winding between the buildings, softly glowing cyan and leaving Tokyo Tower unobstructed. Preserve everything else. Reveal with a brief flash cut.",
+        "camera": "static",
+        "mood": "Clean, connected, optimistic",
+        "duration": 1.8
+      },
+      {
+        "id": "vsz1vd",
+        "narration": "2100",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art, Tokyo Tower centered above Shiba Park from the identical fixed elevated viewpoint facing north, identical blue-hour sky and framing. Retain rooftop gardens and the softly glowing cyan elevated transit ribbon. Empty foreground, no visible people, no text, letters,",
+        "action": "Change only the existing background towers into taller, elegantly terraced green skyscrapers with subtle luminous edges. Keep Tokyo Tower, transit and foreground unchanged. Reveal with a brief flash cut.",
+        "camera": "static",
+        "mood": "Visionary, flourishing, cinematic",
+        "duration": 1.8
+      },
+      {
+        "id": "i8hgnb",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art, Tokyo Tower centered above Shiba Park from the identical fixed elevated viewpoint facing north, identical blue-hour sky and framing. Retain terraced green skyscrapers, rooftop gardens and the cyan elevated transit ribbon. Empty foreground, no visible people, no t",
+        "action": "Add only luminous garden skybridges connecting the background skyscrapers, framing rather than crossing Tokyo Tower. Preserve all existing elements. Reveal with a brief flash cut.",
+        "camera": "static",
+        "mood": "Harmonious, radiant, wondrous",
+        "duration": 1.8
+      },
+      {
+        "id": "26ecok",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art, Tokyo Tower centered above Shiba Park from the identical fixed elevated viewpoint facing north, identical blue-hour sky and framing. Retain terraced green skyscrapers, rooftop gardens, cyan transit ribbon and luminous garden skybridges. Empty foreground, no visib",
+        "action": "Add only one immense floating botanical ring high above the skyline, its emerald gardens and softly glowing underside framing the unobstructed Tokyo Tower below. Preserve everything else. Reveal with a brief flash cut, then hold the spectacular final image.",
+        "camera": "static",
+        "mood": "Awe-inspiring, peaceful, utopian",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which version of Tokyo would you visit?",
+    "createdAt": "2026-11-14T11:27:43.683Z",
+    "description": "One iconic Tokyo view transforms into an imagined green future, from today to 2150. A cinematic fantasy, not a prediction. #Tokyo #FutureCities #AIArt #SciFi #Shorts",
+    "tags": [
+      "Tokyo",
+      "Tokyo Tower",
+      "Cities of the Future",
+      "green future",
+      "AI transitions",
+      "2150"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "number": 3,
+  "topic": "Islamabad from today to the year 2150",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:27:28.135Z",
+  "episode": {
+    "id": "",
+    "seriesId": "cities-of-the-future",
+    "title": "Islamabad 2150: A Greener Future",
+    "shots": [
+      {
+        "id": "wn5qxt",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art of Islamabad today, fixed elevated viewpoint south of Faisal Mosque looking north toward the Margalla Hills. The recognizable white tent-shaped mosque and four slender minarets anchor the lower center; existing city blocks and roads frame the foregro",
+        "action": "Establish the recognizable present-day view. Keep the mosque silhouette, hill contours, horizon, framing, and camera position locked for every subsequent image.",
+        "camera": "static",
+        "mood": "Serene, recognizable, inviting",
+        "duration": 1.8
+      },
+      {
+        "id": "c4mgoa",
+        "narration": "2050",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art, exactly the same elevated view of Faisal Mosque and the Margalla Hills as the previous image. Preserve the mosque, roads, skyline geometry, blue-hour lighting, and framing. Surrounding city buildings now have lush rooftop gardens. No visible people,",
+        "action": "Change only the surrounding rooftops by adding abundant green gardens; leave the mosque and all other elements unchanged.",
+        "camera": "static",
+        "mood": "Fresh, green, hopeful",
+        "duration": 1.8
+      },
+      {
+        "id": "e6lnbx",
+        "narration": "2075",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art, identical elevated Islamabad composition, Faisal Mosque lower center and Margalla Hills behind. Retain rooftop gardens and every existing feature. Elegant translucent solar canopies with subtle cyan edge lighting now cover the foreground parking are",
+        "action": "Add only the glowing solar canopies over existing parking areas, without obscuring the mosque or altering the locked composition.",
+        "camera": "static",
+        "mood": "Clean, luminous, optimistic",
+        "duration": 1.8
+      },
+      {
+        "id": "0fcgvd",
+        "narration": "2100",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art, identical elevated view toward Faisal Mosque and the Margalla Hills. Preserve rooftop gardens, glowing solar canopies, mosque architecture, and all prior details. A slender elevated transit ribbon now follows the existing foreground road corridor, s",
+        "action": "Add only the elegant elevated transit ribbon along the foreground road, keeping it below the mosque silhouette and preserving all previous features.",
+        "camera": "static",
+        "mood": "Connected, graceful, futuristic",
+        "duration": 1.8
+      },
+      {
+        "id": "iyi87q",
+        "narration": "2125",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art, exactly the same Islamabad viewpoint and blue-hour composition. Keep Faisal Mosque and the Margalla Hills unchanged, retaining rooftop gardens, solar canopies, and the transit ribbon. Selected outer foreground buildings have evolved into slender ter",
+        "action": "Transform only selected outer foreground buildings into terraced garden towers; preserve the central mosque sightline and every other feature.",
+        "camera": "static",
+        "mood": "Elegant, flourishing, visionary",
+        "duration": 1.8
+      },
+      {
+        "id": "ptw0oo",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic architectural concept art, identical locked elevated Islamabad view. Faisal Mosque remains pristine and recognizable beneath the unchanged Margalla Hills. Retain all rooftop gardens, solar canopies, transit infrastructure, and terraced garden towers. Sweeping elevated sky gar",
+        "action": "Add only the luminous planted sky bridges between the existing outer towers, creating the most impressive final stage. Preserve all previous features; use a brief flash cut into this image.",
+        "camera": "static",
+        "mood": "Breathtaking, harmonious, hopeful",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Would you live in this Islamabad?",
+    "createdAt": "2026-11-14T11:27:28.134Z",
+    "description": "Imagine Islamabad evolving around the iconic Faisal Mosque into a luminous, garden-filled city by 2150. This is a creative vision, not a prediction. #Islamabad #FutureCities #FaisalMosque #AIArt #CitiesOfTheFuture",
+    "tags": [
+      "Islamabad",
+      "Pakistan",
+      "Faisal Mosque",
+      "future city",
+      "green architecture",
+      "AI transition",
+      "2150"
+    ]
+  }
+}

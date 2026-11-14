@@ -151,7 +151,8 @@ async function main() {
   // 1. Voice for every shot.
   for (let i = 0; i < n; i += 1) {
     const shot = episode.shots[i];
-    const v = await voiceFor(shot, i, series, options);
+    // Transition reels have no voice: each picture stays for its fixed time and the owner adds a trending sound.
+    const v = series.format === 'transition' ? { kind: 'none', duration: shot.duration || 1.8 } : await voiceFor(shot, i, series, options);
     shot.duration = Math.round(v.duration * 100) / 100;
     if (v.audio) shot.audio = v.audio;
     if (v.words) shot.words = v.words;
@@ -235,7 +236,7 @@ async function main() {
   setStatus({ note: null });
 
   // 3. Render.
-  const inputProps = { episode, series: { name: series.name, language: series.language, palette: series.palette } };
+  const inputProps = { episode, series: { name: series.name, language: series.language, palette: series.palette, format: series.format } };
   fs.writeFileSync(path.join(dir, 'episode.final.json'), JSON.stringify(inputProps, null, 2));
   const out = path.join(dir, 'video.mp4');
   let stageName = 'bundle';

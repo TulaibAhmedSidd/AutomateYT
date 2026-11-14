@@ -1,0 +1,104 @@
+{
+  "number": 4,
+  "topic": "Neelum valley through the four seasons",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:14.574Z",
+  "episode": {
+    "id": "",
+    "seriesId": "one-place-four-seasons",
+    "title": "Neelum Valley: One View, Four Seasons",
+    "shots": [
+      {
+        "id": "gdunrs",
+        "narration": "Spring Sunrise",
+        "characters": [],
+        "scene": "Photorealistic landscape of Neelum Valley, Kashmir, vertical 9:16. Fixed elevated viewpoint: Neelum River curves from bottom center toward the middle distance, mixed woodland covers both slopes, and jagged Himalayan peaks anchor the upper third. Fresh spring foliage, soft golden sunrise, cinematic n",
+        "action": "Establish the instantly recognizable river valley. Lock the river bends, tree positions, mountain silhouettes, framing, and lens for every subsequent image.",
+        "camera": "static",
+        "mood": "Fresh, luminous, welcoming",
+        "duration": 1.8
+      },
+      {
+        "id": "yp6fb4",
+        "narration": "Spring Night",
+        "characters": [],
+        "scene": "Photorealistic Neelum Valley from the identical elevated viewpoint, vertical 9:16. Identical river curve, mixed woodland, jagged peaks, framing, and spring foliage. Clear moonlit night, silver river reflections, delicate stars, cinematic natural colour. No people, text, letters, or logos.",
+        "action": "Flash cut from the previous picture. Change only sunrise illumination to moonlit night; preserve the spring landscape and every geographic feature.",
+        "camera": "static",
+        "mood": "Quiet, silver, enchanting",
+        "duration": 1.8
+      },
+      {
+        "id": "vctcoz",
+        "narration": "Summer Night",
+        "characters": [],
+        "scene": "Photorealistic Neelum Valley from the identical elevated viewpoint, vertical 9:16. Identical river curve, mixed woodland, jagged peaks, framing, and clear moonlit sky. Woodland now has lush, deep-green summer foliage. Silver river reflections and delicate stars. No people, text, letters, or logos.",
+        "action": "Flash cut. Change only the woodland foliage from fresh spring green to dense summer green; retain the same moonlight, river, and mountain geometry.",
+        "camera": "static",
+        "mood": "Lush, tranquil, immersive",
+        "duration": 1.8
+      },
+      {
+        "id": "bf5xaz",
+        "narration": "Summer Sunrise",
+        "characters": [],
+        "scene": "Photorealistic Neelum Valley from the identical elevated viewpoint, vertical 9:16. Identical river curve, mixed woodland, jagged peaks, framing, and lush summer foliage. Soft golden sunrise illuminates the slopes and turquoise river, cinematic natural colour. No people, text, letters, or logos.",
+        "action": "Flash cut. Change only moonlit night to golden sunrise; preserve summer vegetation and all landscape positions.",
+        "camera": "static",
+        "mood": "Radiant, expansive, peaceful",
+        "duration": 1.8
+      },
+      {
+        "id": "r03meq",
+        "narration": "Autumn Sunrise",
+        "characters": [],
+        "scene": "Photorealistic Neelum Valley from the identical elevated viewpoint, vertical 9:16. Identical river curve, mixed woodland, jagged peaks, framing, and golden sunrise. Deciduous foliage is amber and copper among unchanged evergreen conifers. Cinematic natural colour. No people, text, letters, or logos.",
+        "action": "Flash cut. Change only deciduous foliage from summer green to autumn amber and copper; retain the sunrise lighting and exact geography.",
+        "camera": "static",
+        "mood": "Warm, jewel-toned, magnificent",
+        "duration": 1.8
+      },
+      {
+        "id": "3n0ptl",
+        "narration": "Autumn Night",
+        "characters": [],
+        "scene": "Photorealistic Neelum Valley from the identical elevated viewpoint, vertical 9:16. Identical river curve, mixed woodland, jagged peaks, framing, and amber autumn foliage among evergreen conifers. Clear moonlit night, silver river reflections, delicate stars. No people, text, letters, or logos.",
+        "action": "Flash cut. Change only golden sunrise to moonlit night; preserve autumn foliage and every landscape feature.",
+        "camera": "static",
+        "mood": "Dreamlike, hushed, elegant",
+        "duration": 1.8
+      },
+      {
+        "id": "53vyzq",
+        "narration": "Winter Night",
+        "characters": [],
+        "scene": "Photorealistic Neelum Valley from the identical elevated viewpoint, vertical 9:16. Identical river curve, woodland positions, jagged peaks, framing, and clear moonlit sky. A fresh winter snow mantle covers the slopes and branches, while the river remains visibly flowing. Silver reflections and delic",
+        "action": "Flash cut. Change only the seasonal surface covering to pristine winter snow; preserve moonlight, river geometry, tree positions, and mountain silhouettes.",
+        "camera": "static",
+        "mood": "Pristine, magical, still",
+        "duration": 1.8
+      },
+      {
+        "id": "kug7oq",
+        "narration": "Winter Sunrise",
+        "characters": [],
+        "scene": "Photorealistic Neelum Valley from the identical elevated viewpoint, vertical 9:16. Identical river curve, snow-covered woodland, jagged peaks, framing, and pristine winter snow mantle. Brilliant golden sunrise crowns the peaks, paints the snow rose-gold, and makes the turquoise river luminous beneat",
+        "action": "Flash cut. Change only moonlit night to spectacular golden sunrise. Keep every snow-covered feature perfectly aligned for the most impressive final reveal.",
+        "camera": "static",
+        "mood": "Awe-inspiring, radiant, unforgettable",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which season wins your heart?",
+    "createdAt": "2026-11-14T11:29:14.572Z",
+    "description": "One breathtaking view of Neelum Valley transforms through four seasons, from spring green to a golden winter sunrise. Which season would you visit? #NeelumValley #Kashmir #FourSeasons #NaturePhotography #TravelReels",
+    "tags": [
+      "Neelum Valley",
+      "Kashmir",
+      "four seasons",
+      "landscape",
+      "seasonal transition",
+      "cinematic nature"
+    ]
+  }
+}

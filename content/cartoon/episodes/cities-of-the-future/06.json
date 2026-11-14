@@ -1,0 +1,84 @@
+{
+  "number": 6,
+  "topic": "New York from today to the year 2150",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:27:26.103Z",
+  "episode": {
+    "id": "",
+    "seriesId": "cities-of-the-future",
+    "title": "New York 2150: A Skyline Reimagined",
+    "shots": [
+      {
+        "id": "kempff",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art of present-day New York, viewed from Brooklyn Bridge Park toward Lower Manhattan. Brooklyn Bridge enters from the upper right; One World Trade Center anchors the center-left skyline. East River in the foreground, clear blue-hour sky. Locked viewpoint and compositi",
+        "action": "Establish the instantly recognizable contemporary skyline, ordinary rooftops, bridge, and waterfront. Keep all landmark silhouettes clearly readable.",
+        "camera": "static",
+        "mood": "Recognizable, calm, anticipatory",
+        "duration": 1.8
+      },
+      {
+        "id": "vy1a35",
+        "narration": "2050",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art from the identical Brooklyn Bridge Park viewpoint toward Lower Manhattan. Brooklyn Bridge upper right, One World Trade Center center-left, East River foreground, identical blue-hour sky and framing. Retain the contemporary skyline. No people, text, letters, or log",
+        "action": "Change only the rooftops: add lush rooftop gardens across the existing buildings. Preserve every building's height, bridge geometry, river, and lighting.",
+        "camera": "static",
+        "mood": "Fresh, green, optimistic",
+        "duration": 1.8
+      },
+      {
+        "id": "opmg5s",
+        "narration": "2075",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art from the identical Brooklyn Bridge Park viewpoint toward Lower Manhattan. Brooklyn Bridge upper right, One World Trade Center center-left, East River foreground, identical blue-hour sky and framing. Preserve all existing buildings and their rooftop gardens. No peo",
+        "action": "Change only the waterfront: replace the hard shoreline with a continuous terraced wetland park, edged by a soft turquoise glow. Everything else remains unchanged.",
+        "camera": "static",
+        "mood": "Restorative, luminous, hopeful",
+        "duration": 1.8
+      },
+      {
+        "id": "dzkmq2",
+        "narration": "2100",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art from the identical Brooklyn Bridge Park viewpoint toward Lower Manhattan. Brooklyn Bridge upper right, One World Trade Center center-left, East River foreground, identical blue-hour sky and framing. Preserve rooftop gardens and the softly glowing terraced wetland ",
+        "action": "Add only a slender elevated transit ribbon weaving between existing buildings, with subtle cyan edge lighting. Keep the bridge and landmark silhouettes unobstructed; all previous features remain unchanged.",
+        "camera": "static",
+        "mood": "Elegant, connected, futuristic",
+        "duration": 1.8
+      },
+      {
+        "id": "zkxxmn",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art from the identical Brooklyn Bridge Park viewpoint toward Lower Manhattan. Brooklyn Bridge upper right, One World Trade Center center-left, East River foreground, identical blue-hour sky and framing. Preserve rooftop gardens, glowing wetland terraces, and the cyan ",
+        "action": "Add only a cluster of sculptural garden towers behind the existing skyline, with planted terraces and luminous emerald architectural ribs. Leave the famous landmarks fully recognizable and all previous elements unchanged.",
+        "camera": "static",
+        "mood": "Visionary, verdant, majestic",
+        "duration": 1.8
+      },
+      {
+        "id": "rh1jl1",
+        "narration": "2150",
+        "characters": [],
+        "scene": "Vertical 9:16 cinematic concept art from the identical Brooklyn Bridge Park viewpoint toward Lower Manhattan. Brooklyn Bridge upper right, One World Trade Center center-left, East River foreground, identical blue-hour sky and framing. Preserve rooftop gardens, glowing wetland terraces, cyan transit ",
+        "action": "For the final imagined reveal, add only a vast translucent solar canopy spanning between the new garden towers, its delicate gold-lit lattice crowning the skyline without covering the famous landmarks. Preserve everything else exactly.",
+        "camera": "static",
+        "mood": "Breathtaking, radiant, utopian",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which upgrade would you want first?",
+    "createdAt": "2026-11-14T11:27:26.101Z",
+    "description": "Imagine New York transforming into a greener, glowing city of the future, one flash cut at a time. This is a creative vision, not a prediction. #NewYork #FutureCities #NYC2150 #AIArt #CityEvolution",
+    "tags": [
+      "New York",
+      "Cities of the Future",
+      "futuristic skyline",
+      "green architecture",
+      "AI transitions",
+      "2150"
+    ]
+  }
+}

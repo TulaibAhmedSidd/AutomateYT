@@ -1,0 +1,94 @@
+{
+  "number": 5,
+  "topic": "Badshahi Mosque from sunrise to night",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:12.353Z",
+  "episode": {
+    "id": "",
+    "seriesId": "one-place-four-seasons",
+    "title": "Badshahi Mosque: Sunrise to Starlight",
+    "shots": [
+      {
+        "id": "tzssy2",
+        "narration": "Sunrise",
+        "characters": [],
+        "scene": "Breathtaking architectural landscape photograph of Badshahi Mosque in Lahore, viewed straight toward the prayer hall from the central axis of its empty courtyard. Recognisable red sandstone facade, three white marble domes and four corner minarets, all fully framed. Fixed eye-level wide-angle viewpo",
+        "action": "Low sunrise light gently gilds the marble domes above the softly glowing red sandstone. Keep all architecture and courtyard details fixed. Still image for a flash-cut transition.",
+        "camera": "static",
+        "mood": "Serene, luminous, instantly recognisable",
+        "duration": 1.8
+      },
+      {
+        "id": "17yapc",
+        "narration": "Morning",
+        "characters": [],
+        "scene": "Breathtaking architectural landscape photograph of Badshahi Mosque in Lahore, viewed straight toward the prayer hall from the central axis of its empty courtyard. Recognisable red sandstone facade, three white marble domes and four corner minarets, all fully framed. Fixed eye-level wide-angle viewpo",
+        "action": "Change only the time-of-day lighting to clear morning light, revealing crisp sandstone textures and bright marble domes. Preserve the exact architecture, framing and courtyard details. Still image for a flash-cut transition.",
+        "camera": "static",
+        "mood": "Fresh, clear, radiant",
+        "duration": 1.8
+      },
+      {
+        "id": "f50vmb",
+        "narration": "Noon",
+        "characters": [],
+        "scene": "Breathtaking architectural landscape photograph of Badshahi Mosque in Lahore, viewed straight toward the prayer hall from the central axis of its empty courtyard. Recognisable red sandstone facade, three white marble domes and four corner minarets, all fully framed. Fixed eye-level wide-angle viewpo",
+        "action": "Change only the time-of-day lighting to bright overhead noon light, with short shadows and luminous white marble against a clear blue sky. Preserve the exact architecture, framing and courtyard details. Still image for a flash-cut transition.",
+        "camera": "static",
+        "mood": "Majestic, vivid, sunlit",
+        "duration": 1.8
+      },
+      {
+        "id": "v32ebi",
+        "narration": "Afternoon",
+        "characters": [],
+        "scene": "Breathtaking architectural landscape photograph of Badshahi Mosque in Lahore, viewed straight toward the prayer hall from the central axis of its empty courtyard. Recognisable red sandstone facade, three white marble domes and four corner minarets, all fully framed. Fixed eye-level wide-angle viewpo",
+        "action": "Change only the time-of-day lighting to warm late-afternoon light, deepening the sandstone colour and lengthening courtyard shadows. Preserve the exact architecture, framing and courtyard details. Still image for a flash-cut transition.",
+        "camera": "static",
+        "mood": "Warm, graceful, cinematic",
+        "duration": 1.8
+      },
+      {
+        "id": "xtoayq",
+        "narration": "Sunset",
+        "characters": [],
+        "scene": "Breathtaking architectural landscape photograph of Badshahi Mosque in Lahore, viewed straight toward the prayer hall from the central axis of its empty courtyard. Recognisable red sandstone facade, three white marble domes and four corner minarets, all fully framed. Fixed eye-level wide-angle viewpo",
+        "action": "Change only the time-of-day lighting to sunset, bathing the mosque in soft amber beneath a peach-and-rose sky. Preserve the exact architecture, framing and courtyard details. Still image for a flash-cut transition.",
+        "camera": "static",
+        "mood": "Dreamlike, glowing, tranquil",
+        "duration": 1.8
+      },
+      {
+        "id": "mmxb6x",
+        "narration": "Twilight",
+        "characters": [],
+        "scene": "Breathtaking architectural landscape photograph of Badshahi Mosque in Lahore, viewed straight toward the prayer hall from the central axis of its empty courtyard. Recognisable red sandstone facade, three white marble domes and four corner minarets, all fully framed. Fixed eye-level wide-angle viewpo",
+        "action": "Change only the time-of-day lighting to blue twilight, with subtle warm architectural illumination emerging against the cobalt sky. Preserve the exact architecture, framing and courtyard details. Still image for a flash-cut transition.",
+        "camera": "static",
+        "mood": "Velvety, peaceful, atmospheric",
+        "duration": 1.8
+      },
+      {
+        "id": "dnu5k6",
+        "narration": "Night",
+        "characters": [],
+        "scene": "Breathtaking architectural landscape photograph of Badshahi Mosque in Lahore, viewed straight toward the prayer hall from the central axis of its empty courtyard. Recognisable red sandstone facade, three white marble domes and four corner minarets, all fully framed. Fixed eye-level wide-angle viewpo",
+        "action": "Change only the time-of-day lighting to full night: magnificent warm architectural illumination defines the sandstone arches, marble domes and soaring minarets against a deep indigo sky. Preserve the exact architecture, framing and courtyard details. Make this the most breathtaking image, with contr",
+        "camera": "static",
+        "mood": "Spectacular, regal, awe-inspiring",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Sunrise or night—which view wins?",
+    "createdAt": "2026-11-14T11:29:12.350Z",
+    "description": "One timeless view of Lahore’s Badshahi Mosque, transformed by light from sunrise to night. Watch the final glow arrive. #BadshahiMosque #Lahore #Pakistan #SunriseToNight #OnePlaceFourSeasons",
+    "tags": [
+      "Badshahi Mosque",
+      "Lahore",
+      "Pakistan",
+      "landscape photography",
+      "sunrise to night",
+      "AI transitions"
+    ]
+  }
+}

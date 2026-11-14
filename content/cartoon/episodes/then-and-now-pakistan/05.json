@@ -1,0 +1,84 @@
+{
+  "number": 5,
+  "topic": "Gwadar: from a small fishing village to a modern port city",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:59.297Z",
+  "episode": {
+    "id": "",
+    "seriesId": "then-and-now-pakistan",
+    "title": "Gwadar: Fishing Village to Gateway Port",
+    "shots": [
+      {
+        "id": "fzsv95",
+        "narration": "1900s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Gwadar, vertical 9:16. Fixed elevated viewpoint on Koh-e-Batil looking northeast across the fishing settlement and East Bay toward the future port site. Recognizable rocky headland in the foreground, curved shoreline centered, Arabian Sea to the ",
+        "action": "Establish the fishing-village baseline, with a modest cluster of low cottages beside the beach. Keep the coastline and all natural landmarks fixed.",
+        "camera": "static",
+        "mood": "Quiet, humble beginnings",
+        "duration": 1.8
+      },
+      {
+        "id": "pfcwmj",
+        "narration": "1958",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Gwadar, vertical 9:16. Identical fixed elevated viewpoint on Koh-e-Batil looking northeast across the fishing settlement and East Bay toward the future port site. Identical rocky foreground, centered curved shoreline, sea on the right, and distan",
+        "action": "Change only the settlement footprint: extend the cluster of low earth-toned cottages slightly inland. Preserve the fishing boats and undeveloped waterfront.",
+        "camera": "static",
+        "mood": "Rooted, gently expanding",
+        "duration": 1.8
+      },
+      {
+        "id": "7vx6ew",
+        "narration": "1990s",
+        "characters": [],
+        "scene": "Photorealistic cinematic historical reconstruction of Gwadar, vertical 9:16. Identical fixed elevated viewpoint on Koh-e-Batil looking northeast across the fishing settlement and East Bay toward the future port site. Identical rocky foreground, centered curved shoreline, sea on the right, and distan",
+        "action": "Change only the waterfront access route: replace the rough coastal track with a modest paved road without markings. Keep the shore otherwise undeveloped.",
+        "camera": "static",
+        "mood": "Anticipation, growing connections",
+        "duration": 1.8
+      },
+      {
+        "id": "qf4q4z",
+        "narration": "2000s",
+        "characters": [],
+        "scene": "Photorealistic cinematic reconstruction of Gwadar, vertical 9:16. Identical fixed elevated viewpoint on Koh-e-Batil looking northeast across the settlement and East Bay toward the port site. Identical rocky foreground, centered curved shoreline, sea on the right, and distant barren hills. Preserve t",
+        "action": "Change only the port-site shoreline: introduce the developing harbor's breakwaters and quay as one coherent construction zone, following Gwadar Port's real coastal layout. Keep the surrounding town unchanged.",
+        "camera": "static",
+        "mood": "Ambitious, transformative",
+        "duration": 1.8
+      },
+      {
+        "id": "f03q2e",
+        "narration": "2010s",
+        "characters": [],
+        "scene": "Photorealistic cinematic reconstruction of Gwadar, vertical 9:16. Identical fixed elevated viewpoint on Koh-e-Batil looking northeast across the settlement and East Bay toward Gwadar Port. Identical rocky foreground, centered curved shoreline, sea on the right, and distant barren hills. Preserve the",
+        "action": "Change only the port terminal: replace the construction zone with completed working quays, cargo-handling equipment, and restrained container stacks without markings. Avoid exaggerated port scale.",
+        "camera": "static",
+        "mood": "Purposeful, industrial",
+        "duration": 1.8
+      },
+      {
+        "id": "3r5ibe",
+        "narration": "Today",
+        "characters": [],
+        "scene": "Photorealistic cinematic present-day Gwadar, vertical 9:16. Identical fixed elevated viewpoint on Koh-e-Batil looking northeast across the low-rise coastal city and East Bay toward Gwadar Port. Identical rocky foreground, centered curved shoreline, sea on the right, and distant barren hills. Preserv",
+        "action": "Change only the coastal transport corridor: show the completed East Bay Expressway following its real alignment toward the port, without readable signs or road lettering. Present the finished waterfront in vivid modern color; retain Gwadar's realistic low-rise character rather than adding a fantasy ",
+        "camera": "static",
+        "mood": "Expansive, striking, forward-looking",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which era of Gwadar would you visit?",
+    "createdAt": "2026-11-14T11:29:59.296Z",
+    "description": "Watch Gwadar’s coastline transform from a small fishing settlement into a modern port, seen from one fixed viewpoint. A cinematic visual reconstruction of its changing waterfront. #Gwadar #Pakistan #ThenAndNow #Balochistan #PortCity",
+    "tags": [
+      "Gwadar",
+      "Pakistan",
+      "Then and Now",
+      "Balochistan",
+      "Gwadar Port",
+      "Coastal Transformation"
+    ]
+  }
+}

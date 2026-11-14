@@ -1,0 +1,105 @@
+{
+  "number": 8,
+  "topic": "Shalimar Gardens Lahore through the seasons",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:29:37.336Z",
+  "episode": {
+    "id": "",
+    "seriesId": "one-place-four-seasons",
+    "title": "Shalimar Gardens: Lahore in Four Seasons",
+    "shots": [
+      {
+        "id": "f0yz4m",
+        "narration": "Summer Sunrise",
+        "characters": [],
+        "scene": "Breathtaking landscape photograph of Shalimar Gardens, Lahore, from a fixed eye-level viewpoint on the central garden axis, looking along a rectangular fountain pool toward a Mughal garden pavilion. Symmetrical stone paths, clipped hedges, cypress trees and deciduous trees frame the pool. Identical ",
+        "action": "Show lush summer foliage in soft golden sunrise light, with delicate fountain jets reflected in the pool. Establish the exact composition to preserve in every subsequent image.",
+        "camera": "static",
+        "mood": "Serene and instantly recognisable",
+        "duration": 1.8
+      },
+      {
+        "id": "s8st7w",
+        "narration": "Summer Sunset",
+        "characters": [],
+        "scene": "The exact same Shalimar Gardens viewpoint, central fountain pool, distant Mughal pavilion, symmetrical paths, hedges and trees. Identical eye-level camera position, lens, framing and fountain jets. Breathtaking landscape photography, vertical 9:16, cinematic colour, no people, no text, letters or lo",
+        "action": "Change only the time of day to sunset: warm amber light and a peach sky reflect across the pool. Preserve the lush summer planting exactly. Enter with a brief flash cut.",
+        "camera": "static",
+        "mood": "Golden and tranquil",
+        "duration": 1.8
+      },
+      {
+        "id": "39gvnd",
+        "narration": "Autumn Sunset",
+        "characters": [],
+        "scene": "The exact same Shalimar Gardens viewpoint, central fountain pool, distant Mughal pavilion, symmetrical paths, hedges and trees. Identical eye-level camera position, lens, framing and fountain jets. Breathtaking landscape photography, vertical 9:16, cinematic colour, no people, no text, letters or lo",
+        "action": "Change only the season to autumn: give the deciduous foliage muted gold and bronze tones while keeping cypresses and clipped hedges green. Preserve the sunset lighting and sky. Enter with a brief flash cut.",
+        "camera": "static",
+        "mood": "Rich and nostalgic",
+        "duration": 1.8
+      },
+      {
+        "id": "2l68r6",
+        "narration": "Autumn Sunrise",
+        "characters": [],
+        "scene": "The exact same Shalimar Gardens viewpoint, central fountain pool, distant Mughal pavilion, symmetrical paths, hedges and trees. Identical eye-level camera position, lens, framing and fountain jets. Breathtaking landscape photography, vertical 9:16, cinematic colour, no people, no text, letters or lo",
+        "action": "Change only the time of day to sunrise: pale golden light gently illuminates the pavilion and bronze foliage. Preserve all autumn planting. Enter with a brief flash cut.",
+        "camera": "static",
+        "mood": "Quiet and luminous",
+        "duration": 1.8
+      },
+      {
+        "id": "1zv135",
+        "narration": "Winter Sunrise",
+        "characters": [],
+        "scene": "The exact same Shalimar Gardens viewpoint, central fountain pool, distant Mughal pavilion, symmetrical paths, hedges and trees. Identical eye-level camera position, lens, framing and fountain jets. Breathtaking landscape photography, vertical 9:16, cinematic colour, no people, no text, letters or lo",
+        "action": "Change only the season to Lahore's mild winter: sparser deciduous branches and subdued planting contrast with green cypresses and hedges. Retain the golden sunrise lighting, unfrozen water and flowing fountains; no snow. Enter with a brief flash cut.",
+        "camera": "static",
+        "mood": "Delicate and peaceful",
+        "duration": 1.8
+      },
+      {
+        "id": "mwuu32",
+        "narration": "Winter Sunset",
+        "characters": [],
+        "scene": "The exact same Shalimar Gardens viewpoint, central fountain pool, distant Mughal pavilion, symmetrical paths, hedges and trees. Identical eye-level camera position, lens, framing and fountain jets. Breathtaking landscape photography, vertical 9:16, cinematic colour, no people, no text, letters or lo",
+        "action": "Change only the time of day to sunset: rose-gold light washes the pavilion and forms a long reflection down the pool. Preserve the sparse winter foliage and snow-free garden. Enter with a brief flash cut.",
+        "camera": "static",
+        "mood": "Elegant and contemplative",
+        "duration": 1.8
+      },
+      {
+        "id": "ljhm73",
+        "narration": "Spring Sunset",
+        "characters": [],
+        "scene": "The exact same Shalimar Gardens viewpoint, central fountain pool, distant Mughal pavilion, symmetrical paths, hedges and trees. Identical eye-level camera position, lens, framing and fountain jets. Breathtaking landscape photography, vertical 9:16, cinematic colour, no people, no text, letters or lo",
+        "action": "Change only the season to spring: fresh green foliage and abundant colourful flowers fill the existing garden beds without altering their layout. Preserve the rose-gold sunset lighting. Enter with a brief flash cut.",
+        "camera": "static",
+        "mood": "Joyful and resplendent",
+        "duration": 1.8
+      },
+      {
+        "id": "7rk1uh",
+        "narration": "Spring Night",
+        "characters": [],
+        "scene": "The exact same Shalimar Gardens viewpoint, central fountain pool, distant Mughal pavilion, symmetrical paths, hedges and trees. Identical eye-level camera position, lens, framing and fountain jets. Breathtaking landscape photography, vertical 9:16, cinematic colour, no people, no text, letters or lo",
+        "action": "Change only the time of day to a clear moonlit night. Preserve the spring flowers and foliage, revealing them with luminous silver moonlight and realistic long-exposure detail. Deep indigo sky, radiant fountain droplets and a mirrorlike pavilion reflection create the most breathtaking final image. E",
+        "camera": "static",
+        "mood": "Magical and majestic",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "Which season would you visit?",
+    "createdAt": "2026-11-14T11:29:37.334Z",
+    "description": "One timeless view of Lahore’s Shalimar Gardens, transformed by four seasons and changing light. Watch the final moonlit reveal. #ShalimarGardens #Lahore #FourSeasons #PakistanBeauty #TransitionReel",
+    "tags": [
+      "Shalimar Gardens",
+      "Lahore",
+      "Pakistan",
+      "Mughal gardens",
+      "four seasons",
+      "landscape photography",
+      "AI transitions"
+    ]
+  }
+}

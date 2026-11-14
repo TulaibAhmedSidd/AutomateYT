@@ -1,0 +1,104 @@
+{
+  "number": 10,
+  "topic": "A sunflower from seed to full bloom",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:28:56.984Z",
+  "episode": {
+    "id": "",
+    "seriesId": "glow-up-nature",
+    "title": "Tiny Seed to Golden Sunflower 🌻",
+    "shots": [
+      {
+        "id": "lrenrl",
+        "narration": "Seed",
+        "characters": [],
+        "scene": "Beautiful nature macro photography, vertical 9:16. One striped sunflower seed rests partly embedded in dark soil at the center of a garden patch. Fixed low three-quarter camera angle, softly blurred green background, soft natural light. Keep this exact location, framing, and camera angle throughout,",
+        "action": "Show the intact sunflower seed clearly against the moist soil, with no shoot visible.",
+        "camera": "static",
+        "mood": "Quiet anticipation",
+        "duration": 1.8
+      },
+      {
+        "id": "olysu4",
+        "narration": "Sprout",
+        "characters": [],
+        "scene": "Beautiful nature macro photography, vertical 9:16. The same single sunflower grows at the exact center of the same dark soil patch. Identical fixed low three-quarter camera angle, framing, softly blurred green background, and soft natural light, with ample space above. No other plants in focus, peop",
+        "action": "A short curved green shoot emerges from the soil, its tip still enclosed by the striped seed shell.",
+        "camera": "static",
+        "mood": "Tender beginnings",
+        "duration": 1.8
+      },
+      {
+        "id": "k5fe4g",
+        "narration": "Seed Leaves",
+        "characters": [],
+        "scene": "Beautiful nature macro photography, vertical 9:16. The same single sunflower at the exact same spot in the dark soil patch. Identical fixed low three-quarter camera angle, framing, softly blurred green background, and soft natural light. No other plants in focus, people, text, letters, or logos.",
+        "action": "The seed shell is gone, revealing two smooth oval seed leaves spread open atop the short stem.",
+        "camera": "static",
+        "mood": "Fresh and delicate",
+        "duration": 1.8
+      },
+      {
+        "id": "woxppu",
+        "narration": "True Leaves",
+        "characters": [],
+        "scene": "Beautiful nature macro photography, vertical 9:16. The same single sunflower rooted in the same central spot of the dark soil patch. Identical fixed low three-quarter camera angle, framing, softly blurred green background, and soft natural light. No other plants in focus, people, text, letters, or l",
+        "action": "A first pair of small, pointed, lightly serrated true leaves appears above the two oval seed leaves.",
+        "camera": "static",
+        "mood": "Lively growth",
+        "duration": 1.8
+      },
+      {
+        "id": "x2a5z8",
+        "narration": "Young Plant",
+        "characters": [],
+        "scene": "Beautiful nature photography with crisp macro-style botanical detail, vertical 9:16. The same single sunflower in the same central soil patch. Identical fixed low three-quarter camera angle, framing, softly blurred green background, and soft natural light. No other plants in focus, people, text, let",
+        "action": "The sunflower is now taller, with a sturdy upright stem and several broad, textured green leaves; no flower bud is visible yet.",
+        "camera": "static",
+        "mood": "Strong and flourishing",
+        "duration": 1.8
+      },
+      {
+        "id": "h3gujj",
+        "narration": "Flower Bud",
+        "characters": [],
+        "scene": "Beautiful nature photography with crisp macro-style botanical detail, vertical 9:16. The same single sunflower in the exact same soil patch. Identical fixed low three-quarter camera angle, framing, softly blurred green background, and soft natural light. Preserve the previous stem and leaf arrangeme",
+        "action": "A single tightly closed green flower bud appears at the top of the leafy stem, wrapped in pointed green bracts.",
+        "camera": "static",
+        "mood": "Beautiful anticipation",
+        "duration": 1.8
+      },
+      {
+        "id": "e1hshe",
+        "narration": "Opening Bloom",
+        "characters": [],
+        "scene": "Beautiful nature photography with crisp macro-style botanical detail, vertical 9:16. The same single sunflower in the exact same soil patch. Identical fixed low three-quarter camera angle, framing, softly blurred green background, and soft natural light. Preserve the stem and leaf arrangement. No pe",
+        "action": "The terminal bud opens partway, revealing curled golden-yellow petals around a partly exposed dark central disk.",
+        "camera": "static",
+        "mood": "Golden anticipation",
+        "duration": 1.8
+      },
+      {
+        "id": "e2xc34",
+        "narration": "Full Bloom",
+        "characters": [],
+        "scene": "Beautiful nature photography with crisp macro-style botanical detail, vertical 9:16. The same single sunflower in the exact same soil patch. Identical fixed low three-quarter camera angle, framing, softly blurred green background, and soft natural light. Preserve the stem and leaf arrangement. The f",
+        "action": "The flower head is fully open, with a magnificent complete halo of extended golden-yellow petals surrounding its richly detailed dark central disk.",
+        "camera": "static",
+        "mood": "Radiant and triumphant",
+        "duration": 1.8
+      }
+    ],
+    "endHook": "What should we grow next?",
+    "createdAt": "2026-11-14T11:28:56.983Z",
+    "description": "Watch one sunflower grow from a tiny seed into a radiant golden bloom, one flash cut at a time. #Sunflower #NatureGlowUp #PlantGrowth #MacroPhotography #Bloom",
+    "tags": [
+      "sunflower",
+      "seed to bloom",
+      "plant growth",
+      "nature",
+      "macro photography",
+      "transition reel"
+    ]
+  }
+}
