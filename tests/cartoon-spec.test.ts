@@ -3,6 +3,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   SERIES_PRESETS,
+  sampleLang,
   buildShotPrompt,
   episodeFrames,
   newShotId,
@@ -161,4 +162,12 @@ test('sanitizeSeries fills defaults and clamps', () => {
   assert.equal(s.episodeSeconds, 60);
   assert.equal(s.characters[0].id.length > 0, true);
   assert.equal(s.voice.provider, 'recorded');
+});
+
+test('voice samples: Urdu first, then South Asian, then English', () => {
+  assert.equal(sampleLang(['en', 'ur', 'hi'], 'ur'), 'ur');
+  assert.equal(sampleLang(['en', 'hi'], 'ur'), 'hi');
+  assert.equal(sampleLang(['en', 'fr'], 'ur'), 'en');
+  assert.equal(sampleLang(['fr'], 'en'), '');
+  assert.equal(sampleLang(['ur', 'en'], 'en'), 'en');
 });

@@ -30,7 +30,8 @@
 - Audio tags like `[laughs]`, `[sighs]`, `[excited]` in the narration are performed, not spoken; captions strip them (`spokenText()`).
 - **The account is on the Free plan:** library voices (Urdu natives like Kamran M, Naqsh, Amjid, Saira, Reva) return HTTP 402 via the API; only premade voices (Liam, George, Laura, Jessica, Sarah, Callum, Charlie, Chris…) work. Free plan output is non-commercial; a monetised channel needs a paid plan (Starter or higher).
 - One 45-60 s episode is about 650 characters, so about 650 credits with eleven_v4. Voices are cached per shot, so re-rendering costs nothing.
-- `GET /api/cartoon/eleven/voices` lists the account voices for the series editor (free).
+- `GET /api/cartoon/eleven/voices` lists the account voices for the series editor (free), with `sampleLangs` (languages that have a demo clip).
+- **Voice samples (free, no credits):** `GET /api/cartoon/voice-sample?kind=eleven&id=<voiceId>&lang=ur` downloads ElevenLabs' own demo clip once (Urdu if the voice has one, then a South Asian clip, then English; see `sampleLang()`), and `?kind=edge&id=<voice>` makes one short line with the free Microsoft voice. Both are kept in `storage/voice-samples/`. `components/cartoon/VoiceSamples.tsx` shows a Listen button for every voice, paid ones too, in Step 1 and in Edit series. Never make a sample with paid text-to-speech; the "Try on line 1 only" button is the paid way to hear a voice on the real script, and it shows the credit cost first.
 
 ## Instagram (planned)
 - The account must be **Professional** (Creator or Business).

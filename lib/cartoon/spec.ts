@@ -31,6 +31,20 @@ export function spokenText(text: string) {
   return text.replace(AUDIO_TAG, ' ').replace(/\s+/g, ' ').trim();
 }
 
+/**
+ * Which language of a voice's free demo clip to play. ElevenLabs keeps demo clips per language;
+ * for Urdu the closest is a South Asian ('hi') clip, then English, then the voice's main clip ('').
+ */
+export function sampleLang(langs: string[], want: string) {
+  const order = want === 'ur' ? ['ur', 'hi', 'en'] : [want, 'en'];
+  return order.find((l) => langs.includes(l)) ?? '';
+}
+
+/** Short words for the sample a listener hears: "Urdu sample", "South Asian sample", ... */
+export function sampleLabel(lang: string) {
+  return ({ ur: 'Urdu sample', hi: 'South Asian sample', en: 'English sample' } as Record<string, string>)[lang] ?? 'Sample';
+}
+
 /** A recurring character. `look` is the fixed description used in every shot prompt; `reference` is an image file in series/<id>/refs/. */
 export type Character = { id: string; name: string; look: string; reference?: string };
 

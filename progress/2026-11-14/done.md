@@ -40,3 +40,4 @@
   - character reference pictures are made automatically.
   - Tested with the fake ComfyUI: Then & Now made 6 chained pictures; horror made Bashir and Saad references, 12 pictures and 3 clips.
 - English horror series **Midnight Watch** (20 episodes, ElevenLabs Brian), all scripts written. The Urdu horror stays.
+- Voice samples: every voice (ElevenLabs free and paid, Microsoft) has a free Listen button in Step 1 and Edit series, plus "Hear all voices" list. 58 samples saved in `storage/voice-samples/` (7 MB). New "Try on line 1 only" button makes just the first line (shows credits) so the owner hears the voice on the real script before making all lines.

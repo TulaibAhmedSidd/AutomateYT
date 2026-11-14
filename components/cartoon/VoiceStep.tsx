@@ -1,12 +1,11 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { Bot, CheckCircle2, Loader2, Mic, Sparkles } from 'lucide-react';
+import { Bot, CheckCircle2, FlaskConical, Loader2, Mic, Sparkles } from 'lucide-react';
 import { VOICES } from '@/lib/motion/spec';
 import { ELEVEN_MODELS, spokenText, type CartoonEpisode, type CartoonSeries } from '@/lib/cartoon/spec';
 import { api, field, jsonBody, label } from './ui';
-
-type ElevenVoice = { id: string; name: string; gender: string; paidOnly: boolean };
+import { VoiceSamples, type ElevenVoice } from './VoiceSamples';
 export type VoiceMode = 'ai' | 'own';
 
 type Props = {
@@ -47,6 +46,26 @@ export function VoiceStep({ episode, series, mode, onMode, disabled, choice, mod
   const withVoice = episode.shots.length - episode.shots.filter((s) => !s.recording).length;
   const chars = (list: typeof episode.shots) => list.reduce((n, s) => n + spokenText(s.narration).length, 0);
   const multiplier = ELEVEN_MODELS.find((m) => m.id === model)?.multiplier ?? 1;
+
+  /** Makes only the first line, then plays it: hear the voice on your own script before paying for every line. */
+  async function tryFirst() {
+    const first = episode.shots.find((s) => s.narration.trim());
+    if (!first) return;
+    setProgress({ done: 0, total: 1 });
+    try {
+      const d = await api<{ episode: CartoonEpisode }>(
+        `/api/cartoon/episodes/${episode.id}/voice?shot=${first.id}`,
+        jsonBody('POST', { provider: isEleven ? 'elevenlabs' : 'edge', voiceId, model }),
+      );
+      onLineDone(first.id, d.episode);
+      const rec = d.episode.shots.find((s) => s.id === first.id)?.recording;
+      if (rec) void new Audio(`/api/cartoon/files/episodes/${episode.id}/recordings/${rec.file}?v=${encodeURIComponent(rec.at)}`).play().catch(() => {});
+    } catch (e) {
+      onError(e instanceof Error ? e.message : String(e));
+    } finally {
+      setProgress(null);
+    }
+  }
 
   async function generate(all: boolean) {
     const shots = all ? episode.shots.filter((s) => s.narration.trim()) : missing;
@@ -143,6 +162,7 @@ export function VoiceStep({ episode, series, mode, onMode, disabled, choice, mod
               </label>
             )}
           </div>
+          <VoiceSamples language={series.language} elevenVoices={elevenVoices} edgeVoices={edgeVoices} selected={choice} onPick={onChoice} />
           <p className="text-xs text-slate-400">
             {missing.length > 0 ? `${missing.length} line(s) still need a voice` : '✅ Every line has a voice'}
             {isEleven
@@ -158,6 +178,16 @@ export function VoiceStep({ episode, series, mode, onMode, disabled, choice, mod
               {progress ? <Loader2 size={16} className="animate-spin" /> : missing.length ? <Sparkles size={16} /> : <CheckCircle2 size={16} />}
               {progress ? `Making line ${progress.done + 1} of ${progress.total}…` : missing.length ? `Generate voice (${missing.length} lines)` : 'Voice ready'}
             </button>
+            {isEleven && withVoice === 0 && missing.length > 1 && !progress && (
+              <button
+                onClick={tryFirst}
+                disabled={disabled}
+                title="Makes only line 1 and plays it, so you hear this voice on your own script first"
+                className="inline-flex min-h-12 items-center justify-center gap-1.5 rounded-xl border border-[var(--accent)]/40 px-4 text-xs font-semibold text-[var(--accent)] hover:bg-[var(--accent)]/10 disabled:opacity-40"
+              >
+                <FlaskConical size={15} /> Try on line 1 only (≈{Math.round(spokenText(missing[0].narration).length * multiplier)} credits)
+              </button>
+            )}
             {withVoice > 0 && !progress && (
               <button
                 onClick={() => generate(true)}

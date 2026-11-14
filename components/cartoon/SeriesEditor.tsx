@@ -5,11 +5,10 @@ import { useEffect, useState } from 'react';
 import { VOICES } from '@/lib/motion/spec';
 import { ELEVEN_MODELS, type CartoonSeries, type Character, type ElevenModel } from '@/lib/cartoon/spec';
 import { api, field, ghostBtn, jsonBody, label } from './ui';
+import { VoiceSamples, type ElevenVoice } from './VoiceSamples';
 
 /** A 45-60 s episode is roughly 600-700 characters of narration. */
 const CHARS_PER_EPISODE = 650;
-
-type ElevenVoice = { id: string; name: string; gender: string; paidOnly: boolean };
 
 type Props = {
   series: CartoonSeries;
@@ -65,6 +64,14 @@ export function SeriesEditor({ series, onSaved, onError }: Props) {
     }
   }
 
+  const voiceChoice =
+    draft.voice.provider === 'elevenlabs' ? `eleven:${draft.voice.elevenVoiceId}` : draft.voice.provider === 'edge' ? `edge:${draft.voice.edgeVoice}` : 'recorded';
+  function pickVoice(value: string) {
+    const [kind, id] = value.split(':');
+    if (kind === 'eleven') set({ voice: { ...draft.voice, provider: 'elevenlabs', elevenVoiceId: id, elevenModel: draft.voice.elevenModel || 'eleven_v4' } });
+    else if (kind === 'edge') set({ voice: { ...draft.voice, provider: 'edge', edgeVoice: id } });
+    else set({ voice: { ...draft.voice, provider: 'recorded' } });
+  }
   const voices = VOICES.filter((v) => v.id !== 'none' && (v.lang === draft.language || v.lang === 'any'));
 
   return (
@@ -169,19 +176,8 @@ export function SeriesEditor({ series, onSaved, onError }: Props) {
           <span className={label}>Narrator voice</span>
           <select
             className={field}
-            value={
-              draft.voice.provider === 'elevenlabs'
-                ? `eleven:${draft.voice.elevenVoiceId}`
-                : draft.voice.provider === 'edge'
-                  ? `edge:${draft.voice.edgeVoice}`
-                  : 'recorded'
-            }
-            onChange={(e) => {
-              const [kind, id] = e.target.value.split(':');
-              if (kind === 'eleven') set({ voice: { ...draft.voice, provider: 'elevenlabs', elevenVoiceId: id, elevenModel: draft.voice.elevenModel || 'eleven_v4' } });
-              else if (kind === 'edge') set({ voice: { ...draft.voice, provider: 'edge', edgeVoice: id } });
-              else set({ voice: { ...draft.voice, provider: 'recorded' } });
-            }}
+            value={voiceChoice}
+            onChange={(e) => pickVoice(e.target.value)}
           >
             <optgroup label="ElevenLabs: natural, works on your free plan (speaks Urdu and English)">
               {elevenVoices
@@ -215,6 +211,9 @@ export function SeriesEditor({ series, onSaved, onError }: Props) {
               </optgroup>
             )}
           </select>
+          <div className="mt-2">
+            <VoiceSamples language={draft.language} elevenVoices={elevenVoices} edgeVoices={voices} selected={voiceChoice} onPick={pickVoice} />
+          </div>
           {elevenError && <span className="mt-1 block text-xs text-amber-300">{elevenError}</span>}
           {draft.voice.provider === 'elevenlabs' && draft.language === 'ur' && (
             <span className="mt-1 block text-xs text-slate-500">
