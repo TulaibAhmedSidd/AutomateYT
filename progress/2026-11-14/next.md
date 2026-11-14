@@ -12,3 +12,9 @@
    - Owner decides OpenAI billing account (Volt On Solar vs personal), then generate remaining 135 scripts via `/cartoon/<series>` or `scripts/write-library.mjs`.
 4. `YouTube Upload`:
    - Refresh OAuth credentials and enable uploads for Motion and Cartoon videos.
+
+## Office PC update
+1. **Home PC (Antigravity):** set up the picture step (FLUX.1 Kontext GGUF or SDXL), export `comfy/workflows/keyframe.api.json`, measure minutes per picture. Transition reels and moving clips need it.
+2. **Home PC:** set COMFY_URL (Desktop = port 8000) and COMFY_START in .env.local, run `npm run comfy:check`, then make one episode in "Key moments animated" mode.
+3. **Owner:** add the redirect URI `http://localhost:3300/api/youtube/callback` to the Google OAuth client and publish the consent screen, then press Connect YouTube on /connections.
+4. **Owner:** Instagram needs a Professional account, a Cloudinary account and a Meta app before the Connect button can be built.

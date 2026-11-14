@@ -85,3 +85,9 @@ Follow the `comfy-workflow` skill:
 - Render clips at **480×832 or 704×1280** and let the app scale them to 1080×1920.
 - Close games and browsers with many tabs while rendering. Leave the PC on overnight for a batch.
 - Don't run ComfyUI and a local voice-clone model at the same time.
+
+## Step 12 — One-click videos (auto-start ComfyUI)
+1. In `.env.local` set `COMFY_URL`. ComfyUI **Desktop** listens on `http://127.0.0.1:8000`; the portable version on `http://127.0.0.1:8188`.
+2. Set `COMFY_START` to the full path of the ComfyUI launcher (.exe or .bat). When you press **Make the video** in a moving mode, the app starts ComfyUI by itself if it is not running.
+3. Run `npm run comfy:check`. It should show your GPU, `clip.api.json` ✅, and every model file ✅.
+4. Wan2GP is not needed by the app. Keep it only for testing by hand, or delete it to free disk space.

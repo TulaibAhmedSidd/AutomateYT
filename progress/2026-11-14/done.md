@@ -15,3 +15,21 @@
   - Summarizes GPU benchmark results and confirmed model paths.
   - Explains how to make 2D character videos faster (Stills engine in ~20-30s vs AnimateDiff in 1-2m vs Wan 2.2 diffusion).
   - Provides step-by-step instructions for Claude to connect `CARTOON_ENGINE=comfy` in `scripts/render-cartoon.mjs` and `npm run comfy:check`.
+
+## Office PC (Claude)
+- **ComfyUI engine** (`fc2922c`):
+  - `scripts/lib/comfy.mjs` (auto-start from COMFY_START, token filling, upload, polling, download);
+  - `npm run comfy:check`;
+  - the worker makes AI pictures (when a keyframe workflow exists) and 2-second Wan clips.
+  - Tested end to end with `scripts/dev/fake-comfy.mjs`: picture → clip → render, clips play then hold the last frame, durations exact.
+- **Step 2 · Video type tabs** in the studio: Pictures / Key moments animated / Fully animated, with time estimates (21 min per clip), tap-to-pick key lines, and ComfyUI status.
+- **YouTube** (`bf428d2`):
+  - Connections page with Connect YouTube (Google sign-in; token kept on this PC);
+  - Upload to YouTube (private) under every finished video.
+  - Checked: the sign-in link reaches Google correctly. **Not tested: the real sign-in and upload** (needs the owner's Google login, plus the redirect URI added in Google Cloud).
+- **Horror** (`d58c856`): Raat Ki Kahaniyan, Urdu, 20 episodes, all scripts written.
+- **Transition reels** (`3c17692`):
+  - new no-voice format with flash cuts and labels;
+  - 5 series × 10 reels, all written (then-and-now-pakistan, evolution-of, glow-up-nature, one-place-four-seasons, cities-of-the-future);
+  - one test reel rendered (10.8 s).
+- Scripts written today on the owner's TAS OpenAI key: 70 (about $0.80).

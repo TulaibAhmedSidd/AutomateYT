@@ -85,3 +85,30 @@ Use the `verify-render` skill:
 1. Extract frames at fixed times with FFmpeg into a contact sheet.
 2. Check the voice and caption sync, text that is cut off, and the language script.
 3. Check the length and size with ffprobe.
+
+## 5. Cartoon video modes and ComfyUI (Phase 2, built 2026-11-14)
+- **Step 2 · Video type** in the studio has three tabs. The mode is sent with "Make the video" (`render-options.json` → `mode`):
+  - `pictures`: a picture per line with camera moves. Works on any PC.
+  - `key-shots`: pictures, plus the ticked lines (default: start, middle, end) become 2-second Wan clips.
+  - `animated`: every line becomes a 2-second clip.
+- **Worker** (`scripts/render-cartoon.mjs`):
+  - When `comfy/workflows/keyframe.api.json` exists and ComfyUI is reachable, every line without a picture gets an AI picture. It is saved in `keyframes/` and recorded in episode.json.
+  - Animated lines need a start picture: the line's own picture, else the first character's reference picture. Lines without one are skipped and stay still.
+  - Clips are cached in `clips/<shotId>.mp4`. The composition plays a clip at 0.85× speed, then freezes its last frame with a slow push-in until the line ends.
+- **ComfyUI client** (`scripts/lib/comfy.mjs`):
+  - `ensureComfy()` starts ComfyUI from `COMFY_START` when it is not running and waits up to 4 minutes.
+  - `runWorkflow(name, tokens, outFile)` fills `{{TOKENS}}` (a whole-value token becomes a number), posts `/prompt`, polls `/history`, and downloads via `/view`.
+  - Settings: 480×832, 49 frames (2 s at 24 fps). Measured on the RTX 2070 Super: ~21 min per 2-second clip.
+- **Tools:**
+  - `npm run comfy:check` reports the GPU, the workflows and any missing model files.
+  - `node scripts/dev/fake-comfy.mjs 8199` is a fake ComfyUI for testing without a GPU (run the worker with `COMFY_URL=http://127.0.0.1:8199`).
+- **Wan2GP is not used.** It has no stable API. Everything runs through ComfyUI.
+
+## 6. Transition reels (series `format: "transition"`)
+- 6–10 labelled pictures, 1.8 s each, with a white flash cut and a punch-in label. No voice: the owner adds a trending sound in the Instagram/YouTube app.
+- The writer uses a separate prompt: the same subject and angle in every stage, labels of at most 5 words. The studio replaces Step 1 with a note.
+- 5 series in `content/cartoon/series/` (group `transition`): then-and-now-pakistan, evolution-of, glow-up-nature, one-place-four-seasons, cities-of-the-future (10 reels each).
+- They need the **keyframe (picture) workflow** on the GPU PC to look good. Without it they show placeholder cards.
+
+## 7. Horror
+`raat-ki-kahaniyan` (Urdu, 20 episodes): Bashir Chacha the night watchman tells fictional Pakistani urban legends. Spooky, not gory, no religious mockery, twist endings. Voice: ElevenLabs Brian with [whispers]/[gasps].

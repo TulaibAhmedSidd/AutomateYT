@@ -58,3 +58,14 @@ HTTP API:
 - `GET /system_stats` reports GPU and VRAM.
 
 Workflows are saved with **Export (API)** into `comfy/workflows/*.api.json`, with `{{TOKENS}}` in place of the prompt, image, seed and size. See the `comfy-workflow` skill.
+
+## YouTube connect and upload (built 2026-11-14)
+- **Connections page** (`/connections`):
+  - **Connect YouTube** → `/api/youtube/connect` (Google sign-in, scopes youtube.upload + youtube.readonly, `prompt=consent`) → `/api/youtube/callback`.
+  - The callback saves the refresh token and channel name in `storage/connections.json` on this PC (gitignored). It is never sent to the browser.
+- **Google Cloud setup (owner, once):**
+  - the OAuth client must be type **Web application**;
+  - it must list the redirect URI `http://localhost:3300/api/youtube/callback`;
+  - the consent screen must be **published** (Testing mode tokens die after 7 days).
+- **Uploading:** `POST /api/cartoon/episodes/[id]/youtube` uploads `video.mp4` as **private**, with `selfDeclaredMadeForKids` from the series, and saves `youtube.json` (id, url) in the episode folder. The studio shows the "Upload to YouTube" button under a finished video.
+- **Instagram:** not built. It needs a Professional account, a public video link (free Cloudinary account) and a Meta app with content publishing. The Connections page lists these steps.
