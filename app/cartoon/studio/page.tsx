@@ -9,7 +9,7 @@ import { SCRIPT_MODEL_INFO, fmtCost, scriptEstimate } from '@/lib/cartoon/models
 import { ShotCard } from '@/components/cartoon/ShotCard';
 import { VoiceStep, defaultVoiceChoice, type VoiceMode } from '@/components/cartoon/VoiceStep';
 import { ModeStep, type ComfyStatus } from '@/components/cartoon/ModeStep';
-import { YoutubeUpload } from '@/components/cartoon/YoutubeUpload';
+import { YoutubePublish } from '@/components/YoutubePublish';
 import { RenderProgress } from '@/components/cartoon/RenderProgress';
 import { SeriesEditor } from '@/components/cartoon/SeriesEditor';
 import { useRecorder } from '@/components/cartoon/useRecorder';
@@ -766,7 +766,7 @@ export default function CartoonStudioPage() {
                         >
                           <Download size={15} /> Download MP4
                         </a>
-                        <YoutubeUpload episode={episode} videoVersion={status.finishedAt || ''} />
+                        <p className="mt-2 text-center text-[11px] text-slate-400">Step 4 (YouTube) is below the lines.</p>
                       </>
                     )}
                   </div>
@@ -778,6 +778,15 @@ export default function CartoonStudioPage() {
           </div>
         </aside>
       </div>
+
+      {episode && status?.stage === 'done' && (
+        <YoutubePublish
+          key={`${episode.id}-${status.finishedAt || ''}`}
+          target={{ kind: 'cartoon', episodeId: episode.id }}
+          defaults={{ title: episode.title, description: episode.description, tags: episode.tags, madeForKids: series?.madeForKids === true, categoryId: '24' }}
+          downloadUrl={`${FILES}/episodes/${episode.id}/video.mp4?download=1`}
+        />
+      )}
 
       {/* Episodes of this series */}
       <section className={card}>

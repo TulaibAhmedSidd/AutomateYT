@@ -52,19 +52,42 @@ export async function youtubeApi(origin: string) {
   return google.youtube({ version: 'v3', auth: client });
 }
 
-/** Uploads an MP4. Videos from an unaudited Google project are always private until changed in YouTube Studio. */
+/**
+ * Uploads an MP4. With `publishAt` the video is uploaded private and YouTube makes it public at that time.
+ * A Google project that has not passed YouTube's API audit gets every upload locked private (scheduled ones too).
+ * categoryId: 27 = Education, 24 = Entertainment. language: 'ur' | 'en' (title language and spoken language).
+ */
 export async function uploadToYoutube(
   origin: string,
   file: string,
-  meta: { title: string; description: string; tags: string[]; madeForKids: boolean; privacy: 'private' | 'unlisted' | 'public' },
+  meta: {
+    title: string;
+    description: string;
+    tags: string[];
+    madeForKids: boolean;
+    privacy: 'private' | 'unlisted' | 'public';
+    publishAt?: string;
+    categoryId?: string;
+    language?: string;
+  },
 ) {
   const yt = await youtubeApi(origin);
   try {
     const res = await yt.videos.insert({
       part: ['snippet', 'status'],
       requestBody: {
-        snippet: { title: meta.title.slice(0, 100), description: meta.description.slice(0, 4900), tags: meta.tags.slice(0, 15), categoryId: '24' },
-        status: { privacyStatus: meta.privacy, selfDeclaredMadeForKids: meta.madeForKids },
+        snippet: {
+          title: meta.title.slice(0, 100),
+          description: meta.description.slice(0, 4900),
+          tags: meta.tags.slice(0, 15),
+          categoryId: meta.categoryId || '24',
+          ...(meta.language ? { defaultLanguage: meta.language, defaultAudioLanguage: meta.language } : {}),
+        },
+        status: {
+          privacyStatus: meta.publishAt ? 'private' : meta.privacy,
+          ...(meta.publishAt ? { publishAt: meta.publishAt } : {}),
+          selfDeclaredMadeForKids: meta.madeForKids,
+        },
       },
       media: { body: fs.createReadStream(file) },
     });

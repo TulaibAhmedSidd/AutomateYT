@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { listJobs, type JobStatus } from './jobs';
 import { sanitizeSpec, type MotionSpec } from './spec';
+import { readLog, type PublishEntry } from '../youtube-publish';
 
 // Server only. Motion graphics series: ready-written episodes kept in git under content/motion/series/<id>.json.
 // The owner opens an episode in Motion Studio, checks the numbers, and renders it. Which episodes are made is
@@ -16,6 +17,8 @@ export type MotionSeriesEpisode = {
   check?: string;
   /** Newest render of this episode, if any. */
   job?: { id: string; status: JobStatus };
+  /** Posted or scheduled on YouTube (from the publish log; survives re-renders). */
+  post?: PublishEntry;
 };
 
 export type MotionSeries = {
@@ -41,6 +44,7 @@ type RawSeries = {
 export function listMotionSeries(): MotionSeries[] {
   if (!fs.existsSync(SERIES_DIR)) return [];
   const jobs = listJobs();
+  const log = readLog();
   return fs
     .readdirSync(SERIES_DIR)
     .filter((f) => f.endsWith('.json'))
@@ -52,8 +56,17 @@ export function listMotionSeries(): MotionSeries[] {
         const number = i + 1;
         // Series-wide look and voice; an episode may override them.
         const spec = sanitizeSpec({ theme: raw.theme, voice: raw.voice, elevenModel: raw.elevenModel, ...ep, language, series: id, episode: number });
-        const job = jobs.find((j) => j.series === id && j.episode === number);
-        return { number, spec, check: typeof ep.check === 'string' ? ep.check : undefined, job: job && { id: job.id, status: job.status } };
+        // Prefer the newest finished render, else the newest render of any state.
+        const mine = jobs.filter((j) => j.series === id && j.episode === number);
+        const job = mine.find((j) => j.status.stage === 'done') || mine[0];
+        const post = log.find((e) => e.key === `motion:${id}#${number}`);
+        return {
+          number,
+          spec,
+          check: typeof ep.check === 'string' ? ep.check : undefined,
+          job: job && { id: job.id, status: job.status },
+          ...(post ? { post } : {}),
+        };
       });
       return { id, name: raw.name || id, description: raw.description || '', language, episodes } satisfies MotionSeries;
     });

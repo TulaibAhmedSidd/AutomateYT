@@ -27,7 +27,9 @@ AutomateYT is one Next.js app in the repo root. Next.js serves the dashboard and
 | `/dashboard` | Overview: format cards, recommended order, setup checklist. |
 | `/formats`, `/formats/[id]` | Strategy card per video format (data in `lib/video-formats.ts`). |
 | `/research` | Reel research notes (`lib/research.ts`). |
-| `/motion` | **Motion Studio**: templates, AI scene writer, editor, live preview, render, renders list. |
+| `/motion` | **Motion Studio home**: series cards (made / on YouTube), next upload time, "Single video". |
+| `/motion/[seriesId]` | One motion series: every episode with made / scheduled / on YouTube, and what to do next. |
+| `/motion/studio` | The step screen: `?series=<id>&episode=<n>` opens a series episode; without it, a single video (templates + AI writer + all renders). Step 1 voice and look, Step 2 scenes, Step 3 make the video, Step 4 publish to YouTube. |
 | `/cartoon` | **Cartoon Studio**: series cards with progress. `/cartoon/[seriesId]` lists every episode; `/cartoon/studio` records lines and renders. |
 | `/studio` (and `?tab=library`) | Image Studio: create image-slideshow videos, library. |
 | `/videos/[id]` | One Image Studio video: steps, retry, YouTube upload button. |
@@ -42,6 +44,8 @@ AutomateYT is one Next.js app in the repo root. Next.js serves the dashboard and
   - `GET /api/motion/files/[id]/[...path]`: stream `video.mp4` or `assets/*.mp3`, with Range support and `?download=1`.
   - `POST /api/motion/script`: AI scene writer.
   - `GET /api/motion/voice-sample`: MP3 sample of a voice.
+  - `GET /api/motion/series`: series with each episode's newest render and YouTube post, plus `nextSlot`.
+  - `GET/POST/DELETE /api/youtube/publish`: YouTube state, upload / mark as posted / posting plan, forget a record.
 - **Image Studio (Mongo):** `generate-script`, `generate-video`, `bulk-generate`, `videos`, `videos/[id]`, `videos/[id]/retry`, `videos/delete-all`, `upload-scene-image`, `media/[id]` (GridFS), `upload-youtube`, `jobs`, `schedule`, `settings`, `voices`.
 - `GET /api/health`: database reachability (shown in the sidebar).
 

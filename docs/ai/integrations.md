@@ -70,5 +70,11 @@ Workflows are saved with **Export (API)** into `comfy/workflows/*.api.json`, wit
   - the OAuth client must be type **Web application**;
   - it must list the redirect URI `http://localhost:3300/api/youtube/callback`;
   - the consent screen must be **published** (Testing mode tokens die after 7 days).
-- **Uploading:** `POST /api/cartoon/episodes/[id]/youtube` uploads `video.mp4` as **private**, with `selfDeclaredMadeForKids` from the series, and saves `youtube.json` (id, url) in the episode folder. The studio shows the "Upload to YouTube" button under a finished video.
+- **Publishing (Step 4 in both studios): `components/YoutubePublish.tsx` + `/api/youtube/publish` + `lib/youtube-publish.ts`.**
+  - Fields: title (≤100), description ending with a hashtag line (`#Shorts` + up to 4 tags), tags, **Made for kids = No by default**, category (27 Education for motion series, 24 Entertainment), and when: next free slot / pick a time / public now / private.
+  - **From the app:** `videos.insert` with `publishAt` for scheduled posts (uploaded private, YouTube makes it public at that time), `defaultLanguage` = the video's language.
+  - **The audit rule:** a Google project that has not passed YouTube's API audit gets **every** upload locked private, scheduled ones included, with no appeal (Google's videos.insert docs). So until the owner marks "My project passed the audit" (`storage/youtube/plan.json → audited`), the panel recommends **"I'll upload in YouTube Studio"**: download the MP4, copy title/description/tags, set Not made for kids and the schedule in Studio, then **Mark as posted** (optional link). Audit form: https://support.google.com/youtube/contact/yt_api_form
+  - **Log:** `storage/youtube/log.json` has one entry per video: key `motion:<seriesId>#<n>` (survives re-renders), `motion-job:<jobId>` or `cartoon:<episodeId>`; method api/manual; privacy (scheduled/public/private/unlisted); publishAt; url. Series pages read it to show "Scheduled / On YouTube".
+  - **Posting plan:** `plan.json → times` (default `19:00`, this PC's clock). `nextSlots()` gives the next free times (skips the next 30 minutes and any time within 3 hours of a logged post). Shown as "Next video should go up" on the motion home, series page and Step 4.
+  - `DELETE /api/youtube/publish?key=` only forgets a record; it never touches YouTube.
 - **Instagram:** not built. It needs a Professional account, a public video link (free Cloudinary account) and a Meta app with content publishing. The Connections page lists these steps.

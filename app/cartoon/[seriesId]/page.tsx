@@ -9,14 +9,20 @@ import { SCRIPT_MODEL_INFO, fmtCost, fmtTokens, scriptEstimate } from '@/lib/car
 import type { CartoonSeries } from '@/lib/cartoon/spec';
 import type { EpisodeSummary } from '@/lib/cartoon/store';
 
-type Slot = { number: number; topic: string; episode: EpisodeSummary | null };
+type Post = { privacy: string; publishAt?: string; at: string; url?: string };
+type Slot = { number: number; topic: string; episode: EpisodeSummary | null; post?: Post | null };
 type Data = { series: CartoonSeries; group: string; why: string; model: string; slots: Slot[] };
 
 /** What one episode slot shows: its state, a colour and the next action. */
 function slotState(s: Slot) {
   const e = s.episode;
   if (!e) return { kind: 'unwritten' as const, label: 'No script yet', tone: 'text-slate-500' };
-  if (e.status.stage === 'done') return { kind: 'done' as const, label: `✅ Video ready · ${e.recorded}/${e.shots} lines in your voice`, tone: 'text-emerald-300' };
+  if (e.status.stage === 'done' && s.post) {
+    const when = new Date(s.post.publishAt || s.post.at).toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: 'numeric', minute: '2-digit' });
+    const future = Date.parse(s.post.publishAt || s.post.at) > Date.now();
+    return { kind: 'done' as const, label: future ? `📅 Scheduled on YouTube · ${when}` : `▶ On YouTube · ${when}`, tone: 'text-emerald-300' };
+  }
+  if (e.status.stage === 'done') return { kind: 'done' as const, label: `✅ Video ready · not on YouTube yet`, tone: 'text-emerald-300' };
   if (!['idle', 'failed'].includes(e.status.stage)) return { kind: 'working' as const, label: `⏳ Rendering ${Math.round(e.status.progress * 100)}%`, tone: 'text-sky-300' };
   if (e.status.stage === 'failed') return { kind: 'working' as const, label: '⚠️ Render failed, open to see why', tone: 'text-rose-300' };
   if (e.shots > 0 && e.recorded === e.shots) return { kind: 'working' as const, label: '🎙 All lines recorded · render next', tone: 'text-amber-300' };
