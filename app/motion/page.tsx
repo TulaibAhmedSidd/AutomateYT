@@ -1,7 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import {
   ArrowDown,
   ArrowUp,
@@ -9,19 +9,18 @@ import {
   Clapperboard,
   Download,
   Loader2,
-  Mic,
   Pencil,
   Play,
   Plus,
   RefreshCw,
   Sparkles,
-  Square,
   Trash2,
   Wand2,
   XCircle,
 } from 'lucide-react';
 import { PageHeader } from '@/components/format-ui';
 import { MotionSeriesPanel } from '@/components/motion/MotionSeriesPanel';
+import { VoicePicker } from '@/components/cartoon/VoicePicker';
 import {
   PRESETS,
   SCENE_KINDS,
@@ -30,7 +29,6 @@ import {
   sceneSeconds,
   totalFrames,
   isElevenVoice,
-  MOTION_ELEVEN_MODELS,
   FPS,
   type MotionScene,
   type MotionSpec,
@@ -101,18 +99,8 @@ export default function MotionStudioPage() {
   const [error, setError] = useState('');
   const [jobs, setJobs] = useState<Job[]>([]);
   const [watching, setWatching] = useState<string | null>(null);
-  const [sample, setSample] = useState<'idle' | 'loading' | 'playing'>('idle');
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-  const [elevenVoices, setElevenVoices] = useState<{ id: string; name: string }[]>([]);
   /** Facts to confirm before posting, shown while a series episode is open. */
   const [check, setCheck] = useState<string | undefined>();
-  useEffect(() => {
-    // Only voices the free ElevenLabs plan can use through the API.
-    fetch('/api/cartoon/eleven/voices', { cache: 'no-store' })
-      .then((r) => r.json())
-      .then((d: { voices?: { id: string; name: string; paidOnly: boolean }[] }) => setElevenVoices((d.voices || []).filter((v) => !v.paidOnly)))
-      .catch(() => setElevenVoices([]));
-  }, []);
   const elevenChars = isElevenVoice(spec.voice) ? spec.scenes.reduce((n, s) => n + s.voice.replace(/\*/g, '').length, 0) : 0;
 
   const total = useMemo(() => totalFrames(spec) / FPS, [spec]);
@@ -154,7 +142,9 @@ export default function MotionStudioPage() {
 
   const setLanguage = (language: 'en' | 'ur') => {
     const voice = VOICES.find((v) => v.lang === language)?.id || spec.voice;
-    update({ language, voice: VOICES.find((v) => v.id === spec.voice)?.lang === language ? spec.voice : voice });
+    // ElevenLabs voices speak both languages, so they are kept; a Microsoft voice switches to one of the new language.
+    const keep = isElevenVoice(spec.voice) || spec.voice === 'none' || VOICES.find((v) => v.id === spec.voice)?.lang === language;
+    update({ language, voice: keep ? spec.voice : voice });
   };
 
   async function writeWithAi() {
@@ -193,45 +183,6 @@ export default function MotionStudioPage() {
       setError(e instanceof Error ? e.message : 'Render failed to start');
     } finally {
       setRendering(false);
-    }
-  }
-
-  async function playSample() {
-    if (sample === 'playing') {
-      audioRef.current?.pause();
-      setSample('idle');
-      return;
-    }
-    if (spec.voice === 'none') return;
-    setSample('loading');
-    try {
-      if (isElevenVoice(spec.voice)) {
-        // ElevenLabs: play the voice's free demo clip (no credits), not the script.
-        audioRef.current?.pause();
-        const audio = new Audio(`/api/cartoon/voice-sample?kind=eleven&id=${spec.voice.slice(7)}&lang=${spec.language}`);
-        audioRef.current = audio;
-        audio.onended = () => setSample('idle');
-        await audio.play();
-        setSample('playing');
-        return;
-      }
-      const firstLine = spec.scenes.find((s) => s.voice)?.voice;
-      const res = await fetch('/api/motion/voice-sample', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ voice: spec.voice, text: firstLine }),
-      });
-      if (!res.ok) throw new Error((await res.json()).error || 'Voice failed');
-      const url = URL.createObjectURL(await res.blob());
-      audioRef.current?.pause();
-      const audio = new Audio(url);
-      audioRef.current = audio;
-      audio.onended = () => setSample('idle');
-      await audio.play();
-      setSample('playing');
-    } catch (e) {
-      setError(e instanceof Error ? e.message : 'Voice failed');
-      setSample('idle');
     }
   }
 
@@ -386,50 +337,17 @@ export default function MotionStudioPage() {
                   })}
                 </div>
               </div>
-              <div>
-                <span className={label}>Voice</span>
-                <div className="flex gap-2">
-                  <select className={field} value={spec.voice} onChange={(e) => update({ voice: e.target.value })}>
-                    {elevenVoices.length > 0 && (
-                      <optgroup label="ElevenLabs: natural (uses free-plan credits)">
-                        {elevenVoices.map((v) => (
-                          <option key={v.id} value={`eleven:${v.id}`}>
-                            {v.name}
-                          </option>
-                        ))}
-                      </optgroup>
-                    )}
-                    <optgroup label="Free Microsoft voices (no credits)">
-                      {VOICES.filter((v) => v.lang === spec.language || v.lang === 'any' || v.lang === 'en').map((v) => (
-                        <option key={v.id} value={v.id}>
-                          {v.label}
-                        </option>
-                      ))}
-                    </optgroup>
-                  </select>
-                  <button
-                    onClick={playSample}
-                    disabled={spec.voice === 'none' || sample === 'loading'}
-                    title="Listen to this voice"
-                    aria-label="Listen to this voice"
-                    className="grid w-12 shrink-0 place-items-center rounded-xl border border-white/10 text-slate-200 transition hover:bg-white/[0.06] disabled:opacity-40"
-                  >
-                    {sample === 'loading' ? <Loader2 size={16} className="animate-spin" /> : sample === 'playing' ? <Square size={14} /> : <Mic size={16} />}
-                  </button>
-                </div>
+              <div className="xl:col-span-2">
+                {/* Same picker as Cartoon Studio. Motion stores Edge voices without the "edge:" prefix. */}
+                <VoicePicker
+                  language={spec.language}
+                  value={spec.voice === 'none' || isElevenVoice(spec.voice) ? spec.voice : `edge:${spec.voice}`}
+                  onChange={(c) => update({ voice: c.startsWith('edge:') ? c.slice(5) : c })}
+                  model={spec.elevenModel || 'eleven_v4'}
+                  onModel={(m) => update({ elevenModel: m })}
+                  allowNone
+                />
               </div>
-              {isElevenVoice(spec.voice) && (
-                <label className="block">
-                  <span className={label}>ElevenLabs model</span>
-                  <select className={field} value={spec.elevenModel || 'eleven_v4'} onChange={(e) => update({ elevenModel: e.target.value })}>
-                    {MOTION_ELEVEN_MODELS.map((m) => (
-                      <option key={m} value={m}>
-                        {m === 'eleven_v4' ? 'Eleven v4 · most natural' : m === 'eleven_v4_turbo' ? 'Eleven v4 Turbo · half the credits' : 'Eleven v3 · expressive'}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-              )}
               <label className="flex cursor-pointer items-center gap-3 text-sm text-slate-300 xl:col-span-2">
                 <input type="checkbox" checked={spec.captions} onChange={(e) => update({ captions: e.target.checked })} className="h-4 w-4 accent-[var(--accent)]" />
                 Word-by-word captions (most viewers watch with the sound off)

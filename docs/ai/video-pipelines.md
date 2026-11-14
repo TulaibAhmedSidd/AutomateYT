@@ -103,6 +103,9 @@ Use the `verify-render` skill:
   - `ensureComfy()` starts ComfyUI from `COMFY_START` when it is not running and waits up to 4 minutes.
   - `runWorkflow(name, tokens, outFile)` fills `{{TOKENS}}` (a whole-value token becomes a number), posts `/prompt`, polls `/history`, and downloads via `/view`.
   - Settings: 480×832, 49 frames (2 s at 24 fps). Measured on the RTX 2070 Super: ~21 min per 2-second clip.
+- **Stop:** "Stop" in the progress panel (and "Stop making the video" in Step 3) calls `DELETE /api/cartoon/episodes/<id>/render`: ComfyUI `/interrupt` + clear queue, then `taskkill /T /F` on the worker (Chrome and FFmpeg go with it). Pictures, clips and voices already made are kept, so the next render continues.
+- **Crashes:** when the worker dies without writing "failed", the studio shows the last lines of the episode's `log.txt` instead of only "stopped unexpectedly". The worker starts with `--disable-warning=MODULE_TYPELESS_PACKAGE_JSON` so that warning does not hide the real error.
+- **Browser start:** `selectComposition` is tried 3 times (4 s, 8 s apart) when headless Chrome fails to launch; this failed now and then on both PCs.
 - **Live progress:** the worker writes `steps` (done/total for voice, character pictures, AI pictures, moving clips, MP4), `current` (the job running now) and `etaMin` into status.json. Minutes left start from the measured home-PC numbers and switch to this run's real timings. `components/cartoon/RenderProgress.tsx` shows it as a sticky panel at the top of the studio, with each picture appearing as soon as it is made.
 - **Tools:**
   - `npm run comfy:check` reports the GPU, the workflows and any missing model files.
@@ -110,7 +113,7 @@ Use the `verify-render` skill:
 - **Wan2GP is not used.** It has no stable API. Everything runs through ComfyUI.
 
 ## 6. Transition reels (series `format: "transition"`)
-- 6–10 labelled pictures, 1.8 s each, with a white flash cut and a punch-in label. No voice: the owner adds a trending sound in the Instagram/YouTube app.
+- 6–10 labelled pictures, 1.8 s each, with a wipe and a punch-in label. **Voice is optional:** Step 1 shows for transition reels too; a line with a voice is spoken and its picture stays until the voice ends; lines without one stay 1.8 s. Most reels use only a trending sound added in the Instagram/YouTube app.
 - The writer uses a separate prompt: the same subject and angle in every stage, labels of at most 5 words. The studio replaces Step 1 with a note.
 - 5 series in `content/cartoon/series/` (group `transition`): then-and-now-pakistan, evolution-of, glow-up-nature, one-place-four-seasons, cities-of-the-future (10 reels each).
 - They need the **keyframe (picture) workflow** on the GPU PC to look good. Without it they show placeholder cards.

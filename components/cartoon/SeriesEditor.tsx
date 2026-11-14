@@ -1,11 +1,10 @@
 'use client';
 
 import { ImagePlus, Loader2, Plus, Save, Trash2 } from 'lucide-react';
-import { useEffect, useState } from 'react';
-import { VOICES } from '@/lib/motion/spec';
+import { useState } from 'react';
 import { ELEVEN_MODELS, type CartoonSeries, type Character, type ElevenModel } from '@/lib/cartoon/spec';
 import { api, field, ghostBtn, jsonBody, label } from './ui';
-import { VoiceSamples, type ElevenVoice } from './VoiceSamples';
+import { VoicePicker } from './VoicePicker';
 
 /** A 45-60 s episode is roughly 600-700 characters of narration. */
 const CHARS_PER_EPISODE = 650;
@@ -21,17 +20,7 @@ export function SeriesEditor({ series, onSaved, onError }: Props) {
   const [draft, setDraft] = useState<CartoonSeries>(series);
   const [saving, setSaving] = useState(false);
   const [uploading, setUploading] = useState<string | null>(null);
-  const [elevenVoices, setElevenVoices] = useState<ElevenVoice[]>([]);
-  const [elevenError, setElevenError] = useState<string | null>(null);
-  useEffect(() => {
-    api<{ voices: ElevenVoice[]; error?: string }>('/api/cartoon/eleven/voices')
-      .then((d) => {
-        setElevenVoices(d.voices);
-        if (d.error) setElevenError(d.error);
-      })
-      .catch((e: unknown) => setElevenError(e instanceof Error ? e.message : String(e)));
-  }, []);
-  const set =(patch: Partial<CartoonSeries>) => setDraft((d) => ({ ...d, ...patch }));
+  const set = (patch: Partial<CartoonSeries>) => setDraft((d) => ({ ...d, ...patch }));
   const setChar = (i: number, patch: Partial<Character>) =>
     setDraft((d) => ({ ...d, characters: d.characters.map((c, j) => (j === i ? { ...c, ...patch } : c)) }));
 
@@ -72,7 +61,6 @@ export function SeriesEditor({ series, onSaved, onError }: Props) {
     else if (kind === 'edge') set({ voice: { ...draft.voice, provider: 'edge', edgeVoice: id } });
     else set({ voice: { ...draft.voice, provider: 'recorded' } });
   }
-  const voices = VOICES.filter((v) => v.id !== 'none' && (v.lang === draft.language || v.lang === 'any'));
 
   return (
     <div className="mt-4 space-y-4">
@@ -172,55 +160,9 @@ export function SeriesEditor({ series, onSaved, onError }: Props) {
       </div>
 
       <div className="grid gap-3 sm:grid-cols-2">
-        <label className="block sm:col-span-2">
-          <span className={label}>Narrator voice</span>
-          <select
-            className={field}
-            value={voiceChoice}
-            onChange={(e) => pickVoice(e.target.value)}
-          >
-            <optgroup label="ElevenLabs: natural, works on your free plan (speaks Urdu and English)">
-              {elevenVoices
-                .filter((v) => !v.paidOnly)
-                .map((v) => (
-                  <option key={v.id} value={`eleven:${v.id}`}>
-                    {v.name}
-                    {v.gender ? ` · ${v.gender}` : ''}
-                  </option>
-                ))}
-            </optgroup>
-            <optgroup label="Free Microsoft voices (no credits, sounds more robotic)">
-              {voices.map((v) => (
-                <option key={v.id} value={`edge:${v.id}`}>
-                  {v.label}
-                </option>
-              ))}
-            </optgroup>
-            <optgroup label="Me">
-              <option value="recorded">My own voice (I record each line)</option>
-            </optgroup>
-            {elevenVoices.some((v) => v.paidOnly) && (
-              <optgroup label="ElevenLabs: needs a paid plan (native Urdu voices)">
-                {elevenVoices
-                  .filter((v) => v.paidOnly)
-                  .map((v) => (
-                    <option key={v.id} value={`eleven:${v.id}`} disabled>
-                      {v.name} (paid plan only)
-                    </option>
-                  ))}
-              </optgroup>
-            )}
-          </select>
-          <div className="mt-2">
-            <VoiceSamples language={draft.language} elevenVoices={elevenVoices} edgeVoices={voices} selected={voiceChoice} onPick={pickVoice} />
-          </div>
-          {elevenError && <span className="mt-1 block text-xs text-amber-300">{elevenError}</span>}
-          {draft.voice.provider === 'elevenlabs' && draft.language === 'ur' && (
-            <span className="mt-1 block text-xs text-slate-500">
-              These voices speak Urdu with a slight foreign accent. Native Pakistani voices (Kamran, Naqsh, Saira…) need a paid ElevenLabs plan.
-            </span>
-          )}
-        </label>
+        <div className="sm:col-span-2">
+          <VoicePicker title="Narrator voice" language={draft.language} value={voiceChoice} onChange={pickVoice} allowRecorded />
+        </div>
         {draft.voice.elevenVoiceId && draft.voice.provider === 'elevenlabs' && (
           <label className="block sm:col-span-2">
             <span className={label}>ElevenLabs model</span>

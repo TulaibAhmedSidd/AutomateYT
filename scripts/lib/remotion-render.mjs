@@ -36,7 +36,19 @@ export async function renderComposition({ entry, publicDir, id, inputProps, out,
   try {
     const serveUrl = await bundle({ entryPoint: entry, publicDir, outDir: bundleDir, onProgress: (p) => onProgress(p / 100) });
     const browserExecutable = findBrowser();
-    const composition = await selectComposition({ serveUrl, id, inputProps, browserExecutable });
+    // Headless Chrome sometimes fails to start ("Failed to launch the browser process!"), often right after
+    // another render or a heavy ComfyUI job. Waiting a few seconds and trying again fixes it, so try 3 times.
+    let composition;
+    for (let attempt = 1; ; attempt += 1) {
+      try {
+        composition = await selectComposition({ serveUrl, id, inputProps, browserExecutable });
+        break;
+      } catch (e) {
+        if (attempt >= 3 || !/launch the browser|browser process|Target closed|ECONNRESET/i.test(String(e?.message || e))) throw e;
+        console.error(`Browser start failed (try ${attempt} of 3), trying again in ${attempt * 4} s:`, e?.message || e);
+        await new Promise((r) => setTimeout(r, attempt * 4000));
+      }
+    }
     onStage('render', { frames: composition.durationInFrames, seconds: composition.durationInFrames / composition.fps });
     const tries = [Math.max(1, Math.min(4, Math.floor(os.cpus().length / 3))), 1];
     for (let attempt = 0; attempt < tries.length; attempt += 1) {

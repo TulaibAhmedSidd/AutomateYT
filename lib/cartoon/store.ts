@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { spawn } from 'child_process';
+import { spawn, spawnSync } from 'child_process';
 import { createHash } from 'crypto';
 import { cleanRecording } from './audio';
 import { edgeTts, elevenTts } from './tts';
@@ -255,9 +255,62 @@ export function saveReference(seriesId: string, characterId: string, bytes: Buff
 export function readEpisodeStatus(id: string): EpisodeStatus {
   const status = readJson<EpisodeStatus>(path.join(episodeDir(id), 'status.json')) || { stage: 'idle', progress: 0 };
   if (!['idle', 'done', 'failed'].includes(status.stage) && status.pid && !processAlive(status.pid)) {
-    return { ...status, stage: 'failed', error: status.error || 'The render process stopped unexpectedly.' };
+    const why = logTail(id);
+    return {
+      ...status,
+      stage: 'failed',
+      error: status.error || `The render process stopped unexpectedly.${why ? ` Last lines of log.txt: ${why}` : ' log.txt is empty (the PC may have restarted or the process was closed).'}`,
+    };
   }
   return status;
+}
+
+/** The last few useful lines of an episode's log.txt, so a crash says why instead of "stopped unexpectedly". */
+function logTail(id: string) {
+  try {
+    const lines = fs
+      .readFileSync(path.join(episodeDir(id), 'log.txt'), 'utf8')
+      .split(/\r?\n/)
+      .map((l) => l.trim())
+      .filter((l) => l && !/^at\s/.test(l) && !/node:internal|MODULE_TYPELESS|Reparsing as ES module|eliminate this warning|--trace-warnings/.test(l));
+    return lines.slice(-5).join(' | ').slice(-700);
+  } catch {
+    return '';
+  }
+}
+
+/**
+ * Stops a running render: asks ComfyUI to drop its current job and queue, then ends the worker and everything it
+ * started (Chrome, FFmpeg). Pictures, clips and voices already made are kept, so "Make the video" continues from there.
+ */
+export async function stopRender(id: string) {
+  const status = readEpisodeStatus(id);
+  if (['idle', 'done', 'failed'].includes(status.stage)) throw new CartoonError('This episode is not rendering.');
+  const comfy = (process.env.COMFY_URL || 'http://127.0.0.1:8188').replace(/\/+$/, '');
+  for (const [url, body] of [
+    [`${comfy}/interrupt`, '{}'],
+    [`${comfy}/queue`, '{"clear":true}'],
+  ]) {
+    await fetch(url, { method: 'POST', headers: { 'content-type': 'application/json' }, body, signal: AbortSignal.timeout(3000) }).catch(() => null);
+  }
+  if (status.pid && processAlive(status.pid)) {
+    if (process.platform === 'win32') spawnSync('taskkill', ['/PID', String(status.pid), '/T', '/F'], { windowsHide: true });
+    else {
+      try {
+        process.kill(-status.pid, 'SIGTERM'); // the worker runs in its own process group (detached)
+      } catch {
+        process.kill(status.pid, 'SIGTERM');
+      }
+    }
+  }
+  writeJson(path.join(episodeDir(id), 'status.json'), {
+    ...status,
+    stage: 'failed',
+    error: 'Stopped by you. Pictures and voices already made are kept: press Make the video to continue.',
+    pid: null,
+    current: null,
+    updatedAt: new Date().toISOString(),
+  });
 }
 
 /** One episode, or null. */
@@ -472,7 +525,7 @@ export function startRender(id: string, options: { allowAiVoice: boolean; mode: 
   writeJson(path.join(dir, 'render-options.json'), options);
   writeJson(path.join(dir, 'status.json'), { stage: 'queued', progress: 0, updatedAt: new Date().toISOString() });
   const log = fs.openSync(path.join(dir, 'log.txt'), 'w');
-  const child = spawn(process.execPath, [path.join(process.cwd(), 'scripts', 'render-cartoon.mjs'), id], {
+  const child = spawn(process.execPath, ['--disable-warning=MODULE_TYPELESS_PACKAGE_JSON', path.join(process.cwd(), 'scripts', 'render-cartoon.mjs'), id], {
     cwd: process.cwd(),
     detached: true,
     windowsHide: true,

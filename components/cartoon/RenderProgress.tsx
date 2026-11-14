@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { CheckCircle2, Circle, Clapperboard, Loader2, XCircle } from 'lucide-react';
+import { CheckCircle2, Circle, Clapperboard, Loader2, Square, XCircle } from 'lucide-react';
 import type { CartoonEpisode } from '@/lib/cartoon/spec';
 import type { EpisodeStatus } from '@/lib/cartoon/store';
 
@@ -29,14 +29,29 @@ function minutes(m: number) {
   return `${Math.floor(m / 60)} h ${Math.round(m % 60)} min`;
 }
 
-type Props = { status: EpisodeStatus; episode: CartoonEpisode };
+type Props = {
+  status: EpisodeStatus;
+  episode: CartoonEpisode;
+  /** Stops the render (the page calls DELETE /render and reloads the status). */
+  onStop: () => Promise<void>;
+};
 
 /**
  * The live "what is happening now" panel while a video is made: overall %, minutes left, every step with
  * done/total, the line being worked on, and the pictures already made (they appear one by one).
  */
-export function RenderProgress({ status, episode }: Props) {
+export function RenderProgress({ status, episode, onStop }: Props) {
   const [now, setNow] = useState(() => Date.now());
+  const [stopping, setStopping] = useState(false);
+  async function stop() {
+    if (!window.confirm('Stop making this video?\n\nPictures and voices already made are kept. Press "Make the video" again later to continue from there.')) return;
+    setStopping(true);
+    try {
+      await onStop();
+    } finally {
+      setStopping(false);
+    }
+  }
   useEffect(() => {
     const t = window.setInterval(() => setNow(Date.now()), 1000);
     return () => window.clearInterval(t);
@@ -62,10 +77,21 @@ export function RenderProgress({ status, episode }: Props) {
       <div className="flex flex-wrap items-center gap-x-3 gap-y-1">
         {failed ? <XCircle size={18} className="text-rose-300" /> : <Loader2 size={18} className="animate-spin text-[var(--accent)]" />}
         <p className="text-sm font-bold text-white">{failed ? 'Making the video stopped' : `Making the video · ${pct}%`}</p>
-        <p className="ml-auto text-xs text-slate-400">
-          {ran > 0 && `running ${minutes(ran)}`}
-          {!failed && status.etaMin != null && ` · about ${minutes(status.etaMin)} left`}
-        </p>
+        {!failed && (
+          <p className="ml-auto text-xs text-slate-400">
+            {ran > 0 && `running ${minutes(ran)}`}
+            {status.etaMin != null && ` · about ${minutes(status.etaMin)} left`}
+          </p>
+        )}
+        {!failed && (
+          <button
+            onClick={stop}
+            disabled={stopping}
+            className="inline-flex min-h-10 items-center gap-1.5 rounded-xl border border-rose-400/50 bg-rose-500/10 px-3 text-xs font-bold text-rose-200 transition hover:bg-rose-500/20 disabled:opacity-50"
+          >
+            {stopping ? <Loader2 size={14} className="animate-spin" /> : <Square size={13} />} {stopping ? 'Stopping…' : 'Stop'}
+          </button>
+        )}
       </div>
       {!failed && (
         <div className="mt-2 h-2.5 overflow-hidden rounded-full bg-white/10">
@@ -132,7 +158,11 @@ export function RenderProgress({ status, episode }: Props) {
           );
         })}
       </div>
-      <p className="mt-1 text-[11px] text-slate-500">Pictures appear here as they are made. You can close this page; the PC keeps working.</p>
+      <p className="mt-1 text-[11px] text-slate-500">
+        {failed
+          ? 'Pictures already made are kept. Press "Make the video" to continue from here.'
+          : 'Pictures appear here as they are made. You can close this page; the PC keeps working.'}
+      </p>
     </section>
   );
 }

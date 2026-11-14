@@ -1,11 +1,11 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { Bot, CheckCircle2, FlaskConical, Loader2, Mic, Sparkles } from 'lucide-react';
-import { VOICES } from '@/lib/motion/spec';
 import { ELEVEN_MODELS, spokenText, type CartoonEpisode, type CartoonSeries } from '@/lib/cartoon/spec';
-import { api, field, jsonBody, label } from './ui';
-import { VoiceSamples, type ElevenVoice } from './VoiceSamples';
+import { api, jsonBody } from './ui';
+import { VoicePicker } from './VoicePicker';
+
 export type VoiceMode = 'ai' | 'own';
 
 type Props = {
@@ -30,16 +30,7 @@ export function defaultVoiceChoice(series: CartoonSeries) {
 
 /** Step 1 of an episode: pick AI voice or own voice; for AI, pick the voice and make every line with one button. */
 export function VoiceStep({ episode, series, mode, onMode, disabled, choice, model, onChoice, onModel, onLineDone, onError }: Props) {
-  const [elevenVoices, setElevenVoices] = useState<ElevenVoice[]>([]);
   const [progress, setProgress] = useState<{ done: number; total: number } | null>(null);
-
-  useEffect(() => {
-    api<{ voices: ElevenVoice[] }>('/api/cartoon/eleven/voices')
-      .then((d) => setElevenVoices(d.voices))
-      .catch(() => setElevenVoices([]));
-  }, []);
-
-  const edgeVoices = VOICES.filter((v) => v.id !== 'none' && (v.lang === series.language || v.lang === 'any'));
   const [kind, voiceId] = choice.split(':');
   const isEleven = kind === 'eleven';
   const missing = episode.shots.filter((s) => s.narration.trim() && !s.recording);
@@ -116,53 +107,7 @@ export function VoiceStep({ episode, series, mode, onMode, disabled, choice, mod
 
       {mode === 'ai' ? (
         <div className="mt-4 space-y-3">
-          <div className="grid gap-3 sm:grid-cols-2">
-            <label className="block">
-              <span className={label}>Voice</span>
-              <select className={field} value={choice} onChange={(e) => onChoice(e.target.value)}>
-                <optgroup label="ElevenLabs: natural, free plan (speaks Urdu and English)">
-                  {elevenVoices
-                    .filter((v) => !v.paidOnly)
-                    .map((v) => (
-                      <option key={v.id} value={`eleven:${v.id}`}>
-                        {v.name}
-                      </option>
-                    ))}
-                </optgroup>
-                <optgroup label="Free Microsoft voices (no credits, more robotic)">
-                  {edgeVoices.map((v) => (
-                    <option key={v.id} value={`edge:${v.id}`}>
-                      {v.label}
-                    </option>
-                  ))}
-                </optgroup>
-                {elevenVoices.some((v) => v.paidOnly) && (
-                  <optgroup label="ElevenLabs: needs a paid plan">
-                    {elevenVoices
-                      .filter((v) => v.paidOnly)
-                      .map((v) => (
-                        <option key={v.id} value={`eleven:${v.id}`} disabled>
-                          {v.name} (paid plan only)
-                        </option>
-                      ))}
-                  </optgroup>
-                )}
-              </select>
-            </label>
-            {isEleven && (
-              <label className="block">
-                <span className={label}>ElevenLabs model</span>
-                <select className={field} value={model} onChange={(e) => onModel(e.target.value)}>
-                  {ELEVEN_MODELS.map((m) => (
-                    <option key={m.id} value={m.id}>
-                      {m.label}
-                    </option>
-                  ))}
-                </select>
-              </label>
-            )}
-          </div>
-          <VoiceSamples language={series.language} elevenVoices={elevenVoices} edgeVoices={edgeVoices} selected={choice} onPick={onChoice} />
+          <VoicePicker language={series.language} value={choice} onChange={onChoice} model={model} onModel={onModel} />
           <p className="text-xs text-slate-400">
             {missing.length > 0 ? `${missing.length} line(s) still need a voice` : '✅ Every line has a voice'}
             {isEleven

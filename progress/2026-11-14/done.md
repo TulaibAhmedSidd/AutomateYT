@@ -81,3 +81,5 @@
   - Series **Pakistan: Tab aur Ab (numbers)**: 7 Urdu episodes (population, dollar, gold, petrol, Karachi, Lahore, literacy). Census numbers are official; gold and petrol "today" values must be re-checked on the day of posting.
   - Test render of the gold episode with the free Asad voice: timeline, counting and bars look right.
   - AI writer and a new "Then → Now" template know the timeline scene.
+- **Owner feedback round (late night):** Stop button for renders (kills worker + ComfyUI job, keeps finished work); crash message now shows the last lines of log.txt; Chrome launch retried 3 times (it failed now and then); Step 1 Voice shows on transition reels (optional voice, used in the video); one shared VoicePicker with Listen/Hear all in Cartoon Step 1, Edit series and Motion Studio (Motion showed only Microsoft voices before).
+- The new ElevenLabs key put in the office .env.local is not a valid API key (it does not start with `sk_`; ElevenLabs answers 401). The old key is still there, commented out.

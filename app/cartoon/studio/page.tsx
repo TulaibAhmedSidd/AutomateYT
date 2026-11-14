@@ -333,6 +333,18 @@ export default function CartoonStudioPage() {
     }
   }
 
+  /** Stops the running render; work already made (pictures, clips, voices) is kept for the next try. */
+  async function stopVideo() {
+    if (!episode) return;
+    try {
+      await api(`/api/cartoon/episodes/${episode.id}/render`, { method: 'DELETE' });
+      setStatus((await api<{ status: EpisodeStatus }>(`/api/cartoon/episodes/${episode.id}`)).status);
+      refreshEpisodes();
+    } catch (e) {
+      fail(e);
+    }
+  }
+
   const pictureUrl = useCallback(
     (shot: CartoonShot) => {
       if (!episode || !series) return undefined;
@@ -400,7 +412,7 @@ export default function CartoonStudioPage() {
         </div>
       )}
 
-      {episode && status && (isRunning || status.stage === 'failed') && <RenderProgress status={status} episode={episode} />}
+      {episode && status && (isRunning || status.stage === 'failed') && <RenderProgress status={status} episode={episode} onStop={stopVideo} />}
 
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_380px]">
         <div className="min-w-0 space-y-6">
@@ -533,12 +545,13 @@ export default function CartoonStudioPage() {
                   </button>
                 </div>
               </div>
-              {isTransition(series) ? (
+              {isTransition(series) && (
                 <p className="mt-4 rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/[0.05] p-4 text-sm text-slate-300">
-                  <b className="text-white">Transition reel · no voice.</b> Each picture shows for {TRANSITION_SECONDS} s with a flash cut and its label. After
-                  uploading, add a trending sound in the Instagram or YouTube app: that is what makes transition reels travel.
+                  <b className="text-white">Transition reel · voice is optional.</b> Each picture shows for {TRANSITION_SECONDS} s (longer if its line has a
+                  voice), with a wipe, its label and a whoosh sound. Most transition reels use only music: add a trending sound in the Instagram or
+                  YouTube app. Lines that have a voice in Step 1 are spoken in the video.
                 </p>
-              ) : (
+              )}
               <div className="mt-4">
                 <VoiceStep
                   episode={episode}
@@ -557,7 +570,6 @@ export default function CartoonStudioPage() {
                   onError={setError}
                 />
               </div>
-              )}
               <details className="mt-4">
                 <summary className="cursor-pointer text-xs font-semibold text-slate-400 hover:text-white">Title and last card</summary>
               <div className="mt-3 grid gap-3 sm:grid-cols-2">
@@ -715,6 +727,16 @@ export default function CartoonStudioPage() {
                   {starting || isRunning ? <Loader2 size={16} className="animate-spin" /> : <Clapperboard size={16} />}
                   {isRunning ? 'Making the video…' : 'Make the video (MP4)'}
                 </button>
+                {isRunning && (
+                  <button
+                    onClick={() => {
+                      if (window.confirm('Stop making this video?\n\nPictures and voices already made are kept.')) void stopVideo();
+                    }}
+                    className="mt-2 inline-flex min-h-10 w-full items-center justify-center gap-1.5 rounded-xl border border-rose-400/50 bg-rose-500/10 text-xs font-bold text-rose-200 hover:bg-rose-500/20"
+                  >
+                    Stop making the video
+                  </button>
+                )}
                 {needsVoice > 0 && !(mode === 'own' && allowAi) && (
                   <p className="mt-2 text-center text-[11px] text-amber-300">Finish Step 1 first: {needsVoice} line(s) have no voice yet.</p>
                 )}

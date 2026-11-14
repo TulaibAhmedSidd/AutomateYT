@@ -199,8 +199,16 @@ async function main() {
   for (let i = 0; i < n; i += 1) {
     const shot = episode.shots[i];
     startJob('voice', i + 1);
-    // Transition reels have no voice: each picture stays for its fixed time and the owner adds a trending sound.
-    const v = series.format === 'transition' ? { kind: 'none', duration: shot.duration || 1.8 } : await voiceFor(shot, i, series, options);
+    // Transition reels: voice is optional. A line with a voice (made in Step 1) is spoken and the picture stays
+    // until it ends; a line without one stays for its fixed time (the owner adds a trending sound later).
+    let v;
+    if (series.format === 'transition') {
+      const fixed = shot.duration || 1.8;
+      v = shot.recording ? await voiceFor(shot, i, series, options) : { kind: 'none', duration: fixed };
+      v.duration = Math.max(fixed, v.duration);
+    } else {
+      v = await voiceFor(shot, i, series, options);
+    }
     shot.duration = Math.round(v.duration * 100) / 100;
     if (v.audio) shot.audio = v.audio;
     if (v.words) shot.words = v.words;
