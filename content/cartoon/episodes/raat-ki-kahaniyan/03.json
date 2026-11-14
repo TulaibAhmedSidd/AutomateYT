@@ -1,0 +1,144 @@
+{
+  "number": 3,
+  "topic": "An old haveli in the walled city where a harmonium plays by itself at exactly 3 o'clock every night.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:20:39.286Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Teen Baje Ka Baja | Raat Ki Kahaniyan",
+    "shots": [
+      {
+        "id": "wjvejg",
+        "narration": "اس حویلی میں تین بجے باجا خود بجتا ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, an empty music room inside an old Pakistani walled-city haveli, dusty harmonium beneath a moonlit arch, no text or markings.",
+        "action": "Three harmonium keys sink down by themselves.",
+        "camera": "push-in",
+        "mood": "Cold blue moonlight, suspended dust, deep motionless shadows."
+      },
+      {
+        "id": "qyfdzl",
+        "narration": "بشیر چچا نے سعد کو لالٹین کے پاس بٹھایا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, courtyard outside the haveli, Bashir with grey beard, white cap, brown woollen shawl and brass lantern; Saad in green hoodie and jeans beside an empty stone bench.",
+        "action": "Bashir gestures for Saad to sit beside his lantern.",
+        "camera": "static",
+        "mood": "Warm lantern pool surrounded by fog and towering dark walls."
+      },
+      {
+        "id": "xzbj3e",
+        "narration": "[whispers] بولے، اندر برسوں سے کوئی نہیں رہتا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, story view inside the abandoned haveli, empty corridor with cobwebbed arches and undisturbed dust, no writing.",
+        "action": "A loose curtain lifts away from an empty doorway.",
+        "camera": "pan-right",
+        "mood": "Pale moonlight, stale grey haze, oppressive emptiness."
+      },
+      {
+        "id": "y4ykr5",
+        "narration": "لیکن روز تین بجے یہی دھن شروع ہوتی ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, close view of an antique clock above the harmonium, plain unmarked clock face, hour hand pointing right and minute hand nearly upright.",
+        "action": "The minute hand clicks into the upright position.",
+        "camera": "push-in",
+        "mood": "Hard moonlit edges and an almost black background."
+      },
+      {
+        "id": "mjoosi",
+        "narration": "پہلے اس کی دھونکنی آہستہ آہستہ کھلتی ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, side view of the dusty wooden harmonium on the haveli music-room floor, no labels or lettering.",
+        "action": "The harmonium bellows slowly expand without anyone touching them.",
+        "camera": "low-angle",
+        "mood": "Thin silver light catches cracked wood and dusty folds."
+      },
+      {
+        "id": "6ca4s9",
+        "narration": "[whispers] پھر چابیاں دبتی ہیں، جیسے کوئی بیٹھا ہو۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, harmonium keyboard with clearly empty floor space on every side.",
+        "action": "The harmonium keys descend in a slow sequence.",
+        "camera": "orbit",
+        "mood": "Uneasy empty space, sharp key shadows, drifting dust."
+      },
+      {
+        "id": "mygkp2",
+        "narration": "مگر آج باجا اپنی جگہ پر نہیں رکا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, wide view of the same music room, a dusty rectangle behind the harmonium and an open corridor ahead.",
+        "action": "The harmonium slides forward across the dusty floor.",
+        "camera": "pull-out",
+        "mood": "Fresh drag trails cut through pale dust beneath cold moonlight."
+      },
+      {
+        "id": "syezky",
+        "narration": "وہ گھسٹتا ہوا بند دروازے تک آ گیا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, inside the haveli entrance, closed wooden double doors ahead of the harmonium, continuous drag marks behind it.",
+        "action": "The harmonium slides up against the closed doors.",
+        "camera": "pan-left",
+        "mood": "Heavy timber shadows and a narrow amber glow beneath the doors."
+      },
+      {
+        "id": "wfqm82",
+        "narration": "[surprised] سعد بولا، چچا، آواز تو قریب آ رہی ہے۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, courtyard beside the brass lantern, Saad seated facing Bashir, closed haveli doors behind Saad.",
+        "action": "Saad turns his head toward the haveli doors.",
+        "camera": "push-in",
+        "mood": "Lantern-lit worried eyes against a fog-dark doorway."
+      },
+      {
+        "id": "1wjqtv",
+        "narration": "پھر حویلی کا دروازہ خود ہی کھل گیا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, courtyard view of the haveli entrance, harmonium barely visible in the darkness beyond the threshold.",
+        "action": "The heavy double doors swing outward.",
+        "camera": "static",
+        "mood": "A widening black opening framed by weak amber lantern light."
+      },
+      {
+        "id": "i7nqh8",
+        "narration": "سعد پلٹا، تو باجا اس کے بالکل پیچھے تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, courtyard bench, harmonium directly behind Saad's heels, open haveli doors far behind, Bashir rigid beside his brass lantern.",
+        "action": "Saad twists around toward the harmonium inches behind him.",
+        "camera": "low-angle",
+        "mood": "Sudden looming instrument, huge angular shadow, startled faces in harsh lantern "
+      },
+      {
+        "id": "fztui5",
+        "narration": "[whispers] کل سننا، اس باجے سے ریل کی سیٹی کیوں آئی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, close courtyard view of the harmonium between Bashir and Saad, brass lantern beside it, both watching from the upper frame.",
+        "action": "The harmonium bellows open to their full width.",
+        "camera": "push-in",
+        "mood": "Deep black bellows, trembling amber reflections, dense night fog."
+      }
+    ],
+    "endHook": "Is baaje se rail ki seeti kyun aati hai?",
+    "createdAt": "2026-11-14T11:20:39.277Z",
+    "description": "پرانے شہر کی ایک سنسان حویلی میں ہر رات تین بجے ہارمونیم خود بجنے لگتا ہے۔ بشیر چچا سعد کو اس باجے کی کہانی سناتے ہیں، مگر آج آواز کچھ زیادہ قریب ہے۔ یہ کہانی مکمل طور پر خیالی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror Story",
+      "Haunted Haveli",
+      "Harmonium",
+      "3D Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

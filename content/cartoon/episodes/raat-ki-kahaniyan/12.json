@@ -1,0 +1,162 @@
+{
+  "number": 12,
+  "topic": "A wedding card arrives from a haveli that has been locked for fifty years.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:22:04.165Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Pachaas Saal Se Band Haveli Ka Bulawa",
+    "shots": [
+      {
+        "id": "nov5jl",
+        "narration": "شادی کا کارڈ آیا، مگر حویلی پچاس سال سے بند تھی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look. An old Pakistani courtyard at night, with two stools beside a brass lantern. Bashir wears his brown shawl and white cap; Saad wears a dark green hoodie and jeans. A cream wedding card has raised floral decoration but no writing.",
+        "action": "Bashir holds the wedding card toward Saad.",
+        "camera": "push-in",
+        "mood": "Warm lantern light surrounded by deep blue fog and long shadows; no visible text"
+      },
+      {
+        "id": "nntn5e",
+        "narration": "سعد بولا، پھر آپ وہاں گئے کیوں؟",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, the same lantern-lit courtyard, with the cream floral card between Bashir and Saad.",
+        "action": "Saad leans toward Bashir.",
+        "camera": "static",
+        "mood": "Anxious curiosity, amber reflections on faces, dark empty courtyard behind them;"
+      },
+      {
+        "id": "381i1e",
+        "narration": "[whispers] کارڈ کے اندر میری کھوئی ہوئی چابی رکھی تھی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, close view of Bashir's hands above the brass lantern, with Saad partly visible behind.",
+        "action": "Bashir opens the unprinted floral card to reveal an old brass key.",
+        "camera": "push-in",
+        "mood": "Sharp golden light on the key, heavy darkness around the hands; no writing or sy"
+      },
+      {
+        "id": "qbuaho",
+        "narration": "میں چابی لے کر حویلی پہنچ گیا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, flashback outside a decaying Pakistani haveli, its tall wooden doors shut beneath tangled vines. Bashir carries his old brass lantern and wears his brown shawl and white cap.",
+        "action": "Bashir approaches the locked entrance with the key.",
+        "camera": "low-angle",
+        "mood": "Towering architecture, pale moonlight, ankle-high fog; no signs or writing."
+      },
+      {
+        "id": "p3yqdi",
+        "narration": "میرے ہاتھ لگانے سے پہلے ہی تالا کھل گیا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, close view of a heavy iron padlock on the haveli doors, with Bashir's key held several inches away.",
+        "action": "The padlock springs open without being touched.",
+        "camera": "static",
+        "mood": "Cold blue metal against trembling amber lantern glow; no visible text."
+      },
+      {
+        "id": "fsth5j",
+        "narration": "[surprised] اندر شادی سجی تھی، مگر ایک بھی مہمان نہیں تھا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, a deserted haveli wedding hall with dusty flower garlands, rows of empty wooden chairs, and an unoccupied raised platform.",
+        "action": "Bashir raises his lantern over the empty seating.",
+        "camera": "pan-right",
+        "mood": "Faded festive colors beneath cobwebs, moonbeams through cracked roof panels; no "
+      },
+      {
+        "id": "jcwec5",
+        "narration": "پھر ایک خالی کرسی میری طرف سرکنے لگی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, the deserted wedding hall, with Bashir beside the entrance and one wooden chair separated from the rows.",
+        "action": "The empty chair slides toward Bashir.",
+        "camera": "pull-out",
+        "mood": "Long chair shadows across dusty tiles, still garlands, dense darkness behind the"
+      },
+      {
+        "id": "qk40fg",
+        "narration": "میں کارڈ وہیں چھوڑ کر بھاگ آیا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, the haveli entrance seen from outside, with the cream floral card lying on the interior threshold.",
+        "action": "Bashir hurries out through the open doors.",
+        "camera": "pan-left",
+        "mood": "Lantern light streaking across fog, black doorway behind him; no visible text."
+      },
+      {
+        "id": "0d8167",
+        "narration": "[whispers] مگر کارڈ مجھ سے پہلے گھر پہنچ چکا تھا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, flashback at Bashir's courtyard doorway, with the same cream floral wedding card resting on his stool.",
+        "action": "Bashir stops in front of the waiting card.",
+        "camera": "push-in",
+        "mood": "Small amber lantern pool, untouched dust around the stool, deep surrounding blue"
+      },
+      {
+        "id": "70sotz",
+        "narration": "سعد نے پوچھا، یہ تیسری کرسی پہلے تو نہیں تھی؟",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, return to the present courtyard. Bashir and Saad sit beside the lantern; the haveli's wooden chair now stands against the wall beside them.",
+        "action": "Saad points toward the third chair.",
+        "camera": "pan-right",
+        "mood": "Tight amber light, cold wall, unnaturally long shadows; no visible text."
+      },
+      {
+        "id": "hlw6fw",
+        "narration": "بشیر اٹھے، مگر ان کا سایہ کرسی پر بیٹھا رہا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, Bashir standing beside the third chair while Saad remains seated. On the wall, Bashir's unmistakable cap-and-shawl shadow remains seated directly above the empty chair.",
+        "action": "Bashir rises while his shadow stays seated.",
+        "camera": "static",
+        "mood": "Stark lantern contrast, impossible motionless shadow, frozen frightened faces; n"
+      },
+      {
+        "id": "2j0vxc",
+        "narration": "[whispers] کارڈ کے اندر اب بند اسٹیشن کا ٹکٹ تھا۔",
+        "characters": [
+          "saad",
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, close view of the open floral card beside the lantern. A small aged railway ticket with clipped corners and punched holes rests inside, completely blank. Bashir is blurred in the background.",
+        "action": "Saad lifts the blank railway ticket from the card.",
+        "camera": "push-in",
+        "mood": "Cold moonlight overtaking the amber glow, dark railway-like bars of shadow acros"
+      }
+    ],
+    "endHook": "Ab band station par kis ki daawat hai?",
+    "createdAt": "2026-11-14T11:22:04.161Z",
+    "description": "بشیر چچا نے سعد کو ایک شادی کے کارڈ کی کہانی سنائی، جو پچاس سال سے بند حویلی سے آیا تھا۔ مگر لالٹین کے پاس بیٹھے دونوں کو اندازہ نہیں تھا کہ دعوت ابھی ختم نہیں ہوئی۔ یہ کہانی مکمل طور پر فرضی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror Story",
+      "Haunted Haveli",
+      "Wedding Invitation",
+      "Pakistani Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

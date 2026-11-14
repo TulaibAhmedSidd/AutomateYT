@@ -1,0 +1,162 @@
+{
+  "number": 7,
+  "topic": "An old family photo where one new face appears in the background every night.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:21:20.921Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Tasveer Mein Naya Chehra | Raat Ki Kahaniyan",
+    "shots": [
+      {
+        "id": "c5yznr",
+        "narration": "اس خاندانی تصویر میں ہر رات ایک نیا چہرہ آتا تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation. A worn wooden family photograph stands beside a brass lantern in an old Pakistani haveli courtyard. The photograph depicts Bashir and Saad, with a tiny additional Saad face inside a dark background doorway. No writing anywhere.",
+        "action": "The tiny background face emerges from the photograph's doorway.",
+        "camera": "push-in",
+        "mood": "Amber lantern light, deep blue moonlight, thin fog, an unsettling miniature face"
+      },
+      {
+        "id": "7o4kk0",
+        "narration": "بشیر چچا بولے، سعد، یہ تمہاری ہی تصویر کی کہانی ہے۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation. Bashir, an elderly Pakistani watchman with a grey beard, brown woollen shawl and white cap, sits beside his old brass lantern. Saad, twenty, with short black hair, dark green hoodie and jeans, sits opposite him in the haveli courtyard.",
+        "action": "Bashir points toward the framed photograph between them.",
+        "camera": "static",
+        "mood": "Intimate lantern glow, silent courtyard, long archway shadows."
+      },
+      {
+        "id": "99kwmp",
+        "narration": "[whispers] پہلی رات، تصویر کے پیچھے والا دروازہ خالی تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation. Earlier in the story, inside a dusty haveli bedroom, Saad stands beside a shelf. A faded family photograph depicts only Bashir and Saad before an empty dark doorway. Saad carries a small torch. No lettering.",
+        "action": "Saad sets the framed photograph upright on the shelf.",
+        "camera": "pan-right",
+        "mood": "Quiet moonlit room, dust in the torch beam, apparently ordinary photograph."
+      },
+      {
+        "id": "jsij8w",
+        "narration": "اگلی رات، دروازے میں ایک چہرہ نظر آیا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation. The same bedroom shelf on the following night. Inside the photograph, behind the original Bashir and Saad, a small duplicate of Saad's face occupies the previously empty doorway.",
+        "action": "Saad raises his torch toward the new face.",
+        "camera": "push-in",
+        "mood": "Narrow white torchlight, cold window light, a barely visible familiar face."
+      },
+      {
+        "id": "zawsyy",
+        "narration": "سعد نے غور کیا، وہ چہرہ اسی کا تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation. Tight composition of Saad beside the photograph. His short black hair and facial features match the tiny background face exactly; the original family portrait remains visible below it.",
+        "action": "Saad leans closer to the glass.",
+        "camera": "orbit",
+        "mood": "Uneasy recognition, trembling torch beam, black corners."
+      },
+      {
+        "id": "4rds6k",
+        "narration": "[surprised] تیسری رات، ایک اور سعد دروازے سے باہر کھڑا تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation. On another night, the photograph contains its original Bashir and Saad plus two background duplicates of Saad. One remains in the doorway; the newer duplicate stands closer behind the original pair.",
+        "action": "Saad draws his head away from the photograph.",
+        "camera": "pull-out",
+        "mood": "Crowded photographic background, sharp moonlit edges, growing dread."
+      },
+      {
+        "id": "60lge4",
+        "narration": "ہر نیا چہرہ، تصویر میں پہلے سے زیادہ قریب تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation. Extreme close-up of the worn photograph on a later night. Several identical Saad faces form a receding trail from the dark doorway toward the glass, behind the original family pair.",
+        "action": "One additional Saad face materializes nearest the glass.",
+        "camera": "push-in",
+        "mood": "Compressed shadows, increasingly large faces, claustrophobic framing."
+      },
+      {
+        "id": "ch7xi4",
+        "narration": "سعد نے تصویر پر موٹا کپڑا ڈال دیا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation. Saad stands at the bedroom shelf holding an opaque brown cloth above the frame. His small torch rests beside the frame, pointed toward the wall.",
+        "action": "Saad drapes the cloth completely over the photograph.",
+        "camera": "static",
+        "mood": "Heavy fabric folds, dim moonlight, fragile relief."
+      },
+      {
+        "id": "8lwa1o",
+        "narration": "[whispers] مگر اگلی رات، کپڑے کے نیچے کچھ ہل رہا تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation. The covered photograph stands alone on the shelf the next night. The opaque brown cloth hides the entire frame; the abandoned torch remains beside it.",
+        "action": "The cloth bulges outward over the center of the frame.",
+        "camera": "low-angle",
+        "mood": "Unnatural rounded bulge, motionless surrounding dust, deep blue darkness."
+      },
+      {
+        "id": "0uc7mf",
+        "narration": "سعد نے کپڑا ہٹایا، تصویر اب چہروں سے بھری تھی۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation. Saad faces the shelf. Beneath the lifted cloth, the photograph is packed edge to edge with identical versions of his face, completely obscuring the original portrait.",
+        "action": "Saad pulls the cloth off the frame.",
+        "camera": "pan-left",
+        "mood": "Dense staring faces, exposed glass glare, oppressive stillness."
+      },
+      {
+        "id": "5k3bpd",
+        "narration": "اچانک، سارے چہروں نے ایک ساتھ شیشے سے ناکیں لگا دیں۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation. Extreme close-up of the photograph, with the real Saad's shoulder at the bottom edge. Every identical Saad face inside is immediately behind the glass, eyes wide and noses almost touching its inner surface.",
+        "action": "All the photographed faces press their noses flat against the inside of the glass simultaneously.",
+        "camera": "push-in",
+        "mood": "Peak supernatural terror, flattened facial reflections, harsh torch glare, no go"
+      },
+      {
+        "id": "o4e5v2",
+        "narration": "[whispers] اگلی رات، تصویر میں وہ سنسان اسٹیشن کہاں سے آیا؟",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation. Back in the courtyard storytelling circle, Bashir sits beside his brass lantern with Saad opposite him. The same wooden frame now contains an empty foggy railway platform with blank walls and no signs, people or lettering.",
+        "action": "Bashir turns the transformed photograph toward Saad.",
+        "camera": "pull-out",
+        "mood": "Warm lantern surrounded by cold darkness, tiny deserted platform inside the fram"
+      }
+    ],
+    "endHook": "Ab tasveer mein sunsaan railway station kyun nazar aa raha hai?",
+    "createdAt": "2026-11-14T11:21:20.914Z",
+    "description": "بشیر چچا نے سعد کو ایک پرانی خاندانی تصویر کی کہانی سنائی، جس میں ہر رات ایک نیا چہرہ آتا تھا۔ مگر جب سعد نے ان چہروں کو پہچانا، تو تصویر چھپانا بھی بیکار نکلا۔ یہ ایک فرضی کہانی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Spooky Story",
+      "3D Animation",
+      "YouTube Shorts",
+      "Purani Tasveer"
+    ]
+  }
+}

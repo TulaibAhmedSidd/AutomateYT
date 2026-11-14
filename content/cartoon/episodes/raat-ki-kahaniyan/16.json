@@ -1,0 +1,151 @@
+{
+  "number": 16,
+  "topic": "Children's voices reading lessons come from an empty school classroom on a holiday.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:22:35.218Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Chhutti Ke Din Kaun Parh Raha Tha? | Raat Ki Kahaniyan",
+    "shots": [
+      {
+        "id": "s44j4x",
+        "narration": "اسکول میں چھٹی تھی، پھر سبق کون پڑھ رہا تھا؟",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation; deserted village school at night, one classroom window glowing faintly, bare walls without lettering.",
+        "action": "A wooden classroom window swings open.",
+        "camera": "push-in",
+        "mood": "Cold moonlight, low ground fog, an unnaturally empty courtyard."
+      },
+      {
+        "id": "mxhusn",
+        "narration": "بشیر چچا نے سعد کو لالٹین کے پاس بٹھایا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical cinematic 3D frame; old Pakistani haveli courtyard, brass lantern between a charpoy and a stool, no writing or signs.",
+        "action": "Saad, wearing a dark green hoodie and jeans, sits beside Bashir.",
+        "camera": "static",
+        "mood": "Warm lantern glow surrounded by deep blue night shadows."
+      },
+      {
+        "id": "3rw5jc",
+        "narration": "[whispers] اُس رات میں اسکول کے سامنے سے گزر رہا تھا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical cinematic 3D flashback; narrow village lane beside the deserted school, blank plaster walls and shuttered windows.",
+        "action": "Bashir walks past the school carrying his old brass lantern.",
+        "camera": "pan-right",
+        "mood": "Grey beard, brown woollen shawl and white cap outlined by drifting fog."
+      },
+      {
+        "id": "3j0gzf",
+        "narration": "اندر بچوں کی آوازیں ایک ساتھ سبق دہرا رہی تھیں۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical cinematic 3D frame; school entrance with a distinctive cracked brass bell above an unmarked wooden door.",
+        "action": "Bashir cups one hand behind his ear.",
+        "camera": "push-in",
+        "mood": "Lantern light catches the bell's crack; the entrance beyond is completely dark."
+      },
+      {
+        "id": "b7626k",
+        "narration": "میں نے دروازہ کھولا، تو ساری آوازیں رک گئیں۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical cinematic 3D frame; classroom doorway beneath the cracked brass bell, no signs or lettering.",
+        "action": "Bashir pushes the classroom door open.",
+        "camera": "low-angle",
+        "mood": "A sharp wedge of amber light cuts across a dusty floor."
+      },
+      {
+        "id": "f0s4q0",
+        "narration": "[surprised] اندر کوئی نہیں تھا، بس خالی بینچیں تھیں۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical cinematic 3D frame; empty classroom with orderly wooden benches, bare desks and a completely blank blackboard.",
+        "action": "Bashir raises his lantern over the empty benches.",
+        "camera": "pan-left",
+        "mood": "Long furniture shadows stretch through suspended dust; no pupils or human silhou"
+      },
+      {
+        "id": "pdm564",
+        "narration": "پھر آخری بینچ خود ہی آگے کھسک گئی۔",
+        "characters": [],
+        "scene": "Vertical cinematic 3D frame; floor-level view between empty classroom benches, blank blackboard far behind.",
+        "action": "The rear wooden bench slides forward across the dusty floor.",
+        "camera": "static",
+        "mood": "Two fresh scrape tracks break the undisturbed dust."
+      },
+      {
+        "id": "8gkr6n",
+        "narration": "میں پیچھے ہٹا، تو باقی بینچیں بھی مڑ گئیں۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical cinematic 3D frame; empty school classroom, Bashir frozen near the open doorway with his lantern.",
+        "action": "All the wooden benches pivot toward Bashir.",
+        "camera": "pull-out",
+        "mood": "Converging bench rows resemble an audience facing the lantern."
+      },
+      {
+        "id": "ygi1dg",
+        "narration": "[whispers] اب سبق میرے بالکل پیچھے پڑھا جا رہا تھا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical cinematic 3D frame; tight view of Bashir at the classroom threshold, an empty corridor visible behind his shoulder.",
+        "action": "Bashir turns his head toward the empty corridor.",
+        "camera": "orbit",
+        "mood": "Wide eyes, motionless fog and a narrow rim of moonlight."
+      },
+      {
+        "id": "8peewb",
+        "narration": "باہر نکلا، تو دروازے پر وہی بینچ رکھی تھی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical cinematic 3D frame; school veranda beneath the cracked brass bell, one empty wooden bench blocking the exit steps.",
+        "action": "Bashir stops in front of the bench.",
+        "camera": "low-angle",
+        "mood": "The bench casts an oversized shadow across the only route out."
+      },
+      {
+        "id": "si37v6",
+        "narration": "پھر ساری خالی بینچیں میرے پیچھے باہر آنے لگیں۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical cinematic 3D frame; narrow school veranda, Bashir beside the blocking bench, open classroom doorway behind him.",
+        "action": "A tightly packed row of empty benches slides through the doorway toward Bashir.",
+        "camera": "pull-out",
+        "mood": "Claustrophobic lantern shadows, looming wooden furniture, no people inside the c"
+      },
+      {
+        "id": "8vn6e0",
+        "narration": "[whispers] اگلی رات، یہی گھنٹی ویران اسٹیشن پر بج رہی تھی۔",
+        "characters": [],
+        "scene": "Vertical cinematic 3D frame; deserted village railway platform at night, the same cracked brass school bell hanging beneath a bare canopy, no signs or lettering.",
+        "action": "The cracked brass bell swings by itself.",
+        "camera": "push-in",
+        "mood": "Silver railway tracks disappear into dense fog beneath cold moonlight."
+      }
+    ],
+    "endHook": "Wohi ghanti ab veeran station par kyun baj rahi thi?",
+    "createdAt": "2026-11-14T11:22:35.215Z",
+    "description": "چھٹی کے دن بند اسکول سے سبق پڑھنے کی آوازیں آ رہی تھیں، مگر اندر کوئی بچہ نہیں تھا۔ لالٹین کے پاس بیٹھے بشیر چچا نے سعد کو بتایا کہ خالی جماعت میں انہوں نے کیا دیکھا۔ یہ ایک فرضی کہانی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror Story",
+      "Empty School",
+      "Spooky Animation",
+      "Pakistani Stories",
+      "YouTube Shorts"
+    ]
+  }
+}

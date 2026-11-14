@@ -1,0 +1,156 @@
+{
+  "number": 19,
+  "topic": "A shop on a dark street sells watches that show how much time each customer has left.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:22:46.855Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Aakhri Waqt Ki Dukaan | Raat Ki Kahaniyan",
+    "shots": [
+      {
+        "id": "uvzysd",
+        "narration": "اُس دکان کی گھڑیاں بتاتی تھیں، کتنا وقت باقی ہے۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, old Pakistani haveli courtyard at night, brass lantern between Bashir and Saad, fog beneath a wooden gate, no writing anywhere.",
+        "action": "Bashir presents a wristwatch with a blank black dial and a thin glowing arc to Saad.",
+        "camera": "push-in",
+        "mood": "Amber lantern light against cold moonlight, deep shadows, unsettling stillness."
+      },
+      {
+        "id": "vb435v",
+        "narration": "بشیر چچا بولے، کل رات میں اُس دکان میں گیا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Same haveli courtyard, Bashir in his brown shawl and white cap beside Saad in a dark green hoodie, watch between them.",
+        "action": "Bashir points toward the empty lane beyond the courtyard gate.",
+        "camera": "pan-right",
+        "mood": "Long gate shadows, low fog, warm lantern halo."
+      },
+      {
+        "id": "yaytkv",
+        "narration": "[whispers] وہاں ہر گھڑی پر ہندسوں کی جگہ روشنی تھی۔",
+        "characters": [],
+        "scene": "Flashback inside a tiny unattended watch shop on an empty Pakistani street, wooden cabinets containing blank watch faces with glowing circular arcs, no numerals, lettering or signs.",
+        "action": "A glowing arc slowly contracts around one watch face.",
+        "camera": "push-in",
+        "mood": "Dusty glass, pale green reflections, narrow pools of moonlight."
+      },
+      {
+        "id": "kl800j",
+        "narration": "میں نے ایک گھڑی اپنی کلائی پر باندھ لی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Inside the same watch shop, Bashir beside a dusty wooden counter, his brass lantern resting nearby, blank watches behind glass.",
+        "action": "Bashir fastens a black-faced watch around his wrist.",
+        "camera": "static",
+        "mood": "Soft brass reflections, dark shelving, isolated lantern glow."
+      },
+      {
+        "id": "r0cmn0",
+        "narration": "اُس کی روشنی باقی سب سے جلدی گھٹ رہی تھی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Extreme close view of Bashir's wrist above the shop counter, a short glowing arc on an otherwise empty watch dial.",
+        "action": "The watch's glowing arc rapidly shrinks.",
+        "camera": "push-in",
+        "mood": "Cold light on trembling fingers, surrounding darkness."
+      },
+      {
+        "id": "p0q976",
+        "narration": "[surprised] اُتارنے لگا، مگر پٹا کھل ہی نہیں رہا تھا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Same shop counter, Bashir's grey beard and worried eyes above his raised wrist, brass lantern at the edge of frame.",
+        "action": "Bashir tugs at the watch strap.",
+        "camera": "low-angle",
+        "mood": "Tight framing, sharp lantern shadows, trapped unease."
+      },
+      {
+        "id": "t0hppo",
+        "narration": "میں فوراً دروازے کی طرف بڑھا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Narrow aisle between watch cabinets and an open wooden shop door, deserted moonlit street outside, lantern in Bashir's free hand.",
+        "action": "Bashir strides toward the open doorway.",
+        "camera": "pull-out",
+        "mood": "A thin escape route through blue fog, looming cabinets."
+      },
+      {
+        "id": "p0mhmo",
+        "narration": "دروازہ میرے سامنے خود ہی بند ہوگیا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Interior view of the shop entrance, Bashir one step from the threshold with his lantern, plain wooden door without markings.",
+        "action": "The wooden door swings shut in front of Bashir.",
+        "camera": "static",
+        "mood": "Sudden enclosure, heavy darkness, a narrow moonlit seam."
+      },
+      {
+        "id": "q6uijh",
+        "narration": "[whispers] پھر میرا سایہ میرے بغیر کاؤنٹر کی طرف چل پڑا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Shop floor between the closed door and wooden counter, Bashir standing rigid with his lantern, one elongated shadow detached from his feet.",
+        "action": "Bashir's detached shadow slides across the floor toward the counter.",
+        "camera": "pan-left",
+        "mood": "Impossible shadow geometry, cold tiles, sickly watch glow."
+      },
+      {
+        "id": "dqbq94",
+        "narration": "گھڑی میں بس روشنی کا ایک نقطہ بچا تھا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Close view of Bashir's watch held above the counter, one tiny luminous point on its blank face, his detached shadow stretched beneath his wrist.",
+        "action": "The final point of light flickers.",
+        "camera": "push-in",
+        "mood": "Near-black frame, pinprick light, suspended dread."
+      },
+      {
+        "id": "ei454y",
+        "narration": "روشنی بجھی، تو گھڑی میرا سایہ نگل گئی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Watch shop counter beneath Bashir's raised wrist, his lantern lighting the floor, detached human-shaped shadow tapering upward into the blank watch face.",
+        "action": "The watch draws Bashir's entire shadow into its glass.",
+        "camera": "low-angle",
+        "mood": "Deep cinematic blacks, stretched silhouette, terrifying supernatural stillness."
+      },
+      {
+        "id": "t8uf4p",
+        "narration": "[surprised] سعد بولا، گھڑی میں اب یہ کون سا اسٹیشن ہے؟",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Back in the haveli courtyard, Saad beside shadowless Bashir under lantern light, the watch glass showing a miniature deserted railway platform without signs or lettering.",
+        "action": "Saad raises the watch toward his eyes.",
+        "camera": "push-in",
+        "mood": "Warm courtyard light surrounding an icy miniature station, lingering impossible "
+      }
+    ],
+    "endHook": "Agli raat: Saad ki ghari mein nazar aane wala station!",
+    "createdAt": "2026-11-14T11:22:46.852Z",
+    "description": "بشیر چچا نے سعد کو ایک ایسی دکان کی کہانی سنائی جہاں گھڑیاں بچا ہوا وقت دکھاتی تھیں۔ مگر وقت ختم ہونے پر دکان کیا رکھ لیتی تھی؟ یہ کہانی مکمل طور پر فرضی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Spooky Story",
+      "Animated Shorts",
+      "Purani Ghari"
+    ]
+  }
+}

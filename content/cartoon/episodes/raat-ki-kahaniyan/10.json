@@ -1,0 +1,155 @@
+{
+  "number": 10,
+  "topic": "During load-shedding, slow footsteps walk on the rooftop of a house where nobody lives upstairs.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:21:19.527Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Chhat Par Kaun Chal Raha Hai? | Raat Ki Kahaniyan",
+    "shots": [
+      {
+        "id": "ajtkr3",
+        "narration": "اوپر کوئی نہیں رہتا، پھر یہ چل کون رہا ہے؟",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look. Covered courtyard of an old Pakistani haveli at night, bare plaster ceiling, brass lantern between two stools, no writing anywhere.",
+        "action": "Saad tilts his head toward the ceiling while Bashir sits beside the lantern.",
+        "camera": "push-in",
+        "mood": "Amber lantern light, deep blue shadows, a narrow shaft of moonlight."
+      },
+      {
+        "id": "gfjqs1",
+        "narration": "بشیر چچا بولے، پچھلی لوڈشیڈنگ میں بھی یہی ہوا تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Same haveli courtyard, Bashir with grey beard, brown woollen shawl and white cap; Saad in a dark green hoodie and jeans.",
+        "action": "Bashir raises one finger toward Saad.",
+        "camera": "static",
+        "mood": "Warm lantern glow isolates their faces against a dark courtyard."
+      },
+      {
+        "id": "3nh2eq",
+        "narration": "[whispers] بتی گئی، تو چھت پر کوئی آہستہ آہستہ چلنے لگا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Flashback inside the same haveli, empty upper floor above a small sitting room, unlit electric bulb and brass lantern.",
+        "action": "Bashir lifts his gaze toward the ceiling.",
+        "camera": "low-angle",
+        "mood": "Moonlit window bars, heavy overhead shadows, dim amber light."
+      },
+      {
+        "id": "jmfle6",
+        "narration": "ہر قدم کے ساتھ چھت سے مٹی جھڑ رہی تھی۔",
+        "characters": [],
+        "scene": "Close view of cracked ceiling plaster above a lantern-lit floor in the flashback sitting room.",
+        "action": "Small puffs of plaster dust fall in a slow line across the room.",
+        "camera": "pan-right",
+        "mood": "Suspended golden dust against nearly black ceiling corners."
+      },
+      {
+        "id": "f7yfyn",
+        "narration": "میں لالٹین لے کر اوپر گیا، آواز فوراً رک گئی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Narrow stone staircase opening onto the haveli rooftop, moonlight above, no signs or markings.",
+        "action": "Bashir climbs the final stair carrying his brass lantern.",
+        "camera": "pull-out",
+        "mood": "Cold blue rooftop light meets a trembling pool of amber."
+      },
+      {
+        "id": "4jvpi6",
+        "narration": "[sighs] چھت خالی تھی، مگر مٹی پر تازہ قدم تھے۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Bare haveli rooftop with low parapet, thin dust coating the floor and a row of fresh barefoot impressions.",
+        "action": "Bashir lowers his lantern toward the footprints.",
+        "camera": "push-in",
+        "mood": "Pale moonlight, low drifting fog, sharply defined dark impressions."
+      },
+      {
+        "id": "30uckg",
+        "narration": "وہ نشان سیدھے میرے پیچھے آ رہے تھے۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Low rooftop view behind Bashir's sandals, dusty floor extending toward the empty parapet.",
+        "action": "Fresh barefoot impressions form one after another toward Bashir's heels.",
+        "camera": "static",
+        "mood": "Empty moonlit space, advancing dark prints, tight lantern glow."
+      },
+      {
+        "id": "tdfj99",
+        "narration": "میں رکا، تو آخری نشان بھی رک گیا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Rooftop stair entrance, one fresh barefoot impression directly behind Bashir's sandal.",
+        "action": "Bashir freezes with one foot hovering above the stair.",
+        "camera": "low-angle",
+        "mood": "Rigid silhouette, black stairwell, lantern-lit dust hanging motionless."
+      },
+      {
+        "id": "hpides",
+        "narration": "[whispers] میں نیچے بھاگا، قدم بھی میرے ساتھ اترنے لگے۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Narrow stone staircase descending from the rooftop, dusty treads illuminated by Bashir's lantern.",
+        "action": "Bashir hurries downstairs as fresh prints appear on the steps behind him.",
+        "camera": "pan-left",
+        "mood": "Stretched banister shadows, deep darkness above, swinging amber illumination."
+      },
+      {
+        "id": "d1iiow",
+        "narration": "سعد بولا، چچا، اب بھی اوپر کوئی چل رہا ہے۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Return to the present-night covered courtyard, both seated beside the same brass lantern.",
+        "action": "Saad points at the ceiling directly above them.",
+        "camera": "orbit",
+        "mood": "Lantern light catches their raised faces beneath a broad ceiling shadow."
+      },
+      {
+        "id": "q395gc",
+        "narration": "اس بار قدموں کے نشان چھت کے نیچے بن رہے تھے۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Upward view past Bashir and Saad toward the underside of the courtyard ceiling, empty plaster directly overhead.",
+        "action": "Dark barefoot impressions press into the ceiling toward the space above their heads.",
+        "camera": "push-in",
+        "mood": "Impossible inverted footprints, stark moonlight, faces caught in amber light bel"
+      },
+      {
+        "id": "m9renj",
+        "narration": "[whispers] پھر بند تہہ خانے کے اندر سے دستک آئی۔",
+        "characters": [],
+        "scene": "Closed wooden basement door beneath the courtyard staircase, plain wood without writing, thin lantern glow across its iron latch.",
+        "action": "The basement door jolts outward against its closed latch.",
+        "camera": "static",
+        "mood": "Pitch-black gaps around the door, cold stone steps, faint amber reflections."
+      }
+    ],
+    "endHook": "اگلی رات: بند تہہ خانے سے کس نے جواب دیا؟",
+    "createdAt": "2026-11-14T11:21:19.519Z",
+    "description": "لوڈشیڈنگ میں خالی چھت پر قدم چلنے لگے، تو بشیر چچا لالٹین لے کر اوپر گئے۔ لیکن جو چیز وہاں تھی، وہ چھت پر نہیں رکی۔ یہ ایک فرضی ڈراؤنی کہانی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Spooky Story",
+      "Pakistani Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

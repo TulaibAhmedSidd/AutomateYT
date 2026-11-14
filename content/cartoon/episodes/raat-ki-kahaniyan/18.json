@@ -1,0 +1,156 @@
+{
+  "number": 18,
+  "topic": "Saad receives a voice note in his own voice that he never recorded.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:22:45.604Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Meri Awaaz Ka Voice Note | Raat Ki Kahaniyan",
+    "shots": [
+      {
+        "id": "d0oijb",
+        "narration": "میری اپنی آواز تھی، مگر پیغام میں نے نہیں بھیجا تھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, deserted Pakistani railway platform at midnight, blank phone screen glowing pale blue, no text or signage.",
+        "action": "Saad pulls his glowing phone away from his ear.",
+        "camera": "push-in",
+        "mood": "Cold moonlight, startled eyes, deep shadows beneath an empty platform roof."
+      },
+      {
+        "id": "nxbln6",
+        "narration": "بشیر چچا بولے، تمہارے ساتھ اُس رات یہی ہوا تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, old Pakistani haveli courtyard at night, Bashir in brown woollen shawl and white cap beside his brass lantern, Saad seated opposite.",
+        "action": "Bashir leans toward Saad across the lantern.",
+        "camera": "static",
+        "mood": "Warm lantern glow enclosed by blue fog, intimate storytelling tension."
+      },
+      {
+        "id": "4fvqhh",
+        "narration": "[whispers] تم آخری گاڑی کے انتظار میں بالکل اکیلے بیٹھے تھے۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, earlier that night, deserted rural railway platform, wooden bench beside a closed waiting-room door, no signs or lettering.",
+        "action": "Saad lowers himself onto the wooden bench.",
+        "camera": "pull-out",
+        "mood": "Vast empty platform, drifting ground fog, lonely moonlit rails."
+      },
+      {
+        "id": "2qotdx",
+        "narration": "تب فون پر تمہاری ہی آواز میں ایک پیغام آیا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, railway bench beside the waiting room, Saad in dark green hoodie and jeans, phone showing only uniform blue light.",
+        "action": "Saad raises the phone to his ear.",
+        "camera": "push-in",
+        "mood": "Blue light across his face, darkness swallowing the far platform."
+      },
+      {
+        "id": "pzpqp9",
+        "narration": "آواز بولی، سامنے والا دروازہ بالکل مت کھولنا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, over Saad's shoulder toward a weathered wooden waiting-room door with an iron handle, no markings.",
+        "action": "Saad points his small torch at the closed door.",
+        "camera": "pan-right",
+        "mood": "Narrow torch beam, heavy black gaps around the door, suspended dust."
+      },
+      {
+        "id": "654cbg",
+        "narration": "[surprised] پھر دروازے کا ہینڈل خود ہی گھومنے لگا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of the waiting-room door's old iron handle, cracked wood illuminated by an offscreen torch.",
+        "action": "The iron handle slowly rotates downward.",
+        "camera": "static",
+        "mood": "Hard sidelight, long handle shadow, oppressive stillness."
+      },
+      {
+        "id": "qhsff2",
+        "narration": "تم نے فوراً اپنا ہاتھ ہینڈل سے پیچھے کھینچ لیا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, Saad beside the closed waiting-room door, phone tucked against his ear, torch beam falling across the handle.",
+        "action": "Saad snatches his reaching hand away from the handle.",
+        "camera": "low-angle",
+        "mood": "Rigid shoulders, sharp moonlit profile, looming wooden door."
+      },
+      {
+        "id": "qmusma",
+        "narration": "لیکن اگلے پیغام نے تمہیں وہیں روک دیا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, deserted platform outside the waiting room, Saad holding his phone, its screen a featureless blue glow.",
+        "action": "Saad lifts the phone back against his ear.",
+        "camera": "push-in",
+        "mood": "Tight anxious framing, blue screen light against deep green fabric."
+      },
+      {
+        "id": "lbxl86",
+        "narration": "[whispers] دروازہ کھولو، میں ابھی تک اندر بند ہوں۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, Saad facing the shut waiting-room door, moonlight casting his distinct hooded shadow across its wooden panels.",
+        "action": "Saad takes one slow step backward.",
+        "camera": "pull-out",
+        "mood": "Unnaturally long shadow, pale fog, claustrophobic doorway."
+      },
+      {
+        "id": "e4pjgf",
+        "narration": "تم پیچھے ہٹے، مگر تمہارا سایہ دروازے پر رہ گیا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, wide platform view, Saad several steps from the door, his own hooded shadow inexplicably fixed to its panels.",
+        "action": "Saad backs farther away from his stationary shadow.",
+        "camera": "static",
+        "mood": "Impossible separation, empty space between boy and door, cold silver lighting."
+      },
+      {
+        "id": "a3s8w7",
+        "narration": "پھر اُس سائے نے اندر سے ہینڈل پکڑ لیا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, closed wooden waiting-room door with Saad's detached shadow on its panels, Saad frozen at the edge of frame.",
+        "action": "The shadow's flat hand curls into a solid black grip around the iron handle.",
+        "camera": "push-in",
+        "mood": "Darkest frame, impossible three-dimensional shadow fingers, stark torchlight, no"
+      },
+      {
+        "id": "4ln8qb",
+        "narration": "[whispers] پھر تمہاری آواز اُس خشک کنویں سے کیوں آ رہی ہے؟",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, back in the haveli courtyard, Bashir beside his brass lantern, an old dry stone well beyond Saad in the fog.",
+        "action": "Saad swings his torch toward the dry well.",
+        "camera": "pan-left",
+        "mood": "Warm lantern foreground, cold black well opening, unresolved midnight dread."
+      }
+    ],
+    "endHook": "Ab Saad ki awaaz sookhay kuen se kyun aa rahi hai?",
+    "createdAt": "2026-11-14T11:22:45.601Z",
+    "description": "سعد کو اپنی ہی آواز میں ایک ایسا پیغام ملا جو اُس نے بھیجا ہی نہیں تھا۔ لالٹین کے پاس بیٹھے بشیر چچا نے اُس رات کا قصہ سنایا، مگر بات ابھی ختم نہیں ہوئی۔ یہ کہانی مکمل طور پر فرضی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Voice Note",
+      "Spooky Story",
+      "Pakistani Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

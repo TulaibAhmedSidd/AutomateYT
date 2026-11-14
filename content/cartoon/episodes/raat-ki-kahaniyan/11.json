@@ -1,0 +1,158 @@
+{
+  "number": 11,
+  "topic": "A roadside dhaba serves the best tea on the highway at night, but by morning there is only an empty field.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:21:54.271Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Raat Ki Kahaniyan: Subah Dhaba Kahan Gaya?",
+    "shots": [
+      {
+        "id": "z0ldcf",
+        "narration": "چائے تو کمال تھی، مگر صبح ڈھابا ہی غائب تھا!",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look. An old Pakistani haveli courtyard at midnight, brass lantern between Bashir and Saad, blank plaster walls, no writing.",
+        "action": "Bashir raises a small chipped blue teacup toward Saad.",
+        "camera": "push-in",
+        "mood": "Warm lantern light against deep blue moonlight, long eerie shadows."
+      },
+      {
+        "id": "se8r9j",
+        "narration": "سعد نے پوچھا، چچا، پھر یہ پیالی کہاں سے آئی؟",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "The same foggy haveli courtyard, Bashir in his brown shawl and white cap, Saad in his dark green hoodie.",
+        "action": "Saad points at the chipped blue teacup.",
+        "camera": "static",
+        "mood": "Quiet curiosity, amber highlights on glazed pottery."
+      },
+      {
+        "id": "h656tf",
+        "narration": "[whispers] بشیر چچا بولے، اُس رات سڑک بالکل سنسان تھی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Flashback on an empty rural Pakistani highway at night, fields on both sides, low fog, vertical 9:16, no signs or writing.",
+        "action": "Bashir walks along the roadside carrying his brass lantern.",
+        "camera": "pan-right",
+        "mood": "Cold moonlight, heavy darkness beyond the lantern's small glow."
+      },
+      {
+        "id": "piboqv",
+        "narration": "پھر دھند میں ایک چھوٹا سا ڈھابا نظر آیا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "A small roadside dhaba with a reed roof, rough wooden tables, clay stove and plain unmarked walls, surrounded by dense fog.",
+        "action": "Bashir stops before the dhaba's open doorway.",
+        "camera": "pull-out",
+        "mood": "Inviting amber interior isolated in a vast dark landscape."
+      },
+      {
+        "id": "omn2aw",
+        "narration": "اندر کوئی نہیں تھا، مگر چائے بالکل تیار تھی۔",
+        "characters": [],
+        "scene": "Inside the deserted roadside dhaba, a chipped blue teacup on a wooden table beside an empty chair, no people or writing.",
+        "action": "Steam curls upward from the full teacup.",
+        "camera": "push-in",
+        "mood": "Comforting golden light with unnaturally black corners."
+      },
+      {
+        "id": "zi8vtv",
+        "narration": "[sighs] ایسی مزیدار چائے میں نے پہلے کبھی نہیں پی تھی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Inside the same dhaba, Bashir seated beside his brass lantern at the rough wooden table.",
+        "action": "Bashir takes a sip from the chipped blue teacup.",
+        "camera": "static",
+        "mood": "Brief warmth and relief, soft steam across his grey beard."
+      },
+      {
+        "id": "9mallu",
+        "narration": "پھر خالی کرسی خود ہی میرے قریب کھسک آئی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "The dhaba interior, Bashir seated motionless with his blue teacup, an empty wooden chair opposite him.",
+        "action": "The empty chair slides across the floor toward Bashir.",
+        "camera": "low-angle",
+        "mood": "Tight shadows, a suddenly threatening pool of lantern light."
+      },
+      {
+        "id": "sqopir",
+        "narration": "میں پیالی لیے باہر بھاگا، اور صبح واپس آیا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Outside the dhaba at night, open doorway behind Bashir, brass lantern hanging from his wrist, fog across the highway.",
+        "action": "Bashir hurries away clutching the chipped blue teacup.",
+        "camera": "pan-left",
+        "mood": "Urgent movement, sharp moonlight, amber doorway shrinking behind him."
+      },
+      {
+        "id": "bci3ae",
+        "narration": "[surprised] وہاں تو کھیت تھا، کسی عمارت کا نشان نہیں!",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "The identical roadside location at pale dawn, uninterrupted grassy field where the dhaba stood, matching crooked roadside tree, no rubble.",
+        "action": "Bashir extends the chipped blue teacup toward the empty field.",
+        "camera": "pull-out",
+        "mood": "Bleached dawn mist, impossible emptiness, lingering unease."
+      },
+      {
+        "id": "930zli",
+        "narration": "سعد بولا، چچا، یہ چائے اب تک گرم کیوں ہے؟",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Back in the midnight haveli courtyard, Bashir holding the same blue teacup beside his lantern, Saad leaning close.",
+        "action": "A thick ribbon of steam rises from the teacup.",
+        "camera": "push-in",
+        "mood": "Amber steam against cold darkness, both faces tense."
+      },
+      {
+        "id": "8c92iq",
+        "narration": "دونوں پلٹے، تو وہی ڈھابا اُن کے پیچھے کھڑا تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "The haveli courtyard now dominated by the identical roadside dhaba, its reed roof towering behind Bashir and Saad, no writing.",
+        "action": "The dhaba's wooden door swings open behind them.",
+        "camera": "low-angle",
+        "mood": "Impossible looming architecture, harsh amber doorway, enormous cinematic shadows"
+      },
+      {
+        "id": "o1dgwl",
+        "narration": "[whispers] مگر دروازے کے پار ایک سنسان ریلوے اسٹیشن تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Over Bashir and Saad's shoulders, the dhaba doorway frames an impossible deserted railway platform under moonlight, blank walls, no signs or lettering.",
+        "action": "A chipped blue teacup slides across the threshold toward the platform.",
+        "camera": "push-in",
+        "mood": "Cold railway fog beyond warm lantern light, unsettling invitation."
+      }
+    ],
+    "endHook": "Dhabay ke darwazay ke peechhay railway station kyun tha?",
+    "createdAt": "2026-11-14T11:21:54.264Z",
+    "description": "بشیر چچا نے رات کے ایک ایسے ڈھابے کی کہانی سنائی جس کی چائے کبھی بھولتی نہیں۔ مگر صبح وہاں صرف خالی کھیت تھا، اور کہانی ابھی ختم نہیں ہوئی تھی۔ یہ ایک فرضی کہانی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Pakistani Animation",
+      "Haunted Dhaba",
+      "YouTube Shorts"
+    ]
+  }
+}

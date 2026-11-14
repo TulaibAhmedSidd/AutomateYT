@@ -1,0 +1,147 @@
+{
+  "number": 5,
+  "topic": "In a village well, the echo starts answering questions before you finish asking them.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:20:36.590Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Sawal Se Pehle Jawab | Raat Ki Kahaniyan",
+    "shots": [
+      {
+        "id": "92lnk1",
+        "narration": "کنویں نے جواب دیا، سوال ابھی پورا بھی نہیں ہوا تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, 3D animated film look, an ancient stone well in an empty Pakistani village at midnight, moonlit fog, no text or markings.",
+        "action": "Concentric ripples spread across the perfectly black well water.",
+        "camera": "push-in",
+        "mood": "Cold blue moonlight, deep circular darkness, unnatural stillness."
+      },
+      {
+        "id": "20mgs3",
+        "narration": "بشیر چچا بولے، اُس رات میں کنویں پر اکیلا تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, old Pakistani haveli courtyard, Bashir in his brown shawl and white cap beside his brass lantern, Saad in a dark green hoodie opposite him, closed wooden door behind Saad, no text.",
+        "action": "Bashir gestures toward the darkness while telling Saad his story.",
+        "camera": "static",
+        "mood": "Warm lantern glow surrounded by cold fog and tall shadows."
+      },
+      {
+        "id": "xacr71",
+        "narration": "[whispers] میں نے پوچھا، نیچے کوئی۔۔۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, story flashback at the isolated village well, Bashir with grey beard, brown woollen shawl, white cap and brass lantern, no text.",
+        "action": "Bashir leans over the stone rim.",
+        "camera": "low-angle",
+        "mood": "Lantern light barely reaches the damp inner stones."
+      },
+      {
+        "id": "gres50",
+        "narration": "آواز آئی، ہاں، میں یہیں ہوں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, view straight down the deep stone well, a tiny golden lantern reflection on black water, no text.",
+        "action": "The lantern reflection stretches into a long trembling streak.",
+        "camera": "push-in",
+        "mood": "Heavy darkness, wet stone, a distant unnatural golden glimmer."
+      },
+      {
+        "id": "gqoqjs",
+        "narration": "میں پیچھے ہٹا، مگر دل میں ایک سوال رہ گیا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, deserted village well beneath a pale moon, Bashir holding his old brass lantern, no text.",
+        "action": "Bashir takes one step away from the well.",
+        "camera": "pull-out",
+        "mood": "Small warm figure isolated in a vast foggy clearing."
+      },
+      {
+        "id": "1e9ka5",
+        "narration": "[whispers] میں نے پوچھا، تمہیں پہلے کیسے۔۔۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, side view of Bashir beside the mossy well rim, empty village lane behind him, no text.",
+        "action": "Bashir raises his lantern toward the opening.",
+        "camera": "pan-right",
+        "mood": "Amber light on a tense face, blue fog beyond."
+      },
+      {
+        "id": "5nejzm",
+        "narration": "جواب آیا، مجھے تمہارا اگلا سوال بھی معلوم ہے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of black well water reflecting Bashir's white cap and brass lantern, no text.",
+        "action": "A single ripple breaks Bashir's reflection.",
+        "camera": "static",
+        "mood": "Dark mirrorlike water, distorted warm light, claustrophobic stone walls."
+      },
+      {
+        "id": "cu13ux",
+        "narration": "میں نے کہا، پھر بتاؤ، کل رات۔۔۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, Bashir at the ancient well with his brass lantern held close to his brown shawl, no text.",
+        "action": "Bashir points into the well.",
+        "camera": "push-in",
+        "mood": "Defiant posture beneath looming moonlit branches."
+      },
+      {
+        "id": "7k9ets",
+        "narration": "[whispers] تم سعد کو سناؤ گے، میں بھی سننے آؤں گا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, deep inside the village well, black water surrounded by damp circular masonry, no text.",
+        "action": "The water swells upward into a smooth dark dome.",
+        "camera": "low-angle",
+        "mood": "Impossible water shape, faint amber highlights, crushing darkness."
+      },
+      {
+        "id": "yhzhkf",
+        "narration": "سعد بولا، چچا، یہ دروازہ تو اندر سے بند تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, return to the haveli courtyard, lantern between seated Bashir and Saad, wooden door behind Saad with its interior bolt visible, no text.",
+        "action": "Saad turns toward the wooden door.",
+        "camera": "pan-left",
+        "mood": "Lantern glow thinning across the courtyard, tense blue shadows."
+      },
+      {
+        "id": "k1uh7d",
+        "narration": "دروازہ کھلا، پیچھے کمرہ نہیں، وہی کنواں تھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, over Saad's shoulder in the haveli courtyard, wooden doorway framing the same moonlit village well instead of a room, no text.",
+        "action": "The bolted door swings inward by itself.",
+        "camera": "push-in",
+        "mood": "Impossible doorway, towering black well opening, cold fog spilling over the thre"
+      },
+      {
+        "id": "i23o2h",
+        "narration": "[whispers] پھر آواز آئی، اگلی رات سیڑھیوں سے نیچے آنا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, view through the impossible doorway into the well, narrow wet stone stairs spiraling down its inner wall into darkness, no text.",
+        "action": "A faint amber glow appears far below the final visible step.",
+        "camera": "pull-out",
+        "mood": "Deep descending shadows, damp stone, a tiny inviting light in the abyss."
+      }
+    ],
+    "endHook": "Agli raat: band kamre mein kuen ki seerhiyan kahan jaati hain?",
+    "createdAt": "2026-11-14T11:20:36.574Z",
+    "description": "بشیر چچا نے سعد کو ایک ایسے کنویں کی کہانی سنائی، جو سوال مکمل ہونے سے پہلے جواب دیتا تھا۔ مگر اُس رات کنویں نے جو بتایا، وہ کہانی تک محدود نہیں رہا۔ یہ ایک فرضی کہانی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror Story",
+      "Village Well",
+      "Spooky Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "number": 15,
+  "topic": "A railway station clock stays stuck at 2:13, and one train still arrives at exactly that time.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:22:03.957Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Do Baj Kar Terah Minute",
+    "shots": [
+      {
+        "id": "zr7r9c",
+        "narration": "گھڑی بند تھی، مگر ریل ہمیشہ اُسی وقت آتی تھی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, an old Pakistani haveli courtyard at night, Bashir and Saad seated beside an old brass lantern, no visible text.",
+        "action": "Bashir holds a stopped pocket watch toward Saad.",
+        "camera": "push-in",
+        "mood": "Amber lantern light against deep blue moonlight, dense shadows, unsettling still"
+      },
+      {
+        "id": "0w3dvv",
+        "narration": "بشیر چچا بولے، اُس رات میں اسٹیشن پر اکیلا تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, the same haveli courtyard, Bashir in his brown woollen shawl and white cap opposite Saad in his dark green hoodie, no text.",
+        "action": "Bashir points beyond the courtyard arch.",
+        "camera": "static",
+        "mood": "Warm lantern glow on his grey beard, cold fog beyond the arch."
+      },
+      {
+        "id": "1b3cmj",
+        "narration": "[whispers] وہاں گھڑی دو بج کر تیرہ منٹ پر رکی تھی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, 3D animated film look, abandoned fictional Pakistani railway station, a large analog clock with a completely unmarked face, minute hand at thirteen minutes and hour hand just past two, no signage or text.",
+        "action": "A thin ribbon of fog crosses the motionless clock face.",
+        "camera": "push-in",
+        "mood": "Pale moonlight, weathered plaster, heavy black shadows."
+      },
+      {
+        "id": "3jhxl2",
+        "narration": "میں نے سوچا، بس گھڑی خراب ہے۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, empty station platform beneath the unmarked clock, Bashir carrying his old brass lantern, blank walls without signs.",
+        "action": "Bashir lifts his lantern toward the clock.",
+        "camera": "low-angle",
+        "mood": "Small amber light beneath a looming clock tower, blue night fog."
+      },
+      {
+        "id": "jkt6k9",
+        "narration": "پھر پٹڑی پر روشنی نظر آئی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, deserted railway platform with tracks disappearing into thick fog, Bashir beside a bare wooden bench, no text.",
+        "action": "A distant train headlamp emerges from the fog.",
+        "camera": "pan-right",
+        "mood": "A narrow white beam through blue mist, deep empty space."
+      },
+      {
+        "id": "v77yi8",
+        "narration": "[surprised] ریل آ رہی تھی، مگر پہیے بالکل ساکن تھے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, 3D animated film look, close view of an old unmarked passenger train beside the platform, sharply visible wheel spokes, no numbers or lettering.",
+        "action": "The train glides forward on completely motionless wheels.",
+        "camera": "static",
+        "mood": "Cold metallic reflections, unnatural smoothness, low drifting fog."
+      },
+      {
+        "id": "bo0sk7",
+        "narration": "ہر کھڑکی اندھیری تھی، ہر ڈبہ خالی تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, 3D animated film look, stationary passenger train with dark windows revealing rows of empty seats, no markings or text.",
+        "action": "A loose curtain slides across one empty compartment window.",
+        "camera": "pan-left",
+        "mood": "Moonlit glass, hollow darkness, abandoned stillness."
+      },
+      {
+        "id": "y01n4d",
+        "narration": "پھر ایک دروازہ میرے سامنے کھل گیا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, Bashir facing a closed carriage doorway from the empty platform, his brass lantern held at his side, no text.",
+        "action": "The carriage door swings open before Bashir.",
+        "camera": "push-in",
+        "mood": "Pitch-black doorway framed by faint silver light and amber lantern glow."
+      },
+      {
+        "id": "zeh7er",
+        "narration": "[whispers] اندر بالکل میری لالٹین جیسی روشنی تھی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, view past Bashir's shoulder into the open train doorway, a faint amber glow behind an interior partition, his own lantern visible in the foreground, no text.",
+        "action": "Bashir leans toward the doorway.",
+        "camera": "push-in",
+        "mood": "Two separate amber light sources divided by thick black shadows."
+      },
+      {
+        "id": "ahm4tk",
+        "narration": "میں نے اپنی لالٹین مضبوطی سے پکڑ لی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, close view of Bashir's hand around the worn brass lantern handle outside the carriage, dark doorway behind him, no text.",
+        "action": "Bashir tightens his grip on the lantern handle.",
+        "camera": "static",
+        "mood": "Tense fingers in warm light, cold fog curling around brown wool."
+      },
+      {
+        "id": "7i54kt",
+        "narration": "اندر میری دوسری لالٹین تھی، اور میرا سایہ کھڑا تھا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, Bashir visible at the open carriage threshold holding his lantern, an identical brass lantern resting on an empty seat inside, his distinctive capped shadow on the far wall, no other people and no text.",
+        "action": "Bashir's shadow inside the carriage raises one arm while Bashir remains motionless.",
+        "camera": "push-in",
+        "mood": "Towering impossible shadow, twin amber lanterns, oppressive black compartment co"
+      },
+      {
+        "id": "tplsen",
+        "narration": "[whispers] سعد، کل بتاؤں گا، وہ لالٹین اب کس کمرے میں ہے۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, return to the haveli courtyard with Bashir and Saad beside their lantern, a closed wooden room door behind Saad, amber light visible beneath it, no text.",
+        "action": "Bashir points toward the closed room.",
+        "camera": "pull-out",
+        "mood": "Familiar courtyard turned threatening, a second amber glow beneath the distant d"
+      }
+    ],
+    "endHook": "Agli raat: Woh laalten band dibbe mein kaise pohanchi?",
+    "createdAt": "2026-11-14T11:22:03.954Z",
+    "description": "بشیر چچا نے سعد کو ایک ویران اسٹیشن کی کہانی سنائی، جہاں گھڑی دو بج کر تیرہ منٹ پر رکی تھی۔ پھر بھی ایک ریل گاڑی عین اسی وقت آتی تھی۔ یہ ایک خیالی کہانی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Animated Short",
+      "Haunted Station",
+      "Pakistani Stories"
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "number": 6,
+  "topic": "Bashir Chacha's old lantern lights up by itself on the nights someone needs help.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:21:19.443Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Khud Jalne Wali Laalten | Raat Ki Kahaniyan",
+    "shots": [
+      {
+        "id": "ubuzxd",
+        "narration": "یہ لالٹین خود جلے، تو کسی کو مدد چاہیے۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Old Pakistani haveli courtyard at midnight, brass lantern between Bashir and Saad, vertical 9:16, 3D animated film look, no text.",
+        "action": "Bashir points at the brass lantern.",
+        "camera": "push-in",
+        "mood": "Warm lantern glow against deep blue moonlight, low fog, long courtyard shadows."
+      },
+      {
+        "id": "4fz11e",
+        "narration": "سعد بولا، مجھے بھی اسی نے اسٹیشن سے نکالا تھا؟",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Same haveli courtyard, Saad seated opposite Bashir beside the lantern, vertical 9:16, no text.",
+        "action": "Saad leans toward Bashir.",
+        "camera": "static",
+        "mood": "Uneasy recognition, amber light across Saad's face, darkness behind his chair."
+      },
+      {
+        "id": "ct8uj4",
+        "narration": "[whispers] اُس رات یہ بجھی پڑی تھی، پھر اچانک جل اٹھی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Flashback inside Bashir's small watchman's room beside an empty railway station, unlit brass lantern on a wooden table, vertical 9:16, no text.",
+        "action": "The lantern ignites without being touched.",
+        "camera": "push-in",
+        "mood": "Sudden amber illumination, startled eyes, cold moonlight through an open doorway"
+      },
+      {
+        "id": "i55evs",
+        "narration": "اس کی روشنی سیدھی اسٹیشن کے بند کمرے پر پڑی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Deserted railway platform with an old closed wooden waiting-room door, Bashir holding his lantern, vertical 9:16, no signs or text.",
+        "action": "A narrow beam from the lantern stretches toward the closed door.",
+        "camera": "pan-right",
+        "mood": "Unnatural directional light, thick platform fog, empty benches in shadow."
+      },
+      {
+        "id": "d8fpbn",
+        "narration": "اندر سعد تھا، دروازہ باہر سے اٹکا ہوا تھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Inside the dark station waiting room, Saad in his green hoodie beside a closed wooden door, small torch on the floor, vertical 9:16, no text.",
+        "action": "Saad pulls the door handle.",
+        "camera": "static",
+        "mood": "Claustrophobic darkness, thin moonlight through a barred window, anxious express"
+      },
+      {
+        "id": "fq29d9",
+        "narration": "[whispers] وہ پکار رہا تھا، مگر باہر آواز نہیں آتی تھی۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "View through the waiting room's dusty barred window from the empty platform, Saad visible inside, vertical 9:16, no text.",
+        "action": "Saad calls toward the window.",
+        "camera": "push-in",
+        "mood": "Visually isolated figure behind dusty glass, dense fog outside, desperate open m"
+      },
+      {
+        "id": "7mvksu",
+        "narration": "میں نے دروازے کے باہر پھنسی لکڑی ہٹا دی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Outside the station waiting-room door, a fallen timber wedged beneath its bottom edge, brass lantern resting nearby, vertical 9:16, no text.",
+        "action": "Bashir pulls the wedged timber away.",
+        "camera": "low-angle",
+        "mood": "Hard amber highlights on rough wood, deep shadows beneath the doorway."
+      },
+      {
+        "id": "ahpnq7",
+        "narration": "سعد باہر آیا، مگر لالٹین اندر ہی روشنی ڈالتی رہی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Open waiting-room doorway on the deserted platform, Bashir holding the lantern outside, vertical 9:16, no text.",
+        "action": "Saad steps out onto the platform.",
+        "camera": "pull-out",
+        "mood": "Brief relief undermined by the lantern beam remaining fixed inside the empty roo"
+      },
+      {
+        "id": "l0tp96",
+        "narration": "[sighs] میں سمجھا، بس، اب مدد کی ضرورت نہیں رہی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Foggy station exit with Bashir and Saad together, waiting-room doorway far behind them, vertical 9:16, no signs or text.",
+        "action": "Bashir lowers the lantern's wick.",
+        "camera": "static",
+        "mood": "Fading amber flame, temporary calm, black doorway lingering in the distance."
+      },
+      {
+        "id": "50m7ly",
+        "narration": "چچا رکے، تو سعد نے بجھی لالٹین کی طرف دیکھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Present-day haveli courtyard, extinguished lantern between the seated pair, bare plaster wall behind Saad, vertical 9:16, no text.",
+        "action": "Saad looks down at the extinguished lantern.",
+        "camera": "pan-left",
+        "mood": "Cold moonlight, suspended silence, Bashir watching with a tense expression."
+      },
+      {
+        "id": "rw1vjf",
+        "narration": "لالٹین جلی؛ سعد کا سایہ اب بھی سلاخوں کے پیچھے تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Same courtyard, Saad seated freely beside Bashir, wall behind him displaying his unmistakable shadow trapped within a barred-window silhouette, vertical 9:16, no text.",
+        "action": "The lantern ignites by itself.",
+        "camera": "push-in",
+        "mood": "Harsh supernatural amber light, enormous imprisoned shadow with raised hands, bo"
+      },
+      {
+        "id": "9ro2ki",
+        "narration": "[whispers] کل تمہارا سایہ لینے پھر اسی اسٹیشن چلیں گے۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Haveli courtyard with the barred shadow still on the wall, Bashir beside the glowing brass lantern, Saad watching him, vertical 9:16, no text.",
+        "action": "Bashir lifts the lantern.",
+        "camera": "low-angle",
+        "mood": "Grim resolve, amber-lit grey beard, the imprisoned shadow remaining fixed behind"
+      }
+    ],
+    "endHook": "Saad toh laut aaya... lekin uska saaya?",
+    "createdAt": "2026-11-14T11:21:19.435Z",
+    "description": "بشیر چچا کی پرانی لالٹین تب خود جلتی ہے جب کسی کو مدد چاہیے ہو۔ مگر سعد کو ایک سنسان اسٹیشن سے نکالنے کے بعد بھی اس کی روشنی کچھ دکھانا چاہتی ہے۔ یہ ایک خیالی کہانی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Spooky Story",
+      "3D Animation",
+      "YouTube Shorts",
+      "Laalten"
+    ]
+  }
+}

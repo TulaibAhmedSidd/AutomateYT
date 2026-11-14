@@ -1,0 +1,162 @@
+{
+  "number": 14,
+  "topic": "The mirror in the hostel washroom shows one extra person standing behind you.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:22:00.408Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Hostel Ke Aaine Mein Teesra Kaun?",
+    "shots": [
+      {
+        "id": "cqbz0s",
+        "narration": "ہاسٹل کے اُس آئینے میں ہمیشہ ایک بندہ زیادہ دکھتا تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, old Pakistani haveli courtyard at night; Bashir and Saad sit beside a brass lantern, with fog between distant pillars; no text.",
+        "action": "Bashir raises one finger toward Saad.",
+        "camera": "push-in",
+        "mood": "Warm lantern light beneath grey eyebrows, deep blue moonlight, long still shadow"
+      },
+      {
+        "id": "u7ymqo",
+        "narration": "چچا بولے، سعد، یہ تمہارے ہی ہاسٹل کی بات ہے۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, same haveli courtyard; Bashir wears his white cap and brown woollen shawl, Saad his dark green hoodie and jeans; no text.",
+        "action": "Saad leans toward Bashir across the lantern.",
+        "camera": "static",
+        "mood": "Amber light catches Saad's attentive eyes against a foggy black background."
+      },
+      {
+        "id": "1vn8s3",
+        "narration": "[whispers] اُس رات سعد اکیلا منہ دھونے گیا تھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, fictional Pakistani hostel washroom at night, cracked tiles, one basin, tall mirror, open doorway, moonlit high window; no text.",
+        "action": "Saad splashes water onto his face.",
+        "camera": "pan-right",
+        "mood": "Cold moonlight, dim bare bulb, damp reflective tiles and empty corners."
+      },
+      {
+        "id": "8r3l63",
+        "narration": "سر اٹھایا تو پیچھے بھوری شال والا کوئی کھڑا تھا۔",
+        "characters": [
+          "saad",
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, over Saad's shoulder toward the washroom mirror; Bashir's grey beard, white cap and brown shawl appear only in the reflection behind him; no text.",
+        "action": "Saad lifts his face toward the mirror.",
+        "camera": "push-in",
+        "mood": "A distant reflected figure stands motionless beneath sickly light."
+      },
+      {
+        "id": "rrp2h5",
+        "narration": "سعد نے مڑ کر دیکھا، پیچھے کوئی بھی نہیں تھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, reverse view of the washroom showing Saad beside the basin and an entirely empty open doorway; mirror outside frame; no text.",
+        "action": "Saad turns toward the empty doorway.",
+        "camera": "pan-left",
+        "mood": "Vacant tiled floor, dense corridor darkness, harsh isolated pool of light."
+      },
+      {
+        "id": "wwmstq",
+        "narration": "[whispers] دوبارہ دیکھا تو وہ ایک قدم اور قریب تھا۔",
+        "characters": [
+          "saad",
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, washroom mirror above basin; Bashir appears only in its reflection, now halfway between the reflected doorway and Saad; no text.",
+        "action": "Saad turns his gaze back to the mirror.",
+        "camera": "push-in",
+        "mood": "Reflected white cap sharply visible in the darkness, Saad's shoulders rigid."
+      },
+      {
+        "id": "a11am8",
+        "narration": "ٹارچ کی روشنی میں بھی پیچھے بس خالی دیوار تھی۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, washroom rear wall and open doorway, mirror outside frame, Saad holding his small torch; no text.",
+        "action": "Saad sweeps his torch beam across the bare rear wall.",
+        "camera": "pan-right",
+        "mood": "Narrow white beam reveals cracked grout and nothing else."
+      },
+      {
+        "id": "6gc8x2",
+        "narration": "سعد نے فوراً تولیہ آئینے پر ڈال دیا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, washroom basin beneath a tall mirror, plain opaque towel in Saad's hands; no text.",
+        "action": "Saad drapes the towel completely over the mirror.",
+        "camera": "static",
+        "mood": "Heavy cloth blocks the reflection, cold light outlining trembling fingers."
+      },
+      {
+        "id": "ls70gt",
+        "narration": "[sighs] اب وہ بس وہاں سے نکلنا چاہتا تھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, side view of the washroom; covered mirror behind Saad, open exit ahead, glossy dark tiles beside the doorway; no text.",
+        "action": "Saad walks toward the exit.",
+        "camera": "pull-out",
+        "mood": "A narrow escape route framed by black corners and pale moonlight."
+      },
+      {
+        "id": "jgp4h7",
+        "narration": "مگر دروازے کے پاس اُس کے قدم رک گئے۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, close view of Saad at the washroom threshold beside a wall of glossy black tiles; covered mirror visible far behind; no text.",
+        "action": "Saad stops at the threshold.",
+        "camera": "low-angle",
+        "mood": "His torch points downward, eyes fixed on something just outside the frame."
+      },
+      {
+        "id": "110cpt",
+        "narration": "کالی ٹائلوں میں وہی چچا، بالکل اُس کے پیچھے تھے۔",
+        "characters": [
+          "saad",
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, glossy black washroom tiles reflect Saad and Bashir directly behind his shoulder; the actual space behind Saad is visibly empty, and the original mirror remains covered; no text.",
+        "action": "Bashir's reflection raises its brass lantern beside Saad's reflected face.",
+        "camera": "push-in",
+        "mood": "Sudden amber illumination reveals the familiar grey beard inches behind Saad, su"
+      },
+      {
+        "id": "cxmil3",
+        "narration": "[whispers] کل بتاؤں گا، میرا عکس اُس ہاسٹل میں کیوں تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, return to the haveli courtyard; Bashir sits beside his brass lantern while Saad stares at him, fog hanging between moonlit pillars; no text.",
+        "action": "Bashir lowers his gaze to the lantern.",
+        "camera": "pull-out",
+        "mood": "The lantern glow matches the reflected light, leaving Bashir's eyes hidden benea"
+      }
+    ],
+    "endHook": "Bashir Chacha ka aks hostel mein kyun tha? Agli raat raaz khulega.",
+    "createdAt": "2026-11-14T11:22:00.401Z",
+    "description": "بشیر چچا لالٹین کے پاس سعد کو ہاسٹل کے ایک عجیب آئینے کی کہانی سناتے ہیں۔ وہاں پیچھے مڑ کر دیکھو تو کوئی نہیں ہوتا، مگر عکس میں کوئی قریب آتا رہتا ہے۔ یہ ایک خیالی کہانی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Hostel Mirror",
+      "Spooky Stories",
+      "Pakistani Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

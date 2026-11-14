@@ -1,0 +1,156 @@
+{
+  "number": 13,
+  "topic": "An old radio starts playing tomorrow's news.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:22:07.236Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Kal Ki Khabrein | Raat Ki Kahaniyan",
+    "shots": [
+      {
+        "id": "xq5ugb",
+        "narration": "اس ریڈیو نے کل تمہارے آنے کی خبر دی تھی!",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look. An old Pakistani haveli courtyard at night, with a brass lantern between Bashir and Saad and an unmarked wooden radio beside them. No text anywhere.",
+        "action": "Bashir points at the old radio.",
+        "camera": "push-in",
+        "mood": "Warm lantern light against cold moonlight, thin fog, deep courtyard shadows."
+      },
+      {
+        "id": "d94knx",
+        "narration": "سعد، کل رات میں حویلی کے اندر گیا تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "The same moonlit courtyard. Grey-bearded Bashir wears a white cap and brown woollen shawl; Saad wears a dark green hoodie and jeans.",
+        "action": "Bashir gestures toward the haveli doorway.",
+        "camera": "pan-right",
+        "mood": "An intimate lantern-lit storytelling circle beneath looming dark arches."
+      },
+      {
+        "id": "6c4sa2",
+        "narration": "[whispers] وہاں بند ریڈیو سے اچانک خبریں آنے لگیں۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Flashback inside a dusty haveli room, vertical 9:16. An unmarked wooden radio with a visibly disconnected plug rests on a bare table beside Bashir's brass lantern.",
+        "action": "The radio's blank tuning window lights up.",
+        "camera": "push-in",
+        "mood": "Dust suspended in amber light, blue moonlight through cracked shutters, unnatura"
+      },
+      {
+        "id": "ibknx4",
+        "narration": "کل رات سعد نام کا لڑکا تمہارے پاس آئے گا۔",
+        "characters": [],
+        "scene": "Close view of the antique radio on the dusty table, its blank tuning window glowing. The disconnected plug lies prominently in the foreground. No markings or lettering.",
+        "action": "The radio's speaker cloth pulses outward.",
+        "camera": "static",
+        "mood": "Sickly amber illumination, heavy surrounding darkness, ominous visual focus."
+      },
+      {
+        "id": "jss1x1",
+        "narration": "پھر اس کا سایہ خود چلنے لگے گا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Inside the haveli room, Bashir stands beside the glowing radio with his lantern hanging at his side.",
+        "action": "Bashir takes one step backward.",
+        "camera": "pull-out",
+        "mood": "Tall distorted shadows stretch over peeling plaster and an empty doorway."
+      },
+      {
+        "id": "6fqayd",
+        "narration": "[sighs] میں ریڈیو اٹھا کر باہر لے آیا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "The threshold between the dusty haveli room and its foggy courtyard, with Bashir's brass lantern resting outside on a low stone ledge.",
+        "action": "Bashir carries the radio through the doorway.",
+        "camera": "pan-left",
+        "mood": "Cold moonlight overtakes the room's weak amber glow."
+      },
+      {
+        "id": "3jek6a",
+        "narration": "اور آج رات تم واقعی یہاں آ گئے۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Return to the opening courtyard arrangement. Bashir and Saad sit beside the brass lantern, with the radio on the stone ledge and a bare plaster wall behind Saad.",
+        "action": "Bashir points toward Saad.",
+        "camera": "static",
+        "mood": "Familiar warm light now feels enclosed by threatening blue darkness."
+      },
+      {
+        "id": "7oudo7",
+        "narration": "سعد نے فوراً ریڈیو کا بٹن گھما دیا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Close view of Saad beside the unmarked radio in the courtyard, with its loose disconnected plug clearly visible on the ledge.",
+        "action": "Saad turns the radio's knob to its stop.",
+        "camera": "push-in",
+        "mood": "Hard lantern highlights on tense fingers, black shadows beneath the radio."
+      },
+      {
+        "id": "zy794t",
+        "narration": "[chuckles] دیکھا چچا، اب کوئی خبر نہیں آئے گی۔",
+        "characters": [
+          "saad",
+          "bashir"
+        ],
+        "scene": "Saad sits beside Bashir and the lantern. Saad's ordinary seated shadow falls across the bare wall directly behind him.",
+        "action": "Saad gives Bashir a reassuring smile.",
+        "camera": "orbit",
+        "mood": "A brief fragile warmth, with the silent radio dark in the foreground."
+      },
+      {
+        "id": "ggl258",
+        "narration": "تب ریڈیو بولا، اب اپنے پیچھے مت دیکھنا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Low courtyard view with the unplugged radio in the foreground, seated Saad beyond it, and his seated shadow clearly visible on the wall.",
+        "action": "The radio's blank tuning window lights up again.",
+        "camera": "low-angle",
+        "mood": "Unnatural amber glow beneath Saad's face, deep blue fog, suspended dread."
+      },
+      {
+        "id": "msxu0t",
+        "narration": "سعد بیٹھا رہا، مگر اس کا سایہ اٹھ گیا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16 composition holding motionless seated Saad below and his large shadow on the bare courtyard wall above. The lantern remains steady in its original position.",
+        "action": "Saad's shadow rises into a standing pose independently.",
+        "camera": "static",
+        "mood": "An impossibly tall human silhouette towers over its seated owner, stark lantern "
+      },
+      {
+        "id": "fzraxk",
+        "narration": "[whispers] اگلی خبر تھی، کل رات سعد سنسان اسٹیشن پہنچے گا۔",
+        "characters": [],
+        "scene": "An empty fictional village railway platform at night, vertical 9:16. The same unmarked wooden radio rests alone on a weathered bench beside tracks vanishing into fog. No signs, writing, or people.",
+        "action": "The radio's blank tuning window glows brighter.",
+        "camera": "pull-out",
+        "mood": "Distant moonlight on empty rails, dense silver fog, a tiny amber glow promising "
+      }
+    ],
+    "endHook": "Agli raat, sunsaan station par kis ka intezar tha?",
+    "createdAt": "2026-11-14T11:22:07.232Z",
+    "description": "بشیر چچا نے ایک پرانے ریڈیو پر اگلے دن کی خبر سنی، مگر اس خبر میں سعد کا ذکر کیوں تھا؟ لالٹین کے گرد بیٹھی یہ محفل ایک عجیب راز کھولنے والی ہے۔ یہ کہانی مکمل طور پر فرضی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Spooky Story",
+      "Old Radio",
+      "3D Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

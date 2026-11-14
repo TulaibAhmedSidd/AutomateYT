@@ -1,0 +1,155 @@
+{
+  "number": 17,
+  "topic": "A taxi passenger gives the address of a building that was pulled down years ago, then disappears from the back seat.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:22:36.350Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Taxi Ki Aakhri Sawari | Raat Ki Kahaniyan",
+    "shots": [
+      {
+        "id": "uz9mnf",
+        "narration": "سواری غائب تھی، مگر سیٹ ابھی بھی دبی ہوئی تھی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, courtyard of an old Pakistani haveli at night, Bashir and Saad beside an old brass lantern, no text or signage.",
+        "action": "Bashir points toward an empty cushion beside the lantern.",
+        "camera": "push-in",
+        "mood": "Warm lantern light against cold blue fog, deep surrounding shadows."
+      },
+      {
+        "id": "1f8198",
+        "narration": "بشیر چچا بولے، تب میں رات کو ٹیکسی چلاتا تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, same haveli courtyard, Bashir in brown shawl and white cap facing Saad in a dark green hoodie, no text.",
+        "action": "Bashir raises an old unmarked taxi key.",
+        "camera": "static",
+        "mood": "Quiet intimate lantern glow, moonlit mist behind the pair."
+      },
+      {
+        "id": "e0ph35",
+        "narration": "[whispers] اُس رات، پچھلا دروازہ خود ہی کھلا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, flashback on an empty Pakistani village road, plain unmarked old taxi, Bashir seated at the wheel, no readable plates or signage.",
+        "action": "The taxi's rear passenger door swings open.",
+        "camera": "pan-right",
+        "mood": "Dense roadside fog, pale moonlight, black passenger compartment."
+      },
+      {
+        "id": "l1331t",
+        "narration": "کوئی نظر نہیں آیا، بس سیٹ دب گئی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, 3D animated film look, close view of the taxi's visibly empty rear bench, bare upholstery without patterns or lettering.",
+        "action": "A deep seated impression forms in the rear cushion.",
+        "camera": "push-in",
+        "mood": "Cold window light, heavy shadows, uncanny empty space."
+      },
+      {
+        "id": "icke25",
+        "narration": "پیچھے سے آواز آئی، پرانی حویلی لے چلو۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, taxi interior with Bashir at the wheel and the empty rear bench reflected in the mirror, no dashboard lettering.",
+        "action": "Bashir tilts the rearview mirror toward the depressed cushion.",
+        "camera": "static",
+        "mood": "Dim amber dashboard glow, frightened eyes, blue darkness behind."
+      },
+      {
+        "id": "58c64z",
+        "narration": "[sighs] میں نے سوچا، اندھیرے میں دکھائی نہیں دے رہا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, old taxi traveling along a narrow deserted village lane, Bashir visible through the windshield, blank walls without signs.",
+        "action": "Bashir drives the taxi through drifting fog.",
+        "camera": "low-angle",
+        "mood": "Isolated headlights, looming walls, deep midnight blue."
+      },
+      {
+        "id": "047qox",
+        "narration": "موڑ آیا تو پیچھے سے کسی نے شیشہ کھٹکھٹایا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, taxi interior beside a dark lane junction, Bashir at the wheel, rear window filmed with condensation.",
+        "action": "Three small circular clear patches appear on the rear window.",
+        "camera": "pan-left",
+        "mood": "Tight enclosed darkness, faint moonlit glass, rising unease."
+      },
+      {
+        "id": "rfjx45",
+        "narration": "وہاں حویلی نہیں تھی، صرف ٹوٹی اینٹیں پڑی تھیں۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, view past Bashir through the taxi windshield, headlights revealing weathered foundations and scattered old bricks, no standing building or signs.",
+        "action": "Bashir stops the taxi before the ruined foundations.",
+        "camera": "pull-out",
+        "mood": "Bleached headlights on rubble, fog swallowing the empty property."
+      },
+      {
+        "id": "ltcjfo",
+        "narration": "[surprised] یہ حویلی تو برسوں پہلے گرا دی گئی تھی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, taxi parked facing the demolished haveli plot, Bashir framed between windshield and rear seat.",
+        "action": "Bashir turns toward the rear bench.",
+        "camera": "orbit",
+        "mood": "Sharp moonlight across his grey beard, blackness beyond the windows."
+      },
+      {
+        "id": "rxd6hv",
+        "narration": "پیچھے کوئی نہیں تھا، مگر سیٹ اب بھی دبی تھی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, 3D animated film look, unobstructed view of the empty taxi rear bench, ruined foundations visible through the window, no text.",
+        "action": "The rear cushion slowly sinks deeper.",
+        "camera": "push-in",
+        "mood": "Motionless surrounding darkness, cold rim light on empty upholstery."
+      },
+      {
+        "id": "ym7nrb",
+        "narration": "پھر میرے ساتھ والی سیٹ بھی دبنے لگی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, taxi front interior, terrified Bashir rigid behind the wheel, clearly empty front passenger seat beside him.",
+        "action": "The empty front passenger cushion compresses deeply beside Bashir.",
+        "camera": "push-in",
+        "mood": "Claustrophobic near-black cabin, narrow moonbeam on the sinking seat, peak dread"
+      },
+      {
+        "id": "wwhzzj",
+        "narration": "[whispers] اگلی رات، وہی ٹیکسی بند ریلوے اسٹیشن پر ملی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, present-night haveli courtyard beside a shuttered railway station, Bashir and Saad by the brass lantern, the same unmarked taxi visible beneath the distant station canopy, no signs or lettering.",
+        "action": "Saad points toward the taxi beneath the abandoned station canopy.",
+        "camera": "pull-out",
+        "mood": "Small warm lantern pool, distant taxi headlights in thick blue fog, unresolved m"
+      }
+    ],
+    "endHook": "Agli raat: band railway station par wohi taxi kis ka intezar kar rahi thi?",
+    "createdAt": "2026-11-14T11:22:36.346Z",
+    "description": "بشیر چچا نے سعد کو اُس سواری کی کہانی سنائی جس نے برسوں پہلے گرائی گئی حویلی کا پتا بتایا۔ منزل آئی تو پچھلی سیٹ خالی تھی، مگر سفر ابھی ختم نہیں ہوا تھا۔ یہ کہانی مکمل طور پر فرضی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Pakistani Stories",
+      "Haunted Taxi",
+      "3D Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

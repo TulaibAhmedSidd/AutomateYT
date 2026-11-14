@@ -1,0 +1,147 @@
+{
+  "number": 9,
+  "topic": "A doll in an antique shop is never in the same place two mornings in a row.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:21:17.279Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Purani Dukaan Ki Guriya",
+    "shots": [
+      {
+        "id": "a6t3yg",
+        "narration": "وہ گڑیا ہر صبح اپنی جگہ کیسے بدل لیتی تھی؟",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, old Pakistani haveli courtyard at night. Bashir and Saad sit beside a brass lantern on a wooden bench. No text or signage.",
+        "action": "Bashir leans toward Saad across the lantern.",
+        "camera": "push-in",
+        "mood": "Warm lantern glow beneath cold moonlight, deep archway shadows, thin ground fog."
+      },
+      {
+        "id": "o1ncsg",
+        "narration": "بشیر چچا بولے، پرانی چیزوں کی ایک دکان تھی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, the same haveli bench. Bashir wears a brown woollen shawl and white cap; Saad wears a dark green hoodie and jeans.",
+        "action": "Bashir gestures toward the dark lane beyond the courtyard.",
+        "camera": "pan-right",
+        "mood": "Quiet anticipation, lantern-lit grey beard, fog beyond the courtyard gate."
+      },
+      {
+        "id": "pweulr",
+        "narration": "[whispers] وہاں شیشے کی الماری میں ایک گڑیا رکھی تھی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, fictional antique shop at night. A small porcelain doll in a faded blue dress sits inside a locked glass cabinet among plain ceramic vessels. No writing anywhere.",
+        "action": "The cabinet's brass latch settles into its locked position.",
+        "camera": "push-in",
+        "mood": "Dusty moonbeams, still porcelain face, layered shadows across antique furniture."
+      },
+      {
+        "id": "msbk83",
+        "narration": "اگلی صبح وہ کاؤنٹر پر بیٹھی ملی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, the same antique shop at pale dawn. The identical blue-dressed porcelain doll sits on the counter; the locked glass cabinet stands empty behind it.",
+        "action": "A narrow stripe of dawn light advances across the doll's shoes.",
+        "camera": "pan-left",
+        "mood": "Cold blue dawn, abandoned interior, unnaturally orderly counter."
+      },
+      {
+        "id": "ego3rw",
+        "narration": "دوسری صبح، سب سے اونچی الماری کے اوپر۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, antique shop at another pale dawn. The same porcelain doll sits atop a towering wooden cupboard; the counter below is empty.",
+        "action": "A loose curtain lifts beside the high cupboard.",
+        "camera": "low-angle",
+        "mood": "Vertiginous height, faint dawn glow, heavy shadows beneath the doll."
+      },
+      {
+        "id": "tooyyi",
+        "narration": "[surprised] مگر شیشے والی الماری کا تالا تو بند تھا۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, close view of the antique shop's glass cabinet. Its brass padlock is closed, its glass intact, and its doll-sized shelf empty.",
+        "action": "A pale reflection slides across the closed padlock.",
+        "camera": "push-in",
+        "mood": "Unbroken glass, cold metal highlights, oppressive stillness."
+      },
+      {
+        "id": "it4bei",
+        "narration": "پھر ایک صبح، گڑیا کہیں بھی نہیں تھی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, wide antique shop interior before sunrise. The counter, cupboard top, and locked glass cabinet are all visibly empty of the doll.",
+        "action": "Dust drifts through a shaft of pale window light.",
+        "camera": "pull-out",
+        "mood": "Vacant spaces, deep blue shadows, unsettling absence."
+      },
+      {
+        "id": "sr4168",
+        "narration": "بس دروازے تک ننھے جوتوں کے نشان تھے۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, dusty antique shop floor. A single trail of tiny shoeprints leads from the cabinet toward the closed front door. No writing or signs.",
+        "action": "A thin draft pushes dust across the final tiny footprint.",
+        "camera": "pan-right",
+        "mood": "Low moonlit perspective, closed exit, delicate footprints in thick dust."
+      },
+      {
+        "id": "3tbolg",
+        "narration": "[whispers] سعد نے پوچھا، چچا، پھر وہ کہاں گئی؟",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, return to the haveli courtyard. Bashir and Saad sit beside the brass lantern; a low stool stands in shadow between their feet.",
+        "action": "Saad leans closer to Bashir.",
+        "camera": "push-in",
+        "mood": "Narrow pool of amber light, dark space beneath the bench, anxious faces."
+      },
+      {
+        "id": "kinyl0",
+        "narration": "تبھی لالٹین کی لو اچانک چھوٹی پڑ گئی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, close courtyard view of the brass lantern between Bashir and Saad. The low stool remains hidden beneath the frame.",
+        "action": "The lantern flame shrinks to a tiny blue-tipped glow.",
+        "camera": "static",
+        "mood": "Faces nearly swallowed by darkness, cold moonlight on the stone floor."
+      },
+      {
+        "id": "o99dwe",
+        "narration": "گڑیا اُن دونوں کے بیچ بیٹھی تھی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, low view of the haveli bench. The identical porcelain doll in its faded blue dress sits on the stool between Bashir and Saad, with a brass key resting in its porcelain hand.",
+        "action": "The lantern flares, revealing the motionless doll.",
+        "camera": "pull-out",
+        "mood": "Sudden amber illumination, towering doll-shaped shadow, both faces frozen in ala"
+      },
+      {
+        "id": "i3l9lg",
+        "narration": "[whispers] کل بتاؤں گا، گڑیا کے پاس بند اسٹیشن کی چابی کیسے آئی۔",
+        "characters": [],
+        "scene": "Vertical 9:16, cinematic 3D animation, close view beneath the courtyard stool. The doll's blue dress and porcelain hand appear above a bare stone floor; the brass key has no markings.",
+        "action": "The brass key drops from the doll's hand onto the stone.",
+        "camera": "static",
+        "mood": "Hard metallic glint, vast surrounding darkness, unresolved dread."
+      }
+    ],
+    "endHook": "Agli raat: guriya ke paas band railway station ki chaabi kahan se aayi?",
+    "createdAt": "2026-11-14T11:21:17.271Z",
+    "description": "بشیر چچا نے سعد کو ایک پرانی دکان کی گڑیا کا قصہ سنایا، جو ہر صبح نئی جگہ ملتی تھی۔ مگر آج رات قصہ ختم ہونے سے پہلے ہی کچھ بدل گیا۔ یہ کہانی مکمل طور پر فرضی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Animated Shorts",
+      "Spooky Doll",
+      "Pakistani Stories",
+      "3D Animation"
+    ]
+  }
+}

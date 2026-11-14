@@ -25,6 +25,8 @@ const GROUPS: { id: string; title: string; note: string }[] = [
   { id: 'islamic', title: 'Islamic history (Urdu)', note: 'Child-friendly, peaceful history and science. No holy figures shown.' },
   { id: 'kids', title: 'Kids', note: 'Stories and facts for children and families.' },
   { id: 'grown-ups', title: 'Grown-ups', note: 'Family comedy for adults.' },
+  { id: 'horror', title: 'Horror', note: 'Spooky Urdu stories with a twist. No gore.' },
+  { id: 'transition', title: 'Transition videos', note: 'Short, fast before→after and evolution reels for Instagram and Shorts. No voice: add a trending sound in the app.' },
   { id: 'trending', title: 'Trending', note: 'Formats doing well on Shorts right now.' },
   { id: 'earning', title: 'Earning', note: 'Topics that advertisers pay more for.' },
   { id: 'mine', title: 'My other series', note: 'Starter series and series you made in the app.' },

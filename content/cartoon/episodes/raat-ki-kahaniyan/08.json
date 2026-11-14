@@ -1,0 +1,158 @@
+{
+  "number": 8,
+  "topic": "The lift of an old city building stops at a floor that does not exist in the building plan.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:21:20.338Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Woh Manzil Jo Naqshay Mein Nahi Thi",
+    "shots": [
+      {
+        "id": "2bdqiu",
+        "narration": "عمارت میں تین منزلیں تھیں، لفٹ چوتھی پر کیسے رکی؟",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Old Pakistani haveli courtyard at night, brass lantern between Bashir and Saad, vertical 9:16, 3D animated film look, no text or signage.",
+        "action": "Bashir raises four fingers toward Saad.",
+        "camera": "push-in",
+        "mood": "Warm lantern light beneath worried faces, cold moonlight and thin fog behind the"
+      },
+      {
+        "id": "7guci4",
+        "narration": "بشیر چچا بولے، اُس رات میں وہاں پہرے پر تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Same haveli courtyard beside a weathered wooden doorway, vertical 9:16, cinematic 3D animation, no visible writing.",
+        "action": "Bashir lifts his old brass lantern between them.",
+        "camera": "static",
+        "mood": "Intimate storytelling, long still shadows across cracked stone."
+      },
+      {
+        "id": "7mm20v",
+        "narration": "[whispers] آدھی رات کو بند لفٹ خود ہی کھل گئی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Story setting: lobby of an old Pakistani city building, antique metal lift with unmarked doors, cracked plaster, vertical 9:16, no text.",
+        "action": "The lift doors slide open before Bashir.",
+        "camera": "low-angle",
+        "mood": "An unlit lift interior surrounded by pale moonlight and dusty haze."
+      },
+      {
+        "id": "k3d59v",
+        "narration": "دیوار کے نقشے میں صرف تین منزلیں بنی تھیں۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Lobby wall beside the open lift, framed architectural cross-section showing exactly three stacked floors, diagram lines only, no letters or numbers, vertical 9:16.",
+        "action": "Bashir traces the three drawn floors with one finger.",
+        "camera": "push-in",
+        "mood": "Lantern glow reveals faded paper and peeling plaster."
+      },
+      {
+        "id": "tzf5b0",
+        "narration": "میں اندر گیا، تو لفٹ اوپر چل پڑی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Inside the antique lift, plain wooden panels and a narrow glazed opening showing passing floor landings, no readable controls, vertical 9:16.",
+        "action": "Bashir steps into the lift with his lantern.",
+        "camera": "static",
+        "mood": "Cramped amber light, deep black seams between wooden panels."
+      },
+      {
+        "id": "t3jmqr",
+        "narration": "[surprised] تین منزلیں گزریں، مگر لفٹ پھر بھی نہیں رکی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Lift interior with the final illuminated landing slipping below the narrow glazed opening, bare shaft darkness above, vertical 9:16, no text.",
+        "action": "The last landing slides downward out of Bashir's view.",
+        "camera": "pan-right",
+        "mood": "Lantern-lit profile against a window turning completely black."
+      },
+      {
+        "id": "xv294e",
+        "narration": "پھر دروازہ کھلا، سامنے ایک لمبی راہداری تھی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Lift threshold opening onto an impossibly long corridor, damp plaster, identical closed unmarked doors, vertical 9:16, cinematic 3D animation.",
+        "action": "The lift doors part to reveal the corridor.",
+        "camera": "pull-out",
+        "mood": "Blue fog pools along the floor beyond a small circle of amber light."
+      },
+      {
+        "id": "bybm3j",
+        "narration": "میں نے لالٹین باہر رکھی، مگر خود اندر رہا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Low view across the open lift threshold into the empty corridor, vertical 9:16, no writing or signs.",
+        "action": "Bashir places his brass lantern on the corridor floor.",
+        "camera": "low-angle",
+        "mood": "A sharp boundary between warm lantern light and the black lift."
+      },
+      {
+        "id": "fvefed",
+        "narration": "[whispers] میرا سایہ راہداری میں تھا، مگر روشنی غلط طرف تھی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Open lift behind a floor lantern, Bashir standing inside, a long human-shaped shadow extending away into the corridor despite the lantern being in front of him, vertical 9:16.",
+        "action": "Bashir points toward the wrongly directed shadow.",
+        "camera": "pan-left",
+        "mood": "Unnatural shadow geometry across cold tiles, empty doorways fading into mist."
+      },
+      {
+        "id": "8ixg9m",
+        "narration": "میں پیچھے ہٹا، مگر سایہ وہیں کھڑا رہا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "View from the corridor into the open lift, lantern outside the threshold, detached upright shadow on the corridor wall, vertical 9:16.",
+        "action": "Bashir backs against the lift's rear wall.",
+        "camera": "push-in",
+        "mood": "His frightened face catches a thin amber glow while the shadow remains rigid."
+      },
+      {
+        "id": "6zvshd",
+        "narration": "پھر وہ سایہ، میرے بغیر ہی لفٹ میں آگیا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Lift interior facing the open doorway, brass lantern still outside, oversized detached shadow crossing the threshold toward Bashir, vertical 9:16, no additional figures.",
+        "action": "The detached shadow crawls up the wall behind Bashir.",
+        "camera": "static",
+        "mood": "Towering black silhouette surrounds his small lantern-lit face, deepest suspense"
+      },
+      {
+        "id": "szus6o",
+        "narration": "[whispers] اگلی رات سعد بولا، چچا، وہاں سیڑھیاں بھی جاتی ہیں۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Following night in the haveli courtyard, Bashir beside his brass lantern, Saad facing an open doorway containing narrow stairs ascending into darkness, vertical 9:16, no text.",
+        "action": "Saad points his small torch up the staircase.",
+        "camera": "pull-out",
+        "mood": "Quiet cliffhanger, a thin white torch beam disappearing above the lantern glow."
+      }
+    ],
+    "endHook": "Agli raat, usi manzil tak jaane wali seerhiyan mil gayin...",
+    "createdAt": "2026-11-14T11:21:20.330Z",
+    "description": "بشیر چچا سعد کو ایک پرانی عمارت کی لفٹ کا قصہ سناتے ہیں، جو ایسی منزل پر رک گئی جس کا نقشے میں نام و نشان نہیں تھا۔ رات کی کہانیاں کی یہ قسط ایک مکمل خیالی کہانی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror Story",
+      "Haunted Lift",
+      "Pakistani Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

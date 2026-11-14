@@ -120,7 +120,7 @@ export type LibrarySeries = { series: CartoonSeries; group: string; why: string;
 export function readLibrary(): LibrarySeries[] {
   const dir = path.join(LIBRARY, 'series');
   if (!fs.existsSync(dir)) return [];
-  const groups = ['islamic', 'kids', 'grown-ups', 'trending', 'earning'];
+  const groups = ['islamic', 'kids', 'grown-ups', 'horror', 'transition', 'trending', 'earning'];
   return fs
     .readdirSync(dir)
     .filter((f) => f.endsWith('.json'))

@@ -1,0 +1,151 @@
+{
+  "number": 1,
+  "topic": "The last night bus on a mountain road: the passengers get off one by one at stops that are not on the map, and the bus has no driver.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:20:36.970Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Aakhri Bus Ka Driver Kahan Hai?",
+    "shots": [
+      {
+        "id": "j81dmr",
+        "narration": "اُس بس میں سب تھے، بس ڈرائیور نہیں تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look. An old Pakistani haveli courtyard at night. Bashir, grey-bearded in a brown woollen shawl and white cap, sits beside his brass lantern opposite Saad, wearing a dark green hoodie and jeans. No visible writing.",
+        "action": "Bashir points toward the mountain road beyond the courtyard gate.",
+        "camera": "push-in",
+        "mood": "Warm lantern glow surrounded by cold moonlight and dense fog."
+      },
+      {
+        "id": "elj6px",
+        "narration": "بشیر چچا بولے، خود کو آخری بس میں سمجھو۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Inside Bashir's imagined story, a worn mountain bus at night, vertical 9:16. Saad sits halfway down the aisle with a small torch. Tall seat backs and a partition completely conceal the driving compartment. No labels or writing.",
+        "action": "Saad settles into a cracked leather window seat.",
+        "camera": "pan-right",
+        "mood": "Dim amber ceiling bulbs and blue moonlight across dusty windows."
+      },
+      {
+        "id": "8znhus",
+        "narration": "[whispers] باقی سیٹوں پر صرف سائے بیٹھے تھے۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "The imagined bus interior, with Saad in the foreground. Otherwise empty seats carry flat, seated-person-shaped patches of darkness, with no bodies or faces. The front compartment remains concealed.",
+        "action": "Saad turns his torch toward the shadow-covered seats.",
+        "camera": "pan-left",
+        "mood": "Narrow torch beam, heavy black seat shadows, unnatural stillness."
+      },
+      {
+        "id": "p8ix01",
+        "narration": "پہلے موڑ پر بس خود ہی رک گئی۔",
+        "characters": [],
+        "scene": "Exterior of the unmarked old bus on a narrow mountain bend. Blank rocky cliffs rise above a fog-filled valley. All windows reflect moonlight, concealing the interior.",
+        "action": "The bus comes to a stop beside a bare roadside rock.",
+        "camera": "static",
+        "mood": "Isolated blue mountain night with weak amber bus lights."
+      },
+      {
+        "id": "jnubvn",
+        "narration": "ایک سایہ دروازے سے باہر پھسل گیا۔",
+        "characters": [],
+        "scene": "Low view of the bus's open rear doorway and empty mountain asphalt. A flat elongated shadow lies across the steps, with no physical figure casting it.",
+        "action": "The shadow slides down the steps onto the road.",
+        "camera": "low-angle",
+        "mood": "Amber doorway light ending sharply at a wall of fog."
+      },
+      {
+        "id": "n2yg5l",
+        "narration": "[surprised] سعد نے نقشہ دیکھا، وہاں کوئی اسٹاپ نہیں تھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Close view inside the bus. Saad holds an unfolded pictorial mountain map showing only a winding road, terrain shading, and a few circular stop symbols. No letters, numbers, or labels. His fingertip rests on a bend without a stop symbol.",
+        "action": "Saad traces the unmarked bend with his finger.",
+        "camera": "push-in",
+        "mood": "Pale torchlight over paper, deep darkness beyond his hands."
+      },
+      {
+        "id": "4umc23",
+        "narration": "اگلے موڑ پر دوسرا سایہ بھی اتر گیا۔",
+        "characters": [],
+        "scene": "The bus's open rear doorway at a different mountain bend beside a split boulder. Another flat shadow stretches from an empty seat across the aisle and steps. No physical passenger is present.",
+        "action": "The second shadow slips through the doorway into the fog.",
+        "camera": "static",
+        "mood": "Faint amber light against thick silver mist."
+      },
+      {
+        "id": "8t9z48",
+        "narration": "پھر ہر موڑ پر ایک سیٹ خالی ہوتی گئی۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Wide view down the imagined bus aisle. Most seats are now free of shadows; one final flat shadow remains on a seat beside Saad. The tall front partition still blocks the driver area.",
+        "action": "The final seat shadow drains down into the aisle.",
+        "camera": "pull-out",
+        "mood": "Long empty rows beneath a single weak amber bulb."
+      },
+      {
+        "id": "903clw",
+        "narration": "[whispers] اب بس میں سعد بالکل اکیلا تھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Saad stands in the completely empty passenger compartment, holding his small torch. Foggy mountain scenery is visible through the windows. No writing or human silhouettes.",
+        "action": "Saad rises from his seat.",
+        "camera": "low-angle",
+        "mood": "Towering seat backs and cold moonlight emphasize his isolation."
+      },
+      {
+        "id": "knhfr9",
+        "narration": "وہ پوچھنے اٹھا، بھائی، یہ بس کہاں جا رہی ہے؟",
+        "characters": [
+          "saad"
+        ],
+        "scene": "The front aisle of the moving mountain bus. Saad approaches the edge of the opaque driver partition, which still hides the steering wheel and driver's seat.",
+        "action": "Saad leans around the partition.",
+        "camera": "push-in",
+        "mood": "Tight framing, dim dashboard glow, black windshield edges."
+      },
+      {
+        "id": "mgmrnt",
+        "narration": "ڈرائیور کی سیٹ خالی تھی، مگر اسٹیئرنگ گھوم رہا تھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Over Saad's shoulder into the fully exposed driving compartment. The driver's seat is unmistakably empty, and an unmarked steering wheel faces a sharp mountain bend through the windshield. No person, reflection, or figure occupies the controls.",
+        "action": "The steering wheel turns by itself.",
+        "camera": "push-in",
+        "mood": "Stark blue windshield light reveals the empty seat at the peak of dread."
+      },
+      {
+        "id": "b2uyvm",
+        "narration": "[whispers] تبھی حویلی کے باہر وہی بس آ رکی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Back in the real haveli courtyard beside Bashir's glowing brass lantern. Bashir and Saad face the open gate. Beyond it, the identical unmarked bus emerges through the fog, its front door open and driver's seat visibly empty.",
+        "action": "The bus stops directly outside the gate.",
+        "camera": "pull-out",
+        "mood": "Tiny warm lantern light confronted by enormous cold bus headlights."
+      }
+    ],
+    "endHook": "Agli raat wohi bus haveli ke bahar kyun ruki?",
+    "createdAt": "2026-11-14T11:20:36.961Z",
+    "description": "بشیر چچا نے سعد کو ایک پہاڑی بس کی کہانی سنائی، جس کی سواریاں انجان موڑوں پر اترتی تھیں۔ مگر آخری سواری نے آگے دیکھا تو ڈرائیور کی جگہ خالی تھی۔ یہ کہانی مکمل طور پر فرضی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Mountain Bus",
+      "Spooky Animation",
+      "YouTube Shorts"
+    ]
+  }
+}

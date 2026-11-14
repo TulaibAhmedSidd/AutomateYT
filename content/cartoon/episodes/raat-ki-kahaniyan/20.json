@@ -1,0 +1,161 @@
+{
+  "number": 20,
+  "topic": "Final episode: Saad finally asks Bashir Chacha why he guards the street every night, and Bashir's own secret is the biggest twist of all.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:22:51.964Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Aakhri Pehra — Bashir Chacha Ka Raaz",
+    "shots": [
+      {
+        "id": "jy12ld",
+        "narration": "چچا، آپ صبح ہونے سے پہلے ہمیشہ غائب کیوں ہوجاتے ہیں؟",
+        "characters": [
+          "saad",
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look. A deserted Pakistani haveli lane at night, beside an old wooden gate. Saad wears a dark green hoodie and jeans; grey-bearded Bashir wears a brown woollen shawl and white cap beside a brass lantern. No visible text.",
+        "action": "Saad points toward the faintly brightening horizon.",
+        "camera": "push-in",
+        "mood": "Cold blue fog, warm lantern light, long motionless shadows."
+      },
+      {
+        "id": "hbc36x",
+        "narration": "بشیر چچا نے پہلی بار سعد سے نظریں چرا لیں۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D close view of the same haveli doorstep, with the brass lantern between Bashir and Saad. No visible text.",
+        "action": "Bashir turns his face away from Saad.",
+        "camera": "static",
+        "mood": "Uneasy stillness, amber light beneath Bashir's white cap."
+      },
+      {
+        "id": "et32jt",
+        "narration": "[whispers] یہ گلی نہیں بیٹا، میں اپنی لالٹین سنبھالتا ہوں۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, close view of the old brass lantern on the doorstep between the seated pair. No visible text.",
+        "action": "Bashir cups one hand protectively around the lantern glass.",
+        "camera": "push-in",
+        "mood": "Small golden flame, surrounding darkness unusually deep."
+      },
+      {
+        "id": "gdj2t8",
+        "narration": "برسوں پہلے، اسی گلی میں میری لالٹین بجھ گئی تھی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated flashback in the same lane years earlier, with intact haveli plaster and a closed wooden gate. Bashir stands alone with his brass lantern. No visible text.",
+        "action": "The lantern flame goes out.",
+        "camera": "pull-out",
+        "mood": "Sudden moonlit darkness, dense ground fog, empty windows."
+      },
+      {
+        "id": "91ekq5",
+        "narration": "پھر اُس کے اندر ایک روشنی خود جل اٹھی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D close-up of the unlit brass lantern in Bashir's hand in the flashback lane. No visible text.",
+        "action": "A pale golden light blooms inside the lantern.",
+        "camera": "static",
+        "mood": "Unnatural light without a visible flame, blue-black surroundings."
+      },
+      {
+        "id": "11azbd",
+        "narration": "[surprised] مگر زمین پر میرا سایہ نہیں تھا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated flashback, high view of Bashir on pale paving stones. His lantern casts clear shadows from a clay pot and gate hinges, but none from him. No visible text.",
+        "action": "Bashir bends toward the bare paving beneath his feet.",
+        "camera": "pan-right",
+        "mood": "Exposed pale ground, sharply defined object shadows, uncanny absence."
+      },
+      {
+        "id": "ol53bb",
+        "narration": "میں چلا تو روشنی پیچھے رہ گئی۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D flashback wide view. The glowing lantern rests beside the wooden gate; Bashir stands several paces away at the edge of its light. No visible text.",
+        "action": "Bashir steps away from the lantern.",
+        "camera": "pan-left",
+        "mood": "A small island of amber light surrounded by heavy fog."
+      },
+      {
+        "id": "dw4iem",
+        "narration": "اور روشنی سے باہر، میرا ہاتھ غائب ہونے لگا۔",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated flashback close-up of Bashir's extended arm at the sharp boundary of the lantern glow. His fingertips are translucent, without injury. No visible text.",
+        "action": "Bashir's fingertips fade into the darkness.",
+        "camera": "push-in",
+        "mood": "Soft golden wrist, transparent fingers, silent supernatural dread."
+      },
+      {
+        "id": "utwie7",
+        "narration": "[whispers] تب سمجھ آیا، میں اب اِسی روشنی کا حصہ ہوں۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D return to the present-day crumbling haveli doorstep. Bashir sits beside the lantern opposite Saad, with no shadow beneath him. No visible text.",
+        "action": "Bashir opens his palm above the lantern glow.",
+        "camera": "orbit",
+        "mood": "Sad amber illumination, deep blue fog, a visible shadow beneath Saad alone."
+      },
+      {
+        "id": "p80l2x",
+        "narration": "سعد نے دیکھا، لالٹین میں تیل ختم ہوچکا تھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated close view of Saad crouched beside the brass lantern, its open filler port revealing a dry reservoir beneath a tiny wavering light. No visible text.",
+        "action": "Saad tilts the lantern toward himself.",
+        "camera": "low-angle",
+        "mood": "Failing amber glow across wide eyes, darkness pressing close."
+      },
+      {
+        "id": "7h2cdf",
+        "narration": "روشنی بجھی، اور بشیر چچا بھی دھند کی طرح بکھر گئے۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D view of the doorstep. The lantern is now dark beside Saad; Bashir's entire figure, including shawl and cap, is translucent. No visible text.",
+        "action": "Bashir dissolves into a thin cloud of golden mist.",
+        "camera": "static",
+        "mood": "Peak supernatural terror, cold moonlight, an abruptly empty seat."
+      },
+      {
+        "id": "ofuaq1",
+        "narration": "[whispers] اگلی رات، خالی لالٹین سے آواز آئی، سعد، کہانی سنوگے؟",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, the same doorstep the following night. Saad sits alone beside Bashir's empty place; the brass lantern contains a faint golden glow despite its dry reservoir. No visible text.",
+        "action": "Saad turns toward the lantern.",
+        "camera": "push-in",
+        "mood": "Impossible returning warmth, empty shadows, an unresolved invitation."
+      }
+    ],
+    "endHook": "Agli kahani: Bashir Chacha ke baghair laalten se awaaz kis ki aayi?",
+    "createdAt": "2026-11-14T11:22:51.960Z",
+    "description": "آخری قسط میں سعد آخر پوچھ لیتا ہے کہ بشیر چچا ہر رات اسی گلی کا پہرا کیوں دیتے ہیں۔ جواب ملتا ہے تو لالٹین کی روشنی بھی ڈرانے لگتی ہے۔ یہ ایک فرضی کہانی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Animated Mystery",
+      "Bashir Chacha",
+      "Final Episode",
+      "YouTube Shorts"
+    ]
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "number": 4,
+  "topic": "A phone call comes from a number that is not in service, and the caller knows Saad's name.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:20:37.674Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Band Number Se Saad Ka Naam",
+    "shots": [
+      {
+        "id": "hn9wrm",
+        "narration": "سعد، بند نمبر سے تمہارا نام کس نے لیا؟",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, courtyard of an old Pakistani haveli at night, brass lantern between Bashir and Saad, blank walls without writing.",
+        "action": "Bashir points at the phone in Saad's hand.",
+        "camera": "push-in",
+        "mood": "Warm lantern light on startled faces, cold moonlight behind them, thin ground fo"
+      },
+      {
+        "id": "xf1l0j",
+        "narration": "چچا نے لالٹین کے پاس سعد کی کہانی سنانا شروع کی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, same haveli courtyard, Bashir in a brown woollen shawl and white cap opposite Saad in a dark green hoodie.",
+        "action": "Bashir lifts his old brass lantern between them.",
+        "camera": "static",
+        "mood": "3D cinematic lighting, amber reflections, deep blue shadows, intimate nighttime "
+      },
+      {
+        "id": "2mfjj9",
+        "narration": "[whispers] اُس رات تم اسٹیشن سے اکیلے واپس آ رہے تھے۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, deserted road outside a small Pakistani railway station, unmarked station building, fog covering the tracks.",
+        "action": "Saad walks along the road with his small torch.",
+        "camera": "pull-out",
+        "mood": "3D animated film look, distant moonlight, isolated pool of torchlight, no readab"
+      },
+      {
+        "id": "1c9bj8",
+        "narration": "اچانک تمہاری جیب میں فون بجنے لگا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, empty roadside beside the station boundary wall, close view of Saad's hoodie pocket.",
+        "action": "A phone vibrates inside Saad's pocket.",
+        "camera": "push-in",
+        "mood": "Faint screen glow through green fabric, heavy darkness, crisp cinematic detail."
+      },
+      {
+        "id": "gihs9w",
+        "narration": "تم نے اٹھایا، تو کسی نے تمہارا نام لیا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, deserted station road, Saad framed against a bare plaster wall.",
+        "action": "Saad presses the phone to his ear.",
+        "camera": "orbit",
+        "mood": "3D film lighting, pale moonlit face, torch beam angled toward the ground."
+      },
+      {
+        "id": "7ruqq9",
+        "narration": "[surprised] واپس ملایا تو پتا چلا، نمبر بند تھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, same roadside, close view of Saad holding a phone with its screen turned away from the camera.",
+        "action": "Saad taps the phone to return the call.",
+        "camera": "static",
+        "mood": "Cold blue light, puzzled expression, empty road fading into fog."
+      },
+      {
+        "id": "jaihcj",
+        "narration": "پھر وہی کال دوبارہ آنے لگی۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, bare roadside wall behind Saad, phone visible in his open palm, screen showing only abstract light without symbols.",
+        "action": "The phone vibrates across Saad's palm.",
+        "camera": "push-in",
+        "mood": "Pulsing pale glow, tense fingers, motionless fog, cinematic night shadows."
+      },
+      {
+        "id": "gdelb3",
+        "narration": "آواز بولی، سعد، اپنا سایہ ذرا غور سے دیکھو۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, Saad beside a tall blank plaster wall, his full shadow cast clearly across it by a low station lamp.",
+        "action": "Saad turns toward his shadow.",
+        "camera": "pan-right",
+        "mood": "3D animated film look, elongated silhouette, hard moon-blue edges, silent empty "
+      },
+      {
+        "id": "y1l0vs",
+        "narration": "[whispers] تم رکے، مگر سایہ ایک قدم آگے بڑھ گیا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, full view of motionless Saad beside the wall, his shadow offset ahead of his feet.",
+        "action": "Saad's shadow takes one step while Saad remains still.",
+        "camera": "static",
+        "mood": "Unnatural separation, stark silhouette, thin fog beneath steady lamplight."
+      },
+      {
+        "id": "b8dx26",
+        "narration": "تم نے فوراً فون کان سے ہٹا لیا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, roadside wall filling the background, Saad and his shadow both fully visible.",
+        "action": "Saad lowers the phone to his thigh.",
+        "camera": "pull-out",
+        "mood": "Rigid posture, wide eyes, cold light, deep black shadow."
+      },
+      {
+        "id": "vfjkaa",
+        "narration": "مگر تمہارے سائے نے فون اپنے کان سے لگا لیا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, Saad stands with both hands down, real phone clearly beside his thigh, his own shadow enormous on the blank wall.",
+        "action": "Saad's shadow raises a phone-shaped silhouette to its ear.",
+        "camera": "low-angle",
+        "mood": "Peak supernatural dread, impossible silhouette, sharp cinematic contrast, no gor"
+      },
+      {
+        "id": "7z6lbd",
+        "narration": "[whispers] چچا بولے، کل بتاؤں گا یہ فون میرے پاس کیسے آیا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, back in the haveli courtyard, brass lantern between Bashir and a wide-eyed Saad, matching phone case with a distinctive chipped corner.",
+        "action": "Bashir reveals the same phone from beneath his brown shawl.",
+        "camera": "push-in",
+        "mood": "3D animated film look, amber lantern glow on the familiar phone, blue fog behind"
+      }
+    ],
+    "endHook": "Wohi phone Bashir Chacha ke paas kaise pohncha?",
+    "createdAt": "2026-11-14T11:20:37.667Z",
+    "description": "لالٹین کے پاس بشیر چچا نے سعد کو اسی کی ایک عجیب رات یاد دلائی۔ بند نمبر سے آنے والی کال کو سعد کا نام کیسے معلوم تھا؟ یہ ایک فرضی کہانی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Spooky Story",
+      "YouTube Shorts",
+      "3D Animation",
+      "Mystery"
+    ]
+  }
+}

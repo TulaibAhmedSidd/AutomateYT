@@ -1,0 +1,156 @@
+{
+  "number": 2,
+  "topic": "A lady in white waits by the canal road at midnight and asks for a lift to a house that no longer exists.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:20:40.410Z",
+  "episode": {
+    "id": "",
+    "seriesId": "raat-ki-kahaniyan",
+    "title": "Nehar Wali Sawari | Raat Ki Kahaniyan",
+    "shots": [
+      {
+        "id": "xh3hgr",
+        "narration": "اس عورت کو وہاں جانا تھا، جہاں کوئی گھر نہیں تھا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, old Pakistani haveli courtyard at night, brass lantern between bashir and saad, no text.",
+        "action": "Bashir points toward the dark courtyard gate.",
+        "camera": "push-in",
+        "mood": "Warm lantern light surrounded by deep blue shadows and low fog."
+      },
+      {
+        "id": "xjdfvv",
+        "narration": "بشیر چچا بولے، نہر والی سڑک پر آدھی رات تھی۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, haveli courtyard, bashir in brown woollen shawl and white cap, saad in dark green hoodie beside the lantern.",
+        "action": "Saad leans closer to Bashir.",
+        "camera": "static",
+        "mood": "Quiet anticipation, grey beard edged with amber light."
+      },
+      {
+        "id": "1u8l16",
+        "narration": "[whispers] ایک عورت نے اندھیرے سے آواز دی، مجھے چھوڑ دو۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, story visualization, saad inside a stationary unbranded car on a deserted Pakistani canal road, midnight fog, unseen speaker outside the frame.",
+        "action": "Saad turns toward the open passenger window.",
+        "camera": "pan-right",
+        "mood": "Cold moonlight, black canal water, an empty roadside disappearing into mist."
+      },
+      {
+        "id": "dokoif",
+        "narration": "سعد کو بس اس کے سفید دوپٹے کا کنارا دکھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, view across saad toward the open passenger window, only a loose white fabric corner visible below the window edge, no person outside visible.",
+        "action": "The white fabric corner flutters against the window frame.",
+        "camera": "static",
+        "mood": "Pale fabric sharply illuminated against an unreadable black exterior."
+      },
+      {
+        "id": "tu90xx",
+        "narration": "اس نے دروازہ کھولا، مگر ساتھ والی نشست خالی رہی۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, car interior on the canal road, empty passenger seat, white fabric edge near the open doorway.",
+        "action": "Saad pushes the passenger door open.",
+        "camera": "pull-out",
+        "mood": "Uneasy stillness, overhead branches casting narrow shadows across the upholstery"
+      },
+      {
+        "id": "k0jp1p",
+        "narration": "[surprised] پھر خالی نشست سے آواز آئی، بس آگے چلو۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, closed car interior, passenger seat visibly empty except for a loose white dupatta, saad at the wheel.",
+        "action": "The empty passenger cushion slowly sinks inward.",
+        "camera": "push-in",
+        "mood": "Unnatural pressure in the upholstery, cold highlights and motionless fog outside"
+      },
+      {
+        "id": "odn1nx",
+        "narration": "سعد گاڑی چلاتا رہا، دوپٹہ ساتھ والی نشست پر تھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, moving car beside a narrow canal, saad driving, loose white dupatta on the otherwise empty passenger seat, no dashboard lettering.",
+        "action": "Saad drives along the canal road.",
+        "camera": "low-angle",
+        "mood": "Headlights tunneling through fog, moonlight sliding across dark water."
+      },
+      {
+        "id": "b3gn6v",
+        "narration": "موڑ پر آواز آئی، میرا گھر اس پیپل کے پیچھے ہے۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, view past saad through the windshield toward a huge peepal tree beside a deserted bend, broken boundary wall beyond.",
+        "action": "Saad turns the steering wheel toward the tree.",
+        "camera": "pan-left",
+        "mood": "Dense hanging roots, crooked shadows, pale headlights catching ancient brickwork"
+      },
+      {
+        "id": "7x71g7",
+        "narration": "[whispers] وہاں صرف پرانی بنیادیں تھیں، گھر کا نام ونشان نہیں۔",
+        "characters": [],
+        "scene": "Vertical 9:16, abandoned plot behind a peepal tree, weathered house foundations covered in grass, car headlights entering from offscreen, no people.",
+        "action": "Headlight beams sweep across the roofless foundations.",
+        "camera": "pan-right",
+        "mood": "Long neglect, wet bricks, deep fog between empty door foundations."
+      },
+      {
+        "id": "86zi1s",
+        "narration": "سعد نے مڑ کر دیکھا، دوپٹے کے نیچے کچھ نہیں تھا۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, parked car beside the ruined plot, white dupatta spread flat across the empty passenger seat.",
+        "action": "Saad lifts one corner of the dupatta.",
+        "camera": "push-in",
+        "mood": "Exposed empty upholstery, rigid posture, cold moonlight on trembling fabric."
+      },
+      {
+        "id": "nyjlc4",
+        "narration": "پھر وہ خالی دوپٹہ خود اٹھا، جیسے کوئی پہنتا ہے۔",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, tight car interior, saad pressed against the driver door, passenger seat empty, white dupatta suspended above its headrest with clearly visible hollow space beneath, no face or body.",
+        "action": "The empty dupatta rises into a hollow arch above the passenger seat.",
+        "camera": "push-in",
+        "mood": "Peak supernatural dread, stark white fabric against black glass, ruined foundati"
+      },
+      {
+        "id": "hbtin0",
+        "narration": "[whispers] کل سننا، یہی دوپٹہ بند کنویں سے کیسے نکلا۔",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, return to the lantern-lit haveli courtyard, bashir and saad beside an old sealed well, a white fabric corner caught beneath its heavy stone lid.",
+        "action": "Bashir directs his lantern toward the trapped white fabric.",
+        "camera": "pull-out",
+        "mood": "Amber light revealing an impossible clue, blue fog pooling around the sealed wel"
+      }
+    ],
+    "endHook": "اگلی رات: وہی سفید دوپٹہ بند کنویں سے کیسے نکلا؟",
+    "createdAt": "2026-11-14T11:20:40.402Z",
+    "description": "بشیر چچا نے سعد کو نہر کنارے کھڑی ایک سفید لباس والی عورت کی کہانی سنائی۔ اسے ایسے گھر جانا تھا جو برسوں پہلے مٹ چکا تھا۔ یہ ایک فرضی کہانی ہے۔",
+    "tags": [
+      "Raat Ki Kahaniyan",
+      "Urdu Horror",
+      "Pakistani Animation",
+      "Spooky Story",
+      "YouTube Shorts"
+    ]
+  }
+}
