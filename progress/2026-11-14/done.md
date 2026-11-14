@@ -62,3 +62,12 @@
   - **Episode 2 ("Karachi’s Empress Market"):** 6 shots, rendered in **11 min 20 s**. Clock tower and facade preserved while foreground evolved from 1890s carriage to today's rickshaw. Output: `storage/cartoon/episodes/then-and-now-pakistan-e02/video.mp4` (7.5 MB).
   - **Episode 3 ("Islamabad: From Foothills to Faisal Mosque"):** 7 shots, rendered in **13 min 38 s**. Output: `storage/cartoon/episodes/then-and-now-pakistan-e03/video.mp4` (8.4 MB).
 - **Technical Observation for Claude:** Chaining 6 consecutive lossy edits in Episode 3 caused latent saturation by Shot 7. For transition series, referencing Shot 1 as the anchor (`keyframeFile(shots[0])`) will keep all subsequent eras as clean as Episodes 1 and 2.
+
+- **Owner Review & Quality Assessment:**
+  - Owner reviewed the rendered video (`output of lahore video.mp4` / `episodes-then-and-now-pakistan-e01-video.mp4`) and marked the current transition reel quality as unusable for YouTube Shorts.
+  - Wrote Section 4 in `docs/ai/note-for-claude.md` with a detailed failure analysis:
+    1. AI hallucinated architecture and painterly/smudged textures look fake compared to real archival photos.
+    2. Sequential chaining in `render-cartoon.mjs` degrades quality over multiple passes.
+    3. Total silence (no music, no whooshes, no shutter sound) makes the video lifeless.
+    4. Hard cuts need dynamic wipe/slider transitions, camera push-in zooms, and sound design.
+  - Saved sample video in repo root as `output of lahore video.mp4`.
