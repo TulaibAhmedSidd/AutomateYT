@@ -21,20 +21,21 @@ Return ONLY a JSON object:
   "title": string (under 60 chars, curiosity-driven),
   "description": string (2-3 lines, with 3 hashtags),
   "tags": string[] (8-12),
-  "scenes": [{ "kind": one of "hook"|"stat"|"list"|"compare"|"statement"|"cta",
+  "scenes": [{ "kind": one of "hook"|"stat"|"list"|"compare"|"statement"|"timeline"|"cta",
                "voice": what the narrator says,
                "heading": big on-screen text, max 8 words; wrap the 1-2 key words in *stars*,
                "sub": optional small line,
                "value": for "stat" only, e.g. "90%", "$28K", "3x", "400 km",
-               "items": for "list" (2-4 items, max 4 words each) or "compare" (exactly 2: the myth/wrong side first, the truth/right side second) }]
+               "items": for "list" (2-4 items, max 4 words each) or "compare" (exactly 2: the myth/wrong side first, the truth/right side second),
+               "points": for "timeline" only: 3-6 steps, oldest first, each {"label": year or era like "1990", "value": number with unit like "Rs 35" or "3.4 crore"}; every value uses the same unit }]
 }
 
 HARD RULES
 1. Length: the "voice" lines together must be ${words - 10} to ${words + 10} words (about ${seconds} seconds). Count them. Each scene's voice is 8 to 22 words. 6 to 8 scenes.
 2. Truth: only facts that are well established and widely reported. A "stat" scene must use a real, checkable number (a size, distance, year, percentage from a known source). If you do not know a real number, use a "statement" scene instead. Never invent percentages.
 3. Do not use quotes or attribute words to anyone (no "as X said"). Models misremember quotes.
-4. The narrator must say what is on screen: a "list" voice names every item; a "compare" voice says both sides.
-5. Headings are written for THIS topic. Never write template words like "Wrong way", "Right way", "Point 1".
+4. The narrator must say what is on screen: a "list" voice names every item; a "compare" voice says both sides; a "timeline" voice says every step in order, starting with the first, so the year on screen matches the voice.
+5. Headings are written for THIS topic. Never write template words like "Wrong way", "Right way", "Point 1". When the topic changes over time (prices, population, records), use one "timeline" scene with real, well-known numbers only; leave out any step you are not sure of.
 6. Retention: scene 1 is "hook" — a surprising claim or direct question that works with the sound off. Then give the payoff with real detail. Change the scene kind every scene. Spell numbers as words in "voice", digits in "heading"/"value".
 7. Last scene is "cta": follow for part 2, or comment one keyword (and put that keyword in "sub").
 

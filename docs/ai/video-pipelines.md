@@ -9,10 +9,14 @@ Files:
 - `components/motion/PlayerPanel.tsx`: the live preview.
 - `app/motion/page.tsx`: the studio page.
 - `lib/motion/jobs.ts` + `scripts/render-motion.mjs`: rendering.
+- `lib/motion/series.ts` + `app/api/motion/series` + `components/motion/MotionSeriesPanel.tsx`: ready-written series from `content/motion/series/<id>.json`.
 
 **Spec.** `MotionSpec` = `{ title, description?, tags?, language: 'en'|'ur', theme, voice, captions, scenes[] }`.
-- Each scene = `{ kind, voice, heading?, sub?, value?, items? }`.
-- `kind` is one of `hook | stat | list | compare | quote | statement | cta`.
+- Each scene = `{ kind, voice, heading?, sub?, value?, items?, points? }`.
+- `kind` is one of `hook | stat | list | compare | quote | statement | timeline | cta`.
+- **`timeline` ("Then → Now")**: `points` = 2–6 `{ label, value }`, oldest first, one unit for all values ("3.37 کروڑ", "Rs 57"). The year flips, the number counts up from the last value, a bar grows per step. Steps share the scene evenly (at least 1.3 s each), so the voice must say the first step first and then each step in order.
+- `voice` is an Edge voice id, or `eleven:<voiceId>` with optional `elevenModel` (ElevenLabs, costs credits). ElevenLabs lines are cached in `storage/motion/voice-cache/` by voice + model + text, so re-renders are free.
+- `series` + `episode` mark a spec that came from a motion series; the series panel uses them to show which episodes are made.
 - Wrap words in `*stars*` to colour them with the accent.
 - The renderer adds `audio`, `words` (word timings) and `duration`.
 
@@ -110,6 +114,12 @@ Use the `verify-render` skill:
 - The writer uses a separate prompt: the same subject and angle in every stage, labels of at most 5 words. The studio replaces Step 1 with a note.
 - 5 series in `content/cartoon/series/` (group `transition`): then-and-now-pakistan, evolution-of, glow-up-nature, one-place-four-seasons, cities-of-the-future (10 reels each).
 - They need the **keyframe (picture) workflow** on the GPU PC to look good. Without it they show placeholder cards.
+- **Look and sound (2026-11-14, after the owner called the first Lahore reel unusable):**
+  - each stage wipes in from the left with a bright line, then a soft flash; every picture slowly pushes in;
+  - stages labelled with a year before 1990 get an old-film look (sepia, moving grain, vignette) — `isVintageLabel()`;
+  - sound: `scripts/lib/sfx.mjs` makes a whoosh (every cut) and a deep impact (last stage) with FFmpeg into `storage/sfx/` (no downloads, no copyright). The owner still adds trending music in the Instagram/YouTube app;
+  - prompts ask for a real photograph of the time (archival photo for old years), and the negative prompt bans painting, illustration, CGI, smudged faces and warped buildings;
+  - for real archive photos, upload a picture on each line (Picture & scene): uploaded pictures are never replaced by AI.
 
 ## 7. Horror
 `raat-ki-kahaniyan` (Urdu, 20 episodes): Bashir Chacha the night watchman tells fictional Pakistani urban legends. Spooky, not gory, no religious mockery, twist endings. Voice: ElevenLabs Brian with [whispers]/[gasps].

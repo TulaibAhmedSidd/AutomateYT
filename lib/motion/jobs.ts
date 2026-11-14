@@ -20,7 +20,7 @@ export type JobStatus = {
   pid?: number | null;
 };
 
-export type JobSummary = { id: string; title: string; theme: string; language: string; createdAt: string; status: JobStatus };
+export type JobSummary = { id: string; title: string; theme: string; language: string; createdAt: string; status: JobStatus; series?: string; episode?: number };
 
 const ID_RE = /^[\w-]{3,64}$/;
 
@@ -80,6 +80,8 @@ export function listJobs(): JobSummary[] {
         language: spec?.language || 'en',
         createdAt,
         status: readStatus(d.name),
+        series: spec?.series,
+        episode: spec?.episode,
       };
     })
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt));

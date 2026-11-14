@@ -7,8 +7,11 @@ export const WIDTH = 1080;
 export const HEIGHT = 1920;
 
 export type MotionLang = 'en' | 'ur';
-export type SceneKind = 'hook' | 'stat' | 'list' | 'compare' | 'quote' | 'statement' | 'cta';
+export type SceneKind = 'hook' | 'stat' | 'list' | 'compare' | 'quote' | 'statement' | 'timeline' | 'cta';
 export type ThemeId = 'ember' | 'violet' | 'ocean' | 'lime';
+
+/** One step of a "Then → Now" timeline scene. The number inside `value` counts up and sets the bar height. */
+export type TimelinePoint = { label: string; value: string };
 
 /** One spoken word, in seconds from the start of its scene. Filled in by the renderer from the voice. */
 export type Word = { text: string; start: number; end: number };
@@ -24,6 +27,8 @@ export type MotionScene = {
   value?: string;
   /** list: up to 4 items. compare: [left, right]. */
   items?: string[];
+  /** timeline: 2-6 steps in time order, e.g. { label: '1951', value: '3.4 کروڑ' }. All values in the same unit. */
+  points?: TimelinePoint[];
   /** Set by the renderer. */
   audio?: string;
   duration?: number;
@@ -36,8 +41,13 @@ export type MotionSpec = {
   tags?: string[];
   language: MotionLang;
   theme: ThemeId;
-  /** Edge neural voice id, or 'none' for a silent video. */
+  /** Edge neural voice id, 'eleven:<voiceId>' for an ElevenLabs voice (costs credits), or 'none' for a silent video. */
   voice: string;
+  /** ElevenLabs model when `voice` is an ElevenLabs voice. */
+  elevenModel?: string;
+  /** Set when the spec came from a motion series in content/motion/series: which series and episode number. */
+  series?: string;
+  episode?: number;
   captions: boolean;
   scenes: MotionScene[];
   /** Where audio files live for the browser preview, e.g. /api/motion/files/<id>. Empty while rendering. */
@@ -60,8 +70,17 @@ export const SCENE_KINDS: { id: SceneKind; label: string; hint: string }[] = [
   { id: 'compare', label: 'This vs That', hint: 'Two sides, left and right.' },
   { id: 'quote', label: 'Quote', hint: 'A line that types itself out.' },
   { id: 'statement', label: 'Statement', hint: 'One strong sentence with an underline.' },
+  { id: 'timeline', label: 'Then → Now', hint: 'Years change, the number counts up and bars grow (2 to 6 steps).' },
   { id: 'cta', label: 'Call to action', hint: 'Follow, comment a word, part 2.' },
 ];
+
+/** 'eleven:<voiceId>' voices are spoken by ElevenLabs (natural, costs credits); the rest are free Edge voices. */
+export function isElevenVoice(voice: string) {
+  return /^eleven:[A-Za-z0-9]{10,40}$/.test(voice);
+}
+
+/** ElevenLabs models that speak Urdu (same list as Cartoon Studio). */
+export const MOTION_ELEVEN_MODELS = ['eleven_v4', 'eleven_v4_turbo', 'eleven_v3'];
 
 export type VoiceOption = { id: string; label: string; lang: MotionLang | 'any' };
 
@@ -89,9 +108,11 @@ export function plainText(s = '') {
 
 /** Seconds a scene stays on screen: real voice length once rendered, an estimate before that. */
 export function sceneSeconds(scene: MotionScene) {
-  if (scene.duration && scene.duration > 0) return scene.duration;
+  // A timeline needs about 1.3 s per step so every year can be read.
+  const steps = scene.kind === 'timeline' ? (scene.points?.length || 0) * 1.3 + 1.2 : 0;
+  if (scene.duration && scene.duration > 0) return Math.max(scene.duration, steps);
   const words = plainText(scene.voice).split(/\s+/).filter(Boolean).length;
-  return Math.max(2.4, words / WORDS_PER_SECOND + TAIL);
+  return Math.max(2.4, steps, words / WORDS_PER_SECOND + TAIL);
 }
 
 export function sceneFrames(scene: MotionScene) {
@@ -127,12 +148,23 @@ export function sanitizeSpec(input: unknown): MotionSpec {
   const str = (v: unknown, max = 400) => (typeof v === 'string' ? v.slice(0, max) : '');
   const language: MotionLang = raw.language === 'ur' ? 'ur' : 'en';
   const theme = (Object.keys(THEMES) as ThemeId[]).includes(raw.theme as ThemeId) ? (raw.theme as ThemeId) : 'ember';
-  const voice = VOICES.some((v) => v.id === raw.voice) ? String(raw.voice) : language === 'ur' ? 'ur-PK-AsadNeural' : 'en-US-AndrewNeural';
+  const voice =
+    VOICES.some((v) => v.id === raw.voice) || isElevenVoice(String(raw.voice)) ? String(raw.voice) : language === 'ur' ? 'ur-PK-AsadNeural' : 'en-US-AndrewNeural';
+  const elevenModel = MOTION_ELEVEN_MODELS.includes(String(raw.elevenModel)) ? String(raw.elevenModel) : undefined;
+  const series = typeof raw.series === 'string' && /^[\w-]{3,64}$/.test(raw.series) ? raw.series : undefined;
+  const episode = Number.isInteger(raw.episode) && Number(raw.episode) > 0 && Number(raw.episode) < 1000 ? Number(raw.episode) : undefined;
   const scenesIn = Array.isArray(raw.scenes) ? raw.scenes.slice(0, 14) : [];
   const scenes: MotionScene[] = scenesIn
     .map((s) => {
       const r = (s && typeof s === 'object' ? s : {}) as Record<string, unknown>;
       const kind = KINDS.has(r.kind as SceneKind) ? (r.kind as SceneKind) : 'statement';
+      const points = Array.isArray(r.points)
+        ? r.points
+            .map((p) => (p && typeof p === 'object' ? (p as Record<string, unknown>) : {}))
+            .map((p) => ({ label: str(p.label, 16).trim(), value: str(p.value, 24).trim() }))
+            .filter((p) => p.label && p.value)
+            .slice(0, 6)
+        : undefined;
       const items = Array.isArray(r.items) ? r.items.map((x) => str(x, 80)).filter(Boolean).slice(0, kind === 'compare' ? 2 : 4) : undefined;
       return {
         kind,
@@ -141,6 +173,7 @@ export function sanitizeSpec(input: unknown): MotionSpec {
         sub: str(r.sub, 160) || undefined,
         value: str(r.value, 16) || undefined,
         items: items?.length ? items : undefined,
+        points: kind === 'timeline' && points?.length ? points : undefined,
       };
     })
     .filter((s) => s.voice || s.heading);
@@ -151,6 +184,9 @@ export function sanitizeSpec(input: unknown): MotionSpec {
     language,
     theme,
     voice,
+    ...(elevenModel && isElevenVoice(voice) ? { elevenModel } : {}),
+    ...(series ? { series } : {}),
+    ...(episode ? { episode } : {}),
     captions: raw.captions !== false,
     scenes,
   };
@@ -193,6 +229,34 @@ export const PRESETS: { id: string; name: string; spec: MotionSpec }[] = [
         { kind: 'quote', heading: 'Sunlight stops at 1,000 metres.', voice: 'Below one thousand metres, sunlight stops completely.' },
         { kind: 'list', heading: 'Down there', items: ['No light', 'Crushing pressure', 'Glowing animals'], voice: 'Down there is no light, crushing pressure, and animals that make their own glow.' },
         { kind: 'cta', heading: 'Follow for more', sub: 'One strange fact a day', voice: 'Follow for one strange fact every day.' },
+      ],
+    },
+  },
+  {
+    id: 'then-now',
+    name: 'Then → Now (timeline)',
+    spec: {
+      title: 'We hit 8 billion people',
+      language: 'en',
+      theme: 'violet',
+      voice: 'en-US-AndrewNeural',
+      captions: true,
+      scenes: [
+        { kind: 'hook', heading: 'It took *200,000 years* to reach 1 billion', voice: 'It took humans two hundred thousand years to reach one billion people. Then everything sped up.' },
+        {
+          kind: 'timeline',
+          heading: 'World population',
+          points: [
+            { label: '1950', value: '2.5 billion' },
+            { label: '1974', value: '4 billion' },
+            { label: '1987', value: '5 billion' },
+            { label: '2011', value: '7 billion' },
+            { label: '2022', value: '8 billion' },
+          ],
+          voice: 'In nineteen fifty, two and a half billion. Four billion by seventy four, five by eighty seven, seven by twenty eleven, and eight billion in twenty twenty two.',
+        },
+        { kind: 'stat', value: '3x', heading: 'in one lifetime', voice: 'That is more than three times bigger in one human lifetime.' },
+        { kind: 'cta', heading: 'Follow for *part 2*', sub: 'Comment PEOPLE', voice: 'Follow for part two, and comment people for the countries that grew fastest.' },
       ],
     },
   },

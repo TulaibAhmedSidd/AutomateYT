@@ -73,3 +73,11 @@
   - Saved sample video in repo root as `output of lahore video.mp4`.
 - **Live render progress (Claude, office PC):** the owner could not tell what the PC was doing during a 1.5-hour render. The studio now shows a sticky panel at the top: % done, minutes left, how long it has run, each step with done/total (voice, character pictures, AI pictures, moving clips, join into MP4), the line being worked on, and every picture as soon as it is made. Tested with the fake ComfyUI end to end.
 - Transition stages are now edited from the first picture, not chained (Antigravity found chaining washed out stage 7).
+- **Transition reels fixed after the owner's review:** wipe with a bright line between eras, slow push-in, old-film look for years before 1990, whoosh + impact sound effects (made with FFmpeg), stronger "real photograph" prompts and a negative prompt against painting/CGI looks. Tested with the fake ComfyUI: the MP4 has sound and the wipe.
+- **Motion graphics, new direction (owner wants motion graphics, not AI-picture transitions):**
+  - New scene kind `timeline` ("Then → Now"): the year flips, the number counts up, bars grow.
+  - Motion Studio can use ElevenLabs voices (`eleven:<id>`, model picker, credit estimate); spoken lines are cached so re-renders are free. Listen plays the free demo clip.
+  - Series library for Motion Studio (`content/motion/series/`), with a Series panel: cards with progress, episode list, Open, and a "check before posting" note for prices.
+  - Series **Pakistan: Tab aur Ab (numbers)**: 7 Urdu episodes (population, dollar, gold, petrol, Karachi, Lahore, literacy). Census numbers are official; gold and petrol "today" values must be re-checked on the day of posting.
+  - Test render of the gold episode with the free Asad voice: timeline, counting and bars look right.
+  - AI writer and a new "Then → Now" template know the timeline scene.

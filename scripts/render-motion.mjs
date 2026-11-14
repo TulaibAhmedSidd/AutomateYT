@@ -6,7 +6,9 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import crypto from 'node:crypto';
 import { speakEdge } from './lib/voice.mjs';
+import { speakEleven } from './lib/eleven.mjs';
 import { renderComposition } from './lib/remotion-render.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -20,6 +22,7 @@ const statusFile = path.join(jobDir, 'status.json');
 const assetsDir = path.join(jobDir, 'assets');
 const startedAt = new Date().toISOString();
 const TAIL = 0.35;
+const VOICE_CACHE = path.join(ROOT, 'storage', 'motion', 'voice-cache');
 
 function setStatus(patch) {
   const prev = fs.existsSync(statusFile) ? JSON.parse(fs.readFileSync(statusFile, 'utf8')) : {};
@@ -39,12 +42,32 @@ async function main() {
       const scene = spec.scenes[i];
       const text = (scene.voice || '').replace(/\*/g, '').trim();
       if (!text) continue;
-      const tmp = path.join(jobDir, `tts-${i}`);
-      const { file, seconds, words } = await speakEdge(text, spec.voice, tmp);
       const name = `scene-${i}.mp3`;
       fs.mkdirSync(assetsDir, { recursive: true });
-      fs.copyFileSync(file, path.join(assetsDir, name));
-      fs.rmSync(tmp, { recursive: true, force: true });
+      let seconds;
+      let words;
+      if (spec.voice.startsWith('eleven:')) {
+        // ElevenLabs costs credits, so every spoken line is kept in storage/motion/voice-cache and reused
+        // when the same text and voice are rendered again (re-renders and small edits cost nothing).
+        const model = spec.elevenModel || 'eleven_v4';
+        const key = crypto.createHash('sha1').update(`${spec.voice}|${model}|${text}`).digest('hex').slice(0, 20);
+        const cached = path.join(VOICE_CACHE, `${key}.mp3`);
+        const meta = path.join(VOICE_CACHE, `${key}.json`);
+        if (!fs.existsSync(cached) || !fs.existsSync(meta)) {
+          fs.mkdirSync(VOICE_CACHE, { recursive: true });
+          setStatus({ note: `ElevenLabs voice for scene ${i + 1} of ${spec.scenes.length}` });
+          const r = await speakEleven(text, spec.voice.slice('eleven:'.length), model, cached);
+          fs.writeFileSync(meta, JSON.stringify(r));
+        }
+        ({ seconds, words } = JSON.parse(fs.readFileSync(meta, 'utf8')));
+        fs.copyFileSync(cached, path.join(assetsDir, name));
+      } else {
+        const tmp = path.join(jobDir, `tts-${i}`);
+        const r = await speakEdge(text, spec.voice, tmp);
+        ({ seconds, words } = r);
+        fs.copyFileSync(r.file, path.join(assetsDir, name));
+        fs.rmSync(tmp, { recursive: true, force: true });
+      }
       const lastWord = words.length ? words[words.length - 1].end : 0;
       scene.audio = name;
       scene.words = words;

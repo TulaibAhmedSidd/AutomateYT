@@ -21,6 +21,7 @@ import {
   XCircle,
 } from 'lucide-react';
 import { PageHeader } from '@/components/format-ui';
+import { MotionSeriesPanel } from '@/components/motion/MotionSeriesPanel';
 import {
   PRESETS,
   SCENE_KINDS,
@@ -28,6 +29,8 @@ import {
   VOICES,
   sceneSeconds,
   totalFrames,
+  isElevenVoice,
+  MOTION_ELEVEN_MODELS,
   FPS,
   type MotionScene,
   type MotionSpec,
@@ -69,6 +72,16 @@ function newScene(kind: SceneKind): MotionScene {
     compare: { kind, heading: 'Do this, not that', items: ['The old way', 'The better way'], voice: 'Stop doing it the old way. Do it the better way.' },
     quote: { kind, heading: 'A line worth remembering.', voice: 'A line worth remembering.' },
     statement: { kind, heading: 'One strong *sentence*', voice: 'One strong sentence.' },
+    timeline: {
+      kind,
+      heading: 'How it *changed*',
+      points: [
+        { label: '1990', value: '10' },
+        { label: '2010', value: '40' },
+        { label: '2025', value: '100' },
+      ],
+      voice: 'In nineteen ninety it was ten. By twenty ten, forty. Today, one hundred.',
+    },
     cta: { kind, heading: 'Follow for part 2', sub: 'Comment a keyword', voice: 'Follow for part two.' },
   };
   return clone(base[kind]);
@@ -90,6 +103,17 @@ export default function MotionStudioPage() {
   const [watching, setWatching] = useState<string | null>(null);
   const [sample, setSample] = useState<'idle' | 'loading' | 'playing'>('idle');
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [elevenVoices, setElevenVoices] = useState<{ id: string; name: string }[]>([]);
+  /** Facts to confirm before posting, shown while a series episode is open. */
+  const [check, setCheck] = useState<string | undefined>();
+  useEffect(() => {
+    // Only voices the free ElevenLabs plan can use through the API.
+    fetch('/api/cartoon/eleven/voices', { cache: 'no-store' })
+      .then((r) => r.json())
+      .then((d: { voices?: { id: string; name: string; paidOnly: boolean }[] }) => setElevenVoices((d.voices || []).filter((v) => !v.paidOnly)))
+      .catch(() => setElevenVoices([]));
+  }, []);
+  const elevenChars = isElevenVoice(spec.voice) ? spec.scenes.reduce((n, s) => n + s.voice.replace(/\*/g, '').length, 0) : 0;
 
   const total = useMemo(() => totalFrames(spec) / FPS, [spec]);
   const active = jobs.some((j) => !['done', 'failed'].includes(j.status.stage));
@@ -181,6 +205,16 @@ export default function MotionStudioPage() {
     if (spec.voice === 'none') return;
     setSample('loading');
     try {
+      if (isElevenVoice(spec.voice)) {
+        // ElevenLabs: play the voice's free demo clip (no credits), not the script.
+        audioRef.current?.pause();
+        const audio = new Audio(`/api/cartoon/voice-sample?kind=eleven&id=${spec.voice.slice(7)}&lang=${spec.language}`);
+        audioRef.current = audio;
+        audio.onended = () => setSample('idle');
+        await audio.play();
+        setSample('playing');
+        return;
+      }
       const firstLine = spec.scenes.find((s) => s.voice)?.voice;
       const res = await fetch('/api/motion/voice-sample', {
         method: 'POST',
@@ -207,7 +241,7 @@ export default function MotionStudioPage() {
     if (data.spec) {
       const { assetBase: _assetBase, ...rest } = data.spec as MotionSpec;
       void _assetBase;
-      setSpec({ ...rest, scenes: rest.scenes.map((s) => ({ kind: s.kind, voice: s.voice, heading: s.heading, sub: s.sub, value: s.value, items: s.items })) });
+      setSpec({ ...rest, scenes: rest.scenes.map((s) => ({ kind: s.kind, voice: s.voice, heading: s.heading, sub: s.sub, value: s.value, items: s.items, points: s.points })) });
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   }
@@ -256,6 +290,15 @@ export default function MotionStudioPage() {
 
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_380px]">
         <div className="min-w-0 space-y-6">
+          <MotionSeriesPanel
+            version={jobs.map((j) => `${j.id}:${j.status.stage}`).join(',')}
+            onOpen={(s, note) => {
+              setSpec(clone(s));
+              setCheck(note);
+              document.getElementById('scenes')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }}
+          />
+
           {/* AI writer */}
           <section className={`${card} bg-gradient-to-br from-violet-500/[0.08] to-transparent`}>
             <h2 className="flex items-center gap-2 font-display text-lg font-bold text-white">
@@ -344,14 +387,25 @@ export default function MotionStudioPage() {
                 </div>
               </div>
               <div>
-                <span className={label}>Voice (free)</span>
+                <span className={label}>Voice</span>
                 <div className="flex gap-2">
                   <select className={field} value={spec.voice} onChange={(e) => update({ voice: e.target.value })}>
-                    {VOICES.filter((v) => v.lang === spec.language || v.lang === 'any' || v.lang === 'en').map((v) => (
-                      <option key={v.id} value={v.id}>
-                        {v.label}
-                      </option>
-                    ))}
+                    {elevenVoices.length > 0 && (
+                      <optgroup label="ElevenLabs: natural (uses free-plan credits)">
+                        {elevenVoices.map((v) => (
+                          <option key={v.id} value={`eleven:${v.id}`}>
+                            {v.name}
+                          </option>
+                        ))}
+                      </optgroup>
+                    )}
+                    <optgroup label="Free Microsoft voices (no credits)">
+                      {VOICES.filter((v) => v.lang === spec.language || v.lang === 'any' || v.lang === 'en').map((v) => (
+                        <option key={v.id} value={v.id}>
+                          {v.label}
+                        </option>
+                      ))}
+                    </optgroup>
                   </select>
                   <button
                     onClick={playSample}
@@ -364,6 +418,18 @@ export default function MotionStudioPage() {
                   </button>
                 </div>
               </div>
+              {isElevenVoice(spec.voice) && (
+                <label className="block">
+                  <span className={label}>ElevenLabs model</span>
+                  <select className={field} value={spec.elevenModel || 'eleven_v4'} onChange={(e) => update({ elevenModel: e.target.value })}>
+                    {MOTION_ELEVEN_MODELS.map((m) => (
+                      <option key={m} value={m}>
+                        {m === 'eleven_v4' ? 'Eleven v4 · most natural' : m === 'eleven_v4_turbo' ? 'Eleven v4 Turbo · half the credits' : 'Eleven v3 · expressive'}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              )}
               <label className="flex cursor-pointer items-center gap-3 text-sm text-slate-300 xl:col-span-2">
                 <input type="checkbox" checked={spec.captions} onChange={(e) => update({ captions: e.target.checked })} className="h-4 w-4 accent-[var(--accent)]" />
                 Word-by-word captions (most viewers watch with the sound off)
@@ -372,13 +438,18 @@ export default function MotionStudioPage() {
           </section>
 
           {/* Scenes */}
-          <section className={card}>
+          <section id="scenes" className={`${card} scroll-mt-6`}>
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div>
                 <h2 className="font-display text-lg font-bold text-white">Scenes</h2>
                 <p className="mt-0.5 text-sm text-slate-400">
                   {spec.scenes.length} scenes · about {fmtSeconds(total)}. Wrap a word in *stars* to colour it.
                 </p>
+                {check && spec.series && (
+                  <p className="mt-2 rounded-xl border border-amber-400/30 bg-amber-400/10 px-3 py-2 text-xs text-amber-200">
+                    Check before posting (prices change): {check}
+                  </p>
+                )}
               </div>
               <select
                 aria-label="Add a scene"
@@ -474,7 +545,39 @@ export default function MotionStudioPage() {
                           )}
                         </div>
                       )}
-                      {(scene.kind === 'cta' || scene.kind === 'hook' || scene.kind === 'statement' || scene.kind === 'quote') && (
+                      {scene.kind === 'timeline' && (
+                        <div className="md:col-span-2">
+                          <span className={label}>Steps · year (or era) and value, oldest first. Keep one unit for all values.</span>
+                          <div className="space-y-2">
+                            {[...(scene.points || []), ...((scene.points?.length || 0) < 6 ? [{ label: '', value: '' }] : [])].map((pt, k) => (
+                              <div key={k} className="grid grid-cols-[6.5rem_minmax(0,1fr)] gap-2">
+                                <input
+                                  className={field}
+                                  placeholder={k === 0 ? '1951' : 'year'}
+                                  value={pt.label}
+                                  onChange={(e) => {
+                                    const points = [...(scene.points || [])];
+                                    points[k] = { ...(points[k] || { value: '' }), label: e.target.value };
+                                    updateScene(i, { points: points.filter((p) => p.label || p.value) });
+                                  }}
+                                />
+                                <input
+                                  dir="auto"
+                                  className={field}
+                                  placeholder={k === 0 ? '3.4 کروڑ' : 'value'}
+                                  value={pt.value}
+                                  onChange={(e) => {
+                                    const points = [...(scene.points || [])];
+                                    points[k] = { ...(points[k] || { label: '' }), value: e.target.value };
+                                    updateScene(i, { points: points.filter((p) => p.label || p.value) });
+                                  }}
+                                />
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                      {(scene.kind === 'cta' || scene.kind === 'hook' || scene.kind === 'statement' || scene.kind === 'quote' || scene.kind === 'timeline') && (
                         <div className="md:col-span-2">
                           <span className={label}>Small line (optional)</span>
                           <input dir="auto" className={field} value={scene.sub || ''} onChange={(e) => updateScene(i, { sub: e.target.value || undefined })} />
@@ -532,6 +635,11 @@ export default function MotionStudioPage() {
               Render MP4
             </button>
             <p className="mt-2 text-center text-[11px] text-slate-500">Renders on this PC · about 1-3 min per 30 s</p>
+            {elevenChars > 0 && (
+              <p className="mt-1 text-center text-[11px] text-amber-300">
+                ElevenLabs voice: about {elevenChars} credits the first time. Lines already spoken are reused for free.
+              </p>
+            )}
           </div>
         </aside>
       </div>

@@ -442,6 +442,118 @@ function Cta({ scene, ctx }: { scene: MotionScene; ctx: Ctx }) {
   );
 }
 
+/** 1234.5 → "1,234.5" when the source value used commas; keeps the same number of decimals. */
+function fmtNum(n: number, decimals: number, commas: boolean) {
+  return commas ? n.toLocaleString('en-US', { minimumFractionDigits: decimals, maximumFractionDigits: decimals }) : n.toFixed(decimals);
+}
+
+/**
+ * "Then → Now": the year (or era) flips to the next one, the number counts up from the last value, and a bar
+ * grows for every step, so the change over time is felt, not just read. Steps share the scene evenly.
+ */
+function Timeline({ scene, ctx, frames }: { scene: MotionScene; ctx: Ctx; frames: number }) {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const points = scene.points?.length ? scene.points : [{ label: '', value: scene.value || '' }];
+  const parsed = points.map((p) => parseValue(p.value));
+  const nums = parsed.map((p) => Math.max(0, p?.num ?? 0));
+  const max = Math.max(...nums, 1);
+  const n = points.length;
+  const start = 6;
+  const step = Math.max(10, (frames * 0.84 - start) / n);
+  const idx = Math.min(n - 1, Math.max(0, Math.floor((frame - start) / step)));
+  const local = frame - start - idx * step;
+  const t = interpolate(local, [0, Math.min(24, step * 0.7)], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic) });
+  const flip = spring({ frame: local, fps, config: { damping: 14, stiffness: 170 } });
+  const from = idx === 0 ? 0 : nums[idx - 1];
+  const p = parsed[idx];
+  const value = points[idx].value;
+  const counted = p ? fmtNum(from + (nums[idx] - from) * t, p.decimals, /,/.test(value)) : value;
+  const ring = interpolate(local, [0, 14], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' });
+  const gap = n > 4 ? 18 : 28;
+  const barW = (900 - gap * (n - 1)) / n;
+  const urduSuffix = ctx.urdu && Boolean(p && /[؀-ۿ]/.test(p.suffix));
+
+  return (
+    <div style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+      {scene.heading && <Heading text={scene.heading} ctx={ctx} size={70} pop={false} />}
+      <div style={{ position: 'relative', marginTop: 34, height: 150, display: 'grid', placeItems: 'center' }}>
+        <div
+          style={{
+            position: 'absolute',
+            width: 360,
+            height: 360,
+            borderRadius: '50%',
+            background: `radial-gradient(circle, ${ctx.theme.accent}55 0%, transparent 65%)`,
+            transform: `scale(${0.5 + ring * 0.9})`,
+            opacity: 1 - ring,
+          }}
+        />
+        <div
+          style={{
+            fontFamily: space.fontFamily,
+            fontWeight: 700,
+            fontSize: 130,
+            letterSpacing: -3,
+            color: ctx.theme.accent,
+            transform: `translateY(${(1 - flip) * 70}px) rotateX(${(1 - flip) * 70}deg)`,
+            opacity: flip,
+            textShadow: `0 0 50px ${ctx.theme.accent}88`,
+          }}
+        >
+          {points[idx].label}
+        </div>
+      </div>
+      <div style={{ marginTop: 6, display: 'flex', alignItems: 'baseline', gap: 18, direction: urduSuffix ? 'rtl' : 'ltr', color: ctx.theme.text }}>
+        <span style={{ fontFamily: space.fontFamily, fontWeight: 700, fontSize: counted.length > 7 ? 120 : 150, letterSpacing: -4, direction: 'ltr' }}>
+          {p ? `${p.prefix}${counted}` : counted}
+        </span>
+        {p?.suffix.trim() && (
+          <span style={{ fontFamily: urduSuffix ? ctx.display : space.fontFamily, fontWeight: 700, fontSize: urduSuffix ? 70 : 80, lineHeight: urduSuffix ? 1.9 : 1 }}>
+            {p.suffix.trim()}
+          </span>
+        )}
+      </div>
+      <div style={{ marginTop: 40, width: 900, height: 470, display: 'flex', alignItems: 'flex-end', gap }}>
+        {points.map((pt, i) => {
+          const grow = i < idx ? 1 : i === idx ? t : 0;
+          const h = Math.max(6, (nums[i] / max) * 380 * grow);
+          const now = i === idx;
+          const done = parsed[i];
+          return (
+            <div key={i} style={{ width: barW, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'flex-end', height: '100%' }}>
+              <div
+                style={{
+                  fontFamily: space.fontFamily,
+                  fontWeight: 700,
+                  fontSize: n > 4 ? 24 : 30,
+                  color: now ? ctx.theme.text : ctx.theme.muted,
+                  opacity: i <= idx ? grow : 0,
+                  marginBottom: 10,
+                  whiteSpace: 'nowrap',
+                }}
+              >
+                {done && (i < idx || (now && t > 0.95)) ? `${done.prefix}${fmtNum(done.num, done.decimals, /,/.test(pt.value))}` : ''}
+              </div>
+              <div
+                style={{
+                  width: '100%',
+                  height: i <= idx ? h : 6,
+                  borderRadius: 18,
+                  background: now ? `linear-gradient(180deg, ${ctx.theme.accent2}, ${ctx.theme.accent})` : `${ctx.theme.text}${i < idx ? '40' : '14'}`,
+                  boxShadow: now ? `0 0 40px ${ctx.theme.accent}77` : undefined,
+                }}
+              />
+              <div style={{ marginTop: 14, fontFamily: space.fontFamily, fontWeight: 700, fontSize: n > 4 ? 26 : 32, color: now ? ctx.theme.accent : ctx.theme.muted }}>{pt.label}</div>
+            </div>
+          );
+        })}
+      </div>
+      {scene.sub && <Sub text={scene.sub} ctx={ctx} delay={Math.round(frames * 0.85)} />}
+    </div>
+  );
+}
+
 function SceneBody({ scene, ctx, frames }: { scene: MotionScene; ctx: Ctx; frames: number }) {
   switch (scene.kind) {
     case 'hook':
@@ -454,6 +566,8 @@ function SceneBody({ scene, ctx, frames }: { scene: MotionScene; ctx: Ctx; frame
       return <Compare scene={scene} ctx={ctx} />;
     case 'quote':
       return <Quote scene={scene} ctx={ctx} frames={frames} />;
+    case 'timeline':
+      return <Timeline scene={scene} ctx={ctx} frames={frames} />;
     case 'cta':
       return <Cta scene={scene} ctx={ctx} />;
     default:

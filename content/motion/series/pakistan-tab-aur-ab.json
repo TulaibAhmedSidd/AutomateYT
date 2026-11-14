@@ -1,0 +1,512 @@
+{
+  "name": "Pakistan: Tab aur Ab (numbers)",
+  "description": "Motion graphics in Urdu: one number, then vs now. The year flips, the number counts up and the bars grow. Census and well-reported figures only; price episodes say what to re-check before posting.",
+  "language": "ur",
+  "theme": "lime",
+  "voice": "eleven:JBFqnCBsd6RMkjVDRZzb",
+  "elevenModel": "eleven_v4",
+  "episodes": [
+    {
+      "title": "Pakistan ki abadi: 3 crore se 24 crore",
+      "description": "1951 se 2023 tak Pakistan ki abadi, har census ke saath. #pakistan #census #thenandnow",
+      "tags": [
+        "pakistan",
+        "population",
+        "census",
+        "then and now",
+        "urdu",
+        "pakistan facts",
+        "motion graphics"
+      ],
+      "check": "2023 census total (24.15 crore) leaves out AJK and Gilgit-Baltistan; say so if asked.",
+      "scenes": [
+        {
+          "kind": "hook",
+          "heading": "ہم *7 گنا* ہو گئے",
+          "voice": "انیس سو اکیاون میں پاکستان میں صرف تین کروڑ سینتیس لاکھ لوگ تھے۔ آج کتنے ہیں؟ یقین نہیں آئے گا۔"
+        },
+        {
+          "kind": "timeline",
+          "heading": "مردم شماری کے مطابق آبادی",
+          "points": [
+            {
+              "label": "1951",
+              "value": "3.37 کروڑ"
+            },
+            {
+              "label": "1961",
+              "value": "4.28 کروڑ"
+            },
+            {
+              "label": "1981",
+              "value": "8.43 کروڑ"
+            },
+            {
+              "label": "1998",
+              "value": "13.24 کروڑ"
+            },
+            {
+              "label": "2017",
+              "value": "20.78 کروڑ"
+            },
+            {
+              "label": "2023",
+              "value": "24.15 کروڑ"
+            }
+          ],
+          "voice": "انیس سو اکیاون میں سوا تین کروڑ، اکسٹھ میں سوا چار کروڑ، اکیاسی میں ساڑھے آٹھ کروڑ، اٹھانوے میں سوا تیرہ کروڑ، دو ہزار سترہ میں پونے اکیس کروڑ، اور دو ہزار تئیس میں چوبیس کروڑ سے زیادہ۔"
+        },
+        {
+          "kind": "stat",
+          "value": "7x",
+          "heading": "72 سال میں سات گنا",
+          "voice": "یعنی بہتر سال میں ہماری آبادی سات گنا ہو گئی۔"
+        },
+        {
+          "kind": "compare",
+          "heading": "تب اور اب",
+          "items": [
+            "1951: 3.37 کروڑ",
+            "2023: 24.15 کروڑ"
+          ],
+          "voice": "ایک طرف سوا تین کروڑ، دوسری طرف چوبیس کروڑ۔ اتنے لوگوں کے لیے اسکول، اسپتال اور نوکریاں کہاں سے آئیں گی؟"
+        },
+        {
+          "kind": "statement",
+          "heading": "دنیا کا *پانچواں* سب سے بڑا ملک",
+          "voice": "آج پاکستان آبادی کے لحاظ سے دنیا کا پانچواں سب سے بڑا ملک ہے۔"
+        },
+        {
+          "kind": "cta",
+          "heading": "اگلی قسط: *ڈالر*",
+          "sub": "کمنٹ کریں: ڈالر",
+          "voice": "اگلی قسط میں ڈالر اور روپے کی کہانی۔ فالو کریں، اور کمنٹ میں لکھیں ڈالر۔"
+        }
+      ]
+    },
+    {
+      "title": "1 dollar = 3 rupay? Rupay ki kahani",
+      "description": "1947 se 2025 tak ek dollar kitne rupay ka tha. #dollar #rupee #pakistan",
+      "tags": [
+        "dollar rate",
+        "pkr",
+        "rupee",
+        "pakistan economy",
+        "then and now",
+        "urdu",
+        "motion graphics"
+      ],
+      "check": "Last point is the 2025 average (Rs 281). Add today's State Bank rate if you want a 'today' number.",
+      "scenes": [
+        {
+          "kind": "hook",
+          "heading": "1 ڈالر = *3 روپے*",
+          "voice": "انیس سو سینتالیس میں ایک ڈالر صرف تین روپے اکتیس پیسے کا تھا۔ پھر کیا ہوا؟"
+        },
+        {
+          "kind": "timeline",
+          "heading": "ایک ڈالر کتنے روپے کا؟",
+          "points": [
+            {
+              "label": "1947",
+              "value": "Rs 3.31"
+            },
+            {
+              "label": "1980",
+              "value": "Rs 9.90"
+            },
+            {
+              "label": "1990",
+              "value": "Rs 21.7"
+            },
+            {
+              "label": "2010",
+              "value": "Rs 85"
+            },
+            {
+              "label": "2020",
+              "value": "Rs 162"
+            },
+            {
+              "label": "2025",
+              "value": "Rs 281"
+            }
+          ],
+          "voice": "انیس سو سینتالیس میں سوا تین روپے، اسی میں تقریباً دس، نوے میں بائیس، دو ہزار دس میں پچاسی، دو ہزار بیس میں ایک سو باسٹھ، اور دو ہزار پچیس میں دو سو اکیاسی روپے۔"
+        },
+        {
+          "kind": "stat",
+          "value": "85x",
+          "heading": "ڈالر اتنا مہنگا ہوا",
+          "voice": "یعنی آج ڈالر، روپے کے مقابلے میں تقریباً پچاسی گنا مہنگا ہے۔"
+        },
+        {
+          "kind": "list",
+          "heading": "روپیہ کیوں گرتا ہے؟",
+          "items": [
+            "امپورٹ زیادہ، ایکسپورٹ کم",
+            "قرضوں کی واپسی ڈالر میں",
+            "مہنگائی"
+          ],
+          "voice": "ہم باہر سے زیادہ خریدتے ہیں اور کم بیچتے ہیں، قرضے ڈالر میں واپس کرنے پڑتے ہیں، اور مہنگائی روپے کی قدر کھا جاتی ہے۔"
+        },
+        {
+          "kind": "cta",
+          "heading": "اگلی قسط: *سونا*",
+          "sub": "کمنٹ کریں: سونا",
+          "voice": "اگلی قسط میں سونے کی قیمت کا سفر۔ فالو کریں، اور کمنٹ میں لکھیں سونا۔"
+        }
+      ]
+    },
+    {
+      "title": "Ek tola sona: 57 rupay se 4 lakh",
+      "description": "1947 se aaj tak ek tola sone ki qeemat. #gold #sona #pakistan",
+      "tags": [
+        "gold price",
+        "sona",
+        "tola",
+        "pakistan",
+        "then and now",
+        "urdu",
+        "motion graphics"
+      ],
+      "check": "Gold changes every day: update the Nov 2026 value (about Rs 410,000) from the Sarafa association rate on the day you post. 1947 and 2000 are approximate.",
+      "scenes": [
+        {
+          "kind": "hook",
+          "heading": "ایک تولہ سونا: *57 روپے*",
+          "voice": "انیس سو سینتالیس میں ایک تولہ سونا تقریباً ستاون روپے کا تھا۔ آج اتنے پیسوں میں ایک برگر بھی نہیں آتا۔"
+        },
+        {
+          "kind": "timeline",
+          "heading": "ایک تولہ سونا",
+          "points": [
+            {
+              "label": "1947",
+              "value": "Rs 57"
+            },
+            {
+              "label": "2000",
+              "value": "Rs 6,150"
+            },
+            {
+              "label": "2020",
+              "value": "Rs 104,000"
+            },
+            {
+              "label": "Jan 2026",
+              "value": "Rs 572,862"
+            },
+            {
+              "label": "Nov 2026",
+              "value": "Rs 410,000"
+            }
+          ],
+          "voice": "انیس سو سینتالیس میں ستاون روپے، دو ہزار میں تقریباً چھ ہزار، دو ہزار بیس میں ایک لاکھ چار ہزار، جنوری دو ہزار چھبیس میں ریکارڈ پانچ لاکھ بہتر ہزار، اور اب تقریباً چار لاکھ دس ہزار روپے۔"
+        },
+        {
+          "kind": "stat",
+          "value": "7,000x",
+          "heading": "79 سال میں سات ہزار گنا",
+          "voice": "یعنی ایک تولہ سونا تقریباً سات ہزار گنا مہنگا ہو چکا ہے۔"
+        },
+        {
+          "kind": "statement",
+          "heading": "سونا بھی مہنگا، *روپیہ* بھی کمزور",
+          "voice": "دنیا میں سونا بھی مہنگا ہوا، اور ہمارا روپیہ بھی کمزور ہوا۔ اسی لیے پاکستان میں دوہرا اثر پڑا۔"
+        },
+        {
+          "kind": "cta",
+          "heading": "اگلی قسط: *پیٹرول*",
+          "sub": "کمنٹ کریں: پیٹرول",
+          "voice": "اگلی قسط میں پیٹرول کی کہانی۔ فالو کریں، اور کمنٹ میں لکھیں پیٹرول۔"
+        }
+      ]
+    },
+    {
+      "title": "Petrol 35 rupay litre tha!",
+      "description": "2000 se 2026 tak ek litre petrol ki qeemat. #petrol #pakistan #mehngai",
+      "tags": [
+        "petrol price",
+        "pakistan",
+        "mehngai",
+        "inflation",
+        "then and now",
+        "urdu",
+        "motion graphics"
+      ],
+      "check": "Check the latest OGRA price before posting (Nov 2026 shown as about Rs 340). Rs 35 in 2000 is approximate; Rs 458 is the April 2026 record reported in the news.",
+      "scenes": [
+        {
+          "kind": "hook",
+          "heading": "پیٹرول *35 روپے* لیٹر",
+          "voice": "دو ہزار میں ایک لیٹر پیٹرول تقریباً پینتیس روپے کا تھا۔ آج کی قیمت سن کر جھٹکا لگے گا۔"
+        },
+        {
+          "kind": "timeline",
+          "heading": "ایک لیٹر پیٹرول",
+          "points": [
+            {
+              "label": "2000",
+              "value": "Rs 35"
+            },
+            {
+              "label": "2018",
+              "value": "Rs 93"
+            },
+            {
+              "label": "2023",
+              "value": "Rs 331"
+            },
+            {
+              "label": "Apr 2026",
+              "value": "Rs 458"
+            },
+            {
+              "label": "Nov 2026",
+              "value": "Rs 340"
+            }
+          ],
+          "voice": "دو ہزار میں پینتیس روپے، دو ہزار اٹھارہ میں ترانوے، ستمبر دو ہزار تئیس میں تین سو اکتیس، اپریل دو ہزار چھبیس میں ریکارڈ چار سو اٹھاون، اور اب تقریباً تین سو چالیس روپے۔"
+        },
+        {
+          "kind": "stat",
+          "value": "10x",
+          "heading": "26 سال میں دس گنا",
+          "voice": "یعنی چھبیس سال میں پیٹرول تقریباً دس گنا مہنگا ہو گیا۔"
+        },
+        {
+          "kind": "list",
+          "heading": "قیمت کس پر چلتی ہے؟",
+          "items": [
+            "دنیا میں تیل کی قیمت",
+            "ڈالر کا ریٹ",
+            "ٹیکس اور لیوی"
+          ],
+          "voice": "پیٹرول کی قیمت تین چیزوں پر چلتی ہے: دنیا میں تیل کی قیمت، ڈالر کا ریٹ، اور حکومت کے ٹیکس اور لیوی۔"
+        },
+        {
+          "kind": "cta",
+          "heading": "اگلی قسط: *کراچی*",
+          "sub": "کمنٹ کریں: کراچی",
+          "voice": "اگلی قسط میں کراچی کتنا بڑا ہو گیا۔ فالو کریں، اور کمنٹ میں لکھیں کراچی۔"
+        }
+      ]
+    },
+    {
+      "title": "Karachi: 11 lakh se 2 crore",
+      "description": "1951 se 2023 tak Karachi ki abadi. #karachi #pakistan #census",
+      "tags": [
+        "karachi",
+        "population",
+        "census",
+        "pakistan",
+        "then and now",
+        "urdu",
+        "motion graphics"
+      ],
+      "check": "2023 is Karachi division (2.04 crore); older censuses counted the city with different borders.",
+      "scenes": [
+        {
+          "kind": "hook",
+          "heading": "1951 میں کراچی: *11 لاکھ*",
+          "voice": "انیس سو اکیاون میں پورے کراچی میں صرف گیارہ لاکھ لوگ رہتے تھے۔ آج یہ شہر کئی ملکوں سے بڑا ہے۔"
+        },
+        {
+          "kind": "timeline",
+          "heading": "کراچی کی آبادی",
+          "points": [
+            {
+              "label": "1951",
+              "value": "11 لاکھ"
+            },
+            {
+              "label": "1972",
+              "value": "35 لاکھ"
+            },
+            {
+              "label": "1981",
+              "value": "54 لاکھ"
+            },
+            {
+              "label": "1998",
+              "value": "98 لاکھ"
+            },
+            {
+              "label": "2017",
+              "value": "160 لاکھ"
+            },
+            {
+              "label": "2023",
+              "value": "204 لاکھ"
+            }
+          ],
+          "voice": "انیس سو اکیاون میں گیارہ لاکھ، بہتر میں پینتیس لاکھ، اکیاسی میں چون لاکھ، اٹھانوے میں اٹھانوے لاکھ، دو ہزار سترہ میں ایک کروڑ ساٹھ لاکھ، اور دو ہزار تئیس میں دو کروڑ سے زیادہ۔"
+        },
+        {
+          "kind": "stat",
+          "value": "18x",
+          "heading": "72 سال میں 18 گنا",
+          "voice": "یعنی بہتر سال میں کراچی اٹھارہ گنا بڑا ہو گیا۔"
+        },
+        {
+          "kind": "statement",
+          "heading": "ہر *12واں* پاکستانی کراچی میں",
+          "voice": "آج تقریباً ہر بارہواں پاکستانی کراچی ڈویژن میں رہتا ہے۔"
+        },
+        {
+          "kind": "cta",
+          "heading": "اگلی قسط: *لاہور*",
+          "sub": "کمنٹ کریں: لاہور",
+          "voice": "اگلی قسط میں لاہور کی باری۔ فالو کریں، اور کمنٹ میں لکھیں لاہور۔"
+        }
+      ]
+    },
+    {
+      "title": "Lahore 15 guna bara ho gaya",
+      "description": "1951 se 2023 tak Lahore ki abadi aur parhai. #lahore #pakistan #census",
+      "tags": [
+        "lahore",
+        "population",
+        "census",
+        "pakistan",
+        "then and now",
+        "urdu",
+        "motion graphics"
+      ],
+      "check": "2023 is Lahore district (1.3 crore); older numbers are the city.",
+      "scenes": [
+        {
+          "kind": "hook",
+          "heading": "لاہور: *15 گنا* بڑا",
+          "voice": "انیس سو اکیاون میں لاہور میں ساڑھے آٹھ لاکھ لوگ تھے۔ آج ایک کروڑ تیس لاکھ۔"
+        },
+        {
+          "kind": "timeline",
+          "heading": "لاہور کی آبادی",
+          "points": [
+            {
+              "label": "1951",
+              "value": "8.5 لاکھ"
+            },
+            {
+              "label": "1972",
+              "value": "21.7 لاکھ"
+            },
+            {
+              "label": "1981",
+              "value": "29.5 لاکھ"
+            },
+            {
+              "label": "1998",
+              "value": "51.4 لاکھ"
+            },
+            {
+              "label": "2017",
+              "value": "111 لاکھ"
+            },
+            {
+              "label": "2023",
+              "value": "130 لاکھ"
+            }
+          ],
+          "voice": "انیس سو اکیاون میں ساڑھے آٹھ لاکھ، بہتر میں بائیس لاکھ، اکیاسی میں تقریباً تیس لاکھ، اٹھانوے میں اکاون لاکھ، دو ہزار سترہ میں ایک کروڑ گیارہ لاکھ، اور دو ہزار تئیس میں ایک کروڑ تیس لاکھ۔"
+        },
+        {
+          "kind": "stat",
+          "value": "79.6%",
+          "heading": "لاہور میں پڑھے لکھے",
+          "voice": "اور اچھی خبر: دو ہزار تئیس میں لاہور ضلع میں تقریباً اسی فیصد لوگ پڑھے لکھے تھے۔"
+        },
+        {
+          "kind": "compare",
+          "heading": "دو بڑے شہر",
+          "items": [
+            "کراچی: 2 کروڑ+",
+            "لاہور: 1.3 کروڑ"
+          ],
+          "voice": "کراچی اب بھی سب سے بڑا ہے، لیکن لاہور تیزی سے پیچھے آ رہا ہے۔"
+        },
+        {
+          "kind": "cta",
+          "heading": "اگلی قسط: *تعلیم*",
+          "sub": "کمنٹ کریں: تعلیم",
+          "voice": "اگلی قسط میں پورے پاکستان کی شرحِ خواندگی۔ فالو کریں، اور کمنٹ میں لکھیں تعلیم۔"
+        }
+      ]
+    },
+    {
+      "title": "100 mein se sirf 16 parh sakte thay",
+      "description": "1951 se 2023 tak Pakistan ki sharah-e-khwandagi. #education #pakistan #literacy",
+      "tags": [
+        "literacy",
+        "education",
+        "pakistan",
+        "census",
+        "then and now",
+        "urdu",
+        "motion graphics"
+      ],
+      "check": "1951 is about 16% (sources give 16 to 16.4%).",
+      "scenes": [
+        {
+          "kind": "hook",
+          "heading": "100 میں سے *صرف 16*",
+          "voice": "انیس سو اکیاون میں سو میں سے صرف سولہ پاکستانی پڑھ لکھ سکتے تھے۔"
+        },
+        {
+          "kind": "timeline",
+          "heading": "شرحِ خواندگی",
+          "points": [
+            {
+              "label": "1951",
+              "value": "16%"
+            },
+            {
+              "label": "1972",
+              "value": "21.7%"
+            },
+            {
+              "label": "1981",
+              "value": "26.2%"
+            },
+            {
+              "label": "1998",
+              "value": "43.9%"
+            },
+            {
+              "label": "2017",
+              "value": "58.9%"
+            },
+            {
+              "label": "2023",
+              "value": "60.7%"
+            }
+          ],
+          "voice": "انیس سو اکیاون میں سولہ فیصد، بہتر میں بائیس، اکیاسی میں چھبیس، اٹھانوے میں چوالیس، دو ہزار سترہ میں انسٹھ، اور دو ہزار تئیس میں تقریباً اکسٹھ فیصد۔"
+        },
+        {
+          "kind": "stat",
+          "value": "39%",
+          "heading": "آج بھی پڑھ لکھ نہیں سکتے",
+          "voice": "مگر آج بھی تقریباً انتالیس فیصد پاکستانی پڑھ لکھ نہیں سکتے۔"
+        },
+        {
+          "kind": "compare",
+          "heading": "شہر اور ملک",
+          "items": [
+            "لاہور ضلع: 79.6%",
+            "پورا پاکستان: 60.7%"
+          ],
+          "voice": "بڑے شہروں میں حالات بہتر ہیں، لاہور ضلع میں تقریباً اسی فیصد، مگر پورے ملک کا اوسط اکسٹھ فیصد ہے۔"
+        },
+        {
+          "kind": "cta",
+          "heading": "شیئر کریں *ایک استاد* کے ساتھ",
+          "sub": "کمنٹ کریں: تعلیم",
+          "voice": "یہ ویڈیو کسی استاد کے ساتھ شیئر کریں، اور ایسی مزید ویڈیوز کے لیے فالو کریں۔"
+        }
+      ]
+    }
+  ]
+}

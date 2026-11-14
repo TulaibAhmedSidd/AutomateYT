@@ -111,8 +111,8 @@ export const VIDEO_FORMATS: VideoFormat[] = [
     evidence:
       'Same @siddhantt.ai reel: a motion-graphics video Claude built from 2 files reportedly crossed 2M views in 2 days. Code-driven video (Remotion) is a proven, open approach.',
     pipeline: [
-      { step: 'Hook-first script', detail: 'GPT / Gemini writes 5-8 scenes (hook, big number, list, this-vs-that, quote, CTA), or you type them yourself.' },
-      { step: 'Free neural voice', detail: 'Microsoft Edge neural voices (English or Urdu) read each scene. No key, no credits.' },
+      { step: 'Hook-first script', detail: 'GPT / Gemini writes 5-8 scenes (hook, big number, list, this-vs-that, quote, then-to-now timeline, CTA), or you open a ready-written series episode.' },
+      { step: 'Voice', detail: 'Free Microsoft Edge neural voices (English or Urdu), or a natural ElevenLabs voice (credits; each line is cached so re-renders are free).' },
       { step: 'Word timings', detail: 'The voice service returns the time of every word, so captions and scene lengths are exact.' },
       { step: 'Live preview', detail: 'The Remotion Player plays the video in the browser while you edit.' },
       { step: 'Render', detail: 'Remotion renders 1080x1920 MP4 on this PC with an installed headless Chrome.' },
@@ -122,7 +122,7 @@ export const VIDEO_FORMATS: VideoFormat[] = [
       { name: 'Remotion', role: 'Videos as React code, renders MP4', cost: 'Free for individuals / teams of 3 or fewer', link: 'https://www.remotion.dev' },
       { name: 'GPT-4o-mini / Gemini', role: 'Script as scene JSON', cost: 'Under 1 cent per script' },
       { name: 'Edge neural voices', role: 'Voiceover + word timings', cost: 'Free (online)' },
-      { name: 'ElevenLabs', role: 'Premium voice (optional, later)', cost: 'Existing plan' },
+      { name: 'ElevenLabs', role: 'Natural voice (optional)', cost: 'Free plan: about 10,000 credits a month, about 400 per Short' },
     ],
     costPerVideo: 'Free (script under 1 cent; no image or video credits)',
     timePerVideo: '1-3 min render on this PC',
