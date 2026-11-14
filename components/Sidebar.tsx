@@ -8,6 +8,7 @@ import {
   Clapperboard,
   Layers,
   LayoutDashboard,
+  Link2,
   Library,
   ListVideo,
   Menu,
@@ -41,7 +42,10 @@ const NAV = [
   },
   {
     group: 'System',
-    items: [{ href: '/settings', label: 'Settings', icon: Settings }],
+    items: [
+      { href: '/connections', label: 'Connections', icon: Link2 },
+      { href: '/settings', label: 'Settings', icon: Settings },
+    ],
   },
 ];
 

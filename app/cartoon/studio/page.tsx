@@ -9,6 +9,7 @@ import { SCRIPT_MODEL_INFO, fmtCost, scriptEstimate } from '@/lib/cartoon/models
 import { ShotCard } from '@/components/cartoon/ShotCard';
 import { VoiceStep, defaultVoiceChoice, type VoiceMode } from '@/components/cartoon/VoiceStep';
 import { ModeStep, type ComfyStatus } from '@/components/cartoon/ModeStep';
+import { YoutubeUpload } from '@/components/cartoon/YoutubeUpload';
 import { SeriesEditor } from '@/components/cartoon/SeriesEditor';
 import { useRecorder } from '@/components/cartoon/useRecorder';
 import { api, card, field, fmtSeconds, ghostBtn, jsonBody, label } from '@/components/cartoon/ui';
@@ -724,6 +725,7 @@ export default function CartoonStudioPage() {
                         >
                           <Download size={15} /> Download MP4
                         </a>
+                        <YoutubeUpload episode={episode} videoVersion={status.finishedAt || ''} />
                       </>
                     )}
                   </div>
