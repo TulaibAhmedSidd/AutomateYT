@@ -101,6 +101,22 @@ function referenceFor(shot, series) {
   return null;
 }
 
+/** A character's reference picture file in the series folder, if it exists. */
+function referenceFile(series, c) {
+  const f = c.reference && path.join(CARTOON, 'series', series.id, 'refs', c.reference);
+  return f && fs.existsSync(f) ? f : null;
+}
+
+/** Records an AI-made character reference in the stored series.json. */
+function saveSeriesReference(seriesId, characterId, name) {
+  const file = path.join(CARTOON, 'series', seriesId, 'series.json');
+  const s = readJson(file);
+  const c = s?.characters.find((x) => x.id === characterId);
+  if (!c) return;
+  c.reference = name;
+  fs.writeFileSync(file, JSON.stringify(s, null, 2));
+}
+
 /** A stable seed per shot, so re-making a shot gives a similar result. */
 function seedFor(shotId) {
   return [...shotId].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) % 2147483647, 7);
@@ -160,11 +176,14 @@ async function main() {
     setStatus({ stage: 'voice', progress: 0.02 + 0.2 * ((i + 1) / n), shots });
   }
 
-  // 2. Pictures and clips. "pictures" mode uses AI pictures when ComfyUI has a keyframe workflow, else uploaded or
-  //    reference pictures (or cards). The other modes also turn shots into moving clips with the clip workflow.
+  // 2. Pictures and clips. Two picture workflows can exist on the GPU PC:
+  //    picture.api.json  = text → picture (first transition stage, character reference pictures, lines without a reference)
+  //    keyframe.api.json = picture + text → edited picture (same character, or same view in the next era)
+  //    The animated modes also turn shots into moving clips with clip.api.json.
   setStatus({ stage: 'visuals', progress: 0.23, note: null });
   const animateIds = new Set(mode === 'animated' ? episode.shots.map((s) => s.id) : mode === 'key-shots' ? keyShotIds(episode) : []);
-  const wantAiPictures = hasWorkflow('keyframe');
+  const wantAiPictures = hasWorkflow('picture') || hasWorkflow('keyframe');
+  const transition = series.format === 'transition';
   let comfyReady = false;
   if (animateIds.size || wantAiPictures) {
     try {
@@ -176,31 +195,62 @@ async function main() {
       setStatus({ note: 'ComfyUI is not running: using uploaded or character pictures.' });
     }
   }
+  // Characters need one reference picture each, so they look the same in every shot (made once, kept in the series).
+  if (wantAiPictures && comfyReady && hasWorkflow('picture') && !transition) {
+    const used = new Set(episode.shots.flatMap((s) => s.characters));
+    for (const c of series.characters.filter((x) => used.has(x.id) && !referenceFile(series, x))) {
+      setStatus({ note: `Making the reference picture of ${c.name}` });
+      const file = path.join(CARTOON, 'series', series.id, 'refs', `${c.id}.png`);
+      fs.mkdirSync(path.dirname(file), { recursive: true });
+      await runWorkflow('picture', {
+        PROMPT: `${series.style}. Full-body character reference sheet of ${c.look}, standing, facing the camera, plain simple background, even light`,
+        NEGATIVE: series.negative,
+        SEED: seedFor(c.id),
+        WIDTH: 480,
+        HEIGHT: 832,
+        PREFIX: `automateyt_ref_${series.id}_${c.id}`,
+      }, file, { timeoutMin: 20 });
+      c.reference = `${c.id}.png`;
+      saveSeriesReference(series.id, c.id, c.reference);
+    }
+  }
+
   const jobs = episode.shots.filter((s) => (wantAiPictures && comfyReady && !keyframeFile(s)) || animateIds.has(s.id)).length || 1;
   let job = 0;
+  let previousPicture = null;
   for (let i = 0; i < n; i += 1) {
     const shot = episode.shots[i];
     const tick = (label) => (minutes) =>
       setStatus({ note: `${label} for line ${i + 1} of ${n} (${Math.floor(minutes)} min so far)`, progress: 0.25 + 0.6 * (job / jobs) });
 
     // 2a. AI picture, saved with the episode so it shows in the studio and is not made twice.
+    //     Transition reels edit the previous stage's picture (same view, next era); stories edit the character's
+    //     reference picture (same face); with nothing to start from, the text-to-picture workflow is used.
     if (wantAiPictures && comfyReady && !keyframeFile(shot)) {
-      const ref = referenceFor(shot, series);
-      const target = path.join(dir, 'keyframes', `${shot.id}.png`);
-      fs.mkdirSync(path.dirname(target), { recursive: true });
-      await runWorkflow('keyframe', {
-        PROMPT: buildShotPrompt(series, shot),
-        NEGATIVE: series.negative,
-        IMAGE: ref ? await uploadImage(ref) : '',
-        SEED: seedFor(shot.id),
-        WIDTH: 480,
-        HEIGHT: 832,
-        PREFIX: `automateyt_${id}_${shot.id}_kf`,
-      }, target, { timeoutMin: 20, onTick: tick('Making the picture') });
-      shot.keyframe = `${shot.id}.png`;
-      saveKeyframeName(shot.id, shot.keyframe);
-      job += 1;
+      const base = transition ? previousPicture : referenceFor(shot, series);
+      const useEdit = Boolean(base) && hasWorkflow('keyframe');
+      const workflow = useEdit ? 'keyframe' : hasWorkflow('picture') ? 'picture' : null;
+      if (workflow) {
+        const target = path.join(dir, 'keyframes', `${shot.id}.png`);
+        fs.mkdirSync(path.dirname(target), { recursive: true });
+        const prompt = transition && useEdit
+          ? `Keep exactly the same place, camera angle and framing. Change it to show: ${shot.narration}. ${shot.scene}. ${shot.action}`
+          : buildShotPrompt(series, shot);
+        await runWorkflow(workflow, {
+          PROMPT: prompt,
+          NEGATIVE: series.negative,
+          ...(useEdit ? { IMAGE: await uploadImage(base) } : {}),
+          SEED: seedFor(transition ? episode.id : shot.id),
+          WIDTH: 480,
+          HEIGHT: 832,
+          PREFIX: `automateyt_${id}_${shot.id}_kf`,
+        }, target, { timeoutMin: 20, onTick: tick('Making the picture') });
+        shot.keyframe = `${shot.id}.png`;
+        saveKeyframeName(shot.id, shot.keyframe);
+        job += 1;
+      }
     }
+    previousPicture = keyframeFile(shot) || previousPicture;
     const p = pictureFor(shot, series);
     if (p.image) shot.image = p.image;
     shots[shot.id] = { ...shots[shot.id], image: p.kind };

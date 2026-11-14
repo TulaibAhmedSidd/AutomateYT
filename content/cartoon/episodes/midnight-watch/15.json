@@ -1,0 +1,159 @@
+{
+  "number": 15,
+  "topic": "A railway station clock stays stuck at 2:13, and one train still arrives at exactly that time.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:58:52.707Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Train at 2:13",
+    "shots": [
+      {
+        "id": "r01sdo",
+        "narration": "That clock was broken, but its train was never late.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Old Pakistani haveli courtyard at night, brass lantern between two stools, vertical 9:16, 3D animated film look, no writing.",
+        "action": "Bashir holds a round pocket watch toward Saad, its unnumbered hands showing 2:13.",
+        "camera": "push-in",
+        "mood": "Amber lantern glow against deep blue fog, long still shadows."
+      },
+      {
+        "id": "nzyecc",
+        "narration": "Bashir Chacha told Saad about his first railway night watch.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Same haveli courtyard, weathered arches behind the seated pair, brass lantern glowing between them.",
+        "action": "Bashir points toward the distant railway beyond the courtyard arch.",
+        "camera": "pan-right",
+        "mood": "Quiet anticipation, moonlit mist beyond warm shelter."
+      },
+      {
+        "id": "uy7yfi",
+        "narration": "[whispers] The station clock had stopped at thirteen minutes past two.",
+        "characters": [],
+        "scene": "Deserted fictional Pakistani railway station, cracked plaster canopy, large unnumbered analog clock with hands showing 2:13, no signage.",
+        "action": "A loose roof chain sways beneath the motionless clock.",
+        "camera": "low-angle",
+        "mood": "Cold moonlight, empty platform, heavy pools of shadow."
+      },
+      {
+        "id": "5cdy2x",
+        "narration": "Every other clock worked, including the watch in his pocket.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Beneath the station clock, Bashir in his brown shawl and white cap, lantern beside a wooden bench.",
+        "action": "Bashir opens his unnumbered pocket watch, revealing a moving second hand.",
+        "camera": "push-in",
+        "mood": "Brass highlights, concentrated lantern light, darkness pressing close."
+      },
+      {
+        "id": "it63c5",
+        "narration": "Then his watch reached the same time.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Close view of Bashir's open pocket watch above the deserted platform, unnumbered face approaching 2:13.",
+        "action": "The watch's minute hand advances to thirteen minutes past two.",
+        "camera": "static",
+        "mood": "Precise metallic glints, tense stillness, blurred railway darkness."
+      },
+      {
+        "id": "v34pri",
+        "narration": "[surprised] A headlight appeared, but the rails stayed completely silent.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Empty railway tracks vanishing into dense fog beside Bashir's platform, no signs or markings.",
+        "action": "A single train headlight emerges through the distant fog.",
+        "camera": "pan-left",
+        "mood": "Pale light piercing blue mist, unnaturally undisturbed surroundings."
+      },
+      {
+        "id": "wxnj1k",
+        "narration": "The train stopped beside him without disturbing a single leaf.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Old unmarked passenger train beside the station platform, dry leaves around Bashir's shoes, lantern in his hand.",
+        "action": "The train glides to a stop beside Bashir.",
+        "camera": "pull-out",
+        "mood": "Black windows, motionless leaves, soft moonlight on dull metal."
+      },
+      {
+        "id": "5qjzjw",
+        "narration": "Every window was dark, except the one beside his lantern.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Train carriage beside Bashir, rows of black windows, one window glowing faintly amber.",
+        "action": "Bashir raises his brass lantern toward the glowing window.",
+        "camera": "push-in",
+        "mood": "Isolated amber rectangle surrounded by deep, featureless darkness."
+      },
+      {
+        "id": "vaw1tv",
+        "narration": "[whispers] Inside, he saw the courtyard where Saad now sat.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Bashir outside a train window; through the glass lies the present haveli courtyard, with Saad seated beside the familiar lantern.",
+        "action": "Saad turns toward the train window from inside the impossible courtyard.",
+        "camera": "static",
+        "mood": "Warm familiar courtyard framed by cold railway metal, unsettling clarity."
+      },
+      {
+        "id": "kmcq74",
+        "narration": "Then the carriage handle began turning toward him.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Closed train carriage door beside Bashir, old metal handle sharply lit by his lantern.",
+        "action": "The carriage handle rotates by itself.",
+        "camera": "push-in",
+        "mood": "Tight shadows, trembling amber reflections, black gaps around the door."
+      },
+      {
+        "id": "wdokn7",
+        "narration": "The door opened, and Saad was sitting on the other side.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Railway platform outside an open carriage doorway; directly beyond the threshold is the haveli courtyard with Saad seated under its arches.",
+        "action": "The carriage door swings open onto Saad's courtyard.",
+        "camera": "low-angle",
+        "mood": "Impossible doorway, stark moonlight, enormous door shadow falling across Saad."
+      },
+      {
+        "id": "smsj36",
+        "narration": "[whispers] Saad asked, 'Why is there a tunnel behind you now?'",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Present haveli courtyard, Bashir opposite Saad beside the lantern; behind Bashir, the familiar arch now contains railway tracks entering a black tunnel.",
+        "action": "Saad points his small torch into the tunnel behind Bashir.",
+        "camera": "pull-out",
+        "mood": "Warm lantern foreground, bottomless tunnel darkness, faint distant train light."
+      }
+    ],
+    "endHook": "Where does the train go when the next station is a tunnel?",
+    "createdAt": "2026-11-14T11:58:52.705Z",
+    "description": "By his lantern, Bashir Chacha tells Saad about a deserted Pakistani railway station where the clock never moves. One train still arrives at 2:13—and its door opens somewhere impossible. A fictional spooky story from Midnight Watch.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "Pakistani folklore inspired",
+      "ghost train",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

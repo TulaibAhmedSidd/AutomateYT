@@ -1,0 +1,156 @@
+{
+  "number": 5,
+  "topic": "In a village well, the echo starts answering questions before you finish asking them.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:57:40.614Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Echo That Answered First",
+    "shots": [
+      {
+        "id": "ulziay",
+        "narration": "The well answered before I finished asking.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated Pakistani haveli courtyard at midnight, lantern between Bashir and Saad, no writing.",
+        "action": "Bashir leans toward Saad over his brass lantern.",
+        "camera": "push-in",
+        "mood": "Warm lantern light surrounded by deep blue shadows and low fog."
+      },
+      {
+        "id": "46ni35",
+        "narration": "Bashir told Saad about a well outside his old village.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, 3D animated dry village square in Pakistan, circular stone well beneath a bare tree, no writing.",
+        "action": "Bashir approaches the well carrying his brass lantern.",
+        "camera": "pan-right",
+        "mood": "Empty moonlit square, dusty ground, long crooked shadows."
+      },
+      {
+        "id": "i51vu6",
+        "narration": "[whispers] That night, something below copied every sound except his footsteps.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, stone well rim beside Bashir's sandals, brass lantern illuminating loose pebbles.",
+        "action": "Bashir stops beside the well.",
+        "camera": "low-angle",
+        "mood": "Still dust, black well opening, cold moonlight against amber glow."
+      },
+      {
+        "id": "e1gt96",
+        "narration": "He began, 'Is anyone—' and the echo answered, 'Here.'",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, view across a rough stone well rim toward Bashir's lantern-lit face.",
+        "action": "Bashir bends over the opening.",
+        "camera": "push-in",
+        "mood": "Heavy darkness below, sharply lit grey beard, tense eyes."
+      },
+      {
+        "id": "tc5bub",
+        "narration": "Before he asked how deep, it answered, 'Deep enough.'",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, view down the stone shaft past Bashir's lantern toward distant black water.",
+        "action": "A single ripple expands across the water.",
+        "camera": "static",
+        "mood": "Wet stone, tiny amber reflection, immense surrounding darkness."
+      },
+      {
+        "id": "wjk5yv",
+        "narration": "[sighs] He stepped away, but his shadow stayed beside the well.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, moonlit village square with Bashir several steps from the stone well.",
+        "action": "Bashir backs away from his shadow fixed against the rim.",
+        "camera": "pull-out",
+        "mood": "Unnatural separated shadow, pale fog, trembling lantern glow."
+      },
+      {
+        "id": "czcdew",
+        "narration": "Then the bucket rose, though nobody touched the rope.",
+        "characters": [],
+        "scene": "Vertical 9:16, old wooden pulley above the village well, plain rope and weathered wooden bucket.",
+        "action": "The bucket rises above the stone rim.",
+        "camera": "low-angle",
+        "mood": "Moonlit rope fibers, black opening, suspended mist."
+      },
+      {
+        "id": "60drlt",
+        "narration": "Inside lay his white cap, still dripping.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, bucket suspended beside the well, wet white cap inside, bareheaded Bashir behind it.",
+        "action": "Bashir touches the top of his bare head.",
+        "camera": "push-in",
+        "mood": "Bright droplets against dark wood, stunned face in lantern light."
+      },
+      {
+        "id": "khy4gk",
+        "narration": "[whispers] Before he asked who took it, the echo said, 'Saad.'",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, Bashir beside the suspended bucket and open well, brown shawl tightly wrapped.",
+        "action": "Bashir turns toward the well opening.",
+        "camera": "orbit",
+        "mood": "Lantern light grazing rough stone, dense shadows beneath the pulley."
+      },
+      {
+        "id": "tmlyz6",
+        "narration": "Bashir lowered his lantern to see who had answered.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, view inside the well shaft, Bashir visible above the circular opening.",
+        "action": "Bashir lowers his brass lantern toward the water.",
+        "camera": "static",
+        "mood": "Descending amber light, slick stone walls, motionless black surface."
+      },
+      {
+        "id": "zga2q2",
+        "narration": "Saad opened his eyes beneath the water; they hadn't met yet.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, close view of black well water, Saad's face beneath the surface, dark green hoodie fading into darkness.",
+        "action": "Saad opens his eyes beneath the perfectly still water.",
+        "camera": "push-in",
+        "mood": "Pale submerged face, tiny lantern reflection in wide eyes, oppressive darkness."
+      },
+      {
+        "id": "7w116u",
+        "narration": "[surprised] Tonight, Saad's torch revealed tracks leading to an abandoned station.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, original haveli courtyard, impossible railway tracks extending through fog toward an empty station, no signs or writing.",
+        "action": "Saad sweeps his torch beam across the railway tracks.",
+        "camera": "pan-left",
+        "mood": "Cold torchlight on steel rails, distant empty platform, lantern glow behind them"
+      }
+    ],
+    "endHook": "Why do railway tracks now lead out of Bashir's courtyard?",
+    "createdAt": "2026-11-14T11:57:40.613Z",
+    "description": "By his lantern, Bashir Chacha tells Saad about a village well that answered unfinished questions. But one answer seems to have followed him home. A fictional spooky story set in Pakistan.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "Pakistani village",
+      "haunted well",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

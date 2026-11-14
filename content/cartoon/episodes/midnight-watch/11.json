@@ -1,0 +1,161 @@
+{
+  "number": 11,
+  "topic": "A roadside dhaba serves the best tea on the highway at night, but by morning there is only an empty field.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:58:38.639Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Dhaba That Vanished",
+    "shots": [
+      {
+        "id": "mvrl8n",
+        "narration": "The tea was perfect; by sunrise, the dhaba was gone.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, old Pakistani haveli courtyard at night, brass lantern beside a plain clay teacup, no writing anywhere.",
+        "action": "Bashir slides the clay teacup toward Saad.",
+        "camera": "push-in",
+        "mood": "Warm lantern glow surrounded by deep blue shadows."
+      },
+      {
+        "id": "wvwm3w",
+        "narration": "Bashir Chacha told Saad how he found it last winter.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Haveli courtyard, Bashir in his brown woollen shawl and white cap opposite Saad in his dark green hoodie.",
+        "action": "Bashir points toward the distant highway.",
+        "camera": "pan-right",
+        "mood": "Low fog beyond the courtyard wall, still moonlit air."
+      },
+      {
+        "id": "g7oatg",
+        "narration": "[whispers] One warm window shone beside an otherwise empty highway.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Flashback, isolated Pakistani roadside dhaba with a mud courtyard, woven charpoy and warm window, no signs or markings.",
+        "action": "Bashir approaches the glowing doorway with his brass lantern.",
+        "camera": "pull-out",
+        "mood": "Welcoming amber light isolated in vast cold darkness."
+      },
+      {
+        "id": "nzf0bg",
+        "narration": "Inside, a steaming cup waited, but nobody was there.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Empty dhaba interior with rough plaster walls, one wooden table and a steaming clay teacup.",
+        "action": "Bashir lifts the teacup.",
+        "camera": "static",
+        "mood": "Soft steam, amber lamplight, unnaturally empty corners."
+      },
+      {
+        "id": "n6h7h7",
+        "narration": "Then the kettle moved without a hand.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Dhaba counter beside Bashir, plain metal kettle with no markings, empty space behind the counter.",
+        "action": "The kettle slides across the counter toward Bashir.",
+        "camera": "pan-left",
+        "mood": "Long crooked shadows beneath a motionless hanging lamp."
+      },
+      {
+        "id": "m4uwi7",
+        "narration": "[surprised] Every empty chair turned toward him.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Dhaba interior, Bashir beside the table holding his clay cup, three empty wooden chairs around him.",
+        "action": "The three chairs swivel toward Bashir.",
+        "camera": "orbit",
+        "mood": "Tight pools of light, black doorway, looming chair backs."
+      },
+      {
+        "id": "zpdt19",
+        "narration": "He hurried outside, still holding that unfinished tea.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Dhaba doorway opening onto an empty highway, lantern glow and pale fog.",
+        "action": "Bashir backs through the doorway carrying the cup.",
+        "camera": "low-angle",
+        "mood": "Cold moonlight swallowing the warm interior glow."
+      },
+      {
+        "id": "ezo829",
+        "narration": "At dawn, he returned to an empty field.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Same roadside location at dawn, bare grass where the dhaba stood, matching roadside tree and distant hills.",
+        "action": "Bashir parts the tall grass with his lantern.",
+        "camera": "pull-out",
+        "mood": "Pale dawn fog, untouched grass, no building or foundations."
+      },
+      {
+        "id": "oheqfb",
+        "narration": "[whispers] Only his cup remained warm.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Empty roadside field in dawn light, close view of Bashir's grey beard, brown shawl and clay cup.",
+        "action": "A thin ribbon of steam rises from Bashir's cup.",
+        "camera": "push-in",
+        "mood": "Frosty blue surroundings against impossible warm steam."
+      },
+      {
+        "id": "h0nrhn",
+        "narration": "Back beside the lantern, Saad found the cup empty.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Present-night haveli courtyard, same plain cup beside Bashir's brass lantern, Saad's small torch on the table.",
+        "action": "Saad tilts the empty cup toward the lantern.",
+        "camera": "static",
+        "mood": "Quiet amber light, dark courtyard arches behind both listeners."
+      },
+      {
+        "id": "z63txs",
+        "narration": "Above them, the dhaba's kettle tipped out of thin air.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Haveli courtyard, familiar metal kettle suspended above the table without support, Bashir and Saad beneath it.",
+        "action": "The floating kettle pours steaming tea into the cup.",
+        "camera": "low-angle",
+        "mood": "Huge kettle shadow across the wall, pale steam surrounding frozen faces."
+      },
+      {
+        "id": "o2t32h",
+        "narration": "[whispers] Tomorrow, we visit the station this key unlocks.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Lantern-lit courtyard table, clay cup holding tea and a large unmarked antique railway key.",
+        "action": "Saad lifts the dripping key from the cup.",
+        "camera": "push-in",
+        "mood": "Brass highlights, curling steam, deep darkness beyond the table."
+      }
+    ],
+    "endHook": "A key inside the teacup leads to an abandoned railway station.",
+    "createdAt": "2026-11-14T11:58:38.638Z",
+    "description": "By lantern light, Bashir Chacha tells Saad about a roadside dhaba with unforgettable tea—and no trace by sunrise. But some cups should never be brought home. A fictional spooky tale from Midnight Watch.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "Pakistani folklore inspired",
+      "haunted dhaba",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

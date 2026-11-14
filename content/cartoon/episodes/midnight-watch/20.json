@@ -1,0 +1,160 @@
+{
+  "number": 20,
+  "topic": "Final episode: Saad finally asks Bashir Chacha why he guards the street every night, and Bashir's own secret is the biggest twist of all.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:59:32.794Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Street Inside the Lantern",
+    "shots": [
+      {
+        "id": "6lwsbq",
+        "narration": "Tonight, Saad asked the question Bashir Chacha always avoided.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, cinematic 3D animation, deserted Pakistani haveli street at night, brass lantern between an old watchman and a university student, no visible writing.",
+        "action": "Saad points toward the empty street.",
+        "camera": "push-in",
+        "mood": "Cold moonlight, low fog, warm lantern glow, deep doorway shadows."
+      },
+      {
+        "id": "7r9fp4",
+        "narration": "Why guard a street where nobody else ever comes?",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, beside a carved wooden haveli doorway, Bashir in his brown shawl and white cap, Saad in his dark green hoodie.",
+        "action": "Bashir lowers his eyes toward his brass lantern.",
+        "camera": "static",
+        "mood": "Uneasy stillness, grey beard edged with amber light."
+      },
+      {
+        "id": "rjnlwg",
+        "narration": "[whispers] Because this street isn't where you think it is.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, close view of Bashir and Saad beside the lantern on a stone step, empty street behind them.",
+        "action": "Bashir turns the lantern toward Saad.",
+        "camera": "orbit",
+        "mood": "Distorted glass reflections, thick darkness beyond the amber glow."
+      },
+      {
+        "id": "0360f4",
+        "narration": "Years ago, I found this lantern beside an abandoned road.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, story flashback on an empty rural Pakistani road, thorn bushes, distant haveli walls, old brass lantern on the gravel.",
+        "action": "Bashir lifts the lantern from the roadside.",
+        "camera": "low-angle",
+        "mood": "Blue moonlight, drifting ground fog, faint amber glass."
+      },
+      {
+        "id": "kusvc4",
+        "narration": "Inside its glass, a tiny street waited in darkness.",
+        "characters": [],
+        "scene": "Vertical 9:16, extreme close view through curved lantern glass, miniature Pakistani haveli street beneath an unlit wick.",
+        "action": "Fog curls between the miniature houses.",
+        "camera": "push-in",
+        "mood": "Impossible miniature detail, silver rooftops, bottomless black background."
+      },
+      {
+        "id": "yj1vvp",
+        "narration": "[sighs] I lit it, and promised never to let it darken.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, flashback roadside, open brass lantern held against Bashir's brown woollen shawl.",
+        "action": "Bashir lights the lantern wick with a plain match.",
+        "camera": "static",
+        "mood": "Small golden flame against a vast blue-black night."
+      },
+      {
+        "id": "ssu53y",
+        "narration": "Every night, its little houses became my whole world.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, flashback inside the miniature street at human scale, familiar haveli doorway and stone step.",
+        "action": "Bashir walks along the deserted lane with his lantern.",
+        "camera": "pan-right",
+        "mood": "Reassuring amber pool surrounded by dense moonlit fog."
+      },
+      {
+        "id": "evkawt",
+        "narration": "Saad looked up; the moon had become a flame.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, present-night haveli street, enormous teardrop flame suspended above the rooftops instead of the moon.",
+        "action": "Saad tilts his head toward the flame.",
+        "camera": "low-angle",
+        "mood": "Unnatural golden sky, tiny rooftops, overwhelming scale."
+      },
+      {
+        "id": "ut16sx",
+        "narration": "[surprised] The fog cleared, revealing curved glass beyond the rooftops.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, street ending beneath a towering curved glass wall, enormous brass lantern ribs visible beyond the havelis.",
+        "action": "A sheet of fog slides away from the glass.",
+        "camera": "pull-out",
+        "mood": "Cold transparent enclosure, distant amber reflections, claustrophobic silence."
+      },
+      {
+        "id": "f7y0py",
+        "narration": "Beside him, Bashir faded like a reflection.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, stone step inside the enclosed street, Saad facing Bashir's translucent figure.",
+        "action": "Bashir's figure fades into transparency.",
+        "camera": "static",
+        "mood": "Lantern light visible through the brown shawl, deserted doorway behind."
+      },
+      {
+        "id": "2exdld",
+        "narration": "Outside the glass, Bashir's enormous eye watched over their street.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, tiny Saad between miniature havelis, enormous Bashir eye and grey eyebrow filling the sky beyond curved lantern glass.",
+        "action": "Bashir's enormous eye opens beyond the glass.",
+        "camera": "push-in",
+        "mood": "Terrifying scale reveal, giant eye reflecting tiny rooftops, hard amber highligh"
+      },
+      {
+        "id": "in01te",
+        "narration": "[whispers] Then a railway platform appeared inside Saad's torch.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, close view of Saad's small torch, miniature empty railway platform visible inside its lens, no signs or writing.",
+        "action": "Saad raises his torch toward his face.",
+        "camera": "push-in",
+        "mood": "Pale platform lights inside dark glass, amber street blurred behind."
+      }
+    ],
+    "endHook": "Bashir's secret is revealed—but something is waiting inside Saad's torch.",
+    "createdAt": "2026-11-14T11:59:32.793Z",
+    "description": "Saad finally asks Bashir Chacha why he guards their street every night. In this fictional Midnight Watch finale, the old watchman's answer changes everything Saad thought he knew.",
+    "tags": [
+      "Midnight Watch",
+      "series finale",
+      "spooky story",
+      "Pakistani animation",
+      "3D animation",
+      "YouTube Shorts",
+      "lantern mystery"
+    ]
+  }
+}

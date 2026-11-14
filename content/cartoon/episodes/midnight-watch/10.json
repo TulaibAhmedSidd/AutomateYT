@@ -1,0 +1,159 @@
+{
+  "number": 10,
+  "topic": "During load-shedding, slow footsteps walk on the rooftop of a house where nobody lives upstairs.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:58:17.854Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: Footsteps Above",
+    "shots": [
+      {
+        "id": "r8dok0",
+        "narration": "Nobody lived upstairs, but the footsteps came every night.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look; old Pakistani haveli courtyard at night, beneath a dark rooftop, no text.",
+        "action": "Saad points toward the rooftop beside Bashir's brass lantern.",
+        "camera": "push-in",
+        "mood": "Cold moonlight, low fog, warm lantern glow, deep rooftop shadows."
+      },
+      {
+        "id": "b8arq0",
+        "narration": "Bashir told Saad about a house on his old patrol.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, courtyard bench beside Bashir's old brass lantern; grey beard, brown woollen shawl, white cap; Saad wears a dark green hoodie and jeans.",
+        "action": "Bashir gestures toward a distant empty house.",
+        "camera": "pan-right",
+        "mood": "Quiet storytelling circle, amber light against a blue-black village."
+      },
+      {
+        "id": "ftlvlz",
+        "narration": "[whispers] During load-shedding, he heard slow steps above its empty rooms.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, story location: deserted Pakistani house veranda, unlit electric bulb, cracked plaster, flat rooftop.",
+        "action": "Bashir raises his lantern toward the veranda ceiling.",
+        "camera": "low-angle",
+        "mood": "Thick darkness, narrow amber illumination, looming ceiling."
+      },
+      {
+        "id": "fxfbgb",
+        "narration": "The staircase entrance had been bricked shut.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, interior corridor ending at a stairway arch completely filled with old bricks.",
+        "action": "Bashir presses one palm against the brickwork.",
+        "camera": "push-in",
+        "mood": "Dusty mortar, heavy shadows, sealed and undisturbed."
+      },
+      {
+        "id": "b0vkl6",
+        "narration": "With every step overhead, dust fell from the ceiling.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, empty ground-floor room with bare plaster ceiling and an unlit hanging bulb.",
+        "action": "Small puffs of ceiling dust fall in a slow advancing line.",
+        "camera": "static",
+        "mood": "Lantern-lit dust, oppressive stillness, deliberate invisible movement."
+      },
+      {
+        "id": "e7lup8",
+        "narration": "[sighs] He fetched a ladder from the courtyard.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, enclosed courtyard beneath the house's flat roof, old wooden ladder against a wall.",
+        "action": "Bashir lifts the wooden ladder.",
+        "camera": "pan-left",
+        "mood": "Pale moonlight, long ladder shadow, anxious determination."
+      },
+      {
+        "id": "b1xwrg",
+        "narration": "He climbed outside, expecting someone on the roof.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, exterior wall of the deserted house, ladder reaching the rooftop parapet, lantern secured at Bashir's waist.",
+        "action": "Bashir climbs the ladder.",
+        "camera": "low-angle",
+        "mood": "Towering wall, moonlit fog, fragile pool of lantern light."
+      },
+      {
+        "id": "ggg4ve",
+        "narration": "But the rooftop dust lay perfectly smooth.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, completely empty flat rooftop with an unbroken layer of fine dust and a low parapet.",
+        "action": "Bashir sweeps his lantern over the untouched dust.",
+        "camera": "pan-right",
+        "mood": "Exposed moonlight, empty space, no footprints anywhere."
+      },
+      {
+        "id": "n4virf",
+        "narration": "[surprised] Then the footsteps moved directly beneath his feet.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, same empty rooftop, lantern light falling around Bashir's sandals.",
+        "action": "Bashir crouches with one palm against the roof.",
+        "camera": "push-in",
+        "mood": "Close, airless tension despite the open night sky."
+      },
+      {
+        "id": "l3scgi",
+        "narration": "Downstairs, he finally looked at the ceiling.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, ground-floor room again, bare ceiling above Bashir, ladder visible outside the open doorway.",
+        "action": "Bashir tilts his lantern upward.",
+        "camera": "low-angle",
+        "mood": "Rising amber light, ceiling emerging slowly from blackness."
+      },
+      {
+        "id": "uh2k03",
+        "narration": "Bare footprints pressed outward, walking upside down toward him.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, bare plaster ceiling directly above Bashir; no figure visible.",
+        "action": "A sequence of foot-shaped bulges presses through the ceiling toward Bashir.",
+        "camera": "push-in",
+        "mood": "Grotesquely stretched plaster without damage, enormous shadows, peak supernatura"
+      },
+      {
+        "id": "pfwili",
+        "narration": "[whispers] Tomorrow, they'll open the lantern; those footsteps are inside now.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, return to the haveli courtyard storytelling bench, Bashir and Saad beside the closed brass lantern.",
+        "action": "The lantern's closed lid lifts a fraction from within.",
+        "camera": "push-in",
+        "mood": "Thin seam of amber light, frozen listeners, surrounding darkness."
+      }
+    ],
+    "endHook": "Tomorrow, Bashir and Saad must open the lantern.",
+    "createdAt": "2026-11-14T11:58:17.852Z",
+    "description": "During load-shedding, Bashir Chacha heard footsteps above an empty house. By lantern light, he tells Saad why checking the rooftop only made things worse. A fictional spooky story from Midnight Watch.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "Pakistani horror",
+      "load shedding",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

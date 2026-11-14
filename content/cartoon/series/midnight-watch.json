@@ -1,0 +1,66 @@
+{
+  "model": "gpt-6.1-sol",
+  "group": "horror",
+  "why": "English version of the horror series: ElevenLabs English voices sound fully natural even on the free plan, and English horror reaches a worldwide audience (higher ad rates) while keeping the unique Pakistani settings.",
+  "series": {
+    "id": "midnight-watch",
+    "name": "Midnight Watch",
+    "language": "en",
+    "audience": "general",
+    "madeForKids": false,
+    "style": "3D animated film look, dark moody night lighting, fog, moonlight and lantern glow, old Pakistani havelis, empty roads, railway stations and villages, eerie cinematic shadows, vertical 9:16 frame",
+    "negative": "text, letters, watermark, logo, blood, gore, wounds, dead bodies, demons, religious symbols, bright daylight, blurry",
+    "characters": [
+      {
+        "id": "bashir",
+        "name": "Bashir Chacha",
+        "look": "Bashir Chacha, an old Pakistani night watchman (chowkidar) with a grey beard, a brown woollen shawl, a white cap and an old brass lantern"
+      },
+      {
+        "id": "saad",
+        "name": "Saad",
+        "look": "Saad, a brave 20-year-old university student with short black hair, a dark green hoodie, jeans and a small torch"
+      }
+    ],
+    "voice": {
+      "provider": "elevenlabs",
+      "edgeVoice": "ur-PK-AsadNeural",
+      "elevenVoiceId": "nPczCjzI2devNBz1zQrb",
+      "elevenModel": "eleven_v4"
+    },
+    "rules": [
+      "Bashir Chacha, an old night watchman in Pakistan, tells Saad one spooky story each night by his lantern; the story itself is shown in its own place.",
+      "Spooky, not gory: no blood, wounds, bodies or violence. Fear comes from silence, shadows, sounds and a twist.",
+      "Never mock any religion, holy place or holy figure, and do not use real people's names or real addresses. All stories are fiction.",
+      "Build suspense line by line, hold the scariest moment for the second-last shot, and end on a twist or cliffhanger.",
+      "Natural, simple spoken English for a worldwide audience; keep Pakistani place names and food words. Use [whispers], [gasps], [nervous laughs] where they fit."
+    ],
+    "episodeSeconds": 60,
+    "palette": {
+      "bg": "#07090f",
+      "accent": "#9bd1ff"
+    }
+  },
+  "topics": [
+    "The last night bus on a mountain road: the passengers get off one by one at stops that are not on the map, and the bus has no driver.",
+    "A lady in white waits by the canal road at midnight and asks for a lift to a house that no longer exists.",
+    "An old haveli in the walled city where a harmonium plays by itself at exactly 3 o'clock every night.",
+    "A phone call comes from a number that is not in service, and the caller knows Saad's name.",
+    "In a village well, the echo starts answering questions before you finish asking them.",
+    "Bashir Chacha's old lantern lights up by itself on the nights someone needs help.",
+    "An old family photo where one new face appears in the background every night.",
+    "The lift of an old city building stops at a floor that does not exist in the building plan.",
+    "A doll in an antique shop is never in the same place two mornings in a row.",
+    "During load-shedding, slow footsteps walk on the rooftop of a house where nobody lives upstairs.",
+    "A roadside dhaba serves the best tea on the highway at night, but by morning there is only an empty field.",
+    "A wedding card arrives from a haveli that has been locked for fifty years.",
+    "An old radio starts playing tomorrow's news.",
+    "The mirror in the hostel washroom shows one extra person standing behind you.",
+    "A railway station clock stays stuck at 2:13, and one train still arrives at exactly that time.",
+    "Children's voices reading lessons come from an empty school classroom on a holiday.",
+    "A taxi passenger gives the address of a building that was pulled down years ago, then disappears from the back seat.",
+    "Saad receives a voice note in his own voice that he never recorded.",
+    "A shop on a dark street sells watches that show how much time each customer has left.",
+    "Final episode: Saad finally asks Bashir Chacha why he guards the street every night, and Bashir's own secret is the biggest twist of all."
+  ]
+}

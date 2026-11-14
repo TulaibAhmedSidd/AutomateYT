@@ -1,0 +1,159 @@
+{
+  "number": 9,
+  "topic": "A doll in an antique shop is never in the same place two mornings in a row.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:58:13.532Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Doll That Never Stayed",
+    "shots": [
+      {
+        "id": "r71v7a",
+        "narration": "Every morning, that doll was closer to the shop's door.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated Pakistani haveli courtyard at night, brass lantern between bashir and saad, no writing anywhere.",
+        "action": "bashir points toward the closed courtyard door.",
+        "camera": "push-in",
+        "mood": "Amber lantern glow, blue moonlight, deep doorway shadows."
+      },
+      {
+        "id": "4on0pq",
+        "narration": "I watched that antique shop for three nights, Saad.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Haveli courtyard, bashir in brown woollen shawl and white cap, saad in dark green hoodie beside the lantern.",
+        "action": "bashir raises three fingers.",
+        "camera": "static",
+        "mood": "Quiet night fog, solemn expression, warm light against cold darkness."
+      },
+      {
+        "id": "tpe8lt",
+        "narration": "[whispers] The first morning, it sat on the highest shelf.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Story setting: old Pakistani antique shop before sunrise, unmarked brass pots, wooden shelves, small porcelain doll in a faded blue dress.",
+        "action": "bashir lifts his brass lantern toward the doll on the highest shelf.",
+        "camera": "low-angle",
+        "mood": "Dusty blue dawn, long shelf shadows, faint amber reflections."
+      },
+      {
+        "id": "vsv5w8",
+        "narration": "The next morning, I found it on the counter.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Same antique shop at dawn, highest shelf empty, blue-dressed porcelain doll seated on the wooden counter nearer the exit.",
+        "action": "bashir stops beside the counter.",
+        "camera": "pan-right",
+        "mood": "Cold dawn haze, still objects, doll eyes catching lantern light."
+      },
+      {
+        "id": "obwhni",
+        "narration": "So I locked it inside a glass cabinet.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Antique shop at night, porcelain doll inside a glass cabinet, plain metal lock without markings.",
+        "action": "bashir turns the cabinet key.",
+        "camera": "push-in",
+        "mood": "Narrow lantern glow, black corners, sharp glass reflections."
+      },
+      {
+        "id": "wcnsjs",
+        "narration": "[surprised] By dawn, it waited outside, beside the locked cabinet.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Shop at blue dawn, cabinet visibly empty and padlocked, porcelain doll sitting on the floor beside it.",
+        "action": "bashir tugs the closed padlock.",
+        "camera": "static",
+        "mood": "Pale light, heavy silence, unnaturally neat doll posture."
+      },
+      {
+        "id": "83vu58",
+        "narration": "That night, I surrounded it with flour.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Antique shop floor near the entrance, seated porcelain doll inside a nearly complete white flour circle.",
+        "action": "bashir pours the final stretch of the flour circle.",
+        "camera": "orbit",
+        "mood": "Low amber illumination, dark wooden floor, enclosing shadows."
+      },
+      {
+        "id": "l349ol",
+        "narration": "I watched from the doorway until my lantern flickered.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Interior shop doorway at midnight, bashir facing the doll within its flour circle, brass lantern beside his face.",
+        "action": "The lantern flame shrinks to a tiny blue point.",
+        "camera": "push-in",
+        "mood": "Near darkness, looming shelves, thin moonlight across flour."
+      },
+      {
+        "id": "5idg2s",
+        "narration": "[whispers] When the light returned, the circle was empty.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Same shop floor, brightened lantern light revealing an empty, perfectly intact flour circle.",
+        "action": "bashir lowers his lantern toward the empty circle.",
+        "camera": "pan-left",
+        "mood": "Stark amber light, undisturbed white flour, surrounding blackness."
+      },
+      {
+        "id": "wp9j41",
+        "narration": "No footprints. No broken flour. Then my shawl tightened.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Close view of bashir at the shop doorway, empty flour circle beyond him, brown shawl drawn taut over one shoulder.",
+        "action": "A small fold of bashir's shawl pulls upward behind his shoulder.",
+        "camera": "static",
+        "mood": "Claustrophobic framing, trembling lantern reflections, concealed darkness behind"
+      },
+      {
+        "id": "v7kxzh",
+        "narration": "It was on my shoulder, facing the locked door.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Tight vertical close-up of bashir, porcelain doll perched on his shoulder with tiny hands caught in his shawl, locked shop door behind.",
+        "action": "The doll slowly turns its porcelain face toward bashir.",
+        "camera": "push-in",
+        "mood": "Wide frightened eyes, hard lantern underlight, immense doll shadow on the door."
+      },
+      {
+        "id": "n9pr0w",
+        "narration": "[sighs] Tomorrow, I'll explain what followed me from the railway station.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Return to the haveli courtyard, bashir and saad beside the brass lantern, small unmarked wooden toy train in bashir's hand.",
+        "action": "bashir places the wooden train between them.",
+        "camera": "pull-out",
+        "mood": "Uneasy lantern warmth, blue courtyard fog, dark passage behind the listeners."
+      }
+    ],
+    "endHook": "Tomorrow, Bashir reveals what followed him home from the railway station.",
+    "createdAt": "2026-11-14T11:58:13.530Z",
+    "description": "By his lantern, Bashir Chacha tells Saad about an antique shop where one doll changed places every morning. Locking it away only brought it closer. A fictional spooky story from Midnight Watch.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "haunted doll",
+      "Pakistani horror",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

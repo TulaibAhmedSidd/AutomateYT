@@ -1,0 +1,149 @@
+{
+  "number": 3,
+  "topic": "An old haveli in the walled city where a harmonium plays by itself at exactly 3 o'clock every night.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:57:29.020Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Haveli That Played at Three",
+    "shots": [
+      {
+        "id": "st365v",
+        "narration": "That empty haveli played every night, but nobody touched the keys.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated Pakistani courtyard at night, brass lantern between Bashir and Saad, no visible writing.",
+        "action": "Bashir points toward a distant haveli above the courtyard wall.",
+        "camera": "push-in",
+        "mood": "Cold moonlight, warm lantern glow, deep archway shadows."
+      },
+      {
+        "id": "jykufq",
+        "narration": "Saad asked what happened when I went inside.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, courtyard beside the brass lantern, Bashir in brown shawl and white cap, Saad in green hoodie.",
+        "action": "Saad leans toward Bashir.",
+        "camera": "static",
+        "mood": "Quiet anticipation, lantern light across attentive faces."
+      },
+      {
+        "id": "hz9grs",
+        "narration": "[whispers] I reached its door just before three.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, flashback in a narrow fictional Pakistani walled-city lane, weathered haveli doorway, no signs.",
+        "action": "Bashir pushes the wooden door inward.",
+        "camera": "low-angle",
+        "mood": "Moonlit fog, peeling plaster, darkness beyond the threshold."
+      },
+      {
+        "id": "jxxqq9",
+        "narration": "Inside, the clock struck three.",
+        "characters": [],
+        "scene": "Vertical 9:16, dusty haveli hall, antique clock with a blank unmarked face, hands indicating three.",
+        "action": "The clock hammer strikes its small bell.",
+        "camera": "push-in",
+        "mood": "Silver moonlight, motionless cobwebs, oppressive silence."
+      },
+      {
+        "id": "cwyp6l",
+        "narration": "Across the room, the harmonium opened its bellows.",
+        "characters": [],
+        "scene": "Vertical 9:16, empty haveli music room, unbranded wooden harmonium on a faded rug.",
+        "action": "The harmonium bellows expand without anyone nearby.",
+        "camera": "pan-right",
+        "mood": "Dust suspended in moonlight, black window recesses."
+      },
+      {
+        "id": "9cw95z",
+        "narration": "[surprised] Then its keys began pressing themselves.",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of the dusty harmonium keyboard, empty space above every key.",
+        "action": "Several harmonium keys sink in sequence.",
+        "camera": "static",
+        "mood": "Pale highlights on ivory-colored keys, surrounding darkness."
+      },
+      {
+        "id": "7zsrws",
+        "narration": "I shut its lid, hoping the music would stop.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, haveli music room, brass lantern resting beside the harmonium.",
+        "action": "Bashir lowers the harmonium's wooden keyboard cover.",
+        "camera": "orbit",
+        "mood": "Tense amber light, long shadows across the rug."
+      },
+      {
+        "id": "ignkc7",
+        "narration": "Instead, the tune came from my lantern.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, haveli music room, closed harmonium behind Bashir, brass lantern beside his face.",
+        "action": "Bashir raises the lantern to his ear.",
+        "camera": "push-in",
+        "mood": "Uneasy recognition, wavering gold light against blue darkness."
+      },
+      {
+        "id": "ywfxfh",
+        "narration": "[sighs] I brought it home without looking inside.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, flashback in the deserted walled-city lane outside the haveli.",
+        "action": "Bashir walks away carrying his lantern.",
+        "camera": "pull-out",
+        "mood": "Heavy fog, looming wooden doorway, isolated amber glow."
+      },
+      {
+        "id": "1pgdq1",
+        "narration": "Beside Saad, the lantern started trembling.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, return to the courtyard, brass lantern on the paving between Bashir and Saad.",
+        "action": "The lantern trembles on the stone.",
+        "camera": "low-angle",
+        "mood": "Frozen expressions, jittering shadows, cold surrounding darkness."
+      },
+      {
+        "id": "bbe40w",
+        "narration": "Inside the glass, tiny keys played beneath the flame.",
+        "characters": [],
+        "scene": "Vertical 9:16, extreme close view through lantern glass, miniature harmonium impossibly lodged beneath the burning wick.",
+        "action": "The miniature harmonium keys press themselves.",
+        "camera": "push-in",
+        "mood": "Unnatural amber brilliance, warped glass reflections, deepest surrounding black."
+      },
+      {
+        "id": "ncuha9",
+        "narration": "[whispers] Tomorrow, we follow its music to the abandoned railway station.",
+        "characters": [],
+        "scene": "Vertical 9:16, deserted fictional Pakistani railway station at night, blank walls, empty platform, hanging brass lantern.",
+        "action": "The hanging lantern swings above the empty tracks.",
+        "camera": "pull-out",
+        "mood": "Moonlit railway fog, distant amber glow, waiting darkness."
+      }
+    ],
+    "endHook": "Tomorrow, the music leads to an abandoned railway station.",
+    "createdAt": "2026-11-14T11:57:29.017Z",
+    "description": "Every night at three, a harmonium plays inside an empty haveli in a fictional Pakistani walled city. Bashir Chacha tells Saad what happened when he followed its music—and what followed him home. A fictional spooky story.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "Pakistani haveli",
+      "harmonium",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

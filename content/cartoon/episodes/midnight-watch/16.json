@@ -1,0 +1,155 @@
+{
+  "number": 16,
+  "topic": "Children's voices reading lessons come from an empty school classroom on a holiday.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:59:16.093Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Holiday Lesson",
+    "shots": [
+      {
+        "id": "2ku92g",
+        "narration": "The school was closed, but the children kept reading.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated Pakistani haveli courtyard at night, brass lantern between Bashir and Saad, no writing anywhere.",
+        "action": "Bashir points toward the distant school roof.",
+        "camera": "push-in",
+        "mood": "Cold moonlight, warm lantern glow, deep archway shadows."
+      },
+      {
+        "id": "y956pp",
+        "narration": "Bashir told Saad what happened during his holiday patrol.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "The same haveli courtyard, Bashir in his brown shawl and white cap opposite Saad in his green hoodie.",
+        "action": "Bashir lifts his old brass lantern.",
+        "camera": "static",
+        "mood": "Quiet storytelling, drifting ground fog, uneasy amber light."
+      },
+      {
+        "id": "7y9nez",
+        "narration": "[whispers] Every classroom was locked, except the one upstairs.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Story flashback, deserted Pakistani village school staircase, one open classroom doorway above, bare walls without signs.",
+        "action": "Bashir climbs the stone stairs with his lantern.",
+        "camera": "low-angle",
+        "mood": "Narrow moonbeams, peeling plaster, heavy darkness upstairs."
+      },
+      {
+        "id": "mv5q48",
+        "narration": "Children's voices repeated a lesson behind that open door.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Upper school corridor beside the open classroom, dusty floor and a dark doorway.",
+        "action": "Bashir leans toward the doorway.",
+        "camera": "push-in",
+        "mood": "Listening tension, amber light stopping at the threshold."
+      },
+      {
+        "id": "gcoj2t",
+        "narration": "Inside, every seat was empty.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Empty classroom with wooden desks, a teacher's table, and a completely blank blackboard.",
+        "action": "Bashir extends his lantern into the classroom.",
+        "camera": "pan-right",
+        "mood": "Long desk shadows, suspended dust, cold blue window light."
+      },
+      {
+        "id": "zlqis9",
+        "narration": "[surprised] Then one empty chair pulled itself out.",
+        "characters": [],
+        "scene": "Close view of a wooden classroom desk and its empty chair, lantern glow entering from the doorway.",
+        "action": "The chair slides backward across the dusty floor.",
+        "camera": "static",
+        "mood": "Fresh scrape through dust, unsettling stillness around the chair."
+      },
+      {
+        "id": "zseqzy",
+        "narration": "A second chair moved, then a third.",
+        "characters": [],
+        "scene": "Three empty desks in the moonlit classroom, the first chair already pulled out.",
+        "action": "Two more chairs slide backward together.",
+        "camera": "pan-left",
+        "mood": "Orderly movement without occupants, lengthening black shadows."
+      },
+      {
+        "id": "m1l8qk",
+        "narration": "All the voices stopped when Bashir reached the teacher's table.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Front of the empty classroom, bare teacher's table before a blank blackboard.",
+        "action": "Bashir sets his lantern on the teacher's table.",
+        "camera": "orbit",
+        "mood": "Abrupt stillness, lantern-lit beard, darkness crowding the windows."
+      },
+      {
+        "id": "vbycwr",
+        "narration": "[whispers] One small voice asked him to take the lesson home.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Teacher's table with the brass lantern, empty chairs beyond it, no writing on any surface.",
+        "action": "Bashir bends toward the lantern.",
+        "camera": "push-in",
+        "mood": "Intimate dread, trembling amber reflections on glass."
+      },
+      {
+        "id": "9n56fo",
+        "narration": "He reached for the lantern, and its flame turned blue.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Close view of Bashir's still hand beside the lantern on the bare teacher's table.",
+        "action": "The lantern flame changes from amber to blue.",
+        "camera": "static",
+        "mood": "Unnatural blue light, surrounding classroom almost completely black."
+      },
+      {
+        "id": "tbx9xl",
+        "narration": "Tiny handprints pressed against the glass, from inside.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Extreme close view of the blue-lit brass lantern, Bashir's frightened face behind it.",
+        "action": "Small hand-shaped condensation marks bloom across the inside glass.",
+        "camera": "push-in",
+        "mood": "Claustrophobic supernatural terror, brilliant blue flame, sharp reflected eyes."
+      },
+      {
+        "id": "l6xo07",
+        "narration": "[whispers] Tomorrow, I'll tell Saad why it started announcing railway stations.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Return to the haveli courtyard, the same lantern between Bashir and Saad, blue light beneath its brass rim.",
+        "action": "The lantern projects a railway-track-shaped shadow across the courtyard floor.",
+        "camera": "pull-out",
+        "mood": "Impossible shadow, lingering blue glow, fog swallowing the courtyard."
+      }
+    ],
+    "endHook": "Tomorrow night, the lesson continues at an abandoned railway station.",
+    "createdAt": "2026-11-14T11:59:16.092Z",
+    "description": "On a school holiday, Bashir Chacha hears children reading inside an empty classroom. By lantern light, he tells Saad why he should never have opened its door. A fictional spooky story from Midnight Watch.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "haunted school",
+      "Pakistani animation",
+      "YouTube Shorts",
+      "3D animation"
+    ]
+  }
+}

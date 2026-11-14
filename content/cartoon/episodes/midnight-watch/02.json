@@ -1,0 +1,156 @@
+{
+  "number": 2,
+  "topic": "A lady in white waits by the canal road at midnight and asks for a lift to a house that no longer exists.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:57:36.312Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Lift to Nowhere",
+    "shots": [
+      {
+        "id": "5c3r8a",
+        "narration": "She wanted a lift to a house swallowed by water.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated Pakistani haveli courtyard at midnight, brass lantern between two chairs, no writing anywhere.",
+        "action": "Bashir points toward the dark canal beyond the courtyard.",
+        "camera": "push-in",
+        "mood": "Cold moonlight, warm lantern glow, deep shadows beneath the arches."
+      },
+      {
+        "id": "c6csk9",
+        "narration": "Bashir Chacha told Saad how he heard her that midnight.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Haveli courtyard, Bashir in his brown woollen shawl and white cap, Saad in his dark green hoodie.",
+        "action": "Saad leans toward Bashir's brass lantern.",
+        "camera": "static",
+        "mood": "Quiet anticipation, golden light on Bashir's grey beard."
+      },
+      {
+        "id": "31mbpq",
+        "narration": "[whispers] By the canal, a woman's voice called from the fog.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Flashback on an empty Pakistani canal road, old bicycle with a rear passenger rack, white shawl hanging from a roadside branch; no woman visible.",
+        "action": "Bashir stops his bicycle beside the hanging shawl.",
+        "camera": "pan-right",
+        "mood": "Thick silver fog, black canal water, isolated lantern light."
+      },
+      {
+        "id": "ib1vi7",
+        "narration": "She asked for the house beyond the broken waterwheel.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Narrow canal road beside a ruined wooden waterwheel, bicycle facing into fog.",
+        "action": "Bashir gestures toward the bicycle's rear rack.",
+        "camera": "low-angle",
+        "mood": "Uneasy stillness, long wheel shadows across damp earth."
+      },
+      {
+        "id": "dfigbj",
+        "narration": "Something settled behind him, but he never saw her face.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Bicycle on the canal road, Bashir facing forward, rear rack clearly visible.",
+        "action": "The white shawl settles onto the rear rack without a visible wearer.",
+        "camera": "push-in",
+        "mood": "Pale cloth against darkness, fog hiding the empty road."
+      },
+      {
+        "id": "9faeh0",
+        "narration": "[sighs] At the bend, he understood why nobody visited that house.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Canal bend overlooking a flooded plot, ruined gateposts rising from still water.",
+        "action": "Bashir raises his lantern toward the submerged entrance.",
+        "camera": "pan-left",
+        "mood": "Amber reflections across black water, broken masonry in moonlight."
+      },
+      {
+        "id": "uxbcpx",
+        "narration": "Only its doorstep remained above the canal.",
+        "characters": [],
+        "scene": "Flooded house foundations beyond two ruined gateposts, one stone doorstep above water, no intact building.",
+        "action": "A ripple washes over the lone doorstep.",
+        "camera": "push-in",
+        "mood": "Empty rectangular foundations, motionless fog, vast surrounding darkness."
+      },
+      {
+        "id": "oju5km",
+        "narration": "Behind him, the bicycle rack was empty.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Canal bank beside the bicycle, bare rear rack in lantern light.",
+        "action": "Bashir turns toward the empty rack.",
+        "camera": "orbit",
+        "mood": "Sharp lantern shadows, white cap bright against the mist."
+      },
+      {
+        "id": "xsjtyy",
+        "narration": "[whispers] Her shawl lay neatly across that flooded doorstep.",
+        "characters": [],
+        "scene": "Isolated stone doorstep surrounded by canal water, folded white shawl resting on its dry center.",
+        "action": "One corner of the shawl slowly lifts.",
+        "camera": "static",
+        "mood": "Unnaturally still water, luminous cloth, darkness beneath the stone."
+      },
+      {
+        "id": "1vgmoc",
+        "narration": "Back in the courtyard, Bashir said, 'I left it there.'",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Present-night haveli courtyard, brass lantern between Bashir and Saad, an empty third chair beside them.",
+        "action": "Bashir lowers his gaze to the lantern.",
+        "camera": "pull-out",
+        "mood": "Small warm light surrounded by cold arches and dense shadows."
+      },
+      {
+        "id": "ichbqr",
+        "narration": "Then the wet shawl settled onto the empty chair.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Haveli courtyard, empty chair beside Saad, both seated listeners visible behind it, no additional person.",
+        "action": "A dripping white shawl descends onto the empty chair.",
+        "camera": "push-in",
+        "mood": "Lantern-lit droplets, hollow folds, looming chair shadow across the floor."
+      },
+      {
+        "id": "8hkwof",
+        "narration": "[surprised] Then the abandoned station answered her with a whistle.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "View through the haveli gateway toward distant railway tracks and a deserted station canopy, no signs or writing.",
+        "action": "Saad points his small torch toward the abandoned station.",
+        "camera": "pan-right",
+        "mood": "Narrow torch beam, blue railway fog, one faint amber glow beneath the canopy."
+      }
+    ],
+    "endHook": "Next night, Bashir reveals why the abandoned railway station whistled back.",
+    "createdAt": "2026-11-14T11:57:36.310Z",
+    "description": "Beside his lantern, Bashir Chacha tells Saad about an unseen woman waiting on a canal road. She wanted a lift home—but her house was already underwater. A fictional spooky tale from Midnight Watch.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "Pakistani folklore inspired",
+      "3D animation",
+      "YouTube Shorts",
+      "ghost story"
+    ]
+  }
+}

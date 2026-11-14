@@ -1,0 +1,159 @@
+{
+  "number": 13,
+  "topic": "An old radio starts playing tomorrow's news.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:58:50.301Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: Tomorrow's News",
+    "shots": [
+      {
+        "id": "qdj3ug",
+        "narration": "The radio announced tomorrow's news—and then it said my name.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Old Pakistani haveli courtyard at night, brass lantern beside an antique radio with blank controls, vertical 9:16, 3D animated film look, no visible text.",
+        "action": "Bashir points at the radio beside his lantern.",
+        "camera": "push-in",
+        "mood": "Cold moonlight, warm lantern glow, deep courtyard shadows."
+      },
+      {
+        "id": "6a1m8y",
+        "narration": "Bashir told Saad where he had found it.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Same haveli courtyard, Bashir in his brown shawl and white cap opposite Saad in his dark green hoodie.",
+        "action": "Bashir gestures toward the distant railway tracks.",
+        "camera": "pan-right",
+        "mood": "Thin ground fog, amber light on attentive faces."
+      },
+      {
+        "id": "fwwom5",
+        "narration": "[whispers] Inside an abandoned station, something crackled beneath a dusty cloth.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Flashback inside an abandoned Pakistani railway waiting room, empty benches, covered radio on a wooden desk, no signs or lettering.",
+        "action": "Bashir lifts the dusty cloth from the radio.",
+        "camera": "push-in",
+        "mood": "Dust suspended in lantern light, blue moonlight through broken shutters."
+      },
+      {
+        "id": "yzyen4",
+        "narration": "There were no batteries, and its wire ended nowhere.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Station desk beside the exposed radio back, empty battery compartment and severed power cable clearly visible.",
+        "action": "Bashir lifts the disconnected cable.",
+        "camera": "static",
+        "mood": "Faint amber dial glow, heavy black corners."
+      },
+      {
+        "id": "dld4p8",
+        "narration": "Tomorrow's news: the chained station gate would open by itself.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Waiting room overlooking a closed iron station gate secured with a thick chain, radio in the foreground.",
+        "action": "The radio's speaker cloth pulses outward.",
+        "camera": "low-angle",
+        "mood": "Unnatural green dial light, distant gate outlined by moonlight."
+      },
+      {
+        "id": "vruda7",
+        "narration": "[sighs] The following night, Bashir returned to watch that gate.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Same abandoned station the following night, chained gate beyond the waiting room doorway.",
+        "action": "Bashir settles onto the bench facing the gate.",
+        "camera": "pull-out",
+        "mood": "Dense fog outside, small lantern glow inside, vast empty space."
+      },
+      {
+        "id": "hef593",
+        "narration": "The chain slipped free; the gate opened without a breeze.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Station entrance, loose chain pooled beneath the iron gate, Bashir visible beyond it.",
+        "action": "The iron gate swings inward.",
+        "camera": "static",
+        "mood": "Perfectly still fog, stark moonlit bars, tense silence."
+      },
+      {
+        "id": "6oplso",
+        "narration": "Then came another headline: Bashir's lantern would go dark.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Waiting room desk, glowing radio beside Bashir's burning brass lantern.",
+        "action": "Bashir draws the lantern against his chest.",
+        "camera": "push-in",
+        "mood": "Green radio light against fragile orange flame."
+      },
+      {
+        "id": "2f4tmb",
+        "narration": "[surprised] This time, it didn't wait until tomorrow.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Close view of Bashir holding his lantern beside the radio in the dark waiting room.",
+        "action": "The lantern flame extinguishes.",
+        "camera": "static",
+        "mood": "Sudden darkness, only green light beneath Bashir's frightened eyes."
+      },
+      {
+        "id": "9q99tk",
+        "narration": "Bashir grabbed the radio, searching for its switch.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Station desk under faint moonlight, extinguished lantern resting beside the radio.",
+        "action": "Bashir turns the radio toward himself.",
+        "camera": "orbit",
+        "mood": "Long warped shadows, trembling green illumination."
+      },
+      {
+        "id": "db1vql",
+        "narration": "Behind the speaker cloth, his own tiny face opened its eyes.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Extreme close view of the radio in Bashir's hands, a miniature duplicate of Bashir's face visible behind translucent speaker cloth.",
+        "action": "The miniature face opens its eyes.",
+        "camera": "push-in",
+        "mood": "Eyes lit from within, oppressive darkness, uncanny stillness."
+      },
+      {
+        "id": "hg1i3v",
+        "narration": "[whispers] Now it says Saad will visit the old well tomorrow.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Return to the haveli courtyard, radio between Bashir and Saad beside the burning brass lantern, distant stone well beneath moonlight.",
+        "action": "Saad turns toward the distant well.",
+        "camera": "pan-right",
+        "mood": "Green radio glow, cold fog surrounding the well, unresolved dread."
+      }
+    ],
+    "endHook": "Tomorrow's broadcast sends Saad to a well that answers back.",
+    "createdAt": "2026-11-14T11:58:50.300Z",
+    "description": "Bashir Chacha tells Saad about an abandoned station radio that broadcast tomorrow's news. Its first prediction came true—but its final announcement was personal. A fictional spooky story from Midnight Watch.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "haunted radio",
+      "Pakistani animation",
+      "YouTube Shorts",
+      "3D animation"
+    ]
+  }
+}

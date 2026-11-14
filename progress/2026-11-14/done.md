@@ -33,3 +33,10 @@
   - 5 series × 10 reels, all written (then-and-now-pakistan, evolution-of, glow-up-nature, one-place-four-seasons, cities-of-the-future);
   - one test reel rendered (10.8 s).
 - Scripts written today on the owner's TAS OpenAI key: 70 (about $0.80).
+- Owner chose to focus on horror and Then & Now Pakistan; no Chacha Jee for now.
+- Picture logic:
+  - `picture` (text → picture) and `keyframe` (edit) workflows;
+  - transition stages are edited from the previous stage;
+  - character reference pictures are made automatically.
+  - Tested with the fake ComfyUI: Then & Now made 6 chained pictures; horror made Bashir and Saad references, 12 pictures and 3 clips.
+- English horror series **Midnight Watch** (20 episodes, ElevenLabs Brian), all scripts written. The Urdu horror stays.

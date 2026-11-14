@@ -1,0 +1,158 @@
+{
+  "number": 19,
+  "topic": "A shop on a dark street sells watches that show how much time each customer has left.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:59:26.762Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Shop of Remaining Seconds",
+    "shots": [
+      {
+        "id": "9w85eg",
+        "narration": "That watch showed exactly how many seconds I had left.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated Pakistani haveli courtyard at night; Bashir in his brown shawl and white cap sits beside Saad in a dark green hoodie, brass lantern between them; no writing.",
+        "action": "Bashir presents a watch with a thin glowing crescent around its blank face.",
+        "camera": "push-in",
+        "mood": "Cold moonlight, warm lantern glow, deep shadows beneath worried eyes."
+      },
+      {
+        "id": "2fmvll",
+        "narration": "I bought it from a shop nobody remembered seeing.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, courtyard storytelling circle beside an old carved wooden doorway; the watch rests between Bashir and Saad.",
+        "action": "Saad leans toward the watch.",
+        "camera": "low-angle",
+        "mood": "Still night air, faint ground fog, isolated amber light."
+      },
+      {
+        "id": "v1yzvp",
+        "narration": "[whispers] Inside, every watch had a shrinking circle of light.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, story flashback inside a tiny watch shop on an empty Pakistani lane; unmarked watches fill dusty velvet trays; no shopkeeper, numbers, lettering or signs.",
+        "action": "The glowing rings around the watch faces steadily shrink.",
+        "camera": "pan-right",
+        "mood": "Dusty blue moonlight, brass reflections, narrow pools of lantern light."
+      },
+      {
+        "id": "377ls1",
+        "narration": "There was no shopkeeper, only a bowl for coins.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, empty watch shop counter with a plain brass coin bowl and one watch on a velvet cushion.",
+        "action": "Bashir drops an unmarked coin into the bowl.",
+        "camera": "static",
+        "mood": "Heavy darkness behind the counter, unnatural stillness."
+      },
+      {
+        "id": "28n3tx",
+        "narration": "The moment I wore mine, its light began disappearing.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, close view of Bashir's wrist above the dusty counter; the watch has a blank face bordered by a glowing ring.",
+        "action": "The watch's glowing ring contracts into a short arc.",
+        "camera": "push-in",
+        "mood": "Pale light across trembling fingers, deep surrounding shadow."
+      },
+      {
+        "id": "v3dul8",
+        "narration": "[surprised] Then the doorway started getting smaller.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, watch shop interior facing the open doorway and foggy lane beyond; Bashir stands in the foreground.",
+        "action": "The doorway narrows as its wooden sides slide inward.",
+        "camera": "pull-out",
+        "mood": "Cramped perspective, moonlit exit squeezed between black walls."
+      },
+      {
+        "id": "ic5ru6",
+        "narration": "Each fading second took another piece of my way out.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, narrow shop exit beyond Bashir's raised wrist; only a tiny luminous crescent remains on the watch.",
+        "action": "The remaining crescent dwindles to a glowing point.",
+        "camera": "static",
+        "mood": "A single cold spark, oppressive walls, distant street fog."
+      },
+      {
+        "id": "70mgjx",
+        "narration": "I squeezed outside before the final spark vanished.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, exterior of the shrinking shop entrance on an empty old Pakistani street.",
+        "action": "Bashir squeezes sideways through the narrow doorway.",
+        "camera": "low-angle",
+        "mood": "Sharp moonlight, tangled shadows, lantern glow against rough plaster."
+      },
+      {
+        "id": "5mxyda",
+        "narration": "[sighs] Behind me, the shop became a solid brick wall.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, deserted lane behind Bashir; the shop entrance occupies a small section of an otherwise bare brick wall.",
+        "action": "The entrance seals into uninterrupted brickwork.",
+        "camera": "pan-left",
+        "mood": "Silent relief beneath cold blue moonlight."
+      },
+      {
+        "id": "hw5i99",
+        "narration": "But tonight, its light has started shrinking again.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, return to the haveli courtyard; Bashir and Saad sit beside the brass lantern with the watch between them.",
+        "action": "The watch's renewed glowing ring rapidly contracts.",
+        "camera": "push-in",
+        "mood": "Warm lantern light surrounded by dense, watchful darkness."
+      },
+      {
+        "id": "po5ju6",
+        "narration": "It wasn't counting my life, but my time outside.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, wide courtyard view; Bashir and Saad sit in the foreground, with a solid wall directly behind them.",
+        "action": "The wall opens into the same watch shop, its glowing watches stretching into impossible darkness.",
+        "camera": "pull-out",
+        "mood": "Towering black doorway, cold watchlight swallowing the lantern glow."
+      },
+      {
+        "id": "x7fitp",
+        "narration": "[whispers] Tomorrow, I'll tell you why the railway clocks run backward.",
+        "characters": [],
+        "scene": "Vertical 9:16, an abandoned Pakistani railway platform in moonlit fog; a large blank clock face has plain hands and no numbers, markings or lettering.",
+        "action": "The clock hands turn backward.",
+        "camera": "push-in",
+        "mood": "Empty tracks, pale fog, a distant amber lamp beneath a dark roof."
+      }
+    ],
+    "endHook": "Tomorrow, Bashir reveals why the abandoned railway station's clocks run backward.",
+    "createdAt": "2026-11-14T11:59:26.761Z",
+    "description": "By lantern light, Bashir Chacha tells Saad about a watch shop on an empty Pakistani street. Its watches didn't tell the time—they showed how much time a customer had left. A fictional spooky story.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "Pakistani horror",
+      "animated short",
+      "mystery",
+      "watch shop"
+    ]
+  }
+}

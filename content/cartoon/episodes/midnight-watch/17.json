@@ -1,0 +1,155 @@
+{
+  "number": 17,
+  "topic": "A taxi passenger gives the address of a building that was pulled down years ago, then disappears from the back seat.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:59:20.612Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Passenger to Nowhere",
+    "shots": [
+      {
+        "id": "z2ww6p",
+        "narration": "My taxi passenger wanted a haveli that no longer existed.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look; an old Pakistani haveli courtyard at midnight, brass lantern between Bashir and Saad.",
+        "action": "Bashir raises an old iron key into the lantern light.",
+        "camera": "push-in",
+        "mood": "Amber light on a grey beard, brown woollen shawl, white cap, and Saad's tense fa"
+      },
+      {
+        "id": "syr0qt",
+        "narration": "Before guarding this courtyard, I drove a taxi at night.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, lantern-lit courtyard steps; Saad wears a dark green hoodie and jeans, his small torch beside him.",
+        "action": "Saad leans toward Bashir.",
+        "camera": "static",
+        "mood": "Quiet anticipation, drifting ground fog, warm lantern glow; no visible text."
+      },
+      {
+        "id": "3q4bvt",
+        "narration": "[whispers] One foggy night, my rear door opened by itself.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, flashback on an empty Pakistani road; an unbranded taxi with blank plates, Bashir seated at the wheel.",
+        "action": "The taxi's rear door swings open.",
+        "camera": "low-angle",
+        "mood": "Cold moonlight, dense roadside fog, an empty doorway; no visible text."
+      },
+      {
+        "id": "8fexal",
+        "narration": "The cushion sank, but I could see nobody.",
+        "characters": [],
+        "scene": "Vertical 9:16, close view of the taxi's empty rear bench, plain upholstery and dark windows.",
+        "action": "A deep seated indentation forms in the cushion.",
+        "camera": "push-in",
+        "mood": "Unnatural stillness, pale moonlight across empty fabric; no visible text."
+      },
+      {
+        "id": "zgvnmg",
+        "narration": "A voice gave an address: the old Neem Haveli.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, taxi interior with Bashir's brass lantern secured beside the dashboard, all instruments unmarked.",
+        "action": "Bashir turns his head toward the rear seat.",
+        "camera": "pan-right",
+        "mood": "Lantern glow catches his worried eyes beneath his white cap; no visible text."
+      },
+      {
+        "id": "onhr5l",
+        "narration": "[whispers] That building had been pulled down years before.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, view through the taxi windshield toward a broken haveli arch and scattered masonry.",
+        "action": "Bashir brings the taxi to a stop.",
+        "camera": "static",
+        "mood": "Headlights reveal collapsed walls in thick fog; no visible text or markings."
+      },
+      {
+        "id": "0jkzhk",
+        "narration": "Still, the passenger asked me to open the door.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, roadside beside the stopped taxi, ruined haveli beyond its rear passenger door.",
+        "action": "Bashir pulls the rear door open.",
+        "camera": "pan-left",
+        "mood": "Moonlit rubble, long shadows, uneasy lantern glow from the front cabin; no visib"
+      },
+      {
+        "id": "hkwm3m",
+        "narration": "The cushion slowly rose again.",
+        "characters": [],
+        "scene": "Vertical 9:16, close view into the open rear compartment, with broken masonry visible beyond the opposite window.",
+        "action": "The rear cushion returns to its smooth shape.",
+        "camera": "push-in",
+        "mood": "Empty upholstery in cold light, absolute visual stillness around the moving cush"
+      },
+      {
+        "id": "7uo5n8",
+        "narration": "[surprised] Nobody stepped out, and nobody remained inside.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, wide view through the open taxi door, empty rear bench and fog-covered roadside.",
+        "action": "Bashir bends to inspect the empty compartment.",
+        "camera": "pull-out",
+        "mood": "His brown shawl hangs motionless against the pale fog; no visible text."
+      },
+      {
+        "id": "5bsp8q",
+        "narration": "Only this key lay where the passenger had sat.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, rear taxi bench with a single old iron key on the plain cushion.",
+        "action": "Bashir lifts the key from the seat.",
+        "camera": "static",
+        "mood": "A sharp silver highlight on the key, surrounding darkness; no visible text."
+      },
+      {
+        "id": "wvod7l",
+        "narration": "Then the empty seat became a doorway into the haveli.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, view through the taxi's open rear door; an impossible full-height haveli corridor replaces the back seat, while demolished walls remain outside.",
+        "action": "Bashir recoils from the impossible corridor.",
+        "camera": "push-in",
+        "mood": "Deep corridor shadows, distant amber glow, warped moonlit edges, peak supernatur"
+      },
+      {
+        "id": "u4mv28",
+        "narration": "[whispers] Tomorrow, I'll explain why this key fits the abandoned station.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, return to the Pakistani haveli courtyard, brass lantern glowing between Bashir and Saad.",
+        "action": "Bashir places the iron key in Saad's open palm.",
+        "camera": "low-angle",
+        "mood": "Warm light on the key, Saad's dark green sleeve, watchful faces above encroachin"
+      }
+    ],
+    "endHook": "Tomorrow, Bashir reveals why the passenger's key fits an abandoned station.",
+    "createdAt": "2026-11-14T11:59:20.611Z",
+    "description": "By lantern light, Bashir Chacha tells Saad about a taxi passenger who requested a demolished haveli—and vanished before arrival. A fictional spooky tale set on a foggy Pakistani road.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "ghost taxi",
+      "Pakistani folklore inspired",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

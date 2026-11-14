@@ -25,7 +25,7 @@ export async function GET() {
     /* not running */
   }
   return NextResponse.json(
-    { reachable, url, gpu, canAutoStart: Boolean(start && fs.existsSync(start)), workflows: { clip: wf('clip'), keyframe: wf('keyframe') } },
+    { reachable, url, gpu, canAutoStart: Boolean(start && fs.existsSync(start)), workflows: { clip: wf('clip'), keyframe: wf('keyframe'), picture: wf('picture') } },
     { headers: { 'Cache-Control': 'no-store' } },
   );
 }

@@ -25,8 +25,8 @@ if (stats) {
   }
 }
 
-for (const name of ['clip', 'keyframe']) {
-  console.log(`${ok(hasWorkflow(name))} workflow ${name}.api.json${hasWorkflow(name) ? '' : name === 'keyframe' ? ' (pictures will use uploaded/reference images until it exists)' : ''}`);
+for (const name of ['picture', 'keyframe', 'clip']) {
+  console.log(`${ok(hasWorkflow(name))} workflow ${name}.api.json${hasWorkflow(name) ? '' : name === 'clip' ? '' : ' (AI pictures off until it exists: uploaded or character pictures are used)'}`);
   if (!hasWorkflow(name) || !stats) continue;
   // Check every model file the workflow names is known to ComfyUI.
   const wf = JSON.parse(fs.readFileSync(workflowPath(name), 'utf8'));

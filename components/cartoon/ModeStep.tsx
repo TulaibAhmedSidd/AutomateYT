@@ -6,7 +6,7 @@ import { GPU_MINUTES, RENDER_MODES, keyShotIds, type CartoonEpisode, type Render
 import { api } from './ui';
 
 /** What the studio knows about ComfyUI on this PC. */
-export type ComfyStatus = { reachable: boolean; url: string; gpu: string | null; canAutoStart: boolean; workflows: { clip: boolean; keyframe: boolean } };
+export type ComfyStatus = { reachable: boolean; url: string; gpu: string | null; canAutoStart: boolean; workflows: { clip: boolean; keyframe: boolean; picture: boolean } };
 
 type Props = {
   episode: CartoonEpisode;
@@ -23,7 +23,7 @@ const ICONS = { pictures: ImageIcon, 'key-shots': Film, animated: Clapperboard }
 /** Rough minutes on the home GPU for an episode in a mode (2-second clip measured at 21 min; picture estimated). */
 export function estimateMinutes(ep: CartoonEpisode, mode: RenderMode, comfy: ComfyStatus | null) {
   const gpu = Boolean(comfy && (comfy.reachable || comfy.canAutoStart));
-  const pictures = gpu && comfy?.workflows.keyframe ? ep.shots.filter((s) => !s.keyframe).length : 0;
+  const pictures = gpu && (comfy?.workflows.keyframe || comfy?.workflows.picture) ? ep.shots.filter((s) => !s.keyframe).length : 0;
   const clips = mode === 'animated' ? ep.shots.length : mode === 'key-shots' ? keyShotIds(ep).length : 0;
   return { minutes: pictures * GPU_MINUTES.picture + clips * GPU_MINUTES.clip + 3, pictures, clips };
 }
@@ -111,12 +111,12 @@ export function ModeStep({ episode, mode, onMode, onToggleAnimate, onStatus, has
             ComfyUI is not on this PC. “Pictures” works here; the moving modes run on the GPU PC (set COMFY_START there so it starts by itself).
           </span>
         )}
-        {comfy && !comfy.workflows.keyframe && (
+        {comfy && !comfy.workflows.keyframe && !comfy.workflows.picture && (
           <span className="mt-1 block text-slate-500">
             AI pictures are not set up yet (no keyframe workflow): lines use your uploaded picture, the character picture, or a scene card.
           </span>
         )}
-        {current.needsGpu && noPicture > 0 && !comfy?.workflows.keyframe && (
+        {current.needsGpu && noPicture > 0 && !(comfy?.workflows.keyframe || comfy?.workflows.picture) && (
           <span className="mt-1 block text-amber-300">
             {noPicture} moving line(s) have no picture to start from and will stay still. Upload a picture for them, or add character pictures in Edit series.
           </span>

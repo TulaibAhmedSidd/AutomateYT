@@ -1,0 +1,162 @@
+{
+  "number": 6,
+  "topic": "Bashir Chacha's old lantern lights up by itself on the nights someone needs help.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:58:03.198Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Lantern Knows",
+    "shots": [
+      {
+        "id": "7f945x",
+        "narration": "My lantern lights itself when someone needs help.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, old Pakistani haveli courtyard at night, brass lantern between seated bashir and saad, no text.",
+        "action": "The unlit brass lantern ignites by itself.",
+        "camera": "push-in",
+        "mood": "Sudden amber light against deep blue moonlight and drifting fog."
+      },
+      {
+        "id": "e39o1r",
+        "narration": "Saad knew that glow better than anyone.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, haveli courtyard, bashir in grey beard, white cap and brown shawl beside saad in dark green hoodie and jeans, no text.",
+        "action": "Saad draws his knees away from the lantern.",
+        "camera": "static",
+        "mood": "Uneasy amber reflections across Saad's tense face."
+      },
+      {
+        "id": "f0dxce",
+        "narration": "[whispers] Last winter, it led me straight to him.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, lantern-lit haveli courtyard, bashir seated opposite saad beneath weathered arches, no text.",
+        "action": "Bashir points toward the distant railway tracks.",
+        "camera": "pan-right",
+        "mood": "Cold mist beyond the courtyard and long trembling shadows."
+      },
+      {
+        "id": "pcte8h",
+        "narration": "Saad had sheltered inside an empty railway waiting room.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, flashback, deserted Pakistani railway waiting room with wooden benches and an unmarked door, no text.",
+        "action": "The door swings shut behind Saad.",
+        "camera": "low-angle",
+        "mood": "Dusty moonlight, peeling plaster and deep empty corners."
+      },
+      {
+        "id": "ms308l",
+        "narration": "Then the door refused to open.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Vertical 9:16, inside the railway waiting room, saad beside the closed wooden door with his small torch, no text.",
+        "action": "Saad pulls the door handle.",
+        "camera": "push-in",
+        "mood": "A narrow torch beam and a motionless black window."
+      },
+      {
+        "id": "4iatvq",
+        "narration": "[surprised] Outside, my cold lantern suddenly burned bright.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, deserted village lane near the railway station, bashir holding his old brass lantern, no text.",
+        "action": "The lantern ignites in Bashir's hand.",
+        "camera": "static",
+        "mood": "Warm flame bursting through thick silver fog."
+      },
+      {
+        "id": "jy1m72",
+        "narration": "Its light stretched toward the station.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, village lane facing a distant unmarked railway station, bashir holding the lantern, no text.",
+        "action": "A narrow amber beam extends along the ground toward the station.",
+        "camera": "pan-left",
+        "mood": "An unnatural ribbon of light beneath dark trees."
+      },
+      {
+        "id": "q7ouu5",
+        "narration": "I followed it to a bolted door.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, deserted railway platform outside the waiting room, rusty exterior bolt visible on its wooden door, no text.",
+        "action": "Bashir approaches the bolted door with his lantern.",
+        "camera": "pull-out",
+        "mood": "Empty tracks disappearing into fog behind a lonely amber glow."
+      },
+      {
+        "id": "bezxuj",
+        "narration": "[sighs] Someone had locked him in from outside.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16, close view of the waiting-room door and its rusty exterior bolt, bashir beside it, no text.",
+        "action": "Bashir slides the bolt open.",
+        "camera": "static",
+        "mood": "Sharp lantern highlights on rust and splintered wood."
+      },
+      {
+        "id": "30pehv",
+        "narration": "Saad stepped out, but his shadow stayed behind.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, open waiting-room doorway, bashir on the platform, Saad's hoodie-shaped shadow fixed on the interior wall, no text.",
+        "action": "Saad steps onto the platform.",
+        "camera": "pull-out",
+        "mood": "Warm safety outside contrasted with a cold, unnaturally still interior."
+      },
+      {
+        "id": "rahug3",
+        "narration": "Then it waved for us to come back.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, view past motionless bashir and saad into the empty waiting room, Saad's detached shadow on the far wall, no text.",
+        "action": "Saad's detached shadow raises one long hand in a beckoning wave.",
+        "camera": "push-in",
+        "mood": "Pitch-black shadow fingers against pale plaster, lantern light fading at the thr"
+      },
+      {
+        "id": "g6r8k6",
+        "narration": "[whispers] Tonight, it points inside our sealed well.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, present-night haveli courtyard, bashir and saad beside the lantern, an old stone well covered by a heavy slab, no text.",
+        "action": "The lantern casts a narrow beam into a crack beneath the well's cover.",
+        "camera": "pan-right",
+        "mood": "Amber light disappearing beneath heavy stone in silent blue fog."
+      }
+    ],
+    "endHook": "Who needs help beneath the sealed well?",
+    "createdAt": "2026-11-14T11:58:03.197Z",
+    "description": "Bashir Chacha’s old lantern lights itself whenever someone needs help. Tonight, he tells Saad about the railway station where it first brought them together—and something that never left. A fictional spooky tale set in Pakistan.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "Pakistani animation",
+      "haunted lantern",
+      "YouTube Shorts",
+      "3D animation"
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "number": 1,
+  "topic": "The last night bus on a mountain road: the passengers get off one by one at stops that are not on the map, and the bus has no driver.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:57:34.475Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Last Mountain Bus",
+    "shots": [
+      {
+        "id": "s6cbwl",
+        "narration": "The passengers left at stops that weren't on any map.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "3D animated film look, vertical 9:16, courtyard of an old Pakistani haveli at night, brass lantern between bashir and saad, no visible text.",
+        "action": "Bashir holds up an old brass bus token for Saad.",
+        "camera": "push-in",
+        "mood": "Warm lantern glow surrounded by deep blue fog and looming arches."
+      },
+      {
+        "id": "9mnhlm",
+        "narration": "I boarded the last mountain bus, just before midnight.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Story flashback, isolated mountain road in Pakistan, weathered unmarked bus with an open rear entrance, vertical 9:16, no text.",
+        "action": "Bashir steps onto the bus carrying his brass lantern.",
+        "camera": "low-angle",
+        "mood": "Cold moonlight, steep roadside darkness, dim amber bus windows."
+      },
+      {
+        "id": "4bzbpt",
+        "narration": "[whispers] Every seat was occupied, but nobody made a sound.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Old bus interior, bashir in the rear aisle, seat cushions deeply depressed beneath pools of dark mist, no human figures besides bashir, no text.",
+        "action": "Bashir raises his lantern toward the occupied-looking seats.",
+        "camera": "pan-left",
+        "mood": "Dusty amber light, unnatural stillness, dense shadows filling each seat."
+      },
+      {
+        "id": "lx24xw",
+        "narration": "The first stop was a staircase ending in the clouds.",
+        "characters": [],
+        "scene": "View through the open bus door, narrow stone steps rising from a mountain verge into moonlit cloud, no buildings or signs, vertical 9:16.",
+        "action": "A ribbon of dark mist streams from one depressed seat onto the steps.",
+        "camera": "static",
+        "mood": "Impossible height, pale clouds, black mountain silhouettes."
+      },
+      {
+        "id": "s9q4hx",
+        "narration": "One seat emptied, though I never heard footsteps.",
+        "characters": [],
+        "scene": "Close view of the vacated bus seat beside a fogged window, neighboring cushions still deeply depressed, no text.",
+        "action": "The empty seat cushion slowly rises back into shape.",
+        "camera": "push-in",
+        "mood": "Faded upholstery, trembling lantern reflections, enclosing darkness."
+      },
+      {
+        "id": "zq8g9e",
+        "narration": "[surprised] My map showed only road, not a single stop.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Bus window seat, bashir holding a pictorial mountain map showing one uninterrupted road without symbols, letters, numbers or labels.",
+        "action": "Bashir traces the uninterrupted road with one finger.",
+        "camera": "static",
+        "mood": "Lantern-lit hands against a window filled with black cliffs."
+      },
+      {
+        "id": "qz9p8l",
+        "narration": "The next door opened straight into a mountain wall.",
+        "characters": [],
+        "scene": "Open bus doorway facing a sheer rock wall at arm's length, dim interior seats along the foreground, no text.",
+        "action": "Another ribbon of seat mist slips through the solid rock.",
+        "camera": "push-in",
+        "mood": "Wet stone, silver moonlight, an unnaturally deep doorway shadow."
+      },
+      {
+        "id": "mz1mox",
+        "narration": "At every impossible stop, another seat became empty.",
+        "characters": [],
+        "scene": "Long view down the old bus aisle, all cushions restored except one depressed seat near the front, windows opaque with mountain fog.",
+        "action": "The final pool of dark mist drains beneath the closed exit door.",
+        "camera": "pull-out",
+        "mood": "Abandoned rows, faint amber bulbs, heavy blue darkness."
+      },
+      {
+        "id": "ofibjh",
+        "narration": "[whispers] Then the bus stopped, and my door opened.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Bashir beside the rear exit, bottom step overlooking a sheer moonlit mountain drop, his lantern illuminating the threshold.",
+        "action": "The exit door folds open beside Bashir.",
+        "camera": "low-angle",
+        "mood": "Bottomless fog, narrow amber threshold, stark cliffside moonlight."
+      },
+      {
+        "id": "zji49x",
+        "narration": "I hurried forward to ask the driver where we were.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Empty bus aisle leading toward a tall driver's partition, rear doorway distant behind bashir, no labels or text.",
+        "action": "Bashir advances toward the driver's partition with his lantern.",
+        "camera": "push-in",
+        "mood": "Long seat shadows, tightening darkness, isolated lantern glow."
+      },
+      {
+        "id": "d5xikg",
+        "narration": "The wheel turned by itself; there was no driver.",
+        "characters": [],
+        "scene": "Unobstructed view of an empty driver's seat and steering wheel, moonlit mountain road curving beyond the windshield, no mirrors reflecting figures, no text.",
+        "action": "The steering wheel turns sharply without anyone touching it.",
+        "camera": "push-in",
+        "mood": "Harsh moonlight exposes the empty seat above a fog-filled precipice."
+      },
+      {
+        "id": "hxh02u",
+        "narration": "[whispers] Tomorrow, Saad, I'll explain why that railway bell followed me.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Return to the haveli courtyard, bashir and saad beside the lantern, a small tarnished railway bell resting between them, no text.",
+        "action": "The railway bell swings without being touched.",
+        "camera": "pull-out",
+        "mood": "Warm lantern light shrinking beneath vast arches and gathering night fog."
+      }
+    ],
+    "endHook": "Tomorrow night, the abandoned railway station rings its bell.",
+    "createdAt": "2026-11-14T11:57:34.473Z",
+    "description": "By lantern light, Bashir Chacha tells Saad about a mountain bus whose passengers vanished at impossible stops. A fictional spooky story from Pakistan, where the last seat is never truly empty.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "3D animation",
+      "Pakistani folklore fiction",
+      "ghost bus",
+      "YouTube Shorts"
+    ]
+  }
+}

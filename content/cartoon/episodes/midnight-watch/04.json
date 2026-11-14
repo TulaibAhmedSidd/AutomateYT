@@ -1,0 +1,155 @@
+{
+  "number": 4,
+  "topic": "A phone call comes from a number that is not in service, and the caller knows Saad's name.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:57:31.566Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Disconnected Caller",
+    "shots": [
+      {
+        "id": "ftrqr2",
+        "narration": "Last night, a disconnected station phone called your mobile, Saad.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look, courtyard of an old Pakistani haveli at night, brass lantern between two stools, no text.",
+        "action": "Bashir points toward Saad's mobile beside the lantern.",
+        "camera": "push-in",
+        "mood": "Amber lantern glow, deep blue shadows, thin ground fog."
+      },
+      {
+        "id": "2b90qb",
+        "narration": "Let me tell you what happened after you went inside.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Haveli courtyard, Bashir in a brown woollen shawl and white cap opposite Saad in a dark green hoodie, no text.",
+        "action": "Bashir leans toward Saad across the lantern.",
+        "camera": "static",
+        "mood": "Grey beard lit from below, empty darkness behind both stools."
+      },
+      {
+        "id": "n9xol6",
+        "narration": "[whispers] You entered the abandoned station to escape the rain.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Previous night, abandoned fictional Pakistani railway station, blank walls, empty platform, rain beyond the doorway, vertical 9:16.",
+        "action": "Saad steps into the waiting room with his small torch.",
+        "camera": "pull-out",
+        "mood": "Cold moonlight, wet floor reflections, heavy deserted silence."
+      },
+      {
+        "id": "3z5l6p",
+        "narration": "Your mobile rang beside an old station telephone.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Dusty station waiting room, old black telephone on a wooden desk, mobile screen dark and unmarked.",
+        "action": "Saad lifts his vibrating mobile from his hoodie pocket.",
+        "camera": "pan-right",
+        "mood": "Torchlight catches dust, black window panes, muted blue shadows."
+      },
+      {
+        "id": "rfis6n",
+        "narration": "The caller said your name before you spoke.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Close view inside the abandoned waiting room, old telephone blurred behind Saad, no visible writing.",
+        "action": "Saad holds the mobile against his ear.",
+        "camera": "push-in",
+        "mood": "Tense eyes, narrow torch glow across his face."
+      },
+      {
+        "id": "9d6as4",
+        "narration": "[surprised] Calling back only gave you the number-not-in-service message.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Station desk beside a rain-streaked window, mobile facing away from the camera, no text.",
+        "action": "Saad presses the mobile to his ear again.",
+        "camera": "static",
+        "mood": "Raised eyebrows, cold window light, darkness beneath the desk."
+      },
+      {
+        "id": "4y5exn",
+        "narration": "Then the station telephone rang.",
+        "characters": [],
+        "scene": "Close view of the old black telephone on the dusty wooden station desk, blank dial center, no letters or numbers.",
+        "action": "The telephone trembles against the dusty desktop.",
+        "camera": "low-angle",
+        "mood": "Hard moonlight outlines the receiver, surrounding room nearly black."
+      },
+      {
+        "id": "wmbams",
+        "narration": "You reached for it, but stopped.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Abandoned waiting room, old telephone at the desk edge, Saad's torch aimed downward.",
+        "action": "Saad extends one hesitant hand toward the receiver.",
+        "camera": "orbit",
+        "mood": "Long crooked shadows, suspended dust, tight fearful expression."
+      },
+      {
+        "id": "11dqzt",
+        "narration": "[whispers] Its cable ended in a broken plug.",
+        "characters": [],
+        "scene": "Under the station desk, telephone cable trailing from above to a visibly snapped plug on dusty floorboards, no text.",
+        "action": "A torch beam reveals the broken plug.",
+        "camera": "pan-left",
+        "mood": "Sharp white light inside deep darkness, undisturbed dust."
+      },
+      {
+        "id": "o3ql22",
+        "narration": "You backed away, keeping both hands where you could see them.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Wide waiting-room view, telephone on desk, doorway behind Saad, mobile and torch visible in his separate hands.",
+        "action": "Saad takes one backward step from the desk.",
+        "camera": "pull-out",
+        "mood": "Empty space around him, looming desk shadow, pale rainlight."
+      },
+      {
+        "id": "obtc05",
+        "narration": "The receiver rose by itself and whispered your name again.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Abandoned station waiting room, receiver suspended between its empty cradle and Saad's face, both his occupied hands visible.",
+        "action": "The receiver floats toward Saad's ear.",
+        "camera": "push-in",
+        "mood": "Extreme dread, wide eyes, receiver casting a huge shadow across his cheek."
+      },
+      {
+        "id": "82s9p5",
+        "narration": "[whispers] Tomorrow, I'll explain why your locked house is calling now.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Present night in the haveli courtyard, brass lantern between Bashir and Saad, mobile face down on a stool, no text.",
+        "action": "Saad's mobile vibrates beside the lantern.",
+        "camera": "low-angle",
+        "mood": "Warm lantern surrounded by dense darkness, both faces frozen in alarm."
+      }
+    ],
+    "endHook": "Tomorrow: a call from inside Saad's locked house.",
+    "createdAt": "2026-11-14T11:57:31.564Z",
+    "description": "By his lantern, Bashir Chacha tells Saad a story about the abandoned station he visited last night. A disconnected phone knew his name—and the call isn't over. A fictional spooky tale from Midnight Watch.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "Pakistani animation",
+      "mystery",
+      "haunted phone",
+      "YouTube Shorts"
+    ]
+  }
+}

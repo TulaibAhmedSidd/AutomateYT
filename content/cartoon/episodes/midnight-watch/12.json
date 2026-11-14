@@ -1,0 +1,159 @@
+{
+  "number": 12,
+  "topic": "A wedding card arrives from a haveli that has been locked for fifty years.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:58:41.699Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Wedding Invitation",
+    "shots": [
+      {
+        "id": "maz1gg",
+        "narration": "That wedding card came from a haveli locked fifty years.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated Pakistani village courtyard at night; Bashir and Saad beside a brass lantern, blank ivory wedding card with red ribbon between them, no lettering.",
+        "action": "Bashir holds the wedding card toward Saad.",
+        "camera": "push-in",
+        "mood": "Warm lantern glow against cold fog, deep courtyard shadows."
+      },
+      {
+        "id": "b1nxbt",
+        "narration": "Bashir told Saad what happened when he accepted.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Same moonlit courtyard; grey-bearded Bashir in brown woollen shawl and white cap faces Saad in a dark green hoodie and jeans.",
+        "action": "Bashir points toward a distant shuttered haveli.",
+        "camera": "pan-right",
+        "mood": "Quiet anticipation, distant building barely visible through mist."
+      },
+      {
+        "id": "7k0gzl",
+        "narration": "[whispers] The ribbon slipped off before I touched the gate.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Earlier that night outside the old haveli; Bashir holds his brass lantern and blank wedding card before a chained wooden gate.",
+        "action": "The red ribbon slides off Bashir's card.",
+        "camera": "static",
+        "mood": "Silver moonlight, dusty wood, unnatural stillness."
+      },
+      {
+        "id": "7r0dao",
+        "narration": "Then the lock opened all by itself.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Close view of a huge rusty padlock on the haveli gate, Bashir visible behind it with his lantern.",
+        "action": "The padlock springs open.",
+        "camera": "push-in",
+        "mood": "Sharp brass highlights, black gaps between wooden planks."
+      },
+      {
+        "id": "wd84me",
+        "narration": "Inside, fresh wedding flowers covered fifty years of dust.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Haveli entrance opening onto a dusty courtyard decorated with fresh marigold garlands, no people or writing anywhere.",
+        "action": "Bashir steps across the threshold.",
+        "camera": "pull-out",
+        "mood": "Bright orange flowers against neglected stone and thick cobwebs."
+      },
+      {
+        "id": "ty3da8",
+        "narration": "[surprised] One wedding chair faced the door, waiting.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Empty haveli wedding courtyard; a single carved chair with red cushions stands beneath marigold garlands, Bashir near the entrance.",
+        "action": "Bashir raises his lantern toward the chair.",
+        "camera": "low-angle",
+        "mood": "Lonely ceremonial grandeur, darkness pooling beneath the seat."
+      },
+      {
+        "id": "jlxi82",
+        "narration": "I left the invitation there instead.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Beside the carved wedding chair, its red cushion thick with dust; Bashir's lantern lights the blank ivory card.",
+        "action": "Bashir places the card on the cushion.",
+        "camera": "static",
+        "mood": "Careful hesitation, warm light surrounded by empty darkness."
+      },
+      {
+        "id": "yqjch7",
+        "narration": "The doors closed before I could leave.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Interior view toward the haveli's tall wooden entrance doors, Bashir standing between the doorway and wedding chair.",
+        "action": "The double doors swing shut.",
+        "camera": "pan-left",
+        "mood": "Sudden enclosure, thinning moonlight, heavy architectural shadows."
+      },
+      {
+        "id": "41atgr",
+        "narration": "[whispers] My lantern still burned, but my shadow was gone.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Dusty courtyard floor around Bashir; his brass lantern casts clear chair shadows, but none beneath his feet.",
+        "action": "Bashir lowers his lantern toward the floor.",
+        "camera": "low-angle",
+        "mood": "Impossible absence, small golden light, vast dark courtyard."
+      },
+      {
+        "id": "f8cl8s",
+        "narration": "Then the empty chair scraped toward me.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Wedding courtyard with Bashir standing rigid before the red-cushioned chair, blank card still on its seat.",
+        "action": "The chair slides across the dusty floor toward Bashir.",
+        "camera": "pull-out",
+        "mood": "Narrowing distance, disturbed dust, oppressive silence."
+      },
+      {
+        "id": "qs9x2j",
+        "narration": "My shadow sat down, but I was still standing.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Bashir stands beside the wedding chair; on the pale wall behind it, his unmistakable cap-and-shawl shadow is upright and detached from him.",
+        "action": "Bashir's detached shadow folds into a seated pose behind the empty chair.",
+        "camera": "push-in",
+        "mood": "Darkest moment, enormous black silhouette, trembling lantern glow."
+      },
+      {
+        "id": "oszks6",
+        "narration": "[whispers] Now, Saad, why does your invitation show the abandoned station?",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Back in the village courtyard beside Bashir's lantern; Saad holds the ivory card, its reverse embossed with a railway platform and clock, without letters or numbers.",
+        "action": "Saad turns the card over to reveal the railway image.",
+        "camera": "push-in",
+        "mood": "Familiar lantern warmth turned uneasy, railway image catching cold moonlight."
+      }
+    ],
+    "endHook": "Why does the wedding card now show an abandoned railway station?",
+    "createdAt": "2026-11-14T11:58:41.698Z",
+    "description": "A wedding card arrives from a Pakistani haveli locked for fifty years. Beside his lantern, Bashir Chacha tells Saad why one seat at that wedding was never empty. A fictional spooky story from Midnight Watch.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "Pakistani haveli",
+      "3D animation",
+      "YouTube Shorts",
+      "wedding invitation"
+    ]
+  }
+}

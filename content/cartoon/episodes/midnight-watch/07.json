@@ -1,0 +1,159 @@
+{
+  "number": 7,
+  "topic": "An old family photo where one new face appears in the background every night.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:58:04.107Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: One More Face",
+    "shots": [
+      {
+        "id": "puj4p2",
+        "narration": "Every night, another face appeared in our old family photo.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look; a Pakistani haveli courtyard at night, an old framed photograph between Bashir and Saad, no writing anywhere.",
+        "action": "Bashir turns the framed photograph toward Saad.",
+        "camera": "push-in",
+        "mood": "Brass lantern glow, blue moonlight, drifting fog, deep courtyard shadows."
+      },
+      {
+        "id": "woktnj",
+        "narration": "Bashir Chacha told me what happened inside his family's haveli.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16; courtyard beside a carved wooden door, Bashir in his brown shawl and white cap, Saad in his dark green hoodie.",
+        "action": "Bashir points toward the dark haveli doorway.",
+        "camera": "pan-right",
+        "mood": "Warm lantern light against a cold, silent doorway."
+      },
+      {
+        "id": "ydcjeg",
+        "narration": "[whispers] The photograph showed me alone, beside my family's empty chairs.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16; flashback inside a dusty Pakistani haveli sitting room, close view of an aged family photograph showing only Bashir among empty carved chairs, no writing.",
+        "action": "Bashir hangs the photograph on a bare plaster wall.",
+        "camera": "static",
+        "mood": "Faded sepia photograph, weak lantern light, long furniture shadows."
+      },
+      {
+        "id": "r5at4b",
+        "narration": "The first night, another face appeared behind my chair.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16; close view of the framed photograph, its pictured Bashir seated among empty chairs.",
+        "action": "A second image of Bashir's face materializes behind the pictured chair.",
+        "camera": "push-in",
+        "mood": "A pale face emerging from sepia darkness, faint amber reflections."
+      },
+      {
+        "id": "8336wh",
+        "narration": "It was my face, wearing a smile I never made.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16; extreme close view of the photograph's background duplicate of Bashir, grey beard and white cap clearly visible.",
+        "action": "The duplicate Bashir's mouth curls into a wide smile.",
+        "camera": "static",
+        "mood": "Unnatural stillness, dim sepia light, dark eyes beneath the cap."
+      },
+      {
+        "id": "5eexjz",
+        "narration": "[sighs] The next night, three of me watched the empty room.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16; the same haveli wall on a later night, photograph containing the seated Bashir and two background duplicates.",
+        "action": "Bashir raises his brass lantern toward the three pictured faces.",
+        "camera": "low-angle",
+        "mood": "Three matching smiles, wavering lantern glow, heavy surrounding darkness."
+      },
+      {
+        "id": "9dpzbw",
+        "narration": "Each night added another, closer to the edge.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16; tight view of the aged photograph, several duplicate Bashir faces crowded behind the original seated figure.",
+        "action": "One new Bashir face fades into view beside the frame's inner edge.",
+        "camera": "push-in",
+        "mood": "Cramped composition, overlapping white caps, unsettling sepia shadows."
+      },
+      {
+        "id": "d3e2w2",
+        "narration": "I turned the photograph toward the wall.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16; dusty haveli sitting room, framed photograph on a narrow wooden table beneath peeling plaster.",
+        "action": "Bashir turns the frame face-first against the wall.",
+        "camera": "pan-left",
+        "mood": "Lantern-lit hands, opaque darkness beneath the table, tense quiet."
+      },
+      {
+        "id": "1phcvv",
+        "narration": "[whispers] At midnight, it turned back by itself.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16; the narrow wooden table, Bashir motionless in the distant doorway, the frame resting against the wall.",
+        "action": "The framed photograph pivots to face the room.",
+        "camera": "static",
+        "mood": "Cold moonlight, thin floor fog, a small isolated lantern glow."
+      },
+      {
+        "id": "6wby9o",
+        "narration": "Now every face crowded against the glass.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16; close view of the photograph, its chairs obscured by tightly packed duplicate Bashir faces.",
+        "action": "Bashir leans toward the crowded photograph.",
+        "camera": "orbit",
+        "mood": "Lantern reflections across glass, compressed smiling faces, almost black surroun"
+      },
+      {
+        "id": "fvj6aa",
+        "narration": "Then one pushed against the glass, from inside.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Vertical 9:16; extreme close view of the framed photograph, a duplicate Bashir directly behind the glass.",
+        "action": "The pictured Bashir presses his face outward, bowing the glass.",
+        "camera": "push-in",
+        "mood": "Distorted smiling face, stretched lantern reflection, deep darkness behind the f"
+      },
+      {
+        "id": "bvms3l",
+        "narration": "[whispers] Tonight, Saad, it shows you waiting at an abandoned station.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16; back in the courtyard by Bashir's lantern, the photograph now showing only Saad on a foggy railway platform with blank walls and no signs.",
+        "action": "Saad lifts the changed photograph into the lantern light.",
+        "camera": "pull-out",
+        "mood": "Saad's startled face above his photographed double, amber light surrounded by bl"
+      }
+    ],
+    "endHook": "Why does the next photograph show Saad at an abandoned railway station?",
+    "createdAt": "2026-11-14T11:58:04.105Z",
+    "description": "By lantern light, Bashir Chacha tells Saad about an old family photograph that changed every night. Each new face looked strangely familiar. A fictional spooky story from Midnight Watch.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "haunted photograph",
+      "Pakistani haveli",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}

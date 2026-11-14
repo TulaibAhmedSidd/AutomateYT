@@ -1,0 +1,158 @@
+{
+  "number": 8,
+  "topic": "The lift of an old city building stops at a floor that does not exist in the building plan.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:58:14.341Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Floor That Wasn't There",
+    "shots": [
+      {
+        "id": "q4yep2",
+        "narration": "The building had three floors; the lift found a fourth.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Old Pakistani haveli courtyard at midnight, brass lantern between two wooden chairs, vertical 9:16, cinematic 3D animation, no visible text.",
+        "action": "Bashir raises four fingers toward Saad.",
+        "camera": "push-in",
+        "mood": "Warm lantern glow beneath cold moonlight, deep shadows around the courtyard."
+      },
+      {
+        "id": "acj52v",
+        "narration": "Bashir began his story beside the lantern.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Same haveli courtyard, Bashir in a brown woollen shawl and white cap opposite Saad in a dark green hoodie.",
+        "action": "Bashir leans toward Saad.",
+        "camera": "static",
+        "mood": "Intimate amber light, silent darkness beyond the chairs."
+      },
+      {
+        "id": "pdfefp",
+        "narration": "[whispers] The caretaker's plan showed only three floors.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Flashback inside an old Pakistani city building, dusty table beside an antique lift, unlettered architectural drawing showing exactly three stacked levels.",
+        "action": "Bashir traces the drawing's topmost floor with one finger.",
+        "camera": "push-in",
+        "mood": "Pale moonlight across paper, lantern reflections on tarnished brass."
+      },
+      {
+        "id": "biltz5",
+        "narration": "I took the lift to check the roof.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Antique wooden lift cabin with an unmarked brass button, blank walls, Bashir holding his old lantern.",
+        "action": "Bashir presses the brass button.",
+        "camera": "low-angle",
+        "mood": "Cramped amber interior, heavy shadows above his white cap."
+      },
+      {
+        "id": "nn1l97",
+        "narration": "But it climbed beyond the rooftop.",
+        "characters": [],
+        "scene": "Exterior cutaway of the same three-storey building, lift shaft extending impossibly above the roof into fog, vertical 9:16.",
+        "action": "The illuminated lift cabin rises above the rooftop.",
+        "camera": "pan-right",
+        "mood": "Cold blue moonlight, unnatural architecture disappearing into black mist."
+      },
+      {
+        "id": "0tyaza",
+        "narration": "[surprised] Then its doors opened onto a silent corridor.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Lift interior facing a long abandoned corridor with peeling plaster and identical closed doors, no markings.",
+        "action": "The lift doors slide apart before Bashir.",
+        "camera": "static",
+        "mood": "Lantern light spilling into a corridor with no visible end."
+      },
+      {
+        "id": "zhlykz",
+        "narration": "At the end stood another lantern, exactly like mine.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "View past Bashir inside the lift toward a matching brass lantern resting at the corridor's distant end.",
+        "action": "Bashir raises his lantern.",
+        "camera": "push-in",
+        "mood": "Two isolated amber lights surrounded by thick, bluish darkness."
+      },
+      {
+        "id": "wck5ht",
+        "narration": "Its shadow stretched toward me, against the light.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Low corridor view with the distant lantern and Bashir framed inside the open lift.",
+        "action": "The distant lantern's shadow stretches across the floor toward Bashir.",
+        "camera": "low-angle",
+        "mood": "An impossibly long black shape crossing warm pools of light."
+      },
+      {
+        "id": "ri7yej",
+        "narration": "[whispers] I shut the doors before that shadow reached my feet.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Inside the antique lift, a narrow opening onto the corridor, black shadow close to the threshold.",
+        "action": "Bashir drags the folding lift gate shut.",
+        "camera": "static",
+        "mood": "Tight framing, trembling lantern glow, darkness pressed against the gate."
+      },
+      {
+        "id": "ldjdej",
+        "narration": "Back home, Saad noticed something behind my chair.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Present-night haveli courtyard, lantern between the chairs, an antique lift door now embedded in the previously bare wall.",
+        "action": "Saad points behind Bashir.",
+        "camera": "pull-out",
+        "mood": "Familiar warm courtyard light disturbed by a cold metallic doorway."
+      },
+      {
+        "id": "1thvs0",
+        "narration": "The doors opened, and that shadow reached for our lantern.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Haveli courtyard facing the open impossible lift, empty black cabin behind its doors.",
+        "action": "A long finger-shaped shadow creeps from the lift toward their lantern.",
+        "camera": "push-in",
+        "mood": "Deepest darkness of the episode, amber light nearly swallowed by the approaching"
+      },
+      {
+        "id": "hhj32k",
+        "narration": "[whispers] Beyond it waited a railway platform beneath our house.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "View over Saad's shoulder through the impossible lift doorway onto a foggy underground railway platform, empty bench, no signs or lettering.",
+        "action": "Saad directs his small torch through the doorway.",
+        "camera": "pan-left",
+        "mood": "Narrow white beam revealing wet platform tiles and rails vanishing into mist."
+      }
+    ],
+    "endHook": "Next night: the lift opens onto a railway station underground.",
+    "createdAt": "2026-11-14T11:58:14.339Z",
+    "description": "By lantern light, Bashir Chacha tells Saad about an old city lift that stopped at an impossible floor. Some doors should never open twice. A fictional spooky story set in Pakistan.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "3D animation",
+      "YouTube Shorts",
+      "Pakistani stories",
+      "mysterious lift"
+    ]
+  }
+}

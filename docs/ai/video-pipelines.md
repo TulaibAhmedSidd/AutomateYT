@@ -112,3 +112,14 @@ Use the `verify-render` skill:
 
 ## 7. Horror
 `raat-ki-kahaniyan` (Urdu, 20 episodes): Bashir Chacha the night watchman tells fictional Pakistani urban legends. Spooky, not gory, no religious mockery, twist endings. Voice: ElevenLabs Brian with [whispers]/[gasps].
+
+## 8. Picture workflows (updated 2026-11-14)
+Two picture workflows on the GPU PC, both optional:
+- **`comfy/workflows/picture.api.json`** (text → picture). Tokens: `{{PROMPT}} {{NEGATIVE}} {{SEED}} {{WIDTH}} {{HEIGHT}} {{PREFIX}}`. Used for:
+  - character reference pictures, made automatically once per character and saved in the series;
+  - the first stage of a transition reel;
+  - lines with no character.
+- **`comfy/workflows/keyframe.api.json`** (picture + text → edited picture, e.g. FLUX.1 Kontext). Same tokens plus `{{IMAGE}}`. Used for:
+  - story lines, edited from the character's reference picture so the face stays the same;
+  - transition stages 2+, edited from the previous stage so the view stays the same.
+- English horror: `midnight-watch` (20 episodes), the same tales as `raat-ki-kahaniyan` told in English with the ElevenLabs Brian voice.

@@ -1,0 +1,159 @@
+{
+  "number": 18,
+  "topic": "Saad receives a voice note in his own voice that he never recorded.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:59:28.364Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Voice He Never Recorded",
+    "shots": [
+      {
+        "id": "jtddq1",
+        "narration": "Saad's phone played his voice: 'Don't open the waiting room.'",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Vertical 9:16, 3D animated film look; old Pakistani haveli courtyard at midnight, brass lantern between Bashir and Saad, phone screen blank.",
+        "action": "Saad lifts his glowing phone toward his ear.",
+        "camera": "push-in",
+        "mood": "Cold moonlight, warm lantern glow, deep archway shadows."
+      },
+      {
+        "id": "qe4q06",
+        "narration": "Bashir began: 'Last night, you followed that voice.'",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Haveli courtyard beside the brass lantern; Bashir wears his white cap and brown woollen shawl, grey beard warmly lit.",
+        "action": "Bashir points toward the distant railway tracks.",
+        "camera": "pan-right",
+        "mood": "Still night air, low fog, uneasy storytelling intimacy."
+      },
+      {
+        "id": "ipi9mh",
+        "narration": "[whispers] The message led Saad to an empty railway station.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Story flashback; deserted Pakistani village railway platform, unmarked walls, shuttered ticket windows, no signs or lettering.",
+        "action": "Saad walks onto the platform with his small torch.",
+        "camera": "pull-out",
+        "mood": "Blue moonlight, drifting fog, enormous empty space."
+      },
+      {
+        "id": "7nby9m",
+        "narration": "Another message arrived, still speaking in his own voice.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Empty platform beside a weathered wooden bench; Saad wears his dark green hoodie and jeans.",
+        "action": "Saad draws his newly glowing phone from his pocket.",
+        "camera": "static",
+        "mood": "Pale screen glow, motionless darkness, isolated anticipation."
+      },
+      {
+        "id": "p74gyw",
+        "narration": "'Leave your torch outside,' it said.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Outside a closed wooden waiting-room door, phone screen blank, cracked plaster and dusty floor.",
+        "action": "Saad places his lit torch beside the door.",
+        "camera": "low-angle",
+        "mood": "Sharp floor-level light, towering shadows, reluctant obedience."
+      },
+      {
+        "id": "xwzm1n",
+        "narration": "[sighs] Saad obeyed, but kept his phone.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Waiting-room threshold with the torch shining upward from the platform floor.",
+        "action": "Saad pushes the wooden door inward.",
+        "camera": "push-in",
+        "mood": "Thin opening into blackness, suspended dust, tense stillness."
+      },
+      {
+        "id": "mym224",
+        "narration": "Inside, there was only a bench and his shadow.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Bare waiting room with one wooden bench; the outside torch projects Saad's shadow onto the opposite wall.",
+        "action": "Saad steps across the threshold.",
+        "camera": "pan-left",
+        "mood": "Long distorted silhouette, peeling plaster, cold empty corners."
+      },
+      {
+        "id": "crlq0s",
+        "narration": "He lowered his phone, but the shadow didn't.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Saad beside the bench, his wall shadow clearly visible with one arm still bent beside its head.",
+        "action": "Saad lowers his phone to his thigh.",
+        "camera": "static",
+        "mood": "Impossible mismatch, hard torchlight, silent dread."
+      },
+      {
+        "id": "8a9pji",
+        "narration": "[whispers] Then his own voice came from the wall.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Waiting room wall bearing Saad's shadow with a phone-shaped silhouette beside its ear.",
+        "action": "Saad turns his face toward the shadow.",
+        "camera": "push-in",
+        "mood": "Rigid silhouette, widening eyes, darkness pressing around the light."
+      },
+      {
+        "id": "3bv7wn",
+        "narration": "'I told you not to open it.'",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Saad stands before the shadow, his real phone hanging at his side, the doorway behind him.",
+        "action": "Saad takes one backward step.",
+        "camera": "pull-out",
+        "mood": "Narrow escape space, looming wall shadow, breathless anticipation."
+      },
+      {
+        "id": "5ov3nq",
+        "narration": "The shadow turned toward him, though Saad stood completely still.",
+        "characters": [
+          "saad"
+        ],
+        "scene": "Waiting room; Saad frozen in profile while his shadow holds its phone against the wall.",
+        "action": "Saad's shadow rotates its head to face him.",
+        "camera": "low-angle",
+        "mood": "Unnaturally stretched head, stark black silhouette, peak supernatural terror."
+      },
+      {
+        "id": "fqlknv",
+        "narration": "[whispers] 'Tomorrow,' Bashir said, 'I'll explain why mine has a phone.'",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Back in the haveli courtyard; Bashir's empty hands rest beside the lantern, his shadow falls across the wall.",
+        "action": "Bashir's shadow lifts a phone-shaped silhouette to its ear.",
+        "camera": "pan-left",
+        "mood": "Warm lantern light betrayed by an impossible shadow, lingering midnight dread."
+      }
+    ],
+    "endHook": "Tomorrow, Bashir explains why his shadow has a phone too.",
+    "createdAt": "2026-11-14T11:59:28.363Z",
+    "description": "By Bashir Chacha's lantern, Saad hears a story about a voice note he never recorded—and the empty railway station it led him to. A fictional Midnight Watch mystery where even shadows have secrets.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "Pakistani animation",
+      "YouTube Shorts",
+      "voice note mystery",
+      "3D animation"
+    ]
+  }
+}

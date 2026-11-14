@@ -1,0 +1,161 @@
+{
+  "number": 14,
+  "topic": "The mirror in the hostel washroom shows one extra person standing behind you.",
+  "model": "gpt-6.1-sol",
+  "writtenAt": "2026-11-14T11:58:49.469Z",
+  "episode": {
+    "id": "",
+    "seriesId": "midnight-watch",
+    "title": "Midnight Watch: The Extra Reflection",
+    "shots": [
+      {
+        "id": "j78429",
+        "narration": "The hostel mirror showed someone behind me, but I was alone.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Old Pakistani haveli courtyard at night, lantern between bashir and saad, vertical 9:16, cinematic 3D animation.",
+        "action": "bashir points toward his own reflection in the lantern glass.",
+        "camera": "push-in",
+        "mood": "Warm lantern glow surrounded by deep blue darkness and low fog."
+      },
+      {
+        "id": "pg4o0b",
+        "narration": "Saad leaned closer as I told him about last night.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Stone courtyard bench beside an old brass lantern, carved haveli arches behind it, vertical 9:16.",
+        "action": "saad leans toward bashir.",
+        "camera": "static",
+        "mood": "Quiet anticipation, long shadows across worn stone."
+      },
+      {
+        "id": "f70g8v",
+        "narration": "[whispers] I had stopped at an empty hostel during my rounds.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Flashback to an old Pakistani hostel corridor, open washroom doorway, cracked plaster, no signs or lettering, vertical 9:16.",
+        "action": "bashir carries his brass lantern into the washroom.",
+        "camera": "pan-right",
+        "mood": "Cold moonlight, thin floor mist, isolated amber lantern glow."
+      },
+      {
+        "id": "buo9e3",
+        "narration": "Inside, one mirror hung above a row of dusty sinks.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Hostel washroom with dusty porcelain sinks and one tall tarnished mirror, vertical 9:16.",
+        "action": "bashir places his lantern beside the nearest sink.",
+        "camera": "low-angle",
+        "mood": "Greenish tiles, tarnished silver, heavy shadows beneath the sinks."
+      },
+      {
+        "id": "z8y005",
+        "narration": "My reflection looked normal, until I noticed the doorway.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Washroom mirror reflecting bashir and the doorway behind him, actual doorway visible beside the mirror, vertical 9:16.",
+        "action": "bashir lifts his gaze toward the reflected doorway.",
+        "camera": "push-in",
+        "mood": "Still air, narrow amber highlights, darkness gathering around the mirror."
+      },
+      {
+        "id": "t0lq7a",
+        "narration": "[surprised] Behind me, it stood open; inside the mirror, shut.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Angled washroom view clearly showing the actual open doorway and its closed reflection, vertical 9:16.",
+        "action": "The reflected door swings shut while the actual doorway stays open.",
+        "camera": "static",
+        "mood": "Impossible geometry, cold reflected light against warm lantern glow."
+      },
+      {
+        "id": "d9elbj",
+        "narration": "Then a wet footprint appeared on the dusty floor.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Dusty washroom floor behind bashir's sandals, sink pedestal and lantern above, vertical 9:16.",
+        "action": "One wet footprint forms in the dust behind bashir.",
+        "camera": "low-angle",
+        "mood": "Dark water against pale dust, tense stillness."
+      },
+      {
+        "id": "1g24ez",
+        "narration": "Another appeared, closer to my heels.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "Close view of bashir's sandals and the dusty washroom floor, first footprint farther behind, vertical 9:16.",
+        "action": "A second wet footprint forms directly behind bashir's heel.",
+        "camera": "push-in",
+        "mood": "Tight framing, trembling lantern reflections in shallow water."
+      },
+      {
+        "id": "tmhn0v",
+        "narration": "[whispers] In the mirror, a green hood rose behind my shoulder.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Tarnished washroom mirror reflecting bashir and saad's dark green hood, saad's face concealed in shadow, vertical 9:16.",
+        "action": "The reflected saad rises into view behind bashir.",
+        "camera": "push-in",
+        "mood": "Deep hood shadows, pale mirror glare, cramped threatening composition."
+      },
+      {
+        "id": "3tfg1b",
+        "narration": "I turned around, but the washroom was empty.",
+        "characters": [
+          "bashir"
+        ],
+        "scene": "View away from the mirror toward empty washroom stalls and the open corridor doorway, vertical 9:16.",
+        "action": "bashir turns toward the empty stalls.",
+        "camera": "pan-left",
+        "mood": "Vacant corners, motionless doors, moonlight across wet footprints."
+      },
+      {
+        "id": "xooxuu",
+        "narration": "Then your face appeared, Saad, pressed against the glass.",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Washroom mirror showing saad's recognizable face behind the glass beside bashir's reflection, actual space behind bashir visibly empty, vertical 9:16.",
+        "action": "The reflected saad presses his face against the inside of the mirror.",
+        "camera": "push-in",
+        "mood": "Extreme unnatural closeness, flattened cheek against glass, cold eyes, sharp lan"
+      },
+      {
+        "id": "gd9488",
+        "narration": "[whispers] Then why is its basement key in my pocket?",
+        "characters": [
+          "bashir",
+          "saad"
+        ],
+        "scene": "Return to the haveli courtyard bench, brass lantern between bashir and saad, vertical 9:16, no lettering.",
+        "action": "saad pulls a dripping old iron key from his hoodie pocket.",
+        "camera": "pull-out",
+        "mood": "Pale startled faces, wet key gleaming above lantern light, darkness beyond the c"
+      }
+    ],
+    "endHook": "What is waiting beneath the hostel, and why does Saad have its key?",
+    "createdAt": "2026-11-14T11:58:49.467Z",
+    "description": "By lantern light, Bashir Chacha tells Saad about a hostel mirror that reflected someone who wasn't there. Then Saad recognizes something he shouldn't. A fictional spooky story from Midnight Watch.",
+    "tags": [
+      "Midnight Watch",
+      "spooky story",
+      "Pakistani horror",
+      "haunted mirror",
+      "3D animation",
+      "YouTube Shorts"
+    ]
+  }
+}
