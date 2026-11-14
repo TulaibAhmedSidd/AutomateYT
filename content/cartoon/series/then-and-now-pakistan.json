@@ -8,8 +8,8 @@
     "language": "en",
     "audience": "general",
     "madeForKids": false,
-    "style": "photorealistic cinematic look, same famous view of the place in every picture, golden-hour light, high detail, vertical 9:16 frame",
-    "negative": "text, letters, words, watermark, logo, real people, celebrities, blood, blurry, distorted",
+    "style": "real photograph look (authentic archival photo for old years, sharp modern photo for today), same famous view of the place in every picture, golden-hour light, high detail, vertical 9:16 frame",
+    "negative": "text, letters, words, watermark, logo, real people, celebrities, blood, blurry, distorted, painting, illustration, cartoon, CGI render, smudged faces, melted people, warped architecture, oversaturated colours",
     "characters": [],
     "voice": {
       "provider": "edge",

@@ -9,7 +9,7 @@
     "audience": "general",
     "madeForKids": false,
     "style": "clean studio product photography, the object centred on a plain gradient background, same angle and lighting in every stage, vertical 9:16 frame",
-    "negative": "text, letters, words, watermark, logo, real people, celebrities, blood, blurry, distorted",
+    "negative": "text, letters, words, watermark, logo, real people, celebrities, blood, blurry, distorted, painting, illustration, cartoon, CGI render, smudged faces, melted people, warped architecture, oversaturated colours",
     "characters": [],
     "voice": {
       "provider": "edge",

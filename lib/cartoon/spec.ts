@@ -137,7 +137,15 @@ export type EpisodeRenderProps = {
   episode: CartoonEpisode;
   series: Pick<CartoonSeries, 'name' | 'language' | 'palette' | 'format'>;
   assetBase?: string;
+  /** Transition reels: sound-effect files (in the render assets) played on each cut and on the last reveal. */
+  sfx?: { whoosh: string; impact: string };
 };
+
+/** Transition stages labelled with a year before 1990 get an old-film look (sepia and grain). */
+export function isVintageLabel(label: string) {
+  const year = label.match(/\b(1[5-9]\d\d)s?\b/);
+  return Boolean(year && Number(year[1]) < 1990);
+}
 
 /** Camera moves the stills engine animates (and the clip prompt asks for). */
 export const CAMERAS: { id: Camera; label: string; prompt: string }[] = [

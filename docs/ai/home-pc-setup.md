@@ -90,4 +90,5 @@ Follow the `comfy-workflow` skill:
 1. In `.env.local` set `COMFY_URL`. ComfyUI **Desktop** listens on `http://127.0.0.1:8000`; the portable version on `http://127.0.0.1:8188`.
 2. Set `COMFY_START` to the full path of the ComfyUI launcher (.exe or .bat). When you press **Make the video** in a moving mode, the app starts ComfyUI by itself if it is not running.
 3. Run `npm run comfy:check`. It should show your GPU, `clip.api.json` ✅, and every model file ✅.
-4. Wan2GP is not needed by the app. Keep it only for testing by hand, or delete it to free disk space.
+4. If the worker fails with an error about a `.ts` file, add `NODE_OPTIONS="--experimental-strip-types"` to `.env.local` (Node 22 before 22.18 needs it; Node 24 does not).
+5. Wan2GP is not needed by the app. Keep it only for testing by hand, or delete it to free disk space.

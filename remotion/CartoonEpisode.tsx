@@ -7,6 +7,7 @@ import {
   episodeFrames,
   shotFrames,
   shotWords,
+  isVintageLabel,
   type Camera,
   type CartoonShot,
   type EpisodeRenderProps,
@@ -81,15 +82,59 @@ function PlaceholderCard({ shot, palette, names }: { shot: CartoonShot; palette:
   );
 }
 
-function ShotVisual({ shot, frames, first, palette, assetBase, names }: {
+/** Moving film grain for old eras: a small noise texture, new every 2 frames, scaled up (cheap to render). */
+function Grain({ id }: { id: string }) {
+  const frame = useCurrentFrame();
+  return (
+    <svg width={540} height={960} style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', opacity: 0.22, mixBlendMode: 'overlay' }}>
+      <filter id={id}>
+        <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves={2} seed={Math.floor(frame / 2)} stitchTiles="stitch" />
+        <feColorMatrix type="saturate" values="0" />
+      </filter>
+      <rect width="100%" height="100%" filter={`url(#${id})`} />
+    </svg>
+  );
+}
+
+function ShotVisual({ shot, frames, first, palette, assetBase, names, transition = false }: {
   shot: CartoonShot;
   frames: number;
   first: boolean;
   palette: Palette;
   assetBase?: string;
   names: string[];
+  /** Transition reels: wipe in from the left, always push in, and old eras look like old film. */
+  transition?: boolean;
 }) {
   const frame = useCurrentFrame();
+  if (transition) {
+    const w = first ? 1 : interpolate(frame, [0, FADE], [0, 1], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp', easing: Easing.inOut(Easing.cubic) });
+    const p = Math.min(1, Math.max(0, frame / Math.max(1, frames)));
+    const vintage = isVintageLabel(shot.narration);
+    return (
+      <AbsoluteFill style={{ overflow: 'hidden', backgroundColor: palette.bg, clipPath: `inset(0 ${(1 - w) * 100}% 0 0)` }}>
+        {shot.image ? (
+          <Img
+            src={src(assetBase, shot.image)}
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              transform: `scale(${1.02 + 0.1 * Easing.out(Easing.quad)(p)})`,
+              filter: vintage ? 'sepia(0.6) contrast(1.1) saturate(0.75) brightness(0.95)' : 'contrast(1.05) saturate(1.1)',
+            }}
+          />
+        ) : (
+          <PlaceholderCard shot={shot} palette={palette} names={names} />
+        )}
+        {vintage && <Grain id={`grain-${shot.id}`} />}
+        {vintage && <AbsoluteFill style={{ background: 'radial-gradient(ellipse at center, transparent 50%, rgba(20,10,0,0.55) 100%)' }} />}
+        {w < 1 && (
+          <div style={{ position: 'absolute', top: 0, bottom: 0, left: `calc(${w * 100}% - 5px)`, width: 10, background: '#fff', boxShadow: '0 0 40px 12px rgba(255,255,255,0.7)' }} />
+        )}
+      </AbsoluteFill>
+    );
+  }
   const opacity = first ? 1 : interpolate(frame, [0, FADE], [0, 1], { extrapolateRight: 'clamp' });
   const p = Math.min(1, Math.max(0, frame / Math.max(1, frames)));
   let inner: React.ReactNode;
@@ -182,7 +227,8 @@ function ProgressBar({ total, accent }: { total: number; accent: string }) {
 /** Transition reels: a white flash on each cut and a big label that punches in (e.g. "1947", "Seed"). */
 function TransitionLabel({ text, palette, flash }: { text: string; palette: Palette; flash: boolean }) {
   const frame = useCurrentFrame();
-  const flashOpacity = flash ? interpolate(frame, [0, 2, 9], [0.85, 0.6, 0], { extrapolateRight: 'clamp' }) : 0;
+  // A soft flash at the END of the wipe (frame 8), so the wipe itself stays visible.
+  const flashOpacity = flash ? interpolate(frame, [0, 6, 8, 15], [0, 0, 0.45, 0], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }) : 0;
   const scale = interpolate(frame, [0, 6, 10], [1.35, 0.96, 1], { extrapolateRight: 'clamp', easing: Easing.out(Easing.cubic) });
   const urdu = hasUrduLetters(text);
   return (
@@ -215,7 +261,7 @@ function TransitionLabel({ text, palette, flash }: { text: string; palette: Pale
 }
 
 /** The whole episode. */
-export function CartoonEpisode({ episode, series, assetBase }: EpisodeRenderProps) {
+export function CartoonEpisode({ episode, series, assetBase, sfx }: EpisodeRenderProps) {
   const urdu = series.language === 'ur';
   const total = episodeFrames(episode);
   const frames = episode.shots.map(shotFrames);
@@ -233,6 +279,7 @@ export function CartoonEpisode({ episode, series, assetBase }: EpisodeRenderProp
             palette={series.palette}
             assetBase={assetBase}
             names={shot.characters.map((c) => c.charAt(0).toUpperCase() + c.slice(1))}
+            transition={transition}
           />
         </Sequence>
       ))}
@@ -240,6 +287,8 @@ export function CartoonEpisode({ episode, series, assetBase }: EpisodeRenderProp
       {episode.shots.map((shot, i) => (
         <Sequence key={`a-${shot.id}`} from={starts[i]} durationInFrames={frames[i]} name={`${i + 1}. ${transition ? 'label' : 'voice'}`}>
           {shot.audio && <Html5Audio src={src(assetBase, shot.audio)} />}
+          {transition && sfx && i > 0 && <Html5Audio src={src(assetBase, sfx.whoosh)} volume={0.8} />}
+          {transition && sfx && i > 0 && i === last && <Html5Audio src={src(assetBase, sfx.impact)} volume={0.7} />}
           {transition ? (
             <TransitionLabel text={shot.narration} palette={series.palette} flash={i > 0} />
           ) : (

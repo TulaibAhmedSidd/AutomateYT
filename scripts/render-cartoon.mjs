@@ -12,6 +12,7 @@ import { speakEdge } from './lib/voice.mjs';
 import { speakEleven } from './lib/eleven.mjs';
 import { renderComposition } from './lib/remotion-render.mjs';
 import { ensureComfy, hasWorkflow, runWorkflow, uploadImage } from './lib/comfy.mjs';
+import { ensureSfx } from './lib/sfx.mjs';
 import { buildShotPrompt, keyShotIds } from '../lib/cartoon/spec.ts';
 import { spawnSync } from 'node:child_process';
 
@@ -275,7 +276,9 @@ async function main() {
         const target = path.join(dir, 'keyframes', `${shot.id}.png`);
         fs.mkdirSync(path.dirname(target), { recursive: true });
         const prompt = transition && useEdit
-          ? `Keep exactly the same place, camera angle and framing. Change it to show: ${shot.narration}. ${shot.scene}. ${shot.action}`
+          ? `Keep exactly the same place, camera angle and framing. Change it to show: ${shot.narration}. ${shot.scene}. ${shot.action}. ` +
+            'It must look like a real photograph taken at that time: for old years an authentic faded archival photo with natural film grain, ' +
+            'for today a sharp modern photo. Straight architecture, natural textures, small realistic people. Not a painting, not an illustration.'
           : buildShotPrompt(series, shot);
         startJob('picture', i + 1);
         report({ note: `Making the picture for line ${i + 1} of ${n}` });
@@ -338,6 +341,11 @@ async function main() {
 
   // 3. Render.
   const inputProps = { episode, series: { name: series.name, language: series.language, palette: series.palette, format: series.format } };
+  if (transition) {
+    // A silent reel is dead on Shorts: a whoosh on every era change and a deep hit when "today" lands.
+    const fx = ensureSfx(ROOT);
+    inputProps.sfx = { whoosh: stage(fx.whoosh, 'sfx-whoosh.mp3'), impact: stage(fx.impact, 'sfx-impact.mp3') };
+  }
   fs.writeFileSync(path.join(dir, 'episode.final.json'), JSON.stringify(inputProps, null, 2));
   const out = path.join(dir, 'video.mp4');
   let stageName = 'bundle';
