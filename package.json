@@ -13,7 +13,8 @@
     "ai:check": "node scripts/check-ai.mjs",
     "hooks:install": "node scripts/install-hooks.mjs",
     "prepare": "node scripts/install-hooks.mjs",
-    "test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test \"tests/**/*.test.ts\""
+    "test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --test \"tests/**/*.test.ts\"",
+    "comfy:check": "node scripts/comfy-check.mjs"
   },
   "dependencies": {
     "@google/genai": "^1.46.0",

@@ -4,13 +4,16 @@
 // Reads storage/cartoon/episodes/<id>/episode.json + its series, writes status.json as it goes, ends with video.mp4.
 // Steps per shot (resumable): voice (owner's recording, or free Edge voice) → picture (shot picture, character
 // reference, or a placeholder card). Then the Remotion composition "CartoonEpisode" is rendered.
-// Engine: CARTOON_ENGINE=stills (default, any PC). "comfy" (animated clips on the home GPU) arrives in Phase 2.
+// Modes (render-options.json): pictures | key-shots | animated. Clips and AI pictures come from ComfyUI (scripts/lib/comfy.mjs).
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { speakEdge } from './lib/voice.mjs';
 import { speakEleven } from './lib/eleven.mjs';
 import { renderComposition } from './lib/remotion-render.mjs';
+import { ensureComfy, hasWorkflow, runWorkflow, uploadImage } from './lib/comfy.mjs';
+import { buildShotPrompt, keyShotIds } from '../lib/cartoon/spec.ts';
+import { spawnSync } from 'node:child_process';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const id = process.argv[2];
@@ -82,6 +85,45 @@ async function voiceFor(shot, index, series, options) {
   return { kind: useEleven ? 'elevenlabs' : 'ai', audio: `${shot.id}.ai.mp3`, words, duration: Math.max(2.2, seconds, lastWord) + 0.35 };
 }
 
+/** The shot's own picture (uploaded or made by AI earlier), if it exists on disk. */
+function keyframeFile(shot) {
+  const f = shot.keyframe && path.join(dir, 'keyframes', shot.keyframe);
+  return f && fs.existsSync(f) ? f : null;
+}
+
+/** The reference picture of the first character in the shot that has one. */
+function referenceFor(shot, series) {
+  for (const cid of shot.characters) {
+    const c = series.characters.find((x) => x.id === cid);
+    const ref = c?.reference && path.join(CARTOON, 'series', series.id, 'refs', c.reference);
+    if (ref && fs.existsSync(ref)) return ref;
+  }
+  return null;
+}
+
+/** A stable seed per shot, so re-making a shot gives a similar result. */
+function seedFor(shotId) {
+  return [...shotId].reduce((h, ch) => (h * 31 + ch.charCodeAt(0)) % 2147483647, 7);
+}
+
+/** Records an AI-made picture in episode.json (re-read first, the studio may have saved edits meanwhile). */
+function saveKeyframeName(shotId, name) {
+  const file = path.join(dir, 'episode.json');
+  const ep = readJson(file);
+  const s = ep?.shots.find((x) => x.id === shotId);
+  if (!s) return;
+  s.keyframe = name;
+  fs.writeFileSync(file, JSON.stringify(ep, null, 2));
+}
+
+/** Length of a media file in seconds, read from FFmpeg's output. */
+function mediaSeconds(file) {
+  const ffmpeg = path.join(ROOT, 'node_modules', 'ffmpeg-static', process.platform === 'win32' ? 'ffmpeg.exe' : 'ffmpeg');
+  const r = spawnSync(ffmpeg, ['-hide_banner', '-i', file], { encoding: 'utf8' });
+  const m = /Duration: (\d+):(\d+):([\d.]+)/.exec(r.stderr || '');
+  return m ? Number(m[1]) * 3600 + Number(m[2]) * 60 + Number(m[3]) : 0;
+}
+
 function pictureFor(shot, series) {
   const kf = shot.keyframe && path.join(dir, 'keyframes', shot.keyframe);
   if (kf && fs.existsSync(kf)) return { kind: 'keyframe', image: stage(kf, `kf-${shot.keyframe}`) };
@@ -99,8 +141,7 @@ async function main() {
   const series = readJson(path.join(CARTOON, 'series', episode.seriesId, 'series.json'));
   if (!series) throw new Error(`Series "${episode.seriesId}" was not found`);
   const options = readJson(path.join(dir, 'render-options.json'), {});
-  const engine = process.env.CARTOON_ENGINE || 'stills';
-  if (engine === 'comfy') throw new Error('The ComfyUI engine arrives in Phase 2. Set CARTOON_ENGINE=stills for now.');
+  const mode = ['pictures', 'key-shots', 'animated'].includes(options.mode) ? options.mode : 'pictures';
 
   setStatus({ stage: 'voice', progress: 0.02, startedAt: new Date().toISOString(), error: null, note: null, pid: process.pid, shots: {} });
   fs.mkdirSync(assets, { recursive: true });
@@ -118,14 +159,80 @@ async function main() {
     setStatus({ stage: 'voice', progress: 0.02 + 0.2 * ((i + 1) / n), shots });
   }
 
-  // 2. Picture for every shot (Phase 2 adds ComfyUI keyframes and clips here).
-  setStatus({ stage: 'visuals', progress: 0.23 });
-  for (const shot of episode.shots) {
+  // 2. Pictures and clips. "pictures" mode uses AI pictures when ComfyUI has a keyframe workflow, else uploaded or
+  //    reference pictures (or cards). The other modes also turn shots into moving clips with the clip workflow.
+  setStatus({ stage: 'visuals', progress: 0.23, note: null });
+  const animateIds = new Set(mode === 'animated' ? episode.shots.map((s) => s.id) : mode === 'key-shots' ? keyShotIds(episode) : []);
+  const wantAiPictures = hasWorkflow('keyframe');
+  let comfyReady = false;
+  if (animateIds.size || wantAiPictures) {
+    try {
+      await ensureComfy((note) => setStatus({ note }));
+      comfyReady = true;
+    } catch (e) {
+      // Pictures mode still works without ComfyUI; the animated modes need it.
+      if (animateIds.size) throw e;
+      setStatus({ note: 'ComfyUI is not running: using uploaded or character pictures.' });
+    }
+  }
+  const jobs = episode.shots.filter((s) => (wantAiPictures && comfyReady && !keyframeFile(s)) || animateIds.has(s.id)).length || 1;
+  let job = 0;
+  for (let i = 0; i < n; i += 1) {
+    const shot = episode.shots[i];
+    const tick = (label) => (minutes) =>
+      setStatus({ note: `${label} for line ${i + 1} of ${n} (${Math.floor(minutes)} min so far)`, progress: 0.25 + 0.6 * (job / jobs) });
+
+    // 2a. AI picture, saved with the episode so it shows in the studio and is not made twice.
+    if (wantAiPictures && comfyReady && !keyframeFile(shot)) {
+      const ref = referenceFor(shot, series);
+      const target = path.join(dir, 'keyframes', `${shot.id}.png`);
+      fs.mkdirSync(path.dirname(target), { recursive: true });
+      await runWorkflow('keyframe', {
+        PROMPT: buildShotPrompt(series, shot),
+        NEGATIVE: series.negative,
+        IMAGE: ref ? await uploadImage(ref) : '',
+        SEED: seedFor(shot.id),
+        WIDTH: 480,
+        HEIGHT: 832,
+        PREFIX: `automateyt_${id}_${shot.id}_kf`,
+      }, target, { timeoutMin: 20, onTick: tick('Making the picture') });
+      shot.keyframe = `${shot.id}.png`;
+      saveKeyframeName(shot.id, shot.keyframe);
+      job += 1;
+    }
     const p = pictureFor(shot, series);
     if (p.image) shot.image = p.image;
     shots[shot.id] = { ...shots[shot.id], image: p.kind };
+
+    // 2b. Moving clip from the picture (cached in clips/ so a resumed render does not make it again).
+    if (animateIds.has(shot.id)) {
+      const start = keyframeFile(shot) || referenceFor(shot, series);
+      if (!start) {
+        shots[shot.id].clip = 'skipped: no picture';
+      } else {
+        const clipFile = path.join(dir, 'clips', `${shot.id}.mp4`);
+        if (!fs.existsSync(clipFile)) {
+          fs.mkdirSync(path.dirname(clipFile), { recursive: true });
+          await runWorkflow('clip', {
+            PROMPT: buildShotPrompt(series, shot),
+            NEGATIVE: series.negative,
+            IMAGE: await uploadImage(start),
+            SEED: seedFor(shot.id),
+            WIDTH: 480,
+            HEIGHT: 832,
+            FRAMES: 49,
+            PREFIX: `automateyt_${id}_${shot.id}`,
+          }, clipFile, { timeoutMin: 90, onTick: tick('Animating') });
+        }
+        shot.clip = stage(clipFile, `clip-${shot.id}.mp4`);
+        shot.clipSeconds = mediaSeconds(clipFile) || 2;
+        shots[shot.id].clip = 'done';
+      }
+      job += 1;
+    }
+    setStatus({ stage: 'visuals', progress: 0.25 + 0.6 * (job / jobs), shots });
   }
-  setStatus({ stage: 'visuals', progress: 0.25, shots });
+  setStatus({ note: null });
 
   // 3. Render.
   const inputProps = { episode, series: { name: series.name, language: series.language, palette: series.palette } };

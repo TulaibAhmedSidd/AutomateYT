@@ -13,6 +13,7 @@ import {
   shotWords,
   spreadWords,
   spokenText,
+  keyShotIds,
   FPS,
   type CartoonShot,
 } from '../lib/cartoon/spec.ts';
@@ -137,6 +138,15 @@ test('ElevenLabs voice settings are kept only when valid', () => {
 test('audio tags are spoken as sounds but never shown in captions', () => {
   assert.equal(spokenText('[laughs] Hello there! [sighs] Bye'), 'Hello there! Bye');
   assert.deepEqual(spreadWords('[laughs] a bb', 2).map((w) => w.text), ['a', 'bb']);
+});
+
+test('key moments: ticked shots, or hook, middle and ending', () => {
+  const ep = sanitizeEpisode({ title: 'T', endHook: '', shots: Array.from({ length: 12 }, (_, i) => ({ id: `s${String(i).padStart(5, '0')}`, narration: `line ${i}` })) }, 'x');
+  assert.deepEqual(keyShotIds(ep), [ep.shots[0].id, ep.shots[6].id, ep.shots[11].id]);
+  ep.shots[2].animate = true;
+  assert.deepEqual(keyShotIds(ep), [ep.shots[2].id]);
+  const one = sanitizeEpisode({ title: 'T', endHook: '', shots: [{ narration: 'only' }] }, 'x');
+  assert.equal(keyShotIds(one).length, 1);
 });
 
 test('sanitizeSeries fills defaults and clamps', () => {

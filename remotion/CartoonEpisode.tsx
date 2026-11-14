@@ -1,5 +1,5 @@
 import React from 'react';
-import { AbsoluteFill, Easing, Html5Audio, Img, OffthreadVideo, Sequence, interpolate, staticFile, useCurrentFrame } from 'remotion';
+import { AbsoluteFill, Easing, Freeze, Html5Audio, Img, OffthreadVideo, Sequence, interpolate, staticFile, useCurrentFrame } from 'remotion';
 import { inter, nastaliq, space } from './shared/fonts';
 import { Captions } from './shared/Captions';
 import {
@@ -16,6 +16,7 @@ import {
 // with the narrator's voice and karaoke captions. Used by the live preview and by scripts/render-cartoon.mjs.
 
 const FADE = 8; // frames of crossfade between shots
+const CLIP_RATE = 0.85; // animated clips play a little slower so 2 s covers more of the line
 const TITLE_FRAMES = Math.round(1.4 * FPS);
 
 type Palette = EpisodeRenderProps['series']['palette'];
@@ -87,7 +88,23 @@ function ShotVisual({ shot, frames, first, palette, assetBase, names }: {
   const p = Math.min(1, Math.max(0, frame / Math.max(1, frames)));
   let inner: React.ReactNode;
   if (shot.clip) {
-    inner = <OffthreadVideo src={src(assetBase, shot.clip)} muted style={{ width: '100%', height: '100%', objectFit: 'cover' }} />;
+    // Play the 2-second clip a little slower, then hold its last frame with a slow camera move until the line ends.
+    const clipSrc = src(assetBase, shot.clip);
+    const clipSeconds = shot.clipSeconds || 2;
+    const played = Math.max(1, Math.round((clipSeconds / CLIP_RATE) * FPS));
+    const lastFrame = Math.max(0, Math.floor(clipSeconds * FPS) - 2);
+    const hold = Math.max(0, frame - played) / Math.max(1, frames - played);
+    const fill: React.CSSProperties = { width: '100%', height: '100%', objectFit: 'cover' };
+    inner =
+      frame < played ? (
+        <OffthreadVideo src={clipSrc} muted playbackRate={CLIP_RATE} style={fill} />
+      ) : (
+        <AbsoluteFill style={cameraStyle('push-in', hold * 0.4)}>
+          <Freeze frame={lastFrame}>
+            <OffthreadVideo src={clipSrc} muted style={fill} />
+          </Freeze>
+        </AbsoluteFill>
+      );
   } else if (shot.image) {
     inner = <Img src={src(assetBase, shot.image)} style={{ width: '100%', height: '100%', objectFit: 'cover', ...cameraStyle(shot.camera, p) }} />;
   } else {

@@ -8,17 +8,20 @@ import { PageHeader } from '@/components/format-ui';
 import { SCRIPT_MODEL_INFO, fmtCost, scriptEstimate } from '@/lib/cartoon/models';
 import { ShotCard } from '@/components/cartoon/ShotCard';
 import { VoiceStep, defaultVoiceChoice, type VoiceMode } from '@/components/cartoon/VoiceStep';
+import { ModeStep, type ComfyStatus } from '@/components/cartoon/ModeStep';
 import { SeriesEditor } from '@/components/cartoon/SeriesEditor';
 import { useRecorder } from '@/components/cartoon/useRecorder';
 import { api, card, field, fmtSeconds, ghostBtn, jsonBody, label } from '@/components/cartoon/ui';
 import {
   episodeFrames,
+  keyShotIds,
   newShotId,
   FPS,
   type CartoonEpisode,
   type CartoonSeries,
   type CartoonShot,
   type EpisodeRenderProps,
+  type RenderMode,
 } from '@/lib/cartoon/spec';
 import type { EpisodeStatus, EpisodeSummary } from '@/lib/cartoon/store';
 
@@ -62,6 +65,9 @@ export default function CartoonStudioPage() {
   const [voiceMode, setVoiceMode] = useState<VoiceMode | null>(null);
   const [aiChoice, setAiChoice] = useState<string | null>(null);
   const [aiModel, setAiModel] = useState<string | null>(null);
+  // Step 2 video type and what this PC's ComfyUI can do.
+  const [renderMode, setRenderMode] = useState<RenderMode>('pictures');
+  const [comfy, setComfy] = useState<ComfyStatus | null>(null);
   const [starting, setStarting] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const editVersion = useRef(0);
@@ -306,7 +312,7 @@ export default function CartoonStudioPage() {
     setError(null);
     setStarting(true);
     try {
-      await api(`/api/cartoon/episodes/${episode.id}/render`, jsonBody('POST', { allowAiVoice: allowAi }));
+      await api(`/api/cartoon/episodes/${episode.id}/render`, jsonBody('POST', { allowAiVoice: allowAi, mode: renderMode }));
       setStatus({ stage: 'queued', progress: 0 });
       refreshEpisodes();
     } catch (e) {
@@ -546,10 +552,30 @@ export default function CartoonStudioPage() {
               </div>
               </details>
 
-              <p className="mt-4 rounded-2xl border border-white/[0.07] bg-black/20 p-3 text-xs text-slate-400">
-                <b className="text-slate-200">Step 2 · Pictures:</b> on this PC each line shows the character picture or a scene card. You can upload your own
-                picture for any line under “Picture &amp; scene”. On the GPU PC, ComfyUI will turn them into moving cartoon clips.
-              </p>
+              <div className="mt-4">
+                <ModeStep
+                  episode={episode}
+                  mode={renderMode}
+                  onMode={setRenderMode}
+                  onStatus={setComfy}
+                  hasPicture={(shotId) => {
+                    const s = episode.shots.find((x) => x.id === shotId);
+                    return Boolean(s && pictureUrl(s));
+                  }}
+                  onToggleAnimate={(shotId) => {
+                    const keys = new Set(keyShotIds(episode));
+                    const ticked = episode.shots.some((s) => s.animate);
+                    edit((x) => ({
+                      ...x,
+                      shots: x.shots.map((s) => {
+                        // The first tap turns the default picks into real ticks, then toggles the tapped line.
+                        const on = ticked ? Boolean(s.animate) : keys.has(s.id);
+                        return { ...s, animate: s.id === shotId ? !on : on };
+                      }),
+                    }));
+                  }}
+                />
+              </div>
 
               <div className="mt-5 flex flex-wrap items-center justify-between gap-3">
                 <p className="text-sm font-semibold text-white">
@@ -655,7 +681,15 @@ export default function CartoonStudioPage() {
                 )}
                 <button
                   onClick={render}
-                  disabled={starting || isRunning || dirty || saving || recorder.activeKey !== null || (needsVoice > 0 && !(mode === 'own' && allowAi))}
+                  disabled={
+                    starting ||
+                    isRunning ||
+                    dirty ||
+                    saving ||
+                    recorder.activeKey !== null ||
+                    (needsVoice > 0 && !(mode === 'own' && allowAi)) ||
+                    (renderMode !== 'pictures' && !(comfy && (comfy.reachable || comfy.canAutoStart)))
+                  }
                   className="mt-3 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-2xl bg-[var(--accent)] px-4 text-sm font-bold text-slate-950 shadow-[0_10px_40px_-10px_var(--accent)] transition hover:brightness-110 disabled:opacity-40"
                 >
                   {starting || isRunning ? <Loader2 size={16} className="animate-spin" /> : <Clapperboard size={16} />}

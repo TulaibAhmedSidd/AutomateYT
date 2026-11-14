@@ -12,7 +12,8 @@ export async function POST(req: Request, context: { params: Promise<{ id: string
   try {
     const { id } = await context.params;
     const body = await req.json().catch(() => ({}));
-    startRender(id, { allowAiVoice: body.allowAiVoice === true });
+    const mode = body.mode === 'key-shots' || body.mode === 'animated' ? body.mode : 'pictures';
+    startRender(id, { allowAiVoice: body.allowAiVoice === true, mode });
     return NextResponse.json({ ok: true });
   } catch (error) {
     return jsonError(error);

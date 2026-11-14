@@ -12,6 +12,7 @@ import {
   type CartoonEpisode,
   type CartoonSeries,
   type Recording,
+  type RenderMode,
 } from './spec';
 import type { ServedFile } from '../media-response';
 
@@ -449,7 +450,7 @@ export function deleteKeyframe(id: string, shotId: string): CartoonEpisode {
 }
 
 /** Starts the render worker in the background. Refuses if one is already running or lines are missing. */
-export function startRender(id: string, options: { allowAiVoice: boolean }) {
+export function startRender(id: string, options: { allowAiVoice: boolean; mode: RenderMode }) {
   const ep = getEpisode(id);
   if (!ep) throw new CartoonError('Episode not found');
   if (!ep.shots.length) throw new CartoonError('The episode has no shots.');

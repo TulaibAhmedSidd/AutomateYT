@@ -72,12 +72,37 @@ export type CartoonShot = {
   mood?: string;
   recording?: Recording;
   keyframe?: string;
+  /** In "key moments" mode: animate this shot with the video model. */
+  animate?: boolean;
   image?: string;
   clip?: string;
+  /** Length of the animated clip in seconds (set by the worker). */
+  clipSeconds?: number;
   audio?: string;
   words?: Word[];
   duration?: number;
 };
+
+/** How an episode's pictures are made. */
+export type RenderMode = 'pictures' | 'key-shots' | 'animated';
+
+/** The three video modes, with what they do and how long a shot takes on the home GPU (RTX 2070 Super, measured). */
+export const RENDER_MODES: { id: RenderMode; label: string; note: string; needsGpu: boolean }[] = [
+  { id: 'pictures', label: 'Pictures', note: 'A picture for every line with camera moves. Fast.', needsGpu: false },
+  { id: 'key-shots', label: 'Key moments animated', note: 'Pictures, plus 3–4 chosen lines become moving 2-second clips.', needsGpu: true },
+  { id: 'animated', label: 'Fully animated', note: 'Every line becomes a moving 2-second clip. Run it overnight.', needsGpu: true },
+];
+
+/** Minutes per job on the home GPU: a 2-second Wan clip was measured at about 21 minutes; pictures are an estimate. */
+export const GPU_MINUTES = { clip: 21, picture: 2 };
+
+/** Which shots are animated in "key moments" mode: the ones the owner ticked, or hook, middle and ending. */
+export function keyShotIds(ep: CartoonEpisode): string[] {
+  const ticked = ep.shots.filter((s) => s.animate).map((s) => s.id);
+  if (ticked.length) return ticked;
+  const n = ep.shots.length;
+  return [...new Set([0, Math.floor(n / 2), n - 1].filter((i) => i >= 0 && i < n))].map((i) => ep.shots[i].id);
+}
 
 /** One episode of a series. */
 export type CartoonEpisode = {
@@ -287,6 +312,7 @@ function sanitizeShot(input: unknown): CartoonShot | null {
   const keyframe = str(r.keyframe, 80);
   if (IMAGE_FILE.test(keyframe)) shot.keyframe = keyframe;
   if (typeof r.duration === 'number' && r.duration > 0 && r.duration <= 60) shot.duration = r.duration;
+  if (r.animate === true) shot.animate = true;
   return shot;
 }
 
