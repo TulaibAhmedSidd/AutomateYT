@@ -71,3 +71,5 @@
     3. Total silence (no music, no whooshes, no shutter sound) makes the video lifeless.
     4. Hard cuts need dynamic wipe/slider transitions, camera push-in zooms, and sound design.
   - Saved sample video in repo root as `output of lahore video.mp4`.
+- **Live render progress (Claude, office PC):** the owner could not tell what the PC was doing during a 1.5-hour render. The studio now shows a sticky panel at the top: % done, minutes left, how long it has run, each step with done/total (voice, character pictures, AI pictures, moving clips, join into MP4), the line being worked on, and every picture as soon as it is made. Tested with the fake ComfyUI end to end.
+- Transition stages are now edited from the first picture, not chained (Antigravity found chaining washed out stage 7).

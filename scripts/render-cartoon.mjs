@@ -40,6 +40,35 @@ function setStatus(patch) {
   fs.writeFileSync(statusFile, JSON.stringify({ ...prev, ...patch, updatedAt: new Date().toISOString() }, null, 2));
 }
 
+// What the studio shows while a video is made: done/total for every step, what runs now, and minutes left.
+// Minutes per job start from measured home-PC numbers and are replaced by this run's real timings.
+let steps = null;
+let current = null;
+const measured = { picture: [], clip: [] };
+const DEFAULT_MIN = { picture: 2, clip: 21, voice: 0.05, video: 2 };
+const avgMin = (kind) => (measured[kind]?.length ? measured[kind].reduce((a, b) => a + b, 0) / measured[kind].length : DEFAULT_MIN[kind]);
+function startJob(what, line) {
+  current = { what, line, startedAt: Date.now() };
+}
+function finishJob(kind) {
+  if (current) measured[kind].push((Date.now() - current.startedAt) / 60000);
+  current = null;
+}
+function report(patch = {}) {
+  const P = avgMin('picture');
+  const C = avgMin('clip');
+  const total = steps.voice.total * DEFAULT_MIN.voice + (steps.refs.total + steps.pictures.total) * P + steps.clips.total * C + DEFAULT_MIN.video;
+  let done = steps.voice.done * DEFAULT_MIN.voice + (steps.refs.done + steps.pictures.done) * P + steps.clips.done * C + DEFAULT_MIN.video * (steps.video.done / 100);
+  if (current) done += Math.min((Date.now() - current.startedAt) / 60000, (current.what === 'clip' ? C : current.what === 'voice' ? DEFAULT_MIN.voice : P) * 0.95);
+  setStatus({
+    steps,
+    current: current && { what: current.what, line: current.line, startedAt: new Date(current.startedAt).toISOString() },
+    etaMin: Math.max(0, Math.round((total - done) * 10) / 10),
+    progress: Math.min(0.99, 0.02 + 0.97 * (done / total)),
+    ...patch,
+  });
+}
+
 /** Copies a file into assets/ under a new name, only if it changed (keeps resumes fast). */
 function stage(from, name) {
   const to = path.join(assets, name);
@@ -159,28 +188,32 @@ async function main() {
   const options = readJson(path.join(dir, 'render-options.json'), {});
   const mode = ['pictures', 'key-shots', 'animated'].includes(options.mode) ? options.mode : 'pictures';
 
-  setStatus({ stage: 'voice', progress: 0.02, startedAt: new Date().toISOString(), error: null, note: null, pid: process.pid, shots: {} });
+  const n = episode.shots.length;
+  steps = { voice: { done: 0, total: n }, refs: { done: 0, total: 0 }, pictures: { done: 0, total: 0 }, clips: { done: 0, total: 0 }, video: { done: 0, total: 100 } };
+  setStatus({ stage: 'voice', progress: 0.02, startedAt: new Date().toISOString(), error: null, note: null, pid: process.pid, shots: {}, steps, current: null, etaMin: null });
   fs.mkdirSync(assets, { recursive: true });
   const shots = {};
-  const n = episode.shots.length;
 
   // 1. Voice for every shot.
   for (let i = 0; i < n; i += 1) {
     const shot = episode.shots[i];
+    startJob('voice', i + 1);
     // Transition reels have no voice: each picture stays for its fixed time and the owner adds a trending sound.
     const v = series.format === 'transition' ? { kind: 'none', duration: shot.duration || 1.8 } : await voiceFor(shot, i, series, options);
     shot.duration = Math.round(v.duration * 100) / 100;
     if (v.audio) shot.audio = v.audio;
     if (v.words) shot.words = v.words;
     shots[shot.id] = { voice: v.kind };
-    setStatus({ stage: 'voice', progress: 0.02 + 0.2 * ((i + 1) / n), shots });
+    current = null;
+    steps.voice.done = i + 1;
+    report({ stage: 'voice', shots });
   }
 
   // 2. Pictures and clips. Two picture workflows can exist on the GPU PC:
   //    picture.api.json  = text → picture (first transition stage, character reference pictures, lines without a reference)
   //    keyframe.api.json = picture + text → edited picture (same character, or same view in the next era)
   //    The animated modes also turn shots into moving clips with clip.api.json.
-  setStatus({ stage: 'visuals', progress: 0.23, note: null });
+  report({ stage: 'visuals', note: null });
   const animateIds = new Set(mode === 'animated' ? episode.shots.map((s) => s.id) : mode === 'key-shots' ? keyShotIds(episode) : []);
   const wantAiPictures = hasWorkflow('picture') || hasWorkflow('keyframe');
   const transition = series.format === 'transition';
@@ -198,8 +231,11 @@ async function main() {
   // Characters need one reference picture each, so they look the same in every shot (made once, kept in the series).
   if (wantAiPictures && comfyReady && hasWorkflow('picture') && !transition) {
     const used = new Set(episode.shots.flatMap((s) => s.characters));
-    for (const c of series.characters.filter((x) => used.has(x.id) && !referenceFile(series, x))) {
-      setStatus({ note: `Making the reference picture of ${c.name}` });
+    const missingRefs = series.characters.filter((x) => used.has(x.id) && !referenceFile(series, x));
+    steps.refs.total = missingRefs.length;
+    for (const c of missingRefs) {
+      startJob('reference', 0);
+      report({ note: `Making the character picture of ${c.name} (once per series)` });
       const file = path.join(CARTOON, 'series', series.id, 'refs', `${c.id}.png`);
       fs.mkdirSync(path.dirname(file), { recursive: true });
       await runWorkflow('picture', {
@@ -212,22 +248,27 @@ async function main() {
       }, file, { timeoutMin: 20 });
       c.reference = `${c.id}.png`;
       saveSeriesReference(series.id, c.id, c.reference);
+      finishJob('picture');
+      steps.refs.done += 1;
+      report();
     }
   }
 
-  const jobs = episode.shots.filter((s) => (wantAiPictures && comfyReady && !keyframeFile(s)) || animateIds.has(s.id)).length || 1;
-  let job = 0;
-  let previousPicture = null;
+  steps.pictures.total = episode.shots.filter((s) => wantAiPictures && comfyReady && !keyframeFile(s)).length;
+  steps.clips.total = episode.shots.filter((s) => animateIds.has(s.id)).length;
+  report();
+  // Transition reels edit every era from the FIRST stage's picture. Chaining edits (each from the one before)
+  // lost quality with every step: by stage 7 the picture was washed out (measured on the home PC, 2026-11-14).
+  let anchorPicture = null;
   for (let i = 0; i < n; i += 1) {
     const shot = episode.shots[i];
-    const tick = (label) => (minutes) =>
-      setStatus({ note: `${label} for line ${i + 1} of ${n} (${Math.floor(minutes)} min so far)`, progress: 0.25 + 0.6 * (job / jobs) });
+    const tick = (label) => (minutes) => report({ note: `${label} for line ${i + 1} of ${n} (${Math.floor(minutes)} min so far)` });
 
     // 2a. AI picture, saved with the episode so it shows in the studio and is not made twice.
-    //     Transition reels edit the previous stage's picture (same view, next era); stories edit the character's
+    //     Transition reels edit the first stage's picture (same view, another era); stories edit the character's
     //     reference picture (same face); with nothing to start from, the text-to-picture workflow is used.
     if (wantAiPictures && comfyReady && !keyframeFile(shot)) {
-      const base = transition ? previousPicture : referenceFor(shot, series);
+      const base = transition ? anchorPicture : referenceFor(shot, series);
       const useEdit = Boolean(base) && hasWorkflow('keyframe');
       const workflow = useEdit ? 'keyframe' : hasWorkflow('picture') ? 'picture' : null;
       if (workflow) {
@@ -236,6 +277,8 @@ async function main() {
         const prompt = transition && useEdit
           ? `Keep exactly the same place, camera angle and framing. Change it to show: ${shot.narration}. ${shot.scene}. ${shot.action}`
           : buildShotPrompt(series, shot);
+        startJob('picture', i + 1);
+        report({ note: `Making the picture for line ${i + 1} of ${n}` });
         await runWorkflow(workflow, {
           PROMPT: prompt,
           NEGATIVE: series.negative,
@@ -247,23 +290,30 @@ async function main() {
         }, target, { timeoutMin: 20, onTick: tick('Making the picture') });
         shot.keyframe = `${shot.id}.png`;
         saveKeyframeName(shot.id, shot.keyframe);
-        job += 1;
+        finishJob('picture');
+        steps.pictures.done += 1;
+      } else {
+        steps.pictures.total -= 1;
       }
     }
-    previousPicture = keyframeFile(shot) || previousPicture;
+    anchorPicture = anchorPicture || keyframeFile(shot);
     const p = pictureFor(shot, series);
     if (p.image) shot.image = p.image;
     shots[shot.id] = { ...shots[shot.id], image: p.kind };
+    report({ shots });
 
     // 2b. Moving clip from the picture (cached in clips/ so a resumed render does not make it again).
     if (animateIds.has(shot.id)) {
       const start = keyframeFile(shot) || referenceFor(shot, series);
       if (!start) {
         shots[shot.id].clip = 'skipped: no picture';
+        steps.clips.total -= 1;
       } else {
         const clipFile = path.join(dir, 'clips', `${shot.id}.mp4`);
         if (!fs.existsSync(clipFile)) {
           fs.mkdirSync(path.dirname(clipFile), { recursive: true });
+          startJob('clip', i + 1);
+          report({ note: `Animating line ${i + 1} of ${n}` });
           await runWorkflow('clip', {
             PROMPT: buildShotPrompt(series, shot),
             NEGATIVE: series.negative,
@@ -274,16 +324,17 @@ async function main() {
             FRAMES: 49,
             PREFIX: `automateyt_${id}_${shot.id}`,
           }, clipFile, { timeoutMin: 90, onTick: tick('Animating') });
+          finishJob('clip');
         }
         shot.clip = stage(clipFile, `clip-${shot.id}.mp4`);
         shot.clipSeconds = mediaSeconds(clipFile) || 2;
         shots[shot.id].clip = 'done';
+        steps.clips.done += 1;
       }
-      job += 1;
     }
-    setStatus({ stage: 'visuals', progress: 0.25 + 0.6 * (job / jobs), shots });
+    report({ stage: 'visuals', shots });
   }
-  setStatus({ note: null });
+  report({ note: null });
 
   // 3. Render.
   const inputProps = { episode, series: { name: series.name, language: series.language, palette: series.palette, format: series.format } };
@@ -298,11 +349,15 @@ async function main() {
     out,
     onStage: (s, extra = {}) => {
       stageName = s;
-      setStatus({ stage: s, progress: s === 'bundle' ? 0.26 : 0.32, ...extra });
+      report({ stage: s, note: null, ...extra });
     },
-    onProgress: (p) => setStatus({ progress: stageName === 'bundle' ? 0.26 + p * 0.06 : 0.32 + p * 0.67 }),
+    onProgress: (p) => {
+      steps.video.done = Math.round((stageName === 'bundle' ? p * 0.1 : 0.1 + p * 0.9) * 100);
+      report();
+    },
   });
-  setStatus({ stage: 'done', progress: 1, bytes: fs.statSync(out).size, finishedAt: new Date().toISOString(), pid: null });
+  steps.video.done = 100;
+  setStatus({ stage: 'done', progress: 1, steps, current: null, etaMin: 0, bytes: fs.statSync(out).size, finishedAt: new Date().toISOString(), pid: null });
 }
 
 main().catch((e) => {

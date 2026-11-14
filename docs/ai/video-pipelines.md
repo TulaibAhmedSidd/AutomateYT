@@ -99,9 +99,10 @@ Use the `verify-render` skill:
   - `ensureComfy()` starts ComfyUI from `COMFY_START` when it is not running and waits up to 4 minutes.
   - `runWorkflow(name, tokens, outFile)` fills `{{TOKENS}}` (a whole-value token becomes a number), posts `/prompt`, polls `/history`, and downloads via `/view`.
   - Settings: 480×832, 49 frames (2 s at 24 fps). Measured on the RTX 2070 Super: ~21 min per 2-second clip.
+- **Live progress:** the worker writes `steps` (done/total for voice, character pictures, AI pictures, moving clips, MP4), `current` (the job running now) and `etaMin` into status.json. Minutes left start from the measured home-PC numbers and switch to this run's real timings. `components/cartoon/RenderProgress.tsx` shows it as a sticky panel at the top of the studio, with each picture appearing as soon as it is made.
 - **Tools:**
   - `npm run comfy:check` reports the GPU, the workflows and any missing model files.
-  - `node scripts/dev/fake-comfy.mjs 8199` is a fake ComfyUI for testing without a GPU (run the worker with `COMFY_URL=http://127.0.0.1:8199`).
+  - `node scripts/dev/fake-comfy.mjs 8199` is a fake ComfyUI for testing without a GPU (run the worker with `COMFY_URL=http://127.0.0.1:8199`). Set `FAKE_COMFY_SECONDS=8` to make each fake job slow enough to watch the progress panel.
 - **Wan2GP is not used.** It has no stable API. Everything runs through ComfyUI.
 
 ## 6. Transition reels (series `format: "transition"`)
@@ -121,5 +122,5 @@ Two picture workflows on the GPU PC, both optional:
   - lines with no character.
 - **`comfy/workflows/keyframe.api.json`** (picture + text → edited picture, e.g. FLUX.1 Kontext). Same tokens plus `{{IMAGE}}`. Used for:
   - story lines, edited from the character's reference picture so the face stays the same;
-  - transition stages 2+, edited from the previous stage so the view stays the same.
+  - transition stages 2+, each edited from the **first** stage's picture so the view stays the same. Never chain edits (each from the one before): quality drops with every pass and stage 7 comes out washed out (measured 2026-11-14).
 - English horror: `midnight-watch` (20 episodes), the same tales as `raat-ki-kahaniyan` told in English with the ElevenLabs Brian voice.

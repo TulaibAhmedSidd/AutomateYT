@@ -37,7 +37,13 @@ export type EpisodeStatus = {
   error?: string | null;
   note?: string;
   pid?: number | null;
-  shots?: Record<string, { voice?: string; image?: string }>;
+  shots?: Record<string, { voice?: string; image?: string; clip?: string }>;
+  /** Done/total for each step of making the video (written by scripts/render-cartoon.mjs). */
+  steps?: Record<'voice' | 'refs' | 'pictures' | 'clips' | 'video', { done: number; total: number }>;
+  /** The job running right now: what, which line (0 = not a line) and when it started. */
+  current?: { what: 'voice' | 'reference' | 'picture' | 'clip'; line: number; startedAt: string } | null;
+  /** Rough minutes left. */
+  etaMin?: number | null;
   bytes?: number;
   seconds?: number;
   startedAt?: string;

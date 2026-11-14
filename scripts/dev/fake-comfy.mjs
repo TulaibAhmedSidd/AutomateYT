@@ -10,6 +10,8 @@ import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 
 const port = Number(process.argv[2] || 8199);
+// Seconds each fake job takes (FAKE_COMFY_SECONDS=8 to watch the studio's progress panel).
+const jobMs = Number(process.env.FAKE_COMFY_SECONDS || 1.5) * 1000;
 const ffmpeg = path.join(process.cwd(), 'node_modules', 'ffmpeg-static', process.platform === 'win32' ? 'ffmpeg.exe' : 'ffmpeg');
 const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'fake-comfy-'));
 const clip = path.join(dir, 'clip.mp4');
@@ -45,7 +47,7 @@ http
       if (url.pathname.startsWith('/history/')) {
         const id = url.pathname.split('/').pop();
         const p = prompts.get(id);
-        if (!p || Date.now() - p.at < 1500) return json(res, {});
+        if (!p || Date.now() - p.at < jobMs) return json(res, {});
         return json(res, {
           [id]: {
             status: { status_str: 'success', completed: true },

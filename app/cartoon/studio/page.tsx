@@ -10,6 +10,7 @@ import { ShotCard } from '@/components/cartoon/ShotCard';
 import { VoiceStep, defaultVoiceChoice, type VoiceMode } from '@/components/cartoon/VoiceStep';
 import { ModeStep, type ComfyStatus } from '@/components/cartoon/ModeStep';
 import { YoutubeUpload } from '@/components/cartoon/YoutubeUpload';
+import { RenderProgress } from '@/components/cartoon/RenderProgress';
 import { SeriesEditor } from '@/components/cartoon/SeriesEditor';
 import { useRecorder } from '@/components/cartoon/useRecorder';
 import { api, card, field, fmtSeconds, ghostBtn, jsonBody, label } from '@/components/cartoon/ui';
@@ -138,9 +139,16 @@ export default function CartoonStudioPage() {
     if (!episode || !isRunning) return;
     const id = episode.id;
     const t = window.setInterval(() => {
-      api<{ status: EpisodeStatus }>(`/api/cartoon/episodes/${id}`)
+      api<{ status: EpisodeStatus; episode: CartoonEpisode }>(`/api/cartoon/episodes/${id}`)
         .then((d) => {
           setStatus(d.status);
+          // Pictures made by the GPU PC show on their lines as soon as they exist.
+          const made = new Map(d.episode.shots.map((s) => [s.id, s.keyframe]));
+          setEpisode((prev) =>
+            prev && prev.id === id && prev.shots.some((s) => made.get(s.id) && made.get(s.id) !== s.keyframe)
+              ? { ...prev, shots: prev.shots.map((s) => (made.get(s.id) ? { ...s, keyframe: made.get(s.id) } : s)) }
+              : prev,
+          );
           if (!running(d.status)) refreshEpisodes();
         })
         .catch(fail);
@@ -391,6 +399,8 @@ export default function CartoonStudioPage() {
           </button>
         </div>
       )}
+
+      {episode && status && (isRunning || status.stage === 'failed') && <RenderProgress status={status} episode={episode} />}
 
       <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_380px]">
         <div className="min-w-0 space-y-6">
