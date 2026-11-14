@@ -58,3 +58,6 @@ next-env.d.ts
 *.safetensors
 *.gguf
 *.ckpt
+
+# scratch files
+/scratch/

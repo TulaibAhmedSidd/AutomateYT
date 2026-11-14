@@ -2,7 +2,7 @@
 
 Newest first. Each day has `done.md`, `next.md` and `remaining.md`.
 
-- [2026-11-14](2026-11-14/done.md) — Wan 2.2 benchmarks finalized, note for Claude written (fast 2D vs 3D, Comfy integration), clip workflow exported
+- [2026-11-14](2026-11-14/done.md) — Wan 2.2 benchmarks; FLUX.1 schnell & Kontext dev picture workflows built & benchmarked; "Then & Now: Pakistan" Episodes 1, 2, & 3 rendered to MP4
 
 - [2026-11-13](2026-11-13/done.md) — Cartoon Studio P1 live; 10-series library (153 episodes); home GPU PC setup: Wan 2.2 TI2V 5B working, benchmarks (480x832 @ 21m/42m), clip workflow exported
 

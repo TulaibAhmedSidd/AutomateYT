@@ -18,3 +18,11 @@
 2. **Home PC:** set COMFY_URL (Desktop = port 8000) and COMFY_START in .env.local, run `npm run comfy:check`, then make one episode in "Key moments animated" mode.
 3. **Owner:** add the redirect URI `http://localhost:3300/api/youtube/callback` to the Google OAuth client and publish the consent screen, then press Connect YouTube on /connections.
 4. **Owner:** Instagram needs a Professional account, a Cloudinary account and a Meta app before the Connect button can be built.
+
+## 18:40 PKT — home PC (NVIDIA RTX 2070 Super, 8 GB VRAM)
+1. **Office PC (Claude):**
+   - Update `scripts/render-cartoon.mjs` line 230 for transition series to anchor edits from Shot 1 (`keyframeFile(shots[0])`) instead of chaining through intermediate lossy keyframes.
+   - Update `lib/cartoon/store.ts` render spawn or package.json scripts to include `--experimental-strip-types` so studio UI render buttons run without TypeScript extension warnings on Node 22.
+2. **Owner / Next Steps:**
+   - Review rendered MP4 videos for Episodes 1, 2, and 3 of "Then & Now: Pakistan".
+   - If desired, generate remaining transition episodes (4–10) or proceed to horror series ("Raat Ki Kahaniyan").

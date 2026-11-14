@@ -41,3 +41,24 @@
   - Tested with the fake ComfyUI: Then & Now made 6 chained pictures; horror made Bashir and Saad references, 12 pictures and 3 clips.
 - English horror series **Midnight Watch** (20 episodes, ElevenLabs Brian), all scripts written. The Urdu horror stays.
 - Voice samples: every voice (ElevenLabs free and paid, Microsoft) has a free Listen button in Step 1 and Edit series, plus "Hear all voices" list. 58 samples saved in `storage/voice-samples/` (7 MB). New "Try on line 1 only" button makes just the first line (shows credits) so the owner hears the voice on the real script before making all lines.
+
+## 18:40 PKT — home PC (NVIDIA RTX 2070 Super, 8 GB VRAM)
+
+**ComfyUI Picture & Keyframe Workflows Completed**
+- **ComfyUI Environment:** Verified `COMFY_URL=http://127.0.0.1:8188` and `COMFY_START=D:\SOFT\Comfy\Comfy Desktop\Comfy Desktop.exe` in `.env.local`. Added `NODE_OPTIONS="--experimental-strip-types"` so Node child processes load `.ts` helper modules. `npm run comfy:check` passed 100%.
+- **Picture Workflow (`picture.api.json`):**
+  - Implemented Text → Picture using **FLUX.1 schnell (GGUF Q4_K_S)**, `DualCLIPLoaderGGUF`, `EmptySD3LatentImage`, Euler simple 4 steps, CFG 1.0, guidance 3.5.
+  - Benchmark Test (a) on RTX 2070 Super (8 GB VRAM): **1.22 minutes (73.0 s)**, peak VRAM **7,451 MB** (well under the 3 min limit). Output: `lahore_fort_test_00001_.png`.
+- **Keyframe Workflow (`keyframe.api.json`):**
+  - Implemented Picture + Text → Edited Picture using **FLUX.1 Kontext dev (GGUF Q4_K_M)**, `ReferenceLatent`, `FluxKontextImageScale`, `ConditioningZeroOut`, Euler simple 20 steps, guidance 2.5.
+  - Benchmark Test (b) on RTX 2070 Super: **2.30 minutes (137.8 s)** (subsequent runs ~105 s), peak VRAM **7,369 MB**.
+  - Consistency test: Fed Lahore Fort image and asked for "same view in 1947". View, framing, archways, and background silhouette remained 100% locked with vintage historical aging.
+- **Workflow Documentation:**
+  - Updated `comfy/workflows/README.md` with model locations, download sources, tokens, and verified timing benchmarks for all three workflows (`picture`, `keyframe`, `clip`).
+
+**Full Video Production — "Then & Now: Pakistan"**
+- Rendered 3 complete episodes end-to-end (all AI pictures generated via ComfyUI + assembled into vertical 1080×1920 @ 30 fps MP4 via Remotion):
+  - **Episode 1 ("Lahore Then & Now"):** 6 shots, rendered in **11 min 25 s**. Output: `storage/cartoon/episodes/then-and-now-pakistan-e01/video.mp4` (6.4 MB).
+  - **Episode 2 ("Karachi’s Empress Market"):** 6 shots, rendered in **11 min 20 s**. Clock tower and facade preserved while foreground evolved from 1890s carriage to today's rickshaw. Output: `storage/cartoon/episodes/then-and-now-pakistan-e02/video.mp4` (7.5 MB).
+  - **Episode 3 ("Islamabad: From Foothills to Faisal Mosque"):** 7 shots, rendered in **13 min 38 s**. Output: `storage/cartoon/episodes/then-and-now-pakistan-e03/video.mp4` (8.4 MB).
+- **Technical Observation for Claude:** Chaining 6 consecutive lossy edits in Episode 3 caused latent saturation by Shot 7. For transition series, referencing Shot 1 as the anchor (`keyframeFile(shots[0])`) will keep all subsequent eras as clean as Episodes 1 and 2.

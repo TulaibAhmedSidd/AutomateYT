@@ -25,3 +25,14 @@
 - Image Studio generation still runs inside the request.
 - The scheduler only saves times.
 - 9 old Image Studio videos are stuck as "generating".
+
+## 18:40 PKT — home PC (NVIDIA RTX 2070 Super, 8 GB VRAM)
+
+| Phase | State |
+|---|---|
+| Cartoon P2: ComfyUI clip workflow (Wan 2.2 5B) | ✅ Complete & benchmarked |
+| Cartoon P2: ComfyUI picture workflow (FLUX.1 schnell) | ✅ Complete (1.22 min/pic) |
+| Cartoon P2: ComfyUI keyframe workflow (FLUX.1 Kontext dev) | ✅ Complete (2.30 min/pic) |
+| "Then & Now: Pakistan" Episode 1 video render | ✅ Complete (11m 25s, MP4 ready) |
+| "Then & Now: Pakistan" Episode 2 video render | ✅ Complete (11m 20s, MP4 ready) |
+| "Then & Now: Pakistan" Episode 3 video render | ✅ Complete (13m 38s, MP4 ready) |
